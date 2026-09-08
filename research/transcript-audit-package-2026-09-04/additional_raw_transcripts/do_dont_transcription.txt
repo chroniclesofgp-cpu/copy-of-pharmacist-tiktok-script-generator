@@ -1,0 +1,30 @@
+Starting Speech-to-Text conversion...
+Transcribing video file: do_dont.mp4, file size: 1.72 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 28.9 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:04.1] Never say, "Let me know if you're interested." Instead, give two options and let them know what works best.
+[00:04.1 - 00:13.2] Never say, "I haven't heard from you." Say, "It's great to connect again." Never say, "I think you should move forward today." Instead say, "Where do you think we should go from here?" Never say, "To be honest." That implies that you were lying the whole time.
+[00:13.2 - 00:18.6] Instead say, "Here's the pros and cons." Never say, "We can do a discount." Instead, just focus on showing the ROI.
+[00:18.6 - 00:28.6] Never say, "Sign the contract." Instead say, "Let's take care of the agreement." Never say, "Just checking in." Instead say, "I just had a minute to get back to you." And if you want a full video on how to close more deals, make sure you follow me, come up with the word sales, and I'll send it over
+[00:28.6 - 00:28.8] to you.
+Complete transcription result saved to: /home/ubuntu/facebook-source-test/do_dont_transcription_20260904_134559.json
+Plain text transcription saved to: /home/ubuntu/facebook-source-test/do_dont_transcription_20260904_134559.txt
+[2J[H[3Jmanus-speech-to-text do_dont.mp4
+Starting Speech-to-Text conversion...
+Transcribing video file: do_dont.mp4, file size: 1.72 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:04.1] Never say, "Let me know if you're interested." Instead, give two options and let them know what works best.
+[00:04.1 - 00:13.2] Never say, "I haven't heard from you." Say, "It's great to connect again." Never say, "I think you should move forward today." Instead say, "Where do you think we should go from here?" Never say, "To be honest." That implies that you were lying the whole time.
+[00:13.2 - 00:18.6] Instead say, "Here's the pros and cons." Never say, "We can do a discount." Instead, just focus on showing the ROI.
+[00:18.6 - 00:28.6] Never say, "Sign the contract." Instead say, "Let's take care of the agreement." Never say, "Just checking in." Instead say, "I just had a minute to get back to you." And if you want a full video on how to close more deals, make sure you follow me, come up with the word sales, and I'll send it over
+[00:28.6 - 00:28.8] to you.
+
+Completed transcription, JSON saved to /home/ubuntu/facebook-source-test/do_dont_transcription_20260904_134559.json
+Plain text transcription saved to /home/ubuntu/facebook-source-test/do_dont_transcription_20260904_134559.txt

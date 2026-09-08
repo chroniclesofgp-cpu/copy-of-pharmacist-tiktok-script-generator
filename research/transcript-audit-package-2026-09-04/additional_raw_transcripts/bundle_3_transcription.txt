@@ -1,0 +1,82 @@
+Starting Speech-to-Text conversion...
+Video file detected: bundle_3.mp4, file size: 13.86 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: bundle_3_converted_20260904_141409.mp3
+Transcribing audio file: bundle_3_converted_20260904_141409.mp3, file size: 0.61 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 80.3 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:00.7] Step one.
+[00:00.7 - 00:01.4] Step two.
+[00:01.4 - 00:02.1] Step three.
+[00:02.1 - 00:05.8] Medicube just dropped a brand-new kojic acid skincare routine.
+[00:05.8 - 00:13.0] If you wanna really focus on evening your skin tone and brightening everything up, this is the bundle you're gonna wanna grab, and I'm gonna teach you how to use it.
+[00:13.0 - 00:18.0] So on your clean skin, you are going to use these Kojic Acid Toner Pads only a few times a week.
+[00:18.0 - 00:21.4] I see in a lot of the comments that people are using the toner pads every day.
+[00:21.4 - 00:24.4] Since these are very exfoliating, I would not use these every day.
+[00:24.4 - 00:25.5] They're very powerful.
+[00:25.5 - 00:29.5] Now, on that clean skin, you can go in with this kojic acid turmeric serum.
+[00:29.5 - 00:31.5] This serum is actually encapsulated.
+[00:31.5 - 00:32.5] That's why it looks like this.
+[00:32.5 - 00:33.5] It is so cool.
+[00:33.5 - 00:38.2] Because while it does have this kojic acid and turmeric, it's also buffered in really beautiful ingredients.
+[00:38.2 - 00:39.4] It's a hydrating serum.
+[00:39.4 - 00:41.9] A lot of people don't know what these are, what they are used for.
+[00:41.9 - 00:48.8] This is a moisturizer, and again, they have encapsulated essentially these really powerful ingredients in little bobas surrounded by a gel.
+[00:48.8 - 00:50.2] This just protects the formula.
+[00:50.2 - 00:56.0] So again, you have that kojic acid, that turmeric, as well as ceramides, all kinds of good soothing, hydrating ingredients.
+[00:56.0 - 00:58.6] As you massage it in, that orange color disperses.
+[00:58.6 - 01:01.6] It does give a really beautiful almost goddess-like glow though.
+[01:01.6 - 01:06.2] This is super brightening if you just want that look where people are like, "What are you doing differently?
+[01:06.2 - 01:12.2] You look so good." Kojic acid is so good for evening the skin tone, giving a really glowing, brighter radiance to your skin.
+[01:12.2 - 01:16.2] So if you've been eyeballing this bundle and now you know how to use it, I would definitely try all three.
+[01:16.2 - 01:17.3] They're gonna work best together.
+[01:17.3 - 01:20.3] So if you see the cart, this bundle is in stock, and I would run on this one
+Complete transcription result saved to: /home/ubuntu/tiktok-bundle-source-test/bundle_3_converted_20260904_141409_transcription_20260904_141430.json
+Plain text transcription saved to: /home/ubuntu/tiktok-bundle-source-test/bundle_3_converted_20260904_141409_transcription_20260904_141430.txt
+
+The video has been automatically converted to an audio file and saved at bundle_3_converted_20260904_141409.mp3
+[2J[H[3Jmanus-speech-to-text bundle_3.mp4
+Starting Speech-to-Text conversion...
+Video file detected: bundle_3.mp4, file size: 13.86 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: bundle_3_converted_20260904_141409.mp3, file size: 0.61 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:00.7] Step one.
+[00:00.7 - 00:01.4] Step two.
+[00:01.4 - 00:02.1] Step three.
+[00:02.1 - 00:05.8] Medicube just dropped a brand-new kojic acid skincare routine.
+[00:05.8 - 00:13.0] If you wanna really focus on evening your skin tone and brightening everything up, this is the bundle you're gonna wanna grab, and I'm gonna teach you how to use it.
+[00:13.0 - 00:18.0] So on your clean skin, you are going to use these Kojic Acid Toner Pads only a few times a week.
+[00:18.0 - 00:21.4] I see in a lot of the comments that people are using the toner pads every day.
+[00:21.4 - 00:24.4] Since these are very exfoliating, I would not use these every day.
+[00:24.4 - 00:25.5] They're very powerful.
+[00:25.5 - 00:29.5] Now, on that clean skin, you can go in with this kojic acid turmeric serum.
+[00:29.5 - 00:31.5] This serum is actually encapsulated.
+[00:31.5 - 00:32.5] That's why it looks like this.
+[00:32.5 - 00:33.5] It is so cool.
+[00:33.5 - 00:38.2] Because while it does have this kojic acid and turmeric, it's also buffered in really beautiful ingredients.
+[00:38.2 - 00:39.4] It's a hydrating serum.
+[00:39.4 - 00:41.9] A lot of people don't know what these are, what they are used for.
+[00:41.9 - 00:48.8] This is a moisturizer, and again, they have encapsulated essentially these really powerful ingredients in little bobas surrounded by a gel.
+[00:48.8 - 00:50.2] This just protects the formula.
+[00:50.2 - 00:56.0] So again, you have that kojic acid, that turmeric, as well as ceramides, all kinds of good soothing, hydrating ingredients.
+[00:56.0 - 00:58.6] As you massage it in, that orange color disperses.
+[00:58.6 - 01:01.6] It does give a really beautiful almost goddess-like glow though.
+[01:01.6 - 01:06.2] This is super brightening if you just want that look where people are like, "What are you doing differently?
+[01:06.2 - 01:12.2] You look so good." Kojic acid is so good for evening the skin tone, giving a really glowing, brighter radiance to your skin.
+[01:12.2 - 01:16.2] So if you've been eyeballing this bundle and now you know how to use it, I would definitely try all three.
+[01:16.2 - 01:17.3] They're gonna work best together.
+[01:17.3 - 01:20.3] So if you see the cart, this bundle is in stock, and I would run on this one
+
+The video has been automatically converted to an audio file and saved at bundle_3_converted_20260904_141409.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/tiktok-bundle-source-test/bundle_3_converted_20260904_141409_transcription_20260904_141430.json
+Plain text transcription saved to /home/ubuntu/tiktok-bundle-source-test/bundle_3_converted_20260904_141409_transcription_20260904_141430.txt

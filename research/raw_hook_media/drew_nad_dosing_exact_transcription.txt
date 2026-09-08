@@ -1,0 +1,58 @@
+Starting Speech-to-Text conversion...
+Video file detected: drew_nad_dosing_exact.mp4, file size: 5.16 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: drew_nad_dosing_exact_converted_20260904_063700.mp3
+Transcribing audio file: drew_nad_dosing_exact_converted_20260904_063700.mp3, file size: 0.50 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 65.1 seconds
+Language: eng
+Timestamped segments:
+[00:00.0 - 00:05.3] Here's how to take NMN and astaxanthin together correctly from a pancreatic cancer researcher and a naturopath practitioner.
+[00:05.3 - 00:09.4] These are both organic molecules that have really powerful anti-aging and antioxidant support.
+[00:09.4 - 00:18.0] In fact, astaxanthin is six thousand times stronger than vitamin C as an antioxidant, and NMN has a ton of clinical studies behind it showing amazing anti-aging research.
+[00:18.0 - 00:25.3] This is a really powerful combination for fine lines and wrinkles, hair and nail growth, inflammation, joint discomfort, eye health, and so many other important things.
+[00:25.3 - 00:31.5] You can take both of these together in the morning and take them with food because they are fat-soluble molecules, especially astaxanthin.
+[00:31.5 - 00:33.8] So make sure that whatever you're eating has fats in it.
+[00:33.8 - 00:40.0] If you are currently on medication, like blood thinners, for example, please ask your doctor or pharmacist first before taking any of these supplements.
+[00:40.0 - 00:44.0] You only need one softgel from astaxanthin and two capsules from the NMN formula.
+[00:44.0 - 00:48.5] The astaxanthin is a hundred and twenty days supply, and the NMN is a two-month supply.
+[00:48.5 - 00:56.3] And the great news is that normally if you buy them separately, it would cost seventy dollars, but they have a flash sale deal for a bundle where you are saving an extra fifteen dollars plus free shipping.
+[00:56.3 - 01:00.3] So if you want to check that out, I will leave a link right down here to their bundle so that you could see it for yourself.
+[01:00.3 - 01:01.5] It's very limited in stock.
+[01:01.5 - 01:03.5] It's such an amazing price right now, so check it out.
+[01:03.5 - 01:05.0] If you have any questions, please let me know.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_exact_converted_20260904_063700_transcription_20260904_063704.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_exact_converted_20260904_063700_transcription_20260904_063704.txt
+
+The video has been automatically converted to an audio file and saved at drew_nad_dosing_exact_converted_20260904_063700.mp3
+[2J[H[3Jmanus-speech-to-text drew_nad_dosing_exact.mp4
+Starting Speech-to-Text conversion...
+Video file detected: drew_nad_dosing_exact.mp4, file size: 5.16 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: drew_nad_dosing_exact_converted_20260904_063700.mp3, file size: 0.50 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.3] Here's how to take NMN and astaxanthin together correctly from a pancreatic cancer researcher and a naturopath practitioner.
+[00:05.3 - 00:09.4] These are both organic molecules that have really powerful anti-aging and antioxidant support.
+[00:09.4 - 00:18.0] In fact, astaxanthin is six thousand times stronger than vitamin C as an antioxidant, and NMN has a ton of clinical studies behind it showing amazing anti-aging research.
+[00:18.0 - 00:25.3] This is a really powerful combination for fine lines and wrinkles, hair and nail growth, inflammation, joint discomfort, eye health, and so many other important things.
+[00:25.3 - 00:31.5] You can take both of these together in the morning and take them with food because they are fat-soluble molecules, especially astaxanthin.
+[00:31.5 - 00:33.8] So make sure that whatever you're eating has fats in it.
+[00:33.8 - 00:40.0] If you are currently on medication, like blood thinners, for example, please ask your doctor or pharmacist first before taking any of these supplements.
+[00:40.0 - 00:44.0] You only need one softgel from astaxanthin and two capsules from the NMN formula.
+[00:44.0 - 00:48.5] The astaxanthin is a hundred and twenty days supply, and the NMN is a two-month supply.
+[00:48.5 - 00:56.3] And the great news is that normally if you buy them separately, it would cost seventy dollars, but they have a flash sale deal for a bundle where you are saving an extra fifteen dollars plus free shipping.
+[00:56.3 - 01:00.3] So if you want to check that out, I will leave a link right down here to their bundle so that you could see it for yourself.
+[01:00.3 - 01:01.5] It's very limited in stock.
+[01:01.5 - 01:03.5] It's such an amazing price right now, so check it out.
+[01:03.5 - 01:05.0] If you have any questions, please let me know.
+
+The video has been automatically converted to an audio file and saved at drew_nad_dosing_exact_converted_20260904_063700.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_exact_converted_20260904_063700_transcription_20260904_063704.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_exact_converted_20260904_063700_transcription_20260904_063704.txt

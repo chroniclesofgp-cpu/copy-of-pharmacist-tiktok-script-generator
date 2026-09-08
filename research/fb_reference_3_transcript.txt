@@ -1,0 +1,30 @@
+Starting Speech-to-Text conversion...
+Transcribing video file: /home/ubuntu/Downloads/fb_reference_3_audio.mp4, file size: 0.06 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 9.2 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:02.1] Five content tools to help you go viral and make money.
+[00:02.1 - 00:03.9] For content research, use ViralFinder.
+[00:03.9 - 00:05.9] For content ideation, use ChatGPT.
+[00:05.9 - 00:07.7] For content scripting, use Manus.
+[00:07.7 - 00:09.1] For analytics, use the Edit app
+Complete transcription result saved to: /home/ubuntu/Downloads/fb_reference_3_audio_transcription_20260816_173002.json
+Plain text transcription saved to: /home/ubuntu/Downloads/fb_reference_3_audio_transcription_20260816_173002.txt
+[2J[H[3Jmanus-speech-to-text --terminal-max-len-single=5000 /home/ubuntu/Downloads/fb_reference_3_audio.mp4
+Starting Speech-to-Text conversion...
+Transcribing video file: /home/ubuntu/Downloads/fb_reference_3_audio.mp4, file size: 0.06 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:02.1] Five content tools to help you go viral and make money.
+[00:02.1 - 00:03.9] For content research, use ViralFinder.
+[00:03.9 - 00:05.9] For content ideation, use ChatGPT.
+[00:05.9 - 00:07.7] For content scripting, use Manus.
+[00:07.7 - 00:09.1] For analytics, use the Edit app
+
+Completed transcription, JSON saved to /home/ubuntu/Downloads/fb_reference_3_audio_transcription_20260816_173002.json
+Plain text transcription saved to /home/ubuntu/Downloads/fb_reference_3_audio_transcription_20260816_173002.txt

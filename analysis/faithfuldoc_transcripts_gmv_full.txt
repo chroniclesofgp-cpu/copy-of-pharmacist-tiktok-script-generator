@@ -1,0 +1,2019 @@
+# Creator: faithfuldoc
+# Generated: 2026-05-31
+# Total videos: 30
+# Source: Kalodata top GMV export, 6-month window
+
+============================================================
+RANK: 01 | GMV: $279459.2 | VIDEO ID: 7617134860129471774
+URL: https://www.tiktok.com/@faithfuldoc/video/7617134860129471774
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 02 | GMV: $172446.0 | VIDEO ID: 7620952794832309535
+URL: https://www.tiktok.com/@faithfuldoc/video/7620952794832309535
+WORD COUNT: 803
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_2_7620952794832309535.mp3, file size: 1.35 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 74.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.5]  Dr. Melaxin's Calcium Balm Stick or MediQube's new PDRN Pink Collagen Stick.
+[00:04.5 - 00:05.5]  Which one is better?
+[00:05.5 - 00:09.5]  Both of these balm sticks are meant for fillers and hydration, but which one is right for
+[00:09.5 - 00:10.5]  you?
+[00:10.5 - 00:12.5]  I'm Dr. Faith Coates, I don't gatekeep information, let's break down the simple
+[00:12.5 - 00:15.3]  science and what is the key differences between the two of these.
+[00:15.3 - 00:20.2]  The Dr. Melaxin's Calcium Volume Stick can be used to firm as well as volumize areas
+[00:20.2 - 00:25.6]  in the face, mostly under the eyes and areas of fine lines and wrinkles using calcium.
+[00:25.6 - 00:27.2]  This is more meant for structure.
+[00:27.2 - 00:32.1]  The MediQube Pink PDRN Stick is more meant for deep hydration, skin barrier repair, and
+[00:32.1 - 00:33.4]  complexion glow.
+[00:33.4 - 00:37.2]  This also has volufilin in it, which is a hyaluronic acid derivative that they use in
+[00:37.2 - 00:41.4]  a lot of fillers as well as with the PDRN, so it helps with collagen and elastin as well
+[00:41.4 - 00:42.7]  as a volume filler.
+[00:42.7 - 00:46.7]  The calcium locks in that collagen and elastin, but this is going to help you actually repair
+[00:46.7 - 00:49.2]  as well as hydrate and glow.
+[00:49.2 - 00:53.0]  You also get a little more in the MediQube versus the Dr. Melaxin.
+[00:53.0 - 00:57.0]  And frankly, this feels like it's actually soaking into my skin versus this feels like
+[00:57.0 - 00:59.1]  it's just a petroleum jelly sitting on top of it.
+[00:59.1 - 01:02.9]  So if you want something that actually fills, repairs, and helps with that glow, MediQube
+[01:02.9 - 01:03.9]  is the clear winner.
+[01:03.9 - 01:06.5]  Right now, because of the launch price, they have a ridiculous discount.
+[01:06.5 - 01:10.1]  It's actually a little cheaper than this, and you can get a two-pack for a crazy price.
+[01:10.1 - 01:12.3]  I'm going to put it in this little orange shopping cart.
+[01:12.3 - 01:14.0]  Definitely check it out before the launch price ends.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_2_7620952794832309535_transcription_20260531_213849.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_2_7620952794832309535_transcription_20260531_213849.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_2_7620952794832309535.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_2_7620952794832309535.mp3, file size: 1.35 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.5] Dr. Melaxin's Calcium Balm Stick or MediQube's new PDRN Pink Collagen Stick.
+[00:04.5 - 00:05.5] Which one is better?
+[00:05.5 - 00:09.5] Both of these balm sticks are meant for fillers and hydration, but which one is right for
+[00:09.5 - 00:10.5] you?
+[00:10.5 - 00:12.5] I'm Dr. Faith Coates, I don't gatekeep information, let's break down the simple
+[00:12.5 - 00:15.3] science and what is the key differences between the two of these.
+[00:15.3 - 00:20.2] The Dr. Melaxin's Calcium Volume Stick can be used to firm as well as volumize areas
+[00:20.2 - 00:25.6] in the face, mostly under the eyes and areas of fine lines and wrinkles using calcium.
+[00:25.6 - 00:27.2] This is more meant for structure.
+[00:27.2 - 00:32.1] The MediQube Pink PDRN Stick is more meant for deep hydration, skin barrier repair, and
+[00:32.1 - 00:33.4] complexion glow.
+[00:33.4 - 00:37.2] This also has volufilin in it, which is a hyaluronic acid derivative that they use in
+[00:37.2 - 00:41.4] a lot of fillers as well as with the PDRN, so it helps with collagen and elastin as well
+[00:41.4 - 00:42.7] as a volume filler.
+[00:42.7 - 00:46.7] The calcium locks in that collagen and elastin, but this is going to help you actually repair
+[00:46.7 - 00:49.2] as well as hydrate and glow.
+[00:49.2 - 00:53.0] You also get a little more in the MediQube versus the Dr. Melaxin.
+[00:53.0 - 00:57.0] And frankly, this feels like it's actually soaking into my skin versus this feels like
+[00:57.0 - 00:59.1] it's just a petroleum jelly sitting on top of it.
+[00:59.1 - 01:02.9] So if you want something that actually fills, repairs, and helps with that glow, MediQube
+[01:02.9 - 01:03.9] is the clear winner.
+[01:03.9 - 01:06.5] Right now, because of the launch price, they have a ridiculous discount.
+[01:06.5 - 01:10.1] It's actually a little cheaper than this, and you can get a two-pack for a crazy price.
+[01:10.1 - 01:12.3] I'm going to put it in this little orange shopping cart.
+[01:12.3 - 01:14.0] Definitely check it out before the launch price ends.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_2_7620952794832309535_transcription_20260531_213849.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_2_7620952794832309535_transcription_20260531_213849.txt
+
+============================================================
+RANK: 03 | GMV: $155884.45 | VIDEO ID: 7618978253952257310
+URL: https://www.tiktok.com/@faithfuldoc/video/7618978253952257310
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 04 | GMV: $99165.8 | VIDEO ID: 7616016652441832734
+URL: https://www.tiktok.com/@faithfuldoc/video/7616016652441832734
+WORD COUNT: 591
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_4_7616016652441832734.mp3, file size: 0.98 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 53.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.0]  Going gray, take NMN.
+[00:02.0 - 00:04.6]  Fine lines and wrinkles, take NMN.
+[00:04.6 - 00:08.0]  Thinning hair, take astaxanthin and NMN.
+[00:08.0 - 00:11.1]  Sun damage and age spots, take astaxanthin.
+[00:11.1 - 00:13.6]  Low energy and brain fog, take NMN.
+[00:13.6 - 00:15.8]  Astaxanthin and NMN are both known
+[00:15.8 - 00:17.1]  for their anti-aging properties.
+[00:17.1 - 00:19.6]  However, they are completely different compounds
+[00:19.6 - 00:21.9]  and they are known to be synergistic together
+[00:21.9 - 00:23.1]  because of what they provide.
+[00:23.1 - 00:25.0]  NMN is a precursor to NAD,
+[00:25.0 - 00:27.1]  which is how every cell in your body produces energy,
+[00:27.1 - 00:29.7]  whereas astaxanthin is an antioxidant
+[00:29.7 - 00:32.0]  that is a very powerful cell protectant.
+[00:32.0 - 00:34.3]  As a doctor, I do recommend the micro-ingredients,
+[00:34.3 - 00:35.7]  NMN and astaxanthin,
+[00:35.7 - 00:37.8]  because it's incredibly clean ingredients,
+[00:37.8 - 00:39.2]  third-party tested,
+[00:39.2 - 00:41.2]  and you get a two-month supply in one bottle
+[00:41.2 - 00:43.4]  and a four-month supply of the astaxanthin.
+[00:43.4 - 00:44.8]  It's all in a bundle right now.
+[00:44.8 - 00:46.2]  They have a huge flash sale going on,
+[00:46.2 - 00:47.4]  so I'm gonna put it in the little
+[00:47.4 - 00:48.9]  orange shopping cart right here.
+[00:48.9 - 00:51.0]  You'll be able to pick it up with free shipping.
+[00:51.0 - 00:52.2]  Highly recommend picking them up
+[00:52.2 - 00:53.6]  before they go out of stock.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_4_7616016652441832734_transcription_20260531_213858.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_4_7616016652441832734_transcription_20260531_213858.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_4_7616016652441832734.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_4_7616016652441832734.mp3, file size: 0.98 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.0] Going gray, take NMN.
+[00:02.0 - 00:04.6] Fine lines and wrinkles, take NMN.
+[00:04.6 - 00:08.0] Thinning hair, take astaxanthin and NMN.
+[00:08.0 - 00:11.1] Sun damage and age spots, take astaxanthin.
+[00:11.1 - 00:13.6] Low energy and brain fog, take NMN.
+[00:13.6 - 00:15.8] Astaxanthin and NMN are both known
+[00:15.8 - 00:17.1] for their anti-aging properties.
+[00:17.1 - 00:19.6] However, they are completely different compounds
+[00:19.6 - 00:21.9] and they are known to be synergistic together
+[00:21.9 - 00:23.1] because of what they provide.
+[00:23.1 - 00:25.0] NMN is a precursor to NAD,
+[00:25.0 - 00:27.1] which is how every cell in your body produces energy,
+[00:27.1 - 00:29.7] whereas astaxanthin is an antioxidant
+[00:29.7 - 00:32.0] that is a very powerful cell protectant.
+[00:32.0 - 00:34.3] As a doctor, I do recommend the micro-ingredients,
+[00:34.3 - 00:35.7] NMN and astaxanthin,
+[00:35.7 - 00:37.8] because it's incredibly clean ingredients,
+[00:37.8 - 00:39.2] third-party tested,
+[00:39.2 - 00:41.2] and you get a two-month supply in one bottle
+[00:41.2 - 00:43.4] and a four-month supply of the astaxanthin.
+[00:43.4 - 00:44.8] It's all in a bundle right now.
+[00:44.8 - 00:46.2] They have a huge flash sale going on,
+[00:46.2 - 00:47.4] so I'm gonna put it in the little
+[00:47.4 - 00:48.9] orange shopping cart right here.
+[00:48.9 - 00:51.0] You'll be able to pick it up with free shipping.
+[00:51.0 - 00:52.2] Highly recommend picking them up
+[00:52.2 - 00:53.6] before they go out of stock.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_4_7616016652441832734_transcription_20260531_213858.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_4_7616016652441832734_transcription_20260531_213858.txt
+
+============================================================
+RANK: 05 | GMV: $31004.15 | VIDEO ID: 7611584716600249630
+URL: https://www.tiktok.com/@faithfuldoc/video/7611584716600249630
+WORD COUNT: 1303
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_5_7611584716600249630.mp3, file size: 1.77 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 97.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.3]  If NNM was shoved down your throat by all the celebrities
+[00:02.3 - 00:03.3]  and you got yours in the mail
+[00:03.3 - 00:04.4]  and now you don't know how to take it,
+[00:04.4 - 00:05.6]  well, I'm gonna teach you how to take it
+[00:05.6 - 00:06.9]  because I'm a doctor and I don't get keys.
+[00:06.9 - 00:08.1]  First off, I hope you got the right one
+[00:08.1 - 00:10.2]  because this one has a complex of ingredients
+[00:10.2 - 00:12.2]  which is going to help not only with absorption
+[00:12.2 - 00:14.4]  but also with the synergistic formula
+[00:14.4 - 00:15.6]  so it all works well together.
+[00:15.6 - 00:16.8]  But don't you worry, puddin' pop,
+[00:16.8 - 00:18.1]  because I'm gonna give you some pointers
+[00:18.1 - 00:20.2]  so that you can still use the formulation that you did
+[00:20.2 - 00:21.2]  even if you didn't get this one.
+[00:21.2 - 00:23.4]  First off, NNM is a precursor to NAD
+[00:23.4 - 00:26.6]  and NAD is how every cell in our body makes energy
+[00:26.6 - 00:28.3]  and that's why it's so incredibly important
+[00:28.3 - 00:30.0]  because you will die if you don't have it.
+[00:30.0 - 00:31.6]  Our body naturally produces less
+[00:31.6 - 00:33.6]  as we get older starting in our 30s and 40s
+[00:33.6 - 00:35.8]  and it's about half when we're in our 50s
+[00:35.8 - 00:38.1]  which is why we always look like our skin is falling off,
+[00:38.1 - 00:39.4]  fine lines and wrinkles
+[00:39.4 - 00:41.2]  and we just don't feel as good as we used to.
+[00:41.2 - 00:43.6]  NNM is more bioavailable than NAD
+[00:43.6 - 00:45.6]  and it's a little bit more well-tolerated
+[00:45.6 - 00:48.4]  so I actually recommend this one over taking NAD.
+[00:48.4 - 00:50.0]  There's better ways to take these than others
+[00:50.0 - 00:50.9]  so let's get started.
+[00:50.9 - 00:52.3]  First off, you wanna take these little bad boys
+[00:52.3 - 00:53.1]  in the morning.
+[00:53.1 - 00:55.0]  Many times this is gonna give people a lot of energy
+[00:55.0 - 00:56.3]  and if you take it past 2 p.m.,
+[00:56.3 - 00:57.5]  sometimes people can't sleep.
+[00:57.5 - 00:58.9]  Number two, take it with food
+[00:58.9 - 01:01.2]  because sometimes you can get gastrointestinal problems
+[01:01.2 - 01:04.1]  like nausea, diarrhea, all the fun gas and bloating things
+[01:04.1 - 01:05.4]  if you don't buffer it with food.
+[01:05.4 - 01:07.2]  Lastly, you should take it with your multivitamin.
+[01:07.2 - 01:10.1]  A lot of NNM supplements help with the detox pathways
+[01:10.1 - 01:12.2]  and a lot of the metabolic and repair pathways
+[01:12.2 - 01:14.5]  which can really use a lot of the minerals and vitamins
+[01:14.5 - 01:15.9]  that are in your multivitamin.
+[01:15.9 - 01:18.2]  I highly recommend this NNM by Micro Ingredients
+[01:18.2 - 01:19.7]  because it's not only just an NNM
+[01:19.7 - 01:22.2]  but also has an entire complex of antioxidants
+[01:22.2 - 01:24.1]  as well as things that help with absorption.
+[01:24.1 - 01:25.3]  Got no weird fillers.
+[01:25.3 - 01:26.6]  It has exactly what it says on the label
+[01:26.6 - 01:28.9]  because a third-party test and it's made in America.
+[01:28.9 - 01:29.7]  If you wanna check it out,
+[01:29.7 - 01:31.0]  I'll put it in the little link below
+[01:31.0 - 01:32.6]  and I'll also add a $2 off coupon
+[01:32.6 - 01:34.4]  just in case you wanna try it for yourself.
+[01:34.4 - 01:35.3]  Seriously, don't sleep on this
+[01:35.3 - 01:37.5]  because it does sell out so incredibly fast.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_5_7611584716600249630_transcription_20260531_213911.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_5_7611584716600249630_transcription_20260531_213911.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_5_7611584716600249630.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_5_7611584716600249630.mp3, file size: 1.77 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.3] If NNM was shoved down your throat by all the celebrities
+[00:02.3 - 00:03.3] and you got yours in the mail
+[00:03.3 - 00:04.4] and now you don't know how to take it,
+[00:04.4 - 00:05.6] well, I'm gonna teach you how to take it
+[00:05.6 - 00:06.9] because I'm a doctor and I don't get keys.
+[00:06.9 - 00:08.1] First off, I hope you got the right one
+[00:08.1 - 00:10.2] because this one has a complex of ingredients
+[00:10.2 - 00:12.2] which is going to help not only with absorption
+[00:12.2 - 00:14.4] but also with the synergistic formula
+[00:14.4 - 00:15.6] so it all works well together.
+[00:15.6 - 00:16.8] But don't you worry, puddin' pop,
+[00:16.8 - 00:18.1] because I'm gonna give you some pointers
+[00:18.1 - 00:20.2] so that you can still use the formulation that you did
+[00:20.2 - 00:21.2] even if you didn't get this one.
+[00:21.2 - 00:23.4] First off, NNM is a precursor to NAD
+[00:23.4 - 00:26.6] and NAD is how every cell in our body makes energy
+[00:26.6 - 00:28.3] and that's why it's so incredibly important
+[00:28.3 - 00:30.0] because you will die if you don't have it.
+[00:30.0 - 00:31.6] Our body naturally produces less
+[00:31.6 - 00:33.6] as we get older starting in our 30s and 40s
+[00:33.6 - 00:35.8] and it's about half when we're in our 50s
+[00:35.8 - 00:38.1] which is why we always look like our skin is falling off,
+[00:38.1 - 00:39.4] fine lines and wrinkles
+[00:39.4 - 00:41.2] and we just don't feel as good as we used to.
+[00:41.2 - 00:43.6] NNM is more bioavailable than NAD
+[00:43.6 - 00:45.6] and it's a little bit more well-tolerated
+[00:45.6 - 00:48.4] so I actually recommend this one over taking NAD.
+[00:48.4 - 00:50.0] There's better ways to take these than others
+[00:50.0 - 00:50.9] so let's get started.
+[00:50.9 - 00:52.3] First off, you wanna take these little bad boys
+[00:52.3 - 00:53.1] in the morning.
+[00:53.1 - 00:55.0] Many times this is gonna give people a lot of energy
+[00:55.0 - 00:56.3] and if you take it past 2 p.m.,
+[00:56.3 - 00:57.5] sometimes people can't sleep.
+[00:57.5 - 00:58.9] Number two, take it with food
+[00:58.9 - 01:01.2] because sometimes you can get gastrointestinal problems
+[01:01.2 - 01:04.1] like nausea, diarrhea, all the fun gas and bloating things
+[01:04.1 - 01:05.4] if you don't buffer it with food.
+[01:05.4 - 01:07.2] Lastly, you should take it with your multivitamin.
+[01:07.2 - 01:10.1] A lot of NNM supplements help with the detox pathways
+[01:10.1 - 01:12.2] and a lot of the metabolic and repair pathways
+[01:12.2 - 01:14.5] which can really use a lot of the minerals and vitamins
+[01:14.5 - 01:15.9] that are in your multivitamin.
+[01:15.9 - 01:18.2] I highly recommend this NNM by Micro Ingredients
+[01:18.2 - 01:19.7] because it's not only just an NNM
+[01:19.7 - 01:22.2] but also has an entire complex of antioxidants
+[01:22.2 - 01:24.1] as well as things that help with absorption.
+[01:24.1 - 01:25.3] Got no weird fillers.
+[01:25.3 - 01:26.6] It has exactly what it says on the label
+[01:26.6 - 01:28.9] because a third-party test and it's made in America.
+[01:28.9 - 01:29.7] If you wanna check it out,
+[01:29.7 - 01:31.0] I'll put it in the little link below
+[01:31.0 - 01:32.6] and I'll also add a $2 off coupon
+[01:32.6 - 01:34.4] just in case you wanna try it for yourself.
+[01:34.4 - 01:35.3] Seriously, don't sleep on this
+[01:35.3 - 01:37.5] because it does sell out so incredibly fast.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_5_7611584716600249630_transcription_20260531_213911.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_5_7611584716600249630_transcription_20260531_213911.txt
+
+============================================================
+RANK: 06 | GMV: $30195.06 | VIDEO ID: 7613850177354485023
+URL: https://www.tiktok.com/@faithfuldoc/video/7613850177354485023
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 07 | GMV: $28969.31 | VIDEO ID: 7622902639453408542
+URL: https://www.tiktok.com/@faithfuldoc/video/7622902639453408542
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 08 | GMV: $27660.07 | VIDEO ID: 7609504443960233246
+URL: https://www.tiktok.com/@faithfuldoc/video/7609504443960233246
+WORD COUNT: 1065
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_8_7609504443960233246.mp3, file size: 1.97 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 107.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  how to take magnesium the correct way from a doctor's perspective. I'm Dr. Faith Coates and
+[00:04.2 - 00:07.8]  if you are worried about wasting your money on supplements that may not work, you are in the
+[00:07.8 - 00:12.3]  right place. Let's break this down. I cannot stress to you how important magnesium is because it is
+[00:12.3 - 00:17.5]  one of the most important minerals in your body and it is involved in over 300 different functions
+[00:17.5 - 00:21.9]  and our soil and our food are so depleted of it. Your muscles, your nerves, your brains,
+[00:21.9 - 00:26.1]  your heart, all of these things depend on magnesium. It supports healthy blood pressure,
+[00:26.1 - 00:30.2]  it helps you sleep deeply, it helps you relax, it supports bone strength with magnesium,
+[00:30.2 - 00:34.9]  and it also can help with things like hormones in terms of reducing cortisol levels. This is
+[00:34.9 - 00:39.0]  what most people don't know. There is not just one type of magnesium, there are as many different
+[00:39.0 - 00:43.1]  types and they all have different functions. If you're only taking one like magnesium citrate
+[00:43.1 - 00:47.0]  that makes you straight, you're not getting all the benefits. That's why for most people
+[00:47.0 - 00:52.2]  I recommend a complex so that you can get a smattering of all the benefits with one supplement.
+[00:52.2 - 00:56.6]  And to be clear there are times that you want just one type of magnesium but for most of my
+[00:56.6 - 01:00.9]  patients I recommend a complex. You can take it in the morning with food or at night if you want
+[01:00.9 - 01:05.6]  some more relaxation and deeper sleep. Do not take it with zinc, calcium, or iron because they
+[01:05.6 - 01:09.5]  compete with absorption. So just separate them by two hours and that should be fine. You might
+[01:09.5 - 01:15.8]  notice if you have low magnesium if you have signs like headaches, fatigue, insomnia, muscle cramps,
+[01:15.8 - 01:20.5]  irregular heart rate, or even irregular bowel movements. But if you take a high quality complex
+[01:20.5 - 01:23.7]  you're going to be able to help with all of those things. The one that I actually like is this
+[01:23.7 - 01:30.0]  magnesium complex by Toplex and that's because it is a eight in one complex. It's lab tested so you
+[01:30.0 - 01:33.7]  know you're getting what's on the bottle and it's made in the United States. It's as easy as taking
+[01:33.7 - 01:39.2]  two capsules once a day and these are vegetarian by the way. And right now TikTok has a three pack
+[01:39.2 - 01:43.6]  for the same price as like one bottle in the box stores. I highly recommend picking this up on a
+[01:43.6 - 01:46.8]  three pack while it's still there because it is not going to last.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_8_7609504443960233246_transcription_20260531_213926.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_8_7609504443960233246_transcription_20260531_213926.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_8_7609504443960233246.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_8_7609504443960233246.mp3, file size: 1.97 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] how to take magnesium the correct way from a doctor's perspective. I'm Dr. Faith Coates and
+[00:04.2 - 00:07.8] if you are worried about wasting your money on supplements that may not work, you are in the
+[00:07.8 - 00:12.3] right place. Let's break this down. I cannot stress to you how important magnesium is because it is
+[00:12.3 - 00:17.5] one of the most important minerals in your body and it is involved in over 300 different functions
+[00:17.5 - 00:21.9] and our soil and our food are so depleted of it. Your muscles, your nerves, your brains,
+[00:21.9 - 00:26.1] your heart, all of these things depend on magnesium. It supports healthy blood pressure,
+[00:26.1 - 00:30.2] it helps you sleep deeply, it helps you relax, it supports bone strength with magnesium,
+[00:30.2 - 00:34.9] and it also can help with things like hormones in terms of reducing cortisol levels. This is
+[00:34.9 - 00:39.0] what most people don't know. There is not just one type of magnesium, there are as many different
+[00:39.0 - 00:43.1] types and they all have different functions. If you're only taking one like magnesium citrate
+[00:43.1 - 00:47.0] that makes you straight, you're not getting all the benefits. That's why for most people
+[00:47.0 - 00:52.2] I recommend a complex so that you can get a smattering of all the benefits with one supplement.
+[00:52.2 - 00:56.6] And to be clear there are times that you want just one type of magnesium but for most of my
+[00:56.6 - 01:00.9] patients I recommend a complex. You can take it in the morning with food or at night if you want
+[01:00.9 - 01:05.6] some more relaxation and deeper sleep. Do not take it with zinc, calcium, or iron because they
+[01:05.6 - 01:09.5] compete with absorption. So just separate them by two hours and that should be fine. You might
+[01:09.5 - 01:15.8] notice if you have low magnesium if you have signs like headaches, fatigue, insomnia, muscle cramps,
+[01:15.8 - 01:20.5] irregular heart rate, or even irregular bowel movements. But if you take a high quality complex
+[01:20.5 - 01:23.7] you're going to be able to help with all of those things. The one that I actually like is this
+[01:23.7 - 01:30.0] magnesium complex by Toplex and that's because it is a eight in one complex. It's lab tested so you
+[01:30.0 - 01:33.7] know you're getting what's on the bottle and it's made in the United States. It's as easy as taking
+[01:33.7 - 01:39.2] two capsules once a day and these are vegetarian by the way. And right now TikTok has a three pack
+[01:39.2 - 01:43.6] for the same price as like one bottle in the box stores. I highly recommend picking this up on a
+[01:43.6 - 01:46.8] three pack while it's still there because it is not going to last.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_8_7609504443960233246_transcription_20260531_213926.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_8_7609504443960233246_transcription_20260531_213926.txt
+
+============================================================
+RANK: 09 | GMV: $26339.64 | VIDEO ID: 7619348231989759263
+URL: https://www.tiktok.com/@faithfuldoc/video/7619348231989759263
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 10 | GMV: $21749.0 | VIDEO ID: 7626589820898250014
+URL: https://www.tiktok.com/@faithfuldoc/video/7626589820898250014
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 11 | GMV: $18953.51 | VIDEO ID: 7608798649996414238
+URL: https://www.tiktok.com/@faithfuldoc/video/7608798649996414238
+WORD COUNT: 761
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_11_7608798649996414238.mp3, file size: 1.28 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 70.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.3]  of the billionaires who take NNM, but what makes the one that they take more effective than other
+[00:04.3 - 00:11.0]  ones? That, my friends, is the addition of TMG. TMG stands for trimethylglycine, or betaine. NNM
+[00:11.0 - 00:16.1]  is a precursor to NAD, which is how every cell in your body makes energy, which is why, as you get
+[00:16.1 - 00:20.1]  older, your body makes less of it, and you start seeing signs of aging. And when I say every cell
+[00:20.1 - 00:24.0]  in your body, I mean, like, every cell in your body. No energy means no processing, means no
+[00:24.0 - 00:29.0]  DNA repair, means that things age very quickly. What TMG does is it supplies the methyl group in
+[00:29.0 - 00:34.6]  order to go from NNM to NAD and therefore create that energy. So if you're giving your body a bunch
+[00:34.6 - 00:39.6]  of NNM to convert into NAD and it uses a methyl group throughout that process every single time
+[00:39.6 - 00:43.7]  it does it, you need more methyl groups. What's really cool about companies like MicroIngredients
+[00:43.7 - 00:47.1]  is they actually include it in their complex with their product. They also have a bunch of
+[00:47.1 - 00:51.0]  antioxidants, which is helpful for clearing out that debris and everything else that happens when
+[00:51.0 - 00:55.0]  you're trying to produce more energy in the system. AKA, it helps with sagging skin and
+[00:55.0 - 00:58.6]  other cellular debris that's just kind of hanging out after you process it. And right now they have
+[00:58.6 - 01:02.4]  a big sale going on so you can actually go check it out in that little orange cart in which you can
+[01:02.4 - 01:07.7]  get a two-month supply for like not even an eighth of a price of an NAD treatment. And I'm serious
+[01:07.7 - 01:10.2]  that you really do got to pick these up because they do go out of stock.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_11_7608798649996414238_transcription_20260531_213940.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_11_7608798649996414238_transcription_20260531_213940.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_11_7608798649996414238.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_11_7608798649996414238.mp3, file size: 1.28 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.3] of the billionaires who take NNM, but what makes the one that they take more effective than other
+[00:04.3 - 00:11.0] ones? That, my friends, is the addition of TMG. TMG stands for trimethylglycine, or betaine. NNM
+[00:11.0 - 00:16.1] is a precursor to NAD, which is how every cell in your body makes energy, which is why, as you get
+[00:16.1 - 00:20.1] older, your body makes less of it, and you start seeing signs of aging. And when I say every cell
+[00:20.1 - 00:24.0] in your body, I mean, like, every cell in your body. No energy means no processing, means no
+[00:24.0 - 00:29.0] DNA repair, means that things age very quickly. What TMG does is it supplies the methyl group in
+[00:29.0 - 00:34.6] order to go from NNM to NAD and therefore create that energy. So if you're giving your body a bunch
+[00:34.6 - 00:39.6] of NNM to convert into NAD and it uses a methyl group throughout that process every single time
+[00:39.6 - 00:43.7] it does it, you need more methyl groups. What's really cool about companies like MicroIngredients
+[00:43.7 - 00:47.1] is they actually include it in their complex with their product. They also have a bunch of
+[00:47.1 - 00:51.0] antioxidants, which is helpful for clearing out that debris and everything else that happens when
+[00:51.0 - 00:55.0] you're trying to produce more energy in the system. AKA, it helps with sagging skin and
+[00:55.0 - 00:58.6] other cellular debris that's just kind of hanging out after you process it. And right now they have
+[00:58.6 - 01:02.4] a big sale going on so you can actually go check it out in that little orange cart in which you can
+[01:02.4 - 01:07.7] get a two-month supply for like not even an eighth of a price of an NAD treatment. And I'm serious
+[01:07.7 - 01:10.2] that you really do got to pick these up because they do go out of stock.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_11_7608798649996414238_transcription_20260531_213940.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_11_7608798649996414238_transcription_20260531_213940.txt
+
+============================================================
+RANK: 12 | GMV: $13584.22 | VIDEO ID: 7606447102507437343
+URL: https://www.tiktok.com/@faithfuldoc/video/7606447102507437343
+WORD COUNT: 779
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_12_7606447102507437343.mp3, file size: 1.16 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 64.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.0]  shoved collagen down our throats and they didn't tell us how to take it. Well I'm gonna tell you
+[00:03.0 - 00:06.3]  how to take it because I'm a doctor and I don't get keep. First off collagen is a big beautiful
+[00:06.3 - 00:10.5]  molecule but it does not get across your cell lines either on your skin or in your gut. In
+[00:10.5 - 00:14.2]  order for it to actually be absorbed it has to be broken down into smaller components to actually
+[00:14.2 - 00:18.9]  cross those cell walls. There are two amino acids that need to be cross-linked with vitamin c in
+[00:18.9 - 00:22.8]  order for it to become a big beautiful collagen molecule. Also five different types of collagen
+[00:22.8 - 00:26.7]  that we have in our body and only a few of them are meant for certain kinds of structures. Mainly
+[00:26.7 - 00:31.4]  you're looking for types one and three. Also it has magnesium stearate or silicon dioxide and it's
+[00:31.4 - 00:35.2]  other ingredients that slows your absorption rate. Does your collagen have a protein in it? Because
+[00:35.2 - 00:38.6]  those are very different amino acid profiles. One's more for muscle building and the other
+[00:38.6 - 00:42.3]  ones are more for skin health, joints, bones, everything else you could possibly think of in
+[00:42.3 - 00:46.4]  the human body structures. So protein powder is going to be about $30. Your collagen supplements
+[00:46.4 - 00:50.5]  in about $40 a month. I mean that's a pretty decent chunk out of your budget. Lucky for you
+[00:50.5 - 00:54.5]  and me NeoCell actually put the collagen and protein together in one product and it's on a
+[00:54.5 - 00:58.3]  discount right now because they have a bundle going on so you actually can buy two for the
+[00:58.3 - 01:02.0]  price of one and a half and they have free shipping. It's definitely not going to last
+[01:02.0 - 01:03.8]  though so you got to pick it up before the bundle goes out.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_12_7606447102507437343_transcription_20260531_213948.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_12_7606447102507437343_transcription_20260531_213948.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_12_7606447102507437343.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_12_7606447102507437343.mp3, file size: 1.16 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.0] shoved collagen down our throats and they didn't tell us how to take it. Well I'm gonna tell you
+[00:03.0 - 00:06.3] how to take it because I'm a doctor and I don't get keep. First off collagen is a big beautiful
+[00:06.3 - 00:10.5] molecule but it does not get across your cell lines either on your skin or in your gut. In
+[00:10.5 - 00:14.2] order for it to actually be absorbed it has to be broken down into smaller components to actually
+[00:14.2 - 00:18.9] cross those cell walls. There are two amino acids that need to be cross-linked with vitamin c in
+[00:18.9 - 00:22.8] order for it to become a big beautiful collagen molecule. Also five different types of collagen
+[00:22.8 - 00:26.7] that we have in our body and only a few of them are meant for certain kinds of structures. Mainly
+[00:26.7 - 00:31.4] you're looking for types one and three. Also it has magnesium stearate or silicon dioxide and it's
+[00:31.4 - 00:35.2] other ingredients that slows your absorption rate. Does your collagen have a protein in it? Because
+[00:35.2 - 00:38.6] those are very different amino acid profiles. One's more for muscle building and the other
+[00:38.6 - 00:42.3] ones are more for skin health, joints, bones, everything else you could possibly think of in
+[00:42.3 - 00:46.4] the human body structures. So protein powder is going to be about $30. Your collagen supplements
+[00:46.4 - 00:50.5] in about $40 a month. I mean that's a pretty decent chunk out of your budget. Lucky for you
+[00:50.5 - 00:54.5] and me NeoCell actually put the collagen and protein together in one product and it's on a
+[00:54.5 - 00:58.3] discount right now because they have a bundle going on so you actually can buy two for the
+[00:58.3 - 01:02.0] price of one and a half and they have free shipping. It's definitely not going to last
+[01:02.0 - 01:03.8] though so you got to pick it up before the bundle goes out.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_12_7606447102507437343_transcription_20260531_213948.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_12_7606447102507437343_transcription_20260531_213948.txt
+
+============================================================
+RANK: 13 | GMV: $13311.32 | VIDEO ID: 7622903274361933086
+URL: https://www.tiktok.com/@faithfuldoc/video/7622903274361933086
+WORD COUNT: 1505
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_13_7622903274361933086.mp3, file size: 2.11 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 113.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.5]  Here's the correct way to take the leaf arc mix
+[00:02.5 - 00:03.8]  from a doctor's perspective.
+[00:03.8 - 00:05.2]  There's so much drama around this
+[00:05.2 - 00:06.7]  because the people who are touting it
+[00:06.7 - 00:09.4]  are telling you things that may be a little bit misleading.
+[00:09.4 - 00:11.0]  So let's break down the ingredients
+[00:11.0 - 00:12.5]  and how it might be beneficial for you
+[00:12.5 - 00:13.6]  and the best way to take it.
+[00:13.6 - 00:15.3]  First off, I take all the supplements
+[00:15.3 - 00:16.6]  that I recommend to you guys.
+[00:16.6 - 00:18.1]  So I really enjoyed this.
+[00:18.1 - 00:19.5]  I did notice a difference.
+[00:19.5 - 00:20.6]  I wanna break down the ingredients
+[00:20.6 - 00:22.2]  so that you can make the best decision for yourself.
+[00:22.2 - 00:24.7]  Big things I wanna break down here is the blend,
+[00:24.7 - 00:26.9]  the 5-HTP, and then the energy source,
+[00:26.9 - 00:28.0]  which is the yerba mate.
+[00:28.0 - 00:30.0]  So the powerful blend that they have in here
+[00:30.0 - 00:32.6]  is the berberine, which is 300 milligrams,
+[00:32.6 - 00:34.8]  the cinnamon bark, as well as the chromium,
+[00:34.8 - 00:36.1]  which is 200 micrograms.
+[00:36.1 - 00:38.8]  Those three ingredients are helpful for insulin sensitivity
+[00:38.8 - 00:41.5]  and insulin is like a little key on the outside of a cell
+[00:41.5 - 00:42.9]  that allows the glucose to come in
+[00:42.9 - 00:44.1]  to be utilized for energy.
+[00:44.1 - 00:46.0]  Reason that people are saying they're less ravenous
+[00:46.0 - 00:48.2]  is because the berberine activates an enzyme
+[00:48.2 - 00:51.5]  that is helpful for making you feel a little more satiated.
+[00:51.5 - 00:53.0]  There's also a little fiber in here
+[00:53.0 - 00:54.7]  that helps you be a little more regular,
+[00:54.7 - 00:55.5]  if you know what I mean.
+[00:55.5 - 00:57.1]  There's also some magnesium citrate,
+[00:57.2 - 00:58.8]  which makes you go to the bathroom a little bit more.
+[00:58.8 - 01:01.1]  And the sleeper ingredient here is 5-HTP,
+[01:01.1 - 01:03.6]  which is a precursor to your serotonin receptors,
+[01:03.6 - 01:06.0]  which has also been shown to be helpful in this process.
+[01:06.0 - 01:06.8]  So here's how to take it
+[01:06.8 - 01:08.6]  to get the best benefit out of your supplement.
+[01:08.6 - 01:09.8]  First, you wanna take this in the morning
+[01:09.8 - 01:11.5]  because it's a natural energy booster
+[01:11.5 - 01:12.7]  because of all the yerba mate,
+[01:12.7 - 01:14.3]  so you don't wanna be disrupting your sleep.
+[01:14.3 - 01:16.4]  You also wanna be taking it on an empty stomach
+[01:16.4 - 01:17.8]  because berberine works better
+[01:17.8 - 01:20.3]  because of the way that it works with insulin sensitivity.
+[01:20.3 - 01:21.6]  Just take one of these packets
+[01:21.6 - 01:23.4]  and then you put it in four to six ounces of water
+[01:23.4 - 01:25.2]  and then I just add a lot of ice.
+[01:25.2 - 01:26.3]  You wanna make sure to stir it
+[01:26.3 - 01:27.8]  because a lot of the active ingredients
+[01:27.8 - 01:29.5]  in the sediment will develop on the bottom.
+[01:29.5 - 01:30.7]  You wanna be consistent with this.
+[01:30.7 - 01:32.1]  I mean, with almost all supplements,
+[01:32.1 - 01:33.1]  you really wanna be consistent
+[01:33.1 - 01:34.4]  so you can see the best benefit of it.
+[01:34.4 - 01:35.7]  But when it comes to this
+[01:35.7 - 01:37.9]  and what this product is trying to do,
+[01:37.9 - 01:39.4]  you definitely need to be consistent with it.
+[01:39.4 - 01:40.9]  Also, drink a lot of water
+[01:40.9 - 01:43.3]  because that's how you end up getting the best results
+[01:43.3 - 01:44.2]  with these kind of products.
+[01:44.2 - 01:46.1]  Right now, they got some extra deals going on.
+[01:46.1 - 01:48.2]  I think this is pretty exclusive to the TikTok shop.
+[01:48.2 - 01:49.7]  So I'm gonna put in this little orange shopping cart.
+[01:49.7 - 01:50.9]  If you have any questions,
+[01:50.9 - 01:52.5]  go ahead and put it in this little comment section
+[01:52.5 - 01:54.1]  and I'll answer as many as I can.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_13_7622903274361933086_transcription_20260531_214004.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_13_7622903274361933086_transcription_20260531_214004.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_13_7622903274361933086.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_13_7622903274361933086.mp3, file size: 2.11 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.5] Here's the correct way to take the leaf arc mix
+[00:02.5 - 00:03.8] from a doctor's perspective.
+[00:03.8 - 00:05.2] There's so much drama around this
+[00:05.2 - 00:06.7] because the people who are touting it
+[00:06.7 - 00:09.4] are telling you things that may be a little bit misleading.
+[00:09.4 - 00:11.0] So let's break down the ingredients
+[00:11.0 - 00:12.5] and how it might be beneficial for you
+[00:12.5 - 00:13.6] and the best way to take it.
+[00:13.6 - 00:15.3] First off, I take all the supplements
+[00:15.3 - 00:16.6] that I recommend to you guys.
+[00:16.6 - 00:18.1] So I really enjoyed this.
+[00:18.1 - 00:19.5] I did notice a difference.
+[00:19.5 - 00:20.6] I wanna break down the ingredients
+[00:20.6 - 00:22.2] so that you can make the best decision for yourself.
+[00:22.2 - 00:24.7] Big things I wanna break down here is the blend,
+[00:24.7 - 00:26.9] the 5-HTP, and then the energy source,
+[00:26.9 - 00:28.0] which is the yerba mate.
+[00:28.0 - 00:30.0] So the powerful blend that they have in here
+[00:30.0 - 00:32.6] is the berberine, which is 300 milligrams,
+[00:32.6 - 00:34.8] the cinnamon bark, as well as the chromium,
+[00:34.8 - 00:36.1] which is 200 micrograms.
+[00:36.1 - 00:38.8] Those three ingredients are helpful for insulin sensitivity
+[00:38.8 - 00:41.5] and insulin is like a little key on the outside of a cell
+[00:41.5 - 00:42.9] that allows the glucose to come in
+[00:42.9 - 00:44.1] to be utilized for energy.
+[00:44.1 - 00:46.0] Reason that people are saying they're less ravenous
+[00:46.0 - 00:48.2] is because the berberine activates an enzyme
+[00:48.2 - 00:51.5] that is helpful for making you feel a little more satiated.
+[00:51.5 - 00:53.0] There's also a little fiber in here
+[00:53.0 - 00:54.7] that helps you be a little more regular,
+[00:54.7 - 00:55.5] if you know what I mean.
+[00:55.5 - 00:57.1] There's also some magnesium citrate,
+[00:57.2 - 00:58.8] which makes you go to the bathroom a little bit more.
+[00:58.8 - 01:01.1] And the sleeper ingredient here is 5-HTP,
+[01:01.1 - 01:03.6] which is a precursor to your serotonin receptors,
+[01:03.6 - 01:06.0] which has also been shown to be helpful in this process.
+[01:06.0 - 01:06.8] So here's how to take it
+[01:06.8 - 01:08.6] to get the best benefit out of your supplement.
+[01:08.6 - 01:09.8] First, you wanna take this in the morning
+[01:09.8 - 01:11.5] because it's a natural energy booster
+[01:11.5 - 01:12.7] because of all the yerba mate,
+[01:12.7 - 01:14.3] so you don't wanna be disrupting your sleep.
+[01:14.3 - 01:16.4] You also wanna be taking it on an empty stomach
+[01:16.4 - 01:17.8] because berberine works better
+[01:17.8 - 01:20.3] because of the way that it works with insulin sensitivity.
+[01:20.3 - 01:21.6] Just take one of these packets
+[01:21.6 - 01:23.4] and then you put it in four to six ounces of water
+[01:23.4 - 01:25.2] and then I just add a lot of ice.
+[01:25.2 - 01:26.3] You wanna make sure to stir it
+[01:26.3 - 01:27.8] because a lot of the active ingredients
+[01:27.8 - 01:29.5] in the sediment will develop on the bottom.
+[01:29.5 - 01:30.7] You wanna be consistent with this.
+[01:30.7 - 01:32.1] I mean, with almost all supplements,
+[01:32.1 - 01:33.1] you really wanna be consistent
+[01:33.1 - 01:34.4] so you can see the best benefit of it.
+[01:34.4 - 01:35.7] But when it comes to this
+[01:35.7 - 01:37.9] and what this product is trying to do,
+[01:37.9 - 01:39.4] you definitely need to be consistent with it.
+[01:39.4 - 01:40.9] Also, drink a lot of water
+[01:40.9 - 01:43.3] because that's how you end up getting the best results
+[01:43.3 - 01:44.2] with these kind of products.
+[01:44.2 - 01:46.1] Right now, they got some extra deals going on.
+[01:46.1 - 01:48.2] I think this is pretty exclusive to the TikTok shop.
+[01:48.2 - 01:49.7] So I'm gonna put in this little orange shopping cart.
+[01:49.7 - 01:50.9] If you have any questions,
+[01:50.9 - 01:52.5] go ahead and put it in this little comment section
+[01:52.5 - 01:54.1] and I'll answer as many as I can.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_13_7622903274361933086_transcription_20260531_214004.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_13_7622903274361933086_transcription_20260531_214004.txt
+
+============================================================
+RANK: 14 | GMV: $13099.83 | VIDEO ID: 7621660139036167455
+URL: https://www.tiktok.com/@faithfuldoc/video/7621660139036167455
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 15 | GMV: $12332.0 | VIDEO ID: 7621674334297378079
+URL: https://www.tiktok.com/@faithfuldoc/video/7621674334297378079
+WORD COUNT: 1243
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_15_7621674334297378079.mp3, file size: 1.99 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 108.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.2]  I rolled Dr. Melaxin's Calcium Bundle
+[00:02.2 - 00:04.9]  versus Medicube's new Pink PDRN Collagen
+[00:04.9 - 00:06.0]  with a volume of Phylene.
+[00:06.0 - 00:07.8]  Which one's better from a doctor's perspective?
+[00:07.8 - 00:10.0]  Both of Dr. Melaxin products use calcium,
+[00:10.0 - 00:12.6]  which helps lock collagen into the skin,
+[00:12.6 - 00:13.9]  helping with the structure.
+[00:13.9 - 00:16.1]  The calcium fills in the fine lines and wrinkles,
+[00:16.1 - 00:18.8]  which gives this immediate filling effect.
+[00:18.8 - 00:20.2]  You can really see it under the eyes
+[00:20.2 - 00:22.4]  and in the nasal labial folds, as well as the forehead.
+[00:22.4 - 00:25.4]  The calcium eye patches do the same exact thing,
+[00:25.4 - 00:27.8]  and they can help lock in that calcium
+[00:27.8 - 00:30.4]  so that you can leave it on either for 10 minutes,
+[00:30.4 - 00:32.9]  for hours, or just let it soak in overnight.
+[00:32.9 - 00:34.2]  Medicube just released their version
+[00:34.2 - 00:36.6]  of the Pink PDRN Stick with a volume of Phylene,
+[00:36.6 - 00:41.2]  as well as their PDRN Pink Caffeine Collagen Under Eye Mask.
+[00:41.2 - 00:42.5]  The PDRN is actually gonna help
+[00:42.5 - 00:44.4]  with the structural integrity of the skin,
+[00:44.4 - 00:46.6]  and it's gonna have massive deep hydration,
+[00:46.6 - 00:48.1]  and that volume of Phylene is gonna have
+[00:48.1 - 00:49.7]  a very similar effect to the calcium,
+[00:49.7 - 00:51.7]  and which is gonna make it look plump and full.
+[00:51.7 - 00:53.4]  Plus, you have all that glow.
+[00:53.4 - 00:55.7]  Personally, I actually like the feeling of this better
+[00:55.7 - 00:57.8]  because I feel like it actually soaks into my skin
+[00:58.7 - 00:59.6]  rather than just sitting on top of it.
+[00:59.6 - 01:02.0]  Both of these have PDRN and collagen in them,
+[01:02.0 - 01:03.6]  which is gonna help with the structural component
+[01:03.6 - 01:04.6]  of your actual skin.
+[01:04.6 - 01:07.1]  These are some juicy eye patches,
+[01:07.1 - 01:08.5]  and they're a little bit different
+[01:08.5 - 01:10.5]  because they also contain caffeine.
+[01:10.5 - 01:12.0]  The caffeine in these eye patches
+[01:12.0 - 01:13.4]  help with vasoconstriction,
+[01:13.4 - 01:15.5]  which makes the blood vessels look less apparent,
+[01:15.5 - 01:17.5]  so therefore it helps with those dark circles
+[01:17.5 - 01:18.6]  underneath the eyes.
+[01:18.6 - 01:21.2]  This is gonna reduce puffiness, improve firmness,
+[01:21.2 - 01:22.8]  and actually help heal your skin,
+[01:22.8 - 01:26.1]  as well as give some really good glow and deep hydration.
+[01:26.1 - 01:27.9]  If you're only looking for structure and hydration,
+[01:27.9 - 01:28.9]  this is a good bundle for you,
+[01:28.9 - 01:31.0]  but if you're looking to actually heal things
+[01:31.0 - 01:34.0]  and reverse the clock, plus reduce that puffiness,
+[01:34.0 - 01:36.1]  and be able to have long-term effects,
+[01:36.1 - 01:38.3]  I do recommend trying this bundle out.
+[01:38.3 - 01:39.8]  And because of the launch price,
+[01:39.8 - 01:41.8]  this is actually much cheaper than this right now,
+[01:41.8 - 01:42.7]  so I'm gonna put it in this little
+[01:42.7 - 01:43.8]  orange shopping cart right here.
+[01:43.8 - 01:44.8]  If you have any other questions
+[01:44.8 - 01:46.3]  or you want me to do any other comparisons,
+[01:46.3 - 01:47.2]  drop them in the comments.
+[01:47.2 - 01:49.2]  I would love to break them down for you.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_15_7621674334297378079_transcription_20260531_214017.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_15_7621674334297378079_transcription_20260531_214017.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_15_7621674334297378079.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_15_7621674334297378079.mp3, file size: 1.99 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.2] I rolled Dr. Melaxin's Calcium Bundle
+[00:02.2 - 00:04.9] versus Medicube's new Pink PDRN Collagen
+[00:04.9 - 00:06.0] with a volume of Phylene.
+[00:06.0 - 00:07.8] Which one's better from a doctor's perspective?
+[00:07.8 - 00:10.0] Both of Dr. Melaxin products use calcium,
+[00:10.0 - 00:12.6] which helps lock collagen into the skin,
+[00:12.6 - 00:13.9] helping with the structure.
+[00:13.9 - 00:16.1] The calcium fills in the fine lines and wrinkles,
+[00:16.1 - 00:18.8] which gives this immediate filling effect.
+[00:18.8 - 00:20.2] You can really see it under the eyes
+[00:20.2 - 00:22.4] and in the nasal labial folds, as well as the forehead.
+[00:22.4 - 00:25.4] The calcium eye patches do the same exact thing,
+[00:25.4 - 00:27.8] and they can help lock in that calcium
+[00:27.8 - 00:30.4] so that you can leave it on either for 10 minutes,
+[00:30.4 - 00:32.9] for hours, or just let it soak in overnight.
+[00:32.9 - 00:34.2] Medicube just released their version
+[00:34.2 - 00:36.6] of the Pink PDRN Stick with a volume of Phylene,
+[00:36.6 - 00:41.2] as well as their PDRN Pink Caffeine Collagen Under Eye Mask.
+[00:41.2 - 00:42.5] The PDRN is actually gonna help
+[00:42.5 - 00:44.4] with the structural integrity of the skin,
+[00:44.4 - 00:46.6] and it's gonna have massive deep hydration,
+[00:46.6 - 00:48.1] and that volume of Phylene is gonna have
+[00:48.1 - 00:49.7] a very similar effect to the calcium,
+[00:49.7 - 00:51.7] and which is gonna make it look plump and full.
+[00:51.7 - 00:53.4] Plus, you have all that glow.
+[00:53.4 - 00:55.7] Personally, I actually like the feeling of this better
+[00:55.7 - 00:57.8] because I feel like it actually soaks into my skin
+[00:58.7 - 00:59.6] rather than just sitting on top of it.
+[00:59.6 - 01:02.0] Both of these have PDRN and collagen in them,
+[01:02.0 - 01:03.6] which is gonna help with the structural component
+[01:03.6 - 01:04.6] of your actual skin.
+[01:04.6 - 01:07.1] These are some juicy eye patches,
+[01:07.1 - 01:08.5] and they're a little bit different
+[01:08.5 - 01:10.5] because they also contain caffeine.
+[01:10.5 - 01:12.0] The caffeine in these eye patches
+[01:12.0 - 01:13.4] help with vasoconstriction,
+[01:13.4 - 01:15.5] which makes the blood vessels look less apparent,
+[01:15.5 - 01:17.5] so therefore it helps with those dark circles
+[01:17.5 - 01:18.6] underneath the eyes.
+[01:18.6 - 01:21.2] This is gonna reduce puffiness, improve firmness,
+[01:21.2 - 01:22.8] and actually help heal your skin,
+[01:22.8 - 01:26.1] as well as give some really good glow and deep hydration.
+[01:26.1 - 01:27.9] If you're only looking for structure and hydration,
+[01:27.9 - 01:28.9] this is a good bundle for you,
+[01:28.9 - 01:31.0] but if you're looking to actually heal things
+[01:31.0 - 01:34.0] and reverse the clock, plus reduce that puffiness,
+[01:34.0 - 01:36.1] and be able to have long-term effects,
+[01:36.1 - 01:38.3] I do recommend trying this bundle out.
+[01:38.3 - 01:39.8] And because of the launch price,
+[01:39.8 - 01:41.8] this is actually much cheaper than this right now,
+[01:41.8 - 01:42.7] so I'm gonna put it in this little
+[01:42.7 - 01:43.8] orange shopping cart right here.
+[01:43.8 - 01:44.8] If you have any other questions
+[01:44.8 - 01:46.3] or you want me to do any other comparisons,
+[01:46.3 - 01:47.2] drop them in the comments.
+[01:47.2 - 01:49.2] I would love to break them down for you.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_15_7621674334297378079_transcription_20260531_214017.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_15_7621674334297378079_transcription_20260531_214017.txt
+
+============================================================
+RANK: 16 | GMV: $11979.29 | VIDEO ID: 7609800656005647647
+URL: https://www.tiktok.com/@faithfuldoc/video/7609800656005647647
+WORD COUNT: 659
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_16_7609800656005647647.mp3, file size: 1.08 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 59.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.7]  right way to take acesanthin from a doctor. This releases nature's little tanning pill that has
+[00:03.7 - 00:08.3]  the most powerful antioxidant properties on the planet and they were just like go for it you don't
+[00:08.3 - 00:12.0]  need instructions. Well I'm going to give you the lowdown because I don't get key. One, take it with
+[00:12.0 - 00:17.1]  food, mostly fat because it is fat soluble and it needs fat in order to be incorporated. Two,
+[00:17.1 - 00:21.7]  take it in the morning with your food to help with absorption. Three, take with your multivitamins
+[00:21.7 - 00:26.3]  because the repair pathways these things activate can be very synergistic. One I recommend is the
+[00:26.3 - 00:30.9]  acesanthin by micro ingredients because not only is it triple strength which is that 12 milligrams
+[00:30.9 - 00:35.1]  that every study says that it's going to have the most benefit but it's a four month supply.
+[00:35.1 - 00:40.6]  It has very clean ingredients and it has an MCT barrier oil so it's actually going to absorb
+[00:40.6 - 00:43.6]  correctly. If you really want to kick it up a notch then you can pair it with the NNM which
+[00:43.6 - 00:48.6]  they have a bundle going on right now and that's going to help with antioxidants as well as your
+[00:48.6 - 00:54.2]  anti-aging formula. If you want the most powerful antioxidants on the planet mixed with that hot
+[00:54.2 - 00:57.8]  girl summer glow I put it right in this cart and you can check it out for yourself but you've got
+[00:57.8 - 00:59.4]  to pick it up because it does go out of stock.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_16_7609800656005647647_transcription_20260531_214026.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_16_7609800656005647647_transcription_20260531_214026.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_16_7609800656005647647.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_16_7609800656005647647.mp3, file size: 1.08 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.7] right way to take acesanthin from a doctor. This releases nature's little tanning pill that has
+[00:03.7 - 00:08.3] the most powerful antioxidant properties on the planet and they were just like go for it you don't
+[00:08.3 - 00:12.0] need instructions. Well I'm going to give you the lowdown because I don't get key. One, take it with
+[00:12.0 - 00:17.1] food, mostly fat because it is fat soluble and it needs fat in order to be incorporated. Two,
+[00:17.1 - 00:21.7] take it in the morning with your food to help with absorption. Three, take with your multivitamins
+[00:21.7 - 00:26.3] because the repair pathways these things activate can be very synergistic. One I recommend is the
+[00:26.3 - 00:30.9] acesanthin by micro ingredients because not only is it triple strength which is that 12 milligrams
+[00:30.9 - 00:35.1] that every study says that it's going to have the most benefit but it's a four month supply.
+[00:35.1 - 00:40.6] It has very clean ingredients and it has an MCT barrier oil so it's actually going to absorb
+[00:40.6 - 00:43.6] correctly. If you really want to kick it up a notch then you can pair it with the NNM which
+[00:43.6 - 00:48.6] they have a bundle going on right now and that's going to help with antioxidants as well as your
+[00:48.6 - 00:54.2] anti-aging formula. If you want the most powerful antioxidants on the planet mixed with that hot
+[00:54.2 - 00:57.8] girl summer glow I put it right in this cart and you can check it out for yourself but you've got
+[00:57.8 - 00:59.4] to pick it up because it does go out of stock.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_16_7609800656005647647_transcription_20260531_214026.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_16_7609800656005647647_transcription_20260531_214026.txt
+
+============================================================
+RANK: 17 | GMV: $9880.86 | VIDEO ID: 7617896681501232414
+URL: https://www.tiktok.com/@faithfuldoc/video/7617896681501232414
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 18 | GMV: $9607.17 | VIDEO ID: 7621974851821014303
+URL: https://www.tiktok.com/@faithfuldoc/video/7621974851821014303
+WORD COUNT: 1221
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_18_7621974851821014303.mp3, file size: 2.34 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 123.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.5]  Astaxanthin or NMN? Which one should you be taking? As a doctor, I'm always asked should I be taking
+[00:04.9 - 00:09.1]  Astaxanthin or NMN because they both have been shown to have anti-aging benefits.
+[00:09.1 - 00:12.0]  Well, I'm gonna break down the benefits as well as some of the key differences
+[00:12.0 - 00:17.3]  so you can make the best decision for you. Astaxanthin is a pigment molecule that is made from microalgae that gives
+[00:17.6 - 00:19.8]  flamingos and salmon their color. It is
+[00:20.4 - 00:23.7]  6,000 times more powerful than vitamin C and it is the most powerful
+[00:24.3 - 00:31.4]  antioxidant on the planet. Most problems in our bodies are caused by some form of inflammation or free radicals causing cell damage and this
+[00:31.4 - 00:32.7]  actually protects our cells.
+[00:32.7 - 00:34.2]  This has been helpful in eye health,
+[00:34.2 - 00:40.2]  cardiac health, hair, skin, nails, so many things that I can't even mention in this video because it actually is cell protective,
+[00:40.2 - 00:42.2]  which is a beneficial in our entire body.
+[00:42.2 - 00:49.1]  And it also acts as an internal sunscreen because it develops in our skin layers giving us this internal glow. NMN, on the other hand,
+[00:49.1 - 00:52.8]  is known for its cellular energy because it is a precursor to NAD,
+[00:52.8 - 00:55.5]  which is how every cell in our body produces energy. And as we get older,
+[00:55.5 - 01:00.1]  we start producing as much NAD and therefore in our 50s when we produce about half,
+[01:00.1 - 01:05.4]  we look and feel our age. This gives your cells energy and this protects your cells from damage.
+[01:05.4 - 01:09.5]  So which one should you be taking? The research actually says that they have a synergistic effect
+[01:09.5 - 01:13.5]  so they help each other in the aging process and therefore they should be taken together.
+[01:13.6 - 01:18.8]  But Virginia pointed out that the NMN that I recommend actually has Astaxanthin in it.
+[01:18.8 - 01:23.2]  So why would you need to take more? I like the company Micro Ingredients because it's a very clean product,
+[01:23.2 - 01:29.6]  but it does have Astaxanthin in the proprietary blend, but that is only 450 milligrams of this blend,
+[01:29.8 - 01:34.6]  which is going to support the NMN. Now the research does say in order to get the cell protective benefits,
+[01:34.6 - 01:41.0]  you need to be dosing between 4 milligrams and 12 milligrams. And the one from Micro Ingredients is actually a 12 milligram.
+[01:41.1 - 01:46.5]  It's up to me as a doctor to recommend a full capsule of the 12 milligram because that's going to give you the best benefit.
+[01:46.6 - 01:51.7]  You can get a four month supply of Astaxanthin and a two month supply of NMN on a crazy discount.
+[01:51.8 - 01:56.2]  I'm going to put it in this little orange shopping cart and I'm going to put a two dollar off coupon right in the comments
+[01:56.2 - 01:59.0]  so that you guys can save even more money if you're interested in picking it up.
+[01:59.3 - 02:00.5]  And if you have any questions,
+[02:00.5 - 02:03.4]  you can just put it right in the comment section and I'll answer as many as I possibly can.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_18_7621974851821014303_transcription_20260531_214041.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_18_7621974851821014303_transcription_20260531_214041.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_18_7621974851821014303.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_18_7621974851821014303.mp3, file size: 2.34 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.5] Astaxanthin or NMN? Which one should you be taking? As a doctor, I'm always asked should I be taking
+[00:04.9 - 00:09.1] Astaxanthin or NMN because they both have been shown to have anti-aging benefits.
+[00:09.1 - 00:12.0] Well, I'm gonna break down the benefits as well as some of the key differences
+[00:12.0 - 00:17.3] so you can make the best decision for you. Astaxanthin is a pigment molecule that is made from microalgae that gives
+[00:17.6 - 00:19.8] flamingos and salmon their color. It is
+[00:20.4 - 00:23.7] 6,000 times more powerful than vitamin C and it is the most powerful
+[00:24.3 - 00:31.4] antioxidant on the planet. Most problems in our bodies are caused by some form of inflammation or free radicals causing cell damage and this
+[00:31.4 - 00:32.7] actually protects our cells.
+[00:32.7 - 00:34.2] This has been helpful in eye health,
+[00:34.2 - 00:40.2] cardiac health, hair, skin, nails, so many things that I can't even mention in this video because it actually is cell protective,
+[00:40.2 - 00:42.2] which is a beneficial in our entire body.
+[00:42.2 - 00:49.1] And it also acts as an internal sunscreen because it develops in our skin layers giving us this internal glow. NMN, on the other hand,
+[00:49.1 - 00:52.8] is known for its cellular energy because it is a precursor to NAD,
+[00:52.8 - 00:55.5] which is how every cell in our body produces energy. And as we get older,
+[00:55.5 - 01:00.1] we start producing as much NAD and therefore in our 50s when we produce about half,
+[01:00.1 - 01:05.4] we look and feel our age. This gives your cells energy and this protects your cells from damage.
+[01:05.4 - 01:09.5] So which one should you be taking? The research actually says that they have a synergistic effect
+[01:09.5 - 01:13.5] so they help each other in the aging process and therefore they should be taken together.
+[01:13.6 - 01:18.8] But Virginia pointed out that the NMN that I recommend actually has Astaxanthin in it.
+[01:18.8 - 01:23.2] So why would you need to take more? I like the company Micro Ingredients because it's a very clean product,
+[01:23.2 - 01:29.6] but it does have Astaxanthin in the proprietary blend, but that is only 450 milligrams of this blend,
+[01:29.8 - 01:34.6] which is going to support the NMN. Now the research does say in order to get the cell protective benefits,
+[01:34.6 - 01:41.0] you need to be dosing between 4 milligrams and 12 milligrams. And the one from Micro Ingredients is actually a 12 milligram.
+[01:41.1 - 01:46.5] It's up to me as a doctor to recommend a full capsule of the 12 milligram because that's going to give you the best benefit.
+[01:46.6 - 01:51.7] You can get a four month supply of Astaxanthin and a two month supply of NMN on a crazy discount.
+[01:51.8 - 01:56.2] I'm going to put it in this little orange shopping cart and I'm going to put a two dollar off coupon right in the comments
+[01:56.2 - 01:59.0] so that you guys can save even more money if you're interested in picking it up.
+[01:59.3 - 02:00.5] And if you have any questions,
+[02:00.5 - 02:03.4] you can just put it right in the comment section and I'll answer as many as I possibly can.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_18_7621974851821014303_transcription_20260531_214041.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_18_7621974851821014303_transcription_20260531_214041.txt
+
+============================================================
+RANK: 19 | GMV: $9409.0 | VIDEO ID: 7634695531511549214
+URL: https://www.tiktok.com/@faithfuldoc/video/7634695531511549214
+WORD COUNT: 1289
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_19_7634695531511549214.mp3, file size: 2.20 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 121.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.9]  skin looks like this on your body but your face looks like this from a medical perspective it is
+[00:03.9 - 00:08.1]  time to get a retinol. Your skin looks really crepey and dehydrated because you're losing
+[00:08.1 - 00:11.9]  collagen and elastin as you get older and it gets even worse when you go into perimenopause
+[00:11.9 - 00:15.8]  and menopause because that's when you're starting to lose a lot of collagen and your hormones
+[00:15.8 - 00:20.8]  regulate that. Also if you've lost a lot of LBs like your girl this is going to show up even more
+[00:20.8 - 00:25.1]  and crepey your skin because of all that volume loss. Also if you have stretch marks, uneven skin
+[00:25.1 - 00:30.0]  tones or those dark spots like age spots or cow patties as some people say this is also going to
+[00:30.0 - 00:34.2]  help with that. Retinols are actually a vitamin A derivative and it helps the cell turnover and
+[00:34.2 - 00:38.6]  that's why it helps with uneven skin tone and then also helps stimulate collagen production which is
+[00:38.6 - 00:42.5]  why it helps make things look a little bit plumper and fuller. So people started putting retinols in
+[00:42.5 - 00:46.3]  their skincare products which is great for fine lines and wrinkles but what about our skin texture
+[00:46.3 - 00:51.0]  on our bodies? The skin on your face is thinner than the skin on your body and therefore it needs
+[00:51.0 - 00:55.6]  different kinds of ingredients because it's not only thicker but it also has less oil glands and
+[00:55.6 - 01:00.3]  it's less sensitive so it can utilize things like moisturizers but it needs different components to
+[01:00.3 - 01:05.0]  have an actual change. Not only do you need retinol to help with cell turnover but you also need
+[01:05.0 - 01:09.2]  ceramides which are going to be like fatty acids or like the mortar between bricks and as you get
+[01:09.2 - 01:14.2]  older those also decrease. Because the skin is thicker you need thicker moisturizers like shea
+[01:14.2 - 01:19.2]  butter to be able to soften the skin as well as vitamin E to be able to help with antioxidants
+[01:19.2 - 01:23.4]  and protecting the skin. So as much as I like serums when it comes to face because it is thinner
+[01:23.4 - 01:27.4]  skin it can soak up a little bit better, I actually want to use a moisturizer like dermatology because
+[01:27.4 - 01:32.3]  this is going to have all those retinols plus ceramides plus the vitamin E and those shea
+[01:32.3 - 01:37.2]  butters to soften the skin and actually change it from this to this. The results on this are actually
+[01:37.2 - 01:41.8]  insane. I've been using it for about a week now and I can see the difference. I use it on this hand
+[01:41.8 - 01:46.4]  and not this hand and you can see how much the dark spots have improved. It has such a good texture
+[01:46.4 - 01:50.6]  and it doesn't smell like anything and it rubs in so incredibly well. It doesn't have that oily
+[01:50.6 - 01:55.4]  texture. I absolutely adore this stuff and I am going through this bottle so quickly. If you want
+[01:55.4 - 01:57.7]  to pick it up they have some good deals going on right now. I'll put it in a little orange
+[01:57.7 - 02:00.8]  shopping cart. If you have any questions just throw them in the comments I would love to answer them for you.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_19_7634695531511549214_transcription_20260531_214054.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_19_7634695531511549214_transcription_20260531_214054.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_19_7634695531511549214.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_19_7634695531511549214.mp3, file size: 2.20 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.9] skin looks like this on your body but your face looks like this from a medical perspective it is
+[00:03.9 - 00:08.1] time to get a retinol. Your skin looks really crepey and dehydrated because you're losing
+[00:08.1 - 00:11.9] collagen and elastin as you get older and it gets even worse when you go into perimenopause
+[00:11.9 - 00:15.8] and menopause because that's when you're starting to lose a lot of collagen and your hormones
+[00:15.8 - 00:20.8] regulate that. Also if you've lost a lot of LBs like your girl this is going to show up even more
+[00:20.8 - 00:25.1] and crepey your skin because of all that volume loss. Also if you have stretch marks, uneven skin
+[00:25.1 - 00:30.0] tones or those dark spots like age spots or cow patties as some people say this is also going to
+[00:30.0 - 00:34.2] help with that. Retinols are actually a vitamin A derivative and it helps the cell turnover and
+[00:34.2 - 00:38.6] that's why it helps with uneven skin tone and then also helps stimulate collagen production which is
+[00:38.6 - 00:42.5] why it helps make things look a little bit plumper and fuller. So people started putting retinols in
+[00:42.5 - 00:46.3] their skincare products which is great for fine lines and wrinkles but what about our skin texture
+[00:46.3 - 00:51.0] on our bodies? The skin on your face is thinner than the skin on your body and therefore it needs
+[00:51.0 - 00:55.6] different kinds of ingredients because it's not only thicker but it also has less oil glands and
+[00:55.6 - 01:00.3] it's less sensitive so it can utilize things like moisturizers but it needs different components to
+[01:00.3 - 01:05.0] have an actual change. Not only do you need retinol to help with cell turnover but you also need
+[01:05.0 - 01:09.2] ceramides which are going to be like fatty acids or like the mortar between bricks and as you get
+[01:09.2 - 01:14.2] older those also decrease. Because the skin is thicker you need thicker moisturizers like shea
+[01:14.2 - 01:19.2] butter to be able to soften the skin as well as vitamin E to be able to help with antioxidants
+[01:19.2 - 01:23.4] and protecting the skin. So as much as I like serums when it comes to face because it is thinner
+[01:23.4 - 01:27.4] skin it can soak up a little bit better, I actually want to use a moisturizer like dermatology because
+[01:27.4 - 01:32.3] this is going to have all those retinols plus ceramides plus the vitamin E and those shea
+[01:32.3 - 01:37.2] butters to soften the skin and actually change it from this to this. The results on this are actually
+[01:37.2 - 01:41.8] insane. I've been using it for about a week now and I can see the difference. I use it on this hand
+[01:41.8 - 01:46.4] and not this hand and you can see how much the dark spots have improved. It has such a good texture
+[01:46.4 - 01:50.6] and it doesn't smell like anything and it rubs in so incredibly well. It doesn't have that oily
+[01:50.6 - 01:55.4] texture. I absolutely adore this stuff and I am going through this bottle so quickly. If you want
+[01:55.4 - 01:57.7] to pick it up they have some good deals going on right now. I'll put it in a little orange
+[01:57.7 - 02:00.8] shopping cart. If you have any questions just throw them in the comments I would love to answer them for you.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_19_7634695531511549214_transcription_20260531_214054.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_19_7634695531511549214_transcription_20260531_214054.txt
+
+============================================================
+RANK: 20 | GMV: $8211.37 | VIDEO ID: 7627526725047471391
+URL: https://www.tiktok.com/@faithfuldoc/video/7627526725047471391
+WORD COUNT: 947
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_20_7627526725047471391.mp3, file size: 1.47 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 79.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.6]  Here's the correct way to take creatine from a doctor's perspective.
+[00:03.6 - 00:04.8]  First off, don't get scammed.
+[00:04.8 - 00:08.2]  These people who say they're getting snatched from creatine, no ma'am.
+[00:08.2 - 00:09.4]  That is not how that works.
+[00:09.4 - 00:13.6]  You're getting snatched because you are spending an inordinate amount of time on that part
+[00:13.6 - 00:14.6]  of your life.
+[00:14.6 - 00:18.2]  Creatine has some pretty amazing benefits, including supporting bone health and brain
+[00:18.2 - 00:20.3]  health and improving lean muscle mass.
+[00:20.3 - 00:22.4]  It can also support some of your hormones as well.
+[00:22.4 - 00:24.3]  So here's the best way to take it from a doctor's perspective.
+[00:24.3 - 00:27.3]  You want to be taking three to five grams per day.
+[00:27.3 - 00:30.2]  The best form of creatine is actually creatine monohydrate.
+[00:30.2 - 00:33.8]  You need to be increasing your water intake because that's going to pull the creatine
+[00:33.8 - 00:34.8]  into the muscle.
+[00:34.8 - 00:38.0]  Optionally, people have talked about doing some loading phases where they'll have higher
+[00:38.0 - 00:39.3]  doses of creatine.
+[00:39.3 - 00:40.5]  However, it's not necessary.
+[00:40.5 - 00:44.3]  If you're noticing bloating, then you want to be breaking that dosing down to about half
+[00:44.3 - 00:45.7]  and then work your way up.
+[00:45.7 - 00:47.1]  You don't need to cycle it.
+[00:47.1 - 00:48.6]  You can just be consistent every day.
+[00:48.6 - 00:50.8]  You really want to be taking it every day at the same time.
+[00:50.8 - 00:54.0]  That way you know the accurate dose because it has to do with saturation.
+[00:54.0 - 00:55.7]  You don't want to just be taking it on training days.
+[00:55.7 - 00:57.3]  You really need to take it every day.
+[00:57.3 - 01:01.2]  And if you're looking for a high quality, delicious gummy version, I like the Array
+[01:01.2 - 01:06.9]  Tone because that's going to have that three to five grams and also it's just really clean
+[01:06.9 - 01:07.9]  ingredients.
+[01:07.9 - 01:09.5]  Just take it three gummies once a day.
+[01:09.5 - 01:11.9]  You can take it at any time before or after your workout.
+[01:11.9 - 01:14.4]  I've got some pretty good deals going on right now, so I'm going to put in that little orange
+[01:14.4 - 01:15.4]  shopping cart.
+[01:15.4 - 01:18.3]  If you have any questions, you can drop it in the comments section and I will answer
+[01:18.3 - 01:19.3]  as many as I possibly can.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_20_7627526725047471391_transcription_20260531_214105.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_20_7627526725047471391_transcription_20260531_214105.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_20_7627526725047471391.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_20_7627526725047471391.mp3, file size: 1.47 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.6] Here's the correct way to take creatine from a doctor's perspective.
+[00:03.6 - 00:04.8] First off, don't get scammed.
+[00:04.8 - 00:08.2] These people who say they're getting snatched from creatine, no ma'am.
+[00:08.2 - 00:09.4] That is not how that works.
+[00:09.4 - 00:13.6] You're getting snatched because you are spending an inordinate amount of time on that part
+[00:13.6 - 00:14.6] of your life.
+[00:14.6 - 00:18.2] Creatine has some pretty amazing benefits, including supporting bone health and brain
+[00:18.2 - 00:20.3] health and improving lean muscle mass.
+[00:20.3 - 00:22.4] It can also support some of your hormones as well.
+[00:22.4 - 00:24.3] So here's the best way to take it from a doctor's perspective.
+[00:24.3 - 00:27.3] You want to be taking three to five grams per day.
+[00:27.3 - 00:30.2] The best form of creatine is actually creatine monohydrate.
+[00:30.2 - 00:33.8] You need to be increasing your water intake because that's going to pull the creatine
+[00:33.8 - 00:34.8] into the muscle.
+[00:34.8 - 00:38.0] Optionally, people have talked about doing some loading phases where they'll have higher
+[00:38.0 - 00:39.3] doses of creatine.
+[00:39.3 - 00:40.5] However, it's not necessary.
+[00:40.5 - 00:44.3] If you're noticing bloating, then you want to be breaking that dosing down to about half
+[00:44.3 - 00:45.7] and then work your way up.
+[00:45.7 - 00:47.1] You don't need to cycle it.
+[00:47.1 - 00:48.6] You can just be consistent every day.
+[00:48.6 - 00:50.8] You really want to be taking it every day at the same time.
+[00:50.8 - 00:54.0] That way you know the accurate dose because it has to do with saturation.
+[00:54.0 - 00:55.7] You don't want to just be taking it on training days.
+[00:55.7 - 00:57.3] You really need to take it every day.
+[00:57.3 - 01:01.2] And if you're looking for a high quality, delicious gummy version, I like the Array
+[01:01.2 - 01:06.9] Tone because that's going to have that three to five grams and also it's just really clean
+[01:06.9 - 01:07.9] ingredients.
+[01:07.9 - 01:09.5] Just take it three gummies once a day.
+[01:09.5 - 01:11.9] You can take it at any time before or after your workout.
+[01:11.9 - 01:14.4] I've got some pretty good deals going on right now, so I'm going to put in that little orange
+[01:14.4 - 01:15.4] shopping cart.
+[01:15.4 - 01:18.3] If you have any questions, you can drop it in the comments section and I will answer
+[01:18.3 - 01:19.3] as many as I possibly can.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_20_7627526725047471391_transcription_20260531_214105.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_20_7627526725047471391_transcription_20260531_214105.txt
+
+============================================================
+RANK: 21 | GMV: $7966.22 | VIDEO ID: 7639587516210810142
+URL: https://www.tiktok.com/@faithfuldoc/video/7639587516210810142
+WORD COUNT: 1227
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_21_7639587516210810142.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 111.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.5]  How long does it take to see results from ALA if you're taking it for neuropathy, from
+[00:03.5 - 00:04.6]  a doctor's perspective?
+[00:04.6 - 00:07.6]  If you have neuropathy, you know how much of a pain in the ass it is.
+[00:07.6 - 00:11.0]  Numbness, burning, tingling, pain that you can't really get away from.
+[00:11.0 - 00:14.5]  Except in the United States, all we do is give patients gabapentin, which is not going
+[00:14.5 - 00:17.5]  to fix the problem, it's just going to make the nerves stop firing.
+[00:17.5 - 00:20.4]  Well in Europe, they actually use something very different that's not only going to stop
+[00:20.4 - 00:24.9]  the pain, but it's also going to improve the nerve function as well as regenerate the nerves.
+[00:24.9 - 00:27.1]  Now neuropathy can be due to a lot of things.
+[00:27.1 - 00:32.8]  Things like diabetes or autoimmune conditions, physical damages, nutrient deficiencies, infections,
+[00:32.8 - 00:37.3]  or things like stenosis, which is narrowing of canals that's causing pain in the nerve.
+[00:37.3 - 00:40.5]  But the reason that you have the pain is because you have a misfiring of nerves.
+[00:40.5 - 00:44.4]  So then what happens is that you have this oxidative damage, or these like little balls
+[00:44.4 - 00:47.9]  that have all these spikes that are causing damage to the actual nerve, so you need to
+[00:47.9 - 00:51.8]  regenerate the nerve, reduce the oxidative damage, reduce the inflammation, and improve
+[00:51.8 - 00:52.8]  the blood flow.
+[00:52.8 - 00:56.2]  And in countries like Europe, they don't just mask the symptoms with gabapentin, they actually
+[00:56.2 - 01:00.7]  want to have a first-line defense of using something like alpha-lipoic acid, which is
+[01:00.7 - 01:02.7]  going to do all those things that I mentioned.
+[01:02.7 - 01:06.2]  There are so many clinical studies on the benefits of alpha-lipoic acid specifically
+[01:06.2 - 01:10.7]  for neuropathy because it does help regenerate the nerves as well as improve blood flow,
+[01:10.7 - 01:14.1]  reduce inflammation, as well as help with reducing oxidative stress.
+[01:14.1 - 01:17.3]  So here's how to take ALA to get the best benefit out of this supplement and actually
+[01:17.3 - 01:18.3]  get results.
+[01:18.3 - 01:21.9]  First, it needs to be about 600mg per a dose because that's what all the clinical studies
+[01:21.9 - 01:23.1]  gave the best benefit for.
+[01:23.1 - 01:26.0]  You need to be taking the correct form, which is RALA.
+[01:26.0 - 01:27.7]  That's going to be the most bioactive.
+[01:27.7 - 01:30.9]  Clinical studies said that it's going to take about 3-5 weeks to start actually seeing some
+[01:30.9 - 01:33.2]  results so you have to be super consistent.
+[01:33.2 - 01:36.7]  But also, make sure you have a good company that you're buying it from because you don't
+[01:36.7 - 01:39.9]  want to be having any extra fillers, which is why I like microingredients.
+[01:39.9 - 01:43.1]  They're third-party tested, they're made in the United States, they don't have any fillers
+[01:43.1 - 01:46.6]  so you don't have to worry about absorption problems, and they have really good deals
+[01:46.6 - 01:47.6]  going on.
+[01:47.6 - 01:48.6]  So I'm going to put it in that little orange shopping cart.
+[01:48.6 - 01:51.1]  If you have any questions, throw them in the comments, I would love to answer them for you.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_21_7639587516210810142_transcription_20260531_214116.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_21_7639587516210810142_transcription_20260531_214116.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_21_7639587516210810142.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_21_7639587516210810142.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.5] How long does it take to see results from ALA if you're taking it for neuropathy, from
+[00:03.5 - 00:04.6] a doctor's perspective?
+[00:04.6 - 00:07.6] If you have neuropathy, you know how much of a pain in the ass it is.
+[00:07.6 - 00:11.0] Numbness, burning, tingling, pain that you can't really get away from.
+[00:11.0 - 00:14.5] Except in the United States, all we do is give patients gabapentin, which is not going
+[00:14.5 - 00:17.5] to fix the problem, it's just going to make the nerves stop firing.
+[00:17.5 - 00:20.4] Well in Europe, they actually use something very different that's not only going to stop
+[00:20.4 - 00:24.9] the pain, but it's also going to improve the nerve function as well as regenerate the nerves.
+[00:24.9 - 00:27.1] Now neuropathy can be due to a lot of things.
+[00:27.1 - 00:32.8] Things like diabetes or autoimmune conditions, physical damages, nutrient deficiencies, infections,
+[00:32.8 - 00:37.3] or things like stenosis, which is narrowing of canals that's causing pain in the nerve.
+[00:37.3 - 00:40.5] But the reason that you have the pain is because you have a misfiring of nerves.
+[00:40.5 - 00:44.4] So then what happens is that you have this oxidative damage, or these like little balls
+[00:44.4 - 00:47.9] that have all these spikes that are causing damage to the actual nerve, so you need to
+[00:47.9 - 00:51.8] regenerate the nerve, reduce the oxidative damage, reduce the inflammation, and improve
+[00:51.8 - 00:52.8] the blood flow.
+[00:52.8 - 00:56.2] And in countries like Europe, they don't just mask the symptoms with gabapentin, they actually
+[00:56.2 - 01:00.7] want to have a first-line defense of using something like alpha-lipoic acid, which is
+[01:00.7 - 01:02.7] going to do all those things that I mentioned.
+[01:02.7 - 01:06.2] There are so many clinical studies on the benefits of alpha-lipoic acid specifically
+[01:06.2 - 01:10.7] for neuropathy because it does help regenerate the nerves as well as improve blood flow,
+[01:10.7 - 01:14.1] reduce inflammation, as well as help with reducing oxidative stress.
+[01:14.1 - 01:17.3] So here's how to take ALA to get the best benefit out of this supplement and actually
+[01:17.3 - 01:18.3] get results.
+[01:18.3 - 01:21.9] First, it needs to be about 600mg per a dose because that's what all the clinical studies
+[01:21.9 - 01:23.1] gave the best benefit for.
+[01:23.1 - 01:26.0] You need to be taking the correct form, which is RALA.
+[01:26.0 - 01:27.7] That's going to be the most bioactive.
+[01:27.7 - 01:30.9] Clinical studies said that it's going to take about 3-5 weeks to start actually seeing some
+[01:30.9 - 01:33.2] results so you have to be super consistent.
+[01:33.2 - 01:36.7] But also, make sure you have a good company that you're buying it from because you don't
+[01:36.7 - 01:39.9] want to be having any extra fillers, which is why I like microingredients.
+[01:39.9 - 01:43.1] They're third-party tested, they're made in the United States, they don't have any fillers
+[01:43.1 - 01:46.6] so you don't have to worry about absorption problems, and they have really good deals
+[01:46.6 - 01:47.6] going on.
+[01:47.6 - 01:48.6] So I'm going to put it in that little orange shopping cart.
+[01:48.6 - 01:51.1] If you have any questions, throw them in the comments, I would love to answer them for you.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_21_7639587516210810142_transcription_20260531_214116.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_21_7639587516210810142_transcription_20260531_214116.txt
+
+============================================================
+RANK: 22 | GMV: $7958.08 | VIDEO ID: 7615833270101544222
+URL: https://www.tiktok.com/@faithfuldoc/video/7615833270101544222
+WORD COUNT: 677
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_22_7615833270101544222.mp3, file size: 1.20 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 64.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.8]  This is fake. This is fake. This is fake. That is fake. I'm really tired of people telling
+[00:04.8 - 00:09.1]  me that NNM doesn't work just because they're getting fake products. NAD is how every cell
+[00:09.1 - 00:13.4]  in your body produces energy and you need energy to make things look tight and taut
+[00:13.4 - 00:17.2]  and actually work functionally. Your body starts naturally declining NAD production
+[00:17.2 - 00:21.2]  in your 30s and by the time you're 50 it's about half and that is why you look like you
+[00:21.2 - 00:27.2]  were aging very rapidly. NNM is a precursor that is more bioavailable than NAD so it works
+[00:27.2 - 00:31.7]  faster and it gives you better results. But it's not just NMN that's important but it's
+[00:31.7 - 00:37.3]  also what's in the complex. Real microingredients has an 8 complex in which it has antioxidants
+[00:37.3 - 00:40.8]  plus things that will help with absorption. People keep sending me messages saying these
+[00:40.8 - 00:45.7]  don't work and it's not because it's microingredients' fault, it's just that these companies are
+[00:45.7 - 00:48.7]  not reputable sources. So here's what to look for. You want to be looking for that blue
+[00:48.7 - 00:53.1]  checkmark because that's going to give you the official microingredients page. You also
+[00:53.1 - 00:56.0]  want to be looking at all of those reviews because that's going to show you that it's
+[00:56.0 - 01:00.6]  a reputable product that everybody trusts. If you want to get the real NNM by microingredients,
+[01:00.6 - 01:03.8]  I put it in this little orange shopping cart and you got to pick it up because it's going
+[01:03.8 - 01:04.6]  to go out of stock.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_22_7615833270101544222_transcription_20260531_214126.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_22_7615833270101544222_transcription_20260531_214126.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_22_7615833270101544222.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_22_7615833270101544222.mp3, file size: 1.20 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.8] This is fake. This is fake. This is fake. That is fake. I'm really tired of people telling
+[00:04.8 - 00:09.1] me that NNM doesn't work just because they're getting fake products. NAD is how every cell
+[00:09.1 - 00:13.4] in your body produces energy and you need energy to make things look tight and taut
+[00:13.4 - 00:17.2] and actually work functionally. Your body starts naturally declining NAD production
+[00:17.2 - 00:21.2] in your 30s and by the time you're 50 it's about half and that is why you look like you
+[00:21.2 - 00:27.2] were aging very rapidly. NNM is a precursor that is more bioavailable than NAD so it works
+[00:27.2 - 00:31.7] faster and it gives you better results. But it's not just NMN that's important but it's
+[00:31.7 - 00:37.3] also what's in the complex. Real microingredients has an 8 complex in which it has antioxidants
+[00:37.3 - 00:40.8] plus things that will help with absorption. People keep sending me messages saying these
+[00:40.8 - 00:45.7] don't work and it's not because it's microingredients' fault, it's just that these companies are
+[00:45.7 - 00:48.7] not reputable sources. So here's what to look for. You want to be looking for that blue
+[00:48.7 - 00:53.1] checkmark because that's going to give you the official microingredients page. You also
+[00:53.1 - 00:56.0] want to be looking at all of those reviews because that's going to show you that it's
+[00:56.0 - 01:00.6] a reputable product that everybody trusts. If you want to get the real NNM by microingredients,
+[01:00.6 - 01:03.8] I put it in this little orange shopping cart and you got to pick it up because it's going
+[01:03.8 - 01:04.6] to go out of stock.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_22_7615833270101544222_transcription_20260531_214126.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_22_7615833270101544222_transcription_20260531_214126.txt
+
+============================================================
+RANK: 23 | GMV: $7519.17 | VIDEO ID: 7618214008755211551
+URL: https://www.tiktok.com/@faithfuldoc/video/7618214008755211551
+WORD COUNT: 1277
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_23_7618214008755211551.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 111.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.0]  Here's how to take the brand new Mary Ruth's
+[00:02.0 - 00:04.7]  liquid morning vitamins plus hair growth formula
+[00:04.7 - 00:06.2]  from a doctor's perspective.
+[00:06.2 - 00:08.9]  If you've recently picked up the Mary Ruth's multivitamin
+[00:08.9 - 00:11.5]  plus the hair growth formula with Lustreva,
+[00:11.5 - 00:13.4]  then listen up because I wanna give you some tips
+[00:13.4 - 00:15.3]  so you get the best benefits with your supplement.
+[00:15.3 - 00:18.7]  This is a multivitamin plus that hair growth Lustreva
+[00:18.7 - 00:20.7]  versus the hair growth max,
+[00:20.7 - 00:22.0]  which doesn't have any vitamins in it,
+[00:22.0 - 00:24.2]  or the daily hair growth formula,
+[00:24.2 - 00:25.6]  which does have vitamins in it.
+[00:25.6 - 00:28.1]  This is brand new and kind of going viral on TikTok
+[00:28.1 - 00:31.5]  because it combines that clinically tested Lustreva,
+[00:31.5 - 00:33.8]  which gives you results within three weeks,
+[00:33.8 - 00:36.6]  and multivitamins, which will help your hair grow thicker,
+[00:36.6 - 00:37.9]  longer, and stronger.
+[00:37.9 - 00:39.4]  Makes this one a little bit different
+[00:39.4 - 00:41.9]  is that that Lustreva is clinically proven,
+[00:41.9 - 00:43.7]  but it's got a couple of really cool ingredients
+[00:43.7 - 00:45.9]  also in the other components,
+[00:45.9 - 00:48.1]  which is gonna help with hormone regulation
+[00:48.1 - 00:50.0]  as well as hair growth in general.
+[00:50.0 - 00:51.9]  This is not only good for hair growth,
+[00:51.9 - 00:53.5]  but also those fine lines and wrinkles
+[00:53.5 - 00:54.9]  because many of the other ingredients
+[00:54.9 - 00:56.4]  are helpful for collagen production.
+[00:56.4 - 00:57.7]  What makes this one a little bit different
+[00:58.2 - 00:59.0]  is that it has inositol,
+[00:59.0 - 01:00.5]  which is gonna be great for hormone balancing
+[01:00.5 - 01:02.2]  as well as cell signaling,
+[01:02.2 - 01:04.8]  and then it has some keratin production ingredients
+[01:04.8 - 01:08.0]  like hesperidin, the branched-chain amino acids, and MSM.
+[01:08.0 - 01:09.6]  This is not only helpful for hair growth,
+[01:09.6 - 01:11.3]  but also for our aging ladies
+[01:11.3 - 01:13.7]  because you start losing collagen 1% every year,
+[01:13.7 - 01:15.4]  so this will help with fine lines and wrinkles.
+[01:15.4 - 01:17.4]  Once this is opened, it should go in the refrigerator.
+[01:17.4 - 01:18.9]  That'll extend its shelf life,
+[01:18.9 - 01:21.1]  and then also shake it well before each dose
+[01:21.1 - 01:22.7]  because a lot of the active ingredients
+[01:22.7 - 01:23.8]  tend to settle at the bottom.
+[01:23.8 - 01:26.9]  It is recommended to take two tablespoons once a day.
+[01:26.9 - 01:28.0]  You can take it straight like this
+[01:28.0 - 01:29.3]  or you can dilute it in something.
+[01:29.3 - 01:31.6]  It does taste like vitamins, so be aware of that,
+[01:31.6 - 01:33.7]  but this one is the dragon fruit melon flavor.
+[01:33.7 - 01:34.5]  I think it's pretty good.
+[01:34.5 - 01:36.6]  Most important thing is to be consistent.
+[01:36.6 - 01:39.1]  We cannot miss a dose or you will not get all the benefits.
+[01:39.1 - 01:41.2]  The best price is on the TikTok shop
+[01:41.2 - 01:42.6]  because they have deals all the time,
+[01:42.6 - 01:44.7]  so I'm gonna put it in this little orange shopping cart.
+[01:44.7 - 01:45.8]  They have an exclusive
+[01:45.8 - 01:47.7]  because this is actually launching right now.
+[01:47.7 - 01:49.1]  This is a brand-new product.
+[01:49.1 - 01:51.9]  Highly recommend picking it up while it's on flash sale.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_23_7618214008755211551_transcription_20260531_214138.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_23_7618214008755211551_transcription_20260531_214138.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_23_7618214008755211551.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_23_7618214008755211551.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.0] Here's how to take the brand new Mary Ruth's
+[00:02.0 - 00:04.7] liquid morning vitamins plus hair growth formula
+[00:04.7 - 00:06.2] from a doctor's perspective.
+[00:06.2 - 00:08.9] If you've recently picked up the Mary Ruth's multivitamin
+[00:08.9 - 00:11.5] plus the hair growth formula with Lustreva,
+[00:11.5 - 00:13.4] then listen up because I wanna give you some tips
+[00:13.4 - 00:15.3] so you get the best benefits with your supplement.
+[00:15.3 - 00:18.7] This is a multivitamin plus that hair growth Lustreva
+[00:18.7 - 00:20.7] versus the hair growth max,
+[00:20.7 - 00:22.0] which doesn't have any vitamins in it,
+[00:22.0 - 00:24.2] or the daily hair growth formula,
+[00:24.2 - 00:25.6] which does have vitamins in it.
+[00:25.6 - 00:28.1] This is brand new and kind of going viral on TikTok
+[00:28.1 - 00:31.5] because it combines that clinically tested Lustreva,
+[00:31.5 - 00:33.8] which gives you results within three weeks,
+[00:33.8 - 00:36.6] and multivitamins, which will help your hair grow thicker,
+[00:36.6 - 00:37.9] longer, and stronger.
+[00:37.9 - 00:39.4] Makes this one a little bit different
+[00:39.4 - 00:41.9] is that that Lustreva is clinically proven,
+[00:41.9 - 00:43.7] but it's got a couple of really cool ingredients
+[00:43.7 - 00:45.9] also in the other components,
+[00:45.9 - 00:48.1] which is gonna help with hormone regulation
+[00:48.1 - 00:50.0] as well as hair growth in general.
+[00:50.0 - 00:51.9] This is not only good for hair growth,
+[00:51.9 - 00:53.5] but also those fine lines and wrinkles
+[00:53.5 - 00:54.9] because many of the other ingredients
+[00:54.9 - 00:56.4] are helpful for collagen production.
+[00:56.4 - 00:57.7] What makes this one a little bit different
+[00:58.2 - 00:59.0] is that it has inositol,
+[00:59.0 - 01:00.5] which is gonna be great for hormone balancing
+[01:00.5 - 01:02.2] as well as cell signaling,
+[01:02.2 - 01:04.8] and then it has some keratin production ingredients
+[01:04.8 - 01:08.0] like hesperidin, the branched-chain amino acids, and MSM.
+[01:08.0 - 01:09.6] This is not only helpful for hair growth,
+[01:09.6 - 01:11.3] but also for our aging ladies
+[01:11.3 - 01:13.7] because you start losing collagen 1% every year,
+[01:13.7 - 01:15.4] so this will help with fine lines and wrinkles.
+[01:15.4 - 01:17.4] Once this is opened, it should go in the refrigerator.
+[01:17.4 - 01:18.9] That'll extend its shelf life,
+[01:18.9 - 01:21.1] and then also shake it well before each dose
+[01:21.1 - 01:22.7] because a lot of the active ingredients
+[01:22.7 - 01:23.8] tend to settle at the bottom.
+[01:23.8 - 01:26.9] It is recommended to take two tablespoons once a day.
+[01:26.9 - 01:28.0] You can take it straight like this
+[01:28.0 - 01:29.3] or you can dilute it in something.
+[01:29.3 - 01:31.6] It does taste like vitamins, so be aware of that,
+[01:31.6 - 01:33.7] but this one is the dragon fruit melon flavor.
+[01:33.7 - 01:34.5] I think it's pretty good.
+[01:34.5 - 01:36.6] Most important thing is to be consistent.
+[01:36.6 - 01:39.1] We cannot miss a dose or you will not get all the benefits.
+[01:39.1 - 01:41.2] The best price is on the TikTok shop
+[01:41.2 - 01:42.6] because they have deals all the time,
+[01:42.6 - 01:44.7] so I'm gonna put it in this little orange shopping cart.
+[01:44.7 - 01:45.8] They have an exclusive
+[01:45.8 - 01:47.7] because this is actually launching right now.
+[01:47.7 - 01:49.1] This is a brand-new product.
+[01:49.1 - 01:51.9] Highly recommend picking it up while it's on flash sale.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_23_7618214008755211551_transcription_20260531_214138.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_23_7618214008755211551_transcription_20260531_214138.txt
+
+============================================================
+RANK: 24 | GMV: $6950.82 | VIDEO ID: 7618260604662418719
+URL: https://www.tiktok.com/@faithfuldoc/video/7618260604662418719
+WORD COUNT: 1287
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_24_7618260604662418719.mp3, file size: 2.11 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 112.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.7]  So all the celebrities sold you this anti-aging bundle
+[00:02.7 - 00:03.8]  and now you got it in the mail
+[00:03.8 - 00:05.1]  and you don't know how to take it.
+[00:05.1 - 00:06.4]  Well, I'm gonna teach you how to take it
+[00:06.4 - 00:07.8]  because I'm a doctor and I don't gatekeep.
+[00:07.8 - 00:09.5]  This is not an either or situation,
+[00:09.5 - 00:11.0]  this is an and situation
+[00:11.0 - 00:12.7]  because they do two separate things
+[00:12.7 - 00:14.1]  that synergistically work together.
+[00:14.1 - 00:16.0]  NMN gives your cells energy,
+[00:16.0 - 00:18.1]  astaxanthin protects your cells from damage.
+[00:18.1 - 00:21.0]  So paired together, these are the most powerful anti-aging
+[00:21.0 - 00:22.4]  and anti-inflammatory bundle
+[00:22.4 - 00:23.6]  you could possibly get on the market.
+[00:23.6 - 00:26.3]  Not only can you support your anti-aging benefits
+[00:26.3 - 00:29.3]  using cellular energy and reverse aging with the NMN,
+[00:29.3 - 00:32.0]  but you also get all that out of benefits
+[00:32.0 - 00:34.7]  of the astaxanthin giving you that summer kiss glow.
+[00:34.7 - 00:37.5]  Astaxanthin is 6,000 times more powerful
+[00:37.5 - 00:39.9]  than vitamin C in terms of an antioxidant
+[00:39.9 - 00:41.9]  and it helps with free radical damage
+[00:41.9 - 00:44.1]  which is the leading sign of premature aging.
+[00:44.1 - 00:45.6]  So here's how you actually take these.
+[00:45.6 - 00:47.3]  First, you can both take these in the morning,
+[00:47.3 - 00:50.2]  but I would say NMN definitely needs to be taken
+[00:50.2 - 00:51.7]  in the morning because it can disrupt your sleep
+[00:51.7 - 00:53.1]  because it has an energizing effect.
+[00:53.1 - 00:56.2]  NMN is actually absorbed better on an empty stomach.
+[00:56.2 - 00:58.8]  Because astaxanthin is the fat soluble world,
+[00:58.8 - 01:00.5]  it should be taken with fats
+[01:00.5 - 01:03.2]  and it also has a carrier oil of MCT.
+[01:03.2 - 01:05.4]  So if you eat it with fats, it'll absorb better.
+[01:05.4 - 01:06.5]  If you don't take it with fats,
+[01:06.5 - 01:07.4]  you're just gonna pee it out.
+[01:07.4 - 01:09.4]  You take two capsules of the NMN
+[01:09.4 - 01:11.7]  and then you take one of the astaxanthin.
+[01:11.7 - 01:14.0]  This also pairs really well with a multivitamin
+[01:14.0 - 01:15.8]  which you should be taking with food anyway
+[01:15.8 - 01:18.2]  because if it has zinc, it can irritate the gut lining,
+[01:18.2 - 01:20.5]  but they will be able to use the minerals and vitamins
+[01:20.5 - 01:21.8]  for that repair pathway.
+[01:21.8 - 01:24.8]  This is so nourishing for your hair, skin, nails, eyes,
+[01:24.8 - 01:28.0]  heart, cognition, like everything you can think of
+[01:28.0 - 01:30.5]  is contacted by energy of the cell
+[01:30.5 - 01:32.0]  and needing an antioxidant.
+[01:32.0 - 01:32.9]  This should go without saying,
+[01:32.9 - 01:34.4]  but if you're on any medications,
+[01:34.4 - 01:37.0]  please ask your doctor before starting any supplement.
+[01:37.0 - 01:38.8]  And not me, because I am not your doctor,
+[01:38.8 - 01:39.8]  I am just a doctor.
+[01:39.8 - 01:42.2]  This is a two month supply and this is a four month supply.
+[01:42.2 - 01:44.6]  It has amazing reviews, it's third party tested
+[01:44.6 - 01:46.8]  so you know exactly what's actually in the product.
+[01:46.8 - 01:48.8]  I'm gonna put it in this little orange shopping card.
+[01:48.8 - 01:50.3]  I highly recommend you picking it up
+[01:50.3 - 01:53.3]  while it's still on flash sale because it is a limited stock.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_24_7618260604662418719_transcription_20260531_214150.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_24_7618260604662418719_transcription_20260531_214150.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_24_7618260604662418719.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_24_7618260604662418719.mp3, file size: 2.11 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.7] So all the celebrities sold you this anti-aging bundle
+[00:02.7 - 00:03.8] and now you got it in the mail
+[00:03.8 - 00:05.1] and you don't know how to take it.
+[00:05.1 - 00:06.4] Well, I'm gonna teach you how to take it
+[00:06.4 - 00:07.8] because I'm a doctor and I don't gatekeep.
+[00:07.8 - 00:09.5] This is not an either or situation,
+[00:09.5 - 00:11.0] this is an and situation
+[00:11.0 - 00:12.7] because they do two separate things
+[00:12.7 - 00:14.1] that synergistically work together.
+[00:14.1 - 00:16.0] NMN gives your cells energy,
+[00:16.0 - 00:18.1] astaxanthin protects your cells from damage.
+[00:18.1 - 00:21.0] So paired together, these are the most powerful anti-aging
+[00:21.0 - 00:22.4] and anti-inflammatory bundle
+[00:22.4 - 00:23.6] you could possibly get on the market.
+[00:23.6 - 00:26.3] Not only can you support your anti-aging benefits
+[00:26.3 - 00:29.3] using cellular energy and reverse aging with the NMN,
+[00:29.3 - 00:32.0] but you also get all that out of benefits
+[00:32.0 - 00:34.7] of the astaxanthin giving you that summer kiss glow.
+[00:34.7 - 00:37.5] Astaxanthin is 6,000 times more powerful
+[00:37.5 - 00:39.9] than vitamin C in terms of an antioxidant
+[00:39.9 - 00:41.9] and it helps with free radical damage
+[00:41.9 - 00:44.1] which is the leading sign of premature aging.
+[00:44.1 - 00:45.6] So here's how you actually take these.
+[00:45.6 - 00:47.3] First, you can both take these in the morning,
+[00:47.3 - 00:50.2] but I would say NMN definitely needs to be taken
+[00:50.2 - 00:51.7] in the morning because it can disrupt your sleep
+[00:51.7 - 00:53.1] because it has an energizing effect.
+[00:53.1 - 00:56.2] NMN is actually absorbed better on an empty stomach.
+[00:56.2 - 00:58.8] Because astaxanthin is the fat soluble world,
+[00:58.8 - 01:00.5] it should be taken with fats
+[01:00.5 - 01:03.2] and it also has a carrier oil of MCT.
+[01:03.2 - 01:05.4] So if you eat it with fats, it'll absorb better.
+[01:05.4 - 01:06.5] If you don't take it with fats,
+[01:06.5 - 01:07.4] you're just gonna pee it out.
+[01:07.4 - 01:09.4] You take two capsules of the NMN
+[01:09.4 - 01:11.7] and then you take one of the astaxanthin.
+[01:11.7 - 01:14.0] This also pairs really well with a multivitamin
+[01:14.0 - 01:15.8] which you should be taking with food anyway
+[01:15.8 - 01:18.2] because if it has zinc, it can irritate the gut lining,
+[01:18.2 - 01:20.5] but they will be able to use the minerals and vitamins
+[01:20.5 - 01:21.8] for that repair pathway.
+[01:21.8 - 01:24.8] This is so nourishing for your hair, skin, nails, eyes,
+[01:24.8 - 01:28.0] heart, cognition, like everything you can think of
+[01:28.0 - 01:30.5] is contacted by energy of the cell
+[01:30.5 - 01:32.0] and needing an antioxidant.
+[01:32.0 - 01:32.9] This should go without saying,
+[01:32.9 - 01:34.4] but if you're on any medications,
+[01:34.4 - 01:37.0] please ask your doctor before starting any supplement.
+[01:37.0 - 01:38.8] And not me, because I am not your doctor,
+[01:38.8 - 01:39.8] I am just a doctor.
+[01:39.8 - 01:42.2] This is a two month supply and this is a four month supply.
+[01:42.2 - 01:44.6] It has amazing reviews, it's third party tested
+[01:44.6 - 01:46.8] so you know exactly what's actually in the product.
+[01:46.8 - 01:48.8] I'm gonna put it in this little orange shopping card.
+[01:48.8 - 01:50.3] I highly recommend you picking it up
+[01:50.3 - 01:53.3] while it's still on flash sale because it is a limited stock.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_24_7618260604662418719_transcription_20260531_214150.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_24_7618260604662418719_transcription_20260531_214150.txt
+
+============================================================
+RANK: 25 | GMV: $6599.4 | VIDEO ID: 7618999063068839199
+URL: https://www.tiktok.com/@faithfuldoc/video/7618999063068839199
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 26 | GMV: $6027.91 | VIDEO ID: 7637014791999032606
+URL: https://www.tiktok.com/@faithfuldoc/video/7637014791999032606
+WORD COUNT: 1369
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_26_7637014791999032606.mp3, file size: 2.06 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 112.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:01.4]  Did you inject the Beauty Peptide
+[00:01.4 - 00:02.8]  or put it on your skin topically?
+[00:02.8 - 00:04.9]  Which one's best for you from a doctor's perspective?
+[00:04.9 - 00:07.0]  The Beauty Peptide is actually GHK Copper,
+[00:07.0 - 00:09.3]  which is a very potent peptide
+[00:09.3 - 00:11.4]  that helps your skin rejuvenate
+[00:11.4 - 00:14.4]  as well as with hair growth and with looks maxing.
+[00:14.4 - 00:16.0]  Looks maxing to me is just kind of funny
+[00:16.0 - 00:16.8]  because I'm like,
+[00:16.8 - 00:18.3]  ooh, guys started caring about themselves
+[00:18.3 - 00:19.1]  and like women are like,
+[00:19.1 - 00:20.6]  yeah, I know, get on our level.
+[00:20.6 - 00:21.4]  I digress.
+[00:21.4 - 00:23.2]  GHK Copper Peptide is so unique
+[00:23.2 - 00:25.5]  because what it does is it boosts the collagen production
+[00:25.5 - 00:29.0]  up to 70% and it specifically types one and three,
+[00:29.0 - 00:31.3]  which is going to be more of your structural collagen,
+[00:31.3 - 00:32.7]  like for hair, skin, and nails.
+[00:32.7 - 00:34.3]  It promotes skin remodeling.
+[00:34.3 - 00:37.4]  So think things like fine lines, wrinkles, acne scars,
+[00:37.4 - 00:40.0]  as well as helping hair follicle growth.
+[00:40.0 - 00:42.6]  It's comparable to 5% minoxidil studies.
+[00:42.6 - 00:45.1]  So pretty much it's an anti-aging skin rejuvenation
+[00:45.1 - 00:46.4]  and hair growth formula.
+[00:46.4 - 00:48.7]  But should you put it on your skin or should you inject it?
+[00:48.7 - 00:49.7]  Injection is going to help
+[00:49.7 - 00:52.1]  with systemic wide deep healing things.
+[00:52.1 - 00:54.1]  So it's not gonna give you like topical treatments.
+[00:54.1 - 00:56.2]  So if you have acne scars or fine lines and wrinkles
+[00:56.2 - 00:57.9]  or things like that, this is not for you.
+[00:57.9 - 00:59.1]  It's also prescription-based
+[00:59.1 - 01:01.1]  and a lot of times it's just used for clinical research.
+[01:01.1 - 01:02.5]  So let's talk about topical.
+[01:02.5 - 01:03.8]  The nice thing about using a topical
+[01:03.8 - 01:05.3]  is that you can put it localized.
+[01:05.3 - 01:07.0]  If you're dealing with certain acne stars
+[01:07.0 - 01:08.2]  and you put it directly on it,
+[01:08.2 - 01:09.3]  or if you're dealing with hair,
+[01:09.3 - 01:11.4]  you can put it directly in the area that you're missing hair.
+[01:11.4 - 01:14.1]  This is limited to just penetrating the skin layers.
+[01:14.1 - 01:16.1]  However, it is safe, it is accessible,
+[01:16.1 - 01:18.3]  and there's a ton of clinical studies backing up its claims.
+[01:18.3 - 01:20.1]  All you do is put it on the skin once a day
+[01:20.1 - 01:22.5]  in the affected areas and then keep this out of the sun
+[01:22.5 - 01:23.9]  because the copper does degrade.
+[01:23.9 - 01:26.3]  And I would recommend certain companies over others
+[01:26.3 - 01:28.3]  because their formulations are cleaner,
+[01:28.3 - 01:30.7]  but also they have some synergistic properties
+[01:30.7 - 01:32.1]  that'll help it work a little bit better.
+[01:32.1 - 01:33.4]  That's why I like the Astrowood one
+[01:33.4 - 01:36.1]  because this one actually has hyaluronic acid in it.
+[01:36.1 - 01:38.1]  So it's going to give it a lot more moisture
+[01:38.1 - 01:40.0]  as well as those copper peptides.
+[01:40.0 - 01:42.4]  It's also free of all the parabens, fragrances,
+[01:42.4 - 01:44.2]  and anything that's gonna cause a lot of skin irritation.
+[01:44.2 - 01:46.1]  And it's made in the United States.
+[01:46.1 - 01:47.6]  They have some really good deals going on right now.
+[01:47.6 - 01:49.0]  I'm gonna put it in that little orange shopping cart.
+[01:49.0 - 01:50.9]  If you have any questions, just throw it in the comments.
+[01:50.9 - 01:52.5]  I would love to answer it for you.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_26_7637014791999032606_transcription_20260531_214206.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_26_7637014791999032606_transcription_20260531_214206.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_26_7637014791999032606.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_26_7637014791999032606.mp3, file size: 2.06 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:01.4] Did you inject the Beauty Peptide
+[00:01.4 - 00:02.8] or put it on your skin topically?
+[00:02.8 - 00:04.9] Which one's best for you from a doctor's perspective?
+[00:04.9 - 00:07.0] The Beauty Peptide is actually GHK Copper,
+[00:07.0 - 00:09.3] which is a very potent peptide
+[00:09.3 - 00:11.4] that helps your skin rejuvenate
+[00:11.4 - 00:14.4] as well as with hair growth and with looks maxing.
+[00:14.4 - 00:16.0] Looks maxing to me is just kind of funny
+[00:16.0 - 00:16.8] because I'm like,
+[00:16.8 - 00:18.3] ooh, guys started caring about themselves
+[00:18.3 - 00:19.1] and like women are like,
+[00:19.1 - 00:20.6] yeah, I know, get on our level.
+[00:20.6 - 00:21.4] I digress.
+[00:21.4 - 00:23.2] GHK Copper Peptide is so unique
+[00:23.2 - 00:25.5] because what it does is it boosts the collagen production
+[00:25.5 - 00:29.0] up to 70% and it specifically types one and three,
+[00:29.0 - 00:31.3] which is going to be more of your structural collagen,
+[00:31.3 - 00:32.7] like for hair, skin, and nails.
+[00:32.7 - 00:34.3] It promotes skin remodeling.
+[00:34.3 - 00:37.4] So think things like fine lines, wrinkles, acne scars,
+[00:37.4 - 00:40.0] as well as helping hair follicle growth.
+[00:40.0 - 00:42.6] It's comparable to 5% minoxidil studies.
+[00:42.6 - 00:45.1] So pretty much it's an anti-aging skin rejuvenation
+[00:45.1 - 00:46.4] and hair growth formula.
+[00:46.4 - 00:48.7] But should you put it on your skin or should you inject it?
+[00:48.7 - 00:49.7] Injection is going to help
+[00:49.7 - 00:52.1] with systemic wide deep healing things.
+[00:52.1 - 00:54.1] So it's not gonna give you like topical treatments.
+[00:54.1 - 00:56.2] So if you have acne scars or fine lines and wrinkles
+[00:56.2 - 00:57.9] or things like that, this is not for you.
+[00:57.9 - 00:59.1] It's also prescription-based
+[00:59.1 - 01:01.1] and a lot of times it's just used for clinical research.
+[01:01.1 - 01:02.5] So let's talk about topical.
+[01:02.5 - 01:03.8] The nice thing about using a topical
+[01:03.8 - 01:05.3] is that you can put it localized.
+[01:05.3 - 01:07.0] If you're dealing with certain acne stars
+[01:07.0 - 01:08.2] and you put it directly on it,
+[01:08.2 - 01:09.3] or if you're dealing with hair,
+[01:09.3 - 01:11.4] you can put it directly in the area that you're missing hair.
+[01:11.4 - 01:14.1] This is limited to just penetrating the skin layers.
+[01:14.1 - 01:16.1] However, it is safe, it is accessible,
+[01:16.1 - 01:18.3] and there's a ton of clinical studies backing up its claims.
+[01:18.3 - 01:20.1] All you do is put it on the skin once a day
+[01:20.1 - 01:22.5] in the affected areas and then keep this out of the sun
+[01:22.5 - 01:23.9] because the copper does degrade.
+[01:23.9 - 01:26.3] And I would recommend certain companies over others
+[01:26.3 - 01:28.3] because their formulations are cleaner,
+[01:28.3 - 01:30.7] but also they have some synergistic properties
+[01:30.7 - 01:32.1] that'll help it work a little bit better.
+[01:32.1 - 01:33.4] That's why I like the Astrowood one
+[01:33.4 - 01:36.1] because this one actually has hyaluronic acid in it.
+[01:36.1 - 01:38.1] So it's going to give it a lot more moisture
+[01:38.1 - 01:40.0] as well as those copper peptides.
+[01:40.0 - 01:42.4] It's also free of all the parabens, fragrances,
+[01:42.4 - 01:44.2] and anything that's gonna cause a lot of skin irritation.
+[01:44.2 - 01:46.1] And it's made in the United States.
+[01:46.1 - 01:47.6] They have some really good deals going on right now.
+[01:47.6 - 01:49.0] I'm gonna put it in that little orange shopping cart.
+[01:49.0 - 01:50.9] If you have any questions, just throw it in the comments.
+[01:50.9 - 01:52.5] I would love to answer it for you.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_26_7637014791999032606_transcription_20260531_214206.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_26_7637014791999032606_transcription_20260531_214206.txt
+
+============================================================
+RANK: 27 | GMV: $5692.76 | VIDEO ID: 7613783589976558879
+URL: https://www.tiktok.com/@faithfuldoc/video/7613783589976558879
+WORD COUNT: 1001
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_27_7613783589976558879.mp3, file size: 1.67 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 91.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.1]  Here is the correct way to take Mary Ruth's Hair Growth Max formula from a doctor's perspective.
+[00:05.1 - 00:08.5]  If you've recently gotten this because it has Lustreva in it, which is clinically proven
+[00:08.5 - 00:12.5]  and tested to get you results within 3 weeks, then listen up because I'm going to give you
+[00:12.5 - 00:16.3]  some tips to be able to get the best benefits out of your supplement and get the best bang
+[00:16.3 - 00:17.3]  for your buck.
+[00:17.3 - 00:21.3]  This just contains hair growth formula, no multivitamins or other supplements are in
+[00:21.3 - 00:22.3]  this product.
+[00:22.3 - 00:26.3]  Something this product has in it that isn't just Lustreva is pumpkin seed oil as well
+[00:27.3 - 00:30.1]  and both of those two things are DHT blockers.
+[00:30.1 - 00:35.2]  My PCOS ladies and my men with high testosterone who are bald know exactly what I'm talking
+[00:35.2 - 00:36.2]  about.
+[00:36.2 - 00:39.8]  DHT is the active form of testosterone and it shortens the hair cycle and therefore has
+[00:39.8 - 00:41.6]  your hair fall out faster.
+[00:41.6 - 00:45.8]  And the Lustreva has been shown to grow thicker, longer hair.
+[00:45.8 - 00:48.8]  Once you open it, it does say to refrigerate it after opening.
+[00:48.8 - 00:52.3]  That makes the product last longer and then also shake it because it is a liquid and you
+[00:52.3 - 00:54.6]  don't want any of the supplement to settle on the bottom.
+[00:54.6 - 00:58.4]  You only need to take one tablespoon a day and it seriously tastes like caramel.
+[00:58.4 - 00:59.9]  You can take it with or without a meal.
+[00:59.9 - 01:02.7]  I sometimes put it on my ice cream because it's that good.
+[01:02.7 - 01:06.5]  The most important thing I can tell you is just be consistent because you definitely
+[01:06.5 - 01:10.1]  need to make sure that you're getting regular doses in order to get the benefits.
+[01:10.1 - 01:12.6]  You just won't see results if you don't do the thing, you know?
+[01:12.6 - 01:16.1]  The best price is actually on TikTok shop because they run deals all the time, believe
+[01:16.1 - 01:20.5]  me I checked, and they have bundles so you can get their hair growth formula as well
+[01:20.5 - 01:23.4]  so that you can have longer hair and thicker hair together.
+[01:23.4 - 01:27.2]  I'll link them below, you can grab them whenever you like, although the deal is happening now
+[01:27.2 - 01:30.2]  and I would say if you have any other questions, go ahead and leave them in the comments and
+[01:30.2 - 01:31.2]  I'll answer as many as I can.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_27_7613783589976558879_transcription_20260531_214219.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_27_7613783589976558879_transcription_20260531_214219.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_27_7613783589976558879.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_27_7613783589976558879.mp3, file size: 1.67 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.1] Here is the correct way to take Mary Ruth's Hair Growth Max formula from a doctor's perspective.
+[00:05.1 - 00:08.5] If you've recently gotten this because it has Lustreva in it, which is clinically proven
+[00:08.5 - 00:12.5] and tested to get you results within 3 weeks, then listen up because I'm going to give you
+[00:12.5 - 00:16.3] some tips to be able to get the best benefits out of your supplement and get the best bang
+[00:16.3 - 00:17.3] for your buck.
+[00:17.3 - 00:21.3] This just contains hair growth formula, no multivitamins or other supplements are in
+[00:21.3 - 00:22.3] this product.
+[00:22.3 - 00:26.3] Something this product has in it that isn't just Lustreva is pumpkin seed oil as well
+[00:27.3 - 00:30.1] and both of those two things are DHT blockers.
+[00:30.1 - 00:35.2] My PCOS ladies and my men with high testosterone who are bald know exactly what I'm talking
+[00:35.2 - 00:36.2] about.
+[00:36.2 - 00:39.8] DHT is the active form of testosterone and it shortens the hair cycle and therefore has
+[00:39.8 - 00:41.6] your hair fall out faster.
+[00:41.6 - 00:45.8] And the Lustreva has been shown to grow thicker, longer hair.
+[00:45.8 - 00:48.8] Once you open it, it does say to refrigerate it after opening.
+[00:48.8 - 00:52.3] That makes the product last longer and then also shake it because it is a liquid and you
+[00:52.3 - 00:54.6] don't want any of the supplement to settle on the bottom.
+[00:54.6 - 00:58.4] You only need to take one tablespoon a day and it seriously tastes like caramel.
+[00:58.4 - 00:59.9] You can take it with or without a meal.
+[00:59.9 - 01:02.7] I sometimes put it on my ice cream because it's that good.
+[01:02.7 - 01:06.5] The most important thing I can tell you is just be consistent because you definitely
+[01:06.5 - 01:10.1] need to make sure that you're getting regular doses in order to get the benefits.
+[01:10.1 - 01:12.6] You just won't see results if you don't do the thing, you know?
+[01:12.6 - 01:16.1] The best price is actually on TikTok shop because they run deals all the time, believe
+[01:16.1 - 01:20.5] me I checked, and they have bundles so you can get their hair growth formula as well
+[01:20.5 - 01:23.4] so that you can have longer hair and thicker hair together.
+[01:23.4 - 01:27.2] I'll link them below, you can grab them whenever you like, although the deal is happening now
+[01:27.2 - 01:30.2] and I would say if you have any other questions, go ahead and leave them in the comments and
+[01:30.2 - 01:31.2] I'll answer as many as I can.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_27_7613783589976558879_transcription_20260531_214219.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_27_7613783589976558879_transcription_20260531_214219.txt
+
+============================================================
+RANK: 28 | GMV: $5610.89 | VIDEO ID: 7619481286113021215
+URL: https://www.tiktok.com/@faithfuldoc/video/7619481286113021215
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 29 | GMV: $5484.62 | VIDEO ID: 7616011268452879646
+URL: https://www.tiktok.com/@faithfuldoc/video/7616011268452879646
+WORD COUNT: 1173
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_29_7616011268452879646.mp3, file size: 1.96 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 108.9 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.0]  take Mary Ruth's lymphatic drops the correct way from a doctor's perspective. This has gone crazy
+[00:05.0 - 00:08.8]  viral on the TikTok shop so I wanted to take a moment to be able to give you some tips so that
+[00:08.8 - 00:12.7]  you can take it the correct way from a doctor's perspective. The lymphatic system is kind of like
+[00:12.7 - 00:18.1]  the waist removal of the body and if you notice things like a fluid buildup in the armpits or
+[00:18.1 - 00:23.2]  under the chin or in the belly or in the legs you might have a backup in the system. The first tip
+[00:23.2 - 00:27.7]  is that you need to be super consistent with this because fluid builds up very rapidly and it needs
+[00:27.7 - 00:32.6]  to be done daily. You just do one ml once a day but you can do up to three mls if you would like.
+[00:32.6 - 00:36.2]  Because this is made with some pretty intense herbs I'd probably just start with one ml once
+[00:36.2 - 00:40.3]  a day and then build up as needed. You don't need to dilute it in any water you can put it directly
+[00:40.3 - 00:44.2]  in your mouth. For better absorption you want to be putting it directly under your tongue and
+[00:44.2 - 00:51.1]  leaving it there for a good 30 seconds like so. It's harder. It has a very sweet taste because
+[00:51.1 - 00:56.1]  it's made with a glycerin which is actually a fat molecule so it won't spike your blood sugar.
+[00:56.1 - 01:00.2]  Because we're trying to drain the system you want to be drinking this with plenty of fluid
+[01:00.2 - 01:04.6]  because that'll help push out the extra waste. You need to be incorporating some kind of movement
+[01:04.6 - 01:09.1]  exercise or things like massage can really help with lymphatic drainage because it works on like
+[01:09.1 - 01:14.6]  a valve system. It pushes in one general direction and it doesn't backflow so when you move it moves
+[01:14.6 - 01:19.0]  it out of the body. You can use it any time of the day but I do recommend doing it in the morning
+[01:19.0 - 01:24.2]  just because you're going to be going a lot and it's going to be needing you to drink a lot of
+[01:24.2 - 01:27.3]  water and you don't want to be waking up in the middle of the night. This really does help if
+[01:27.3 - 01:31.8]  you've got those stuck fluid areas that you just can't seem to get to that makes you feel a little
+[01:31.8 - 01:36.4]  fluffy and puffy. I notice a lot of it around my period time but I have endometriosis so I'm just
+[01:36.4 - 01:40.5]  a weird duck like that. Hyperhydrator problems you know. TikTok has the best price when it comes to
+[01:40.5 - 01:44.5]  Mary Ruth products so I highly recommend getting it here and it's going to be on sale right now
+[01:44.5 - 01:47.4]  so I'm going to put it in this little orange shopping cart so you can get the right one.
+[01:47.4 - 01:48.7]  Highly recommend picking this up.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_29_7616011268452879646_transcription_20260531_214231.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_29_7616011268452879646_transcription_20260531_214231.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_29_7616011268452879646.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_29_7616011268452879646.mp3, file size: 1.96 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.0] take Mary Ruth's lymphatic drops the correct way from a doctor's perspective. This has gone crazy
+[00:05.0 - 00:08.8] viral on the TikTok shop so I wanted to take a moment to be able to give you some tips so that
+[00:08.8 - 00:12.7] you can take it the correct way from a doctor's perspective. The lymphatic system is kind of like
+[00:12.7 - 00:18.1] the waist removal of the body and if you notice things like a fluid buildup in the armpits or
+[00:18.1 - 00:23.2] under the chin or in the belly or in the legs you might have a backup in the system. The first tip
+[00:23.2 - 00:27.7] is that you need to be super consistent with this because fluid builds up very rapidly and it needs
+[00:27.7 - 00:32.6] to be done daily. You just do one ml once a day but you can do up to three mls if you would like.
+[00:32.6 - 00:36.2] Because this is made with some pretty intense herbs I'd probably just start with one ml once
+[00:36.2 - 00:40.3] a day and then build up as needed. You don't need to dilute it in any water you can put it directly
+[00:40.3 - 00:44.2] in your mouth. For better absorption you want to be putting it directly under your tongue and
+[00:44.2 - 00:51.1] leaving it there for a good 30 seconds like so. It's harder. It has a very sweet taste because
+[00:51.1 - 00:56.1] it's made with a glycerin which is actually a fat molecule so it won't spike your blood sugar.
+[00:56.1 - 01:00.2] Because we're trying to drain the system you want to be drinking this with plenty of fluid
+[01:00.2 - 01:04.6] because that'll help push out the extra waste. You need to be incorporating some kind of movement
+[01:04.6 - 01:09.1] exercise or things like massage can really help with lymphatic drainage because it works on like
+[01:09.1 - 01:14.6] a valve system. It pushes in one general direction and it doesn't backflow so when you move it moves
+[01:14.6 - 01:19.0] it out of the body. You can use it any time of the day but I do recommend doing it in the morning
+[01:19.0 - 01:24.2] just because you're going to be going a lot and it's going to be needing you to drink a lot of
+[01:24.2 - 01:27.3] water and you don't want to be waking up in the middle of the night. This really does help if
+[01:27.3 - 01:31.8] you've got those stuck fluid areas that you just can't seem to get to that makes you feel a little
+[01:31.8 - 01:36.4] fluffy and puffy. I notice a lot of it around my period time but I have endometriosis so I'm just
+[01:36.4 - 01:40.5] a weird duck like that. Hyperhydrator problems you know. TikTok has the best price when it comes to
+[01:40.5 - 01:44.5] Mary Ruth products so I highly recommend getting it here and it's going to be on sale right now
+[01:44.5 - 01:47.4] so I'm going to put it in this little orange shopping cart so you can get the right one.
+[01:47.4 - 01:48.7] Highly recommend picking this up.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_29_7616011268452879646_transcription_20260531_214231.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_29_7616011268452879646_transcription_20260531_214231.txt
+
+============================================================
+RANK: 30 | GMV: $5279.58 | VIDEO ID: 7639514736349990175
+URL: https://www.tiktok.com/@faithfuldoc/video/7639514736349990175
+WORD COUNT: 1193
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_30_7639514736349990175.mp3, file size: 1.89 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 106.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.6]  Here's the correct way to take ALA for neuropathy from a doctor's perspective.
+[00:03.6 - 00:06.5]  If you have neuropathy and you've been living in the United States, you probably have been
+[00:06.5 - 00:10.3]  given gabapentin for pain and that doesn't actually fix anything.
+[00:10.3 - 00:13.4]  It just stops the nerves from firing, which does reduce your pain.
+[00:13.4 - 00:16.1]  And if you're really unlucky, you probably have dealt with the side effects.
+[00:16.1 - 00:20.6]  Things like dizziness, headaches, fatigue, dry mouth, swelling in the hands and feet.
+[00:20.6 - 00:23.7]  Well, in countries like Europe, they don't actually use things like gabapentin.
+[00:23.7 - 00:26.8]  They use things like ALA, which is alpha lipoic acid.
+[00:26.8 - 00:31.7]  And what this does is it reduces the oxidative damage, which causes the nerve pain and nerve
+[00:31.7 - 00:35.0]  damage in the first place, as well as reduce inflammation.
+[00:35.0 - 00:36.8]  And it also helps nerves regrow.
+[00:36.8 - 00:41.0]  The clinical studies for ALA are kind of insane because it's shown so much benefit.
+[00:41.0 - 00:45.4]  So in countries like Europe, they've actually made it into a medication because of those
+[00:45.4 - 00:46.6]  potent benefits.
+[00:46.6 - 00:49.5]  But we're lucky enough to actually have this over the counter in the United States.
+[00:49.5 - 00:51.3]  And this is how you're going to take it to get the best benefit.
+[00:51.3 - 00:53.8]  The clinical dosage for this is around three to 600 milligrams.
+[00:53.9 - 00:57.4]  However, you can go all the way up to 1,200 milligrams without getting side effects.
+[00:57.4 - 00:58.9]  However, more is not better.
+[00:58.9 - 01:00.4]  And you really need to be talking to your doctor.
+[01:00.4 - 01:04.0]  You really want to be taking this about 30 to 60 minutes before meals because food does
+[01:04.0 - 01:08.0]  compete with absorption and it can reduce the availability by up to 30 percent.
+[01:08.0 - 01:12.1]  However, if you're somebody who gets nauseous, you're going to be taking it with food so
+[01:12.1 - 01:14.2]  that you actually are consistent with taking it.
+[01:14.2 - 01:16.2]  I'd rather you be consistent than get nausea.
+[01:16.2 - 01:19.8]  You want to be looking for RALA because that's the correct isomer that's going to be the
+[01:19.8 - 01:20.8]  most stable form.
+[01:20.8 - 01:22.5]  So you're going to have the best bioavailability.
+[01:22.6 - 01:25.8]  The last thing I would say is that you really want to get a good quality supplement so you
+[01:25.8 - 01:29.1]  know exactly what you're getting, which is why I like microingredients because they have
+[01:29.1 - 01:30.7]  the correct form.
+[01:30.7 - 01:34.7]  It's a great dose and it's made with coconut oil so it's going to be the most bioavailable
+[01:34.7 - 01:35.7]  and best absorbed.
+[01:35.7 - 01:37.7]  They also have absolutely no fillers.
+[01:37.7 - 01:40.4]  It's made in the United States and they're third-party tested.
+[01:40.4 - 01:41.6]  I'm going to put another little orange shopping cart.
+[01:41.6 - 01:43.4]  There's some really good deals going on right now.
+[01:43.4 - 01:45.0]  If you have any questions, just throw them in the comments.
+[01:45.0 - 01:46.2]  I would love to answer them for you.
+Complete transcription result saved to: /tmp/tmpqhaiet5b/video_30_7639514736349990175_transcription_20260531_214245.json
+Plain text transcription saved to: /tmp/tmpqhaiet5b/video_30_7639514736349990175_transcription_20260531_214245.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpqhaiet5b/video_30_7639514736349990175.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpqhaiet5b/video_30_7639514736349990175.mp3, file size: 1.89 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.6] Here's the correct way to take ALA for neuropathy from a doctor's perspective.
+[00:03.6 - 00:06.5] If you have neuropathy and you've been living in the United States, you probably have been
+[00:06.5 - 00:10.3] given gabapentin for pain and that doesn't actually fix anything.
+[00:10.3 - 00:13.4] It just stops the nerves from firing, which does reduce your pain.
+[00:13.4 - 00:16.1] And if you're really unlucky, you probably have dealt with the side effects.
+[00:16.1 - 00:20.6] Things like dizziness, headaches, fatigue, dry mouth, swelling in the hands and feet.
+[00:20.6 - 00:23.7] Well, in countries like Europe, they don't actually use things like gabapentin.
+[00:23.7 - 00:26.8] They use things like ALA, which is alpha lipoic acid.
+[00:26.8 - 00:31.7] And what this does is it reduces the oxidative damage, which causes the nerve pain and nerve
+[00:31.7 - 00:35.0] damage in the first place, as well as reduce inflammation.
+[00:35.0 - 00:36.8] And it also helps nerves regrow.
+[00:36.8 - 00:41.0] The clinical studies for ALA are kind of insane because it's shown so much benefit.
+[00:41.0 - 00:45.4] So in countries like Europe, they've actually made it into a medication because of those
+[00:45.4 - 00:46.6] potent benefits.
+[00:46.6 - 00:49.5] But we're lucky enough to actually have this over the counter in the United States.
+[00:49.5 - 00:51.3] And this is how you're going to take it to get the best benefit.
+[00:51.3 - 00:53.8] The clinical dosage for this is around three to 600 milligrams.
+[00:53.9 - 00:57.4] However, you can go all the way up to 1,200 milligrams without getting side effects.
+[00:57.4 - 00:58.9] However, more is not better.
+[00:58.9 - 01:00.4] And you really need to be talking to your doctor.
+[01:00.4 - 01:04.0] You really want to be taking this about 30 to 60 minutes before meals because food does
+[01:04.0 - 01:08.0] compete with absorption and it can reduce the availability by up to 30 percent.
+[01:08.0 - 01:12.1] However, if you're somebody who gets nauseous, you're going to be taking it with food so
+[01:12.1 - 01:14.2] that you actually are consistent with taking it.
+[01:14.2 - 01:16.2] I'd rather you be consistent than get nausea.
+[01:16.2 - 01:19.8] You want to be looking for RALA because that's the correct isomer that's going to be the
+[01:19.8 - 01:20.8] most stable form.
+[01:20.8 - 01:22.5] So you're going to have the best bioavailability.
+[01:22.6 - 01:25.8] The last thing I would say is that you really want to get a good quality supplement so you
+[01:25.8 - 01:29.1] know exactly what you're getting, which is why I like microingredients because they have
+[01:29.1 - 01:30.7] the correct form.
+[01:30.7 - 01:34.7] It's a great dose and it's made with coconut oil so it's going to be the most bioavailable
+[01:34.7 - 01:35.7] and best absorbed.
+[01:35.7 - 01:37.7] They also have absolutely no fillers.
+[01:37.7 - 01:40.4] It's made in the United States and they're third-party tested.
+[01:40.4 - 01:41.6] I'm going to put another little orange shopping cart.
+[01:41.6 - 01:43.4] There's some really good deals going on right now.
+[01:43.4 - 01:45.0] If you have any questions, just throw them in the comments.
+[01:45.0 - 01:46.2] I would love to answer them for you.
+
+Completed transcription, JSON saved to /tmp/tmpqhaiet5b/video_30_7639514736349990175_transcription_20260531_214245.json
+Plain text transcription saved to /tmp/tmpqhaiet5b/video_30_7639514736349990175_transcription_20260531_214245.txt
+

@@ -1,0 +1,68 @@
+Starting Speech-to-Text conversion...
+Video file detected: 01_jan_lee_bye_bye_bumps.mp4, file size: 13.10 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: 01_jan_lee_bye_bye_bumps_converted_20260906_022106.mp3
+Transcribing audio file: 01_jan_lee_bye_bye_bumps_converted_20260906_022106.mp3, file size: 0.60 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 79.2 seconds
+Language: eng
+Timestamped segments:
+[00:00.2 - 00:04.0] Buy Medicube a brand new No More Bumps Body Care Bundle.
+[00:04.0 - 00:06.7] You get gift with purchase while supplies last.
+[00:06.7 - 00:14.7] You're gonna get the brand new Red Body Peel Shot Cleanser, the Red Clear Capsule Body Lotion, along with the brand new Red Body Wash.
+[00:14.7 - 00:19.0] Three step complete body skincare routine to help with that strawberry bumps.
+[00:19.0 - 00:21.1] First, you're gonna start with the Peel Shot Cleanser.
+[00:21.1 - 00:24.4] You can use it all over your body for that chicken skin, strawberry legs.
+[00:24.4 - 00:27.9] This is formulated with lots of exfoliant to help smooth out the skin.
+[00:27.9 - 00:29.4] You just leave it on for one minute.
+[00:29.4 - 00:33.1] It's also formulated with niacinamide to help with that rough skin texture.
+[00:33.1 - 00:35.2] Next, you're gonna start with the Red Body Wash.
+[00:35.2 - 00:45.4] This has AHA, BHA, PHA to just really help improve the skin texture with niacinamide built in to help brighten dark spots on your elbow, your underarms, even your ankles.
+[00:45.4 - 00:50.1] After your skin is clean and rinsed off, you're gonna go in with the brand new body lotion.
+[00:50.1 - 00:58.9] It's also formulated with AHA, BHA, and PHA with urea, niacinamide, to just really help smooth, hydrate, and brighten the skin texture.
+[00:58.9 - 01:00.5] Brand new bundle, just launched.
+[01:00.5 - 01:05.8] You know anytime Medicube drops something new, they're giving us a little discount for a very limited time.
+[01:05.8 - 01:08.6] Plus, don't forget the gift with purchase while supplies last.
+[01:08.6 - 01:09.8] I'm gonna tag you below.
+[01:09.8 - 01:17.9] If you have rough, bumpy skin or strawberry legs and you have tried other products but it hasn't helped yet, definitely give this bundle a try from Medicube.
+[01:17.9 - 01:19.1] I'm gonna tag it below.
+Complete transcription result saved to: /home/ubuntu/medicube_benchmark_media/01_jan_lee_bye_bye_bumps_converted_20260906_022106_transcription_20260906_022112.json
+Plain text transcription saved to: /home/ubuntu/medicube_benchmark_media/01_jan_lee_bye_bye_bumps_converted_20260906_022106_transcription_20260906_022112.txt
+
+The video has been automatically converted to an audio file and saved at 01_jan_lee_bye_bye_bumps_converted_20260906_022106.mp3
+[2J[H[3Jmanus-speech-to-text 01_jan_lee_bye_bye_bumps.mp4
+Starting Speech-to-Text conversion...
+Video file detected: 01_jan_lee_bye_bye_bumps.mp4, file size: 13.10 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: 01_jan_lee_bye_bye_bumps_converted_20260906_022106.mp3, file size: 0.60 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.2 - 00:04.0] Buy Medicube a brand new No More Bumps Body Care Bundle.
+[00:04.0 - 00:06.7] You get gift with purchase while supplies last.
+[00:06.7 - 00:14.7] You're gonna get the brand new Red Body Peel Shot Cleanser, the Red Clear Capsule Body Lotion, along with the brand new Red Body Wash.
+[00:14.7 - 00:19.0] Three step complete body skincare routine to help with that strawberry bumps.
+[00:19.0 - 00:21.1] First, you're gonna start with the Peel Shot Cleanser.
+[00:21.1 - 00:24.4] You can use it all over your body for that chicken skin, strawberry legs.
+[00:24.4 - 00:27.9] This is formulated with lots of exfoliant to help smooth out the skin.
+[00:27.9 - 00:29.4] You just leave it on for one minute.
+[00:29.4 - 00:33.1] It's also formulated with niacinamide to help with that rough skin texture.
+[00:33.1 - 00:35.2] Next, you're gonna start with the Red Body Wash.
+[00:35.2 - 00:45.4] This has AHA, BHA, PHA to just really help improve the skin texture with niacinamide built in to help brighten dark spots on your elbow, your underarms, even your ankles.
+[00:45.4 - 00:50.1] After your skin is clean and rinsed off, you're gonna go in with the brand new body lotion.
+[00:50.1 - 00:58.9] It's also formulated with AHA, BHA, and PHA with urea, niacinamide, to just really help smooth, hydrate, and brighten the skin texture.
+[00:58.9 - 01:00.5] Brand new bundle, just launched.
+[01:00.5 - 01:05.8] You know anytime Medicube drops something new, they're giving us a little discount for a very limited time.
+[01:05.8 - 01:08.6] Plus, don't forget the gift with purchase while supplies last.
+[01:08.6 - 01:09.8] I'm gonna tag you below.
+[01:09.8 - 01:17.9] If you have rough, bumpy skin or strawberry legs and you have tried other products but it hasn't helped yet, definitely give this bundle a try from Medicube.
+[01:17.9 - 01:19.1] I'm gonna tag it below.
+
+The video has been automatically converted to an audio file and saved at 01_jan_lee_bye_bye_bumps_converted_20260906_022106.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/medicube_benchmark_media/01_jan_lee_bye_bye_bumps_converted_20260906_022106_transcription_20260906_022112.json
+Plain text transcription saved to /home/ubuntu/medicube_benchmark_media/01_jan_lee_bye_bye_bumps_converted_20260906_022106_transcription_20260906_022112.txt

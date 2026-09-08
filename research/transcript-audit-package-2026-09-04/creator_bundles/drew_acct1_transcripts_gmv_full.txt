@@ -1,0 +1,2496 @@
+# Creator: drew_acct1
+# Generated: 2026-05-31
+# Total videos: 30
+# Source: Kalodata top GMV export, 6-month window
+
+============================================================
+RANK: 01 | GMV: $179256.89 | VIDEO ID: 7592733868550114574
+URL: https://www.tiktok.com/@drew.review/video/7592733868550114574
+WORD COUNT: 961
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_1_7592733868550114574.mp3, file size: 2.57 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 82.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.6]  you take astaxanthin for one month straight, here's what you will experience. I'm a pancreatic cancer
+[00:04.6 - 00:07.8]  researcher and I talk about the science behind whether certain supplements work or not, so let
+[00:07.8 - 00:11.6]  me show you scientific evidence while I talk. Astaxanthin is one of the most powerful organic
+[00:11.6 - 00:15.9]  antioxidants in the world. It is a pigment molecule found in the ocean and it is 6,000 times stronger
+[00:15.9 - 00:19.8]  than vitamin C as an antioxidant. It is in fact one of the few antioxidants that can enter your
+[00:19.8 - 00:23.5]  brain, your eyes, and your skin barrier, so it is incredible for your skin health. It helps with
+[00:23.5 - 00:27.3]  fine lines and wrinkles. It keeps your skin youthful, hydrated, and moisturized. It also
+[00:27.3 - 00:31.1]  protects your skin from UV ray damage, from disease, stress, and aging, and it gives your
+[00:31.1 - 00:35.0]  skin a beautiful, healthy, glowy undertone. It's also phenomenal for eye health because it helps
+[00:35.0 - 00:39.2]  with dry eyes, fatigue, blue light damage coming from your computer screens, and it helps with age
+[00:39.2 - 00:43.1]  related degeneration, plus it helps with eye floaters too. It also makes sure that your brain
+[00:43.1 - 00:47.8]  ages nice and healthy. It offers cardiovascular support and it helps give you natural energy while
+[00:47.8 - 00:51.7]  removing lactic acid buildup from your muscles and helps your muscles recover a lot quicker,
+[00:51.7 - 00:55.3]  especially if you work out. And the best thing is that you only need one little capsule per day,
+[00:55.3 - 00:58.8]  and the one that I always recommend is for micro ingredients because this is third party
+[00:58.8 - 01:02.2]  tested in the United States, which is important because this comes from the ocean for micro
+[01:02.2 - 01:06.3]  algae, so you have to test for head metals. This is a 120 day supply. It's all organic,
+[01:06.3 - 01:10.0]  it's made in America on top of that, and it has a ton of fantastic reviews behind it,
+[01:10.0 - 01:13.0]  and they're having a great flash sale on top of that, so if you would like to check this out,
+[01:13.0 - 01:16.0]  I will leave a link right down here to their official store so that you can see those reviews,
+[01:16.0 - 01:19.2]  but be careful because whenever they bring the price that low, they usually sell out fast,
+[01:19.2 - 01:22.0]  so if you still see that orange shopping cart, they are still left in stock.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_1_7592733868550114574_transcription_20260531_212450.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_1_7592733868550114574_transcription_20260531_212450.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_1_7592733868550114574.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_1_7592733868550114574.mp3, file size: 2.57 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.6] you take astaxanthin for one month straight, here's what you will experience. I'm a pancreatic cancer
+[00:04.6 - 00:07.8] researcher and I talk about the science behind whether certain supplements work or not, so let
+[00:07.8 - 00:11.6] me show you scientific evidence while I talk. Astaxanthin is one of the most powerful organic
+[00:11.6 - 00:15.9] antioxidants in the world. It is a pigment molecule found in the ocean and it is 6,000 times stronger
+[00:15.9 - 00:19.8] than vitamin C as an antioxidant. It is in fact one of the few antioxidants that can enter your
+[00:19.8 - 00:23.5] brain, your eyes, and your skin barrier, so it is incredible for your skin health. It helps with
+[00:23.5 - 00:27.3] fine lines and wrinkles. It keeps your skin youthful, hydrated, and moisturized. It also
+[00:27.3 - 00:31.1] protects your skin from UV ray damage, from disease, stress, and aging, and it gives your
+[00:31.1 - 00:35.0] skin a beautiful, healthy, glowy undertone. It's also phenomenal for eye health because it helps
+[00:35.0 - 00:39.2] with dry eyes, fatigue, blue light damage coming from your computer screens, and it helps with age
+[00:39.2 - 00:43.1] related degeneration, plus it helps with eye floaters too. It also makes sure that your brain
+[00:43.1 - 00:47.8] ages nice and healthy. It offers cardiovascular support and it helps give you natural energy while
+[00:47.8 - 00:51.7] removing lactic acid buildup from your muscles and helps your muscles recover a lot quicker,
+[00:51.7 - 00:55.3] especially if you work out. And the best thing is that you only need one little capsule per day,
+[00:55.3 - 00:58.8] and the one that I always recommend is for micro ingredients because this is third party
+[00:58.8 - 01:02.2] tested in the United States, which is important because this comes from the ocean for micro
+[01:02.2 - 01:06.3] algae, so you have to test for head metals. This is a 120 day supply. It's all organic,
+[01:06.3 - 01:10.0] it's made in America on top of that, and it has a ton of fantastic reviews behind it,
+[01:10.0 - 01:13.0] and they're having a great flash sale on top of that, so if you would like to check this out,
+[01:13.0 - 01:16.0] I will leave a link right down here to their official store so that you can see those reviews,
+[01:16.0 - 01:19.2] but be careful because whenever they bring the price that low, they usually sell out fast,
+[01:19.2 - 01:22.0] so if you still see that orange shopping cart, they are still left in stock.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_1_7592733868550114574_transcription_20260531_212450.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_1_7592733868550114574_transcription_20260531_212450.txt
+
+============================================================
+RANK: 02 | GMV: $117035.23 | VIDEO ID: 7578355445631356174
+URL: https://www.tiktok.com/@drew.review/video/7578355445631356174
+WORD COUNT: 1235
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_2_7578355445631356174.mp3, file size: 3.38 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 108.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.8]  which is better, NMN or anti-aging NAD?
+[00:02.8 - 00:04.1]  I'm a pancreatic cancer researcher
+[00:04.1 - 00:05.2]  and a naturopath practitioner,
+[00:05.2 - 00:07.2]  so let's quickly go over the science behind them.
+[00:07.2 - 00:10.1]  NMN is a building block of NAD,
+[00:10.1 - 00:12.9]  and they are both found in every single cell of your body.
+[00:12.9 - 00:15.3]  And they are absolutely critical for human survival
+[00:15.3 - 00:18.1]  because they play a central role in energy production.
+[00:18.1 - 00:20.1]  So all the fuel that your body needs
+[00:20.1 - 00:22.1]  comes from NMN and NAD.
+[00:22.1 - 00:24.2]  They're also important in DNA repair mechanisms
+[00:24.2 - 00:25.5]  and the life cycle of a cell,
+[00:25.5 - 00:28.4]  so they keep your cells a lot healthier for much longer.
+[00:28.4 - 00:30.6]  And that translates to powerful anti-aging control.
+[00:30.6 - 00:33.0]  Fine lines, wrinkles, gray hair popping out of nowhere.
+[00:33.0 - 00:35.1]  It's also important for not only chronic fatigue,
+[00:35.1 - 00:37.0]  but for brain fog, inflammation,
+[00:37.0 - 00:39.7]  joint pain, hormonal balance, and so many other things.
+[00:39.7 - 00:42.0]  And because NMN is a precursor,
+[00:42.0 - 00:44.1]  it's best suited for metabolic control
+[00:44.1 - 00:45.4]  and for mitochondrial support.
+[00:45.4 - 00:47.5]  It stays in your system a lot longer,
+[00:47.5 - 00:49.6]  so it's able to work on those repair pathways,
+[00:49.6 - 00:51.2]  longevity, fine lines, and wrinkles.
+[00:51.2 - 00:53.0]  It can calm inflammation and joint pain.
+[00:53.0 - 00:54.5]  It improves endurance and recovery.
+[00:54.5 - 00:56.1]  It can help with your cardiovascular health
+[00:56.1 - 00:58.1]  and so many other things that take a little bit longer
+[00:58.1 - 00:59.7]  for your system to actually work with.
+[00:59.7 - 01:03.0]  And because NAD is the final product, it works very quickly.
+[01:03.0 - 01:05.5]  So it's best for people who want faster, noticeable energy
+[01:05.5 - 01:07.0]  without any kind of caffeine crashes,
+[01:07.0 - 01:08.6]  cognitive support and mental clarity,
+[01:08.6 - 01:09.8]  so great for brain fog,
+[01:09.8 - 01:11.9]  and also help with burnout or chronic stress.
+[01:11.9 - 01:15.2]  NAD is also really great to get as an infusion or injections
+[01:15.2 - 01:17.0]  and NMN can work that way as well,
+[01:17.0 - 01:19.1]  but it's also really greatly suited for capsule form,
+[01:19.1 - 01:21.1]  which is much more convenient for a lot of people out there.
+[01:21.1 - 01:22.8]  And if you want a recommendation for NMN
+[01:22.8 - 01:25.0]  that has no filters or additives and made in America,
+[01:25.0 - 01:26.5]  this is absolutely phenomenal.
+[01:26.5 - 01:28.7]  It has a very high concentration of NMN
+[01:28.7 - 01:31.2]  and it also has a lot of natural antioxidants,
+[01:31.2 - 01:34.2]  glutathione, astaxanthine, CoQ10, resveratrol,
+[01:34.2 - 01:35.9]  so many amazing ingredients in here.
+[01:35.9 - 01:37.2]  These are vegetarian capsules.
+[01:37.2 - 01:38.6]  It's a two-month supply.
+[01:38.6 - 01:39.8]  And again, they're made in America
+[01:39.8 - 01:41.0]  and third-party tested here too.
+[01:41.0 - 01:42.4]  So really, really high quality.
+[01:42.4 - 01:43.5]  If you want to check this out,
+[01:43.5 - 01:45.3]  I will leave a link right down here to their official store
+[01:45.3 - 01:46.7]  so you could see the reviews on this.
+[01:46.7 - 01:49.2]  And if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_2_7578355445631356174_transcription_20260531_212500.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_2_7578355445631356174_transcription_20260531_212500.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_2_7578355445631356174.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_2_7578355445631356174.mp3, file size: 3.38 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.8] which is better, NMN or anti-aging NAD?
+[00:02.8 - 00:04.1] I'm a pancreatic cancer researcher
+[00:04.1 - 00:05.2] and a naturopath practitioner,
+[00:05.2 - 00:07.2] so let's quickly go over the science behind them.
+[00:07.2 - 00:10.1] NMN is a building block of NAD,
+[00:10.1 - 00:12.9] and they are both found in every single cell of your body.
+[00:12.9 - 00:15.3] And they are absolutely critical for human survival
+[00:15.3 - 00:18.1] because they play a central role in energy production.
+[00:18.1 - 00:20.1] So all the fuel that your body needs
+[00:20.1 - 00:22.1] comes from NMN and NAD.
+[00:22.1 - 00:24.2] They're also important in DNA repair mechanisms
+[00:24.2 - 00:25.5] and the life cycle of a cell,
+[00:25.5 - 00:28.4] so they keep your cells a lot healthier for much longer.
+[00:28.4 - 00:30.6] And that translates to powerful anti-aging control.
+[00:30.6 - 00:33.0] Fine lines, wrinkles, gray hair popping out of nowhere.
+[00:33.0 - 00:35.1] It's also important for not only chronic fatigue,
+[00:35.1 - 00:37.0] but for brain fog, inflammation,
+[00:37.0 - 00:39.7] joint pain, hormonal balance, and so many other things.
+[00:39.7 - 00:42.0] And because NMN is a precursor,
+[00:42.0 - 00:44.1] it's best suited for metabolic control
+[00:44.1 - 00:45.4] and for mitochondrial support.
+[00:45.4 - 00:47.5] It stays in your system a lot longer,
+[00:47.5 - 00:49.6] so it's able to work on those repair pathways,
+[00:49.6 - 00:51.2] longevity, fine lines, and wrinkles.
+[00:51.2 - 00:53.0] It can calm inflammation and joint pain.
+[00:53.0 - 00:54.5] It improves endurance and recovery.
+[00:54.5 - 00:56.1] It can help with your cardiovascular health
+[00:56.1 - 00:58.1] and so many other things that take a little bit longer
+[00:58.1 - 00:59.7] for your system to actually work with.
+[00:59.7 - 01:03.0] And because NAD is the final product, it works very quickly.
+[01:03.0 - 01:05.5] So it's best for people who want faster, noticeable energy
+[01:05.5 - 01:07.0] without any kind of caffeine crashes,
+[01:07.0 - 01:08.6] cognitive support and mental clarity,
+[01:08.6 - 01:09.8] so great for brain fog,
+[01:09.8 - 01:11.9] and also help with burnout or chronic stress.
+[01:11.9 - 01:15.2] NAD is also really great to get as an infusion or injections
+[01:15.2 - 01:17.0] and NMN can work that way as well,
+[01:17.0 - 01:19.1] but it's also really greatly suited for capsule form,
+[01:19.1 - 01:21.1] which is much more convenient for a lot of people out there.
+[01:21.1 - 01:22.8] And if you want a recommendation for NMN
+[01:22.8 - 01:25.0] that has no filters or additives and made in America,
+[01:25.0 - 01:26.5] this is absolutely phenomenal.
+[01:26.5 - 01:28.7] It has a very high concentration of NMN
+[01:28.7 - 01:31.2] and it also has a lot of natural antioxidants,
+[01:31.2 - 01:34.2] glutathione, astaxanthine, CoQ10, resveratrol,
+[01:34.2 - 01:35.9] so many amazing ingredients in here.
+[01:35.9 - 01:37.2] These are vegetarian capsules.
+[01:37.2 - 01:38.6] It's a two-month supply.
+[01:38.6 - 01:39.8] And again, they're made in America
+[01:39.8 - 01:41.0] and third-party tested here too.
+[01:41.0 - 01:42.4] So really, really high quality.
+[01:42.4 - 01:43.5] If you want to check this out,
+[01:43.5 - 01:45.3] I will leave a link right down here to their official store
+[01:45.3 - 01:46.7] so you could see the reviews on this.
+[01:46.7 - 01:49.2] And if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_2_7578355445631356174_transcription_20260531_212500.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_2_7578355445631356174_transcription_20260531_212500.txt
+
+============================================================
+RANK: 03 | GMV: $113169.53 | VIDEO ID: 7569758846734961934
+URL: https://www.tiktok.com/@drew.review/video/7569758846734961934
+WORD COUNT: 861
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_3_7569758846734961934.mp3, file size: 2.45 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 78.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.7]  take magnesium for one month straight, here's what you'll experience. I'm a pancreatic cancer
+[00:03.7 - 00:07.7]  researcher and a naturopath practitioner so let's talk about it. First, magnesium is very important
+[00:07.7 - 00:11.4]  for muscle contractions and for relieving tension. So if you have tension headaches,
+[00:11.4 - 00:15.2]  you're always getting a charlie's horse, muscle cramping, pain, this is going to help you immensely.
+[00:15.2 - 00:19.8]  Magnesium also calms down inflammation and chronic pain and it is very helpful for quality of sleep.
+[00:19.8 - 00:23.4]  So if you want a deeper, longer, restful sleep without waking up in the middle of the night,
+[00:23.4 - 00:27.8]  magnesium. It also supports a healthy heart. Magnesium is really critical for blood pressure,
+[00:27.8 - 00:31.8]  for the pumping of your heart and it also helps with insulin sensitivity and post-meal blood
+[00:31.8 - 00:36.5]  sugar spiking. Magnesium is also really great for stress relief. It directly controls cortisol
+[00:36.5 - 00:40.4]  levels so it relaxes you and it makes you more resilient to stress in the future. And lastly,
+[00:40.4 - 00:44.8]  magnesium is very critical for bone integrity. So taking magnesium is going to keep your bones
+[00:44.8 - 00:49.2]  nice and strong and healthy across time and it is critical for your brain health. If you have brain
+[00:49.2 - 00:53.1]  fog, your memory and focus is not quite there, magnesium can help. And if you would like a
+[00:53.1 - 00:56.5]  recommendation, this is my favorite magnesium that I take. It has eight different forms of
+[00:56.5 - 01:00.6]  magnesium, especially magnesium glycinate which is very gentle on the stomach and it has a high
+[01:00.6 - 01:04.9]  absorption rate. It's made in America, it's third-party tested here and it's a 90-day supply.
+[01:04.9 - 01:08.8]  You take one capsule per day in the evening with food and you're ready to go. And this is running
+[01:08.8 - 01:13.0]  a crazy flash sale deal right now, limited time for the holiday. So I'll drop the link right down
+[01:13.0 - 01:16.4]  here where I get it for myself. You can see the thousands of reviews on this. It works for me,
+[01:16.4 - 01:18.3]  I know it's going to work for you, so please try it out.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_3_7569758846734961934_transcription_20260531_212510.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_3_7569758846734961934_transcription_20260531_212510.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_3_7569758846734961934.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_3_7569758846734961934.mp3, file size: 2.45 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.7] take magnesium for one month straight, here's what you'll experience. I'm a pancreatic cancer
+[00:03.7 - 00:07.7] researcher and a naturopath practitioner so let's talk about it. First, magnesium is very important
+[00:07.7 - 00:11.4] for muscle contractions and for relieving tension. So if you have tension headaches,
+[00:11.4 - 00:15.2] you're always getting a charlie's horse, muscle cramping, pain, this is going to help you immensely.
+[00:15.2 - 00:19.8] Magnesium also calms down inflammation and chronic pain and it is very helpful for quality of sleep.
+[00:19.8 - 00:23.4] So if you want a deeper, longer, restful sleep without waking up in the middle of the night,
+[00:23.4 - 00:27.8] magnesium. It also supports a healthy heart. Magnesium is really critical for blood pressure,
+[00:27.8 - 00:31.8] for the pumping of your heart and it also helps with insulin sensitivity and post-meal blood
+[00:31.8 - 00:36.5] sugar spiking. Magnesium is also really great for stress relief. It directly controls cortisol
+[00:36.5 - 00:40.4] levels so it relaxes you and it makes you more resilient to stress in the future. And lastly,
+[00:40.4 - 00:44.8] magnesium is very critical for bone integrity. So taking magnesium is going to keep your bones
+[00:44.8 - 00:49.2] nice and strong and healthy across time and it is critical for your brain health. If you have brain
+[00:49.2 - 00:53.1] fog, your memory and focus is not quite there, magnesium can help. And if you would like a
+[00:53.1 - 00:56.5] recommendation, this is my favorite magnesium that I take. It has eight different forms of
+[00:56.5 - 01:00.6] magnesium, especially magnesium glycinate which is very gentle on the stomach and it has a high
+[01:00.6 - 01:04.9] absorption rate. It's made in America, it's third-party tested here and it's a 90-day supply.
+[01:04.9 - 01:08.8] You take one capsule per day in the evening with food and you're ready to go. And this is running
+[01:08.8 - 01:13.0] a crazy flash sale deal right now, limited time for the holiday. So I'll drop the link right down
+[01:13.0 - 01:16.4] here where I get it for myself. You can see the thousands of reviews on this. It works for me,
+[01:16.4 - 01:18.3] I know it's going to work for you, so please try it out.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_3_7569758846734961934_transcription_20260531_212510.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_3_7569758846734961934_transcription_20260531_212510.txt
+
+============================================================
+RANK: 04 | GMV: $62390.49 | VIDEO ID: 7569148424658881805
+URL: https://www.tiktok.com/@drew.review/video/7569148424658881805
+WORD COUNT: 1015
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_4_7569148424658881805.mp3, file size: 3.10 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 97.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  take magnesium for one month straight, here's what you will experience. I'm a pancreatic cancer
+[00:04.0 - 00:07.4]  researcher and a naturopath practitioner, so let's get into the science and I'll show you scientific
+[00:07.4 - 00:11.4]  papers as well. In the first week, magnesium will calm your nervous system. You will have deeper,
+[00:11.4 - 00:15.8]  longer sleep, you will let go of muscle tension and headaches, and you will also experience less
+[00:15.8 - 00:19.9]  anxiety and stress. By week two, your energy and muscle function will improve. Magnesium is
+[00:19.9 - 00:23.8]  critical for energy production, so you will experience a natural burst of energy without
+[00:23.8 - 00:27.5]  any kind of caffeine jitters, your muscles will recover a lot quicker, especially after going to
+[00:27.5 - 00:31.4]  the gym, and it even starts to stabilize your heart rhythm and blood pressure. By week three,
+[00:31.4 - 00:35.5]  that is when hormonal regulation starts to kick in. Magnesium balances cortisol levels,
+[00:35.5 - 00:40.1]  so you will experience a lot less stress by this point. Hot flashes and night sweats will rapidly
+[00:40.1 - 00:44.3]  decrease. Magnesium also reduces PMS symptoms like cramping, irritability, and bloating,
+[00:44.3 - 00:48.3]  and smooth muscles will relax in the gut, so no more constipation. And towards the end,
+[00:48.3 - 00:51.8]  that's when you start to see those full body effects of magnesium. First of all, it will
+[00:51.8 - 00:55.5]  balance your blood sugar levels, cholesterol, blood pressure, you will have decreased pain
+[00:55.5 - 01:00.6]  and inflammation, especially joint pain, back pain, hip pain, knee pain. Amazing sleep, calmer mood,
+[01:00.6 - 01:05.4]  better energy, you will feel fantastic. And if you would like a recommendation, this is the magnesium
+[01:05.4 - 01:10.0]  I take. It's made in America and therapeutic tested here. It is a 90-day supply. I only recommend
+[01:10.0 - 01:13.8]  taking one capsule per day. Don't listen to the instructions, I know better. And also, this has
+[01:13.8 - 01:17.7]  fantastic reviews, literally thousands of them already. And this has eight different forms of
+[01:17.7 - 01:22.3]  magnesium, so you get a great holistic range here. It also has a lot of magnesium glycinate in it,
+[01:22.4 - 01:26.6]  which is the gentlest form on your stomach and has a very high absorption rate. This works like
+[01:26.6 - 01:29.9]  wonders for me, everybody. So if you want to check this out, I will leave a link right down here to
+[01:29.9 - 01:34.0]  their official store. They're having a crazy flash sale deal right now. So take one each day in the
+[01:34.0 - 01:37.3]  evening with food and you're ready to go. If you guys have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_4_7569148424658881805_transcription_20260531_212520.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_4_7569148424658881805_transcription_20260531_212520.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_4_7569148424658881805.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_4_7569148424658881805.mp3, file size: 3.10 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] take magnesium for one month straight, here's what you will experience. I'm a pancreatic cancer
+[00:04.0 - 00:07.4] researcher and a naturopath practitioner, so let's get into the science and I'll show you scientific
+[00:07.4 - 00:11.4] papers as well. In the first week, magnesium will calm your nervous system. You will have deeper,
+[00:11.4 - 00:15.8] longer sleep, you will let go of muscle tension and headaches, and you will also experience less
+[00:15.8 - 00:19.9] anxiety and stress. By week two, your energy and muscle function will improve. Magnesium is
+[00:19.9 - 00:23.8] critical for energy production, so you will experience a natural burst of energy without
+[00:23.8 - 00:27.5] any kind of caffeine jitters, your muscles will recover a lot quicker, especially after going to
+[00:27.5 - 00:31.4] the gym, and it even starts to stabilize your heart rhythm and blood pressure. By week three,
+[00:31.4 - 00:35.5] that is when hormonal regulation starts to kick in. Magnesium balances cortisol levels,
+[00:35.5 - 00:40.1] so you will experience a lot less stress by this point. Hot flashes and night sweats will rapidly
+[00:40.1 - 00:44.3] decrease. Magnesium also reduces PMS symptoms like cramping, irritability, and bloating,
+[00:44.3 - 00:48.3] and smooth muscles will relax in the gut, so no more constipation. And towards the end,
+[00:48.3 - 00:51.8] that's when you start to see those full body effects of magnesium. First of all, it will
+[00:51.8 - 00:55.5] balance your blood sugar levels, cholesterol, blood pressure, you will have decreased pain
+[00:55.5 - 01:00.6] and inflammation, especially joint pain, back pain, hip pain, knee pain. Amazing sleep, calmer mood,
+[01:00.6 - 01:05.4] better energy, you will feel fantastic. And if you would like a recommendation, this is the magnesium
+[01:05.4 - 01:10.0] I take. It's made in America and therapeutic tested here. It is a 90-day supply. I only recommend
+[01:10.0 - 01:13.8] taking one capsule per day. Don't listen to the instructions, I know better. And also, this has
+[01:13.8 - 01:17.7] fantastic reviews, literally thousands of them already. And this has eight different forms of
+[01:17.7 - 01:22.3] magnesium, so you get a great holistic range here. It also has a lot of magnesium glycinate in it,
+[01:22.4 - 01:26.6] which is the gentlest form on your stomach and has a very high absorption rate. This works like
+[01:26.6 - 01:29.9] wonders for me, everybody. So if you want to check this out, I will leave a link right down here to
+[01:29.9 - 01:34.0] their official store. They're having a crazy flash sale deal right now. So take one each day in the
+[01:34.0 - 01:37.3] evening with food and you're ready to go. If you guys have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_4_7569148424658881805_transcription_20260531_212520.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_4_7569148424658881805_transcription_20260531_212520.txt
+
+============================================================
+RANK: 05 | GMV: $56376.81 | VIDEO ID: 7547812216284663070
+URL: https://www.tiktok.com/@drew.review/video/7547812216284663070
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 06 | GMV: $52179.34 | VIDEO ID: 7546115820276026679
+URL: https://www.tiktok.com/@drew.review/video/7546115820276026679
+WORD COUNT: 1277
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_6_7546115820276026679.mp3, file size: 3.83 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 115.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  If your pee looks like this and you look like this, you're not fat.
+[00:04.0 - 00:07.9]  You are nutrient deficient with heavy water retention and your body is holding onto toxins
+[00:07.9 - 00:09.3]  instead of flushing them out.
+[00:09.3 - 00:13.2]  I'm a pancreatic cancer researcher and a naturopath practitioner, so let me go over what all of
+[00:13.2 - 00:16.0]  this is and how you can help yourself in a holistic way.
+[00:16.0 - 00:20.2]  The second you see those armpit booblets forming and that moon face coming into play, that's
+[00:20.2 - 00:21.6]  your body on survival mode.
+[00:21.6 - 00:23.5]  It's missing vital nutrients and minerals.
+[00:23.5 - 00:26.9]  In fact, that's why even though you drink a lot of water, you're always feeling thirsty
+[00:26.9 - 00:30.0]  because you're not getting the vital electrolytes and minerals that you normally need.
+[00:30.0 - 00:33.4]  And if you think that you can fix this just by eating cleaner or drinking more water,
+[00:33.4 - 00:34.4]  you're actually wrong.
+[00:34.4 - 00:37.9]  Our modern farming practices are stripping valuable minerals and nutrients from our soils
+[00:37.9 - 00:38.9]  and our food supply.
+[00:38.9 - 00:40.8]  And same goes for water processing as well.
+[00:40.8 - 00:43.6]  That's why even if you think you're eating the right things and working out, you're actually
+[00:43.6 - 00:45.6]  not getting the right nutrients that you still need.
+[00:45.6 - 00:49.9]  But before you start drinking raw water, I do not recommend that, instead, try Moringa.
+[00:49.9 - 00:53.2]  This is called the miracle tree for a very good reason and let me tell you, it is packed
+[00:53.2 - 00:58.1]  with over 92 different nutrients, including a lot of vitamins, vitamins A, C, and E.
+[00:58.1 - 01:02.8]  It also has all-in-one essential amino acids and it has a lot of minerals in it, potassium,
+[01:02.8 - 01:07.1]  iron, calcium, zinc, copper, magnesium, everything your body needs in order to function.
+[01:07.1 - 01:10.5]  Moringa also has strong anti-inflammatory support, so it's really helpful for chronic
+[01:10.5 - 01:15.0]  pain and inflammation, joint pain, hip pains, like whatever you can think of, it is wonderful.
+[01:15.0 - 01:18.4]  It's also healthy for your heart because it can help with cholesterol, blood sugar, and
+[01:18.4 - 01:19.4]  blood pressure.
+[01:19.4 - 01:22.3]  It protects your kidneys and helps your liver detoxify a lot more efficiently.
+[01:22.4 - 01:25.8]  It has strong antioxidant support, so it's going to protect your cells from accelerated
+[01:25.8 - 01:30.0]  aging and disease, and it can support your gut, your mood, your focus, and many other
+[01:30.0 - 01:31.0]  things.
+[01:31.0 - 01:33.8]  I never skip a beat with taking Moringa every single morning, and this is the one that I
+[01:33.8 - 01:34.8]  take.
+[01:34.8 - 01:37.6]  This is pure Moringa, no fillers or additives in here, made in the United States and they're
+[01:37.6 - 01:40.7]  pre-tested here, and these are vegetarian capsules as well.
+[01:40.7 - 01:45.1]  This is Rosabella, this has over 500,000 sold just on TikTok Shop, that is how powerful
+[01:45.1 - 01:46.1]  this is.
+[01:46.1 - 01:49.1]  So if you want to run and grab this, they're having a buy one get one flash sale deal right
+[01:49.1 - 01:50.1]  now for 20 bucks.
+[01:50.4 - 01:53.2]  I'm going to drop the link right down here so everybody can run and grab them because
+[01:53.2 - 01:55.6]  they do sell that often, and if you have questions, let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_6_7546115820276026679_transcription_20260531_212537.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_6_7546115820276026679_transcription_20260531_212537.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_6_7546115820276026679.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_6_7546115820276026679.mp3, file size: 3.83 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] If your pee looks like this and you look like this, you're not fat.
+[00:04.0 - 00:07.9] You are nutrient deficient with heavy water retention and your body is holding onto toxins
+[00:07.9 - 00:09.3] instead of flushing them out.
+[00:09.3 - 00:13.2] I'm a pancreatic cancer researcher and a naturopath practitioner, so let me go over what all of
+[00:13.2 - 00:16.0] this is and how you can help yourself in a holistic way.
+[00:16.0 - 00:20.2] The second you see those armpit booblets forming and that moon face coming into play, that's
+[00:20.2 - 00:21.6] your body on survival mode.
+[00:21.6 - 00:23.5] It's missing vital nutrients and minerals.
+[00:23.5 - 00:26.9] In fact, that's why even though you drink a lot of water, you're always feeling thirsty
+[00:26.9 - 00:30.0] because you're not getting the vital electrolytes and minerals that you normally need.
+[00:30.0 - 00:33.4] And if you think that you can fix this just by eating cleaner or drinking more water,
+[00:33.4 - 00:34.4] you're actually wrong.
+[00:34.4 - 00:37.9] Our modern farming practices are stripping valuable minerals and nutrients from our soils
+[00:37.9 - 00:38.9] and our food supply.
+[00:38.9 - 00:40.8] And same goes for water processing as well.
+[00:40.8 - 00:43.6] That's why even if you think you're eating the right things and working out, you're actually
+[00:43.6 - 00:45.6] not getting the right nutrients that you still need.
+[00:45.6 - 00:49.9] But before you start drinking raw water, I do not recommend that, instead, try Moringa.
+[00:49.9 - 00:53.2] This is called the miracle tree for a very good reason and let me tell you, it is packed
+[00:53.2 - 00:58.1] with over 92 different nutrients, including a lot of vitamins, vitamins A, C, and E.
+[00:58.1 - 01:02.8] It also has all-in-one essential amino acids and it has a lot of minerals in it, potassium,
+[01:02.8 - 01:07.1] iron, calcium, zinc, copper, magnesium, everything your body needs in order to function.
+[01:07.1 - 01:10.5] Moringa also has strong anti-inflammatory support, so it's really helpful for chronic
+[01:10.5 - 01:15.0] pain and inflammation, joint pain, hip pains, like whatever you can think of, it is wonderful.
+[01:15.0 - 01:18.4] It's also healthy for your heart because it can help with cholesterol, blood sugar, and
+[01:18.4 - 01:19.4] blood pressure.
+[01:19.4 - 01:22.3] It protects your kidneys and helps your liver detoxify a lot more efficiently.
+[01:22.4 - 01:25.8] It has strong antioxidant support, so it's going to protect your cells from accelerated
+[01:25.8 - 01:30.0] aging and disease, and it can support your gut, your mood, your focus, and many other
+[01:30.0 - 01:31.0] things.
+[01:31.0 - 01:33.8] I never skip a beat with taking Moringa every single morning, and this is the one that I
+[01:33.8 - 01:34.8] take.
+[01:34.8 - 01:37.6] This is pure Moringa, no fillers or additives in here, made in the United States and they're
+[01:37.6 - 01:40.7] pre-tested here, and these are vegetarian capsules as well.
+[01:40.7 - 01:45.1] This is Rosabella, this has over 500,000 sold just on TikTok Shop, that is how powerful
+[01:45.1 - 01:46.1] this is.
+[01:46.1 - 01:49.1] So if you want to run and grab this, they're having a buy one get one flash sale deal right
+[01:49.1 - 01:50.1] now for 20 bucks.
+[01:50.4 - 01:53.2] I'm going to drop the link right down here so everybody can run and grab them because
+[01:53.2 - 01:55.6] they do sell that often, and if you have questions, let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_6_7546115820276026679_transcription_20260531_212537.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_6_7546115820276026679_transcription_20260531_212537.txt
+
+============================================================
+RANK: 07 | GMV: $48062.06 | VIDEO ID: 7537204269229919543
+URL: https://www.tiktok.com/@drew.review/video/7537204269229919543
+WORD COUNT: 1003
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_7_7537204269229919543.mp3, file size: 2.53 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 81.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:01.8]  Here's how to properly take magnesium.
+[00:01.8 - 00:02.7]  And if you don't believe me,
+[00:02.7 - 00:04.4]  I am a pancreatic cancer researcher,
+[00:04.4 - 00:05.6]  so biology is my domain.
+[00:05.6 - 00:07.5]  Magnesium is an extremely vital mineral
+[00:07.5 - 00:10.4]  that plays a role in over 300 different bodily functions.
+[00:10.4 - 00:12.3]  It's essential for muscle contraction
+[00:12.3 - 00:14.4]  and for your brain and your nerves to work properly.
+[00:14.4 - 00:16.2]  It's essential for mitochondrial support
+[00:16.2 - 00:18.5]  and converting the food that we eat into usable energy.
+[00:18.5 - 00:20.4]  It works with calcium and vitamin D
+[00:20.4 - 00:21.6]  to help with your bone strength,
+[00:21.6 - 00:23.8]  supports a healthy heartbeat and blood pressure,
+[00:23.8 - 00:25.8]  and it also helps with relaxation and sleep
+[00:25.8 - 00:27.2]  by calming down your nervous system.
+[00:27.2 - 00:28.3]  Now, a lot of people don't know this,
+[00:28.3 - 00:30.8]  but magnesium comes in different types in your body.
+[00:30.8 - 00:33.2]  That's why it actually performs many different functions.
+[00:33.2 - 00:35.3]  So when you are considering a magnesium supplement,
+[00:35.3 - 00:37.6]  it's really important to take a multi-complex
+[00:37.6 - 00:40.0]  that has different types of magnesium instead of only one.
+[00:40.0 - 00:42.2]  You can usually take it in the morning with food,
+[00:42.2 - 00:44.5]  but if you're just using it for relaxation and sleep,
+[00:44.5 - 00:45.6]  you could take it in the evening.
+[00:45.6 - 00:47.6]  If you're taking zinc, calcium, or iron,
+[00:47.6 - 00:49.4]  do not take magnesium together with it
+[00:49.4 - 00:50.7]  because they compete for absorption.
+[00:50.7 - 00:52.2]  Just take them a few hours apart.
+[00:52.2 - 00:54.9]  Low magnesium can cause muscle cramping, fatigue,
+[00:54.9 - 00:57.2]  anxiety, headaches, or irregular heartbeat.
+[00:57.2 - 00:58.9]  So if you want to supplement magnesium,
+[00:58.9 - 01:01.3]  just make sure to get a multi-magnesium complex.
+[01:01.3 - 01:02.6]  If you would like a recommendation
+[01:02.6 - 01:04.7]  for an American-made magnesium supplement,
+[01:04.7 - 01:06.4]  this right here has eight different forms
+[01:06.4 - 01:10.1]  of elemental magnesium, and it's a 45-day supply for $14.
+[01:10.1 - 01:11.4]  These are vegetarian capsules.
+[01:11.4 - 01:13.3]  They're third-party tested in the United States as well,
+[01:13.3 - 01:15.0]  so it's a really, really great affordable brand.
+[01:15.0 - 01:16.3]  They have a lot of amazing reviews.
+[01:16.3 - 01:17.3]  If you want to check this out,
+[01:17.3 - 01:18.4]  I will drop a link right down here
+[01:18.4 - 01:19.6]  so you can see those reviews.
+[01:19.6 - 01:20.5]  If you have any questions,
+[01:20.5 - 01:22.2]  let me know in the comments section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_7_7537204269229919543_transcription_20260531_212548.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_7_7537204269229919543_transcription_20260531_212548.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_7_7537204269229919543.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_7_7537204269229919543.mp3, file size: 2.53 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:01.8] Here's how to properly take magnesium.
+[00:01.8 - 00:02.7] And if you don't believe me,
+[00:02.7 - 00:04.4] I am a pancreatic cancer researcher,
+[00:04.4 - 00:05.6] so biology is my domain.
+[00:05.6 - 00:07.5] Magnesium is an extremely vital mineral
+[00:07.5 - 00:10.4] that plays a role in over 300 different bodily functions.
+[00:10.4 - 00:12.3] It's essential for muscle contraction
+[00:12.3 - 00:14.4] and for your brain and your nerves to work properly.
+[00:14.4 - 00:16.2] It's essential for mitochondrial support
+[00:16.2 - 00:18.5] and converting the food that we eat into usable energy.
+[00:18.5 - 00:20.4] It works with calcium and vitamin D
+[00:20.4 - 00:21.6] to help with your bone strength,
+[00:21.6 - 00:23.8] supports a healthy heartbeat and blood pressure,
+[00:23.8 - 00:25.8] and it also helps with relaxation and sleep
+[00:25.8 - 00:27.2] by calming down your nervous system.
+[00:27.2 - 00:28.3] Now, a lot of people don't know this,
+[00:28.3 - 00:30.8] but magnesium comes in different types in your body.
+[00:30.8 - 00:33.2] That's why it actually performs many different functions.
+[00:33.2 - 00:35.3] So when you are considering a magnesium supplement,
+[00:35.3 - 00:37.6] it's really important to take a multi-complex
+[00:37.6 - 00:40.0] that has different types of magnesium instead of only one.
+[00:40.0 - 00:42.2] You can usually take it in the morning with food,
+[00:42.2 - 00:44.5] but if you're just using it for relaxation and sleep,
+[00:44.5 - 00:45.6] you could take it in the evening.
+[00:45.6 - 00:47.6] If you're taking zinc, calcium, or iron,
+[00:47.6 - 00:49.4] do not take magnesium together with it
+[00:49.4 - 00:50.7] because they compete for absorption.
+[00:50.7 - 00:52.2] Just take them a few hours apart.
+[00:52.2 - 00:54.9] Low magnesium can cause muscle cramping, fatigue,
+[00:54.9 - 00:57.2] anxiety, headaches, or irregular heartbeat.
+[00:57.2 - 00:58.9] So if you want to supplement magnesium,
+[00:58.9 - 01:01.3] just make sure to get a multi-magnesium complex.
+[01:01.3 - 01:02.6] If you would like a recommendation
+[01:02.6 - 01:04.7] for an American-made magnesium supplement,
+[01:04.7 - 01:06.4] this right here has eight different forms
+[01:06.4 - 01:10.1] of elemental magnesium, and it's a 45-day supply for $14.
+[01:10.1 - 01:11.4] These are vegetarian capsules.
+[01:11.4 - 01:13.3] They're third-party tested in the United States as well,
+[01:13.3 - 01:15.0] so it's a really, really great affordable brand.
+[01:15.0 - 01:16.3] They have a lot of amazing reviews.
+[01:16.3 - 01:17.3] If you want to check this out,
+[01:17.3 - 01:18.4] I will drop a link right down here
+[01:18.4 - 01:19.6] so you can see those reviews.
+[01:19.6 - 01:20.5] If you have any questions,
+[01:20.5 - 01:22.2] let me know in the comments section.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_7_7537204269229919543_transcription_20260531_212548.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_7_7537204269229919543_transcription_20260531_212548.txt
+
+============================================================
+RANK: 08 | GMV: $31107.5 | VIDEO ID: 7636166523144375566
+URL: https://www.tiktok.com/@drew.review/video/7636166523144375566
+WORD COUNT: 861
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_8_7636166523144375566.mp3, file size: 2.49 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 81.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  are the best natural and scientifically backed ways of boosting testosterone levels from a pancreatic
+[00:04.2 - 00:08.9]  cancer researcher and naturopath practitioner. Number one is Toncat LE which releases testosterone
+[00:08.9 - 00:13.4]  from its bound state and allows it to be actually used by your body. Next is Shilajit which increases
+[00:13.4 - 00:17.4]  total testosterone, supports mitochondrial function and raises energy in your body,
+[00:17.4 - 00:21.4]  and may directly stimulate testicular function. Then there is pumpkin seed oil which is phenomenal
+[00:21.4 - 00:26.2]  for prostate health. It helps prevent testosterone from being converted into DHT which is a hormone
+[00:26.2 - 00:29.8]  that actually causes male pattern baldness. Pumpkin seed oil has been shown to help with
+[00:29.8 - 00:33.9]  hair growth, it improves urinary flow, and it's rich in zinc which is important for creating
+[00:33.9 - 00:38.4]  testosterone. Next is Ashwagandha which has a lot of great health benefits for men especially by
+[00:38.4 - 00:42.8]  controlling stress and cortisol levels. It's no secret that a stressed out man will not be able
+[00:42.8 - 00:47.0]  to perform properly and Ashwagandha is phenomenal for helping you relax, it helps you sleep a lot
+[00:47.0 - 00:51.0]  deeper, gives you higher quality level of sleep, and when you are feeling relaxed and comfortable
+[00:51.0 - 00:55.3]  libido starts to improve too. Now taking all of these separately does add up and does hurt your
+[00:55.3 - 00:59.8]  wallet so if you would like a recommendation there is a 15 in 1 testosterone booster formula
+[00:59.8 - 01:03.9]  from micro ingredients which has really great reviews behind this. This is a two month supply,
+[01:03.9 - 01:07.8]  they're softshell capsules so they are easy to take and they are running a great flash sale deal
+[01:07.8 - 01:10.9]  right now too so if you want to check this out I will leave a link right here next to orange
+[01:10.9 - 01:14.2]  shopping cart so you can see those reviews for yourself and if you have any questions let me
+[01:14.2 - 01:17.4]  know in the comment section and please make sure to check with your health care provider if you're
+[01:17.4 - 01:20.9]  currently on medication to make sure that this does not counteract with your medications.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_8_7636166523144375566_transcription_20260531_212558.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_8_7636166523144375566_transcription_20260531_212558.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_8_7636166523144375566.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_8_7636166523144375566.mp3, file size: 2.49 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] are the best natural and scientifically backed ways of boosting testosterone levels from a pancreatic
+[00:04.2 - 00:08.9] cancer researcher and naturopath practitioner. Number one is Toncat LE which releases testosterone
+[00:08.9 - 00:13.4] from its bound state and allows it to be actually used by your body. Next is Shilajit which increases
+[00:13.4 - 00:17.4] total testosterone, supports mitochondrial function and raises energy in your body,
+[00:17.4 - 00:21.4] and may directly stimulate testicular function. Then there is pumpkin seed oil which is phenomenal
+[00:21.4 - 00:26.2] for prostate health. It helps prevent testosterone from being converted into DHT which is a hormone
+[00:26.2 - 00:29.8] that actually causes male pattern baldness. Pumpkin seed oil has been shown to help with
+[00:29.8 - 00:33.9] hair growth, it improves urinary flow, and it's rich in zinc which is important for creating
+[00:33.9 - 00:38.4] testosterone. Next is Ashwagandha which has a lot of great health benefits for men especially by
+[00:38.4 - 00:42.8] controlling stress and cortisol levels. It's no secret that a stressed out man will not be able
+[00:42.8 - 00:47.0] to perform properly and Ashwagandha is phenomenal for helping you relax, it helps you sleep a lot
+[00:47.0 - 00:51.0] deeper, gives you higher quality level of sleep, and when you are feeling relaxed and comfortable
+[00:51.0 - 00:55.3] libido starts to improve too. Now taking all of these separately does add up and does hurt your
+[00:55.3 - 00:59.8] wallet so if you would like a recommendation there is a 15 in 1 testosterone booster formula
+[00:59.8 - 01:03.9] from micro ingredients which has really great reviews behind this. This is a two month supply,
+[01:03.9 - 01:07.8] they're softshell capsules so they are easy to take and they are running a great flash sale deal
+[01:07.8 - 01:10.9] right now too so if you want to check this out I will leave a link right here next to orange
+[01:10.9 - 01:14.2] shopping cart so you can see those reviews for yourself and if you have any questions let me
+[01:14.2 - 01:17.4] know in the comment section and please make sure to check with your health care provider if you're
+[01:17.4 - 01:20.9] currently on medication to make sure that this does not counteract with your medications.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_8_7636166523144375566_transcription_20260531_212558.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_8_7636166523144375566_transcription_20260531_212558.txt
+
+============================================================
+RANK: 09 | GMV: $27418.11 | VIDEO ID: 7485813162827205931
+URL: https://www.tiktok.com/@drew.review/video/7485813162827205931
+WORD COUNT: 635
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_9_7485813162827205931.mp3, file size: 1.13 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 63.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  how to take oil of oregano the right way. And if you don't believe me, I'm a pancreatic cancer
+[00:04.0 - 00:09.0]  researcher, so biology is my thing. Oregano oil is nature's strongest antimicrobial agent, and
+[00:09.0 - 00:13.8]  it's really good at cleaning out your body from the inside out. It removes parasites, bacteria,
+[00:13.8 - 00:18.7]  fungi, viruses, and it's also really good for allergy season because it has antihistamine
+[00:18.7 - 00:23.2]  activity, and it boosts your immune system response. The active ingredient in oregano oil
+[00:23.2 - 00:27.3]  is called carbacrol, and it has very potent effects on your immune system. You should also
+[00:27.3 - 00:32.2]  take oregano oil with black seed oil because when the oregano oil is dealing with the microbes,
+[00:32.2 - 00:37.8]  the black seed oil is having antioxidant effects on your body and also elevating your immune system.
+[00:37.8 - 00:41.8]  I'm very picky about the kind of stuff that I take, so I only ever take the one from micro
+[00:41.8 - 00:46.8]  ingredients because this only has two key ingredients, the carbacrol from the oregano oil
+[00:46.8 - 00:51.3]  and the thymoquinone from the black seed oil. These are third-party tested in the United States,
+[00:51.3 - 00:55.0]  and these are all natural ingredients that are non-GMO and they're gluten-free. I'm going to
+[00:55.0 - 00:58.6]  drop the link for you right over here if you want to grab this up because this is so great
+[00:58.6 - 01:03.1]  for cold and flu season in particular. Let me know if you have any experience with taking oregano oil.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_9_7485813162827205931_transcription_20260531_212606.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_9_7485813162827205931_transcription_20260531_212606.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_9_7485813162827205931.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_9_7485813162827205931.mp3, file size: 1.13 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] how to take oil of oregano the right way. And if you don't believe me, I'm a pancreatic cancer
+[00:04.0 - 00:09.0] researcher, so biology is my thing. Oregano oil is nature's strongest antimicrobial agent, and
+[00:09.0 - 00:13.8] it's really good at cleaning out your body from the inside out. It removes parasites, bacteria,
+[00:13.8 - 00:18.7] fungi, viruses, and it's also really good for allergy season because it has antihistamine
+[00:18.7 - 00:23.2] activity, and it boosts your immune system response. The active ingredient in oregano oil
+[00:23.2 - 00:27.3] is called carbacrol, and it has very potent effects on your immune system. You should also
+[00:27.3 - 00:32.2] take oregano oil with black seed oil because when the oregano oil is dealing with the microbes,
+[00:32.2 - 00:37.8] the black seed oil is having antioxidant effects on your body and also elevating your immune system.
+[00:37.8 - 00:41.8] I'm very picky about the kind of stuff that I take, so I only ever take the one from micro
+[00:41.8 - 00:46.8] ingredients because this only has two key ingredients, the carbacrol from the oregano oil
+[00:46.8 - 00:51.3] and the thymoquinone from the black seed oil. These are third-party tested in the United States,
+[00:51.3 - 00:55.0] and these are all natural ingredients that are non-GMO and they're gluten-free. I'm going to
+[00:55.0 - 00:58.6] drop the link for you right over here if you want to grab this up because this is so great
+[00:58.6 - 01:03.1] for cold and flu season in particular. Let me know if you have any experience with taking oregano oil.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_9_7485813162827205931_transcription_20260531_212606.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_9_7485813162827205931_transcription_20260531_212606.txt
+
+============================================================
+RANK: 10 | GMV: $24143.88 | VIDEO ID: 7642095636027804942
+URL: https://www.tiktok.com/@drew.review/video/7642095636027804942
+WORD COUNT: 1033
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_10_7642095636027804942.mp3, file size: 3.12 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 101.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.7]  are some of the best natural yet scientifically-backed nutrients that encourage natural
+[00:03.7 - 00:07.8]  testosterone production. I'm a pancreatic cancer researcher and a naturopath practitioner so let's
+[00:07.8 - 00:12.2]  talk all about it and I will show you scientific studies to back up my claims. First is Tonkat LE
+[00:12.2 - 00:16.1]  which has some of the most promising research for boosting testosterone. It helps increase free
+[00:16.1 - 00:20.6]  testosterone that your body can actually use, it improves libido and performance, increases
+[00:20.6 - 00:24.9]  motivation and drive, and improves the quality of your sperm as well. Next is Shilajit which is
+[00:24.9 - 00:29.3]  incredible for mitochondrial support to boost energy production and make sure that your cells
+[00:29.3 - 00:33.9]  can create sperm, testosterone, and other things. It helps increase overall stamina, protects your
+[00:33.9 - 00:38.8]  cells from oxidative stress, and improves fertility markers. Next is Ashwagandha which is very
+[00:38.8 - 00:42.7]  important for managing your cortisol levels and reducing your chronic stress anxiety and helps
+[00:42.7 - 00:47.4]  you sleep better. Chronically high cortisol levels is directly tied to lower testosterone production
+[00:47.4 - 00:51.8]  so with Ashwagandha it's going to lower cortisol and help your body produce more testosterone again.
+[00:51.8 - 00:55.9]  It also improves strength and muscle recovery, improves your sleep, helps you feel calmer, you
+[00:55.9 - 01:00.7]  do better in the gym, and it pairs excellently with zinc which is required for testosterone and
+[01:00.7 - 01:04.0]  sperm production. Without it you will not be able to make any of that. Now targeting all of these
+[01:04.0 - 01:08.7]  pathways separately can be expensive but if you like a recommendation there's a 15 in 1 formula
+[01:08.7 - 01:13.4]  for micro ingredients that is all natural, has everything I just mentioned plus more to specifically
+[01:13.4 - 01:17.9]  focus on male health. It even has boron citrate, it has pumpkin seed oil to help with your prostate
+[01:17.9 - 01:22.2]  health, l-citrulline and l-arginine to encourage nitric oxide production for your heart health, plus
+[01:22.2 - 01:26.3]  so much more. And this is made in America, it's third party tested here. This is an 80 day supply,
+[01:26.3 - 01:30.4]  you take three of these soft gel capsules per day with food and that's all you need to do. Just make
+[01:30.4 - 01:33.4]  sure to consult with your doctor first before taking any kind of supplement and if you would
+[01:33.4 - 01:36.6]  like to check this out they're having a flash sale right now. I will leave a link right here next to
+[01:36.6 - 01:39.9]  Orange Shopping Cart so you can see the reviews for yourself and if you have any questions please
+[01:39.9 - 01:41.0]  let me know in the comment section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_10_7642095636027804942_transcription_20260531_212619.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_10_7642095636027804942_transcription_20260531_212619.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_10_7642095636027804942.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_10_7642095636027804942.mp3, file size: 3.12 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.7] are some of the best natural yet scientifically-backed nutrients that encourage natural
+[00:03.7 - 00:07.8] testosterone production. I'm a pancreatic cancer researcher and a naturopath practitioner so let's
+[00:07.8 - 00:12.2] talk all about it and I will show you scientific studies to back up my claims. First is Tonkat LE
+[00:12.2 - 00:16.1] which has some of the most promising research for boosting testosterone. It helps increase free
+[00:16.1 - 00:20.6] testosterone that your body can actually use, it improves libido and performance, increases
+[00:20.6 - 00:24.9] motivation and drive, and improves the quality of your sperm as well. Next is Shilajit which is
+[00:24.9 - 00:29.3] incredible for mitochondrial support to boost energy production and make sure that your cells
+[00:29.3 - 00:33.9] can create sperm, testosterone, and other things. It helps increase overall stamina, protects your
+[00:33.9 - 00:38.8] cells from oxidative stress, and improves fertility markers. Next is Ashwagandha which is very
+[00:38.8 - 00:42.7] important for managing your cortisol levels and reducing your chronic stress anxiety and helps
+[00:42.7 - 00:47.4] you sleep better. Chronically high cortisol levels is directly tied to lower testosterone production
+[00:47.4 - 00:51.8] so with Ashwagandha it's going to lower cortisol and help your body produce more testosterone again.
+[00:51.8 - 00:55.9] It also improves strength and muscle recovery, improves your sleep, helps you feel calmer, you
+[00:55.9 - 01:00.7] do better in the gym, and it pairs excellently with zinc which is required for testosterone and
+[01:00.7 - 01:04.0] sperm production. Without it you will not be able to make any of that. Now targeting all of these
+[01:04.0 - 01:08.7] pathways separately can be expensive but if you like a recommendation there's a 15 in 1 formula
+[01:08.7 - 01:13.4] for micro ingredients that is all natural, has everything I just mentioned plus more to specifically
+[01:13.4 - 01:17.9] focus on male health. It even has boron citrate, it has pumpkin seed oil to help with your prostate
+[01:17.9 - 01:22.2] health, l-citrulline and l-arginine to encourage nitric oxide production for your heart health, plus
+[01:22.2 - 01:26.3] so much more. And this is made in America, it's third party tested here. This is an 80 day supply,
+[01:26.3 - 01:30.4] you take three of these soft gel capsules per day with food and that's all you need to do. Just make
+[01:30.4 - 01:33.4] sure to consult with your doctor first before taking any kind of supplement and if you would
+[01:33.4 - 01:36.6] like to check this out they're having a flash sale right now. I will leave a link right here next to
+[01:36.6 - 01:39.9] Orange Shopping Cart so you can see the reviews for yourself and if you have any questions please
+[01:39.9 - 01:41.0] let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_10_7642095636027804942_transcription_20260531_212619.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_10_7642095636027804942_transcription_20260531_212619.txt
+
+============================================================
+RANK: 11 | GMV: $19617.49 | VIDEO ID: 7580521520338832653
+URL: https://www.tiktok.com/@drew.review/video/7580521520338832653
+WORD COUNT: 961
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_11_7580521520338832653.mp3, file size: 2.68 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 85.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.4]  Eye floaters are super annoying and doctors usually say that you just can't get rid of
+[00:03.4 - 00:04.4]  them.
+[00:04.4 - 00:07.5]  But anecdotal evidence is saying that astaxanthine can help with it.
+[00:07.5 - 00:11.1]  And as a pancreatic cancer researcher and a naturopath practitioner, let me tell you
+[00:11.1 - 00:15.8]  why astaxanthine is already recommended for eye health and how it can benefit you.
+[00:15.8 - 00:19.6]  Astaxanthine is an organic pigment molecule and it is 6,000 times stronger than vitamin
+[00:19.6 - 00:20.6]  C as an antioxidant.
+[00:20.6 - 00:22.9]  It is extremely potent and powerful.
+[00:22.9 - 00:25.1]  It's found in microalgae, shrimp, and krill.
+[00:25.1 - 00:29.0]  And not only is it known for giving you healthy, glowy, youthful looking skin, it's very heavily
+[00:29.0 - 00:30.5]  studied for eye health as well.
+[00:30.5 - 00:34.3]  It helps with dryness, fatigue, especially if you stare at the screen all day long, and
+[00:34.3 - 00:37.0]  it protects your eyes from the blue light from screens as well.
+[00:37.0 - 00:40.9]  It also encourages the growth of blood vessels into your retina, so it delivers valuable
+[00:40.9 - 00:45.8]  nutrients and oxygen to your eyes while also removing toxins and byproducts and waste that
+[00:45.8 - 00:47.3]  build up in that area as well.
+[00:47.3 - 00:49.2]  Plus it reduces inflammation as well.
+[00:49.2 - 00:53.4]  So astaxanthine can help these floaters become less visible or less frequent and it also
+[00:53.4 - 00:55.9]  prevents from more floaters from popping up in the future.
+[00:55.9 - 00:56.9]  I take it myself.
+[00:56.9 - 01:00.6]  This is one capsule every single morning, but be careful because there's synthetic astaxanthine
+[01:00.6 - 01:04.4]  which doesn't have as high of an absorption rate as astaxanthine that's sourced organically
+[01:04.4 - 01:05.4]  from microalgae.
+[01:05.4 - 01:06.8]  So that's really what you want to be looking for.
+[01:06.8 - 01:10.0]  The one that I get is from microingredients because this is made in America and they're
+[01:10.0 - 01:12.9]  peritacid, which is really important because it's coming from the ocean.
+[01:12.9 - 01:14.4]  This is sourced from microalgae.
+[01:14.4 - 01:17.4]  There are 120 capsules in here and you only need one per day.
+[01:17.4 - 01:19.1]  So it's very, very long lasting.
+[01:19.1 - 01:21.4]  And if you would like to check this out, I will leave a link right down here to their
+[01:21.4 - 01:23.5]  official store so you can see the reviews on this.
+[01:23.5 - 01:25.4]  And if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_11_7580521520338832653_transcription_20260531_212629.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_11_7580521520338832653_transcription_20260531_212629.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_11_7580521520338832653.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_11_7580521520338832653.mp3, file size: 2.68 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.4] Eye floaters are super annoying and doctors usually say that you just can't get rid of
+[00:03.4 - 00:04.4] them.
+[00:04.4 - 00:07.5] But anecdotal evidence is saying that astaxanthine can help with it.
+[00:07.5 - 00:11.1] And as a pancreatic cancer researcher and a naturopath practitioner, let me tell you
+[00:11.1 - 00:15.8] why astaxanthine is already recommended for eye health and how it can benefit you.
+[00:15.8 - 00:19.6] Astaxanthine is an organic pigment molecule and it is 6,000 times stronger than vitamin
+[00:19.6 - 00:20.6] C as an antioxidant.
+[00:20.6 - 00:22.9] It is extremely potent and powerful.
+[00:22.9 - 00:25.1] It's found in microalgae, shrimp, and krill.
+[00:25.1 - 00:29.0] And not only is it known for giving you healthy, glowy, youthful looking skin, it's very heavily
+[00:29.0 - 00:30.5] studied for eye health as well.
+[00:30.5 - 00:34.3] It helps with dryness, fatigue, especially if you stare at the screen all day long, and
+[00:34.3 - 00:37.0] it protects your eyes from the blue light from screens as well.
+[00:37.0 - 00:40.9] It also encourages the growth of blood vessels into your retina, so it delivers valuable
+[00:40.9 - 00:45.8] nutrients and oxygen to your eyes while also removing toxins and byproducts and waste that
+[00:45.8 - 00:47.3] build up in that area as well.
+[00:47.3 - 00:49.2] Plus it reduces inflammation as well.
+[00:49.2 - 00:53.4] So astaxanthine can help these floaters become less visible or less frequent and it also
+[00:53.4 - 00:55.9] prevents from more floaters from popping up in the future.
+[00:55.9 - 00:56.9] I take it myself.
+[00:56.9 - 01:00.6] This is one capsule every single morning, but be careful because there's synthetic astaxanthine
+[01:00.6 - 01:04.4] which doesn't have as high of an absorption rate as astaxanthine that's sourced organically
+[01:04.4 - 01:05.4] from microalgae.
+[01:05.4 - 01:06.8] So that's really what you want to be looking for.
+[01:06.8 - 01:10.0] The one that I get is from microingredients because this is made in America and they're
+[01:10.0 - 01:12.9] peritacid, which is really important because it's coming from the ocean.
+[01:12.9 - 01:14.4] This is sourced from microalgae.
+[01:14.4 - 01:17.4] There are 120 capsules in here and you only need one per day.
+[01:17.4 - 01:19.1] So it's very, very long lasting.
+[01:19.1 - 01:21.4] And if you would like to check this out, I will leave a link right down here to their
+[01:21.4 - 01:23.5] official store so you can see the reviews on this.
+[01:23.5 - 01:25.4] And if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_11_7580521520338832653_transcription_20260531_212629.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_11_7580521520338832653_transcription_20260531_212629.txt
+
+============================================================
+RANK: 12 | GMV: $17924.56 | VIDEO ID: 7578593080262053175
+URL: https://www.tiktok.com/@drew.review/video/7578593080262053175
+WORD COUNT: 1233
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_12_7578593080262053175.mp3, file size: 3.36 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 106.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.5]  NMN used to be banned by the FDA,
+[00:02.5 - 00:04.2]  but it's not for the reason you might think.
+[00:04.2 - 00:06.4]  This anti-aging molecule is so powerful
+[00:06.4 - 00:08.6]  that it actually entered clinical trials.
+[00:08.6 - 00:10.9]  And that's why it was banned by the FDA temporarily,
+[00:10.9 - 00:13.3]  because they did not want to keep it as a supplement.
+[00:13.3 - 00:15.7]  They wanted to see if it could be used in a clinical setting
+[00:15.7 - 00:17.1]  and the trials have spoken.
+[00:17.1 - 00:19.6]  They are insanely effective for anti-aging effects.
+[00:19.6 - 00:21.1]  And on top of that, the FDA said,
+[00:21.1 - 00:22.2]  you can go ahead and use it.
+[00:22.2 - 00:23.8]  And as a pancreatic cancer researcher
+[00:23.8 - 00:25.0]  and a naturopath practitioner,
+[00:25.0 - 00:27.3]  let me quickly tell you what the heck NMN is
+[00:27.3 - 00:28.4]  and why it's so effective.
+[00:28.4 - 00:30.8]  NMN or nicotinamide mononucleotide
+[00:30.8 - 00:32.5]  is simply a form of vitamin B3.
+[00:32.5 - 00:34.0]  Your body uses this molecule
+[00:34.0 - 00:35.7]  to create more energy in your body.
+[00:35.7 - 00:38.1]  So it fuels your muscles, your brain, your heart,
+[00:38.1 - 00:40.3]  kidneys, liver, everything in your body.
+[00:40.3 - 00:42.8]  It also plays a role in DNA repair mechanisms
+[00:42.8 - 00:44.1]  and the life cycle of a cell.
+[00:44.1 - 00:46.2]  So NMN rejuvenates your cells
+[00:46.2 - 00:48.4]  and helps them stay healthy a lot longer.
+[00:48.4 - 00:51.1]  Boosting NMN helps with brain fog, chronic fatigue,
+[00:51.1 - 00:52.4]  again, the fine lines and wrinkles,
+[00:52.4 - 00:53.8]  gray hair popping out of nowhere.
+[00:53.8 - 00:55.6]  It also helps your nails stay strong,
+[00:55.6 - 00:57.2]  detoxes your body effectively,
+[00:57.2 - 00:59.2]  and it enhances your liver and kidney function
+[00:59.2 - 01:00.8]  and so many other amazing benefits.
+[01:00.8 - 01:02.9]  There is a reason why people do IV therapy
+[01:02.9 - 01:05.0]  to inject NMN in their own body.
+[01:05.0 - 01:06.1]  That's how effective it's been.
+[01:06.1 - 01:08.4]  But if you don't have the time, money, or resources
+[01:08.4 - 01:09.8]  to do these fancy infusions,
+[01:09.8 - 01:11.5]  I have a much better alternative for you
+[01:11.5 - 01:12.8]  that is very cost-effective.
+[01:12.8 - 01:15.5]  I highly recommend this NMN from microingredients
+[01:15.5 - 01:18.6]  because firstly, it has a very high concentration of NMN
+[01:18.6 - 01:20.6]  and it has a lot of natural antioxidants
+[01:20.6 - 01:22.3]  that help it work even more effectively.
+[01:22.3 - 01:25.5]  Has glutathione, astaxanthin, CoQ10, resveratrol, et cetera.
+[01:25.5 - 01:28.2]  And it does not have any other fillers or additives in here.
+[01:28.2 - 01:30.4]  It's literally just straight ingredients in here.
+[01:30.4 - 01:32.4]  It's made in America, third-party tested,
+[01:32.4 - 01:34.3]  and each bottle is a two-month supply.
+[01:34.3 - 01:36.7]  Now, the only problem is because it just came out recently,
+[01:36.7 - 01:38.0]  they're always selling out of stock
+[01:38.0 - 01:39.9]  because they're having a crazy flash sale deal.
+[01:39.9 - 01:41.3]  I'm gonna leave the link where I got it from
+[01:41.3 - 01:43.4]  right over here so you could see the reviews on this.
+[01:43.4 - 01:45.1]  And if you still see that orange shopping cart,
+[01:45.1 - 01:46.5]  they are still left in stock.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_12_7578593080262053175_transcription_20260531_212641.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_12_7578593080262053175_transcription_20260531_212641.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_12_7578593080262053175.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_12_7578593080262053175.mp3, file size: 3.36 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.5] NMN used to be banned by the FDA,
+[00:02.5 - 00:04.2] but it's not for the reason you might think.
+[00:04.2 - 00:06.4] This anti-aging molecule is so powerful
+[00:06.4 - 00:08.6] that it actually entered clinical trials.
+[00:08.6 - 00:10.9] And that's why it was banned by the FDA temporarily,
+[00:10.9 - 00:13.3] because they did not want to keep it as a supplement.
+[00:13.3 - 00:15.7] They wanted to see if it could be used in a clinical setting
+[00:15.7 - 00:17.1] and the trials have spoken.
+[00:17.1 - 00:19.6] They are insanely effective for anti-aging effects.
+[00:19.6 - 00:21.1] And on top of that, the FDA said,
+[00:21.1 - 00:22.2] you can go ahead and use it.
+[00:22.2 - 00:23.8] And as a pancreatic cancer researcher
+[00:23.8 - 00:25.0] and a naturopath practitioner,
+[00:25.0 - 00:27.3] let me quickly tell you what the heck NMN is
+[00:27.3 - 00:28.4] and why it's so effective.
+[00:28.4 - 00:30.8] NMN or nicotinamide mononucleotide
+[00:30.8 - 00:32.5] is simply a form of vitamin B3.
+[00:32.5 - 00:34.0] Your body uses this molecule
+[00:34.0 - 00:35.7] to create more energy in your body.
+[00:35.7 - 00:38.1] So it fuels your muscles, your brain, your heart,
+[00:38.1 - 00:40.3] kidneys, liver, everything in your body.
+[00:40.3 - 00:42.8] It also plays a role in DNA repair mechanisms
+[00:42.8 - 00:44.1] and the life cycle of a cell.
+[00:44.1 - 00:46.2] So NMN rejuvenates your cells
+[00:46.2 - 00:48.4] and helps them stay healthy a lot longer.
+[00:48.4 - 00:51.1] Boosting NMN helps with brain fog, chronic fatigue,
+[00:51.1 - 00:52.4] again, the fine lines and wrinkles,
+[00:52.4 - 00:53.8] gray hair popping out of nowhere.
+[00:53.8 - 00:55.6] It also helps your nails stay strong,
+[00:55.6 - 00:57.2] detoxes your body effectively,
+[00:57.2 - 00:59.2] and it enhances your liver and kidney function
+[00:59.2 - 01:00.8] and so many other amazing benefits.
+[01:00.8 - 01:02.9] There is a reason why people do IV therapy
+[01:02.9 - 01:05.0] to inject NMN in their own body.
+[01:05.0 - 01:06.1] That's how effective it's been.
+[01:06.1 - 01:08.4] But if you don't have the time, money, or resources
+[01:08.4 - 01:09.8] to do these fancy infusions,
+[01:09.8 - 01:11.5] I have a much better alternative for you
+[01:11.5 - 01:12.8] that is very cost-effective.
+[01:12.8 - 01:15.5] I highly recommend this NMN from microingredients
+[01:15.5 - 01:18.6] because firstly, it has a very high concentration of NMN
+[01:18.6 - 01:20.6] and it has a lot of natural antioxidants
+[01:20.6 - 01:22.3] that help it work even more effectively.
+[01:22.3 - 01:25.5] Has glutathione, astaxanthin, CoQ10, resveratrol, et cetera.
+[01:25.5 - 01:28.2] And it does not have any other fillers or additives in here.
+[01:28.2 - 01:30.4] It's literally just straight ingredients in here.
+[01:30.4 - 01:32.4] It's made in America, third-party tested,
+[01:32.4 - 01:34.3] and each bottle is a two-month supply.
+[01:34.3 - 01:36.7] Now, the only problem is because it just came out recently,
+[01:36.7 - 01:38.0] they're always selling out of stock
+[01:38.0 - 01:39.9] because they're having a crazy flash sale deal.
+[01:39.9 - 01:41.3] I'm gonna leave the link where I got it from
+[01:41.3 - 01:43.4] right over here so you could see the reviews on this.
+[01:43.4 - 01:45.1] And if you still see that orange shopping cart,
+[01:45.1 - 01:46.5] they are still left in stock.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_12_7578593080262053175_transcription_20260531_212641.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_12_7578593080262053175_transcription_20260531_212641.txt
+
+============================================================
+RANK: 13 | GMV: $17317.35 | VIDEO ID: 7552245376087002398
+URL: https://www.tiktok.com/@drew.review/video/7552245376087002398
+WORD COUNT: 793
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_13_7552245376087002398.mp3, file size: 2.26 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 71.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.7]  to saffron benefit men? I'm a pancreatic cancer researcher and a naturopath practitioner and I
+[00:04.7 - 00:08.6]  have left out men for far too long from this subject so let's get into the science behind it.
+[00:08.6 - 00:12.9]  Firstly, saffron is well studied for its mood enhancing properties. It's been compared to the
+[00:12.9 - 00:17.1]  strength of antidepressants and how powerful it can be. And this is not just for women,
+[00:17.1 - 00:22.8]  this is for men as well. So if you're suffering from low mood, anxiety, stress, irritability,
+[00:22.8 - 00:27.5]  you can't sleep well and your cortisol is too high, taking saffron would be very helpful because
+[00:27.5 - 00:32.7]  it does indeed help with sleep too. Saffron also has anti-inflammatory and antioxidant properties
+[00:32.7 - 00:36.7]  so it's beneficial if you're working out a lot and you need help with muscle recovery. It could
+[00:36.7 - 00:41.4]  also improve sperm count and motility and it can stimulate things down there men if you know what
+[00:41.4 - 00:45.3]  I mean. Lastly, data suggests that it could be beneficial for your prostate health and for
+[00:45.3 - 00:49.4]  urination too. So if you would like to try this out, I really recommend this saffron that has no
+[00:49.4 - 00:53.7]  other ingredients in it that would otherwise counteract with medications. This is pure saffron,
+[00:53.7 - 00:58.2]  it's third party tested in America as well and it has 240 capsules and you only need one per day,
+[00:58.2 - 01:01.3]  you take it in the evening with food and you're ready to go. So you get a lot of bang for your
+[01:01.3 - 01:04.0]  buck over here actually. So if you want to check this out because they're at a great price right
+[01:04.0 - 01:07.1]  now, I'm going to drop link right down here. And this did go pretty viral so if you solicit
+[01:07.1 - 01:10.7]  that orange shopping cart, they are still left in stock. So see the reviews, if you have questions
+[01:10.7 - 01:11.3]  let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_13_7552245376087002398_transcription_20260531_212651.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_13_7552245376087002398_transcription_20260531_212651.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_13_7552245376087002398.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_13_7552245376087002398.mp3, file size: 2.26 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.7] to saffron benefit men? I'm a pancreatic cancer researcher and a naturopath practitioner and I
+[00:04.7 - 00:08.6] have left out men for far too long from this subject so let's get into the science behind it.
+[00:08.6 - 00:12.9] Firstly, saffron is well studied for its mood enhancing properties. It's been compared to the
+[00:12.9 - 00:17.1] strength of antidepressants and how powerful it can be. And this is not just for women,
+[00:17.1 - 00:22.8] this is for men as well. So if you're suffering from low mood, anxiety, stress, irritability,
+[00:22.8 - 00:27.5] you can't sleep well and your cortisol is too high, taking saffron would be very helpful because
+[00:27.5 - 00:32.7] it does indeed help with sleep too. Saffron also has anti-inflammatory and antioxidant properties
+[00:32.7 - 00:36.7] so it's beneficial if you're working out a lot and you need help with muscle recovery. It could
+[00:36.7 - 00:41.4] also improve sperm count and motility and it can stimulate things down there men if you know what
+[00:41.4 - 00:45.3] I mean. Lastly, data suggests that it could be beneficial for your prostate health and for
+[00:45.3 - 00:49.4] urination too. So if you would like to try this out, I really recommend this saffron that has no
+[00:49.4 - 00:53.7] other ingredients in it that would otherwise counteract with medications. This is pure saffron,
+[00:53.7 - 00:58.2] it's third party tested in America as well and it has 240 capsules and you only need one per day,
+[00:58.2 - 01:01.3] you take it in the evening with food and you're ready to go. So you get a lot of bang for your
+[01:01.3 - 01:04.0] buck over here actually. So if you want to check this out because they're at a great price right
+[01:04.0 - 01:07.1] now, I'm going to drop link right down here. And this did go pretty viral so if you solicit
+[01:07.1 - 01:10.7] that orange shopping cart, they are still left in stock. So see the reviews, if you have questions
+[01:10.7 - 01:11.3] let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_13_7552245376087002398_transcription_20260531_212651.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_13_7552245376087002398_transcription_20260531_212651.txt
+
+============================================================
+RANK: 14 | GMV: $15736.13 | VIDEO ID: 7492895750817565998
+URL: https://www.tiktok.com/@drew.review/video/7492895750817565998
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 15 | GMV: $14654.01 | VIDEO ID: 7570498351515356471
+URL: https://www.tiktok.com/@drew.review/video/7570498351515356471
+WORD COUNT: 1860
+============================================================
+Starting Speech-to-Text conversion...
+Audio file size (5.6MB) exceeds limit (5MB), downsampling audio file...
+Source audio bitrate: 256 kbps
+Bitrate exceeds 128 kbps, downsampling...
+Downsampled audio saved to: /tmp/tmp6m9untrg/.video_15_7570498351515356471_chunks_20260531_212659/downsampled_20260531_212659.mp3
+Downsampled audio file size is 2.79 MB.
+Downsampled audio file size is within 5MB target, skipping chunking.
+Transcribing audio file: /tmp/tmp6m9untrg/.video_15_7570498351515356471_chunks_20260531_212659/downsampled_20260531_212659.mp3, file size: 2.79 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 182.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.7]  Here's the best supplement routine for middle-aged people.
+[00:02.7 - 00:04.2]  I'm a pancreatic cancer researcher
+[00:04.2 - 00:05.4]  and a naturopath practitioner,
+[00:05.4 - 00:07.4]  so let me tell you what each of these do for you.
+[00:07.4 - 00:09.3]  First is omega-3 fish oil.
+[00:09.3 - 00:11.2]  This is very critical for heart health.
+[00:11.2 - 00:12.4]  Fish oil is heavily studied
+[00:12.4 - 00:14.5]  to remove triglycerides in your bloodstream.
+[00:14.5 - 00:16.6]  They're also great for managing cholesterol levels,
+[00:16.6 - 00:19.3]  blood pressure, blood sugar, and insulin sensitivity,
+[00:19.3 - 00:21.2]  and decreases inflammation in your body as well.
+[00:21.2 - 00:23.0]  It's also critical for aging brains.
+[00:23.0 - 00:25.1]  So if you want to protect your brain from aging,
+[00:25.1 - 00:27.1]  brain fog, terrible memory and focus,
+[00:27.1 - 00:28.2]  this is wonderful for you.
+[00:28.3 - 00:30.8]  And on top of that, it locks in moisture in your skin,
+[00:30.8 - 00:33.2]  so it keeps your skin nice and hydrated and youthful-looking,
+[00:33.2 - 00:35.8]  so it's great for anti-aging purposes for your skincare.
+[00:35.8 - 00:37.0]  Next, we have oil of oregano,
+[00:37.0 - 00:39.6]  which is nature's strongest antimicrobial agent.
+[00:39.6 - 00:41.2]  If you ever catch the cold or the flu,
+[00:41.2 - 00:42.5]  this is wonderful for that.
+[00:42.5 - 00:44.4]  It's also great for sore throats.
+[00:44.4 - 00:46.1]  If you struggle with mucus buildup,
+[00:46.1 - 00:47.9]  it's great for candida overgrowth, for example.
+[00:47.9 - 00:49.2]  This one in particular is amazing
+[00:49.2 - 00:51.3]  because it has a high concentration of carvacrol,
+[00:51.3 - 00:53.5]  which is that active compound that does its magic,
+[00:53.5 - 00:54.8]  and it has flaxseed oil,
+[00:54.8 - 00:56.3]  which enhances your immune system response,
+[00:56.3 - 00:57.5]  so they work wonderfully together.
+[00:57.5 - 00:59.8]  Next, we have vitamin D3 and K2.
+[00:59.8 - 01:00.9]  This strengthens your bones
+[01:00.9 - 01:02.4]  and protects your heart health as well.
+[01:02.4 - 01:04.7]  Vitamin D3 is very important for absorbing calcium
+[01:04.7 - 01:05.7]  from the food that we eat,
+[01:05.7 - 01:07.9]  but without a guide like vitamin K2,
+[01:07.9 - 01:10.7]  that calcium might end up in your arteries and soft tissue
+[01:10.7 - 01:12.4]  and cause arterial calcification,
+[01:12.4 - 01:13.8]  which is very bad for your heart.
+[01:13.8 - 01:16.6]  So adding K2 is very essential to reroute that calcium
+[01:16.6 - 01:17.9]  where it belongs, your bones and your teeth.
+[01:17.9 - 01:20.8]  Next is turmeric for really powerful anti-inflammatory
+[01:20.8 - 01:22.3]  and pain-relieving support.
+[01:22.3 - 01:24.1]  This also is great at wound healing,
+[01:24.1 - 01:26.3]  and it's very helpful for hip pain, back pain,
+[01:26.3 - 01:27.4]  knee pain, joint pain.
+[01:28.1 - 01:29.0]  If you have inflammation on your skin,
+[01:29.0 - 01:29.8]  inside of your gut,
+[01:29.8 - 01:31.4]  it's great for your brain health as well.
+[01:31.4 - 01:32.6]  Amazing benefits from turmeric.
+[01:32.6 - 01:35.0]  Next, we have saffron for mood enhancement.
+[01:35.0 - 01:38.2]  This is wonderful for low mood, stress, anxiety,
+[01:38.2 - 01:40.7]  and it helps you sleep a lot deeper and more comfortably.
+[01:40.7 - 01:42.5]  And because it modulates cortisol,
+[01:42.5 - 01:43.9]  it can help with menopausal symptoms
+[01:43.9 - 01:45.5]  like hot flashes and night sweats.
+[01:45.5 - 01:47.7]  This also offers PMS symptom support.
+[01:47.7 - 01:50.0]  It's a natural pain reliever and anti-inflammatory.
+[01:50.0 - 01:51.4]  It's great for your heart health,
+[01:51.4 - 01:54.2]  also helps with blood pressure and blood flow in general,
+[01:54.2 - 01:56.0]  and it also helps protect your eye health.
+[01:56.0 - 01:57.6]  And lastly, we have collagen.
+[01:57.6 - 01:59.4]  Now, collagen is the most abundant protein
+[01:59.4 - 02:00.3]  found in our bodies,
+[02:00.3 - 02:02.2]  and it is the glue that holds everything together.
+[02:02.2 - 02:04.5]  It provides very important structural support.
+[02:04.5 - 02:06.6]  So if you have aching joints and bones,
+[02:06.6 - 02:09.1]  if your hair, skin, and nails are looking terrible,
+[02:09.1 - 02:11.3]  adding collagen to your life is absolutely crucial.
+[02:11.3 - 02:13.6]  It makes up a huge portion of your skin layer,
+[02:13.6 - 02:15.7]  so it's important for fine lines and wrinkles
+[02:15.7 - 02:17.0]  and keeping moisture locked in.
+[02:17.0 - 02:19.6]  It keeps your hair and nails nice and strong and healthy,
+[02:19.6 - 02:20.6]  and it's very critical
+[02:20.6 - 02:23.1]  for maintaining the structural support of your joints,
+[02:23.1 - 02:25.3]  tendons, ligaments, cartilage, and bone.
+[02:25.3 - 02:26.7]  All of these are made in America,
+[02:26.7 - 02:28.2]  and they are third-party tested here
+[02:28.2 - 02:30.4]  for the quality of the ingredients and for heavy metals,
+[02:30.4 - 02:32.3]  and you can buy all of them separately if you wish.
+[02:32.3 - 02:34.2]  They all have thousands of reviews already,
+[02:34.2 - 02:36.4]  but there is a flash sale deal right now.
+[02:36.4 - 02:40.0]  You can buy a bundle, all of these together, for 50% off.
+[02:40.0 - 02:42.5]  The value of this all is normally $200.
+[02:42.5 - 02:44.8]  You're only spending $100 right now.
+[02:44.8 - 02:46.2]  It's absolutely such a steal of a deal.
+[02:46.2 - 02:48.4]  You're getting full-size products in this bundle,
+[02:48.4 - 02:49.8]  and it covers literally everything
+[02:49.8 - 02:50.9]  from A to Z for your health.
+[02:50.9 - 02:52.4]  So if you wanna check it out,
+[02:52.4 - 02:54.0]  I'm gonna leave the link on the bottom of the screen
+[02:54.0 - 02:54.9]  right over here.
+[02:55.4 - 02:56.3]  It's very limited in stock,
+[02:56.3 - 02:57.6]  and they will raise the price on this.
+[02:57.6 - 02:58.5]  I know how they work.
+[02:58.5 - 02:60.0]  They always catch you with that great deal,
+[02:60.0 - 03:01.0]  and then other people miss out.
+[03:01.0 - 03:02.0]  So run and grab this.
+[03:02.0 - 03:03.2]  You will not regret it.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_15_7570498351515356471_transcription_20260531_212718.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_15_7570498351515356471_transcription_20260531_212718.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_15_7570498351515356471.mp3
+Starting Speech-to-Text conversion...
+Audio file size (5.6MB) exceeds limit (5MB), downsampling audio file...
+Source audio bitrate: 256 kbps
+Bitrate exceeds 128 kbps, downsampling...
+Downsampled audio file size is 2.79 MB.
+Downsampled audio file size is within 5MB target, skipping chunking.
+Transcribing audio file: /tmp/tmp6m9untrg/.video_15_7570498351515356471_chunks_20260531_212659/downsampled_20260531_212659.mp3, file size: 2.79 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:59.8 - 01:00.9] This strengthens your bones
+[01:00.9 - 01:02.4] and protects your heart health as well.
+[01:02.4 - 01:04.7] Vitamin D3 is very important for absorbing calcium
+[01:04.7 - 01:05.7] from the food that we eat,
+[01:05.7 - 01:07.9] but without a guide like vitamin K2,
+[01:07.9 - 01:10.7] that calcium might end up in your arteries and soft tissue
+[01:10.7 - 01:12.4] and cause arterial calcification,
+[01:12.4 - 01:13.8] which is very bad for your heart.
+[01:13.8 - 01:16.6] So adding K2 is very essential to reroute that calcium
+[01:16.6 - 01:17.9] where it belongs, your bones and your teeth.
+[01:17.9 - 01:20.8] Next is turmeric for really powerful anti-inflammatory
+[01:20.8 - 01:22.3] and pain-relieving support.
+[01:22.3 - 01:24.1] This also is great at wound healing,
+[01:24.1 - 01:26.3] and it's very helpful for hip pain, back pain,
+[01:26.3 - 01:27.4] knee pain, joint pain.
+[01:28.1 - 01:29.0] If you have inflammation on your skin,
+[01:29.0 - 01:29.8] inside of your gut,
+[01:29.8 - 01:31.4] it's great for your brain health as well.
+[01:31.4 - 01:32.6] Amazing benefits from turmeric.
+[01:32.6 - 01:35.0] Next, we have saffron for mood enhancement.
+[01:35.0 - 01:38.2] This is wonderful for low mood, stress, anxiety,
+[01:38.2 - 01:40.7] and it helps you sleep a lot deeper and more comfortably.
+[01:40.7 - 01:42.5] And because it modulates cortisol,
+[01:42.5 - 01:43.9] it can help with menopausal symptoms
+[01:43.9 - 01:45.5] like hot flashes and night sweats.
+[01:45.5 - 01:47.7] This also offers PMS symptom support.
+[01:47.7 - 01:50.0] It's a natural pain reliever and anti-inflammatory.
+[01:50.0 - 01:51.4] It's great for your heart health,
+[01:51.4 - 01:54.2] also helps with blood pressure and blood flow in general,
+[01:54.2 - 01:56.0] and it also helps protect your eye health.
+[01:56.0 - 01:57.6] And lastly, we have collagen.
+[01:57.6 - 01:59.4] Now, collagen is the most abundant protein
+[01:59.4 - 02:00.3] found in our bodies,
+[02:00.3 - 02:02.2] and it is the glue that holds everything together.
+[02:02.2 - 02:04.5] It provides very important structural support.
+[02:04.5 - 02:06.6] So if you have aching joints and bones,
+[02:06.6 - 02:09.1] if your hair, skin, and nails are looking terrible,
+[02:09.1 - 02:11.3] adding collagen to your life is absolutely crucial.
+[02:11.3 - 02:13.6] It makes up a huge portion of your skin layer,
+[02:13.6 - 02:15.7] so it's important for fine lines and wrinkles
+[02:15.7 - 02:17.0] and keeping moisture locked in.
+[02:17.0 - 02:19.6] It keeps your hair and nails nice and strong and healthy,
+[02:19.6 - 02:20.6] and it's very critical
+[02:20.6 - 02:23.1] for maintaining the structural support of your joints,
+[02:23.1 - 02:25.3] tendons, ligaments, cartilage, and bone.
+[02:25.3 - 02:26.7] All of these are made in America,
+[02:26.7 - 02:28.2] and they are third-party tested here
+[02:28.2 - 02:30.4] for the quality of the ingredients and for heavy metals,
+[02:30.4 - 02:32.3] and you can buy all of them separately if you wish.
+[02:32.3 - 02:34.2] They all have thousands of reviews already,
+[02:34.2 - 02:36.4] but there is a flash sale deal right now.
+[02:36.4 - 02:40.0] You can buy a bundle, all of these together, for 50% off.
+[02:40.0 - 02:42.5] The value of this all is normally $200.
+[02:42.5 - 02:44.8] You're only spending $100 right now.
+[02:44.8 - 02:46.2] It's absolutely such a steal of a deal.
+[02:46.2 - 02:48.4] You're getting full-size products in this bundle,
+[02:48.4 - 02:49.8] and it covers literally everything
+[02:49.8 - 02:50.9] from A to Z for your health.
+[02:50.9 - 02:52.4] So if you wanna check it out,
+[02:52.4 - 02:54.0] I'm gonna leave the link on the bottom of the screen
+[02:54.0 - 02:54.9] right over here.
+[02:55.4 - 02:56.3] It's very limited in stock,
+[02:56.3 - 02:57.6] and they will raise the price on this.
+[02:57.6 - 02:58.5] I know how they work.
+[02:58.5 - 02:60.0] They always catch you with that great deal,
+[02:60.0 - 03:01.0] and then other people miss out.
+[03:01.0 - 03:02.0] So run and grab this.
+[03:02.0 - 03:03.2] You will not regret it.
+Timestamped segments truncated to fit terminal limit (5000 chars).
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_15_7570498351515356471_transcription_20260531_212718.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_15_7570498351515356471_transcription_20260531_212718.txt
+
+============================================================
+RANK: 16 | GMV: $13591.46 | VIDEO ID: 7515513323174087978
+URL: https://www.tiktok.com/@drew.review/video/7515513323174087978
+WORD COUNT: 565
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_16_7515513323174087978.mp3, file size: 1.40 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 45.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  is the last chance for anybody who is looking to buy bundle deals for the anti-aging NAD from
+[00:04.0 - 00:07.7]  Catacor. They sold out of their 3-pack bundle yesterday and they're not bringing it back,
+[00:07.7 - 00:13.0]  so they only have a 2-pack bundle left where you save an extra $15. Each bottle is normally $40,
+[00:13.0 - 00:17.6]  so if you buy two of them, it would be $80, but their 2-pack bundle is $65, so you're saving a
+[00:17.6 - 00:21.0]  nice amount of money. And on top of that, look for your TikTok Shop coupons because some of you
+[00:21.0 - 00:25.3]  may even have extra discounts. They've never done discounted bundle deals before, and this is the
+[00:25.3 - 00:29.5]  top NAD product on TikTok Shop, so that is why they're selling out very quickly. So if you're
+[00:29.5 - 00:33.1]  feeling tired all the time, you have signs of accelerated aging like fine lines and wrinkles,
+[00:33.1 - 00:36.6]  and gray hair popping out of nowhere, maybe you have brain fog, you're not sleeping well,
+[00:36.6 - 00:40.2]  taking NAD would be absolutely amazing. So if you want to check the bundle out, it's going to be
+[00:40.2 - 00:44.2]  right over here. That is their official store. And guys, run and grab this because I'm telling
+[00:44.2 - 00:45.4]  you, it's going to sell out this week.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_16_7515513323174087978_transcription_20260531_212725.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_16_7515513323174087978_transcription_20260531_212725.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_16_7515513323174087978.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_16_7515513323174087978.mp3, file size: 1.40 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] is the last chance for anybody who is looking to buy bundle deals for the anti-aging NAD from
+[00:04.0 - 00:07.7] Catacor. They sold out of their 3-pack bundle yesterday and they're not bringing it back,
+[00:07.7 - 00:13.0] so they only have a 2-pack bundle left where you save an extra $15. Each bottle is normally $40,
+[00:13.0 - 00:17.6] so if you buy two of them, it would be $80, but their 2-pack bundle is $65, so you're saving a
+[00:17.6 - 00:21.0] nice amount of money. And on top of that, look for your TikTok Shop coupons because some of you
+[00:21.0 - 00:25.3] may even have extra discounts. They've never done discounted bundle deals before, and this is the
+[00:25.3 - 00:29.5] top NAD product on TikTok Shop, so that is why they're selling out very quickly. So if you're
+[00:29.5 - 00:33.1] feeling tired all the time, you have signs of accelerated aging like fine lines and wrinkles,
+[00:33.1 - 00:36.6] and gray hair popping out of nowhere, maybe you have brain fog, you're not sleeping well,
+[00:36.6 - 00:40.2] taking NAD would be absolutely amazing. So if you want to check the bundle out, it's going to be
+[00:40.2 - 00:44.2] right over here. That is their official store. And guys, run and grab this because I'm telling
+[00:44.2 - 00:45.4] you, it's going to sell out this week.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_16_7515513323174087978_transcription_20260531_212725.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_16_7515513323174087978_transcription_20260531_212725.txt
+
+============================================================
+RANK: 17 | GMV: $13520.73 | VIDEO ID: 7593449715576917303
+URL: https://www.tiktok.com/@drew.review/video/7593449715576917303
+WORD COUNT: 1187
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_17_7593449715576917303.mp3, file size: 3.08 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 97.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.2]  If you always have mucus building up in your lungs,
+[00:02.2 - 00:03.7]  I'm gonna tell you what hospitals use
+[00:03.7 - 00:05.2]  so that you can get it over the counter.
+[00:05.2 - 00:06.6]  I'm a pancreatic cancer researcher
+[00:06.6 - 00:07.8]  and a naturopath practitioner,
+[00:07.8 - 00:10.2]  so let's talk all about the science behind NAC
+[00:10.2 - 00:11.3]  and how it can help you.
+[00:11.3 - 00:13.6]  NAC stands for N-acetylcysteine,
+[00:13.6 - 00:16.4]  and it is used by hospitals for how effective it is
+[00:16.4 - 00:19.1]  at clearing out mucus from your lungs and decongest you.
+[00:19.1 - 00:21.8]  It acts as a mucolytic by thinning out mucus,
+[00:21.8 - 00:23.9]  so if you have chunky, nasty mucus
+[00:23.9 - 00:25.9]  that's always sitting around and not being coughed out
+[00:25.9 - 00:27.3]  and you're always coughing,
+[00:27.3 - 00:29.3]  NAC helps clear everything out
+[00:29.3 - 00:32.0]  and make your coughing productive rather than exhaustive.
+[00:32.0 - 00:34.6]  So when you take it, initially you're gonna cough out a lot,
+[00:34.6 - 00:36.2]  but then you're gonna be breathing amazing.
+[00:36.2 - 00:38.4]  And not only does it help get that mucus out,
+[00:38.4 - 00:40.3]  it also helps heal your lungs.
+[00:40.3 - 00:41.6]  It is anti-inflammatory,
+[00:41.6 - 00:43.7]  it encourages repair pathways in your lungs,
+[00:43.7 - 00:45.0]  and it's a strong antioxidant
+[00:45.0 - 00:46.9]  because it makes more glutathione in your body.
+[00:46.9 - 00:49.2]  So it helps clear out heavy metals and toxins
+[00:49.2 - 00:50.7]  that build up in your body over time,
+[00:50.7 - 00:52.0]  especially if you are a smoker.
+[00:52.0 - 00:53.6]  And speaking of, NAC is used
+[00:53.6 - 00:55.2]  in addictive research and cravings,
+[00:55.2 - 00:57.0]  so if you always want that nicotine,
+[00:57.0 - 00:58.7]  taking NAC will calm that down.
+[00:58.7 - 01:01.3]  And lastly, NAC is amazing for protecting your liver
+[01:01.3 - 01:02.4]  and your kidney function too,
+[01:02.4 - 01:04.1]  so it enhances detox pathways.
+[01:04.1 - 01:05.6]  And I'm gonna show you how to get this
+[01:05.6 - 01:08.0]  for $8 for a one-month supply.
+[01:08.0 - 01:11.1]  The one from NutraCost is so freaking amazing.
+[01:11.1 - 01:13.4]  Has a ton of great reviews behind it.
+[01:13.4 - 01:16.8]  It uses the clinical dose, 600 milligrams of NAC.
+[01:16.8 - 01:19.9]  These are vegan capsules and you take one capsule per day.
+[01:19.9 - 01:22.1]  Just make sure to take them first thing in the morning
+[01:22.1 - 01:23.2]  before you eat anything.
+[01:23.2 - 01:24.3]  And these are made in America
+[01:24.3 - 01:25.7]  and third-party tested here as well.
+[01:25.7 - 01:26.9]  The only problem is that I don't know
+[01:26.9 - 01:28.1]  when the flash sale deal is ending,
+[01:28.4 - 01:29.3]  so if you wanna check this out,
+[01:29.3 - 01:31.1]  I will leave a link right down here where I got it from
+[01:31.1 - 01:32.3]  so that you could see the reviews.
+[01:32.3 - 01:33.6]  Fast free shipping on top of it all,
+[01:33.6 - 01:35.2]  it is such a great affordable price.
+[01:35.2 - 01:36.5]  And if you have any questions,
+[01:36.5 - 01:38.4]  please let me know in the comment section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_17_7593449715576917303_transcription_20260531_212736.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_17_7593449715576917303_transcription_20260531_212736.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_17_7593449715576917303.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_17_7593449715576917303.mp3, file size: 3.08 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.2] If you always have mucus building up in your lungs,
+[00:02.2 - 00:03.7] I'm gonna tell you what hospitals use
+[00:03.7 - 00:05.2] so that you can get it over the counter.
+[00:05.2 - 00:06.6] I'm a pancreatic cancer researcher
+[00:06.6 - 00:07.8] and a naturopath practitioner,
+[00:07.8 - 00:10.2] so let's talk all about the science behind NAC
+[00:10.2 - 00:11.3] and how it can help you.
+[00:11.3 - 00:13.6] NAC stands for N-acetylcysteine,
+[00:13.6 - 00:16.4] and it is used by hospitals for how effective it is
+[00:16.4 - 00:19.1] at clearing out mucus from your lungs and decongest you.
+[00:19.1 - 00:21.8] It acts as a mucolytic by thinning out mucus,
+[00:21.8 - 00:23.9] so if you have chunky, nasty mucus
+[00:23.9 - 00:25.9] that's always sitting around and not being coughed out
+[00:25.9 - 00:27.3] and you're always coughing,
+[00:27.3 - 00:29.3] NAC helps clear everything out
+[00:29.3 - 00:32.0] and make your coughing productive rather than exhaustive.
+[00:32.0 - 00:34.6] So when you take it, initially you're gonna cough out a lot,
+[00:34.6 - 00:36.2] but then you're gonna be breathing amazing.
+[00:36.2 - 00:38.4] And not only does it help get that mucus out,
+[00:38.4 - 00:40.3] it also helps heal your lungs.
+[00:40.3 - 00:41.6] It is anti-inflammatory,
+[00:41.6 - 00:43.7] it encourages repair pathways in your lungs,
+[00:43.7 - 00:45.0] and it's a strong antioxidant
+[00:45.0 - 00:46.9] because it makes more glutathione in your body.
+[00:46.9 - 00:49.2] So it helps clear out heavy metals and toxins
+[00:49.2 - 00:50.7] that build up in your body over time,
+[00:50.7 - 00:52.0] especially if you are a smoker.
+[00:52.0 - 00:53.6] And speaking of, NAC is used
+[00:53.6 - 00:55.2] in addictive research and cravings,
+[00:55.2 - 00:57.0] so if you always want that nicotine,
+[00:57.0 - 00:58.7] taking NAC will calm that down.
+[00:58.7 - 01:01.3] And lastly, NAC is amazing for protecting your liver
+[01:01.3 - 01:02.4] and your kidney function too,
+[01:02.4 - 01:04.1] so it enhances detox pathways.
+[01:04.1 - 01:05.6] And I'm gonna show you how to get this
+[01:05.6 - 01:08.0] for $8 for a one-month supply.
+[01:08.0 - 01:11.1] The one from NutraCost is so freaking amazing.
+[01:11.1 - 01:13.4] Has a ton of great reviews behind it.
+[01:13.4 - 01:16.8] It uses the clinical dose, 600 milligrams of NAC.
+[01:16.8 - 01:19.9] These are vegan capsules and you take one capsule per day.
+[01:19.9 - 01:22.1] Just make sure to take them first thing in the morning
+[01:22.1 - 01:23.2] before you eat anything.
+[01:23.2 - 01:24.3] And these are made in America
+[01:24.3 - 01:25.7] and third-party tested here as well.
+[01:25.7 - 01:26.9] The only problem is that I don't know
+[01:26.9 - 01:28.1] when the flash sale deal is ending,
+[01:28.4 - 01:29.3] so if you wanna check this out,
+[01:29.3 - 01:31.1] I will leave a link right down here where I got it from
+[01:31.1 - 01:32.3] so that you could see the reviews.
+[01:32.3 - 01:33.6] Fast free shipping on top of it all,
+[01:33.6 - 01:35.2] it is such a great affordable price.
+[01:35.2 - 01:36.5] And if you have any questions,
+[01:36.5 - 01:38.4] please let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_17_7593449715576917303_transcription_20260531_212736.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_17_7593449715576917303_transcription_20260531_212736.txt
+
+============================================================
+RANK: 18 | GMV: $12883.86 | VIDEO ID: 7488117078424063275
+URL: https://www.tiktok.com/@drew.review/video/7488117078424063275
+WORD COUNT: 893
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_18_7488117078424063275.mp3, file size: 1.61 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 89.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.7]  how to take vitamin D3 the right way. And if you don't trust me, I'm a pancreatic cancer researcher,
+[00:04.7 - 00:09.4]  so biology is my thing. Vitamin D3 deficiency is something we all suffer from, right? And it's
+[00:09.4 - 00:15.2]  very important for our heart, our bones, our lungs, our mental clarity, many things. But this is
+[00:15.2 - 00:18.5]  something that they're not telling you that honestly should be written as a warning label
+[00:18.5 - 00:23.8]  on the packages. Vitamin D3 helps you absorb calcium from the food that we eat, but if you
+[00:23.8 - 00:29.0]  take vitamin D3 by itself, then the calcium can be rerouted into areas where it should not be,
+[00:29.0 - 00:34.2]  like your heart or your soft tissue. It is very important for you to take vitamin D3 with vitamin
+[00:34.2 - 00:40.6]  K2, because the K2 is going to work with the vitamin D3 to reroute that calcium into places
+[00:40.6 - 00:45.0]  where it should be, your bones and your teeth. I'm very picky about the kind of brands that I
+[00:45.0 - 00:49.0]  take for myself, so I always take the one from Micro Ingredients. This is one of the leading
+[00:49.0 - 00:53.0]  brands. They're in the United States. They do third-party testing, and these are all natural
+[00:53.0 - 00:58.2]  ingredients. It only contains vitamin D and vitamin K2, and they are mixed in coconut oil,
+[00:58.2 - 01:02.7]  which helps increase their absorption rate. These are also gel capsules, so they go down very easily,
+[01:02.7 - 01:07.0]  especially if you have a sore throat, and you only need one per day, and you're good to go.
+[01:07.0 - 01:11.0]  This pack is going to last you for such a long time, guys. It is so worth the money,
+[01:11.0 - 01:14.4]  and they do all of the calculations for you. You don't have to measure anything out.
+[01:14.4 - 01:18.6]  You don't have to take supplements separately. You could just take a complex of vitamin D3 and
+[01:18.6 - 01:22.8]  K2 together. They don't usually have discounts, but I think they're having a flash sale right now
+[01:22.8 - 01:26.9]  with coupons, so definitely click on this link right over here if you want to see this. And
+[01:26.9 - 01:29.1]  again, it's natural ingredients, so you have nothing to lose.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_18_7488117078424063275_transcription_20260531_212748.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_18_7488117078424063275_transcription_20260531_212748.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_18_7488117078424063275.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_18_7488117078424063275.mp3, file size: 1.61 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.7] how to take vitamin D3 the right way. And if you don't trust me, I'm a pancreatic cancer researcher,
+[00:04.7 - 00:09.4] so biology is my thing. Vitamin D3 deficiency is something we all suffer from, right? And it's
+[00:09.4 - 00:15.2] very important for our heart, our bones, our lungs, our mental clarity, many things. But this is
+[00:15.2 - 00:18.5] something that they're not telling you that honestly should be written as a warning label
+[00:18.5 - 00:23.8] on the packages. Vitamin D3 helps you absorb calcium from the food that we eat, but if you
+[00:23.8 - 00:29.0] take vitamin D3 by itself, then the calcium can be rerouted into areas where it should not be,
+[00:29.0 - 00:34.2] like your heart or your soft tissue. It is very important for you to take vitamin D3 with vitamin
+[00:34.2 - 00:40.6] K2, because the K2 is going to work with the vitamin D3 to reroute that calcium into places
+[00:40.6 - 00:45.0] where it should be, your bones and your teeth. I'm very picky about the kind of brands that I
+[00:45.0 - 00:49.0] take for myself, so I always take the one from Micro Ingredients. This is one of the leading
+[00:49.0 - 00:53.0] brands. They're in the United States. They do third-party testing, and these are all natural
+[00:53.0 - 00:58.2] ingredients. It only contains vitamin D and vitamin K2, and they are mixed in coconut oil,
+[00:58.2 - 01:02.7] which helps increase their absorption rate. These are also gel capsules, so they go down very easily,
+[01:02.7 - 01:07.0] especially if you have a sore throat, and you only need one per day, and you're good to go.
+[01:07.0 - 01:11.0] This pack is going to last you for such a long time, guys. It is so worth the money,
+[01:11.0 - 01:14.4] and they do all of the calculations for you. You don't have to measure anything out.
+[01:14.4 - 01:18.6] You don't have to take supplements separately. You could just take a complex of vitamin D3 and
+[01:18.6 - 01:22.8] K2 together. They don't usually have discounts, but I think they're having a flash sale right now
+[01:22.8 - 01:26.9] with coupons, so definitely click on this link right over here if you want to see this. And
+[01:26.9 - 01:29.1] again, it's natural ingredients, so you have nothing to lose.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_18_7488117078424063275_transcription_20260531_212748.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_18_7488117078424063275_transcription_20260531_212748.txt
+
+============================================================
+RANK: 19 | GMV: $12089.24 | VIDEO ID: 7571534506574744887
+URL: https://www.tiktok.com/@drew.review/video/7571534506574744887
+WORD COUNT: 877
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_19_7571534506574744887.mp3, file size: 2.76 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 88.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.8]  you take collagen for one month straight, here is what will happen. I'm a pancreatic cancer
+[00:03.8 - 00:07.2]  researcher and a naturopath practitioner, so let's go over the timeline and I'll show you
+[00:07.2 - 00:11.6]  scientific papers as well. Collagen is the most abundant protein found in our bodies and it is
+[00:11.6 - 00:16.1]  the glue that holds everything together. It's found in your hair, skin, and nails, but also your gut
+[00:16.1 - 00:21.3]  lining, tendons, ligaments, cartilage, bone, you name it. So firstly, because it's so critical for
+[00:21.3 - 00:25.9]  the structural integrity of your entire body, it is really important at soothing joint pain,
+[00:25.9 - 00:30.7]  chronic inflammation, it reduces stiffness and enhances mobility, and it reduces compression
+[00:30.7 - 00:35.8]  on nerves. For skin health, collagen makes up a huge portion of your skin layer, so it actually
+[00:35.8 - 00:41.1]  locks in moisture and keeps your skin youthful, supple, glowy, and hydrated. It keeps it elastic
+[00:41.1 - 00:46.4]  yet firm and plump, and similarly for your hair and your nails, it makes them a lot stronger,
+[00:46.4 - 00:50.8]  less brittle, and it decreases chances of your hair falling out too. Collagen is also critical
+[00:50.8 - 00:55.6]  for your muscles and for wound recovery, so it actually helps your muscles recover a lot quicker
+[00:55.6 - 00:59.8]  after working out, or if you're very achy, it enhances wound recovery and helps with digestion
+[00:59.8 - 01:03.4]  because collagen makes up your gut lining. And if you would like a recommendation for something that
+[01:03.4 - 01:08.7]  I take myself, this is an American-made powder form of collagen that is grass-fed, pasteurized,
+[01:08.7 - 01:13.0]  bovine-sourced, and this also has a very potent amount of collagen in it, so you get a lot of
+[01:13.0 - 01:17.4]  bang for your buck. It's flavorless, it comes with a scooper, mixes super easily into any kind of
+[01:17.4 - 01:21.4]  liquid, and they are having a great flash sale deal right now too, so if you would like to check it
+[01:21.4 - 01:24.8]  out, I will leave a link right down here to their official store. They have hundreds of reviews,
+[01:24.8 - 01:27.8]  so you can check it all out, and if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_19_7571534506574744887_transcription_20260531_212759.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_19_7571534506574744887_transcription_20260531_212759.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_19_7571534506574744887.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_19_7571534506574744887.mp3, file size: 2.76 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.8] you take collagen for one month straight, here is what will happen. I'm a pancreatic cancer
+[00:03.8 - 00:07.2] researcher and a naturopath practitioner, so let's go over the timeline and I'll show you
+[00:07.2 - 00:11.6] scientific papers as well. Collagen is the most abundant protein found in our bodies and it is
+[00:11.6 - 00:16.1] the glue that holds everything together. It's found in your hair, skin, and nails, but also your gut
+[00:16.1 - 00:21.3] lining, tendons, ligaments, cartilage, bone, you name it. So firstly, because it's so critical for
+[00:21.3 - 00:25.9] the structural integrity of your entire body, it is really important at soothing joint pain,
+[00:25.9 - 00:30.7] chronic inflammation, it reduces stiffness and enhances mobility, and it reduces compression
+[00:30.7 - 00:35.8] on nerves. For skin health, collagen makes up a huge portion of your skin layer, so it actually
+[00:35.8 - 00:41.1] locks in moisture and keeps your skin youthful, supple, glowy, and hydrated. It keeps it elastic
+[00:41.1 - 00:46.4] yet firm and plump, and similarly for your hair and your nails, it makes them a lot stronger,
+[00:46.4 - 00:50.8] less brittle, and it decreases chances of your hair falling out too. Collagen is also critical
+[00:50.8 - 00:55.6] for your muscles and for wound recovery, so it actually helps your muscles recover a lot quicker
+[00:55.6 - 00:59.8] after working out, or if you're very achy, it enhances wound recovery and helps with digestion
+[00:59.8 - 01:03.4] because collagen makes up your gut lining. And if you would like a recommendation for something that
+[01:03.4 - 01:08.7] I take myself, this is an American-made powder form of collagen that is grass-fed, pasteurized,
+[01:08.7 - 01:13.0] bovine-sourced, and this also has a very potent amount of collagen in it, so you get a lot of
+[01:13.0 - 01:17.4] bang for your buck. It's flavorless, it comes with a scooper, mixes super easily into any kind of
+[01:17.4 - 01:21.4] liquid, and they are having a great flash sale deal right now too, so if you would like to check it
+[01:21.4 - 01:24.8] out, I will leave a link right down here to their official store. They have hundreds of reviews,
+[01:24.8 - 01:27.8] so you can check it all out, and if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_19_7571534506574744887_transcription_20260531_212759.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_19_7571534506574744887_transcription_20260531_212759.txt
+
+============================================================
+RANK: 20 | GMV: $11979.21 | VIDEO ID: 7574567101227224333
+URL: https://www.tiktok.com/@drew.review/video/7574567101227224333
+WORD COUNT: 573
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_20_7574567101227224333.mp3, file size: 0.93 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 51.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.0]  anti-aging compound should you take depending on how you are feeling? NAD or AKG? If you're always
+[00:05.0 - 00:09.2]  feeling tired, you have brain fog and can't think clearly, you have a slow metabolism, and you're
+[00:09.2 - 00:14.2]  bloated, you have poor blood sugar control, or you have bad sleep and trouble focusing, and you feel
+[00:14.2 - 00:19.5]  tired and wired, take NAD. If you always have aches and pains in your joints, you feel stiff, or you
+[00:19.5 - 00:24.2]  have back pain, knee pain, or hip pain, if you have chronic inflammation, you have fine lines, wrinkles,
+[00:24.2 - 00:29.2]  and sagging skin, or you have weak hair and nail strength, if you have bone loss, slow muscle
+[00:29.2 - 00:34.8]  recovery, poor digestion, plus bloating, and you feel older than your age, take AKG. You can take them
+[00:34.8 - 00:38.6]  together or separately. They are complementary. You could just take the capsules in the morning
+[00:38.6 - 00:42.6]  with food, and you're ready to go, and this is having an amazing flash sale deal right now, so I
+[00:42.6 - 00:46.1]  will drop links right down here to their official store, so you can get the real products, see those
+[00:46.1 - 00:49.8]  reviews. I don't know when the flash sale is ending, everybody, so make sure to run and grab it to get
+[00:49.8 - 00:51.1]  it at a great price.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_20_7574567101227224333_transcription_20260531_212808.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_20_7574567101227224333_transcription_20260531_212808.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_20_7574567101227224333.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_20_7574567101227224333.mp3, file size: 0.93 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.0] anti-aging compound should you take depending on how you are feeling? NAD or AKG? If you're always
+[00:05.0 - 00:09.2] feeling tired, you have brain fog and can't think clearly, you have a slow metabolism, and you're
+[00:09.2 - 00:14.2] bloated, you have poor blood sugar control, or you have bad sleep and trouble focusing, and you feel
+[00:14.2 - 00:19.5] tired and wired, take NAD. If you always have aches and pains in your joints, you feel stiff, or you
+[00:19.5 - 00:24.2] have back pain, knee pain, or hip pain, if you have chronic inflammation, you have fine lines, wrinkles,
+[00:24.2 - 00:29.2] and sagging skin, or you have weak hair and nail strength, if you have bone loss, slow muscle
+[00:29.2 - 00:34.8] recovery, poor digestion, plus bloating, and you feel older than your age, take AKG. You can take them
+[00:34.8 - 00:38.6] together or separately. They are complementary. You could just take the capsules in the morning
+[00:38.6 - 00:42.6] with food, and you're ready to go, and this is having an amazing flash sale deal right now, so I
+[00:42.6 - 00:46.1] will drop links right down here to their official store, so you can get the real products, see those
+[00:46.1 - 00:49.8] reviews. I don't know when the flash sale is ending, everybody, so make sure to run and grab it to get
+[00:49.8 - 00:51.1] it at a great price.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_20_7574567101227224333_transcription_20260531_212808.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_20_7574567101227224333_transcription_20260531_212808.txt
+
+============================================================
+RANK: 21 | GMV: $10926.2 | VIDEO ID: 7605758340303555853
+URL: https://www.tiktok.com/@drew.review/video/7605758340303555853
+WORD COUNT: 747
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_21_7605758340303555853.mp3, file size: 2.17 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 73.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.0]  is how to take astaxanthin and NMN together from a pancreatic cancer researcher. Astaxanthin is an
+[00:05.0 - 00:09.0]  organic pigment molecule that is one of the strongest antioxidant agents in the world,
+[00:09.0 - 00:13.5]  and it pairs really fantastically with NMN, which is an organic compound that has very powerful
+[00:13.5 - 00:18.6]  anti-aging effects. This combo is fantastic for fine lines and wrinkles, hair and nail growth,
+[00:18.6 - 00:23.0]  joint pain, hormonal control, eye health, and so many other wonderful things. You could take both
+[00:23.0 - 00:27.1]  of these together and take them in the morning with food to help enhance the absorption of both
+[00:27.1 - 00:31.8]  of these agents. In particular, the astaxanthin is fat soluble, so make sure that your meal has
+[00:31.8 - 00:36.6]  some kind of fats in it. The NMN formulation has a few other ingredients as well, so be aware if
+[00:36.6 - 00:41.2]  you're currently on other medications like blood thinners, etc. Please ask your doctor first before
+[00:41.2 - 00:46.1]  taking any of these supplements. Take one astaxanthin and two NMN capsules together. They
+[00:46.1 - 00:50.8]  also go really well with multivitamins because all of these repair pathways that these molecules
+[00:50.8 - 00:55.2]  activate require additional nutrients like minerals, vitamins, so you really want to make sure
+[00:55.2 - 00:58.7]  that you have everything ready to go for your body to actually repair itself. And what's really
+[00:58.7 - 01:02.8]  awesome is that normally if you buy them separately, it would cost like $70, but they're having a flash
+[01:02.8 - 01:06.5]  sale deal where you're going to save like $15 extra, so I'm going to drop a link right down here to
+[01:06.5 - 01:10.6]  that special bundle flash sale deal. It's very limited in stock, it's free shipping right now too,
+[01:10.6 - 01:13.1]  and if you have any questions, please let me know in the comment section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_21_7605758340303555853_transcription_20260531_212816.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_21_7605758340303555853_transcription_20260531_212816.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_21_7605758340303555853.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_21_7605758340303555853.mp3, file size: 2.17 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.0] is how to take astaxanthin and NMN together from a pancreatic cancer researcher. Astaxanthin is an
+[00:05.0 - 00:09.0] organic pigment molecule that is one of the strongest antioxidant agents in the world,
+[00:09.0 - 00:13.5] and it pairs really fantastically with NMN, which is an organic compound that has very powerful
+[00:13.5 - 00:18.6] anti-aging effects. This combo is fantastic for fine lines and wrinkles, hair and nail growth,
+[00:18.6 - 00:23.0] joint pain, hormonal control, eye health, and so many other wonderful things. You could take both
+[00:23.0 - 00:27.1] of these together and take them in the morning with food to help enhance the absorption of both
+[00:27.1 - 00:31.8] of these agents. In particular, the astaxanthin is fat soluble, so make sure that your meal has
+[00:31.8 - 00:36.6] some kind of fats in it. The NMN formulation has a few other ingredients as well, so be aware if
+[00:36.6 - 00:41.2] you're currently on other medications like blood thinners, etc. Please ask your doctor first before
+[00:41.2 - 00:46.1] taking any of these supplements. Take one astaxanthin and two NMN capsules together. They
+[00:46.1 - 00:50.8] also go really well with multivitamins because all of these repair pathways that these molecules
+[00:50.8 - 00:55.2] activate require additional nutrients like minerals, vitamins, so you really want to make sure
+[00:55.2 - 00:58.7] that you have everything ready to go for your body to actually repair itself. And what's really
+[00:58.7 - 01:02.8] awesome is that normally if you buy them separately, it would cost like $70, but they're having a flash
+[01:02.8 - 01:06.5] sale deal where you're going to save like $15 extra, so I'm going to drop a link right down here to
+[01:06.5 - 01:10.6] that special bundle flash sale deal. It's very limited in stock, it's free shipping right now too,
+[01:10.6 - 01:13.1] and if you have any questions, please let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_21_7605758340303555853_transcription_20260531_212816.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_21_7605758340303555853_transcription_20260531_212816.txt
+
+============================================================
+RANK: 22 | GMV: $10369.87 | VIDEO ID: 7615143411242323230
+URL: https://www.tiktok.com/@drew.review/video/7615143411242323230
+WORD COUNT: 949
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_22_7615143411242323230.mp3, file size: 2.34 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 73.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.3]  Is it true that cocoa activates stem cells?
+[00:02.3 - 00:03.8]  I'm a pancreatic cancer researcher,
+[00:03.8 - 00:05.2]  so let me explain the science behind it.
+[00:05.2 - 00:06.9]  Everybody always says that dark chocolate
+[00:06.9 - 00:08.0]  is very healthy for you.
+[00:08.0 - 00:09.9]  That is because dark chocolate or hot chocolate
+[00:09.9 - 00:11.4]  are made out of cocoa or cacao,
+[00:11.4 - 00:13.4]  and cocoa is super rich in flavanols,
+[00:13.4 - 00:15.6]  which is where all of the health benefits are coming from.
+[00:15.6 - 00:18.6]  When you consume flavanols, your body produces nitric oxide,
+[00:18.6 - 00:20.2]  and nitric oxide is not only critical
+[00:20.2 - 00:21.7]  for expanding your blood vessels,
+[00:21.7 - 00:24.6]  it also commands your body to release stem-like repair cells
+[00:24.6 - 00:25.5]  from your bone marrow,
+[00:25.5 - 00:27.4]  which repair the lining of your blood vessels
+[00:27.4 - 00:28.4]  when they become damaged.
+[00:28.4 - 00:30.8]  In one study, patients with coronary artery disease
+[00:30.8 - 00:32.4]  were given high flavanol cocoa,
+[00:32.4 - 00:35.4]  and the lining of their blood vessels improved by up to 47%,
+[00:35.4 - 00:37.8]  and there was a two-fold increase in those repair cells
+[00:37.8 - 00:39.1]  floating around in their bloodstream.
+[00:39.1 - 00:41.6]  So consuming cocoa that is very rich in flavanols
+[00:41.6 - 00:43.1]  is amazing for your heart health,
+[00:43.1 - 00:44.6]  but many products and supplements
+[00:44.6 - 00:46.0]  are usually heavily processed,
+[00:46.0 - 00:47.4]  which removes a lot of flavanols.
+[00:47.4 - 00:49.0]  So if you would like a recommendation,
+[00:49.0 - 00:50.7]  I really recommend the Black Forest Cocoa
+[00:50.7 - 00:52.6]  because it is super rich in flavanols.
+[00:52.6 - 00:54.0]  It is not chemically processed.
+[00:54.0 - 00:55.8]  It's vegan, non-GMO, gluten-free.
+[00:55.8 - 00:56.7]  It's made in America.
+[00:56.7 - 00:59.2]  Anthropy tested here, and it is super delicious
+[00:59.2 - 01:01.0]  and mixes really easily into any kind of liquid.
+[01:01.0 - 01:03.1]  Put it in your milk, coffee, even oatmeal.
+[01:03.1 - 01:04.6]  Each bottle will last you for a month,
+[01:04.6 - 01:06.3]  and they have really great reviews behind it already.
+[01:06.3 - 01:07.7]  So if you wanna check this out,
+[01:07.7 - 01:09.2]  I will leave a link right down here where I get it from
+[01:09.2 - 01:10.6]  so you can see all of the reviews.
+[01:10.6 - 01:12.3]  And if you have any questions about how this works,
+[01:12.3 - 01:14.3]  please let me know in the comment section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_22_7615143411242323230_transcription_20260531_212827.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_22_7615143411242323230_transcription_20260531_212827.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_22_7615143411242323230.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_22_7615143411242323230.mp3, file size: 2.34 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.3] Is it true that cocoa activates stem cells?
+[00:02.3 - 00:03.8] I'm a pancreatic cancer researcher,
+[00:03.8 - 00:05.2] so let me explain the science behind it.
+[00:05.2 - 00:06.9] Everybody always says that dark chocolate
+[00:06.9 - 00:08.0] is very healthy for you.
+[00:08.0 - 00:09.9] That is because dark chocolate or hot chocolate
+[00:09.9 - 00:11.4] are made out of cocoa or cacao,
+[00:11.4 - 00:13.4] and cocoa is super rich in flavanols,
+[00:13.4 - 00:15.6] which is where all of the health benefits are coming from.
+[00:15.6 - 00:18.6] When you consume flavanols, your body produces nitric oxide,
+[00:18.6 - 00:20.2] and nitric oxide is not only critical
+[00:20.2 - 00:21.7] for expanding your blood vessels,
+[00:21.7 - 00:24.6] it also commands your body to release stem-like repair cells
+[00:24.6 - 00:25.5] from your bone marrow,
+[00:25.5 - 00:27.4] which repair the lining of your blood vessels
+[00:27.4 - 00:28.4] when they become damaged.
+[00:28.4 - 00:30.8] In one study, patients with coronary artery disease
+[00:30.8 - 00:32.4] were given high flavanol cocoa,
+[00:32.4 - 00:35.4] and the lining of their blood vessels improved by up to 47%,
+[00:35.4 - 00:37.8] and there was a two-fold increase in those repair cells
+[00:37.8 - 00:39.1] floating around in their bloodstream.
+[00:39.1 - 00:41.6] So consuming cocoa that is very rich in flavanols
+[00:41.6 - 00:43.1] is amazing for your heart health,
+[00:43.1 - 00:44.6] but many products and supplements
+[00:44.6 - 00:46.0] are usually heavily processed,
+[00:46.0 - 00:47.4] which removes a lot of flavanols.
+[00:47.4 - 00:49.0] So if you would like a recommendation,
+[00:49.0 - 00:50.7] I really recommend the Black Forest Cocoa
+[00:50.7 - 00:52.6] because it is super rich in flavanols.
+[00:52.6 - 00:54.0] It is not chemically processed.
+[00:54.0 - 00:55.8] It's vegan, non-GMO, gluten-free.
+[00:55.8 - 00:56.7] It's made in America.
+[00:56.7 - 00:59.2] Anthropy tested here, and it is super delicious
+[00:59.2 - 01:01.0] and mixes really easily into any kind of liquid.
+[01:01.0 - 01:03.1] Put it in your milk, coffee, even oatmeal.
+[01:03.1 - 01:04.6] Each bottle will last you for a month,
+[01:04.6 - 01:06.3] and they have really great reviews behind it already.
+[01:06.3 - 01:07.7] So if you wanna check this out,
+[01:07.7 - 01:09.2] I will leave a link right down here where I get it from
+[01:09.2 - 01:10.6] so you can see all of the reviews.
+[01:10.6 - 01:12.3] And if you have any questions about how this works,
+[01:12.3 - 01:14.3] please let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_22_7615143411242323230_transcription_20260531_212827.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_22_7615143411242323230_transcription_20260531_212827.txt
+
+============================================================
+RANK: 23 | GMV: $9485.53 | VIDEO ID: 7591652239270235405
+URL: https://www.tiktok.com/@drew.review/video/7591652239270235405
+WORD COUNT: 843
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_23_7591652239270235405.mp3, file size: 2.41 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 77.9 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  smoke a ton, you have damage and mucus buildup in your lungs and you want to stop, listen to
+[00:04.2 - 00:08.2]  this video. I'm a pancreatic cancer researcher and a naturopath practitioner and let me tell
+[00:08.2 - 00:13.4]  you that hospitals always use NAC to target inflammation and also mucus buildup in your lungs
+[00:13.4 - 00:18.9]  and it's also used clinically for addictive behavior research. NAC stands for N-acetylcysteine
+[00:18.9 - 00:22.8]  and it is a precursor or a building block of glutathione which is your body's primary
+[00:22.8 - 00:27.3]  antioxidant agent. It is highly effective at getting rid of free radicals, unharmful byproducts,
+[00:27.3 - 00:31.6]  and toxins that build up in your body over time which can accelerate aging and disease and for
+[00:31.6 - 00:35.9]  smokers especially because your lungs are always under attack, taking NAC would be very helpful.
+[00:35.9 - 00:40.4]  NAC is also used in hospital settings to break down thick mucus that builds up in your lungs
+[00:40.4 - 00:43.9]  and it makes it nice and thin so that your coughing is actually productive instead of very
+[00:43.9 - 00:49.0]  exhaustive. It soothes inflammation and enhances recovery pathways and because NAC can regulate
+[00:49.0 - 00:53.3]  glutamate levels in your brain, it is used in addictive research especially for cravings. The
+[00:53.3 - 00:56.7]  best news is that you don't have to go to the hospital to get NAC so if you would like a
+[00:56.7 - 01:00.7]  suggestion for NAC that is as good as what you get at the hospital, I highly recommend the NAC
+[01:00.7 - 01:04.7]  from NutraCost because it uses the clinical dose of NAC that is used in research studies which is
+[01:04.7 - 01:08.7]  600 milligrams. These are vegan capsules, they are made in America, they are third party tested here
+[01:08.7 - 01:11.9]  as well, they have fast free shipping, and they have great reviews behind it on top of it all so
+[01:11.9 - 01:14.9]  if you would like to check this out, I will leave a link right down here to their official source
+[01:14.9 - 01:17.6]  so you can see their reviews and if you have any questions please let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_23_7591652239270235405_transcription_20260531_212837.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_23_7591652239270235405_transcription_20260531_212837.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_23_7591652239270235405.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_23_7591652239270235405.mp3, file size: 2.41 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] smoke a ton, you have damage and mucus buildup in your lungs and you want to stop, listen to
+[00:04.2 - 00:08.2] this video. I'm a pancreatic cancer researcher and a naturopath practitioner and let me tell
+[00:08.2 - 00:13.4] you that hospitals always use NAC to target inflammation and also mucus buildup in your lungs
+[00:13.4 - 00:18.9] and it's also used clinically for addictive behavior research. NAC stands for N-acetylcysteine
+[00:18.9 - 00:22.8] and it is a precursor or a building block of glutathione which is your body's primary
+[00:22.8 - 00:27.3] antioxidant agent. It is highly effective at getting rid of free radicals, unharmful byproducts,
+[00:27.3 - 00:31.6] and toxins that build up in your body over time which can accelerate aging and disease and for
+[00:31.6 - 00:35.9] smokers especially because your lungs are always under attack, taking NAC would be very helpful.
+[00:35.9 - 00:40.4] NAC is also used in hospital settings to break down thick mucus that builds up in your lungs
+[00:40.4 - 00:43.9] and it makes it nice and thin so that your coughing is actually productive instead of very
+[00:43.9 - 00:49.0] exhaustive. It soothes inflammation and enhances recovery pathways and because NAC can regulate
+[00:49.0 - 00:53.3] glutamate levels in your brain, it is used in addictive research especially for cravings. The
+[00:53.3 - 00:56.7] best news is that you don't have to go to the hospital to get NAC so if you would like a
+[00:56.7 - 01:00.7] suggestion for NAC that is as good as what you get at the hospital, I highly recommend the NAC
+[01:00.7 - 01:04.7] from NutraCost because it uses the clinical dose of NAC that is used in research studies which is
+[01:04.7 - 01:08.7] 600 milligrams. These are vegan capsules, they are made in America, they are third party tested here
+[01:08.7 - 01:11.9] as well, they have fast free shipping, and they have great reviews behind it on top of it all so
+[01:11.9 - 01:14.9] if you would like to check this out, I will leave a link right down here to their official source
+[01:14.9 - 01:17.6] so you can see their reviews and if you have any questions please let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_23_7591652239270235405_transcription_20260531_212837.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_23_7591652239270235405_transcription_20260531_212837.txt
+
+============================================================
+RANK: 24 | GMV: $8708.19 | VIDEO ID: 7539665335511829791
+URL: https://www.tiktok.com/@drew.review/video/7539665335511829791
+WORD COUNT: 949
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_24_7539665335511829791.mp3, file size: 2.70 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 82.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  you take magnesium for one month, here is what will happen. I'm a pancreatic cancer researcher
+[00:04.0 - 00:08.1]  and a holistic health practitioner, so let's get into it. In the first 24 hours, you will sleep a
+[00:08.1 - 00:11.8]  lot better, you're going to feel much more relaxed, your muscles will unwind so no more cramping,
+[00:11.8 - 00:15.4]  and depending on the type of magnesium you take, it's going to get your digestion flowing as well.
+[00:15.4 - 00:18.7]  After one week, you will start feeling natural enhanced energy without any kind of caffeine
+[00:18.7 - 00:23.1]  jitters, your anxiety or irritability will start decreasing, you will have deeper, higher quality
+[00:23.1 - 00:26.3]  of sleep, and you will have regular bowel movements again. After two to three weeks,
+[00:26.3 - 00:29.6]  you will experience less cramping and less soreness, especially after you work out,
+[00:29.6 - 00:32.6]  you will have less frequent headaches or migraines, your blood pressure will start to
+[00:32.6 - 00:36.2]  decrease because magnesium dilates your blood vessels, and there will be PMS relief for
+[00:36.2 - 00:39.8]  cramping, bloating, or irritability. After one month, your bones will start to strengthen,
+[00:39.8 - 00:42.8]  you will experience hormone balancing, especially for women with menopause,
+[00:42.8 - 00:46.3]  your nervous system will be calmer and more resilient to stress, your cardiovascular health
+[00:46.3 - 00:50.1]  will improve, your sleep will be fantastic, and you will have high energy reserves as well.
+[00:50.1 - 00:53.1]  The speed with which you will experience all these benefits really depends on the type of
+[00:53.1 - 00:57.0]  magnesium that you take. Because magnesium plays a different role in a lot of other functions,
+[00:57.0 - 01:01.0]  there are different types of magnesium that you can take. So if you want a holistic health benefit,
+[01:01.0 - 01:04.2]  it's really great to take a multi-complex magnesium supplement. And if you would like
+[01:04.2 - 01:08.4]  a recommendation for an American-made magnesium supplement, this right here has a 45-day supply,
+[01:08.4 - 01:11.8]  and it also has eight different types of magnesium. This is third-party tested in
+[01:11.8 - 01:15.4]  the United States as well, and it's only $14 with free shipping, so it's a really great
+[01:15.4 - 01:18.2]  steal-of-the-deal price. And if you would like to check this out, I will drop the link on the
+[01:18.2 - 01:21.1]  bottom of the screen so you can read all of the reviews. If you have questions, let me know in
+[01:21.1 - 01:21.9]  the comments section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_24_7539665335511829791_transcription_20260531_212848.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_24_7539665335511829791_transcription_20260531_212848.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_24_7539665335511829791.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_24_7539665335511829791.mp3, file size: 2.70 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] you take magnesium for one month, here is what will happen. I'm a pancreatic cancer researcher
+[00:04.0 - 00:08.1] and a holistic health practitioner, so let's get into it. In the first 24 hours, you will sleep a
+[00:08.1 - 00:11.8] lot better, you're going to feel much more relaxed, your muscles will unwind so no more cramping,
+[00:11.8 - 00:15.4] and depending on the type of magnesium you take, it's going to get your digestion flowing as well.
+[00:15.4 - 00:18.7] After one week, you will start feeling natural enhanced energy without any kind of caffeine
+[00:18.7 - 00:23.1] jitters, your anxiety or irritability will start decreasing, you will have deeper, higher quality
+[00:23.1 - 00:26.3] of sleep, and you will have regular bowel movements again. After two to three weeks,
+[00:26.3 - 00:29.6] you will experience less cramping and less soreness, especially after you work out,
+[00:29.6 - 00:32.6] you will have less frequent headaches or migraines, your blood pressure will start to
+[00:32.6 - 00:36.2] decrease because magnesium dilates your blood vessels, and there will be PMS relief for
+[00:36.2 - 00:39.8] cramping, bloating, or irritability. After one month, your bones will start to strengthen,
+[00:39.8 - 00:42.8] you will experience hormone balancing, especially for women with menopause,
+[00:42.8 - 00:46.3] your nervous system will be calmer and more resilient to stress, your cardiovascular health
+[00:46.3 - 00:50.1] will improve, your sleep will be fantastic, and you will have high energy reserves as well.
+[00:50.1 - 00:53.1] The speed with which you will experience all these benefits really depends on the type of
+[00:53.1 - 00:57.0] magnesium that you take. Because magnesium plays a different role in a lot of other functions,
+[00:57.0 - 01:01.0] there are different types of magnesium that you can take. So if you want a holistic health benefit,
+[01:01.0 - 01:04.2] it's really great to take a multi-complex magnesium supplement. And if you would like
+[01:04.2 - 01:08.4] a recommendation for an American-made magnesium supplement, this right here has a 45-day supply,
+[01:08.4 - 01:11.8] and it also has eight different types of magnesium. This is third-party tested in
+[01:11.8 - 01:15.4] the United States as well, and it's only $14 with free shipping, so it's a really great
+[01:15.4 - 01:18.2] steal-of-the-deal price. And if you would like to check this out, I will drop the link on the
+[01:18.2 - 01:21.1] bottom of the screen so you can read all of the reviews. If you have questions, let me know in
+[01:21.1 - 01:21.9] the comments section.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_24_7539665335511829791_transcription_20260531_212848.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_24_7539665335511829791_transcription_20260531_212848.txt
+
+============================================================
+RANK: 25 | GMV: $8082.41 | VIDEO ID: 7491905522283597102
+URL: https://www.tiktok.com/@drew.review/video/7491905522283597102
+WORD COUNT: 1073
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_25_7491905522283597102.mp3, file size: 1.86 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 99.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.2]  Here's how to make sure that the collagen that you're taking
+[00:02.2 - 00:03.3]  is actually effective
+[00:03.3 - 00:05.4]  and not just being peed right out of your body.
+[00:05.4 - 00:07.8]  I'm a pancreatic cancer researcher currently at home
+[00:07.8 - 00:09.1]  and biology is my domain.
+[00:09.1 - 00:11.2]  So let me explain to you the science behind it.
+[00:11.2 - 00:14.0]  Collagen is the most prevalent protein found in our bodies
+[00:14.0 - 00:16.0]  and as we age, it naturally declines.
+[00:16.0 - 00:17.9]  So taking a supplement is a good way
+[00:17.9 - 00:19.4]  to raise baseline levels again.
+[00:19.4 - 00:22.4]  But collagen is a very, very big molecule.
+[00:22.4 - 00:24.8]  So it's very hard for it to enter cells
+[00:24.8 - 00:26.4]  and be actually bioavailable.
+[00:26.4 - 00:29.7]  That is why you need to take hydrolyzed collagen peptides.
+[00:29.7 - 00:31.2]  And I'm gonna explain what that means.
+[00:31.2 - 00:32.6]  Hydrolysis is a process
+[00:32.6 - 00:34.5]  that breaks down the collagen proteins.
+[00:34.5 - 00:37.9]  So the ones that are left, the hydrolyzed collagen peptides
+[00:37.9 - 00:40.6]  are actually small enough to pass the gut lining
+[00:40.6 - 00:42.1]  and actually enter your bloodstream.
+[00:42.1 - 00:44.3]  So these hydrolyzed collagen peptides
+[00:44.3 - 00:47.4]  are just floating around and they're finding fibroblasts,
+[00:47.4 - 00:49.0]  which are cells that are responsible
+[00:49.0 - 00:51.0]  for building collagen in your joints,
+[00:51.0 - 00:52.8]  your skin, and anywhere else.
+[00:52.8 - 00:54.8]  The very best brand that I take myself
+[00:54.8 - 00:56.7]  for collagen peptides would be this.
+[00:56.7 - 00:59.6]  It already has hydrolyzed collagen peptides
+[01:00.4 - 01:02.0]  and did you know that collagen comes in different types?
+[01:02.0 - 01:04.2]  This has multiple types of collagen
+[01:04.2 - 01:06.2]  that addresses different types of things.
+[01:06.2 - 01:10.2]  And it has hyaluronic acid, vitamin C, and biotin.
+[01:10.2 - 01:12.6]  Hair, skin, nails, and joints, everybody.
+[01:12.6 - 01:14.5]  This is their most powerful formulation.
+[01:14.5 - 01:16.9]  They also have capsules, but this is powder.
+[01:16.9 - 01:19.2]  Two scoops of this is just as powerful
+[01:19.2 - 01:21.9]  as 16 of their capsules.
+[01:21.9 - 01:23.6]  This also comes in different sizes.
+[01:23.6 - 01:25.6]  So if you wanna get something a little bit more affordable,
+[01:25.6 - 01:26.4]  you could do that too.
+[01:26.4 - 01:28.7]  I'm gonna drop the link for everything right over here.
+[01:28.7 - 01:31.0]  It's gonna be their TikTok shop verified page.
+[01:31.0 - 01:32.2]  I'm also gonna leave the capsules
+[01:32.2 - 01:34.1]  in case you guys wanna take a look at that.
+[01:34.1 - 01:35.4]  And I'm gonna put up some coupons
+[01:35.4 - 01:37.0]  on the screen for you all to use.
+[01:37.0 - 01:38.4]  And if you have any other questions, guys,
+[01:38.4 - 01:39.8]  let me know in the comments.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_25_7491905522283597102_transcription_20260531_212859.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_25_7491905522283597102_transcription_20260531_212859.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_25_7491905522283597102.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_25_7491905522283597102.mp3, file size: 1.86 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.2] Here's how to make sure that the collagen that you're taking
+[00:02.2 - 00:03.3] is actually effective
+[00:03.3 - 00:05.4] and not just being peed right out of your body.
+[00:05.4 - 00:07.8] I'm a pancreatic cancer researcher currently at home
+[00:07.8 - 00:09.1] and biology is my domain.
+[00:09.1 - 00:11.2] So let me explain to you the science behind it.
+[00:11.2 - 00:14.0] Collagen is the most prevalent protein found in our bodies
+[00:14.0 - 00:16.0] and as we age, it naturally declines.
+[00:16.0 - 00:17.9] So taking a supplement is a good way
+[00:17.9 - 00:19.4] to raise baseline levels again.
+[00:19.4 - 00:22.4] But collagen is a very, very big molecule.
+[00:22.4 - 00:24.8] So it's very hard for it to enter cells
+[00:24.8 - 00:26.4] and be actually bioavailable.
+[00:26.4 - 00:29.7] That is why you need to take hydrolyzed collagen peptides.
+[00:29.7 - 00:31.2] And I'm gonna explain what that means.
+[00:31.2 - 00:32.6] Hydrolysis is a process
+[00:32.6 - 00:34.5] that breaks down the collagen proteins.
+[00:34.5 - 00:37.9] So the ones that are left, the hydrolyzed collagen peptides
+[00:37.9 - 00:40.6] are actually small enough to pass the gut lining
+[00:40.6 - 00:42.1] and actually enter your bloodstream.
+[00:42.1 - 00:44.3] So these hydrolyzed collagen peptides
+[00:44.3 - 00:47.4] are just floating around and they're finding fibroblasts,
+[00:47.4 - 00:49.0] which are cells that are responsible
+[00:49.0 - 00:51.0] for building collagen in your joints,
+[00:51.0 - 00:52.8] your skin, and anywhere else.
+[00:52.8 - 00:54.8] The very best brand that I take myself
+[00:54.8 - 00:56.7] for collagen peptides would be this.
+[00:56.7 - 00:59.6] It already has hydrolyzed collagen peptides
+[01:00.4 - 01:02.0] and did you know that collagen comes in different types?
+[01:02.0 - 01:04.2] This has multiple types of collagen
+[01:04.2 - 01:06.2] that addresses different types of things.
+[01:06.2 - 01:10.2] And it has hyaluronic acid, vitamin C, and biotin.
+[01:10.2 - 01:12.6] Hair, skin, nails, and joints, everybody.
+[01:12.6 - 01:14.5] This is their most powerful formulation.
+[01:14.5 - 01:16.9] They also have capsules, but this is powder.
+[01:16.9 - 01:19.2] Two scoops of this is just as powerful
+[01:19.2 - 01:21.9] as 16 of their capsules.
+[01:21.9 - 01:23.6] This also comes in different sizes.
+[01:23.6 - 01:25.6] So if you wanna get something a little bit more affordable,
+[01:25.6 - 01:26.4] you could do that too.
+[01:26.4 - 01:28.7] I'm gonna drop the link for everything right over here.
+[01:28.7 - 01:31.0] It's gonna be their TikTok shop verified page.
+[01:31.0 - 01:32.2] I'm also gonna leave the capsules
+[01:32.2 - 01:34.1] in case you guys wanna take a look at that.
+[01:34.1 - 01:35.4] And I'm gonna put up some coupons
+[01:35.4 - 01:37.0] on the screen for you all to use.
+[01:37.0 - 01:38.4] And if you have any other questions, guys,
+[01:38.4 - 01:39.8] let me know in the comments.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_25_7491905522283597102_transcription_20260531_212859.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_25_7491905522283597102_transcription_20260531_212859.txt
+
+============================================================
+RANK: 26 | GMV: $7878.18 | VIDEO ID: 7605743384052976910
+URL: https://www.tiktok.com/@drew.review/video/7605743384052976910
+WORD COUNT: 451
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_26_7605743384052976910.mp3, file size: 1.23 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 41.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  Save yourself $17 and get the bundle instead of buying them separately because each of
+[00:04.2 - 00:08.7]  these is $35 alone and the bundle is $55 with free shipping.
+[00:08.7 - 00:11.0]  Both are made in America and they're pre-tested here.
+[00:11.0 - 00:15.1]  They have amazing reviews behind them and really powerful antioxidant support.
+[00:15.1 - 00:18.8]  Asazanthin is one of the strongest antioxidants found in nature.
+[00:18.8 - 00:21.2]  Incredible for skin, hair, nails, eye health.
+[00:21.2 - 00:25.7]  And NMN is an organic compound that every single cell has in their body and it is really
+[00:25.7 - 00:27.5]  powerful for anti-aging activity.
+[00:27.5 - 00:31.3]  There is a lot of scientific evidence behind it, a lot of human clinical trials.
+[00:31.3 - 00:34.2]  So please don't miss out on this bundle deal because it dropped recently.
+[00:34.2 - 00:38.0]  They are very limited in stock so save yourself some money and grab these together.
+[00:38.0 - 00:41.1]  I'm going to drop a link right down here to the bundle before it sells out.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_26_7605743384052976910_transcription_20260531_212904.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_26_7605743384052976910_transcription_20260531_212904.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_26_7605743384052976910.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_26_7605743384052976910.mp3, file size: 1.23 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] Save yourself $17 and get the bundle instead of buying them separately because each of
+[00:04.2 - 00:08.7] these is $35 alone and the bundle is $55 with free shipping.
+[00:08.7 - 00:11.0] Both are made in America and they're pre-tested here.
+[00:11.0 - 00:15.1] They have amazing reviews behind them and really powerful antioxidant support.
+[00:15.1 - 00:18.8] Asazanthin is one of the strongest antioxidants found in nature.
+[00:18.8 - 00:21.2] Incredible for skin, hair, nails, eye health.
+[00:21.2 - 00:25.7] And NMN is an organic compound that every single cell has in their body and it is really
+[00:25.7 - 00:27.5] powerful for anti-aging activity.
+[00:27.5 - 00:31.3] There is a lot of scientific evidence behind it, a lot of human clinical trials.
+[00:31.3 - 00:34.2] So please don't miss out on this bundle deal because it dropped recently.
+[00:34.2 - 00:38.0] They are very limited in stock so save yourself some money and grab these together.
+[00:38.0 - 00:41.1] I'm going to drop a link right down here to the bundle before it sells out.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_26_7605743384052976910_transcription_20260531_212904.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_26_7605743384052976910_transcription_20260531_212904.txt
+
+============================================================
+RANK: 27 | GMV: $7180.33 | VIDEO ID: 7600276237688376607
+URL: https://www.tiktok.com/@drew.review/video/7600276237688376607
+WORD COUNT: 1021
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_27_7600276237688376607.mp3, file size: 2.67 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 94.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  your chin looks like this and your pooch looks like this, you're not fat. You just have high
+[00:04.2 - 00:09.7]  cortisol. Chronic fatigue, brain fog, sugar cravings, terrible sleep, all of these are classic signs of
+[00:09.7 - 00:13.4]  high cortisol. I'm a pancreatic cancer researcher and a naturopath practitioner, so let me explain
+[00:13.4 - 00:17.4]  what is happening and how you can help yourself in a holistic way. Your body depends on a network
+[00:17.4 - 00:22.0]  of organs called the HPA axis which modulates your primary stress hormone called cortisol,
+[00:22.0 - 00:26.5]  and magnesium plays a huge role in regulating that system. So when magnesium levels are low,
+[00:26.5 - 00:30.9]  stress hormone cortisol goes way up, and most people are already depleted in magnesium. Proper
+[00:30.9 - 00:34.7]  magnesium levels can help balance cortisol levels naturally, reduce tension and headaches,
+[00:34.7 - 00:38.3]  calm the nervous system, help you sleep a lot better, and within a few weeks people notice
+[00:38.3 - 00:42.2]  that they sleep a lot better, they're less anxious, less irritable, sugar cravings go down,
+[00:42.2 - 00:46.6]  they focus a lot better, there's a lot of amazing benefits. So the bottom line is that low magnesium
+[00:46.6 - 00:50.6]  causes stress to go up, and chronic stress actually burns through all the magnesium stores that your
+[00:50.6 - 00:54.4]  body has left, which is why a lot of symptoms keep piling and piling. And a lot of people don't know
+[00:54.4 - 00:58.6]  this, but magnesium comes in many different forms. Your body uses them for many different functions,
+[00:58.6 - 01:02.7]  but instead of taking all of them separately, you can get a magnesium complex supplement that has
+[01:02.7 - 01:06.4]  multiple forms of magnesium all in one capsule. And if you want a recommendation for a really
+[01:06.4 - 01:10.4]  great magnesium complex, I love the one from Toplux because it has eight different types of
+[01:10.4 - 01:14.5]  magnesium combined in one capsule. You take two of these per day in the evening, it's a 45 day
+[01:14.5 - 01:18.4]  supply, these are vegetarian capsules, and it's made in America and it's therapeutic tested here.
+[01:18.4 - 01:21.6]  They have thousands and thousands of five-star reviews, so I will leave a link right here so
+[01:21.6 - 01:24.8]  you can see those reviews for yourself. One warning though is because they always have great
+[01:24.8 - 01:28.9]  flash sale deals on this, when it goes very low they sell out very quickly. So again, I will leave a link
+[01:28.9 - 01:33.0]  right here so you can take advantage of that, take a look at those reviews, and if you have any questions
+[01:33.0 - 01:33.8]  please let me know.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_27_7600276237688376607_transcription_20260531_212916.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_27_7600276237688376607_transcription_20260531_212916.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_27_7600276237688376607.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_27_7600276237688376607.mp3, file size: 2.67 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] your chin looks like this and your pooch looks like this, you're not fat. You just have high
+[00:04.2 - 00:09.7] cortisol. Chronic fatigue, brain fog, sugar cravings, terrible sleep, all of these are classic signs of
+[00:09.7 - 00:13.4] high cortisol. I'm a pancreatic cancer researcher and a naturopath practitioner, so let me explain
+[00:13.4 - 00:17.4] what is happening and how you can help yourself in a holistic way. Your body depends on a network
+[00:17.4 - 00:22.0] of organs called the HPA axis which modulates your primary stress hormone called cortisol,
+[00:22.0 - 00:26.5] and magnesium plays a huge role in regulating that system. So when magnesium levels are low,
+[00:26.5 - 00:30.9] stress hormone cortisol goes way up, and most people are already depleted in magnesium. Proper
+[00:30.9 - 00:34.7] magnesium levels can help balance cortisol levels naturally, reduce tension and headaches,
+[00:34.7 - 00:38.3] calm the nervous system, help you sleep a lot better, and within a few weeks people notice
+[00:38.3 - 00:42.2] that they sleep a lot better, they're less anxious, less irritable, sugar cravings go down,
+[00:42.2 - 00:46.6] they focus a lot better, there's a lot of amazing benefits. So the bottom line is that low magnesium
+[00:46.6 - 00:50.6] causes stress to go up, and chronic stress actually burns through all the magnesium stores that your
+[00:50.6 - 00:54.4] body has left, which is why a lot of symptoms keep piling and piling. And a lot of people don't know
+[00:54.4 - 00:58.6] this, but magnesium comes in many different forms. Your body uses them for many different functions,
+[00:58.6 - 01:02.7] but instead of taking all of them separately, you can get a magnesium complex supplement that has
+[01:02.7 - 01:06.4] multiple forms of magnesium all in one capsule. And if you want a recommendation for a really
+[01:06.4 - 01:10.4] great magnesium complex, I love the one from Toplux because it has eight different types of
+[01:10.4 - 01:14.5] magnesium combined in one capsule. You take two of these per day in the evening, it's a 45 day
+[01:14.5 - 01:18.4] supply, these are vegetarian capsules, and it's made in America and it's therapeutic tested here.
+[01:18.4 - 01:21.6] They have thousands and thousands of five-star reviews, so I will leave a link right here so
+[01:21.6 - 01:24.8] you can see those reviews for yourself. One warning though is because they always have great
+[01:24.8 - 01:28.9] flash sale deals on this, when it goes very low they sell out very quickly. So again, I will leave a link
+[01:28.9 - 01:33.0] right here so you can take advantage of that, take a look at those reviews, and if you have any questions
+[01:33.0 - 01:33.8] please let me know.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_27_7600276237688376607_transcription_20260531_212916.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_27_7600276237688376607_transcription_20260531_212916.txt
+
+============================================================
+RANK: 28 | GMV: $6898.16 | VIDEO ID: 7528462911967153421
+URL: https://www.tiktok.com/@drew.review/video/7528462911967153421
+WORD COUNT: 1622
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_28_7528462911967153421.mp3, file size: 4.35 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 135.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.7]  Here's how to take oral anti-aging NAD the right way.
+[00:02.7 - 00:03.6]  And if you don't believe me,
+[00:03.6 - 00:05.2]  I'm a pancreatic cancer researcher,
+[00:05.2 - 00:06.6]  so biology is my domain.
+[00:06.6 - 00:09.6]  NAD stands for nicotinamide adenine dinucleotide,
+[00:09.6 - 00:11.0]  and this little fan of youth molecule
+[00:11.0 - 00:13.2]  is extremely important for our wellbeing.
+[00:13.2 - 00:15.8]  Its main function is in mitochondrial support
+[00:15.8 - 00:17.6]  because it helps convert the food that we eat
+[00:17.6 - 00:19.3]  into usable energy called ATP.
+[00:19.3 - 00:21.0]  So if you feel tired all the time,
+[00:21.0 - 00:22.8]  taking NAD would be very helpful.
+[00:22.8 - 00:25.0]  It also plays a role in DNA repair mechanisms
+[00:25.0 - 00:26.3]  and life cycle of a cell.
+[00:26.3 - 00:28.5]  That has implications for skin rejuvenation,
+[00:28.5 - 00:30.6]  liver regrowth, and many other things.
+[00:30.6 - 00:32.4]  It also helps you with your cortisol levels,
+[00:32.4 - 00:35.3]  inflammation, brain health, everything you can think of.
+[00:35.3 - 00:38.6]  And as we age, our natural NAD levels are rapidly declining.
+[00:38.6 - 00:39.9]  So taking an oral supplement
+[00:39.9 - 00:42.0]  is a great way of raising your baseline levels again.
+[00:42.0 - 00:44.2]  NAD can be taken in many different types.
+[00:44.2 - 00:46.9]  There are patches, liquid forms, oral forms,
+[00:46.9 - 00:49.4]  IVs, injections, a lot of different ways.
+[00:49.4 - 00:52.2]  The most powerful form are through IVs or injections,
+[00:52.2 - 00:54.2]  but those usually take quite a bit of time.
+[00:54.2 - 00:55.2]  They're very expensive
+[00:55.2 - 00:56.5]  and you have to do them multiple times,
+[00:56.5 - 00:58.1]  and they involve the use of needles.
+[00:58.7 - 00:60.0]  The second best option is oral supplements,
+[00:60.0 - 01:01.6]  but you have to know what is the right type to get.
+[01:01.6 - 01:03.8]  Firstly, it's better to take pure NAD
+[01:03.8 - 01:05.7]  and not a precursor like an R or NMN,
+[01:05.7 - 01:08.1]  which are the building blocks to make more NAD in your body.
+[01:08.1 - 01:10.0]  That's because the enzymes responsible
+[01:10.0 - 01:12.1]  for converting the precursors into NAD
+[01:12.1 - 01:14.3]  are rapidly declining as you age as well.
+[01:14.3 - 01:15.9]  And that's going to create a bottleneck effect.
+[01:15.9 - 01:18.0]  You're going to have a lot of precursors left over,
+[01:18.0 - 01:19.3]  waiting for their chance to work
+[01:19.3 - 01:20.9]  with the few enzymes left available
+[01:20.9 - 01:22.2]  to be converted into NAD.
+[01:22.2 - 01:24.5]  So it's not as potent and it's not as fast acting,
+[01:24.5 - 01:25.9]  especially the older that you are.
+[01:25.9 - 01:28.4]  The best thing to do is get actual NAD,
+[01:28.4 - 01:29.7]  but it has to be liposomal.
+[01:29.7 - 01:31.7]  This is a special delivery method
+[01:31.7 - 01:34.0]  that encapsulates NAD in a protective barrier
+[01:34.0 - 01:35.9]  and it protects it from stomach acid degradation
+[01:35.9 - 01:38.6]  and also significantly enhances the absorption of NAD
+[01:38.6 - 01:40.8]  into your body instead of being peed right out.
+[01:40.8 - 01:43.3]  You should also take NAD in the morning, not at night,
+[01:43.3 - 01:45.3]  because it's going to give you a great burst of energy
+[01:45.3 - 01:47.5]  and it also naturally regulates your circadian rhythm.
+[01:47.5 - 01:49.1]  And you could take it with or without food.
+[01:49.1 - 01:50.1]  If you take it without food,
+[01:50.1 - 01:51.8]  you're going to feel the effects a lot stronger.
+[01:51.8 - 01:53.8]  So if you are more sensitive to NAD,
+[01:53.8 - 01:54.9]  you can pair it with food
+[01:54.9 - 01:56.4]  and that's going to dampen the effects on you,
+[01:56.4 - 01:57.6]  like jitteriness, for example.
+[01:57.6 - 01:58.7]  If you want a recommendation
+[01:58.7 - 02:00.7]  for a really great oral NAD brand,
+[02:00.7 - 02:02.5]  the one from Catechor is the one that I use myself.
+[02:02.5 - 02:04.2]  It's liposomal NAD, as I said,
+[02:04.2 - 02:05.4]  and it even has resveratrol,
+[02:05.4 - 02:06.6]  which is a natural antioxidant
+[02:06.6 - 02:07.9]  found in red wine and grapes too.
+[02:07.9 - 02:09.4]  So if you would like to check this out,
+[02:09.4 - 02:10.5]  I'm going to leave the link right over here
+[02:10.5 - 02:12.2]  to their official store so you can see the reviews.
+[02:12.2 - 02:13.3]  They have thousands of them.
+[02:13.3 - 02:14.2]  And if you have any questions,
+[02:14.2 - 02:15.8]  let me know in the comment section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_28_7528462911967153421_transcription_20260531_212933.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_28_7528462911967153421_transcription_20260531_212933.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_28_7528462911967153421.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_28_7528462911967153421.mp3, file size: 4.35 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:03.6 - 00:05.2] I'm a pancreatic cancer researcher,
+[00:05.2 - 00:06.6] so biology is my domain.
+[00:06.6 - 00:09.6] NAD stands for nicotinamide adenine dinucleotide,
+[00:09.6 - 00:11.0] and this little fan of youth molecule
+[00:11.0 - 00:13.2] is extremely important for our wellbeing.
+[00:13.2 - 00:15.8] Its main function is in mitochondrial support
+[00:15.8 - 00:17.6] because it helps convert the food that we eat
+[00:17.6 - 00:19.3] into usable energy called ATP.
+[00:19.3 - 00:21.0] So if you feel tired all the time,
+[00:21.0 - 00:22.8] taking NAD would be very helpful.
+[00:22.8 - 00:25.0] It also plays a role in DNA repair mechanisms
+[00:25.0 - 00:26.3] and life cycle of a cell.
+[00:26.3 - 00:28.5] That has implications for skin rejuvenation,
+[00:28.5 - 00:30.6] liver regrowth, and many other things.
+[00:30.6 - 00:32.4] It also helps you with your cortisol levels,
+[00:32.4 - 00:35.3] inflammation, brain health, everything you can think of.
+[00:35.3 - 00:38.6] And as we age, our natural NAD levels are rapidly declining.
+[00:38.6 - 00:39.9] So taking an oral supplement
+[00:39.9 - 00:42.0] is a great way of raising your baseline levels again.
+[00:42.0 - 00:44.2] NAD can be taken in many different types.
+[00:44.2 - 00:46.9] There are patches, liquid forms, oral forms,
+[00:46.9 - 00:49.4] IVs, injections, a lot of different ways.
+[00:49.4 - 00:52.2] The most powerful form are through IVs or injections,
+[00:52.2 - 00:54.2] but those usually take quite a bit of time.
+[00:54.2 - 00:55.2] They're very expensive
+[00:55.2 - 00:56.5] and you have to do them multiple times,
+[00:56.5 - 00:58.1] and they involve the use of needles.
+[00:58.7 - 00:60.0] The second best option is oral supplements,
+[00:60.0 - 01:01.6] but you have to know what is the right type to get.
+[01:01.6 - 01:03.8] Firstly, it's better to take pure NAD
+[01:03.8 - 01:05.7] and not a precursor like an R or NMN,
+[01:05.7 - 01:08.1] which are the building blocks to make more NAD in your body.
+[01:08.1 - 01:10.0] That's because the enzymes responsible
+[01:10.0 - 01:12.1] for converting the precursors into NAD
+[01:12.1 - 01:14.3] are rapidly declining as you age as well.
+[01:14.3 - 01:15.9] And that's going to create a bottleneck effect.
+[01:15.9 - 01:18.0] You're going to have a lot of precursors left over,
+[01:18.0 - 01:19.3] waiting for their chance to work
+[01:19.3 - 01:20.9] with the few enzymes left available
+[01:20.9 - 01:22.2] to be converted into NAD.
+[01:22.2 - 01:24.5] So it's not as potent and it's not as fast acting,
+[01:24.5 - 01:25.9] especially the older that you are.
+[01:25.9 - 01:28.4] The best thing to do is get actual NAD,
+[01:28.4 - 01:29.7] but it has to be liposomal.
+[01:29.7 - 01:31.7] This is a special delivery method
+[01:31.7 - 01:34.0] that encapsulates NAD in a protective barrier
+[01:34.0 - 01:35.9] and it protects it from stomach acid degradation
+[01:35.9 - 01:38.6] and also significantly enhances the absorption of NAD
+[01:38.6 - 01:40.8] into your body instead of being peed right out.
+[01:40.8 - 01:43.3] You should also take NAD in the morning, not at night,
+[01:43.3 - 01:45.3] because it's going to give you a great burst of energy
+[01:45.3 - 01:47.5] and it also naturally regulates your circadian rhythm.
+[01:47.5 - 01:49.1] And you could take it with or without food.
+[01:49.1 - 01:50.1] If you take it without food,
+[01:50.1 - 01:51.8] you're going to feel the effects a lot stronger.
+[01:51.8 - 01:53.8] So if you are more sensitive to NAD,
+[01:53.8 - 01:54.9] you can pair it with food
+[01:54.9 - 01:56.4] and that's going to dampen the effects on you,
+[01:56.4 - 01:57.6] like jitteriness, for example.
+[01:57.6 - 01:58.7] If you want a recommendation
+[01:58.7 - 02:00.7] for a really great oral NAD brand,
+[02:00.7 - 02:02.5] the one from Catechor is the one that I use myself.
+[02:02.5 - 02:04.2] It's liposomal NAD, as I said,
+[02:04.2 - 02:05.4] and it even has resveratrol,
+[02:05.4 - 02:06.6] which is a natural antioxidant
+[02:06.6 - 02:07.9] found in red wine and grapes too.
+[02:07.9 - 02:09.4] So if you would like to check this out,
+[02:09.4 - 02:10.5] I'm going to leave the link right over here
+[02:10.5 - 02:12.2] to their official store so you can see the reviews.
+[02:12.2 - 02:13.3] They have thousands of them.
+[02:13.3 - 02:14.2] And if you have any questions,
+[02:14.2 - 02:15.8] let me know in the comment section.
+Timestamped segments truncated to fit terminal limit (5000 chars).
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_28_7528462911967153421_transcription_20260531_212933.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_28_7528462911967153421_transcription_20260531_212933.txt
+
+============================================================
+RANK: 29 | GMV: $6749.79 | VIDEO ID: 7636815014367628558
+URL: https://www.tiktok.com/@drew.review/video/7636815014367628558
+WORD COUNT: 771
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_29_7636815014367628558.mp3, file size: 2.14 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 71.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:08.0]  When will you start feeling the benefits of taking a testosterone booster, especially the 15-in-1 formula from microingredients, which is all natural and really fantastic?
+[00:08.0 - 00:14.9]  This focuses on three main pathways for men, which are hormone signaling, stress and cortisol reduction, and blood flow and libido support,
+[00:14.9 - 00:19.4]  which all taken combined are effective at raising testosterone levels again the older that you get.
+[00:19.4 - 00:25.1]  Within the first week or two, the results are more subtle because it's all hormonal, so that takes a little bit of time for it to actually work.
+[00:25.1 - 00:31.0]  So you might feel some steady natural energy without caffeine jitters, you might be waking up better, and your mood might start to improve as well.
+[00:31.0 - 00:34.1]  Within week two to four, that's when you really start to feel the effects.
+[00:34.1 - 00:39.2]  Blood flow is starting to circulate, libido improves, you feel more energy and sharper mental clarity and focus,
+[00:39.2 - 00:42.5]  and you might start noticing you're working out a little bit longer in the gym.
+[00:42.5 - 00:48.4]  From weeks four to eight, that's when you really feel a lot better recovery, more consistent drive, motivation, focus,
+[00:48.4 - 00:52.9]  and by this point, you might notice that your bloating has gone down and your libido becomes much more consistent.
+[00:52.9 - 00:59.6]  Just stay consistent, make sure to finish the whole bag, and if you're on medication, just make sure to ask your healthcare provider first before taking any kind of supplements.
+[00:59.6 - 01:05.1]  And this has really great reviews behind it, it's made in America, it's third-party tested here, and they're running a really great flash sale deal right now.
+[01:05.1 - 01:09.2]  So if you want to check this out, I will leave a link right here next to orange shopping carts so you can see those reviews,
+[01:09.2 - 01:11.2]  and if you have any questions, let me know in the comment section.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_29_7636815014367628558_transcription_20260531_212942.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_29_7636815014367628558_transcription_20260531_212942.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_29_7636815014367628558.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_29_7636815014367628558.mp3, file size: 2.14 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:08.0] When will you start feeling the benefits of taking a testosterone booster, especially the 15-in-1 formula from microingredients, which is all natural and really fantastic?
+[00:08.0 - 00:14.9] This focuses on three main pathways for men, which are hormone signaling, stress and cortisol reduction, and blood flow and libido support,
+[00:14.9 - 00:19.4] which all taken combined are effective at raising testosterone levels again the older that you get.
+[00:19.4 - 00:25.1] Within the first week or two, the results are more subtle because it's all hormonal, so that takes a little bit of time for it to actually work.
+[00:25.1 - 00:31.0] So you might feel some steady natural energy without caffeine jitters, you might be waking up better, and your mood might start to improve as well.
+[00:31.0 - 00:34.1] Within week two to four, that's when you really start to feel the effects.
+[00:34.1 - 00:39.2] Blood flow is starting to circulate, libido improves, you feel more energy and sharper mental clarity and focus,
+[00:39.2 - 00:42.5] and you might start noticing you're working out a little bit longer in the gym.
+[00:42.5 - 00:48.4] From weeks four to eight, that's when you really feel a lot better recovery, more consistent drive, motivation, focus,
+[00:48.4 - 00:52.9] and by this point, you might notice that your bloating has gone down and your libido becomes much more consistent.
+[00:52.9 - 00:59.6] Just stay consistent, make sure to finish the whole bag, and if you're on medication, just make sure to ask your healthcare provider first before taking any kind of supplements.
+[00:59.6 - 01:05.1] And this has really great reviews behind it, it's made in America, it's third-party tested here, and they're running a really great flash sale deal right now.
+[01:05.1 - 01:09.2] So if you want to check this out, I will leave a link right here next to orange shopping carts so you can see those reviews,
+[01:09.2 - 01:11.2] and if you have any questions, let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_29_7636815014367628558_transcription_20260531_212942.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_29_7636815014367628558_transcription_20260531_212942.txt
+
+============================================================
+RANK: 30 | GMV: $6499.27 | VIDEO ID: 7616231250310810911
+URL: https://www.tiktok.com/@drew.review/video/7616231250310810911
+WORD COUNT: 1055
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_30_7616231250310810911.mp3, file size: 3.29 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 105.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  you take NMN for one month straight here's what will happen. I'm a pancreatic cancer researcher
+[00:04.0 - 00:07.8]  and a naturopath practitioner so let's talk all about it. NMN is a very powerful anti-aging
+[00:07.8 - 00:12.3]  molecule that every single cell in your body already naturally has and its decline with aging
+[00:12.3 - 00:17.2]  is associated with accelerated aging and disease. It is integral for really important complex
+[00:17.2 - 00:22.6]  biological processes like DNA repair mechanisms, the life cycle of a cell, inflammation, pain
+[00:22.6 - 00:26.7]  management, and so many other foundational things. And there are a ton of clinical trials showing how
+[00:26.7 - 00:31.3]  effective NMN is so here's some benefits that you might experience. Firstly because it's so crucial
+[00:31.3 - 00:36.2]  for energy production you will feel a steady rise in daily energy without any kind of crashes or
+[00:36.2 - 00:40.5]  caffeine jitters and it also is amazing for sharper mental clarity and focus and for learning and
+[00:40.5 - 00:45.0]  memory and mood stabilization. People who take NMN even report calmer, deeper, higher quality level
+[00:45.0 - 00:48.6]  of sleep and the longer you take it the better it's going to activate your repair pathways.
+[00:48.6 - 00:53.6]  That's incredible for your hair, skin, nails, and even joint health. NMN helps enhance muscle
+[00:53.6 - 00:58.4]  recovery not only in athletes but older populations. It even helps regulate metabolism so it can help
+[00:58.4 - 01:02.9]  with bloating, blood sugar, insulin sensitivity, and it even has amazing effects on blood vessel
+[01:02.9 - 01:07.6]  formation so it helps older populations retain healthier vessels. Just be consistent while you're
+[01:07.6 - 01:11.0]  taking it so that it builds up in your body over time, it kind of creeps up on you. And if you'd
+[01:11.0 - 01:16.3]  like a recommendation, I love the NMN from Catacor. It has a ton of fantastic reviews behind it. It's
+[01:16.3 - 01:20.5]  made in America. It's third party tested here. This is a one month supply. You just take two capsules
+[01:20.5 - 01:25.1]  per day and not only does it have a potent amount of NMN, it also has quercetin and resveratrol which
+[01:25.1 - 01:30.1]  are organic antioxidant agents plus TMG which is really important to help your body kind of get
+[01:30.1 - 01:34.5]  used to the effects of NMN. So if you want to check this out, I will leave link right down here to their
+[01:34.5 - 01:38.3]  official store. The only problem is that ever since they went super viral this week they've been selling
+[01:38.3 - 01:42.1]  out very quickly so I don't know when the flash sale deal is ending but make sure to take a look
+[01:42.1 - 01:44.9]  and if you still see that orange shopping cart they are still left in stock.
+Complete transcription result saved to: /tmp/tmp6m9untrg/video_30_7616231250310810911_transcription_20260531_212954.json
+Plain text transcription saved to: /tmp/tmp6m9untrg/video_30_7616231250310810911_transcription_20260531_212954.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp6m9untrg/video_30_7616231250310810911.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp6m9untrg/video_30_7616231250310810911.mp3, file size: 3.29 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] you take NMN for one month straight here's what will happen. I'm a pancreatic cancer researcher
+[00:04.0 - 00:07.8] and a naturopath practitioner so let's talk all about it. NMN is a very powerful anti-aging
+[00:07.8 - 00:12.3] molecule that every single cell in your body already naturally has and its decline with aging
+[00:12.3 - 00:17.2] is associated with accelerated aging and disease. It is integral for really important complex
+[00:17.2 - 00:22.6] biological processes like DNA repair mechanisms, the life cycle of a cell, inflammation, pain
+[00:22.6 - 00:26.7] management, and so many other foundational things. And there are a ton of clinical trials showing how
+[00:26.7 - 00:31.3] effective NMN is so here's some benefits that you might experience. Firstly because it's so crucial
+[00:31.3 - 00:36.2] for energy production you will feel a steady rise in daily energy without any kind of crashes or
+[00:36.2 - 00:40.5] caffeine jitters and it also is amazing for sharper mental clarity and focus and for learning and
+[00:40.5 - 00:45.0] memory and mood stabilization. People who take NMN even report calmer, deeper, higher quality level
+[00:45.0 - 00:48.6] of sleep and the longer you take it the better it's going to activate your repair pathways.
+[00:48.6 - 00:53.6] That's incredible for your hair, skin, nails, and even joint health. NMN helps enhance muscle
+[00:53.6 - 00:58.4] recovery not only in athletes but older populations. It even helps regulate metabolism so it can help
+[00:58.4 - 01:02.9] with bloating, blood sugar, insulin sensitivity, and it even has amazing effects on blood vessel
+[01:02.9 - 01:07.6] formation so it helps older populations retain healthier vessels. Just be consistent while you're
+[01:07.6 - 01:11.0] taking it so that it builds up in your body over time, it kind of creeps up on you. And if you'd
+[01:11.0 - 01:16.3] like a recommendation, I love the NMN from Catacor. It has a ton of fantastic reviews behind it. It's
+[01:16.3 - 01:20.5] made in America. It's third party tested here. This is a one month supply. You just take two capsules
+[01:20.5 - 01:25.1] per day and not only does it have a potent amount of NMN, it also has quercetin and resveratrol which
+[01:25.1 - 01:30.1] are organic antioxidant agents plus TMG which is really important to help your body kind of get
+[01:30.1 - 01:34.5] used to the effects of NMN. So if you want to check this out, I will leave link right down here to their
+[01:34.5 - 01:38.3] official store. The only problem is that ever since they went super viral this week they've been selling
+[01:38.3 - 01:42.1] out very quickly so I don't know when the flash sale deal is ending but make sure to take a look
+[01:42.1 - 01:44.9] and if you still see that orange shopping cart they are still left in stock.
+
+Completed transcription, JSON saved to /tmp/tmp6m9untrg/video_30_7616231250310810911_transcription_20260531_212954.json
+Plain text transcription saved to /tmp/tmp6m9untrg/video_30_7616231250310810911_transcription_20260531_212954.txt
+

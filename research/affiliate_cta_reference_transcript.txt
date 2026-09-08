@@ -1,0 +1,110 @@
+Starting Speech-to-Text conversion...
+Video file detected: /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference.mp4, file size: 10.10 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913.mp3
+Transcribing audio file: /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913.mp3, file size: 0.42 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 55.6 seconds
+Language: eng
+Timestamped segments:
+[00:00.2 - 00:01.8] Mike G, what's your best CTA, bro?
+[00:01.8 - 00:02.2] Hit me.
+[00:02.2 - 00:06.1] It actually just sold out last month, but if that link's right there, that means they just restocked.
+[00:06.1 - 00:06.9] Ooh.
+[00:06.9 - 00:08.3] That's fire.
+[00:08.3 - 00:10.9] Every time I try and link this product, it's always sold out.
+[00:10.9 - 00:13.1] But if you see that orange link down below, they got a couple left.
+[00:13.1 - 00:14.6] Oh, I'm buying that, though.
+[00:14.6 - 00:14.8] Ooh.
+[00:14.8 - 00:15.5] I'm buying that.
+[00:15.5 - 00:18.4] This company sells out at full price, so I'm sure they're gonna sell out at that price.
+[00:18.4 - 00:19.8] Oh, shit.
+[00:19.8 - 00:19.8] Ooh.
+[00:19.8 - 00:21.1] All right, so they just restocked.
+[00:21.1 - 00:23.6] So if you guys wanna get it before they sell out again, I can put the link right here.
+[00:23.6 - 00:24.8] Oh, I'm clicking that.
+[00:24.8 - 00:25.0] Oh.
+[00:25.0 - 00:25.7] I'm clicking that.
+[00:25.7 - 00:28.2] Last time I linked it right here, it sold out within a few days.
+[00:28.2 - 00:31.0] So if you guys wanna get it, I'll leave the link somewhere on the bottom of the video.
+[00:31.0 - 00:32.1] Oh, yeah.
+[00:32.1 - 00:32.1] Ooh.
+[00:32.1 - 00:32.7] Sauce.
+[00:32.7 - 00:36.2] This product is blowing up right now, so you gotta grab it fast before it sell out completely.
+[00:36.2 - 00:37.4] Y'all be quick.
+[00:37.4 - 00:37.7] Hey.
+[00:37.7 - 00:38.3] Be quick.
+[00:38.3 - 00:39.9] It's on a huge flash sale right now.
+[00:39.9 - 00:42.5] You might as well grab it while they're giving it away for damn near free.
+[00:42.5 - 00:44.3] Oh.
+[00:44.3 - 00:44.7] Oh.
+[00:44.7 - 00:46.8] If you wanna check it out, I'll leave it in the orange link down below.
+[00:46.8 - 00:48.7] But if you can't see it anymore, that means they're all gone.
+[00:48.7 - 00:50.3] Hey.
+[00:50.3 - 00:50.5] Oh.
+[00:50.5 - 00:50.9] Play stupid.
+[00:50.9 - 00:52.2] Tell you what, I'll leave a link somewhere down here.
+[00:52.2 - 00:53.4] Just make sure before they sell out again.
+[00:53.4 - 00:55.5] Oh.
+[00:55.5 - 00:55.5] Oh.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913_transcription_20260816_154918.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913_transcription_20260816_154918.txt
+
+The video has been automatically converted to an audio file and saved at /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913.mp3
+[2J[H[3Jmanus-speech-to-text --terminal-max-len-single=5000 /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference.mp4
+Starting Speech-to-Text conversion...
+Video file detected: /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference.mp4, file size: 10.10 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913.mp3, file size: 0.42 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.2 - 00:01.8] Mike G, what's your best CTA, bro?
+[00:01.8 - 00:02.2] Hit me.
+[00:02.2 - 00:06.1] It actually just sold out last month, but if that link's right there, that means they just restocked.
+[00:06.1 - 00:06.9] Ooh.
+[00:06.9 - 00:08.3] That's fire.
+[00:08.3 - 00:10.9] Every time I try and link this product, it's always sold out.
+[00:10.9 - 00:13.1] But if you see that orange link down below, they got a couple left.
+[00:13.1 - 00:14.6] Oh, I'm buying that, though.
+[00:14.6 - 00:14.8] Ooh.
+[00:14.8 - 00:15.5] I'm buying that.
+[00:15.5 - 00:18.4] This company sells out at full price, so I'm sure they're gonna sell out at that price.
+[00:18.4 - 00:19.8] Oh, shit.
+[00:19.8 - 00:19.8] Ooh.
+[00:19.8 - 00:21.1] All right, so they just restocked.
+[00:21.1 - 00:23.6] So if you guys wanna get it before they sell out again, I can put the link right here.
+[00:23.6 - 00:24.8] Oh, I'm clicking that.
+[00:24.8 - 00:25.0] Oh.
+[00:25.0 - 00:25.7] I'm clicking that.
+[00:25.7 - 00:28.2] Last time I linked it right here, it sold out within a few days.
+[00:28.2 - 00:31.0] So if you guys wanna get it, I'll leave the link somewhere on the bottom of the video.
+[00:31.0 - 00:32.1] Oh, yeah.
+[00:32.1 - 00:32.1] Ooh.
+[00:32.1 - 00:32.7] Sauce.
+[00:32.7 - 00:36.2] This product is blowing up right now, so you gotta grab it fast before it sell out completely.
+[00:36.2 - 00:37.4] Y'all be quick.
+[00:37.4 - 00:37.7] Hey.
+[00:37.7 - 00:38.3] Be quick.
+[00:38.3 - 00:39.9] It's on a huge flash sale right now.
+[00:39.9 - 00:42.5] You might as well grab it while they're giving it away for damn near free.
+[00:42.5 - 00:44.3] Oh.
+[00:44.3 - 00:44.7] Oh.
+[00:44.7 - 00:46.8] If you wanna check it out, I'll leave it in the orange link down below.
+[00:46.8 - 00:48.7] But if you can't see it anymore, that means they're all gone.
+[00:48.7 - 00:50.3] Hey.
+[00:50.3 - 00:50.5] Oh.
+[00:50.5 - 00:50.9] Play stupid.
+[00:50.9 - 00:52.2] Tell you what, I'll leave a link somewhere down here.
+[00:52.2 - 00:53.4] Just make sure before they sell out again.
+[00:53.4 - 00:55.5] Oh.
+[00:55.5 - 00:55.5] Oh.
+
+The video has been automatically converted to an audio file and saved at /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913_transcription_20260816_154918.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/cta_video_assets/affiliate_cta_reference_converted_20260816_154913_transcription_20260816_154918.txt

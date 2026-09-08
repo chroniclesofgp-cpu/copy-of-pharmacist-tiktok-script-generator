@@ -1,0 +1,13 @@
+What about under-eye hollows? Let's talk about it because I've been a pharmacist for over 17 years, and I know what I'm talking about. Basically, the area under your eyes that create a tired or aged appearance, mainly due to collagen loss, genetics, or fat loss. This makes us look older and tired. So what can you do about this? I'm so glad you asked.
+
+There's a patent ingredient that just came out of France called volufiline, and it's sourced from the Anemarina asphodeloides root extract. It is essentially designed to increase skin volume and plumpness by promoting adipocyte, which are your fat cells. It actually was originally used to plump up the chest area, but now skincare brands are using it for the face. People are actually calling it filler in a bottle or stick.
+
+Most popular brands with volufiline in it are the one from The Ordinary and the one from Medicube. Let's list out the benefits ingredients of each of these so you guys can decide which one is better for you. The Ordinary says it has 92% volufiline, 1% pal-isoleucine. Now, something to note, the 92% is not actual pure volufiline. If you look at the active ingredients, the Anemarina asphodeloides is towards the bottom, which typically means the actual active volufiline is about 1%.
+
+Now, this does come in a serum, so typically you mix it with your moisturizer, and it has pal-isoleucine, which is a lipo amino acid used to enhance skin volume elasticity. Now, the Medicube multi-balm stick has actually 5% active volufiline. They made this into a multi-balm where you directly apply it to your skin.
+
+Now, aside from the volufiline, it's actually packed with liposomal PDRN, help support plumper looking skin, low molecular collagen, which is finally a collagen that can penetrate into your skin, NAD, liposomal EGF, peptides, elastin, retinol, caffeine, vitamin E, and hyaluronic acid further help that volume and skin elasticity. Also boost hydration and smooth out skin texture. Literally all that packed in this stick.
+
+They're selling pretty well. This one has about sixty thousand units sold on TikTok, but it's been going super viral. Now I wouldn't be surprised if they sold almost two hundred thousand units at this point. In terms of pricing, they're about the same price, around twenty dollars, but you can get massive deals on each of these.
+
+In the comments, I want you to leave which one you guys would choose. My obvious choice is the one by Medicube. You just get so much more, such a great value. Leave link below, but they are selling out fast, and I think they are running a major sale. Grab it before it runs out.

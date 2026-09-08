@@ -1,0 +1,181 @@
+===== NA_celineythoa_7679938803942853902_whisper.txt =====
+Starting Speech-to-Text conversion...
+Transcribing video file: NA_celineythoa_7679938803942853902.mp4, file size: 0.70 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 10.1 seconds
+Language: eng
+Text content:
+
+Complete transcription result saved to: /home/ubuntu/medicube_benchmark_media/NA_celineythoa_7679938803942853902_transcription_20260906_022329.json
+Plain text transcription saved to: /home/ubuntu/medicube_benchmark_media/NA_celineythoa_7679938803942853902_transcription_20260906_022329.txt
+[2J[H[3Jmanus-speech-to-text NA_celineythoa_7679938803942853902.mp4
+Starting Speech-to-Text conversion...
+Transcribing video file: NA_celineythoa_7679938803942853902.mp4, file size: 0.70 MB
+Transcription may take some time depending on file size and audio length...
+
+Completed transcription, JSON saved to /home/ubuntu/medicube_benchmark_media/NA_celineythoa_7679938803942853902_transcription_20260906_022329.json
+Plain text transcription saved to /home/ubuntu/medicube_benchmark_media/NA_celineythoa_7679938803942853902_transcription_20260906_022329.txt
+===== NA_jenn.g.ugc.beauty_7681449320981237005_whisper.txt =====
+Starting Speech-to-Text conversion...
+Video file detected: NA_jenn.g.ugc.beauty_7681449320981237005.mp4, file size: 6.16 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329.mp3
+Transcribing audio file: NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329.mp3, file size: 0.28 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 36.1 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:07.3] If you have strawberry legs, chicken skin, uneven skin tone, the Bye Bye Bumps Red Body Set from Medicube was designed for you.
+[00:07.3 - 00:14.2] It has AHA, BHA, PHA, LHA for deep penetration effective skin treatment, and look at all of these goodies.
+[00:14.2 - 00:18.7] You're getting the body wash, the capsule body lotion, the peel shot cleanser.
+[00:18.7 - 00:21.9] I did get an extra body wash because if you know, you know.
+[00:21.9 - 00:23.4] Then they sent me some freebies.
+[00:23.4 - 00:29.8] The body shower towel, your soft peeling body sponge, which goes perfectly with your peeling shot cleanser.
+[00:29.8 - 00:31.2] An incredible bundle.
+[00:31.2 - 00:35.9] If you wanna take advantage of this bundle, I'm gonna link it for you in that shopping bag right above my name.
+Complete transcription result saved to: /home/ubuntu/medicube_benchmark_media/NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329_transcription_20260906_022331.json
+Plain text transcription saved to: /home/ubuntu/medicube_benchmark_media/NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329_transcription_20260906_022331.txt
+
+The video has been automatically converted to an audio file and saved at NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329.mp3
+[2J[H[3Jmanus-speech-to-text NA_jenn.g.ugc.beauty_7681449320981237005.mp4
+Starting Speech-to-Text conversion...
+Video file detected: NA_jenn.g.ugc.beauty_7681449320981237005.mp4, file size: 6.16 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329.mp3, file size: 0.28 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:07.3] If you have strawberry legs, chicken skin, uneven skin tone, the Bye Bye Bumps Red Body Set from Medicube was designed for you.
+[00:07.3 - 00:14.2] It has AHA, BHA, PHA, LHA for deep penetration effective skin treatment, and look at all of these goodies.
+[00:14.2 - 00:18.7] You're getting the body wash, the capsule body lotion, the peel shot cleanser.
+[00:18.7 - 00:21.9] I did get an extra body wash because if you know, you know.
+[00:21.9 - 00:23.4] Then they sent me some freebies.
+[00:23.4 - 00:29.8] The body shower towel, your soft peeling body sponge, which goes perfectly with your peeling shot cleanser.
+[00:29.8 - 00:31.2] An incredible bundle.
+[00:31.2 - 00:35.9] If you wanna take advantage of this bundle, I'm gonna link it for you in that shopping bag right above my name.
+
+The video has been automatically converted to an audio file and saved at NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/medicube_benchmark_media/NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329_transcription_20260906_022331.json
+Plain text transcription saved to /home/ubuntu/medicube_benchmark_media/NA_jenn.g.ugc.beauty_7681449320981237005_converted_20260906_022329_transcription_20260906_022331.txt
+===== NA_trulyglowin_7680747760689220895_whisper.txt =====
+Starting Speech-to-Text conversion...
+Video file detected: NA_trulyglowin_7680747760689220895.mp4, file size: 5.99 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: NA_trulyglowin_7680747760689220895_converted_20260906_022331.mp3
+Transcribing audio file: NA_trulyglowin_7680747760689220895_converted_20260906_022331.mp3, file size: 0.43 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 56.6 seconds
+Language: eng
+Timestamped segments:
+[00:00.0 - 00:07.7] If your skin looks like this and you're trying to find the perfect Medicube body bundle for you, let me show you how to use this Medicube Bye Bye Bump Set in the correct order.
+[00:07.7 - 00:10.6] Before jumping in the shower, you're gonna use the Red Body Peel Shot Cleanser.
+[00:10.6 - 00:14.1] This has exfoliating ingredients like AHA, BHA, PHA, and LHA.
+[00:14.1 - 00:15.8] This will help smooth rough skin texture.
+[00:15.8 - 00:18.1] Great for that chicken skin, strawberry legs, KP.
+[00:18.1 - 00:20.3] Spray this all over your body, but specifically to those areas.
+[00:20.3 - 00:21.0] Let it dry down.
+[00:21.0 - 00:21.5] Give it a minute.
+[00:21.5 - 00:24.8] Rinse that off in the shower, then you're gonna go in with the Red Body Wash.
+[00:24.8 - 00:27.8] This also has those exfoliating ingredients, as well as niacinamide.
+[00:27.8 - 00:32.0] You're gonna use this all over your body, I love the smell of this, and really get into those areas of your body.
+[00:32.0 - 00:34.7] Rinse that off, then you're gonna go in with the body lotion.
+[00:34.7 - 00:36.4] The Red Clear Capsule Body Lotion.
+[00:36.4 - 00:39.4] It has niacinamide, urea, as well as those exfoliating ingredients.
+[00:39.4 - 00:41.0] It's really gonna lock in the entire routine.
+[00:41.0 - 00:43.4] Also smells amazing, and it has a very lightweight texture.
+[00:43.4 - 00:49.1] Key tip with this entire bundle, because of the exfoliating ingredients, I recommend using this at night only two to three times a week.
+[00:49.1 - 00:53.1] So if those are the issues you're dealing with and you want a good Korean skincare bundle, this just came out.
+[00:53.1 - 00:54.0] I'm gonna link this down below.
+[00:54.0 - 00:56.5] It's already selling like crazy, so run and get it while you can.
+Complete transcription result saved to: /home/ubuntu/medicube_benchmark_media/NA_trulyglowin_7680747760689220895_converted_20260906_022331_transcription_20260906_022336.json
+Plain text transcription saved to: /home/ubuntu/medicube_benchmark_media/NA_trulyglowin_7680747760689220895_converted_20260906_022331_transcription_20260906_022336.txt
+
+The video has been automatically converted to an audio file and saved at NA_trulyglowin_7680747760689220895_converted_20260906_022331.mp3
+[2J[H[3Jmanus-speech-to-text NA_trulyglowin_7680747760689220895.mp4
+Starting Speech-to-Text conversion...
+Video file detected: NA_trulyglowin_7680747760689220895.mp4, file size: 5.99 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: NA_trulyglowin_7680747760689220895_converted_20260906_022331.mp3, file size: 0.43 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:07.7] If your skin looks like this and you're trying to find the perfect Medicube body bundle for you, let me show you how to use this Medicube Bye Bye Bump Set in the correct order.
+[00:07.7 - 00:10.6] Before jumping in the shower, you're gonna use the Red Body Peel Shot Cleanser.
+[00:10.6 - 00:14.1] This has exfoliating ingredients like AHA, BHA, PHA, and LHA.
+[00:14.1 - 00:15.8] This will help smooth rough skin texture.
+[00:15.8 - 00:18.1] Great for that chicken skin, strawberry legs, KP.
+[00:18.1 - 00:20.3] Spray this all over your body, but specifically to those areas.
+[00:20.3 - 00:21.0] Let it dry down.
+[00:21.0 - 00:21.5] Give it a minute.
+[00:21.5 - 00:24.8] Rinse that off in the shower, then you're gonna go in with the Red Body Wash.
+[00:24.8 - 00:27.8] This also has those exfoliating ingredients, as well as niacinamide.
+[00:27.8 - 00:32.0] You're gonna use this all over your body, I love the smell of this, and really get into those areas of your body.
+[00:32.0 - 00:34.7] Rinse that off, then you're gonna go in with the body lotion.
+[00:34.7 - 00:36.4] The Red Clear Capsule Body Lotion.
+[00:36.4 - 00:39.4] It has niacinamide, urea, as well as those exfoliating ingredients.
+[00:39.4 - 00:41.0] It's really gonna lock in the entire routine.
+[00:41.0 - 00:43.4] Also smells amazing, and it has a very lightweight texture.
+[00:43.4 - 00:49.1] Key tip with this entire bundle, because of the exfoliating ingredients, I recommend using this at night only two to three times a week.
+[00:49.1 - 00:53.1] So if those are the issues you're dealing with and you want a good Korean skincare bundle, this just came out.
+[00:53.1 - 00:54.0] I'm gonna link this down below.
+[00:54.0 - 00:56.5] It's already selling like crazy, so run and get it while you can.
+
+The video has been automatically converted to an audio file and saved at NA_trulyglowin_7680747760689220895_converted_20260906_022331.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/medicube_benchmark_media/NA_trulyglowin_7680747760689220895_converted_20260906_022331_transcription_20260906_022336.json
+Plain text transcription saved to /home/ubuntu/medicube_benchmark_media/NA_trulyglowin_7680747760689220895_converted_20260906_022331_transcription_20260906_022336.txt
+===== NA_tsige.menelik_7682200606559325454_whisper.txt =====
+Starting Speech-to-Text conversion...
+Video file detected: NA_tsige.menelik_7682200606559325454.mp4, file size: 7.38 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: NA_tsige.menelik_7682200606559325454_converted_20260906_022336.mp3
+Transcribing audio file: NA_tsige.menelik_7682200606559325454_converted_20260906_022336.mp3, file size: 0.45 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 58.4 seconds
+Language: amh
+Timestamped segments:
+[00:00.2 - 00:10.2] አረን ማሳያችሁ የሜዲኩብን አዲስ ስምርታቸው ነው። ይህ መታዩት የቦዲ ኬት ሴቱ ነው። ክሊንዘር አላቸው፣ ቦዲ ወሽ
+[00:10.2 - 00:20.3] አላቸው፣ ሎሽን አላቸው። ይህን ትገዙ ደግሞ አሁን ጊፍ አላችሁ። እነዚህ መታሻዎች እንደ ጊፍ ይሉክላችሁ። እነዚህ የሚያገለግላችሁ ይህ
+[00:20.3 - 00:30.6] ከጀርባችሁ በጉር ነገር ካለባችሁ፣ ሰውነታችሁ ላይ እንደዚህ ትናንስ ቀያ ይሄ ነገሮች ነጠብጣቦች ካሉ ለሱ ብሎ የተሰራ ነው። እኔ በተለይ
+[00:30.6 - 00:40.6] ጀርባዬ ላይ ይህ እንደ በጉር ትናንስ በጉር ነገሮች አሉና ለሱ በጣም ቆንጆ ስለሆነ አሁን ለድሙ ፍላሽ ሴል አድርገው ነው። ይህንን ከዚህ በላይ ትድሚሸጡት መቶ አምስት ዶላር መዘራ። አሁን
+[00:40.6 - 00:50.8] ላይ እየሸጡት ያለው በ57 ዶላር ብቻ ነው። ቅናሽ አድርገው ነው። ቅናሹ እንዳያመለጣችሁ፣ ከወደዳችሁ መግዛት ከፈለጋችሁ፣ እንደዚህ ከጀርባችሁ በጉር፣ ሰውነታችሁ፣ ግራችሁ ላይ እንደዚህ
+[00:50.8 - 00:58.4] ቀያ ይሄ በአንድ ትናንስ ጥቃቅቃቅ ነገሮች ችፍታ ካለ ይህን ቦዲ ሴቱን ተጠቃምት ከወደዳችሁ ይምታውናችሁ።
+Complete transcription result saved to: /home/ubuntu/medicube_benchmark_media/NA_tsige.menelik_7682200606559325454_converted_20260906_022336_transcription_20260906_022347.json
+Plain text transcription saved to: /home/ubuntu/medicube_benchmark_media/NA_tsige.menelik_7682200606559325454_converted_20260906_022336_transcription_20260906_022347.txt
+
+The video has been automatically converted to an audio file and saved at NA_tsige.menelik_7682200606559325454_converted_20260906_022336.mp3
+[2J[H[3Jmanus-speech-to-text NA_tsige.menelik_7682200606559325454.mp4
+Starting Speech-to-Text conversion...
+Video file detected: NA_tsige.menelik_7682200606559325454.mp4, file size: 7.38 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: NA_tsige.menelik_7682200606559325454_converted_20260906_022336.mp3, file size: 0.45 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.2 - 00:10.2] አረን ማሳያችሁ የሜዲኩብን አዲስ ስምርታቸው ነው። ይህ መታዩት የቦዲ ኬት ሴቱ ነው። ክሊንዘር አላቸው፣ ቦዲ ወሽ
+[00:10.2 - 00:20.3] አላቸው፣ ሎሽን አላቸው። ይህን ትገዙ ደግሞ አሁን ጊፍ አላችሁ። እነዚህ መታሻዎች እንደ ጊፍ ይሉክላችሁ። እነዚህ የሚያገለግላችሁ ይህ
+[00:20.3 - 00:30.6] ከጀርባችሁ በጉር ነገር ካለባችሁ፣ ሰውነታችሁ ላይ እንደዚህ ትናንስ ቀያ ይሄ ነገሮች ነጠብጣቦች ካሉ ለሱ ብሎ የተሰራ ነው። እኔ በተለይ
+[00:30.6 - 00:40.6] ጀርባዬ ላይ ይህ እንደ በጉር ትናንስ በጉር ነገሮች አሉና ለሱ በጣም ቆንጆ ስለሆነ አሁን ለድሙ ፍላሽ ሴል አድርገው ነው። ይህንን ከዚህ በላይ ትድሚሸጡት መቶ አምስት ዶላር መዘራ። አሁን
+[00:40.6 - 00:50.8] ላይ እየሸጡት ያለው በ57 ዶላር ብቻ ነው። ቅናሽ አድርገው ነው። ቅናሹ እንዳያመለጣችሁ፣ ከወደዳችሁ መግዛት ከፈለጋችሁ፣ እንደዚህ ከጀርባችሁ በጉር፣ ሰውነታችሁ፣ ግራችሁ ላይ እንደዚህ
+[00:50.8 - 00:58.4] ቀያ ይሄ በአንድ ትናንስ ጥቃቅቃቅ ነገሮች ችፍታ ካለ ይህን ቦዲ ሴቱን ተጠቃምት ከወደዳችሁ ይምታውናችሁ።
+
+The video has been automatically converted to an audio file and saved at NA_tsige.menelik_7682200606559325454_converted_20260906_022336.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/medicube_benchmark_media/NA_tsige.menelik_7682200606559325454_converted_20260906_022336_transcription_20260906_022347.json
+Plain text transcription saved to /home/ubuntu/medicube_benchmark_media/NA_tsige.menelik_7682200606559325454_converted_20260906_022336_transcription_20260906_022347.txt

@@ -1,0 +1,114 @@
+# Riva (@adoseofwellness) — Rank 7 Deep Analysis
+**GMV:** $40,964
+**Product:** Micro Ingredients Ultimate Anti Aging Bundle: Multi Collagen Peptides Powder 1LB
+**Duration:** 2m 45s
+**URL:** https://www.tiktok.com/@adoseofwellness/video/7571453173341228318
+**Description:** Always talk to your Dr if you have pre existing conditions! Great quality supplements for anti aging
+
+---
+
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-0d304dd3-654d-4219-ad64-8d32f77ae989)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[55s] Status: Analysis completed
+[55s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_rank_07_analysis_20260531_231539.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Here is a comprehensive 13-dimension conversion psychology analysis of the provided TikTok video:
+
+**1. VISUAL HOOK (0-3 seconds)**
+*   **Visuals:** The video opens with a medium close-up of a female creator looking directly into the camera. She is wearing a white collared shirt that strongly resembles a medical or pharmacist's lab coat, immediately setting a professional tone. At 0:01, she holds up three fingers to visually reinforce the "3 supplements" mentioned in the text and audio.
+*   **Text/Graphics:** Two prominent text boxes are displayed at the top center of the screen right from frame 0:00.
+
+**2. TEXT HOOK**
+*   **Exact Text & Styling:**
+    *   Top Box (White background, black text): "3 supplements you should be taking if you're over 40 ‼️"
+    *   Bottom Box (Red background, white text): "From a Pharmacist"
+*   **Placement:** Top center, highly visible, remaining on screen until 0:06.
+
+**3. SPOKEN HOOK**
+*   **Verbatim:** "Here are three supplements you should be taking if you're over the age of forty."
+*   **Timestamp:** 0:00 - 0:03
+
+**4. ON-SCREEN TEXT OVERLAYS**
+*   **0:00 - 0:06:** "3 supplements you should be taking if you're over 40 ‼️" (White box) and "From a Pharmacist" (Red box). *Emphasizes target audience and authority.*
+*   **0:13 - 0:17:** A line graph titled "NAD+ Levels As We Age". It shows a red line steeply declining from age 0 to 80, with icons for a baby, adult, and elderly person on the X-axis. *Emphasizes the biological problem of aging.*
+*   **0:23 - 0:26:** A screenshot of a scientific paper titled "NAD metabolism: Implications in aging and longevity" from the journal *Ageing Research Reviews*. *Emphasizes scientific backing and authority.*
+*   **1:01 - 1:03:** A line graph titled "Collagen & Age". It shows a downward trend indicating decreasing collagen levels at ages 20, 30, 40, 50, and 60. *Emphasizes the biological decline of collagen.*
+*   **2:03 - 2:10:** A graphic titled "2. High Absorption". It compares "EE (Ethyl Ester)" vs "rTG (Re-esterified Triglyceride)" forms of fish oil, using blue bar charts to show rTG has "Highest Absorption" and is "Most Effective". Text below reads "We use 100% rTG form" and "5. No Heavy Metal (we use wild caught small fishes)". *Emphasizes product superiority and handles absorption objections.*
+*   **2:15 - 2:19:** A graphic titled "6. Easy to Swallow". It visually compares a large "regular fish oil softgel" to a much smaller "our mini softgel". Text reads "30% smaller than regular fish oil softgels" and "also, smaller means more Concentrate & less Fat Oil". *Emphasizes convenience and handles pill-size objections.*
+
+**5. CREDENTIAL DELIVERY**
+*   **Visual:** The creator wears a white lab-coat style shirt throughout the video.
+*   **Text:** The red box at 0:00 explicitly states "From a Pharmacist".
+*   **Spoken:** At 0:05, she verbally establishes authority: "As a pharmacist..."
+
+**6. PROBLEM/MECHANISM SECTION**
+*   **Supplement 1: NAD+ (0:07 - 0:49)**
+    *   *Mechanism:* Explains NAD is a coenzyme in every cell responsible for turning nutrients into energy and repairing DNA.
+    *   *Problem:* Levels naturally decline as we age (supported by the graph at 0:13). This decline leads to signs of aging, fatigue, and brain fog.
+*   **Supplement 2: Collagen (0:50 - 1:39)**
+    *   *Mechanism:* Explains collagen is the most abundant protein, acting as the structural framework for skin, hair, nails, joints, and gut.
+    *   *Problem:* Production decreases starting in our mid-20s (supported by the graph at 1:01), leading to wrinkles, sagging skin, joint issues, and hair loss.
+*   **Supplement 3: Omega-3 (1:40 - 2:26)**
+    *   *Mechanism:* Essential fatty acids crucial for heart, brain, joint, and eye health.
+    *   *Problem:* The body needs these, but many supplements use poorly absorbed forms.
+
+**7. PRODUCT REVEAL**
+*   **Product 1 (NAD+):** Revealed at 0:07. She holds up a white bottle of "Liposomal NAD+ Ultimate 1000 mg" as she says, "Number one is NAD."
+*   **Product 2 (Collagen):** Revealed at 1:14. She holds up a large white and purple bag of "Multi Collagen peptides" as she says, "Number two is a multi-collagen peptide."
+*   **Product 3 (Omega-3):** Revealed at 1:59. She holds up a blue and white pouch of "Supreme Omega-3 fish oil" as she says, "And number three is Omega three."
+
+**8. PROOF/SOCIAL PROOF ELEMENTS**
+*   **Scientific Proof:** The creator relies heavily on scientific authority rather than user reviews.
+    *   0:13: Graph showing NAD+ decline.
+    *   0:23: Screenshot of a peer-reviewed scientific paper on NAD.
+    *   1:01: Graph showing collagen decline.
+    *   2:03: Scientific chart comparing absorption rates of different fish oil forms.
+
+**9. OBJECTION HANDLING**
+*   **Objection: "I'm already taking collagen."** Address at 1:16. She explains why a *multi-collagen* is necessary: "...you want a multi-collagen, meaning not just type one and three, but you want all five types..." explaining that different types target different areas (skin vs. joints/gut).
+*   **Objection: "Fish oil pills are too big to swallow."** Addressed at 2:15. She says, "And what I like about this one is that it is a mini soft gel, so it's very easy to swallow," while showing a graphic and holding the tiny pill up to the camera.
+*   **Objection: "Fish oil gives me nasty burps."** Addressed at 2:21. She states, "It's burpless, so you're not gonna get that nasty fishy aftertaste."
+*   **Objection: "Are these supplements actually absorbed?"** Addressed at 2:03 for Omega-3: "And it's in the triglyceride form, which is the most bioavailable form." (Supported by the absorption chart). She also notes the NAD+ is "liposomal" for better absorption.
+
+**10. CTA STRUCTURE**
+*   **Verbatim:** "I actually found a bundle on the TikTok shop that has all three of these. I will go ahead and link it down below for you guys to check out."
+*   **Timestamp:** 2:27 - 2:34
+*   **Visuals:** She holds all three products up together to visually represent the "bundle" while delivering the CTA. No aggressive urgency or scarcity tactics are used; it's presented as a helpful find.
+
+**11. REHOOK / MID-VIDEO RETENTION**
+The video uses frequent visual pattern interrupts to keep the viewer engaged during a long talking-head segment:
+*   **0:07:** Visual reveal of the first product.
+*   **0:13:** Pop-up graph appears.
+*   **0:23:** Pop-up scientific study appears.
+*   **0:50:** Verbal transition ("Number two...") resets attention.
+*   **1:01:** Pop-up graph appears.
+*   **1:14:** Visual reveal of the second product.
+*   **1:40:** Verbal transition ("And number three...") resets attention.
+*   **1:59:** Visual reveal of the third product.
+*   **2:03:** Pop-up comparative graphic appears.
+*   **2:15:** Pop-up graphic appears, and she physically holds up a tiny pill to the camera.
+
+**12. VIDEO FORMAT**
+*   **Talking Head / Educational Expert:** The video is structured as a direct-to-camera educational session led by an authority figure (pharmacist) explaining the science behind aging and specific supplement solutions.
+
+**13. FUNNEL STAGE**
+*   **MOF (Middle of Funnel):** The audience is likely already problem-aware (they know they are aging, over 40, experiencing fatigue or wrinkles). This video educates them on the *mechanisms* behind these problems (declining NAD/collagen) and introduces specific product solutions (the bundle) to bridge the gap between their problem and a purchasing decision.
+
+**14. BUYER PSYCHOLOGY LEVERS**
+*   **Cialdini Levers:**
+    *   **Authority (Primary):** Heavily utilized through the "Pharmacist" title, lab coat, and inclusion of scientific graphs and studies.
+    *   **Reciprocity (Secondary):** The creator provides 2.5 minutes of valuable, free educational content about bodily mechanisms before pitching a product.
+    *   **Liking (Secondary):** The creator presents as helpful, professional, and knowledgeable.
+    *   **Social Proof (Absent):** No customer reviews or testimonials are shown.
+    *   **Scarcity/Commitment (Absent).**
+*   **Desire Channels:**
+    *   **Health (Primary):** Focuses heavily on cellular energy, DNA repair, joint health, and heart/brain function.
+    *   **Appearance (Primary):** Directly addresses wrinkles, sagging skin, and hair loss.
+    *   **Fear Avoidance (Secondary):** Touches on avoiding the negative declines associated with aging (fatigue, brain fog).
+    *   **Convenience (Secondary):** Highlights "easy to swallow" pills, "burpless" formulas, and the convenience of getting all three in one "bundle."

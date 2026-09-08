@@ -1,0 +1,96 @@
+Starting Speech-to-Text conversion...
+Video file detected: faith_warning_signs_candidate_rank07.mp4, file size: 22.92 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: faith_warning_signs_candidate_rank07_converted_20260904_063548.mp3
+Transcribing audio file: faith_warning_signs_candidate_rank07_converted_20260904_063548.mp3, file size: 1.06 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 138.6 seconds
+Language: eng
+Timestamped segments:
+[00:00.2 - 00:08.0] So all the celebrities shoved NAD down your throat, and now we're supposed to be taking NMN, and you don't know when to take it or even if it's right for you because you maybe think that you're too old.
+[00:08.0 - 00:08.4] Well, I'm Dr.
+[00:08.4 - 00:09.0] Faith Codes.
+[00:09.0 - 00:11.9] I'm gonna break this simple science down so that you don't waste your time or money.
+[00:11.9 - 00:18.1] NAD is how every cell in your body produces energy, and if you don't have enough energy, you start prematurely aging very rapidly.
+[00:18.1 - 00:25.6] Starting in your 30s, you actually produce less NAD, and by the time you hit in your 50s, you produce about half, and that is why you look and feel your age.
+[00:25.6 - 00:27.1] Now here's what most people don't know.
+[00:27.1 - 00:37.1] You cannot take an NAD supplement to raise your NAD levels, and that's because NAD is too big of a molecule, and it has to get converted back to either NR or NMN in order to get across the
+[00:37.1 - 00:41.1] cell lines to then get converted back to NAD to then produce more energy.
+[00:41.1 - 00:48.4] So it makes no medical sense to take an NAD supplement unless you're doing injections or IVs, which is too crazy expensive for the majority of us.
+[00:48.4 - 00:55.0] So that's why I always recommend precursors because they work better, they're more bioavailable, and you'll get faster results without having to take as much.
+[00:55.0 - 00:59.1] But when should you start taking this, and also, is it a lost cause if you're too old?
+[00:59.1 - 01:06.6] First, because you are declining your NAD levels in your 30s, starting to supplement in your 30s will help prevent the aging.
+[01:06.6 - 01:11.3] But does that mean by the time you get in your 50s, 60s, or 70s, or 80s, that you're just a lost cause?
+[01:11.3 - 01:13.0] No, my sweet baby angels.
+[01:13.0 - 01:19.2] Because it helps with cellular energy and repair, it can actually make a big difference in your 50s, 60s, or 70s.
+[01:19.2 - 01:22.1] But dosing does matter depending on what age group you're in.
+[01:22.1 - 01:25.3] So here's how the dosage ranges go depending on age groups.
+[01:25.3 - 01:29.6] If you're under 35, you can get away with about two hundred and fifty milligrams daily.
+[01:29.6 - 01:33.9] If between the ages of 35 and 60, I would do about five hundred milligrams daily.
+[01:33.9 - 01:38.2] And if you're 64 plus, I would definitely recommend around a thousand milligrams daily.
+[01:38.2 - 01:40.2] But please be careful when it comes to safety.
+[01:40.2 - 01:48.8] You also want to be taking it in the morning where you can actually align with your natural NAD cycles as well as taking it on an empty stomach because that's where research says it is the best absorbed.
+[01:48.8 - 01:55.2] But quality really does matter because if you have things with fillers or you have a poor quality product, you will not be getting the best benefit.
+[01:55.2 - 01:57.9] That's why I recommend microingredients' NMN.
+[01:57.9 - 01:59.0] It doesn't have any fillers.
+[01:59.0 - 02:00.2] It's third-party tested.
+[02:00.2 - 02:01.2] It's made in the United States.
+[02:01.2 - 02:05.7] It has a great complex that's gonna support the NMN as well as help with absorption.
+[02:05.7 - 02:10.4] And also it has an amazing price because this is a two-month supply, and they got some great deals going on.
+[02:10.4 - 02:12.2] So I'm gonna put it in this little orange shopping cart.
+[02:12.2 - 02:14.5] I'm also gonna put a two dollar coupon in the comments.
+[02:14.5 - 02:18.5] If you have any questions, please leave them in the comments, and I will get to as many as I can.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/raw_hook_media/faith_warning_signs_candidate_rank07_converted_20260904_063548_transcription_20260904_063557.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/raw_hook_media/faith_warning_signs_candidate_rank07_converted_20260904_063548_transcription_20260904_063557.txt
+
+The video has been automatically converted to an audio file and saved at faith_warning_signs_candidate_rank07_converted_20260904_063548.mp3
+[2J[H[3Jmanus-speech-to-text faith_warning_signs_candidate_rank07.mp4
+Starting Speech-to-Text conversion...
+Video file detected: faith_warning_signs_candidate_rank07.mp4, file size: 22.92 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: faith_warning_signs_candidate_rank07_converted_20260904_063548.mp3, file size: 1.06 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.2 - 00:08.0] So all the celebrities shoved NAD down your throat, and now we're supposed to be taking NMN, and you don't know when to take it or even if it's right for you because you maybe think that you're too old.
+[00:08.0 - 00:08.4] Well, I'm Dr.
+[00:08.4 - 00:09.0] Faith Codes.
+[00:09.0 - 00:11.9] I'm gonna break this simple science down so that you don't waste your time or money.
+[00:11.9 - 00:18.1] NAD is how every cell in your body produces energy, and if you don't have enough energy, you start prematurely aging very rapidly.
+[00:18.1 - 00:25.6] Starting in your 30s, you actually produce less NAD, and by the time you hit in your 50s, you produce about half, and that is why you look and feel your age.
+[00:25.6 - 00:27.1] Now here's what most people don't know.
+[00:27.1 - 00:37.1] You cannot take an NAD supplement to raise your NAD levels, and that's because NAD is too big of a molecule, and it has to get converted back to either NR or NMN in order to get across the
+[00:37.1 - 00:41.1] cell lines to then get converted back to NAD to then produce more energy.
+[00:41.1 - 00:48.4] So it makes no medical sense to take an NAD supplement unless you're doing injections or IVs, which is too crazy expensive for the majority of us.
+[00:48.4 - 00:55.0] So that's why I always recommend precursors because they work better, they're more bioavailable, and you'll get faster results without having to take as much.
+[00:55.0 - 00:59.1] But when should you start taking this, and also, is it a lost cause if you're too old?
+[00:59.1 - 01:06.6] First, because you are declining your NAD levels in your 30s, starting to supplement in your 30s will help prevent the aging.
+[01:06.6 - 01:11.3] But does that mean by the time you get in your 50s, 60s, or 70s, or 80s, that you're just a lost cause?
+[01:11.3 - 01:13.0] No, my sweet baby angels.
+[01:13.0 - 01:19.2] Because it helps with cellular energy and repair, it can actually make a big difference in your 50s, 60s, or 70s.
+[01:19.2 - 01:22.1] But dosing does matter depending on what age group you're in.
+[01:22.1 - 01:25.3] So here's how the dosage ranges go depending on age groups.
+[01:25.3 - 01:29.6] If you're under 35, you can get away with about two hundred and fifty milligrams daily.
+[01:29.6 - 01:33.9] If between the ages of 35 and 60, I would do about five hundred milligrams daily.
+[01:33.9 - 01:38.2] And if you're 64 plus, I would definitely recommend around a thousand milligrams daily.
+[01:38.2 - 01:40.2] But please be careful when it comes to safety.
+[01:40.2 - 01:48.8] You also want to be taking it in the morning where you can actually align with your natural NAD cycles as well as taking it on an empty stomach because that's where research says it is the best absorbed.
+[01:48.8 - 01:55.2] But quality really does matter because if you have things with fillers or you have a poor quality product, you will not be getting the best benefit.
+[01:55.2 - 01:57.9] That's why I recommend microingredients' NMN.
+[01:57.9 - 01:59.0] It doesn't have any fillers.
+[01:59.0 - 02:00.2] It's third-party tested.
+[02:00.2 - 02:01.2] It's made in the United States.
+[02:01.2 - 02:05.7] It has a great complex that's gonna support the NMN as well as help with absorption.
+[02:05.7 - 02:10.4] And also it has an amazing price because this is a two-month supply, and they got some great deals going on.
+[02:10.4 - 02:12.2] So I'm gonna put it in this little orange shopping cart.
+[02:12.2 - 02:14.5] I'm also gonna put a two dollar coupon in the comments.
+[02:14.5 - 02:18.5] If you have any questions, please leave them in the comments, and I will get to as many as I can.
+
+The video has been automatically converted to an audio file and saved at faith_warning_signs_candidate_rank07_converted_20260904_063548.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/raw_hook_media/faith_warning_signs_candidate_rank07_converted_20260904_063548_transcription_20260904_063557.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/raw_hook_media/faith_warning_signs_candidate_rank07_converted_20260904_063548_transcription_20260904_063557.txt

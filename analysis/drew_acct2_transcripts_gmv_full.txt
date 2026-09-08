@@ -1,0 +1,2041 @@
+# Creator: drew_acct2
+# Generated: 2026-05-31
+# Total videos: 30
+# Source: Kalodata top GMV export, 6-month window
+
+============================================================
+RANK: 01 | GMV: $165157.01 | VIDEO ID: 7521464528568175902
+URL: https://www.tiktok.com/@drew.review1/video/7521464528568175902
+STATUS: FAILED — Download failed: ERROR: [TikTok] 7521464528568175902: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+============================================================
+
+============================================================
+RANK: 02 | GMV: $143133.04 | VIDEO ID: 7582049483853237518
+URL: https://www.tiktok.com/@drew.review1/video/7582049483853237518
+WORD COUNT: 1281
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_2_7582049483853237518.mp3, file size: 3.42 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 109.9 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.7]  Eye floaters are not worms, they are not parasites,
+[00:02.7 - 00:04.4]  and as a pancreatic cancer researcher
+[00:04.4 - 00:05.7]  and a naturopath practitioner,
+[00:05.7 - 00:07.5]  let me tell you what the heck they are
+[00:07.5 - 00:09.1]  and how you can actually clear them.
+[00:09.1 - 00:10.7]  Eye floaters are clumps of cells
+[00:10.7 - 00:12.3]  and condensed collagen fibers
+[00:12.3 - 00:14.1]  that can form these little structures
+[00:14.1 - 00:16.6]  and they project a shadow on the back of your eyeball,
+[00:16.6 - 00:18.1]  so that is what you are perceiving.
+[00:18.1 - 00:20.2]  Stress, aging, and blue light exposure
+[00:20.2 - 00:21.6]  usually exacerbates them,
+[00:21.6 - 00:23.6]  and doctors usually say that you can't clear them,
+[00:23.6 - 00:24.9]  but that's not necessarily true.
+[00:24.9 - 00:27.0]  Really good antioxidants are really effective
+[00:27.0 - 00:28.4]  at clearing such things out,
+[00:28.4 - 00:31.5]  but most antioxidants are not able to penetrate your eyes
+[00:31.5 - 00:33.1]  due to the blood retina barrier,
+[00:33.1 - 00:34.8]  but there is one organic antioxidant
+[00:34.8 - 00:36.3]  that can actually penetrate your eyes,
+[00:36.3 - 00:37.7]  and that is called astaxanthin,
+[00:37.7 - 00:39.4]  which is an organic pigment molecule
+[00:39.4 - 00:41.7]  found in things like shrimp, fish, krill,
+[00:41.7 - 00:43.5]  and it is 6,000 times stronger
+[00:43.5 - 00:45.2]  than vitamin C as an antioxidant.
+[00:45.2 - 00:47.6]  Not only does it have incredible anti-aging properties
+[00:47.6 - 00:49.0]  for your hair, skin, and nails,
+[00:49.0 - 00:50.7]  it's also amazing for eye health.
+[00:50.7 - 00:52.9]  A lot of research shows that astaxanthin
+[00:52.9 - 00:55.5]  can help with dry eyes if you have blue light fatigue
+[00:55.5 - 00:57.8]  and it protects your eyes from aging and disease.
+[00:57.8 - 00:59.5]  It lowers inflammation in your eyes,
+[00:59.5 - 01:00.9]  which can otherwise exacerbate
+[01:00.9 - 01:02.4]  the creation of these floaters,
+[01:02.4 - 01:05.0]  and it encourages healthy blood flow to your retina.
+[01:05.0 - 01:07.6]  So not only does it also deliver valuable nutrients
+[01:07.6 - 01:08.9]  in order for your eyes to recover,
+[01:08.9 - 01:10.4]  especially if they're strained all the time,
+[01:10.4 - 01:12.8]  it also filters out toxins and byproducts
+[01:12.8 - 01:14.0]  that build up in your eyes
+[01:14.0 - 01:15.9]  and the liquid inside them over time.
+[01:15.9 - 01:18.4]  It can take six to 12 weeks to feel these effects,
+[01:18.4 - 01:21.2]  and it's important to get an organic version of astaxanthin
+[01:21.2 - 01:22.4]  because the synthetic form
+[01:22.4 - 01:24.9]  is not as highly absorbable as the organic one.
+[01:24.9 - 01:26.6]  This is what astaxanthin can look like,
+[01:26.6 - 01:28.5]  and I always get the one for microingredients
+[01:28.5 - 01:30.4]  because not only is this the organic form,
+[01:30.4 - 01:31.6]  it's sourced from microalgae,
+[01:31.6 - 01:34.2]  it's also made in America and third-party tested here,
+[01:34.2 - 01:36.2]  which is important because it comes from the ocean.
+[01:36.2 - 01:38.2]  Plus, this is one capsule per day,
+[01:38.2 - 01:41.7]  and this bag has 120 capsules, so it's a four-month supply.
+[01:41.7 - 01:43.2]  They're having a great flash sale deal right now
+[01:43.2 - 01:44.4]  if you would like to check it out.
+[01:44.4 - 01:45.6]  I will leave the link right down here
+[01:45.6 - 01:46.4]  to their official source
+[01:46.4 - 01:47.9]  so you could see the reviews for yourself.
+[01:47.9 - 01:50.4]  And if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_2_7582049483853237518_transcription_20260531_213010.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_2_7582049483853237518_transcription_20260531_213010.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_2_7582049483853237518.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_2_7582049483853237518.mp3, file size: 3.42 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.7] Eye floaters are not worms, they are not parasites,
+[00:02.7 - 00:04.4] and as a pancreatic cancer researcher
+[00:04.4 - 00:05.7] and a naturopath practitioner,
+[00:05.7 - 00:07.5] let me tell you what the heck they are
+[00:07.5 - 00:09.1] and how you can actually clear them.
+[00:09.1 - 00:10.7] Eye floaters are clumps of cells
+[00:10.7 - 00:12.3] and condensed collagen fibers
+[00:12.3 - 00:14.1] that can form these little structures
+[00:14.1 - 00:16.6] and they project a shadow on the back of your eyeball,
+[00:16.6 - 00:18.1] so that is what you are perceiving.
+[00:18.1 - 00:20.2] Stress, aging, and blue light exposure
+[00:20.2 - 00:21.6] usually exacerbates them,
+[00:21.6 - 00:23.6] and doctors usually say that you can't clear them,
+[00:23.6 - 00:24.9] but that's not necessarily true.
+[00:24.9 - 00:27.0] Really good antioxidants are really effective
+[00:27.0 - 00:28.4] at clearing such things out,
+[00:28.4 - 00:31.5] but most antioxidants are not able to penetrate your eyes
+[00:31.5 - 00:33.1] due to the blood retina barrier,
+[00:33.1 - 00:34.8] but there is one organic antioxidant
+[00:34.8 - 00:36.3] that can actually penetrate your eyes,
+[00:36.3 - 00:37.7] and that is called astaxanthin,
+[00:37.7 - 00:39.4] which is an organic pigment molecule
+[00:39.4 - 00:41.7] found in things like shrimp, fish, krill,
+[00:41.7 - 00:43.5] and it is 6,000 times stronger
+[00:43.5 - 00:45.2] than vitamin C as an antioxidant.
+[00:45.2 - 00:47.6] Not only does it have incredible anti-aging properties
+[00:47.6 - 00:49.0] for your hair, skin, and nails,
+[00:49.0 - 00:50.7] it's also amazing for eye health.
+[00:50.7 - 00:52.9] A lot of research shows that astaxanthin
+[00:52.9 - 00:55.5] can help with dry eyes if you have blue light fatigue
+[00:55.5 - 00:57.8] and it protects your eyes from aging and disease.
+[00:57.8 - 00:59.5] It lowers inflammation in your eyes,
+[00:59.5 - 01:00.9] which can otherwise exacerbate
+[01:00.9 - 01:02.4] the creation of these floaters,
+[01:02.4 - 01:05.0] and it encourages healthy blood flow to your retina.
+[01:05.0 - 01:07.6] So not only does it also deliver valuable nutrients
+[01:07.6 - 01:08.9] in order for your eyes to recover,
+[01:08.9 - 01:10.4] especially if they're strained all the time,
+[01:10.4 - 01:12.8] it also filters out toxins and byproducts
+[01:12.8 - 01:14.0] that build up in your eyes
+[01:14.0 - 01:15.9] and the liquid inside them over time.
+[01:15.9 - 01:18.4] It can take six to 12 weeks to feel these effects,
+[01:18.4 - 01:21.2] and it's important to get an organic version of astaxanthin
+[01:21.2 - 01:22.4] because the synthetic form
+[01:22.4 - 01:24.9] is not as highly absorbable as the organic one.
+[01:24.9 - 01:26.6] This is what astaxanthin can look like,
+[01:26.6 - 01:28.5] and I always get the one for microingredients
+[01:28.5 - 01:30.4] because not only is this the organic form,
+[01:30.4 - 01:31.6] it's sourced from microalgae,
+[01:31.6 - 01:34.2] it's also made in America and third-party tested here,
+[01:34.2 - 01:36.2] which is important because it comes from the ocean.
+[01:36.2 - 01:38.2] Plus, this is one capsule per day,
+[01:38.2 - 01:41.7] and this bag has 120 capsules, so it's a four-month supply.
+[01:41.7 - 01:43.2] They're having a great flash sale deal right now
+[01:43.2 - 01:44.4] if you would like to check it out.
+[01:44.4 - 01:45.6] I will leave the link right down here
+[01:45.6 - 01:46.4] to their official source
+[01:46.4 - 01:47.9] so you could see the reviews for yourself.
+[01:47.9 - 01:50.4] And if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_2_7582049483853237518_transcription_20260531_213010.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_2_7582049483853237518_transcription_20260531_213010.txt
+
+============================================================
+RANK: 03 | GMV: $62799.0 | VIDEO ID: 7581605506045840671
+URL: https://www.tiktok.com/@drew.review1/video/7581605506045840671
+STATUS: FAILED — Download failed: ERROR: [TikTok] 7581605506045840671: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+============================================================
+
+============================================================
+RANK: 04 | GMV: $54990.22 | VIDEO ID: 7603509622141504781
+URL: https://www.tiktok.com/@drew.review1/video/7603509622141504781
+WORD COUNT: 815
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_4_7603509622141504781.mp3, file size: 2.55 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 79.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  happens if you take saffron for one month straight from a pancreatic cancer researcher and a
+[00:04.2 - 00:08.6]  naturopath practitioner? Within the first week, the first place you feel saffron is in your brain.
+[00:08.6 - 00:13.9]  Saffron increases dopamine and serotonin while lowering cortisol and inflammation. So you are
+[00:13.9 - 00:17.3]  going to feel good, you're going to get up and go, you're going to sleep a lot better, and your
+[00:17.3 - 00:22.3]  memory and focus might improve as well. After one week, saffron starts to balance melatonin levels
+[00:22.3 - 00:26.6]  so you will have a much deeper, calmer, and steadier quality of sleep. And your sleep will
+[00:26.6 - 00:31.2]  be more restorative because that is where proper healing starts to happen. And within two to four
+[00:31.2 - 00:36.0]  weeks, inflammation starts to decrease, joint stiffness, swelling is going to start easing up,
+[00:36.0 - 00:40.2]  digestion will be smoother, and even bloating might start to decrease. Towards the end of the
+[00:40.2 - 00:44.3]  month, saffron starts to improve your circulation. It opens up your blood vessels, which means
+[00:44.3 - 00:48.9]  healthier blood flow, steadier blood pressure, and increased oxygen delivery to your brain,
+[00:48.9 - 00:53.8]  your lungs, your heart, etc. Best time to take saffron is in the evening right before bed. Take
+[00:53.8 - 00:58.1]  it with food, and if you're currently on medication, ask your doctor first before taking saffron. And if
+[00:58.1 - 01:01.8]  you would like a recommendation, my favorite saffron is from NutraCost because this has
+[01:01.8 - 01:06.6]  240 capsules. It's a one spread a capsule, so it lasts you for forever. It's made in America,
+[01:06.6 - 01:10.6]  it's third-party tested here, has a ton of great reviews, and they are vegan capsules too. So if
+[01:10.6 - 01:13.4]  you want to check this out, I will leave a link right down here to their official store. They're
+[01:13.4 - 01:17.4]  always having amazing flash sale deals, they have fast reshipping on top of it all, so check it out.
+[01:17.4 - 01:19.0]  If you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_4_7603509622141504781_transcription_20260531_213024.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_4_7603509622141504781_transcription_20260531_213024.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_4_7603509622141504781.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_4_7603509622141504781.mp3, file size: 2.55 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] happens if you take saffron for one month straight from a pancreatic cancer researcher and a
+[00:04.2 - 00:08.6] naturopath practitioner? Within the first week, the first place you feel saffron is in your brain.
+[00:08.6 - 00:13.9] Saffron increases dopamine and serotonin while lowering cortisol and inflammation. So you are
+[00:13.9 - 00:17.3] going to feel good, you're going to get up and go, you're going to sleep a lot better, and your
+[00:17.3 - 00:22.3] memory and focus might improve as well. After one week, saffron starts to balance melatonin levels
+[00:22.3 - 00:26.6] so you will have a much deeper, calmer, and steadier quality of sleep. And your sleep will
+[00:26.6 - 00:31.2] be more restorative because that is where proper healing starts to happen. And within two to four
+[00:31.2 - 00:36.0] weeks, inflammation starts to decrease, joint stiffness, swelling is going to start easing up,
+[00:36.0 - 00:40.2] digestion will be smoother, and even bloating might start to decrease. Towards the end of the
+[00:40.2 - 00:44.3] month, saffron starts to improve your circulation. It opens up your blood vessels, which means
+[00:44.3 - 00:48.9] healthier blood flow, steadier blood pressure, and increased oxygen delivery to your brain,
+[00:48.9 - 00:53.8] your lungs, your heart, etc. Best time to take saffron is in the evening right before bed. Take
+[00:53.8 - 00:58.1] it with food, and if you're currently on medication, ask your doctor first before taking saffron. And if
+[00:58.1 - 01:01.8] you would like a recommendation, my favorite saffron is from NutraCost because this has
+[01:01.8 - 01:06.6] 240 capsules. It's a one spread a capsule, so it lasts you for forever. It's made in America,
+[01:06.6 - 01:10.6] it's third-party tested here, has a ton of great reviews, and they are vegan capsules too. So if
+[01:10.6 - 01:13.4] you want to check this out, I will leave a link right down here to their official store. They're
+[01:13.4 - 01:17.4] always having amazing flash sale deals, they have fast reshipping on top of it all, so check it out.
+[01:17.4 - 01:19.0] If you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_4_7603509622141504781_transcription_20260531_213024.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_4_7603509622141504781_transcription_20260531_213024.txt
+
+============================================================
+RANK: 05 | GMV: $54751.48 | VIDEO ID: 7541161073328672030
+URL: https://www.tiktok.com/@drew.review1/video/7541161073328672030
+WORD COUNT: 991
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_5_7541161073328672030.mp3, file size: 3.09 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 93.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.8]  first time in history, this wild male orangutan was observed using a natural herb to heal himself.
+[00:04.8 - 00:08.6]  This orangutan fought with another male, he won the fight, and then he had a nasty wound
+[00:08.6 - 00:12.9]  that he needed to treat. He purposefully sought out a natural herb that orangutans are not known
+[00:12.9 - 00:17.2]  to eat, and he chewed it up, applied it to his face like a paste, and left it there like a band-aid.
+[00:17.2 - 00:21.4]  And over the following week, scientists observed that his wound was completely healed. The herb
+[00:21.4 - 00:26.0]  that he used is called Fibroia trictoria, and the active compound in this plant is called berberine,
+[00:26.0 - 00:30.0]  which is actually heavily studied for human usage. And as a pancreatic cancer researcher
+[00:30.0 - 00:34.2]  and a naturopath practitioner, let me tell you the science behind berberine and all the scientific
+[00:34.2 - 00:38.0]  studies that come with it. Berberine has excellent wound healing properties for three different
+[00:38.0 - 00:42.4]  reasons. It reduces inflammation around the wound to lower chances of scarring, it promotes new
+[00:42.4 - 00:46.6]  blood vessels to form around the wound to deliver valuable nutrients to close it up, and it promotes
+[00:46.6 - 00:50.3]  collagen production and wound healing repair. Berberine is also well known for helping you with
+[00:50.3 - 00:54.1]  your heart health. It can help with cholesterol levels, especially the bad type, it can help with
+[00:54.1 - 00:58.6]  your blood sugar levels, and your blood pressure as well. And as I mentioned, it has anti-inflammatory
+[00:58.6 - 01:02.8]  and also antioxidant properties. And this has implications for anti-aging properties because
+[01:02.8 - 01:06.8]  it helps protect your mitochondria and your cells from damage from the oxidative stress. And lastly,
+[01:06.8 - 01:10.5]  berberine can help your liver detoxify more efficiently and reduces fat accumulation in
+[01:10.5 - 01:14.1]  your liver too. So if you would like to be smart like the orangutan and try out berberine for
+[01:14.1 - 01:18.6]  yourself and you want an American-made supplement, this right here is top of the line. This contains
+[01:18.6 - 01:22.8]  berberine, cinnamon, and chromium to all work together synergistically, and these are vegetarian
+[01:22.8 - 01:27.4]  capsules. And this is a three-month supply. This is such a bang for your buck here, honestly guys.
+[01:27.4 - 01:30.2]  And if you want to check it out, I will leave the link on the bottom of the screen so that you can
+[01:30.2 - 01:33.4]  see all of the reviews on it. And if you have any questions, let me know in the comment section.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_5_7541161073328672030_transcription_20260531_213036.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_5_7541161073328672030_transcription_20260531_213036.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_5_7541161073328672030.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_5_7541161073328672030.mp3, file size: 3.09 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.8] first time in history, this wild male orangutan was observed using a natural herb to heal himself.
+[00:04.8 - 00:08.6] This orangutan fought with another male, he won the fight, and then he had a nasty wound
+[00:08.6 - 00:12.9] that he needed to treat. He purposefully sought out a natural herb that orangutans are not known
+[00:12.9 - 00:17.2] to eat, and he chewed it up, applied it to his face like a paste, and left it there like a band-aid.
+[00:17.2 - 00:21.4] And over the following week, scientists observed that his wound was completely healed. The herb
+[00:21.4 - 00:26.0] that he used is called Fibroia trictoria, and the active compound in this plant is called berberine,
+[00:26.0 - 00:30.0] which is actually heavily studied for human usage. And as a pancreatic cancer researcher
+[00:30.0 - 00:34.2] and a naturopath practitioner, let me tell you the science behind berberine and all the scientific
+[00:34.2 - 00:38.0] studies that come with it. Berberine has excellent wound healing properties for three different
+[00:38.0 - 00:42.4] reasons. It reduces inflammation around the wound to lower chances of scarring, it promotes new
+[00:42.4 - 00:46.6] blood vessels to form around the wound to deliver valuable nutrients to close it up, and it promotes
+[00:46.6 - 00:50.3] collagen production and wound healing repair. Berberine is also well known for helping you with
+[00:50.3 - 00:54.1] your heart health. It can help with cholesterol levels, especially the bad type, it can help with
+[00:54.1 - 00:58.6] your blood sugar levels, and your blood pressure as well. And as I mentioned, it has anti-inflammatory
+[00:58.6 - 01:02.8] and also antioxidant properties. And this has implications for anti-aging properties because
+[01:02.8 - 01:06.8] it helps protect your mitochondria and your cells from damage from the oxidative stress. And lastly,
+[01:06.8 - 01:10.5] berberine can help your liver detoxify more efficiently and reduces fat accumulation in
+[01:10.5 - 01:14.1] your liver too. So if you would like to be smart like the orangutan and try out berberine for
+[01:14.1 - 01:18.6] yourself and you want an American-made supplement, this right here is top of the line. This contains
+[01:18.6 - 01:22.8] berberine, cinnamon, and chromium to all work together synergistically, and these are vegetarian
+[01:22.8 - 01:27.4] capsules. And this is a three-month supply. This is such a bang for your buck here, honestly guys.
+[01:27.4 - 01:30.2] And if you want to check it out, I will leave the link on the bottom of the screen so that you can
+[01:30.2 - 01:33.4] see all of the reviews on it. And if you have any questions, let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_5_7541161073328672030_transcription_20260531_213036.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_5_7541161073328672030_transcription_20260531_213036.txt
+
+============================================================
+RANK: 06 | GMV: $45235.93 | VIDEO ID: 7596558535207488781
+URL: https://www.tiktok.com/@drew.review1/video/7596558535207488781
+STATUS: FAILED — Download failed: ERROR: [TikTok] 7596558535207488781: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+============================================================
+
+============================================================
+RANK: 07 | GMV: $36825.32 | VIDEO ID: 7563038744190897422
+URL: https://www.tiktok.com/@drew.review1/video/7563038744190897422
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 08 | GMV: $35281.38 | VIDEO ID: 7569719323917389111
+URL: https://www.tiktok.com/@drew.review1/video/7569719323917389111
+WORD COUNT: 1303
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_8_7569719323917389111.mp3, file size: 3.38 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 106.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.3]  If you take astaxanthine for one month straight,
+[00:02.3 - 00:03.8]  here is what you will experience.
+[00:03.8 - 00:05.1]  I'm a pancreatic cancer researcher
+[00:05.1 - 00:07.0]  and a naturopath practitioner, so let's get into it.
+[00:07.0 - 00:09.9]  Astaxanthine is the strongest organic antioxidant agent
+[00:09.9 - 00:10.7]  in the world.
+[00:10.7 - 00:13.1]  It is 6,000 times stronger than vitamin C,
+[00:13.1 - 00:14.9]  and the reason why flamingos and shrimp are pink.
+[00:14.9 - 00:16.5]  In the first week of taking astaxanthine,
+[00:16.5 - 00:18.0]  you will notice sharper mental clarity
+[00:18.0 - 00:20.5]  and better energy levels, and even less eye strain,
+[00:20.5 - 00:23.1]  because astaxanthine is very important for your eye health.
+[00:23.1 - 00:24.9]  It actually protects your eyes from blue light
+[00:24.9 - 00:26.1]  emanating from screens.
+[00:26.1 - 00:28.2]  By week two, astaxanthine starts accumulating
+[00:28.2 - 00:29.0]  in your skin layer.
+[00:29.0 - 00:31.5]  It keeps your skin super hydrated and moisturized.
+[00:31.5 - 00:34.5]  It also protects collagen and elastin from degradation,
+[00:34.5 - 00:37.1]  reduces redness, and protects it from UV ray damage,
+[00:37.1 - 00:38.7]  and your eyes will feel less tired
+[00:38.7 - 00:40.4]  and your vision might start to feel sharper.
+[00:40.4 - 00:42.5]  By week three, inflammation starts to go down
+[00:42.5 - 00:44.0]  and your recovery will be boosted.
+[00:44.0 - 00:45.8]  Reduce joint pain and inflammation,
+[00:45.8 - 00:47.4]  better energy levels in general,
+[00:47.4 - 00:48.7]  decrease muscle soreness
+[00:48.7 - 00:50.5]  because it prevents lactic acid buildup,
+[00:50.5 - 00:52.3]  and you will have enhanced oxygen delivery
+[00:52.3 - 00:53.3]  to your brain and your muscles
+[00:53.3 - 00:55.3]  because it starts working on your blood vessels.
+[00:55.3 - 00:56.3]  And by the end of the month,
+[00:56.3 - 00:58.3]  your skin will develop a healthy undertone.
+[00:58.3 - 00:59.7]  You will have steady, clean energy
+[00:59.7 - 01:01.0]  without any kind of caffeine jitters,
+[01:01.0 - 01:02.5]  and your eyes will not be dry anymore
+[01:02.5 - 01:03.7]  and have better clarity.
+[01:03.7 - 01:06.8]  Fewer flare-ups from inflammation, better joint recovery.
+[01:06.8 - 01:08.9]  Brain fog is gone, mood is elevated,
+[01:08.9 - 01:10.8]  and you're going to feel much better overall.
+[01:10.8 - 01:13.0]  You only need one capsule per day, everybody.
+[01:13.0 - 01:14.5]  Take it any time during the day,
+[01:14.5 - 01:15.8]  just as long as it's paired with food
+[01:15.8 - 01:17.0]  because it's fat soluble.
+[01:17.0 - 01:19.3]  You should also make sure it is sourced from microalgae
+[01:19.3 - 01:21.8]  because that is the organic form of astaxanthine
+[01:21.8 - 01:23.1]  and has a high absorption rate,
+[01:23.1 - 01:25.4]  which is the one that I get from microingredients.
+[01:25.4 - 01:27.5]  This has 120 capsules in them.
+[01:27.5 - 01:28.3]  Again, one per day.
+[01:28.3 - 01:30.7]  So this one bag lasts you for almost a year.
+[01:30.7 - 01:32.9]  It is such a big Bank Fair buck saving here.
+[01:32.9 - 01:33.8]  It's made in America,
+[01:33.8 - 01:35.3]  third-party tested here for heavy metals,
+[01:35.3 - 01:36.8]  which is important because it comes from the sea.
+[01:36.8 - 01:38.2]  And if you would like to check this out,
+[01:38.2 - 01:40.1]  I will leave a link right down here to their official store
+[01:40.1 - 01:41.4]  so you could see their reviews on it.
+[01:41.4 - 01:43.5]  And they're having a really great flash sale deal
+[01:43.5 - 01:44.4]  right now, I think.
+[01:44.4 - 01:45.2]  So grab it up.
+[01:45.2 - 01:47.1]  If you have questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_8_7569719323917389111_transcription_20260531_213055.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_8_7569719323917389111_transcription_20260531_213055.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_8_7569719323917389111.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_8_7569719323917389111.mp3, file size: 3.38 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.3] If you take astaxanthine for one month straight,
+[00:02.3 - 00:03.8] here is what you will experience.
+[00:03.8 - 00:05.1] I'm a pancreatic cancer researcher
+[00:05.1 - 00:07.0] and a naturopath practitioner, so let's get into it.
+[00:07.0 - 00:09.9] Astaxanthine is the strongest organic antioxidant agent
+[00:09.9 - 00:10.7] in the world.
+[00:10.7 - 00:13.1] It is 6,000 times stronger than vitamin C,
+[00:13.1 - 00:14.9] and the reason why flamingos and shrimp are pink.
+[00:14.9 - 00:16.5] In the first week of taking astaxanthine,
+[00:16.5 - 00:18.0] you will notice sharper mental clarity
+[00:18.0 - 00:20.5] and better energy levels, and even less eye strain,
+[00:20.5 - 00:23.1] because astaxanthine is very important for your eye health.
+[00:23.1 - 00:24.9] It actually protects your eyes from blue light
+[00:24.9 - 00:26.1] emanating from screens.
+[00:26.1 - 00:28.2] By week two, astaxanthine starts accumulating
+[00:28.2 - 00:29.0] in your skin layer.
+[00:29.0 - 00:31.5] It keeps your skin super hydrated and moisturized.
+[00:31.5 - 00:34.5] It also protects collagen and elastin from degradation,
+[00:34.5 - 00:37.1] reduces redness, and protects it from UV ray damage,
+[00:37.1 - 00:38.7] and your eyes will feel less tired
+[00:38.7 - 00:40.4] and your vision might start to feel sharper.
+[00:40.4 - 00:42.5] By week three, inflammation starts to go down
+[00:42.5 - 00:44.0] and your recovery will be boosted.
+[00:44.0 - 00:45.8] Reduce joint pain and inflammation,
+[00:45.8 - 00:47.4] better energy levels in general,
+[00:47.4 - 00:48.7] decrease muscle soreness
+[00:48.7 - 00:50.5] because it prevents lactic acid buildup,
+[00:50.5 - 00:52.3] and you will have enhanced oxygen delivery
+[00:52.3 - 00:53.3] to your brain and your muscles
+[00:53.3 - 00:55.3] because it starts working on your blood vessels.
+[00:55.3 - 00:56.3] And by the end of the month,
+[00:56.3 - 00:58.3] your skin will develop a healthy undertone.
+[00:58.3 - 00:59.7] You will have steady, clean energy
+[00:59.7 - 01:01.0] without any kind of caffeine jitters,
+[01:01.0 - 01:02.5] and your eyes will not be dry anymore
+[01:02.5 - 01:03.7] and have better clarity.
+[01:03.7 - 01:06.8] Fewer flare-ups from inflammation, better joint recovery.
+[01:06.8 - 01:08.9] Brain fog is gone, mood is elevated,
+[01:08.9 - 01:10.8] and you're going to feel much better overall.
+[01:10.8 - 01:13.0] You only need one capsule per day, everybody.
+[01:13.0 - 01:14.5] Take it any time during the day,
+[01:14.5 - 01:15.8] just as long as it's paired with food
+[01:15.8 - 01:17.0] because it's fat soluble.
+[01:17.0 - 01:19.3] You should also make sure it is sourced from microalgae
+[01:19.3 - 01:21.8] because that is the organic form of astaxanthine
+[01:21.8 - 01:23.1] and has a high absorption rate,
+[01:23.1 - 01:25.4] which is the one that I get from microingredients.
+[01:25.4 - 01:27.5] This has 120 capsules in them.
+[01:27.5 - 01:28.3] Again, one per day.
+[01:28.3 - 01:30.7] So this one bag lasts you for almost a year.
+[01:30.7 - 01:32.9] It is such a big Bank Fair buck saving here.
+[01:32.9 - 01:33.8] It's made in America,
+[01:33.8 - 01:35.3] third-party tested here for heavy metals,
+[01:35.3 - 01:36.8] which is important because it comes from the sea.
+[01:36.8 - 01:38.2] And if you would like to check this out,
+[01:38.2 - 01:40.1] I will leave a link right down here to their official store
+[01:40.1 - 01:41.4] so you could see their reviews on it.
+[01:41.4 - 01:43.5] And they're having a really great flash sale deal
+[01:43.5 - 01:44.4] right now, I think.
+[01:44.4 - 01:45.2] So grab it up.
+[01:45.2 - 01:47.1] If you have questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_8_7569719323917389111_transcription_20260531_213055.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_8_7569719323917389111_transcription_20260531_213055.txt
+
+============================================================
+RANK: 09 | GMV: $32018.92 | VIDEO ID: 7492532292091612462
+URL: https://www.tiktok.com/@drew.review1/video/7492532292091612462
+WORD COUNT: 997
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_9_7492532292091612462.mp3, file size: 1.72 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 97.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:01.7]  Here's how to take collagen the right way.
+[00:01.7 - 00:04.2]  And if you don't believe me, I'm a pancreatic cancer researcher.
+[00:04.2 - 00:05.6]  So biology is my domain.
+[00:05.6 - 00:08.2]  Collagen is the most abundant protein found in our bodies.
+[00:08.4 - 00:11.7]  And it's really vital for your hair, skin, nails, joints, bones
+[00:11.7 - 00:12.8]  and many other things.
+[00:12.8 - 00:16.3]  And as we're aging, our body naturally slows down the production of collagen
+[00:16.5 - 00:19.5]  so you can start taking supplements to raise your baseline levels again.
+[00:19.5 - 00:21.0]  But this is where it's very important.
+[00:21.0 - 00:24.0]  Listen up, guys, you have to get collagen that is hydrolyzed.
+[00:24.2 - 00:27.7]  If it does not say it's hydrolyzed, then this is going to be peed right out
+[00:27.7 - 00:30.2]  because collagen is a very big molecule.
+[00:30.3 - 00:33.2]  It cannot enter cells unless it is broken down.
+[00:33.2 - 00:35.1]  That is the process of hydrolysis.
+[00:35.1 - 00:37.8]  So the small collagen peptides that are hydrolyzed
+[00:37.8 - 00:39.9]  are able to pass through your gut lining.
+[00:40.1 - 00:43.1]  They enter the bloodstream and they're able to find cells
+[00:43.1 - 00:45.3]  that you can actually enter through the cell membrane.
+[00:45.4 - 00:48.8]  There are also multiple collagen types that are responsible
+[00:48.8 - 00:50.5]  for certain things in your body.
+[00:50.5 - 00:53.6]  So taking a multi collagen complex is even better
+[00:53.8 - 00:55.5]  to address things on a global scale.
+[00:55.5 - 00:56.7]  If you want my recommendation,
+[00:56.7 - 00:58.9]  there's nothing better than this formulation right here.
+[00:59.1 - 01:00.9]  Hydrolyzed collagen peptides.
+[01:00.9 - 01:03.8]  They come in different types, all of the essentials that you need.
+[01:04.0 - 01:07.9]  And it contains biotin, hyaluronic acid and vitamin C.
+[01:07.9 - 01:11.1]  Biotin and hyaluronic acid are obviously very important for your hair,
+[01:11.1 - 01:12.4]  skin and nails.
+[01:12.4 - 01:16.5]  And the vitamin C is really good at promoting collagen production
+[01:16.5 - 01:18.0]  inside of your own body.
+[01:18.0 - 01:19.7]  So not only are you getting more collagen,
+[01:19.7 - 01:22.5]  you're also building it up from the beginning in your own body.
+[01:22.6 - 01:24.9]  This is such an insane powerhouse formulation.
+[01:25.3 - 01:28.0]  There's a reason why they sold like hundreds of thousands of these already.
+[01:28.2 - 01:30.1]  I'm going to drop a link for you right over here
+[01:30.1 - 01:32.3]  to their official TikTok shop verified page.
+[01:32.4 - 01:35.3]  In their own store, they also have a powder formulation
+[01:35.4 - 01:37.2]  if you prefer that over capsules.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_9_7492532292091612462_transcription_20260531_213107.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_9_7492532292091612462_transcription_20260531_213107.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_9_7492532292091612462.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_9_7492532292091612462.mp3, file size: 1.72 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:01.7] Here's how to take collagen the right way.
+[00:01.7 - 00:04.2] And if you don't believe me, I'm a pancreatic cancer researcher.
+[00:04.2 - 00:05.6] So biology is my domain.
+[00:05.6 - 00:08.2] Collagen is the most abundant protein found in our bodies.
+[00:08.4 - 00:11.7] And it's really vital for your hair, skin, nails, joints, bones
+[00:11.7 - 00:12.8] and many other things.
+[00:12.8 - 00:16.3] And as we're aging, our body naturally slows down the production of collagen
+[00:16.5 - 00:19.5] so you can start taking supplements to raise your baseline levels again.
+[00:19.5 - 00:21.0] But this is where it's very important.
+[00:21.0 - 00:24.0] Listen up, guys, you have to get collagen that is hydrolyzed.
+[00:24.2 - 00:27.7] If it does not say it's hydrolyzed, then this is going to be peed right out
+[00:27.7 - 00:30.2] because collagen is a very big molecule.
+[00:30.3 - 00:33.2] It cannot enter cells unless it is broken down.
+[00:33.2 - 00:35.1] That is the process of hydrolysis.
+[00:35.1 - 00:37.8] So the small collagen peptides that are hydrolyzed
+[00:37.8 - 00:39.9] are able to pass through your gut lining.
+[00:40.1 - 00:43.1] They enter the bloodstream and they're able to find cells
+[00:43.1 - 00:45.3] that you can actually enter through the cell membrane.
+[00:45.4 - 00:48.8] There are also multiple collagen types that are responsible
+[00:48.8 - 00:50.5] for certain things in your body.
+[00:50.5 - 00:53.6] So taking a multi collagen complex is even better
+[00:53.8 - 00:55.5] to address things on a global scale.
+[00:55.5 - 00:56.7] If you want my recommendation,
+[00:56.7 - 00:58.9] there's nothing better than this formulation right here.
+[00:59.1 - 01:00.9] Hydrolyzed collagen peptides.
+[01:00.9 - 01:03.8] They come in different types, all of the essentials that you need.
+[01:04.0 - 01:07.9] And it contains biotin, hyaluronic acid and vitamin C.
+[01:07.9 - 01:11.1] Biotin and hyaluronic acid are obviously very important for your hair,
+[01:11.1 - 01:12.4] skin and nails.
+[01:12.4 - 01:16.5] And the vitamin C is really good at promoting collagen production
+[01:16.5 - 01:18.0] inside of your own body.
+[01:18.0 - 01:19.7] So not only are you getting more collagen,
+[01:19.7 - 01:22.5] you're also building it up from the beginning in your own body.
+[01:22.6 - 01:24.9] This is such an insane powerhouse formulation.
+[01:25.3 - 01:28.0] There's a reason why they sold like hundreds of thousands of these already.
+[01:28.2 - 01:30.1] I'm going to drop a link for you right over here
+[01:30.1 - 01:32.3] to their official TikTok shop verified page.
+[01:32.4 - 01:35.3] In their own store, they also have a powder formulation
+[01:35.4 - 01:37.2] if you prefer that over capsules.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_9_7492532292091612462_transcription_20260531_213107.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_9_7492532292091612462_transcription_20260531_213107.txt
+
+============================================================
+RANK: 10 | GMV: $29514.33 | VIDEO ID: 7605736101134830862
+URL: https://www.tiktok.com/@drew.review1/video/7605736101134830862
+WORD COUNT: 697
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_10_7605736101134830862.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 65.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.6]  had to take NMN and astaxanthin together correctly from a pancreatic cancer researcher and a naturopath
+[00:04.6 - 00:08.9]  practitioner. These are both organic molecules that have really powerful anti-aging and antioxidant
+[00:08.9 - 00:14.2]  support. In fact, astaxanthin is 6,000 times stronger than vitamin c as antioxidant and NMN
+[00:14.2 - 00:18.4]  has a ton of clinical studies behind it showing amazing anti-aging research. This is a really
+[00:18.4 - 00:23.4]  powerful combination for fine lines and wrinkles, hair and nail growth, inflammation, joint discomfort,
+[00:23.4 - 00:27.3]  eye health, and so many other important things. You could take both of these together in the morning
+[00:27.3 - 00:31.5]  and take them with food because they are fat soluble molecules, especially astaxanthin, so make
+[00:31.5 - 00:35.4]  sure that whatever you're eating has fats in it. If you are currently on medication like blood
+[00:35.4 - 00:39.1]  thinners, for example, please ask your doctor or pharmacist first before taking any of these
+[00:39.1 - 00:43.8]  supplements. You only need one soft gel from astaxanthin and two capsules from the NMN formula.
+[00:43.8 - 00:49.0]  The astaxanthin is a 120-day supply and the NMN is a two-month supply. And the great news is that
+[00:49.0 - 00:53.5]  normally if you buy them separately it would cost $70, but they have a flash sale deal for a bundle
+[00:53.5 - 00:57.2]  where you are saving an extra $15 plus free shipping, so if you want to check that out I
+[00:57.2 - 01:00.4]  will leave a link right down here to their bundle so that you could see it for yourself. It's very
+[01:00.4 - 01:04.2]  limited in stock, it's such an amazing price right now so check it out. If you have any questions,
+[01:04.2 - 01:04.7]  please let me know!
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_10_7605736101134830862_transcription_20260531_213116.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_10_7605736101134830862_transcription_20260531_213116.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_10_7605736101134830862.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_10_7605736101134830862.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.6] had to take NMN and astaxanthin together correctly from a pancreatic cancer researcher and a naturopath
+[00:04.6 - 00:08.9] practitioner. These are both organic molecules that have really powerful anti-aging and antioxidant
+[00:08.9 - 00:14.2] support. In fact, astaxanthin is 6,000 times stronger than vitamin c as antioxidant and NMN
+[00:14.2 - 00:18.4] has a ton of clinical studies behind it showing amazing anti-aging research. This is a really
+[00:18.4 - 00:23.4] powerful combination for fine lines and wrinkles, hair and nail growth, inflammation, joint discomfort,
+[00:23.4 - 00:27.3] eye health, and so many other important things. You could take both of these together in the morning
+[00:27.3 - 00:31.5] and take them with food because they are fat soluble molecules, especially astaxanthin, so make
+[00:31.5 - 00:35.4] sure that whatever you're eating has fats in it. If you are currently on medication like blood
+[00:35.4 - 00:39.1] thinners, for example, please ask your doctor or pharmacist first before taking any of these
+[00:39.1 - 00:43.8] supplements. You only need one soft gel from astaxanthin and two capsules from the NMN formula.
+[00:43.8 - 00:49.0] The astaxanthin is a 120-day supply and the NMN is a two-month supply. And the great news is that
+[00:49.0 - 00:53.5] normally if you buy them separately it would cost $70, but they have a flash sale deal for a bundle
+[00:53.5 - 00:57.2] where you are saving an extra $15 plus free shipping, so if you want to check that out I
+[00:57.2 - 01:00.4] will leave a link right down here to their bundle so that you could see it for yourself. It's very
+[01:00.4 - 01:04.2] limited in stock, it's such an amazing price right now so check it out. If you have any questions,
+[01:04.2 - 01:04.7] please let me know!
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_10_7605736101134830862_transcription_20260531_213116.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_10_7605736101134830862_transcription_20260531_213116.txt
+
+============================================================
+RANK: 11 | GMV: $25164.65 | VIDEO ID: 7594391735007055117
+URL: https://www.tiktok.com/@drew.review1/video/7594391735007055117
+WORD COUNT: 1203
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_11_7594391735007055117.mp3, file size: 3.08 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 97.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.2]  If you always have mucus building up in your lungs,
+[00:02.2 - 00:03.7]  I'm gonna tell you what hospitals use
+[00:03.7 - 00:05.2]  so that you can get it over the counter.
+[00:05.2 - 00:06.6]  I'm a pancreatic cancer researcher
+[00:06.6 - 00:07.8]  and a naturopath practitioner,
+[00:07.8 - 00:10.2]  so let's talk all about the science behind NAC
+[00:10.2 - 00:11.3]  and how it can help you.
+[00:11.3 - 00:13.6]  NAC stands for N-acetylcysteine,
+[00:13.6 - 00:16.4]  and it is used by hospitals for how effective it is
+[00:16.4 - 00:19.1]  at clearing out mucus from your lungs and decongest you.
+[00:19.1 - 00:21.8]  It acts as a mucolytic by thinning out mucus,
+[00:21.8 - 00:23.9]  so if you have chunky, nasty mucus
+[00:23.9 - 00:25.9]  that's always sitting around and not being coughed out
+[00:25.9 - 00:27.3]  and you're always coughing,
+[00:27.3 - 00:29.3]  NAC helps clear everything out
+[00:29.3 - 00:32.1]  and make your coughing productive rather than exhaustive.
+[00:32.1 - 00:33.4]  So when you take it initially,
+[00:33.4 - 00:34.6]  you're gonna cough out a lot,
+[00:34.6 - 00:36.2]  but then you're gonna be breathing amazing.
+[00:36.2 - 00:38.4]  And not only does it help get that mucus out,
+[00:38.4 - 00:40.3]  it also helps heal your lungs.
+[00:40.3 - 00:41.6]  It is anti-inflammatory,
+[00:41.6 - 00:43.8]  it encourages repair pathways in your lungs,
+[00:43.8 - 00:45.0]  and it's a strong antioxidant
+[00:45.0 - 00:47.0]  because it makes more glutathione in your body.
+[00:47.0 - 00:49.3]  So it helps clear out heavy metals and toxins
+[00:49.3 - 00:50.7]  that build up in your body over time,
+[00:50.7 - 00:52.0]  especially if you are a smoker.
+[00:52.0 - 00:52.9]  And speaking of,
+[00:52.9 - 00:55.2]  NAC is used in addictive research and cravings,
+[00:55.2 - 00:57.0]  so if you always want that nicotine,
+[00:57.0 - 00:58.8]  taking NAC will calm that down.
+[00:59.2 - 01:00.0]  And lastly,
+[01:00.0 - 01:01.3]  NAC is amazing for protecting your liver
+[01:01.3 - 01:02.4]  and your kidney function too,
+[01:02.4 - 01:04.1]  so it enhances detox pathways.
+[01:04.1 - 01:05.6]  And I'm gonna show you how to get this
+[01:05.6 - 01:08.0]  for $8 for a one month supply.
+[01:08.0 - 01:11.1]  The one from NutraCost is so freaking amazing.
+[01:11.1 - 01:13.4]  Has a ton of great reviews behind it.
+[01:13.4 - 01:16.8]  It uses the clinical dose, 600 milligrams of NAC.
+[01:16.8 - 01:19.9]  These are vegan capsules and you take one capsule per day.
+[01:19.9 - 01:22.1]  Just make sure to take them first thing in the morning
+[01:22.1 - 01:23.2]  before you eat anything.
+[01:23.2 - 01:24.3]  And these are made in America
+[01:24.3 - 01:25.7]  and third party tested here as well.
+[01:25.7 - 01:26.9]  The only problem is that I don't know
+[01:26.9 - 01:28.1]  when the flash sale deal is ending,
+[01:28.4 - 01:29.3]  so if you wanna check this out,
+[01:29.3 - 01:31.1]  I will leave a link right down here where I got it from
+[01:31.1 - 01:32.3]  so that you could see the reviews.
+[01:32.3 - 01:33.6]  Fast free shipping on top of it all,
+[01:33.6 - 01:35.2]  it is such a great affordable price.
+[01:35.2 - 01:36.5]  And if you have any questions,
+[01:36.5 - 01:38.4]  please let me know in the comment section.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_11_7594391735007055117_transcription_20260531_213129.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_11_7594391735007055117_transcription_20260531_213129.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_11_7594391735007055117.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_11_7594391735007055117.mp3, file size: 3.08 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.2] If you always have mucus building up in your lungs,
+[00:02.2 - 00:03.7] I'm gonna tell you what hospitals use
+[00:03.7 - 00:05.2] so that you can get it over the counter.
+[00:05.2 - 00:06.6] I'm a pancreatic cancer researcher
+[00:06.6 - 00:07.8] and a naturopath practitioner,
+[00:07.8 - 00:10.2] so let's talk all about the science behind NAC
+[00:10.2 - 00:11.3] and how it can help you.
+[00:11.3 - 00:13.6] NAC stands for N-acetylcysteine,
+[00:13.6 - 00:16.4] and it is used by hospitals for how effective it is
+[00:16.4 - 00:19.1] at clearing out mucus from your lungs and decongest you.
+[00:19.1 - 00:21.8] It acts as a mucolytic by thinning out mucus,
+[00:21.8 - 00:23.9] so if you have chunky, nasty mucus
+[00:23.9 - 00:25.9] that's always sitting around and not being coughed out
+[00:25.9 - 00:27.3] and you're always coughing,
+[00:27.3 - 00:29.3] NAC helps clear everything out
+[00:29.3 - 00:32.1] and make your coughing productive rather than exhaustive.
+[00:32.1 - 00:33.4] So when you take it initially,
+[00:33.4 - 00:34.6] you're gonna cough out a lot,
+[00:34.6 - 00:36.2] but then you're gonna be breathing amazing.
+[00:36.2 - 00:38.4] And not only does it help get that mucus out,
+[00:38.4 - 00:40.3] it also helps heal your lungs.
+[00:40.3 - 00:41.6] It is anti-inflammatory,
+[00:41.6 - 00:43.8] it encourages repair pathways in your lungs,
+[00:43.8 - 00:45.0] and it's a strong antioxidant
+[00:45.0 - 00:47.0] because it makes more glutathione in your body.
+[00:47.0 - 00:49.3] So it helps clear out heavy metals and toxins
+[00:49.3 - 00:50.7] that build up in your body over time,
+[00:50.7 - 00:52.0] especially if you are a smoker.
+[00:52.0 - 00:52.9] And speaking of,
+[00:52.9 - 00:55.2] NAC is used in addictive research and cravings,
+[00:55.2 - 00:57.0] so if you always want that nicotine,
+[00:57.0 - 00:58.8] taking NAC will calm that down.
+[00:59.2 - 01:00.0] And lastly,
+[01:00.0 - 01:01.3] NAC is amazing for protecting your liver
+[01:01.3 - 01:02.4] and your kidney function too,
+[01:02.4 - 01:04.1] so it enhances detox pathways.
+[01:04.1 - 01:05.6] And I'm gonna show you how to get this
+[01:05.6 - 01:08.0] for $8 for a one month supply.
+[01:08.0 - 01:11.1] The one from NutraCost is so freaking amazing.
+[01:11.1 - 01:13.4] Has a ton of great reviews behind it.
+[01:13.4 - 01:16.8] It uses the clinical dose, 600 milligrams of NAC.
+[01:16.8 - 01:19.9] These are vegan capsules and you take one capsule per day.
+[01:19.9 - 01:22.1] Just make sure to take them first thing in the morning
+[01:22.1 - 01:23.2] before you eat anything.
+[01:23.2 - 01:24.3] And these are made in America
+[01:24.3 - 01:25.7] and third party tested here as well.
+[01:25.7 - 01:26.9] The only problem is that I don't know
+[01:26.9 - 01:28.1] when the flash sale deal is ending,
+[01:28.4 - 01:29.3] so if you wanna check this out,
+[01:29.3 - 01:31.1] I will leave a link right down here where I got it from
+[01:31.1 - 01:32.3] so that you could see the reviews.
+[01:32.3 - 01:33.6] Fast free shipping on top of it all,
+[01:33.6 - 01:35.2] it is such a great affordable price.
+[01:35.2 - 01:36.5] And if you have any questions,
+[01:36.5 - 01:38.4] please let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_11_7594391735007055117_transcription_20260531_213129.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_11_7594391735007055117_transcription_20260531_213129.txt
+
+============================================================
+RANK: 12 | GMV: $21731.79 | VIDEO ID: 7568336039471795469
+URL: https://www.tiktok.com/@drew.review1/video/7568336039471795469
+WORD COUNT: 705
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_12_7568336039471795469.mp3, file size: 1.98 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 63.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  said to take berberine correctly. I'm a pancreatic cancer researcher and a naturopath practitioner,
+[00:04.2 - 00:08.1]  so let's get into it. Now because berberine is used for blood sugar regulation, here is what
+[00:08.1 - 00:12.6]  you're going to do. You're going to take it right before or with a meal because its intended use is
+[00:12.6 - 00:16.6]  to prevent blood sugar spikes after you finish eating. And because berberine has a short half
+[00:16.6 - 00:20.5]  life in your body, you're going to split up the doses. So if you're taking capsules, you could
+[00:20.5 - 00:24.5]  take two of them or three of them and split them up during the day. If you're currently on medication
+[00:24.5 - 00:28.5]  like blood thinners for example, please ask your doctor first before taking berberine. And it's
+[00:28.5 - 00:32.3]  also important to get berberine that's paired with cinnamon because studies show it has a really
+[00:32.3 - 00:36.2]  powerful synergistic effect for your metabolic health and cardiovascular health as well. And
+[00:36.2 - 00:40.5]  the berberine itself should come in a berberine HCL form because that's actually an enhanced
+[00:40.5 - 00:44.2]  absorption type. And if you would like a recommendation, this is a really good berberine
+[00:44.2 - 00:47.8]  supplement that's paired with cinnamon already and chromium. They all have a synergistic effect
+[00:47.8 - 00:52.3]  together. This is roughly a three-month supply, made in America and third-party tested here for
+[00:52.3 - 00:56.9]  things like heavy metals. And these are vegetarian and gluten-free capsules as well. So if you would
+[00:56.9 - 01:00.1]  like to check this out, I will leave the link right down here to their official store so you
+[01:00.1 - 01:03.1]  could see the reviews on these. And if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_12_7568336039471795469_transcription_20260531_213138.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_12_7568336039471795469_transcription_20260531_213138.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_12_7568336039471795469.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_12_7568336039471795469.mp3, file size: 1.98 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] said to take berberine correctly. I'm a pancreatic cancer researcher and a naturopath practitioner,
+[00:04.2 - 00:08.1] so let's get into it. Now because berberine is used for blood sugar regulation, here is what
+[00:08.1 - 00:12.6] you're going to do. You're going to take it right before or with a meal because its intended use is
+[00:12.6 - 00:16.6] to prevent blood sugar spikes after you finish eating. And because berberine has a short half
+[00:16.6 - 00:20.5] life in your body, you're going to split up the doses. So if you're taking capsules, you could
+[00:20.5 - 00:24.5] take two of them or three of them and split them up during the day. If you're currently on medication
+[00:24.5 - 00:28.5] like blood thinners for example, please ask your doctor first before taking berberine. And it's
+[00:28.5 - 00:32.3] also important to get berberine that's paired with cinnamon because studies show it has a really
+[00:32.3 - 00:36.2] powerful synergistic effect for your metabolic health and cardiovascular health as well. And
+[00:36.2 - 00:40.5] the berberine itself should come in a berberine HCL form because that's actually an enhanced
+[00:40.5 - 00:44.2] absorption type. And if you would like a recommendation, this is a really good berberine
+[00:44.2 - 00:47.8] supplement that's paired with cinnamon already and chromium. They all have a synergistic effect
+[00:47.8 - 00:52.3] together. This is roughly a three-month supply, made in America and third-party tested here for
+[00:52.3 - 00:56.9] things like heavy metals. And these are vegetarian and gluten-free capsules as well. So if you would
+[00:56.9 - 01:00.1] like to check this out, I will leave the link right down here to their official store so you
+[01:00.1 - 01:03.1] could see the reviews on these. And if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_12_7568336039471795469_transcription_20260531_213138.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_12_7568336039471795469_transcription_20260531_213138.txt
+
+============================================================
+RANK: 13 | GMV: $19759.58 | VIDEO ID: 7566354227811929358
+URL: https://www.tiktok.com/@drew.review1/video/7566354227811929358
+WORD COUNT: 821
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_13_7566354227811929358.mp3, file size: 2.44 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 76.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  is berberine so effective at modulating blood sugar levels to the point that it's been heavily
+[00:04.2 - 00:07.7]  studied by science? I'm a pancreatic cancer researcher and a naturopath practitioner,
+[00:07.7 - 00:11.6]  so let me quickly explain how berberine works. Normally when you eat, your pancreas releases
+[00:11.6 - 00:15.7]  insulin, which is a hormone that tells your body to bring in glucose from your blood to be used as
+[00:15.7 - 00:19.9]  energy. But when your cells become resistant to insulin, they do not respond to that signal
+[00:19.9 - 00:23.8]  anymore. So that means that sugar stays floating around in your blood rather than getting absorbed.
+[00:23.8 - 00:28.6]  So here's what berberine does. Firstly, it elevates an enzyme called AMPK. This enzyme
+[00:28.6 - 00:32.2]  helps your cells pull in glucose from the bloodstream to be used as energy even when
+[00:32.2 - 00:36.1]  insulin is not working well. Even better, berberine actually helps your cells become
+[00:36.1 - 00:40.6]  more sensitive to insulin again. It also tells your liver to stop overproducing sugar so that
+[00:40.6 - 00:44.4]  your body can use up the sugar that's left in your bloodstream. And lastly, it helps balance
+[00:44.4 - 00:48.2]  the bad type of bacteria in your gut that sometimes cause inflammation, which affects
+[00:48.2 - 00:52.6]  your insulin signaling. So it balances everything out and makes sure that you'd absorb your nutrients
+[00:52.6 - 00:56.3]  properly. So berberine is really incredible. It's been heavily studied, as you can see,
+[00:56.3 - 00:59.6]  and if you would like a recommendation, this is a wonderful berberine supplement
+[00:59.6 - 01:03.2]  for micro-ingredients. It's made in America, third-party tested here, plus it has other
+[01:03.2 - 01:06.6]  ingredients to help the berberine work more effectively. This is a roughly three-month
+[01:06.6 - 01:09.8]  supply and they're having a really great flash sale right now. So if you want to check it out,
+[01:09.8 - 01:12.9]  I will drop a link right down here to their official store so you can see their reviews
+[01:12.9 - 01:15.8]  on this. So grab this up. If you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_13_7566354227811929358_transcription_20260531_213147.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_13_7566354227811929358_transcription_20260531_213147.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_13_7566354227811929358.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_13_7566354227811929358.mp3, file size: 2.44 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] is berberine so effective at modulating blood sugar levels to the point that it's been heavily
+[00:04.2 - 00:07.7] studied by science? I'm a pancreatic cancer researcher and a naturopath practitioner,
+[00:07.7 - 00:11.6] so let me quickly explain how berberine works. Normally when you eat, your pancreas releases
+[00:11.6 - 00:15.7] insulin, which is a hormone that tells your body to bring in glucose from your blood to be used as
+[00:15.7 - 00:19.9] energy. But when your cells become resistant to insulin, they do not respond to that signal
+[00:19.9 - 00:23.8] anymore. So that means that sugar stays floating around in your blood rather than getting absorbed.
+[00:23.8 - 00:28.6] So here's what berberine does. Firstly, it elevates an enzyme called AMPK. This enzyme
+[00:28.6 - 00:32.2] helps your cells pull in glucose from the bloodstream to be used as energy even when
+[00:32.2 - 00:36.1] insulin is not working well. Even better, berberine actually helps your cells become
+[00:36.1 - 00:40.6] more sensitive to insulin again. It also tells your liver to stop overproducing sugar so that
+[00:40.6 - 00:44.4] your body can use up the sugar that's left in your bloodstream. And lastly, it helps balance
+[00:44.4 - 00:48.2] the bad type of bacteria in your gut that sometimes cause inflammation, which affects
+[00:48.2 - 00:52.6] your insulin signaling. So it balances everything out and makes sure that you'd absorb your nutrients
+[00:52.6 - 00:56.3] properly. So berberine is really incredible. It's been heavily studied, as you can see,
+[00:56.3 - 00:59.6] and if you would like a recommendation, this is a wonderful berberine supplement
+[00:59.6 - 01:03.2] for micro-ingredients. It's made in America, third-party tested here, plus it has other
+[01:03.2 - 01:06.6] ingredients to help the berberine work more effectively. This is a roughly three-month
+[01:06.6 - 01:09.8] supply and they're having a really great flash sale right now. So if you want to check it out,
+[01:09.8 - 01:12.9] I will drop a link right down here to their official store so you can see their reviews
+[01:12.9 - 01:15.8] on this. So grab this up. If you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_13_7566354227811929358_transcription_20260531_213147.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_13_7566354227811929358_transcription_20260531_213147.txt
+
+============================================================
+RANK: 14 | GMV: $15655.04 | VIDEO ID: 7583914069342571806
+URL: https://www.tiktok.com/@drew.review1/video/7583914069342571806
+STATUS: FAILED — Download failed: ERROR: [TikTok] 7583914069342571806: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+============================================================
+
+============================================================
+RANK: 15 | GMV: $14806.97 | VIDEO ID: 7520775900745518366
+URL: https://www.tiktok.com/@drew.review1/video/7520775900745518366
+WORD COUNT: 1241
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_15_7520775900745518366.mp3, file size: 3.78 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 117.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.8]  a pancreatic cancer researcher and I have a master's degree, so if I'm talking about something
+[00:03.8 - 00:07.4]  online, you bet that I'm doing a lot of research backing it up. So if your armpits are getting
+[00:07.4 - 00:11.3]  poofier, your cellulite is stretching a lot and your jawline is disappearing, and if you're feeling
+[00:11.3 - 00:14.4]  very sluggish and depressed and you're not sleeping well, there's a lot of research showing that
+[00:14.4 - 00:17.8]  lymphatic drainage could really help. I don't know why they don't really teach this, but your lymphatic
+[00:17.8 - 00:21.8]  system is very vital to clearing out harmful byproducts and toxins throughout your entire body,
+[00:21.8 - 00:25.7]  and it's very vital for your immune system support. And if that lymphatic fluid is sitting around and
+[00:26.6 - 00:30.4]  then sometimes that's responsible for why you feel very sluggish and puffy no matter if you
+[00:30.4 - 00:33.8]  eat the right things or work out. And when I advocate for something, I always try to find
+[00:33.8 - 00:38.0]  the healthiest alternative because as a pancreatic cancer researcher, I actually believe that nature
+[00:38.0 - 00:41.8]  has everything we need in order to heal ourselves. So when I tell you that all four of these natural
+[00:41.8 - 00:45.4]  herbs are really great for promoting lymphatic drainage, I really mean it. These herbs are
+[00:45.4 - 00:49.0]  really good for promoting healthy lymphatic drainage because they get rid of water retention,
+[00:49.0 - 00:52.5]  they build up all those toxins and clear them out through your lymphatic system,
+[00:52.5 - 00:56.8]  and they help boost circulation and blood flow to those areas where lymph nodes are normally
+[00:56.8 - 01:00.8]  blocked. So they really stimulate that lymphatic drainage. And the very best supplement that I
+[01:00.8 - 01:05.9]  found that has all four of them is this right here. This is actually a 59 day supply, believe
+[01:05.9 - 01:10.4]  it or not. You only need one milliliter from this liquid formulation. There are no fillers
+[01:10.4 - 01:14.8]  or additives in here either. And I love this company because when you look them up, they
+[01:14.8 - 01:18.8]  actually source everything as naturally as possible. And on top of that, they actually
+[01:18.8 - 01:23.8]  partnered with a charity that helps with global issues for nutrition and helping people that
+[01:23.8 - 01:27.9]  really deserve it. It's super easy to use. You can add it to any kind of drink. I really recommend
+[01:27.9 - 01:32.1]  not adding it to a hot drink because heat usually degrades important enzymes and proteins and these
+[01:32.1 - 01:35.8]  sort of things. But everything else is totally fair game, very easy to take. And I'm telling
+[01:35.8 - 01:39.8]  you, ever since I started taking this, the depoofing that I experienced, the mental clarity,
+[01:39.8 - 01:44.2]  the sharpness, the focus, the mood enhancement was insane. So if you want to check this out,
+[01:44.2 - 01:47.6]  I'm going to drop a link right over here where I get it from because it's actually cheapest on
+[01:47.6 - 01:51.0]  TikTok shop, believe it or not. And that is their official store where you could see that all the
+[01:51.0 - 01:56.2]  reviews are all kosher. So definitely check this out, guys. Depoof yourself, all natural ingredients,
+[01:56.2 - 01:57.5]  all herbs. You're going to love it.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_15_7520775900745518366_transcription_20260531_213159.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_15_7520775900745518366_transcription_20260531_213159.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_15_7520775900745518366.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_15_7520775900745518366.mp3, file size: 3.78 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.8] a pancreatic cancer researcher and I have a master's degree, so if I'm talking about something
+[00:03.8 - 00:07.4] online, you bet that I'm doing a lot of research backing it up. So if your armpits are getting
+[00:07.4 - 00:11.3] poofier, your cellulite is stretching a lot and your jawline is disappearing, and if you're feeling
+[00:11.3 - 00:14.4] very sluggish and depressed and you're not sleeping well, there's a lot of research showing that
+[00:14.4 - 00:17.8] lymphatic drainage could really help. I don't know why they don't really teach this, but your lymphatic
+[00:17.8 - 00:21.8] system is very vital to clearing out harmful byproducts and toxins throughout your entire body,
+[00:21.8 - 00:25.7] and it's very vital for your immune system support. And if that lymphatic fluid is sitting around and
+[00:26.6 - 00:30.4] then sometimes that's responsible for why you feel very sluggish and puffy no matter if you
+[00:30.4 - 00:33.8] eat the right things or work out. And when I advocate for something, I always try to find
+[00:33.8 - 00:38.0] the healthiest alternative because as a pancreatic cancer researcher, I actually believe that nature
+[00:38.0 - 00:41.8] has everything we need in order to heal ourselves. So when I tell you that all four of these natural
+[00:41.8 - 00:45.4] herbs are really great for promoting lymphatic drainage, I really mean it. These herbs are
+[00:45.4 - 00:49.0] really good for promoting healthy lymphatic drainage because they get rid of water retention,
+[00:49.0 - 00:52.5] they build up all those toxins and clear them out through your lymphatic system,
+[00:52.5 - 00:56.8] and they help boost circulation and blood flow to those areas where lymph nodes are normally
+[00:56.8 - 01:00.8] blocked. So they really stimulate that lymphatic drainage. And the very best supplement that I
+[01:00.8 - 01:05.9] found that has all four of them is this right here. This is actually a 59 day supply, believe
+[01:05.9 - 01:10.4] it or not. You only need one milliliter from this liquid formulation. There are no fillers
+[01:10.4 - 01:14.8] or additives in here either. And I love this company because when you look them up, they
+[01:14.8 - 01:18.8] actually source everything as naturally as possible. And on top of that, they actually
+[01:18.8 - 01:23.8] partnered with a charity that helps with global issues for nutrition and helping people that
+[01:23.8 - 01:27.9] really deserve it. It's super easy to use. You can add it to any kind of drink. I really recommend
+[01:27.9 - 01:32.1] not adding it to a hot drink because heat usually degrades important enzymes and proteins and these
+[01:32.1 - 01:35.8] sort of things. But everything else is totally fair game, very easy to take. And I'm telling
+[01:35.8 - 01:39.8] you, ever since I started taking this, the depoofing that I experienced, the mental clarity,
+[01:39.8 - 01:44.2] the sharpness, the focus, the mood enhancement was insane. So if you want to check this out,
+[01:44.2 - 01:47.6] I'm going to drop a link right over here where I get it from because it's actually cheapest on
+[01:47.6 - 01:51.0] TikTok shop, believe it or not. And that is their official store where you could see that all the
+[01:51.0 - 01:56.2] reviews are all kosher. So definitely check this out, guys. Depoof yourself, all natural ingredients,
+[01:56.2 - 01:57.5] all herbs. You're going to love it.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_15_7520775900745518366_transcription_20260531_213159.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_15_7520775900745518366_transcription_20260531_213159.txt
+
+============================================================
+RANK: 16 | GMV: $14696.5 | VIDEO ID: 7522186829106269471
+URL: https://www.tiktok.com/@drew.review1/video/7522186829106269471
+WORD COUNT: 585
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_16_7522186829106269471.mp3, file size: 1.70 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 55.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.5]  want to regrow your liver, you have to take milk thistle. If you want to improve your blood
+[00:03.5 - 00:08.7]  circulation, take beetroots. For strong liver detox and bile production, take dandelion root.
+[00:08.7 - 00:13.5]  For inflammation and chronic pain, take turmeric. For blood sugar and wound healing properties,
+[00:13.5 - 00:18.6]  take berberine. For antioxidants, take artichoke leaf. All of these ingredients are really key
+[00:18.6 - 00:23.0]  for helping detoxify your liver very efficiently. And instead of spending a bunch of money on all
+[00:23.0 - 00:27.7]  of those ingredients, you got a 20 in 1 supplement right here for really great liver detox. This is
+[00:27.7 - 00:33.1]  a four-month supply of vegetarian capsules and you could see a very comprehensive list of the
+[00:33.1 - 00:37.6]  very best herbs that are great for liver detox. These are non-GMO and gluten-free ingredients.
+[00:37.6 - 00:42.2]  They're also sourced in the United States and these are also lab tested for purity so you are
+[00:42.2 - 00:46.1]  getting exactly what you're looking for in here. They test for dosage and for purity of the
+[00:46.1 - 00:50.0]  ingredients. They're having a huge flash sale on this liver detox supplement right now as well so
+[00:50.0 - 00:53.0]  I'm going to leave the link down there if you want to run and grab them. And if you still see that
+[00:53.0 - 00:55.3]  orange shopping cart, they are still left in stock.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_16_7522186829106269471_transcription_20260531_213207.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_16_7522186829106269471_transcription_20260531_213207.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_16_7522186829106269471.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_16_7522186829106269471.mp3, file size: 1.70 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.5] want to regrow your liver, you have to take milk thistle. If you want to improve your blood
+[00:03.5 - 00:08.7] circulation, take beetroots. For strong liver detox and bile production, take dandelion root.
+[00:08.7 - 00:13.5] For inflammation and chronic pain, take turmeric. For blood sugar and wound healing properties,
+[00:13.5 - 00:18.6] take berberine. For antioxidants, take artichoke leaf. All of these ingredients are really key
+[00:18.6 - 00:23.0] for helping detoxify your liver very efficiently. And instead of spending a bunch of money on all
+[00:23.0 - 00:27.7] of those ingredients, you got a 20 in 1 supplement right here for really great liver detox. This is
+[00:27.7 - 00:33.1] a four-month supply of vegetarian capsules and you could see a very comprehensive list of the
+[00:33.1 - 00:37.6] very best herbs that are great for liver detox. These are non-GMO and gluten-free ingredients.
+[00:37.6 - 00:42.2] They're also sourced in the United States and these are also lab tested for purity so you are
+[00:42.2 - 00:46.1] getting exactly what you're looking for in here. They test for dosage and for purity of the
+[00:46.1 - 00:50.0] ingredients. They're having a huge flash sale on this liver detox supplement right now as well so
+[00:50.0 - 00:53.0] I'm going to leave the link down there if you want to run and grab them. And if you still see that
+[00:53.0 - 00:55.3] orange shopping cart, they are still left in stock.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_16_7522186829106269471_transcription_20260531_213207.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_16_7522186829106269471_transcription_20260531_213207.txt
+
+============================================================
+RANK: 17 | GMV: $13982.23 | VIDEO ID: 7562278367639145783
+URL: https://www.tiktok.com/@drew.review1/video/7562278367639145783
+WORD COUNT: 1257
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_17_7562278367639145783.mp3, file size: 3.39 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 103.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.8]  If your chin looks like this and your pooch looks like this,
+[00:02.8 - 00:04.9]  you are not fat, you just have high cortisol.
+[00:04.9 - 00:08.2]  Chronic fatigue, brain fog, poor sleep, sugar cravings,
+[00:08.2 - 00:10.2]  all of these are signs of high cortisol.
+[00:10.2 - 00:11.4]  I'm a pancreatic cancer researcher
+[00:11.4 - 00:12.5]  and a naturopath practitioner,
+[00:12.5 - 00:14.4]  so let me explain the science behind what's happening
+[00:14.4 - 00:15.6]  and how you can help yourself.
+[00:15.6 - 00:19.0]  Cortisol levels depend on a pathway called the HPA axis.
+[00:19.0 - 00:21.4]  This is a network of organs that coordinate together
+[00:21.4 - 00:23.1]  and tell your body if it should be stressed
+[00:23.1 - 00:23.9]  or it can chill out.
+[00:23.9 - 00:25.9]  And that pathway is controlled by magnesium,
+[00:25.9 - 00:27.6]  which is an extremely important mineral
+[00:27.6 - 00:29.5]  that plays a lot of vital roles in your body.
+[00:29.5 - 00:32.0]  Proper magnesium levels will regulate your cortisol levels
+[00:32.0 - 00:34.8]  on a natural scale, so you will be more resilient to stress,
+[00:34.8 - 00:36.2]  you're not going to be anxious all the time,
+[00:36.2 - 00:37.4]  and you will sleep comfortably.
+[00:37.4 - 00:39.7]  But if your magnesium levels are too low,
+[00:39.7 - 00:42.3]  then your HPA axis will go out of balance
+[00:42.3 - 00:43.8]  and you will have too much cortisol.
+[00:43.8 - 00:44.6]  And it gets even worse,
+[00:44.6 - 00:46.3]  because when you have high stress levels
+[00:46.3 - 00:47.3]  and too much cortisol,
+[00:47.3 - 00:49.8]  it actually depletes your natural magnesium levels
+[00:49.8 - 00:50.6]  even further.
+[00:50.6 - 00:52.3]  The little magnesium you have left in your muscles
+[00:52.3 - 00:54.8]  to create more energy actually gets rerouted
+[00:54.8 - 00:56.4]  and excreted into your urine.
+[00:56.4 - 00:58.7]  And that's why you have terrible energy levels,
+[00:58.7 - 01:01.0]  you have brain fog, you're not thinking clearly,
+[01:01.0 - 01:03.3]  and you're always craving things, especially sweets,
+[01:03.3 - 01:05.9]  because your body is looking for extra energy bursts.
+[01:05.9 - 01:08.4]  And the main culprit here is modern farming practices,
+[01:08.4 - 01:10.7]  which are stripping magnesium from our food supply
+[01:10.7 - 01:11.9]  and from our water even.
+[01:11.9 - 01:14.8]  In fact, we had 90% more magnesium in our food supply
+[01:14.8 - 01:16.5]  a hundred years ago compared to right now.
+[01:16.5 - 01:17.4]  That is insane.
+[01:17.4 - 01:20.0]  So it is very important to get your magnesium levels checked.
+[01:20.0 - 01:21.4]  And if you want a recommendation,
+[01:21.4 - 01:22.8]  this is the magnesium that I take.
+[01:22.8 - 01:25.0]  This is made in America, third-party tested here,
+[01:25.0 - 01:27.7]  extremely affordable, and it has a 45-day supply.
+[01:27.7 - 01:29.7]  And it has eight different forms of magnesium in it,
+[01:29.7 - 01:31.4]  so you're getting a great holistic range here.
+[01:31.4 - 01:33.2]  You can take one or two capsules per day
+[01:33.2 - 01:35.2]  in the evening after food, and you're ready to go.
+[01:35.2 - 01:36.3]  You're gonna sleep like a baby with this.
+[01:36.3 - 01:38.0]  So if you want to check this out,
+[01:38.0 - 01:39.8]  I'm gonna leave the link right down here to their store
+[01:39.8 - 01:41.6]  so you could see all the thousands of reviews on it.
+[01:41.6 - 01:44.2]  And if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_17_7562278367639145783_transcription_20260531_213218.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_17_7562278367639145783_transcription_20260531_213218.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_17_7562278367639145783.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_17_7562278367639145783.mp3, file size: 3.39 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.8] If your chin looks like this and your pooch looks like this,
+[00:02.8 - 00:04.9] you are not fat, you just have high cortisol.
+[00:04.9 - 00:08.2] Chronic fatigue, brain fog, poor sleep, sugar cravings,
+[00:08.2 - 00:10.2] all of these are signs of high cortisol.
+[00:10.2 - 00:11.4] I'm a pancreatic cancer researcher
+[00:11.4 - 00:12.5] and a naturopath practitioner,
+[00:12.5 - 00:14.4] so let me explain the science behind what's happening
+[00:14.4 - 00:15.6] and how you can help yourself.
+[00:15.6 - 00:19.0] Cortisol levels depend on a pathway called the HPA axis.
+[00:19.0 - 00:21.4] This is a network of organs that coordinate together
+[00:21.4 - 00:23.1] and tell your body if it should be stressed
+[00:23.1 - 00:23.9] or it can chill out.
+[00:23.9 - 00:25.9] And that pathway is controlled by magnesium,
+[00:25.9 - 00:27.6] which is an extremely important mineral
+[00:27.6 - 00:29.5] that plays a lot of vital roles in your body.
+[00:29.5 - 00:32.0] Proper magnesium levels will regulate your cortisol levels
+[00:32.0 - 00:34.8] on a natural scale, so you will be more resilient to stress,
+[00:34.8 - 00:36.2] you're not going to be anxious all the time,
+[00:36.2 - 00:37.4] and you will sleep comfortably.
+[00:37.4 - 00:39.7] But if your magnesium levels are too low,
+[00:39.7 - 00:42.3] then your HPA axis will go out of balance
+[00:42.3 - 00:43.8] and you will have too much cortisol.
+[00:43.8 - 00:44.6] And it gets even worse,
+[00:44.6 - 00:46.3] because when you have high stress levels
+[00:46.3 - 00:47.3] and too much cortisol,
+[00:47.3 - 00:49.8] it actually depletes your natural magnesium levels
+[00:49.8 - 00:50.6] even further.
+[00:50.6 - 00:52.3] The little magnesium you have left in your muscles
+[00:52.3 - 00:54.8] to create more energy actually gets rerouted
+[00:54.8 - 00:56.4] and excreted into your urine.
+[00:56.4 - 00:58.7] And that's why you have terrible energy levels,
+[00:58.7 - 01:01.0] you have brain fog, you're not thinking clearly,
+[01:01.0 - 01:03.3] and you're always craving things, especially sweets,
+[01:03.3 - 01:05.9] because your body is looking for extra energy bursts.
+[01:05.9 - 01:08.4] And the main culprit here is modern farming practices,
+[01:08.4 - 01:10.7] which are stripping magnesium from our food supply
+[01:10.7 - 01:11.9] and from our water even.
+[01:11.9 - 01:14.8] In fact, we had 90% more magnesium in our food supply
+[01:14.8 - 01:16.5] a hundred years ago compared to right now.
+[01:16.5 - 01:17.4] That is insane.
+[01:17.4 - 01:20.0] So it is very important to get your magnesium levels checked.
+[01:20.0 - 01:21.4] And if you want a recommendation,
+[01:21.4 - 01:22.8] this is the magnesium that I take.
+[01:22.8 - 01:25.0] This is made in America, third-party tested here,
+[01:25.0 - 01:27.7] extremely affordable, and it has a 45-day supply.
+[01:27.7 - 01:29.7] And it has eight different forms of magnesium in it,
+[01:29.7 - 01:31.4] so you're getting a great holistic range here.
+[01:31.4 - 01:33.2] You can take one or two capsules per day
+[01:33.2 - 01:35.2] in the evening after food, and you're ready to go.
+[01:35.2 - 01:36.3] You're gonna sleep like a baby with this.
+[01:36.3 - 01:38.0] So if you want to check this out,
+[01:38.0 - 01:39.8] I'm gonna leave the link right down here to their store
+[01:39.8 - 01:41.6] so you could see all the thousands of reviews on it.
+[01:41.6 - 01:44.2] And if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_17_7562278367639145783_transcription_20260531_213218.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_17_7562278367639145783_transcription_20260531_213218.txt
+
+============================================================
+RANK: 18 | GMV: $13230.93 | VIDEO ID: 7565691181582077197
+URL: https://www.tiktok.com/@drew.review1/video/7565691181582077197
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 19 | GMV: $11860.47 | VIDEO ID: 7611746545368567053
+URL: https://www.tiktok.com/@drew.review1/video/7611746545368567053
+WORD COUNT: 853
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_19_7611746545368567053.mp3, file size: 2.56 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 81.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.4]  is how to take berberine correctly from a pancreatic cancer researcher and a naturopath practitioner.
+[00:04.4 - 00:08.7]  Berberine is a plant compound often called nature's metformin because it's really amazing
+[00:08.7 - 00:13.3]  for regulating blood sugar levels. It improves insulin sensitivity and encourages your cells
+[00:13.3 - 00:17.7]  to take in sugar from the blood so that you have more natural energy. It can even help cholesterol,
+[00:17.7 - 00:22.5]  triglyceride levels, and a fatty liver as well. Now berberine should be taken 15 to 30 minutes
+[00:22.5 - 00:27.6]  before a meal or while you are eating. And because berberine leaves your body in four to six hours,
+[00:27.6 - 00:32.1]  you can split apart dosages. Usually supplements require you to take multiple throughout the day
+[00:32.1 - 00:36.0]  so just take them right before a meal. And again, don't take them all at once. You could take one
+[00:36.0 - 00:40.0]  or two softshell capsules right before you eat something. And if you work overnight shifts,
+[00:40.0 - 00:44.2]  time it with every single meal, not according to your biological clock. If you are currently
+[00:44.2 - 00:48.0]  on medication, please ask your doctor or pharmacist first before taking berberine.
+[00:48.0 - 00:52.2]  And sometimes berberine is paired with cinnamon or chromium to have additional benefits,
+[00:52.2 - 00:55.7]  but you don't have to take all those other ingredients to have amazing effects from
+[00:55.7 - 00:59.4]  berberine by itself. And if you would like a recommendation for a pure berberine supplement,
+[00:59.4 - 01:03.8]  the one for microingredients is phenomenal. It's pure berberine mixed in MCT oil which enhances
+[01:03.8 - 01:07.7]  the absorption of the berberine. They come as small softshell capsules so they are much easier
+[01:07.7 - 01:11.5]  for people to take compared to regular capsules. Each pack is a two-month supply. They are made
+[01:11.5 - 01:15.0]  in America, they are third-party tested here, and they have a ton of great reviews plus fast
+[01:15.0 - 01:18.2]  free shipping. So if you want to check this out, I will leave a link right down here where I get
+[01:18.2 - 01:21.5]  it from so you can see those reviews. And if you have any other questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_19_7611746545368567053_transcription_20260531_213231.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_19_7611746545368567053_transcription_20260531_213231.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_19_7611746545368567053.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_19_7611746545368567053.mp3, file size: 2.56 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.4] is how to take berberine correctly from a pancreatic cancer researcher and a naturopath practitioner.
+[00:04.4 - 00:08.7] Berberine is a plant compound often called nature's metformin because it's really amazing
+[00:08.7 - 00:13.3] for regulating blood sugar levels. It improves insulin sensitivity and encourages your cells
+[00:13.3 - 00:17.7] to take in sugar from the blood so that you have more natural energy. It can even help cholesterol,
+[00:17.7 - 00:22.5] triglyceride levels, and a fatty liver as well. Now berberine should be taken 15 to 30 minutes
+[00:22.5 - 00:27.6] before a meal or while you are eating. And because berberine leaves your body in four to six hours,
+[00:27.6 - 00:32.1] you can split apart dosages. Usually supplements require you to take multiple throughout the day
+[00:32.1 - 00:36.0] so just take them right before a meal. And again, don't take them all at once. You could take one
+[00:36.0 - 00:40.0] or two softshell capsules right before you eat something. And if you work overnight shifts,
+[00:40.0 - 00:44.2] time it with every single meal, not according to your biological clock. If you are currently
+[00:44.2 - 00:48.0] on medication, please ask your doctor or pharmacist first before taking berberine.
+[00:48.0 - 00:52.2] And sometimes berberine is paired with cinnamon or chromium to have additional benefits,
+[00:52.2 - 00:55.7] but you don't have to take all those other ingredients to have amazing effects from
+[00:55.7 - 00:59.4] berberine by itself. And if you would like a recommendation for a pure berberine supplement,
+[00:59.4 - 01:03.8] the one for microingredients is phenomenal. It's pure berberine mixed in MCT oil which enhances
+[01:03.8 - 01:07.7] the absorption of the berberine. They come as small softshell capsules so they are much easier
+[01:07.7 - 01:11.5] for people to take compared to regular capsules. Each pack is a two-month supply. They are made
+[01:11.5 - 01:15.0] in America, they are third-party tested here, and they have a ton of great reviews plus fast
+[01:15.0 - 01:18.2] free shipping. So if you want to check this out, I will leave a link right down here where I get
+[01:18.2 - 01:21.5] it from so you can see those reviews. And if you have any other questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_19_7611746545368567053_transcription_20260531_213231.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_19_7611746545368567053_transcription_20260531_213231.txt
+
+============================================================
+RANK: 20 | GMV: $11134.04 | VIDEO ID: 7612412617650392334
+URL: https://www.tiktok.com/@drew.review1/video/7612412617650392334
+WORD COUNT: 1033
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_20_7612412617650392334.mp3, file size: 3.24 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 104.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.4]  Europeans treat nerve damage completely different than America, and as a pancreatic cancer researcher,
+[00:04.4 - 00:08.4]  let me tell you all about alpha lipoic acid and why it has been prescribed for decades
+[00:08.4 - 00:09.4]  in Europe.
+[00:09.4 - 00:13.8]  If you have diabetic neuropathy, such as burning, tingling, or numbness in your extremities,
+[00:13.8 - 00:15.6]  most doctors prescribe gabapentin here.
+[00:15.6 - 00:19.9]  But these medications only block pain signaling, they don't actually help repair the nerves.
+[00:19.9 - 00:24.7]  Now in countries like Germany, doctors commonly prescribe alpha lipoic acid, or ALA.
+[00:24.7 - 00:29.2]  It is given at 600mg daily, and it works completely differently than what we use here.
+[00:29.3 - 00:32.9]  So let me get a little bit sciency about it and explain exactly what happens.
+[00:32.9 - 00:37.0]  In diabetic neuropathy, high blood sugar levels will start to damage the mitochondria of your
+[00:37.0 - 00:38.0]  nerves.
+[00:38.0 - 00:41.9]  This is the part of the cell that produces energy, and you can imagine that without energy,
+[00:41.9 - 00:44.0]  your nerves will not function properly.
+[00:44.0 - 00:47.2]  Alpha-lipoic acid will go directly to the mitochondria and repair them so that your
+[00:47.2 - 00:48.8]  body can produce energy again.
+[00:48.8 - 00:53.1]  It also reduces oxidative stress and clears out toxins that build up in your nerves, while
+[00:53.1 - 00:57.3]  improving blood flow to your nerves as well, which also delivers valuable nutrients that
+[00:57.3 - 00:58.3]  encourage recovery.
+[00:58.4 - 01:02.2]  In fact, clinical trials show that people have less burning sensation, less numbness
+[01:02.2 - 01:06.3]  or tingling, and improved quality of life and better communication between nerves.
+[01:06.3 - 01:09.5]  That is why alpha-lipoic acid has been used in Europe for decades.
+[01:09.5 - 01:13.5]  It doesn't just mask symptoms like what we use here, it actually targets the underlying
+[01:13.5 - 01:14.8]  issues of nerve damage.
+[01:14.8 - 01:19.1]  So if this is something you would like to try out, I highly recommend the ALA for microingredients
+[01:19.1 - 01:23.0]  in particular, because it uses a bioavailable form of ALA.
+[01:23.0 - 01:26.5]  Our ALA is what your body can actually use and synthesize.
+[01:26.5 - 01:30.5]  This is mixed into coconut oil to enhance absorption of the ALA, plus this is the clinically
+[01:30.5 - 01:33.3]  significant amount at 600mg per soft gel capsule.
+[01:33.3 - 01:36.9]  It's made in America, it's third-party tested here, they have great reviews behind it, and
+[01:36.9 - 01:38.4]  each bag is a two-month supply.
+[01:38.4 - 01:41.5]  So if you want to check this out, I will leave a link right here so you can see all of the
+[01:41.5 - 01:44.4]  reviews for yourself, and if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_20_7612412617650392334_transcription_20260531_213242.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_20_7612412617650392334_transcription_20260531_213242.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_20_7612412617650392334.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_20_7612412617650392334.mp3, file size: 3.24 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.4] Europeans treat nerve damage completely different than America, and as a pancreatic cancer researcher,
+[00:04.4 - 00:08.4] let me tell you all about alpha lipoic acid and why it has been prescribed for decades
+[00:08.4 - 00:09.4] in Europe.
+[00:09.4 - 00:13.8] If you have diabetic neuropathy, such as burning, tingling, or numbness in your extremities,
+[00:13.8 - 00:15.6] most doctors prescribe gabapentin here.
+[00:15.6 - 00:19.9] But these medications only block pain signaling, they don't actually help repair the nerves.
+[00:19.9 - 00:24.7] Now in countries like Germany, doctors commonly prescribe alpha lipoic acid, or ALA.
+[00:24.7 - 00:29.2] It is given at 600mg daily, and it works completely differently than what we use here.
+[00:29.3 - 00:32.9] So let me get a little bit sciency about it and explain exactly what happens.
+[00:32.9 - 00:37.0] In diabetic neuropathy, high blood sugar levels will start to damage the mitochondria of your
+[00:37.0 - 00:38.0] nerves.
+[00:38.0 - 00:41.9] This is the part of the cell that produces energy, and you can imagine that without energy,
+[00:41.9 - 00:44.0] your nerves will not function properly.
+[00:44.0 - 00:47.2] Alpha-lipoic acid will go directly to the mitochondria and repair them so that your
+[00:47.2 - 00:48.8] body can produce energy again.
+[00:48.8 - 00:53.1] It also reduces oxidative stress and clears out toxins that build up in your nerves, while
+[00:53.1 - 00:57.3] improving blood flow to your nerves as well, which also delivers valuable nutrients that
+[00:57.3 - 00:58.3] encourage recovery.
+[00:58.4 - 01:02.2] In fact, clinical trials show that people have less burning sensation, less numbness
+[01:02.2 - 01:06.3] or tingling, and improved quality of life and better communication between nerves.
+[01:06.3 - 01:09.5] That is why alpha-lipoic acid has been used in Europe for decades.
+[01:09.5 - 01:13.5] It doesn't just mask symptoms like what we use here, it actually targets the underlying
+[01:13.5 - 01:14.8] issues of nerve damage.
+[01:14.8 - 01:19.1] So if this is something you would like to try out, I highly recommend the ALA for microingredients
+[01:19.1 - 01:23.0] in particular, because it uses a bioavailable form of ALA.
+[01:23.0 - 01:26.5] Our ALA is what your body can actually use and synthesize.
+[01:26.5 - 01:30.5] This is mixed into coconut oil to enhance absorption of the ALA, plus this is the clinically
+[01:30.5 - 01:33.3] significant amount at 600mg per soft gel capsule.
+[01:33.3 - 01:36.9] It's made in America, it's third-party tested here, they have great reviews behind it, and
+[01:36.9 - 01:38.4] each bag is a two-month supply.
+[01:38.4 - 01:41.5] So if you want to check this out, I will leave a link right here so you can see all of the
+[01:41.5 - 01:44.4] reviews for yourself, and if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_20_7612412617650392334_transcription_20260531_213242.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_20_7612412617650392334_transcription_20260531_213242.txt
+
+============================================================
+RANK: 21 | GMV: $11009.03 | VIDEO ID: 7532168294883724575
+URL: https://www.tiktok.com/@drew.review1/video/7532168294883724575
+WORD COUNT: 959
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_21_7532168294883724575.mp3, file size: 2.65 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 82.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.5]  is better? Collagen capsules or powder? I'm a pancreatic cancer researcher, so let me explain
+[00:04.5 - 00:08.4]  in detail which one might be suited for you. Collagen is the most abundant protein found in
+[00:08.4 - 00:11.8]  our bodies, and it's like the glue that holds everything together. It's really important for
+[00:11.8 - 00:16.5]  your hair, skin, nails, joints, and your gut lining. As we age, our ability to produce more collagen is
+[00:16.5 - 00:19.9]  starting to slow down. Usually in your 20s and 30s, you're starting to feel that significant
+[00:19.9 - 00:24.0]  drop-off. And you could take either capsules or powder, so let me go over some pros and cons of
+[00:24.0 - 00:27.9]  them. These capsules are a three-month supply, they're really easy to take on the go, and you
+[00:27.9 - 00:31.0]  don't have to deal with any powders. They have to mix everywhere, you know, it gets everywhere,
+[00:31.0 - 00:35.5]  it's very annoying sometimes, so this is a really easy option. The powder is a lot more dynamic to
+[00:35.5 - 00:38.6]  work with because you can play around with the dosage a lot, right? You could do a little bit
+[00:38.6 - 00:43.0]  of powder, a lot of powder, and importantly, the concentration of the collagen in the powder form
+[00:43.0 - 00:47.8]  is a lot higher than in capsules. They even say that two scoops of this powder is enough to equal
+[00:47.8 - 00:52.9]  16 capsules. This particular one is also tasteless, so you can mix it into your coffee, smoothies,
+[00:52.9 - 00:56.8]  anything that you want. So in my opinion, I do think that the powder ultimately wins. You get a
+[00:56.8 - 01:00.2]  lot more bang for your buck over here because you can play around with the dosage. And what I love
+[01:00.2 - 01:05.0]  about both of them is they both have all types of collagen, they also have biotin, hyaluronic acid,
+[01:05.0 - 01:09.8]  and vitamin C. I will also add that there are more fillers in the capsule form, whereas the powder is
+[01:09.8 - 01:13.0]  completely pure with only the ingredients that they say is in here. And there's a reason why
+[01:13.0 - 01:16.8]  they sold literally a million of these already on TikTok shops, so if you want to check this out,
+[01:16.8 - 01:20.1]  I'm going to drop the link right down here to their official store so you get the real product.
+[01:20.1 - 01:21.9]  If you have any other questions, let me know in the comment section.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_21_7532168294883724575_transcription_20260531_213252.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_21_7532168294883724575_transcription_20260531_213252.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_21_7532168294883724575.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_21_7532168294883724575.mp3, file size: 2.65 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.5] is better? Collagen capsules or powder? I'm a pancreatic cancer researcher, so let me explain
+[00:04.5 - 00:08.4] in detail which one might be suited for you. Collagen is the most abundant protein found in
+[00:08.4 - 00:11.8] our bodies, and it's like the glue that holds everything together. It's really important for
+[00:11.8 - 00:16.5] your hair, skin, nails, joints, and your gut lining. As we age, our ability to produce more collagen is
+[00:16.5 - 00:19.9] starting to slow down. Usually in your 20s and 30s, you're starting to feel that significant
+[00:19.9 - 00:24.0] drop-off. And you could take either capsules or powder, so let me go over some pros and cons of
+[00:24.0 - 00:27.9] them. These capsules are a three-month supply, they're really easy to take on the go, and you
+[00:27.9 - 00:31.0] don't have to deal with any powders. They have to mix everywhere, you know, it gets everywhere,
+[00:31.0 - 00:35.5] it's very annoying sometimes, so this is a really easy option. The powder is a lot more dynamic to
+[00:35.5 - 00:38.6] work with because you can play around with the dosage a lot, right? You could do a little bit
+[00:38.6 - 00:43.0] of powder, a lot of powder, and importantly, the concentration of the collagen in the powder form
+[00:43.0 - 00:47.8] is a lot higher than in capsules. They even say that two scoops of this powder is enough to equal
+[00:47.8 - 00:52.9] 16 capsules. This particular one is also tasteless, so you can mix it into your coffee, smoothies,
+[00:52.9 - 00:56.8] anything that you want. So in my opinion, I do think that the powder ultimately wins. You get a
+[00:56.8 - 01:00.2] lot more bang for your buck over here because you can play around with the dosage. And what I love
+[01:00.2 - 01:05.0] about both of them is they both have all types of collagen, they also have biotin, hyaluronic acid,
+[01:05.0 - 01:09.8] and vitamin C. I will also add that there are more fillers in the capsule form, whereas the powder is
+[01:09.8 - 01:13.0] completely pure with only the ingredients that they say is in here. And there's a reason why
+[01:13.0 - 01:16.8] they sold literally a million of these already on TikTok shops, so if you want to check this out,
+[01:16.8 - 01:20.1] I'm going to drop the link right down here to their official store so you get the real product.
+[01:20.1 - 01:21.9] If you have any other questions, let me know in the comment section.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_21_7532168294883724575_transcription_20260531_213252.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_21_7532168294883724575_transcription_20260531_213252.txt
+
+============================================================
+RANK: 22 | GMV: $10648.19 | VIDEO ID: 7562339960540400951
+URL: https://www.tiktok.com/@drew.review1/video/7562339960540400951
+WORD COUNT: 837
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_22_7562339960540400951.mp3, file size: 2.26 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 77.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.5]  different magnesium types do and which one is suitable for you. I'm a pancreatic cancer
+[00:03.5 - 00:06.8]  researcher and a naturopath practitioner, so let's get into it. If your belly is sticking
+[00:06.8 - 00:10.6]  out so much that people are asking when the baby is due, you need magnesium carbonate.
+[00:10.6 - 00:14.8]  If you're always waking up at night to go pee, take magnesium glycinate. If your skin breaks
+[00:14.8 - 00:19.4]  out so much you're avoiding mirrors, take magnesium malate. If your eyelids twitch like crazy during
+[00:19.4 - 00:23.6]  the day, take magnesium taurate. If your head pounds so much you can't even think straight,
+[00:23.6 - 00:27.8]  take magnesium citrate. If your heart skips beats or it's racing for no reason,
+[00:27.8 - 00:33.0]  take magnesium orotate. If you can't poop for days and you feel heavy, take magnesium oxide.
+[00:33.0 - 00:37.2]  And if your muscles cramp every single time you move, take magnesium aspartate. Now here's the
+[00:37.2 - 00:41.4]  problem. If you buy all of them separately, it's expensive, it's confusing, and a nightmare to
+[00:41.4 - 00:45.3]  keep up with. That's why I always recommend one simple solution, which is a magnesium complex
+[00:45.3 - 00:48.6]  supplement. This is the one that I use, which combines all the eight different forms of
+[00:48.6 - 00:53.4]  magnesium that I just mentioned in one capsule. Just one capsule per day, no mixing, no measuring,
+[00:53.4 - 00:57.7]  it's made in America and third-party tested here, and it's a 45-day supply. Within three weeks,
+[00:57.7 - 01:01.4]  you will sleep deeper, you'll feel calmer, and you'll have more energy than you have felt in
+[01:01.4 - 01:05.4]  years. They're having a really big flash sale on TikTok shop right now, and every time I share this,
+[01:05.4 - 01:09.5]  it always sells out, so I will leave a link right down here to their official store. If you still
+[01:09.5 - 01:13.6]  see the orange shopping cart, they are still left in stock. If not, don't say I didn't warn you.
+[01:13.6 - 01:17.2]  Try this out for three weeks, and if it does not work for you, come back and curse me out.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_22_7562339960540400951_transcription_20260531_213318.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_22_7562339960540400951_transcription_20260531_213318.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_22_7562339960540400951.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_22_7562339960540400951.mp3, file size: 2.26 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.5] different magnesium types do and which one is suitable for you. I'm a pancreatic cancer
+[00:03.5 - 00:06.8] researcher and a naturopath practitioner, so let's get into it. If your belly is sticking
+[00:06.8 - 00:10.6] out so much that people are asking when the baby is due, you need magnesium carbonate.
+[00:10.6 - 00:14.8] If you're always waking up at night to go pee, take magnesium glycinate. If your skin breaks
+[00:14.8 - 00:19.4] out so much you're avoiding mirrors, take magnesium malate. If your eyelids twitch like crazy during
+[00:19.4 - 00:23.6] the day, take magnesium taurate. If your head pounds so much you can't even think straight,
+[00:23.6 - 00:27.8] take magnesium citrate. If your heart skips beats or it's racing for no reason,
+[00:27.8 - 00:33.0] take magnesium orotate. If you can't poop for days and you feel heavy, take magnesium oxide.
+[00:33.0 - 00:37.2] And if your muscles cramp every single time you move, take magnesium aspartate. Now here's the
+[00:37.2 - 00:41.4] problem. If you buy all of them separately, it's expensive, it's confusing, and a nightmare to
+[00:41.4 - 00:45.3] keep up with. That's why I always recommend one simple solution, which is a magnesium complex
+[00:45.3 - 00:48.6] supplement. This is the one that I use, which combines all the eight different forms of
+[00:48.6 - 00:53.4] magnesium that I just mentioned in one capsule. Just one capsule per day, no mixing, no measuring,
+[00:53.4 - 00:57.7] it's made in America and third-party tested here, and it's a 45-day supply. Within three weeks,
+[00:57.7 - 01:01.4] you will sleep deeper, you'll feel calmer, and you'll have more energy than you have felt in
+[01:01.4 - 01:05.4] years. They're having a really big flash sale on TikTok shop right now, and every time I share this,
+[01:05.4 - 01:09.5] it always sells out, so I will leave a link right down here to their official store. If you still
+[01:09.5 - 01:13.6] see the orange shopping cart, they are still left in stock. If not, don't say I didn't warn you.
+[01:13.6 - 01:17.2] Try this out for three weeks, and if it does not work for you, come back and curse me out.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_22_7562339960540400951_transcription_20260531_213318.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_22_7562339960540400951_transcription_20260531_213318.txt
+
+============================================================
+RANK: 23 | GMV: $9693.53 | VIDEO ID: 7569044486400019767
+URL: https://www.tiktok.com/@drew.review1/video/7569044486400019767
+WORD COUNT: 915
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_23_7569044486400019767.mp3, file size: 1.94 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 66.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.4]  This once came out of me when I took oil of oregano, and I am haunted by it to this day.
+[00:03.4 - 00:05.4]  Mind you, I wasn't even taking oil of oregano for this purpose.
+[00:05.4 - 00:08.5]  I was taking it because I felt like I came down with something, and oil of oregano is
+[00:08.5 - 00:10.2]  nature's strongest antimicrobial agent.
+[00:10.2 - 00:13.2]  It has a lot of research backing it up, it's been used for thousands of years, so if you
+[00:13.2 - 00:16.0]  have the cold or the flu, you're not feeling well, it's usually a great thing for you to
+[00:16.0 - 00:18.0]  take if you want to calm symptoms down.
+[00:18.0 - 00:20.9]  And then one day, this horrible nightmare came at me, so I went on PubMed to see what
+[00:20.9 - 00:24.4]  the heck was happening, and it turns out oil of oregano is an antiparasitic as well.
+[00:24.4 - 00:27.8]  It not only destroys cell membranes, but it also finds the hiding spots that these little
+[00:27.8 - 00:28.8]  suckers are hiding in.
+[00:28.8 - 00:31.6]  That's also why you should pair it with black seed oil, because while the oil of oregano
+[00:31.6 - 00:35.2]  is finding the microbes, the black seed oil is enhancing your immune system response,
+[00:35.2 - 00:36.8]  so they work very well together.
+[00:36.8 - 00:40.4]  And if the carbicrol concentration of your oil of oregano is way too low, then it's really
+[00:40.4 - 00:41.4]  not going to work for you.
+[00:41.4 - 00:44.2]  The one that I was using at the time is the one from microingredients, because it has
+[00:44.2 - 00:48.8]  that oil of oregano, and it has black seed oil, it has a very high concentration of carbicrol,
+[00:48.8 - 00:52.0]  and these are all organic, they're made in America, Anthroprey tested here, and these
+[00:52.0 - 00:55.3]  are small soft gel capsules, they go down very easily, especially if you're not feeling
+[00:55.3 - 00:57.7]  well and you have a sore throat, it is very easy to take these.
+[00:57.7 - 01:00.4]  So if you want to check these out, I'm going to leave the link right down here to their
+[01:00.4 - 01:04.0]  official store, they have literally like thousands and thousands of reviews and sales on this,
+[01:04.0 - 01:06.6]  so it literally works, it's worked for me, you guys are going to love it.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_23_7569044486400019767_transcription_20260531_213328.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_23_7569044486400019767_transcription_20260531_213328.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_23_7569044486400019767.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_23_7569044486400019767.mp3, file size: 1.94 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.4] This once came out of me when I took oil of oregano, and I am haunted by it to this day.
+[00:03.4 - 00:05.4] Mind you, I wasn't even taking oil of oregano for this purpose.
+[00:05.4 - 00:08.5] I was taking it because I felt like I came down with something, and oil of oregano is
+[00:08.5 - 00:10.2] nature's strongest antimicrobial agent.
+[00:10.2 - 00:13.2] It has a lot of research backing it up, it's been used for thousands of years, so if you
+[00:13.2 - 00:16.0] have the cold or the flu, you're not feeling well, it's usually a great thing for you to
+[00:16.0 - 00:18.0] take if you want to calm symptoms down.
+[00:18.0 - 00:20.9] And then one day, this horrible nightmare came at me, so I went on PubMed to see what
+[00:20.9 - 00:24.4] the heck was happening, and it turns out oil of oregano is an antiparasitic as well.
+[00:24.4 - 00:27.8] It not only destroys cell membranes, but it also finds the hiding spots that these little
+[00:27.8 - 00:28.8] suckers are hiding in.
+[00:28.8 - 00:31.6] That's also why you should pair it with black seed oil, because while the oil of oregano
+[00:31.6 - 00:35.2] is finding the microbes, the black seed oil is enhancing your immune system response,
+[00:35.2 - 00:36.8] so they work very well together.
+[00:36.8 - 00:40.4] And if the carbicrol concentration of your oil of oregano is way too low, then it's really
+[00:40.4 - 00:41.4] not going to work for you.
+[00:41.4 - 00:44.2] The one that I was using at the time is the one from microingredients, because it has
+[00:44.2 - 00:48.8] that oil of oregano, and it has black seed oil, it has a very high concentration of carbicrol,
+[00:48.8 - 00:52.0] and these are all organic, they're made in America, Anthroprey tested here, and these
+[00:52.0 - 00:55.3] are small soft gel capsules, they go down very easily, especially if you're not feeling
+[00:55.3 - 00:57.7] well and you have a sore throat, it is very easy to take these.
+[00:57.7 - 01:00.4] So if you want to check these out, I'm going to leave the link right down here to their
+[01:00.4 - 01:04.0] official store, they have literally like thousands and thousands of reviews and sales on this,
+[01:04.0 - 01:06.6] so it literally works, it's worked for me, you guys are going to love it.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_23_7569044486400019767_transcription_20260531_213328.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_23_7569044486400019767_transcription_20260531_213328.txt
+
+============================================================
+RANK: 24 | GMV: $9692.34 | VIDEO ID: 7583589624316955918
+URL: https://www.tiktok.com/@drew.review1/video/7583589624316955918
+STATUS: FAILED — Download failed: ERROR: [TikTok] 7583589624316955918: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+============================================================
+
+============================================================
+RANK: 25 | GMV: $9426.74 | VIDEO ID: 7606261979178618125
+URL: https://www.tiktok.com/@drew.review1/video/7606261979178618125
+WORD COUNT: 783
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_25_7606261979178618125.mp3, file size: 2.36 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 75.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.4]  does ashwagandha benefit men? I'm a pancreatic cancer researcher and a naturopath practitioner
+[00:04.4 - 00:07.8]  so let me go over those benefits and show you scientific studies to back up my claims.
+[00:07.8 - 00:12.9]  Ashwagandha is actually one of the most studied adaptogens for male health and adaptogen means
+[00:12.9 - 00:17.0]  that it makes you more resilient to stress in the future the more that you take it. Chronic stress
+[00:17.0 - 00:21.7]  will suppress testosterone and also elevate inflammation and because ashwagandha is an
+[00:21.7 - 00:25.9]  adaptogen and targets high cortisol levels, lowering your stress response will help with
+[00:25.9 - 00:30.4]  testosterone levels. It also helps support reproductive hormone balance and research
+[00:30.4 - 00:34.7]  shows that ashwagandha has great effects on fertility for men as well. It has antioxidant
+[00:34.7 - 00:39.2]  and anti-inflammatory properties plus it helps you recover a lot faster after you work out so
+[00:39.2 - 00:43.9]  it helps with muscle recovery and lastly ashwagandha is phenomenal for helping you sleep a lot deeper
+[00:43.9 - 00:48.4]  better and keep you calmer. Just be aware that ashwagandha can sometimes interact with medications
+[00:48.4 - 00:52.1]  so if you're currently on something just consult with your doctor or pharmacist before taking
+[00:52.1 - 00:56.0]  ashwagandha and if you want a recommendation for a very clean ashwagandha, the one from Nutricost
+[00:56.0 - 01:01.0]  is fantastic. It's only ashwagandha, it is on the higher end of dosage for it, plus these are vegan
+[01:01.0 - 01:04.7]  capsules, they're made in America, third party tested here and it's a four month supply. You
+[01:04.7 - 01:08.3]  only need one capsule per day in the evening with food. They have great reviews on this,
+[01:08.3 - 01:11.7]  fast free shipping and they're super affordable so if you want to check this out, I will leave
+[01:11.7 - 01:14.4]  a link right down here where I get it from so you can see those reviews and if you have any
+[01:14.4 - 01:15.3]  questions please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_25_7606261979178618125_transcription_20260531_213341.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_25_7606261979178618125_transcription_20260531_213341.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_25_7606261979178618125.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_25_7606261979178618125.mp3, file size: 2.36 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.4] does ashwagandha benefit men? I'm a pancreatic cancer researcher and a naturopath practitioner
+[00:04.4 - 00:07.8] so let me go over those benefits and show you scientific studies to back up my claims.
+[00:07.8 - 00:12.9] Ashwagandha is actually one of the most studied adaptogens for male health and adaptogen means
+[00:12.9 - 00:17.0] that it makes you more resilient to stress in the future the more that you take it. Chronic stress
+[00:17.0 - 00:21.7] will suppress testosterone and also elevate inflammation and because ashwagandha is an
+[00:21.7 - 00:25.9] adaptogen and targets high cortisol levels, lowering your stress response will help with
+[00:25.9 - 00:30.4] testosterone levels. It also helps support reproductive hormone balance and research
+[00:30.4 - 00:34.7] shows that ashwagandha has great effects on fertility for men as well. It has antioxidant
+[00:34.7 - 00:39.2] and anti-inflammatory properties plus it helps you recover a lot faster after you work out so
+[00:39.2 - 00:43.9] it helps with muscle recovery and lastly ashwagandha is phenomenal for helping you sleep a lot deeper
+[00:43.9 - 00:48.4] better and keep you calmer. Just be aware that ashwagandha can sometimes interact with medications
+[00:48.4 - 00:52.1] so if you're currently on something just consult with your doctor or pharmacist before taking
+[00:52.1 - 00:56.0] ashwagandha and if you want a recommendation for a very clean ashwagandha, the one from Nutricost
+[00:56.0 - 01:01.0] is fantastic. It's only ashwagandha, it is on the higher end of dosage for it, plus these are vegan
+[01:01.0 - 01:04.7] capsules, they're made in America, third party tested here and it's a four month supply. You
+[01:04.7 - 01:08.3] only need one capsule per day in the evening with food. They have great reviews on this,
+[01:08.3 - 01:11.7] fast free shipping and they're super affordable so if you want to check this out, I will leave
+[01:11.7 - 01:14.4] a link right down here where I get it from so you can see those reviews and if you have any
+[01:14.4 - 01:15.3] questions please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_25_7606261979178618125_transcription_20260531_213341.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_25_7606261979178618125_transcription_20260531_213341.txt
+
+============================================================
+RANK: 26 | GMV: $8260.2 | VIDEO ID: 7578210644286016823
+URL: https://www.tiktok.com/@drew.review1/video/7578210644286016823
+WORD COUNT: 1039
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_26_7578210644286016823.mp3, file size: 3.00 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 96.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  There are top three things you should know before taking anti-aging NMN from a pancreatic
+[00:04.0 - 00:06.1]  cancer researcher and a naturopath practitioner.
+[00:06.1 - 00:07.8]  Number one, the timing matters a lot.
+[00:07.8 - 00:10.8]  You should take NMN in the morning and not midday or at night.
+[00:10.8 - 00:14.2]  That's because it activates sirtuins, which are your circadian rhythm proteins, and taking
+[00:14.2 - 00:18.2]  NMN at night rather than in the morning may mess with your sleep quality and schedule.
+[00:18.2 - 00:20.7]  Number two, you'll start to feel it most with recovery first.
+[00:20.7 - 00:24.7]  Not only will you feel a steady energy increase without caffeine jitters or midday crashes,
+[00:24.7 - 00:28.7]  you will start to experience faster recovery from stress, working out, or long days while
+[00:28.7 - 00:29.7]  working.
+[00:29.7 - 00:32.3]  Number three, NMN is critical for DNA repair mechanisms.
+[00:32.3 - 00:36.3]  So it basically revitalizes your cells and allows them to work more effectively and repair
+[00:36.3 - 00:37.3]  your body.
+[00:37.3 - 00:40.8]  And number three, NMN works amazingly if you pair it with antioxidants.
+[00:40.8 - 00:44.4]  That's because while the antioxidants will clear out gunk and toxic byproducts around
+[00:44.4 - 00:48.9]  your cells, the NMN will have a better chance at focusing on other repair pathways that
+[00:48.9 - 00:50.1]  need more attention.
+[00:50.1 - 00:54.3]  So together, they really help with calming down joint pain, inflammation, mobility issues,
+[00:54.3 - 00:58.1]  brain fog, chronic fatigue, skin care like fine lines and wrinkles or gray hair popping
+[00:58.1 - 00:59.3]  out of nowhere, et cetera.
+[00:59.3 - 01:03.8]  And if you want an NMN that has antioxidants already built in it, this one from microingredients
+[01:03.8 - 01:07.9]  has many different types of antioxidants for maximum anti-aging purposes.
+[01:07.9 - 01:11.5]  It has glutathione, which is your body's strongest natural antioxidant agent.
+[01:11.5 - 01:14.1]  It has astaxanthin, resveratrol, CoQ10.
+[01:14.1 - 01:18.3]  All of these are really great for cardiovascular support, digestive health, your immune system,
+[01:18.3 - 01:19.3]  et cetera.
+[01:19.3 - 01:21.9]  I also love it because it's made in America and third party tested here, so it's really
+[01:21.9 - 01:25.2]  high quality ingredients and there are no fillers or additives in here either, which
+[01:25.2 - 01:26.2]  is super rare.
+[01:26.2 - 01:28.3]  And they're also having a really great flash sale deal right now.
+[01:28.3 - 01:31.1]  So if you want to check this out, I will leave a link right down here where I get it from
+[01:31.1 - 01:32.4]  so you can see the reviews on this.
+[01:32.4 - 01:35.1]  I don't know when the sale is ending, so please make sure to run and grab them before they
+[01:35.1 - 01:36.0]  hike up the price again.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_26_7578210644286016823_transcription_20260531_213353.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_26_7578210644286016823_transcription_20260531_213353.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_26_7578210644286016823.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_26_7578210644286016823.mp3, file size: 3.00 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] There are top three things you should know before taking anti-aging NMN from a pancreatic
+[00:04.0 - 00:06.1] cancer researcher and a naturopath practitioner.
+[00:06.1 - 00:07.8] Number one, the timing matters a lot.
+[00:07.8 - 00:10.8] You should take NMN in the morning and not midday or at night.
+[00:10.8 - 00:14.2] That's because it activates sirtuins, which are your circadian rhythm proteins, and taking
+[00:14.2 - 00:18.2] NMN at night rather than in the morning may mess with your sleep quality and schedule.
+[00:18.2 - 00:20.7] Number two, you'll start to feel it most with recovery first.
+[00:20.7 - 00:24.7] Not only will you feel a steady energy increase without caffeine jitters or midday crashes,
+[00:24.7 - 00:28.7] you will start to experience faster recovery from stress, working out, or long days while
+[00:28.7 - 00:29.7] working.
+[00:29.7 - 00:32.3] Number three, NMN is critical for DNA repair mechanisms.
+[00:32.3 - 00:36.3] So it basically revitalizes your cells and allows them to work more effectively and repair
+[00:36.3 - 00:37.3] your body.
+[00:37.3 - 00:40.8] And number three, NMN works amazingly if you pair it with antioxidants.
+[00:40.8 - 00:44.4] That's because while the antioxidants will clear out gunk and toxic byproducts around
+[00:44.4 - 00:48.9] your cells, the NMN will have a better chance at focusing on other repair pathways that
+[00:48.9 - 00:50.1] need more attention.
+[00:50.1 - 00:54.3] So together, they really help with calming down joint pain, inflammation, mobility issues,
+[00:54.3 - 00:58.1] brain fog, chronic fatigue, skin care like fine lines and wrinkles or gray hair popping
+[00:58.1 - 00:59.3] out of nowhere, et cetera.
+[00:59.3 - 01:03.8] And if you want an NMN that has antioxidants already built in it, this one from microingredients
+[01:03.8 - 01:07.9] has many different types of antioxidants for maximum anti-aging purposes.
+[01:07.9 - 01:11.5] It has glutathione, which is your body's strongest natural antioxidant agent.
+[01:11.5 - 01:14.1] It has astaxanthin, resveratrol, CoQ10.
+[01:14.1 - 01:18.3] All of these are really great for cardiovascular support, digestive health, your immune system,
+[01:18.3 - 01:19.3] et cetera.
+[01:19.3 - 01:21.9] I also love it because it's made in America and third party tested here, so it's really
+[01:21.9 - 01:25.2] high quality ingredients and there are no fillers or additives in here either, which
+[01:25.2 - 01:26.2] is super rare.
+[01:26.2 - 01:28.3] And they're also having a really great flash sale deal right now.
+[01:28.3 - 01:31.1] So if you want to check this out, I will leave a link right down here where I get it from
+[01:31.1 - 01:32.4] so you can see the reviews on this.
+[01:32.4 - 01:35.1] I don't know when the sale is ending, so please make sure to run and grab them before they
+[01:35.1 - 01:36.0] hike up the price again.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_26_7578210644286016823_transcription_20260531_213353.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_26_7578210644286016823_transcription_20260531_213353.txt
+
+============================================================
+RANK: 27 | GMV: $8059.52 | VIDEO ID: 7568944314844335374
+URL: https://www.tiktok.com/@drew.review1/video/7568944314844335374
+WORD COUNT: 849
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_27_7568944314844335374.mp3, file size: 2.54 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 89.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.6]  you have high blood sugar and your doctor has not told you about berberine and instead ran to grab
+[00:04.6 - 00:08.8]  that prescription, let me tell you what you need to know about Nature's Solution to blood sugar
+[00:08.8 - 00:12.7]  levels. I'm a pancreatic cancer researcher and a naturopath practitioner, so let me show you
+[00:12.7 - 00:17.7]  scientific papers to back up my claims. Berberine is very heavily studied for its amazing support
+[00:17.7 - 00:22.4]  for blood sugar, cholesterol, lipids, for liver health, so let me tell you how it works. Firstly,
+[00:22.4 - 00:27.2]  it activates an enzyme called AMPK, and that is when the magic really starts to happen. Firstly,
+[00:27.2 - 00:31.1]  it tells your liver to stop producing and packaging up more sugar so that your body can
+[00:31.1 - 00:36.4]  focus on what is left in your bloodstream. Then AMPK will force your cells to take up glucose
+[00:36.4 - 00:41.2]  from your bloodstream and use it as energy rather than storing it. It also directly improves the
+[00:41.2 - 00:45.6]  sensitivity of your insulin receptors so they can respond to insulin once more, and berberine
+[00:45.6 - 00:51.7]  rewires your gut microbiota to enhance the amount of beneficial bacteria that are necessary for
+[00:51.7 - 00:56.8]  breaking down glucose and lipids in your stomach. So berberine not only helps with blood sugar,
+[00:56.8 - 01:01.6]  it honestly reworks your entire metabolism on the molecular level. Now if you're currently on
+[01:01.6 - 01:05.4]  medication, please ask your doctor first before taking berberine, but if you would like a
+[01:05.4 - 01:10.6]  recommendation, this is a really wonderful berberine supplement that uses a very highly absorbable form
+[01:10.6 - 01:14.9]  of berberine and it's all organic, plus it has cinnamon and chromium to have a great holistic
+[01:14.9 - 01:20.6]  effect overall with berberine. These are vegetarian, roughly a three-month supply, and made in America
+[01:20.6 - 01:24.2]  and third-party tested here as well. So if you would like to check this out, I will leave link
+[01:24.2 - 01:27.8]  right down here to their official store so you can see the reviews on this, and if you have any
+[01:27.8 - 01:28.9]  questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_27_7568944314844335374_transcription_20260531_213404.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_27_7568944314844335374_transcription_20260531_213404.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_27_7568944314844335374.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_27_7568944314844335374.mp3, file size: 2.54 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.6] you have high blood sugar and your doctor has not told you about berberine and instead ran to grab
+[00:04.6 - 00:08.8] that prescription, let me tell you what you need to know about Nature's Solution to blood sugar
+[00:08.8 - 00:12.7] levels. I'm a pancreatic cancer researcher and a naturopath practitioner, so let me show you
+[00:12.7 - 00:17.7] scientific papers to back up my claims. Berberine is very heavily studied for its amazing support
+[00:17.7 - 00:22.4] for blood sugar, cholesterol, lipids, for liver health, so let me tell you how it works. Firstly,
+[00:22.4 - 00:27.2] it activates an enzyme called AMPK, and that is when the magic really starts to happen. Firstly,
+[00:27.2 - 00:31.1] it tells your liver to stop producing and packaging up more sugar so that your body can
+[00:31.1 - 00:36.4] focus on what is left in your bloodstream. Then AMPK will force your cells to take up glucose
+[00:36.4 - 00:41.2] from your bloodstream and use it as energy rather than storing it. It also directly improves the
+[00:41.2 - 00:45.6] sensitivity of your insulin receptors so they can respond to insulin once more, and berberine
+[00:45.6 - 00:51.7] rewires your gut microbiota to enhance the amount of beneficial bacteria that are necessary for
+[00:51.7 - 00:56.8] breaking down glucose and lipids in your stomach. So berberine not only helps with blood sugar,
+[00:56.8 - 01:01.6] it honestly reworks your entire metabolism on the molecular level. Now if you're currently on
+[01:01.6 - 01:05.4] medication, please ask your doctor first before taking berberine, but if you would like a
+[01:05.4 - 01:10.6] recommendation, this is a really wonderful berberine supplement that uses a very highly absorbable form
+[01:10.6 - 01:14.9] of berberine and it's all organic, plus it has cinnamon and chromium to have a great holistic
+[01:14.9 - 01:20.6] effect overall with berberine. These are vegetarian, roughly a three-month supply, and made in America
+[01:20.6 - 01:24.2] and third-party tested here as well. So if you would like to check this out, I will leave link
+[01:24.2 - 01:27.8] right down here to their official store so you can see the reviews on this, and if you have any
+[01:27.8 - 01:28.9] questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_27_7568944314844335374_transcription_20260531_213404.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_27_7568944314844335374_transcription_20260531_213404.txt
+
+============================================================
+RANK: 28 | GMV: $7304.57 | VIDEO ID: 7533316854199176461
+URL: https://www.tiktok.com/@drew.review1/video/7533316854199176461
+WORD COUNT: 965
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_28_7533316854199176461.mp3, file size: 2.94 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 92.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.7]  your liver is fighting for its life right now regardless of if you're a heavy drinker or not,
+[00:03.7 - 00:07.2]  I'm a pancreatic cancer researcher, I'm going to tell you how you can regenerate your liver and
+[00:07.2 - 00:11.4]  help make it more efficient. Poor liver health can bring back all those toxins that it should
+[00:11.4 - 00:16.2]  be filtering out back into your body, so that has consequences for making you feel bloated,
+[00:16.2 - 00:20.6]  tired, poor mental clarity and brain fog, you bruise easily, you feel a little bit too shaky
+[00:20.6 - 00:26.2]  these days, and that is just the minimal effects. Liver should be protected. There is a particular
+[00:26.2 - 00:30.7]  blend of specific herbs that have been historically used for great liver health, so they're all in
+[00:30.7 - 00:34.3]  here, I'm going to go over them and tell you why they are effective. Let me read the ingredients
+[00:34.3 - 00:39.2]  for you. This has milk thistle, dandelion, yellow duck, turmeric, ginger, inulin from chicory,
+[00:39.2 - 00:43.8]  and berberine. These are specifically formulated to help with liver repair and regeneration,
+[00:43.8 - 00:49.1]  literally cell by cell, it also helps lower inflammation, fibrosis of the liver, it also
+[00:49.1 - 00:53.9]  boosts lipid metabolism, so if you have a fatty liver, it can get rid of that fat, and it also
+[00:53.9 - 00:58.8]  has enhanced immune support, it's really great for boosting your natural blood flow levels too,
+[00:58.8 - 01:03.1]  and this also has great antioxidant support, which is important because not only will this fix your
+[01:03.1 - 01:07.8]  liver, it will also prevent the buildup of toxins in the future in your liver too. This is a really
+[01:07.8 - 01:12.4]  concentrated dose, they do not skimp out on the ingredients here at all, so it's just in a dropper
+[01:12.4 - 01:16.8]  liquid form, you can add it to your water, to your drinks, smoothies, anything, it does taste really
+[01:16.8 - 01:20.6]  good, so you can add it directly to your mouth if you want, and this is a one month supply as well,
+[01:20.6 - 01:24.3]  so looks are deceiving, it does last you for a very long time, it's really effective, great at
+[01:24.3 - 01:28.3]  debloating and all that. If you want to check this out, I will drop the link right down here so you
+[01:28.3 - 01:31.5]  could read the reviews, and if you have any questions about how it works guys, let me know
+[01:31.5 - 01:32.3]  in the comments section.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_28_7533316854199176461_transcription_20260531_213415.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_28_7533316854199176461_transcription_20260531_213415.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_28_7533316854199176461.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_28_7533316854199176461.mp3, file size: 2.94 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.7] your liver is fighting for its life right now regardless of if you're a heavy drinker or not,
+[00:03.7 - 00:07.2] I'm a pancreatic cancer researcher, I'm going to tell you how you can regenerate your liver and
+[00:07.2 - 00:11.4] help make it more efficient. Poor liver health can bring back all those toxins that it should
+[00:11.4 - 00:16.2] be filtering out back into your body, so that has consequences for making you feel bloated,
+[00:16.2 - 00:20.6] tired, poor mental clarity and brain fog, you bruise easily, you feel a little bit too shaky
+[00:20.6 - 00:26.2] these days, and that is just the minimal effects. Liver should be protected. There is a particular
+[00:26.2 - 00:30.7] blend of specific herbs that have been historically used for great liver health, so they're all in
+[00:30.7 - 00:34.3] here, I'm going to go over them and tell you why they are effective. Let me read the ingredients
+[00:34.3 - 00:39.2] for you. This has milk thistle, dandelion, yellow duck, turmeric, ginger, inulin from chicory,
+[00:39.2 - 00:43.8] and berberine. These are specifically formulated to help with liver repair and regeneration,
+[00:43.8 - 00:49.1] literally cell by cell, it also helps lower inflammation, fibrosis of the liver, it also
+[00:49.1 - 00:53.9] boosts lipid metabolism, so if you have a fatty liver, it can get rid of that fat, and it also
+[00:53.9 - 00:58.8] has enhanced immune support, it's really great for boosting your natural blood flow levels too,
+[00:58.8 - 01:03.1] and this also has great antioxidant support, which is important because not only will this fix your
+[01:03.1 - 01:07.8] liver, it will also prevent the buildup of toxins in the future in your liver too. This is a really
+[01:07.8 - 01:12.4] concentrated dose, they do not skimp out on the ingredients here at all, so it's just in a dropper
+[01:12.4 - 01:16.8] liquid form, you can add it to your water, to your drinks, smoothies, anything, it does taste really
+[01:16.8 - 01:20.6] good, so you can add it directly to your mouth if you want, and this is a one month supply as well,
+[01:20.6 - 01:24.3] so looks are deceiving, it does last you for a very long time, it's really effective, great at
+[01:24.3 - 01:28.3] debloating and all that. If you want to check this out, I will drop the link right down here so you
+[01:28.3 - 01:31.5] could read the reviews, and if you have any questions about how it works guys, let me know
+[01:31.5 - 01:32.3] in the comments section.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_28_7533316854199176461_transcription_20260531_213415.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_28_7533316854199176461_transcription_20260531_213415.txt
+
+============================================================
+RANK: 29 | GMV: $7181.88 | VIDEO ID: 7580974666521595191
+URL: https://www.tiktok.com/@drew.review1/video/7580974666521595191
+WORD COUNT: 873
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_29_7580974666521595191.mp3, file size: 2.70 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 86.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.4]  you should not be taking ibuprofen every single day for chronic pain and inflammation. As a
+[00:04.4 - 00:07.8]  pancreatic cancer researcher and a naturopath practitioner, let me tell you why that's so
+[00:07.8 - 00:12.6]  dangerous and what's a healthy organic alternative that is just as powerful. Chronic ibuprofen use
+[00:12.6 - 00:17.5]  has been linked with inflammation, kidney damage, heart issues, internal bleeding, GI upset, and so
+[00:17.5 - 00:21.8]  many other terrible issues. That is why I always recommend Moringa, which is called a miracle tree
+[00:21.8 - 00:26.2]  for a very good reason. It is one of the most nutritious plants on the entire planet and it's
+[00:26.2 - 00:30.2]  very rich in organic compounds that directly target inflammation and pain management. It's
+[00:30.2 - 00:34.9]  highly rich in organic compounds like quercetin and chlorogenic acid, which help with inflammation,
+[00:34.9 - 00:38.8]  joint pain, stiffness, mobility issues, or if you have inflammation on your skin,
+[00:38.8 - 00:43.4]  your gut, etc. It's extremely rich in antioxidants, which protects your cells from further damage,
+[00:43.4 - 00:47.6]  plus it reduces inflammatory flare-ups. Moringa also encourages healthy circulation and blood
+[00:47.6 - 00:51.9]  flow to areas that need it, so it delivers valuable nutrition and oxygen while removing
+[00:51.9 - 00:56.0]  toxins and waste that build up in that area over time. Moringa also relaxes your muscles
+[00:56.0 - 01:00.0]  and reduces tension-related pain, and it also supports healthy blood sugar levels, which
+[01:00.0 - 01:04.2]  indirectly can lower inflammation. I personally take these clean capsules. This is from Rosabella,
+[01:04.2 - 01:08.6]  which has pure Moringa, no fillers or additives in here. Made in America and third-party tested
+[01:08.6 - 01:12.6]  here, which is why I trust them so much, and they have over half a million sold just on TikTok shop
+[01:12.6 - 01:16.5]  alone, so they are super popular. They absolutely work phenomenally, and they're running a really
+[01:16.5 - 01:19.9]  amazing flash sale deal right now, so if you would like to check this out, I will leave the link right
+[01:19.9 - 01:23.2]  down here where I get it from, so you can find the reviews, get the official product, because
+[01:23.2 - 01:26.4]  there's a lot of copycats out there, and if you have any questions, please let me know.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_29_7580974666521595191_transcription_20260531_213425.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_29_7580974666521595191_transcription_20260531_213425.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_29_7580974666521595191.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_29_7580974666521595191.mp3, file size: 2.70 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.4] you should not be taking ibuprofen every single day for chronic pain and inflammation. As a
+[00:04.4 - 00:07.8] pancreatic cancer researcher and a naturopath practitioner, let me tell you why that's so
+[00:07.8 - 00:12.6] dangerous and what's a healthy organic alternative that is just as powerful. Chronic ibuprofen use
+[00:12.6 - 00:17.5] has been linked with inflammation, kidney damage, heart issues, internal bleeding, GI upset, and so
+[00:17.5 - 00:21.8] many other terrible issues. That is why I always recommend Moringa, which is called a miracle tree
+[00:21.8 - 00:26.2] for a very good reason. It is one of the most nutritious plants on the entire planet and it's
+[00:26.2 - 00:30.2] very rich in organic compounds that directly target inflammation and pain management. It's
+[00:30.2 - 00:34.9] highly rich in organic compounds like quercetin and chlorogenic acid, which help with inflammation,
+[00:34.9 - 00:38.8] joint pain, stiffness, mobility issues, or if you have inflammation on your skin,
+[00:38.8 - 00:43.4] your gut, etc. It's extremely rich in antioxidants, which protects your cells from further damage,
+[00:43.4 - 00:47.6] plus it reduces inflammatory flare-ups. Moringa also encourages healthy circulation and blood
+[00:47.6 - 00:51.9] flow to areas that need it, so it delivers valuable nutrition and oxygen while removing
+[00:51.9 - 00:56.0] toxins and waste that build up in that area over time. Moringa also relaxes your muscles
+[00:56.0 - 01:00.0] and reduces tension-related pain, and it also supports healthy blood sugar levels, which
+[01:00.0 - 01:04.2] indirectly can lower inflammation. I personally take these clean capsules. This is from Rosabella,
+[01:04.2 - 01:08.6] which has pure Moringa, no fillers or additives in here. Made in America and third-party tested
+[01:08.6 - 01:12.6] here, which is why I trust them so much, and they have over half a million sold just on TikTok shop
+[01:12.6 - 01:16.5] alone, so they are super popular. They absolutely work phenomenally, and they're running a really
+[01:16.5 - 01:19.9] amazing flash sale deal right now, so if you would like to check this out, I will leave the link right
+[01:19.9 - 01:23.2] down here where I get it from, so you can find the reviews, get the official product, because
+[01:23.2 - 01:26.4] there's a lot of copycats out there, and if you have any questions, please let me know.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_29_7580974666521595191_transcription_20260531_213425.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_29_7580974666521595191_transcription_20260531_213425.txt
+
+============================================================
+RANK: 30 | GMV: $6864.64 | VIDEO ID: 7541828131137539358
+URL: https://www.tiktok.com/@drew.review1/video/7541828131137539358
+WORD COUNT: 1393
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_30_7541828131137539358.mp3, file size: 3.75 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 115.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.7]  What are the best herbs to take for chronic lymphatic congestion?
+[00:02.7 - 00:05.4]  I'm a pancreatic cancer researcher with a love for holistic health,
+[00:05.4 - 00:06.7]  so let's go over the details.
+[00:06.7 - 00:09.0]  Plants are a wonderful source of organic compounds
+[00:09.0 - 00:10.9]  that can help target your cells and heal them
+[00:10.9 - 00:12.4]  and help with that lymphatic drainage.
+[00:12.4 - 00:13.5]  So what are those herbs?
+[00:13.5 - 00:15.4]  Let's start with cleaver's aerial parts.
+[00:15.4 - 00:18.6]  This is really important for actually activating a lymphatic system flow.
+[00:18.6 - 00:21.1]  It enhances that circulation and makes that lymph
+[00:21.1 - 00:23.0]  pass all those toxins out of your body.
+[00:23.0 - 00:26.1]  Now, red clover flower has salicylic acid, isoflavones,
+[00:26.1 - 00:28.4]  and minerals that enhance detox pathways.
+[00:28.4 - 00:31.3]  It can help with skin conditions that are tied to poor lymphatic drainage.
+[00:31.3 - 00:33.1]  And it's known as a blood purifier,
+[00:33.1 - 00:35.5]  so it clears out toxins that build up in your blood as well,
+[00:35.5 - 00:37.4]  which lightens the load on your lymphatic system.
+[00:37.4 - 00:40.1]  Stalingia root is a powerful historical herb
+[00:40.1 - 00:42.0]  that targets chronic lymphatic congestion,
+[00:42.0 - 00:43.6]  especially in swollen lymph nodes.
+[00:43.6 - 00:47.5]  And lastly, prickly ash bark acts as a circulatory stimulant.
+[00:47.5 - 00:50.3]  It enhances microcirculation and peripheral blood flow,
+[00:50.3 - 00:52.4]  so that also enhances clearing out toxins
+[00:52.4 - 00:54.0]  from your blood and from your lymph fluid.
+[00:54.0 - 00:55.8]  All of these herbs together have really powerful
+[00:55.8 - 00:58.0]  anti-inflammatory and antioxidant properties.
+[00:58.0 - 00:59.9]  They help support your liver function as well,
+[00:59.9 - 01:01.0]  bile flow production,
+[01:01.0 - 01:02.9]  and of course, they help with lymphatic drainage
+[01:02.9 - 01:04.9]  and also keeps your blood nice and healthy.
+[01:04.9 - 01:06.8]  These are my own results after taking these four herbs
+[01:06.8 - 01:08.8]  for six months straight, and I love how it makes me feel.
+[01:08.8 - 01:10.8]  My energy levels are back, my bloating has decreased,
+[01:10.8 - 01:13.2]  I feel better, I look better, it could do wonders for you.
+[01:13.2 - 01:15.4]  This is actually the specific tonic that I use myself.
+[01:15.4 - 01:17.9]  It has all four of those herbs, so it's really easy to use.
+[01:17.9 - 01:20.1]  Don't let this fool you, it's a 59-day supply
+[01:20.1 - 01:22.3]  because this is a very potent and concentrated form
+[01:22.3 - 01:23.5]  of those organic herbs.
+[01:23.5 - 01:25.7]  There are no fillers or additives in here either,
+[01:25.7 - 01:26.8]  and it's really delicious.
+[01:26.8 - 01:27.8]  It tastes like honey.
+[01:27.8 - 01:29.8]  You only need a little bit of it at a time every day.
+[01:29.8 - 01:31.4]  You can add it directly either to your mouth
+[01:31.4 - 01:33.6]  or to any kind of drink, smoothie, whatever you want.
+[01:33.6 - 01:35.8]  I also personally just really love supporting this company.
+[01:35.8 - 01:37.0]  They're called Nature Sunshine.
+[01:37.0 - 01:38.0]  They're 50 years old.
+[01:38.0 - 01:39.5]  They donate to charity all the time,
+[01:39.5 - 01:42.2]  and they're the first company to add herbs to capsules,
+[01:42.2 - 01:43.6]  so they're really serious about their game.
+[01:43.6 - 01:44.9]  They have amazing quality products
+[01:44.9 - 01:46.0]  that I use all the time myself,
+[01:46.0 - 01:47.6]  so if you would like to check this out,
+[01:47.6 - 01:48.9]  which I highly recommend,
+[01:48.9 - 01:50.4]  I'm gonna drop the link on the bottom of the screen.
+[01:50.4 - 01:51.4]  That's their official store,
+[01:51.4 - 01:53.1]  so you can read all the reviews for yourself,
+[01:53.1 - 01:54.0]  and if you have any questions,
+[01:54.0 - 01:55.7]  let me know in the comments section.
+Complete transcription result saved to: /tmp/tmpwls30vuv/video_30_7541828131137539358_transcription_20260531_213437.json
+Plain text transcription saved to: /tmp/tmpwls30vuv/video_30_7541828131137539358_transcription_20260531_213437.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpwls30vuv/video_30_7541828131137539358.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpwls30vuv/video_30_7541828131137539358.mp3, file size: 3.75 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.7] What are the best herbs to take for chronic lymphatic congestion?
+[00:02.7 - 00:05.4] I'm a pancreatic cancer researcher with a love for holistic health,
+[00:05.4 - 00:06.7] so let's go over the details.
+[00:06.7 - 00:09.0] Plants are a wonderful source of organic compounds
+[00:09.0 - 00:10.9] that can help target your cells and heal them
+[00:10.9 - 00:12.4] and help with that lymphatic drainage.
+[00:12.4 - 00:13.5] So what are those herbs?
+[00:13.5 - 00:15.4] Let's start with cleaver's aerial parts.
+[00:15.4 - 00:18.6] This is really important for actually activating a lymphatic system flow.
+[00:18.6 - 00:21.1] It enhances that circulation and makes that lymph
+[00:21.1 - 00:23.0] pass all those toxins out of your body.
+[00:23.0 - 00:26.1] Now, red clover flower has salicylic acid, isoflavones,
+[00:26.1 - 00:28.4] and minerals that enhance detox pathways.
+[00:28.4 - 00:31.3] It can help with skin conditions that are tied to poor lymphatic drainage.
+[00:31.3 - 00:33.1] And it's known as a blood purifier,
+[00:33.1 - 00:35.5] so it clears out toxins that build up in your blood as well,
+[00:35.5 - 00:37.4] which lightens the load on your lymphatic system.
+[00:37.4 - 00:40.1] Stalingia root is a powerful historical herb
+[00:40.1 - 00:42.0] that targets chronic lymphatic congestion,
+[00:42.0 - 00:43.6] especially in swollen lymph nodes.
+[00:43.6 - 00:47.5] And lastly, prickly ash bark acts as a circulatory stimulant.
+[00:47.5 - 00:50.3] It enhances microcirculation and peripheral blood flow,
+[00:50.3 - 00:52.4] so that also enhances clearing out toxins
+[00:52.4 - 00:54.0] from your blood and from your lymph fluid.
+[00:54.0 - 00:55.8] All of these herbs together have really powerful
+[00:55.8 - 00:58.0] anti-inflammatory and antioxidant properties.
+[00:58.0 - 00:59.9] They help support your liver function as well,
+[00:59.9 - 01:01.0] bile flow production,
+[01:01.0 - 01:02.9] and of course, they help with lymphatic drainage
+[01:02.9 - 01:04.9] and also keeps your blood nice and healthy.
+[01:04.9 - 01:06.8] These are my own results after taking these four herbs
+[01:06.8 - 01:08.8] for six months straight, and I love how it makes me feel.
+[01:08.8 - 01:10.8] My energy levels are back, my bloating has decreased,
+[01:10.8 - 01:13.2] I feel better, I look better, it could do wonders for you.
+[01:13.2 - 01:15.4] This is actually the specific tonic that I use myself.
+[01:15.4 - 01:17.9] It has all four of those herbs, so it's really easy to use.
+[01:17.9 - 01:20.1] Don't let this fool you, it's a 59-day supply
+[01:20.1 - 01:22.3] because this is a very potent and concentrated form
+[01:22.3 - 01:23.5] of those organic herbs.
+[01:23.5 - 01:25.7] There are no fillers or additives in here either,
+[01:25.7 - 01:26.8] and it's really delicious.
+[01:26.8 - 01:27.8] It tastes like honey.
+[01:27.8 - 01:29.8] You only need a little bit of it at a time every day.
+[01:29.8 - 01:31.4] You can add it directly either to your mouth
+[01:31.4 - 01:33.6] or to any kind of drink, smoothie, whatever you want.
+[01:33.6 - 01:35.8] I also personally just really love supporting this company.
+[01:35.8 - 01:37.0] They're called Nature Sunshine.
+[01:37.0 - 01:38.0] They're 50 years old.
+[01:38.0 - 01:39.5] They donate to charity all the time,
+[01:39.5 - 01:42.2] and they're the first company to add herbs to capsules,
+[01:42.2 - 01:43.6] so they're really serious about their game.
+[01:43.6 - 01:44.9] They have amazing quality products
+[01:44.9 - 01:46.0] that I use all the time myself,
+[01:46.0 - 01:47.6] so if you would like to check this out,
+[01:47.6 - 01:48.9] which I highly recommend,
+[01:48.9 - 01:50.4] I'm gonna drop the link on the bottom of the screen.
+[01:50.4 - 01:51.4] That's their official store,
+[01:51.4 - 01:53.1] so you can read all the reviews for yourself,
+[01:53.1 - 01:54.0] and if you have any questions,
+[01:54.0 - 01:55.7] let me know in the comments section.
+
+Completed transcription, JSON saved to /tmp/tmpwls30vuv/video_30_7541828131137539358_transcription_20260531_213437.json
+Plain text transcription saved to /tmp/tmpwls30vuv/video_30_7541828131137539358_transcription_20260531_213437.txt
+

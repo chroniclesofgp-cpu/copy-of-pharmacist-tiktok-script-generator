@@ -1,0 +1,62 @@
+Starting Speech-to-Text conversion...
+Video file detected: bundle_2.mp4, file size: 8.00 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: bundle_2_converted_20260904_141353.mp3
+Transcribing audio file: bundle_2_converted_20260904_141353.mp3, file size: 0.38 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 49.2 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:03.8] I am going to teach you how to use the new Medicube Gatekeeping My Age bundle.
+[00:03.8 - 00:07.3] This skincare routine is going to be best if you are over 35, over 40.
+[00:07.3 - 00:15.3] After you've washed your face, you're going to pat in the Triple Collagen Toner, and then immediately when your skin is still wet, you're going to put on the NAD Growth Factor Serum.
+[00:15.3 - 00:21.9] The toner's gonna help to prep your skin, pulling that serum in even deeper, and then you are going to seal it in with a Triple Collagen Cream.
+[00:21.9 - 00:23.9] Such a rich, luscious moisturizer.
+[00:23.9 - 00:25.2] Does not clog the pores.
+[00:25.2 - 00:26.5] This part's a little controversial.
+[00:26.5 - 00:28.3] Medicube says to swipe it over.
+[00:28.3 - 00:30.8] Personally I do agree because it's in a solid stick.
+[00:30.8 - 00:31.9] It is pretty occlusive.
+[00:31.9 - 00:34.8] Put it anywhere you want to plump fine lines and volumize.
+[00:34.8 - 00:39.4] And as a last step or even on clean skin, you can use their PDRN Caffeine Eye Patches.
+[00:39.4 - 00:41.2] They were super generous with the product.
+[00:41.2 - 00:44.4] They are literally dripping in salmon DNA, caffeine, and collagen.
+[00:44.4 - 00:47.8] Such an easy anti-aging skincare routine, but stock is limited.
+[00:47.8 - 00:49.0] I'll link it right here for you
+Complete transcription result saved to: /home/ubuntu/tiktok-bundle-source-test/bundle_2_converted_20260904_141353_transcription_20260904_141408.json
+Plain text transcription saved to: /home/ubuntu/tiktok-bundle-source-test/bundle_2_converted_20260904_141353_transcription_20260904_141408.txt
+
+The video has been automatically converted to an audio file and saved at bundle_2_converted_20260904_141353.mp3
+[2J[H[3Jmanus-speech-to-text bundle_2.mp4
+Starting Speech-to-Text conversion...
+Video file detected: bundle_2.mp4, file size: 8.00 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: bundle_2_converted_20260904_141353.mp3, file size: 0.38 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:03.8] I am going to teach you how to use the new Medicube Gatekeeping My Age bundle.
+[00:03.8 - 00:07.3] This skincare routine is going to be best if you are over 35, over 40.
+[00:07.3 - 00:15.3] After you've washed your face, you're going to pat in the Triple Collagen Toner, and then immediately when your skin is still wet, you're going to put on the NAD Growth Factor Serum.
+[00:15.3 - 00:21.9] The toner's gonna help to prep your skin, pulling that serum in even deeper, and then you are going to seal it in with a Triple Collagen Cream.
+[00:21.9 - 00:23.9] Such a rich, luscious moisturizer.
+[00:23.9 - 00:25.2] Does not clog the pores.
+[00:25.2 - 00:26.5] This part's a little controversial.
+[00:26.5 - 00:28.3] Medicube says to swipe it over.
+[00:28.3 - 00:30.8] Personally I do agree because it's in a solid stick.
+[00:30.8 - 00:31.9] It is pretty occlusive.
+[00:31.9 - 00:34.8] Put it anywhere you want to plump fine lines and volumize.
+[00:34.8 - 00:39.4] And as a last step or even on clean skin, you can use their PDRN Caffeine Eye Patches.
+[00:39.4 - 00:41.2] They were super generous with the product.
+[00:41.2 - 00:44.4] They are literally dripping in salmon DNA, caffeine, and collagen.
+[00:44.4 - 00:47.8] Such an easy anti-aging skincare routine, but stock is limited.
+[00:47.8 - 00:49.0] I'll link it right here for you
+
+The video has been automatically converted to an audio file and saved at bundle_2_converted_20260904_141353.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/tiktok-bundle-source-test/bundle_2_converted_20260904_141353_transcription_20260904_141408.json
+Plain text transcription saved to /home/ubuntu/tiktok-bundle-source-test/bundle_2_converted_20260904_141353_transcription_20260904_141408.txt

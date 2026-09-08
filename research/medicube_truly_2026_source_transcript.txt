@@ -1,0 +1,86 @@
+Starting Speech-to-Text conversion...
+Video file detected: /home/ubuntu/upload/export_1786852866162.mov, file size: 25.58 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: /home/ubuntu/upload/export_1786852866162_converted_20260816_131429.mp3
+Transcribing audio file: /home/ubuntu/upload/export_1786852866162_converted_20260816_131429.mp3, file size: 0.75 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 98.6 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:02.3] Medikube versus Truly Beauty deodorant.
+[00:02.3 - 00:04.2] Which one actually works for dark underarms?
+[00:04.2 - 00:06.8] I've been a pharmacist for over a decade, so let's break these down.
+[00:06.8 - 00:12.2] The Truly Beauty soft serve deodorant has 5% AHA, which is a blend of lactic acid and mandelic acid.
+[00:12.2 - 00:13.7] AHAs are exfoliants.
+[00:13.7 - 00:20.1] They work by dissolving the dead skin cells sitting on the surface of your underarm, which is where a lot of that visible darkening that you see comes from.
+[00:20.1 - 00:25.4] AHAs also lower the pH of your skin, which makes it harder for odor-causing bacteria to survive.
+[00:25.4 - 00:27.7] So that's how it's gonna keep you smelling good all day long.
+[00:27.7 - 00:31.5] It also has vitamin C and niacinamide, which is really gonna help even out tone.
+[00:31.5 - 00:40.4] Now for Medikube, the main ingredient doing most of the work is kojic acid and turmeric, which are tyrosinase inhibitors, and they work by blocking the enzyme your skin uses to produce melanin.
+[00:40.4 - 00:43.0] So that's a fundamentally different approach than exfoliation.
+[00:43.0 - 00:49.6] Instead of removing darkened skin cells after they form, you are stopping the pigmentation or the formation of those dark skin cells before it starts.
+[00:49.6 - 00:52.4] On top of that, Medikube has niacinamide and shea butter.
+[00:52.4 - 00:54.0] These are skin barrier ingredients.
+[00:54.0 - 00:58.3] They are actively repairing the skin while the kojic acid and turmeric help lighten and brighten.
+[00:58.3 - 00:59.9] Here's what most people don't realize.
+[00:59.9 - 01:05.2] If you are shaving your underarms and then applying a 5% AHA deodorant right after, that can sting.
+[01:05.2 - 01:08.5] AHAs on freshly shaved or irritated skin can be an issue.
+[01:08.5 - 01:10.0] Medikube has no AHA.
+[01:10.0 - 01:13.5] It's specifically designed for sensitive skin, which is one of the big differences.
+[01:13.5 - 01:14.5] So which one's better?
+[01:14.5 - 01:19.8] If your skin is sensitive, you shave frequently, or you have active bumps and irritation, Medikube is the pick for you.
+[01:19.8 - 01:26.9] If your skin is not reactive and your main complaint is texture and dullness, and you're looking for more immediate results, then Truly Beauty is for you.
+[01:26.9 - 01:27.8] Both are legitimate.
+[01:27.8 - 01:28.8] They just work differently.
+[01:28.8 - 01:33.1] I'm gonna leave them both linked down below so you can check them out for yourself and get the one that works best for you.
+[01:33.1 - 01:34.9] If you have any questions, drop them in the comments.
+[01:34.9 - 01:35.7] I'll be happy to help.
+Complete transcription result saved to: /home/ubuntu/upload/export_1786852866162_converted_20260816_131429_transcription_20260816_131437.json
+Plain text transcription saved to: /home/ubuntu/upload/export_1786852866162_converted_20260816_131429_transcription_20260816_131437.txt
+
+The video has been automatically converted to an audio file and saved at /home/ubuntu/upload/export_1786852866162_converted_20260816_131429.mp3
+[2J[H[3Jmanus-speech-to-text --terminal-max-len-single=5000 /home/ubuntu/upload/export_1786852866162.mov
+Starting Speech-to-Text conversion...
+Video file detected: /home/ubuntu/upload/export_1786852866162.mov, file size: 25.58 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: /home/ubuntu/upload/export_1786852866162_converted_20260816_131429.mp3, file size: 0.75 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:02.3] Medikube versus Truly Beauty deodorant.
+[00:02.3 - 00:04.2] Which one actually works for dark underarms?
+[00:04.2 - 00:06.8] I've been a pharmacist for over a decade, so let's break these down.
+[00:06.8 - 00:12.2] The Truly Beauty soft serve deodorant has 5% AHA, which is a blend of lactic acid and mandelic acid.
+[00:12.2 - 00:13.7] AHAs are exfoliants.
+[00:13.7 - 00:20.1] They work by dissolving the dead skin cells sitting on the surface of your underarm, which is where a lot of that visible darkening that you see comes from.
+[00:20.1 - 00:25.4] AHAs also lower the pH of your skin, which makes it harder for odor-causing bacteria to survive.
+[00:25.4 - 00:27.7] So that's how it's gonna keep you smelling good all day long.
+[00:27.7 - 00:31.5] It also has vitamin C and niacinamide, which is really gonna help even out tone.
+[00:31.5 - 00:40.4] Now for Medikube, the main ingredient doing most of the work is kojic acid and turmeric, which are tyrosinase inhibitors, and they work by blocking the enzyme your skin uses to produce melanin.
+[00:40.4 - 00:43.0] So that's a fundamentally different approach than exfoliation.
+[00:43.0 - 00:49.6] Instead of removing darkened skin cells after they form, you are stopping the pigmentation or the formation of those dark skin cells before it starts.
+[00:49.6 - 00:52.4] On top of that, Medikube has niacinamide and shea butter.
+[00:52.4 - 00:54.0] These are skin barrier ingredients.
+[00:54.0 - 00:58.3] They are actively repairing the skin while the kojic acid and turmeric help lighten and brighten.
+[00:58.3 - 00:59.9] Here's what most people don't realize.
+[00:59.9 - 01:05.2] If you are shaving your underarms and then applying a 5% AHA deodorant right after, that can sting.
+[01:05.2 - 01:08.5] AHAs on freshly shaved or irritated skin can be an issue.
+[01:08.5 - 01:10.0] Medikube has no AHA.
+[01:10.0 - 01:13.5] It's specifically designed for sensitive skin, which is one of the big differences.
+[01:13.5 - 01:14.5] So which one's better?
+[01:14.5 - 01:19.8] If your skin is sensitive, you shave frequently, or you have active bumps and irritation, Medikube is the pick for you.
+[01:19.8 - 01:26.9] If your skin is not reactive and your main complaint is texture and dullness, and you're looking for more immediate results, then Truly Beauty is for you.
+[01:26.9 - 01:27.8] Both are legitimate.
+[01:27.8 - 01:28.8] They just work differently.
+[01:28.8 - 01:33.1] I'm gonna leave them both linked down below so you can check them out for yourself and get the one that works best for you.
+[01:33.1 - 01:34.9] If you have any questions, drop them in the comments.
+[01:34.9 - 01:35.7] I'll be happy to help.
+
+The video has been automatically converted to an audio file and saved at /home/ubuntu/upload/export_1786852866162_converted_20260816_131429.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/upload/export_1786852866162_converted_20260816_131429_transcription_20260816_131437.json
+Plain text transcription saved to /home/ubuntu/upload/export_1786852866162_converted_20260816_131429_transcription_20260816_131437.txt

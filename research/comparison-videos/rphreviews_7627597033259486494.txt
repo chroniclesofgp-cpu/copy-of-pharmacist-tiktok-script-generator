@@ -1,0 +1,92 @@
+Starting Speech-to-Text conversion...
+Video file detected: rphreviews_7627597033259486494.mp4, file size: 16.90 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: rphreviews_7627597033259486494_converted_20260903_054820.mp3
+Transcribing audio file: rphreviews_7627597033259486494_converted_20260903_054820.mp3, file size: 1.04 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 136.4 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:01.7] What about under-eye hollows?
+[00:01.7 - 00:06.5] Let's talk about it because I've been a pharmacist for over 17 years, and I know what I'm talking about.
+[00:06.5 - 00:14.4] Basically, the area under your eyes that create a tired or aged appearance, mainly due to collagen loss, genetics, or fat loss.
+[00:14.4 - 00:16.4] This makes us look older and tired.
+[00:16.4 - 00:17.8] So what can you do about this?
+[00:17.8 - 00:18.9] I'm so glad you asked.
+[00:18.9 - 00:26.5] There's a patent ingredient that just came out of France called volufiline, and it's sourced from the Anemarina asphodeloides root extract.
+[00:26.5 - 00:32.6] It is essentially designed to increase skin volume and plumpness by promoting adipocyte, which are your fat cells.
+[00:32.6 - 00:37.9] It actually was originally used to plump up the chest area, but now skincare brands are using it for the face.
+[00:37.9 - 00:40.7] People are actually calling it filler in a bottle or stick.
+[00:40.7 - 00:46.2] Most popular brands with volufiline in it are the one from The Ordinary and the one from Medicube.
+[00:46.2 - 00:51.2] Let's list out the benefits ingredients of each of these so you guys can decide which one is better for you.
+[00:51.2 - 00:56.2] The Ordinary says it has 92% volufiline, 1% pal-isoleucine.
+[00:56.2 - 01:00.3] Now, something to note, the 92% is not actual pure volufiline.
+[01:00.3 - 01:08.9] If you look at the active ingredients, the Anemarina asphodeloides is towards the bottom, which typically means the actual active volufiline is about 1%.
+[01:08.9 - 01:17.9] Now, this does come in a serum, so typically you mix it with your moisturizer, and it has pal-isoleucine, which is a lipo amino acid used to enhance skin volume elasticity.
+[01:17.9 - 01:22.5] Now, the Medicube multi-balm stick has actually 5% active volufiline.
+[01:22.5 - 01:25.5] They made this into a multi-balm where you directly apply it to your skin.
+[01:25.5 - 01:35.6] Now, aside from the volufiline, it's actually packed with liposomal PDRN, help support plumper looking skin, low molecular collagen, which is finally a collagen that can penetrate into your skin,
+[01:35.6 - 01:45.3] NAD, liposomal EGF, peptides, elastin, retinol, caffeine, vitamin E, and hyaluronic acid further help that volume and skin elasticity.
+[01:45.3 - 01:48.1] Also boost hydration and smooth out skin texture.
+[01:48.1 - 01:49.7] Literally all that packed in this stick.
+[01:49.7 - 01:50.6] They're selling pretty well.
+[01:50.6 - 01:55.0] This one has about sixty thousand units sold on TikTok, but it's been going super viral.
+[01:55.0 - 01:58.5] Now I wouldn't be surprised if they sold almost two hundred thousand units at this point.
+[01:58.5 - 02:03.5] In terms of pricing, they're about the same price, around twenty dollars, but you can get massive deals on each of these.
+[02:03.5 - 02:06.3] In the comments, I want you to leave which one you guys would choose.
+[02:06.3 - 02:08.5] My obvious choice is the one by Medicube.
+[02:08.5 - 02:10.8] You just get so much more, such a great value.
+[02:10.8 - 02:15.2] Leave link below, but they are selling out fast, and I think they are running a major sale.
+[02:15.2 - 02:16.2] Grab it before it runs out.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/comparison-videos/rphreviews_7627597033259486494_converted_20260903_054820_transcription_20260903_054828.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/comparison-videos/rphreviews_7627597033259486494_converted_20260903_054820_transcription_20260903_054828.txt
+
+The video has been automatically converted to an audio file and saved at rphreviews_7627597033259486494_converted_20260903_054820.mp3
+[2J[H[3Jmanus-speech-to-text rphreviews_7627597033259486494.mp4
+Starting Speech-to-Text conversion...
+Video file detected: rphreviews_7627597033259486494.mp4, file size: 16.90 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: rphreviews_7627597033259486494_converted_20260903_054820.mp3, file size: 1.04 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:01.7] What about under-eye hollows?
+[00:01.7 - 00:06.5] Let's talk about it because I've been a pharmacist for over 17 years, and I know what I'm talking about.
+[00:06.5 - 00:14.4] Basically, the area under your eyes that create a tired or aged appearance, mainly due to collagen loss, genetics, or fat loss.
+[00:14.4 - 00:16.4] This makes us look older and tired.
+[00:16.4 - 00:17.8] So what can you do about this?
+[00:17.8 - 00:18.9] I'm so glad you asked.
+[00:18.9 - 00:26.5] There's a patent ingredient that just came out of France called volufiline, and it's sourced from the Anemarina asphodeloides root extract.
+[00:26.5 - 00:32.6] It is essentially designed to increase skin volume and plumpness by promoting adipocyte, which are your fat cells.
+[00:32.6 - 00:37.9] It actually was originally used to plump up the chest area, but now skincare brands are using it for the face.
+[00:37.9 - 00:40.7] People are actually calling it filler in a bottle or stick.
+[00:40.7 - 00:46.2] Most popular brands with volufiline in it are the one from The Ordinary and the one from Medicube.
+[00:46.2 - 00:51.2] Let's list out the benefits ingredients of each of these so you guys can decide which one is better for you.
+[00:51.2 - 00:56.2] The Ordinary says it has 92% volufiline, 1% pal-isoleucine.
+[00:56.2 - 01:00.3] Now, something to note, the 92% is not actual pure volufiline.
+[01:00.3 - 01:08.9] If you look at the active ingredients, the Anemarina asphodeloides is towards the bottom, which typically means the actual active volufiline is about 1%.
+[01:08.9 - 01:17.9] Now, this does come in a serum, so typically you mix it with your moisturizer, and it has pal-isoleucine, which is a lipo amino acid used to enhance skin volume elasticity.
+[01:17.9 - 01:22.5] Now, the Medicube multi-balm stick has actually 5% active volufiline.
+[01:22.5 - 01:25.5] They made this into a multi-balm where you directly apply it to your skin.
+[01:25.5 - 01:35.6] Now, aside from the volufiline, it's actually packed with liposomal PDRN, help support plumper looking skin, low molecular collagen, which is finally a collagen that can penetrate into your skin,
+[01:35.6 - 01:45.3] NAD, liposomal EGF, peptides, elastin, retinol, caffeine, vitamin E, and hyaluronic acid further help that volume and skin elasticity.
+[01:45.3 - 01:48.1] Also boost hydration and smooth out skin texture.
+[01:48.1 - 01:49.7] Literally all that packed in this stick.
+[01:49.7 - 01:50.6] They're selling pretty well.
+[01:50.6 - 01:55.0] This one has about sixty thousand units sold on TikTok, but it's been going super viral.
+[01:55.0 - 01:58.5] Now I wouldn't be surprised if they sold almost two hundred thousand units at this point.
+[01:58.5 - 02:03.5] In terms of pricing, they're about the same price, around twenty dollars, but you can get massive deals on each of these.
+[02:03.5 - 02:06.3] In the comments, I want you to leave which one you guys would choose.
+[02:06.3 - 02:08.5] My obvious choice is the one by Medicube.
+[02:08.5 - 02:10.8] You just get so much more, such a great value.
+[02:10.8 - 02:15.2] Leave link below, but they are selling out fast, and I think they are running a major sale.
+[02:15.2 - 02:16.2] Grab it before it runs out.
+
+The video has been automatically converted to an audio file and saved at rphreviews_7627597033259486494_converted_20260903_054820.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/comparison-videos/rphreviews_7627597033259486494_converted_20260903_054820_transcription_20260903_054828.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/comparison-videos/rphreviews_7627597033259486494_converted_20260903_054820_transcription_20260903_054828.txt

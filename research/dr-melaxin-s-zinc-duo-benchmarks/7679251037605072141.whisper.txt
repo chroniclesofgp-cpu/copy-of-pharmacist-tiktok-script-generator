@@ -1,0 +1,58 @@
+Starting Speech-to-Text conversion...
+Video file detected: 7679251037605072141.mp4, file size: 8.12 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: 7679251037605072141_converted_20260907_045055.mp3
+Transcribing audio file: 7679251037605072141_converted_20260907_045055.mp3, file size: 0.38 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 49.3 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:03.6] American pimple patches, Korean pimple patches.
+[00:03.6 - 00:07.9] Concealer on the American side, concealer on the Korean side.
+[00:07.9 - 00:12.1] Blending it out on the American side, blending it out on the Korean side.
+[00:12.1 - 00:15.4] American, Korean, American, Korean.
+[00:15.4 - 00:17.7] That is a crazy difference.
+[00:17.7 - 00:20.6] These are brand-new Korean pimple patches from the brand Dr.
+[00:20.6 - 00:21.2] Relaxin.
+[00:21.2 - 00:25.4] These were so good, it sold out immediately when it first launched just a week ago.
+[00:25.4 - 00:26.9] Finally came back in stock.
+[00:26.9 - 00:30.2] Look how ultra thin these pimple patches are.
+[00:30.2 - 00:32.6] These patches you can wear under makeup, clearly.
+[00:32.6 - 00:42.5] It contains zinc, sulfur, salicylic acid, AHA, and PHA to soak up the oil, gently exfoliate the gunk, keeps your skin smooth, and it actually helps control the breakout.
+[00:42.5 - 00:45.6] These just launched, sold out, flying off the shelves already.
+[00:45.6 - 00:49.3] If you want to get your hands on it before it's gone again, I'm gonna tag it below.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679251037605072141_converted_20260907_045055_transcription_20260907_045058.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679251037605072141_converted_20260907_045055_transcription_20260907_045058.txt
+
+The video has been automatically converted to an audio file and saved at 7679251037605072141_converted_20260907_045055.mp3
+[2J[H[3Jmanus-speech-to-text 7679251037605072141.mp4
+Starting Speech-to-Text conversion...
+Video file detected: 7679251037605072141.mp4, file size: 8.12 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: 7679251037605072141_converted_20260907_045055.mp3, file size: 0.38 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:03.6] American pimple patches, Korean pimple patches.
+[00:03.6 - 00:07.9] Concealer on the American side, concealer on the Korean side.
+[00:07.9 - 00:12.1] Blending it out on the American side, blending it out on the Korean side.
+[00:12.1 - 00:15.4] American, Korean, American, Korean.
+[00:15.4 - 00:17.7] That is a crazy difference.
+[00:17.7 - 00:20.6] These are brand-new Korean pimple patches from the brand Dr.
+[00:20.6 - 00:21.2] Relaxin.
+[00:21.2 - 00:25.4] These were so good, it sold out immediately when it first launched just a week ago.
+[00:25.4 - 00:26.9] Finally came back in stock.
+[00:26.9 - 00:30.2] Look how ultra thin these pimple patches are.
+[00:30.2 - 00:32.6] These patches you can wear under makeup, clearly.
+[00:32.6 - 00:42.5] It contains zinc, sulfur, salicylic acid, AHA, and PHA to soak up the oil, gently exfoliate the gunk, keeps your skin smooth, and it actually helps control the breakout.
+[00:42.5 - 00:45.6] These just launched, sold out, flying off the shelves already.
+[00:45.6 - 00:49.3] If you want to get your hands on it before it's gone again, I'm gonna tag it below.
+
+The video has been automatically converted to an audio file and saved at 7679251037605072141_converted_20260907_045055.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679251037605072141_converted_20260907_045055_transcription_20260907_045058.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679251037605072141_converted_20260907_045055_transcription_20260907_045058.txt

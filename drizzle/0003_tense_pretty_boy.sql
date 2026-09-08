@@ -1,0 +1,1 @@
+ALTER TABLE `productVault` MODIFY COLUMN `hookRecommendation` text;

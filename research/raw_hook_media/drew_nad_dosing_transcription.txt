@@ -1,0 +1,78 @@
+Starting Speech-to-Text conversion...
+Video file detected: drew_nad_dosing.mp4, file size: 6.56 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: drew_nad_dosing_converted_20260904_063229.mp3
+Transcribing audio file: drew_nad_dosing_converted_20260904_063229.mp3, file size: 0.83 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 108.8 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:02.7] Which is better, NMN or anti-aging NAD?
+[00:02.7 - 00:07.1] I'm a integrative cancer researcher and a naturopath practitioner, so let's quickly go over the science behind them.
+[00:07.1 - 00:17.2] NMN is a building block of NAD, and they are both found in every single cell of your body, and they are absolutely critical for human survival because they play a central role in
+[00:17.2 - 00:18.0] energy production.
+[00:18.0 - 00:22.1] So all the fuel that your body needs comes from NMN and NAD.
+[00:22.1 - 00:30.6] They're also important in DNA repair mechanisms and the life cycle of a cell, so they keep your cells a lot healthier for much longer, and that translates to powerful anti-aging control.
+[00:30.6 - 00:33.0] Fine lines, wrinkles, gray hair popping out of nowhere.
+[00:33.0 - 00:39.6] It's also important for not only chronic fatigue, but for brain fog, inflammation, joint pain, hormonal balance, and so many other things.
+[00:39.6 - 00:45.5] Now, because NMN is a precursor, it's best suited for metabolic control and for mitochondrial support.
+[00:45.5 - 00:51.3] It stays in your system a lot longer, so it's able to work on those repair pathways, longevity, fine lines and wrinkles.
+[00:51.3 - 00:53.0] It can calm inflammation and joint pain.
+[00:53.0 - 00:54.6] It improves endurance and recovery.
+[00:54.6 - 00:59.6] It can help with your cardiovascular health and so many other things that take a little bit longer for your system to actually work with.
+[00:59.6 - 01:03.1] And because NAD is the final product, it works very quickly.
+[01:03.1 - 01:11.9] So it's best for people who want faster, noticeable energy without any kind of caffeine crashes, cognitive support and mental clarity, so great for brain fog, and also help with burnout or chronic stress.
+[01:11.9 - 01:21.2] NAD is also really great to get as an infusion or injections, and NMN can work that way as well, but it's also really greatly suited for capsule form, which is much more convenient for a lot of people out there.
+[01:21.2 - 01:26.4] And if you want a recommendation for NMN that has no fillers or additives and made in America, this is absolutely phenomenal.
+[01:26.4 - 01:31.0] It has a very high concentration of NMN, and it also has a lot of natural antioxidants.
+[01:31.0 - 01:36.0] Glutathione, astaxanthin, CoQ10, resveratrol, so many amazing ingredients in here.
+[01:36.0 - 01:37.3] These are vegetarian capsules.
+[01:37.3 - 01:41.1] It's a two-month supply, and again, they're made in America, and third-party tested here too.
+[01:41.1 - 01:42.4] So really, really high quality.
+[01:42.4 - 01:46.8] If you wanna check this out, I will leave link right down here to their official store, so you could see the reviews on this.
+[01:46.8 - 01:48.7] And if you have any questions, please let me know.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_converted_20260904_063229_transcription_20260904_063236.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_converted_20260904_063229_transcription_20260904_063236.txt
+
+The video has been automatically converted to an audio file and saved at drew_nad_dosing_converted_20260904_063229.mp3
+[2J[H[3Jmanus-speech-to-text drew_nad_dosing.mp4
+Starting Speech-to-Text conversion...
+Video file detected: drew_nad_dosing.mp4, file size: 6.56 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: drew_nad_dosing_converted_20260904_063229.mp3, file size: 0.83 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:02.7] Which is better, NMN or anti-aging NAD?
+[00:02.7 - 00:07.1] I'm a integrative cancer researcher and a naturopath practitioner, so let's quickly go over the science behind them.
+[00:07.1 - 00:17.2] NMN is a building block of NAD, and they are both found in every single cell of your body, and they are absolutely critical for human survival because they play a central role in
+[00:17.2 - 00:18.0] energy production.
+[00:18.0 - 00:22.1] So all the fuel that your body needs comes from NMN and NAD.
+[00:22.1 - 00:30.6] They're also important in DNA repair mechanisms and the life cycle of a cell, so they keep your cells a lot healthier for much longer, and that translates to powerful anti-aging control.
+[00:30.6 - 00:33.0] Fine lines, wrinkles, gray hair popping out of nowhere.
+[00:33.0 - 00:39.6] It's also important for not only chronic fatigue, but for brain fog, inflammation, joint pain, hormonal balance, and so many other things.
+[00:39.6 - 00:45.5] Now, because NMN is a precursor, it's best suited for metabolic control and for mitochondrial support.
+[00:45.5 - 00:51.3] It stays in your system a lot longer, so it's able to work on those repair pathways, longevity, fine lines and wrinkles.
+[00:51.3 - 00:53.0] It can calm inflammation and joint pain.
+[00:53.0 - 00:54.6] It improves endurance and recovery.
+[00:54.6 - 00:59.6] It can help with your cardiovascular health and so many other things that take a little bit longer for your system to actually work with.
+[00:59.6 - 01:03.1] And because NAD is the final product, it works very quickly.
+[01:03.1 - 01:11.9] So it's best for people who want faster, noticeable energy without any kind of caffeine crashes, cognitive support and mental clarity, so great for brain fog, and also help with burnout or chronic stress.
+[01:11.9 - 01:21.2] NAD is also really great to get as an infusion or injections, and NMN can work that way as well, but it's also really greatly suited for capsule form, which is much more convenient for a lot of people out there.
+[01:21.2 - 01:26.4] And if you want a recommendation for NMN that has no fillers or additives and made in America, this is absolutely phenomenal.
+[01:26.4 - 01:31.0] It has a very high concentration of NMN, and it also has a lot of natural antioxidants.
+[01:31.0 - 01:36.0] Glutathione, astaxanthin, CoQ10, resveratrol, so many amazing ingredients in here.
+[01:36.0 - 01:37.3] These are vegetarian capsules.
+[01:37.3 - 01:41.1] It's a two-month supply, and again, they're made in America, and third-party tested here too.
+[01:41.1 - 01:42.4] So really, really high quality.
+[01:42.4 - 01:46.8] If you wanna check this out, I will leave link right down here to their official store, so you could see the reviews on this.
+[01:46.8 - 01:48.7] And if you have any questions, please let me know.
+
+The video has been automatically converted to an audio file and saved at drew_nad_dosing_converted_20260904_063229.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_converted_20260904_063229_transcription_20260904_063236.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/raw_hook_media/drew_nad_dosing_converted_20260904_063229_transcription_20260904_063236.txt

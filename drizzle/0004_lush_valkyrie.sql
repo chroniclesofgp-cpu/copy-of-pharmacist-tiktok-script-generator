@@ -1,0 +1,1 @@
+ALTER TABLE `productVault` ADD `scriptBrief` text;

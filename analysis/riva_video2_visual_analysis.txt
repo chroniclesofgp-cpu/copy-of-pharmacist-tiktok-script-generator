@@ -1,0 +1,102 @@
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-b8d082be-6c7a-4006-b08d-5d9b9b76b389)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[41s] Status: Analysis completed
+[41s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_riva_video2_analysis_20260801_001756.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Here is a comprehensive 13-dimension analysis of the provided TikTok Shop affiliate video:
+
+**DIMENSION 1 — VISUAL HOOK (0–3 seconds)**
+*   **Visuals:** The creator, a woman wearing a white lab coat over a pink collared shirt with a butterfly pin on her lapel, is centered on screen. 
+*   **Action:** She points to three different areas of the screen as images of supplement bottles pop up one by one. 
+*   **Products Shown:** 
+    1. Top right: "ESUNM Digestive Enzymes"
+    2. Bottom left: A knockoff "Physician's Choice Digestive Enzymes" with a brown/tan label.
+    3. Bottom right: "Vital Bound Digestive Enzymes"
+*   **Camera Angle:** Medium close-up (chest up), static camera.
+*   **Movement:** Quick, deliberate pointing gestures matching the pop-ups, followed by her holding up the genuine physical product to the camera at 0:03.
+
+**DIMENSION 2 — TEXT HOOK**
+*   **Exact Wording:** "Watch out for SCAMS ⚠️‼️" and "From a Pharmacist"
+*   **Timing:** Appears at 0:00 and disappears at 0:03.
+*   **Style & Placement:** 
+    *   "Watch out for SCAMS ⚠️‼️" is placed directly across the center of the screen in black, sans-serif font inside a white rectangular box with a thin black border.
+    *   "From a Pharmacist" is placed immediately below the first box, featuring white text inside a red rectangular box.
+
+**DIMENSION 3 — ON-SCREEN TEXT OVERLAYS (full video)**
+*   **0:00–0:03:** "Watch out for SCAMS ⚠️‼️" (Center, black text on white background) and "From a Pharmacist" (Center, white text on red background).
+*   **0:08–0:11:** A screenshot of a TikTok Shop promotional graphic appears in the top left/center. Text includes "SUPER BRAND DAY", "VIRAL!", "16.2M+ VIEWS!", "#1 SELLING BRAND", and the product image.
+*   **0:16–0:19:** A screenshot of a state "Licensee Detail" registry appears in the top right. Text reads: "License Type: Pharmacist", "Name: Riva [redacted]", "License Issue Date: 09/28/2016".
+*   **0:29–0:35:** A screenshot of the TikTok Shop search bar/listing appears at the top center, with a red circle drawn around the "Physician's Cho..." name and the official blue verification checkmark.
+*   **0:49–0:51:** A screenshot of the official product listing appears at the top center showing "4.8 stars", "388.0K sold", and size variations (30, 60, 90, 180 Count).
+*   **0:56–1:04:** A scrolling screenshot of actual customer reviews with photos appears on the right side of the screen, highlighting positive feedback.
+
+**DIMENSION 4 — SPOKEN HOOK**
+*   **Exact Phrasing:** "This is fake, this is a scam, and this is fake."
+
+**DIMENSION 5 — AUTHORITY / CREDENTIAL ESTABLISHMENT**
+*   **Visual:** The creator is wearing a white medical lab coat throughout the entire video.
+*   **Text:** The hook explicitly states "From a Pharmacist" (0:00).
+*   **Verbal:** At 0:16, she states, "And as a pharmacist, it is very important to me to make sure you understand exactly how to know you're getting the right one."
+*   **Documentary Proof:** At 0:16, she displays a screenshot of her actual government-issued pharmacist license details to visually verify her credentials.
+
+**DIMENSION 6 — PROBLEM / PAIN POINT SECTION**
+*   **Problem Framed:** Because the product went "crazy viral," multiple shops have popped up selling fake, counterfeit, or copycat versions. Buyers don't know what they are actually getting.
+*   **Pain Points:** She addresses the physical pain point of "bloating, especially if you get that heavy bloating feeling after you eat" (0:47).
+*   **Visual Elements:** The video opens with images of the fake products, and later shows scrolling reviews of customers who suffered from digestion issues.
+
+**DIMENSION 7 — MECHANISM / EDUCATION SECTION**
+*   **Education:** The primary education is consumer protection—teaching viewers how to navigate TikTok Shop safely. She instructs viewers to look for the "blue checkmark right next to it. That's how you know you're getting the verified page." (0:31).
+*   **Claims:** She warns that "supplements are not very well regulated, so using a quality brand like Physician's Choice is a great formula, but you need to be very careful" (0:39). She claims the enzymes help with heavy post-meal bloating.
+*   **Visuals:** The screenshot at 0:29 explicitly circles the blue verification checkmark to educate the viewer visually.
+
+**DIMENSION 8 — PRODUCT REVEAL**
+*   **Timestamp:** 0:03.
+*   **Reveal Mechanic:** Immediately after pointing out the three fake products, she brings the real physical bottle of Physician's Choice Digestive Enzymes up to the camera with her right hand. 
+*   **Visuals:** The product is held close to her face/chest for the remainder of the video. The text hook disappears exactly as she reveals the real bottle.
+
+**DIMENSION 9 — SCAM / FAKE PRODUCT VISUAL MECHANIC**
+*   **Products Shown:** 
+    1. ESUNM brand (top right)
+    2. A counterfeit Physician's Choice with a brown label (bottom left)
+    3. Vital Bound brand (bottom right)
+*   **Mechanic:** She points directly at the empty space where the graphics are edited in post-production. 
+*   **Sequence:** Three fake items are shown in rapid succession (1 second each) *before* the real product is revealed.
+*   **Exact Words Used:** 
+    *   Points to #1: "This is fake,"
+    *   Points to #2: "this is a scam,"
+    *   Points to #3: "and this is fake."
+
+**DIMENSION 10 — CTA (Call to Action)**
+*   **Exact Wording:** 
+    *   "When you tap the orange cart below..." (0:27)
+    *   "I will also always have the official Physician's Choice link right down below on any of my videos." (0:55)
+    *   "I will link this right down below to make sure you're getting the right one." (1:00)
+*   **Visual:** She points downward with her finger toward the bottom left of the screen where the TikTok Shop link (orange cart) natively appears.
+
+**DIMENSION 11 — PACING AND DELIVERY**
+*   **Pacing:** Fast, urgent, and highly informative.
+*   **Cuts:** There are approximately 15-20 jump cuts. The editing is tight, removing almost all breaths and pauses to maintain a high retention rate.
+*   **Energy Level:** Clinical, authoritative, and protective. She speaks with the urgent tone of a healthcare provider warning a patient.
+*   **Emphasis:** Heavy vocal emphasis on words like "fake," "scam," "viral," "very careful," and "blue checkmark."
+
+**DIMENSION 12 — PRODUCTION ELEMENTS**
+*   **Setting:** A clean, modern home office or living space. A dark floating shelf is visible in the background with a few aesthetic books.
+*   **Lighting:** Bright, even, and flattering—likely a ring light or a large window facing the creator.
+*   **Appearance:** Professional yet accessible. White lab coat, pink button-down shirt, gold pendant necklace, manicured nails, and a decorative butterfly pin.
+*   **Props:** The physical supplement bottle.
+*   **Captions:** There are no hardcoded running captions generated by the creator (relying instead on TikTok's native closed captioning UI).
+
+**DIMENSION 13 — STRUCTURAL SEQUENCE**
+*   **[0:00–0:03] The Hook:** Visual and verbal identification of fake/scam products vs. the real product.
+*   **[0:03–0:16] The Problem:** Explaining that viral success has led to dangerous copycat shops.
+*   **[0:16–0:21] Authority Establishment:** Showing her pharmacist license to build trust.
+*   **[0:21–0:39] The Solution / Education:** Step-by-step instructions on how to find the blue verification checkmark and avoid scrolling into fake listings.
+*   **[0:39–0:46] Industry Warning:** Reminder that supplements are poorly regulated, making brand quality vital.
+*   **[0:46–0:54] Value Proposition:** Brief explanation of what the product actually does (cures heavy bloating).
+*   **[0:54–1:04] Social Proof & CTA:** Showing scrolling 5-star reviews while directing viewers to the safe, official link in the orange cart below.

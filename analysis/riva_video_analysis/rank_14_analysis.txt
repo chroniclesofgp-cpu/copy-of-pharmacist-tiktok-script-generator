@@ -1,0 +1,103 @@
+# Riva (@adoseofwellness) — Rank 14 Deep Analysis
+**GMV:** $31,055
+**Product:** NeoCell Collagen Peptides Powder 20oz - Grassfed Protein Supplement - Advanced w
+**Duration:** 1m 10s
+**URL:** https://www.tiktok.com/@adoseofwellness/video/7580009112214195486
+**Description:** Increasing protein intake and adding collagen will be so beneficial for your muscles and skin while 
+
+---
+
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-6ec04635-82d4-4c5c-9c02-236ba8c16d7c)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[40s] Status: Analysis completed
+[40s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_rank_14_analysis_20260531_232125.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Here is a comprehensive 13-dimension conversion psychology analysis of the provided TikTok video:
+
+**1. VISUAL HOOK (0-3 seconds):**
+*   **Visuals:** A female creator with brown hair is sitting in a living room setting (Christmas tree and TV in the background). She is wearing a white lab coat over a white top, immediately establishing a medical/professional persona. 
+*   **On-Screen Elements:** In the top right corner, there is a close-up photo of the lower half of a face showing severe wrinkles, jowls, and sagging skin ("Ozempic face"). There are two prominent text boxes overlaid on the screen.
+
+**2. TEXT HOOK:**
+*   **Top Text Box:** Red background with white text, placed in the upper-middle section. Wording: "Tired of jowls, sagging skin, fine lines from a G̶L̶P-1" (Note: "GLP" has a strikethrough, a common tactic to bypass TikTok's health/weight loss content filters).
+*   **Bottom Text Box:** White background with black text, placed in the lower-middle section. Wording: "From a Pharmacist".
+
+**3. SPOKEN HOOK:**
+*   **Verbatim:** "If your face has started to look sunken like this after being on the shot, it's not just weight loss. It is rapid muscle loss and collagen loss."
+*   **Timestamp:** 0:00 - 0:08
+
+**4. ON-SCREEN TEXT OVERLAYS:**
+*   **0:00 - 0:08:** "Tired of jowls, sagging skin, fine lines from a G̶L̶P-1" (Red box, white text) & "From a Pharmacist" (White box, black text). *Emphasizes the specific problem and the creator's authority.*
+*   **0:11 - 0:14:** A graphic pops up showing a "Licensee Detail" state registry page. The name and license number are redacted, but it clearly shows "License Type: Pharmacist". *Emphasizes and proves authority.*
+*   **0:18 - 0:23:** A screenshot of a Healthline article pops up. Headline: "W̶e̶i̶g̶h̶t̶ Loss: Eating More Protein May Prevent Muscle Loss From GLP-1 Drugs". *Emphasizes third-party medical validation.*
+*   **0:28 - 0:33:** A white text box with a red bullet point appears: "Increasing protein intake while taking GLP-1 drugs for w̶e̶i̶g̶h̶t̶ l̶o̶s̶s̶ could help prevent muscle loss, according to a new study." *Emphasizes scientific backing for the proposed solution.*
+*   **0:33 - 0:36:** Another white text box with a red bullet point appears: "As a common side effect of w̶e̶i̶g̶h̶t̶ l̶o̶s̶s̶, muscle loss could also lead to decreased bone density due to the effects on blood sugar management." *Emphasizes the severity of the problem (fear avoidance).*
+
+**5. CREDENTIAL DELIVERY:**
+*   **Visual:** The creator wears a white lab coat from the very first frame.
+*   **Text:** "From a Pharmacist" is displayed immediately at 0:00.
+*   **Spoken:** "I'm a retail pharmacist, so I counsel patients on their side effects of being on a GLP-1 all the time..." (0:11 - 0:16).
+*   **Visual Reinforcement:** At 0:11, she displays a screenshot of a Pharmacist Licensee Detail registry to visually prove her credentials.
+
+**6. PROBLEM/MECHANISM SECTION:**
+*   **Problem Framing:** The problem is framed as the negative aesthetic and physical side effects of popular weight-loss injections ("sunken" face, jowls, sagging skin).
+*   **Mechanism Explained:** She explains that the visual sagging isn't just fat loss, but "rapid muscle loss and collagen loss" (0:05). She then explains the solution mechanism: "Getting enough protein is essential for muscle loss because if you're probably not eating your best while being on the shot, you are likely losing a lot of muscle mass" (0:26). She follows up with, "And collagen will also help your skin be more plump, firm, and juicy" (0:36).
+*   **Visual Aids:** She uses the initial photo of the sagging face (0:00), the Healthline article (0:18), and study citations (0:28, 0:33) to visually back up the mechanism.
+
+**7. PRODUCT REVEAL:**
+*   **Timestamp:** 0:43
+*   **Method:** The creator physically lifts a large, light blue tub of the product into the frame.
+*   **Verbatim Spoken:** "A very easy way to get both of those in one supplement and something I always recommend is taking the NeoCell Collagen and Protein supplement. This has 18 grams of protein per serving, also has collagen right in it in one supplement."
+*   **Visual Emphasis:** She holds the tub close to the camera, pointing to the label as she lists the specs (18g protein, collagen).
+
+**8. PROOF/SOCIAL PROOF ELEMENTS:**
+*   **Authority Proof:** Pharmacist license registry shown at 0:11.
+*   **External/Scientific Proof:** Screenshot of a Healthline article (0:18) and text callouts referencing a "new study" (0:28).
+*   **Anecdotal Proof:** Mentioning "I counsel patients... all the time" (0:12) and "something I always recommend" (0:43) implies a track record of success with real people.
+
+**9. OBJECTION HANDLING:**
+*   **Objection:** Taking multiple different supplements is a hassle.
+    *   **Handling:** "A very easy way to get both of those in one supplement..." (0:40).
+*   **Objection:** Protein powders often taste bad or chalky.
+    *   **Handling:** "It's not flavored, so you can just put it right in your smoothie or a drink." (0:52).
+
+**10. CTA STRUCTURE:**
+*   **Verbatim Spoken:** "The best price for NeoCell products are on the TikTok shop, so I will leave the link down below. It's also on a great sale right now, so check that out and I would grab it quick before the price goes back up."
+*   **Timestamp:** 1:01 - 1:10
+*   **Urgency/Scarcity:** Highly utilized. "great sale right now", "grab it quick before the price goes back up."
+*   **Visual Elements:** The creator physically points her finger down toward the bottom left of the screen where the TikTok Shop cart icon appears (1:05).
+
+**11. REHOOK / MID-VIDEO RETENTION:**
+*   **0:08:** Curiosity Gap / Scene Cut: "And here's exactly how I tell my patients how to fix it."
+*   **0:11:** Pattern Interrupt: Pop-up graphic of the pharmacist license.
+*   **0:18 - 0:36:** Constant visual stimulation through a series of three different pop-up graphics (articles and studies) to keep the viewer's eyes moving.
+*   **0:43:** Visual Reveal: Bringing the large blue product tub into the frame.
+*   **0:56:** Physical Action: The creator touches her own jawline/face to visually demonstrate the "sagging looking face" she is trying to cure.
+
+**12. VIDEO FORMAT:**
+*   **Classification:** Talking Head / Expert Educational / Problem-Solution Pitch.
+
+**13. FUNNEL STAGE:**
+*   **Classification:** TOF (Top of Funnel) transitioning to MOF (Middle of Funnel).
+*   **Reasoning:** The video hooks a very broad, trending audience (people taking or interested in GLP-1 weight loss drugs) by addressing a known pain point ("Ozempic face"). It educates them on *why* it happens (TOF), and then introduces a specific product as the ultimate, convenient solution (MOF).
+
+**14. BUYER PSYCHOLOGY LEVERS:**
+*   **Cialdini Levers:**
+    *   **Authority (Primary):** The entire video is anchored on her being a pharmacist (lab coat, license, "my patients").
+    *   **Scarcity/Urgency (Primary):** Used heavily in the CTA to drive immediate action ("grab it quick").
+    *   **Social Proof (Secondary):** Citing external studies and Healthline articles.
+    *   **Reciprocity (Secondary):** Giving away free, valuable medical advice before asking for the sale.
+    *   **Liking (Secondary):** Professional, helpful, and empathetic tone.
+    *   **Commitment/Consistency (Absent).**
+*   **Desire Channels:**
+    *   **Appearance (Primary):** Fixing "jowls, sagging skin" to make skin "plump, firm, and juicy."
+    *   **Fear Avoidance (Primary):** Preventing a "sunken" face, muscle loss, and decreased bone density.
+    *   **Health (Primary):** Maintaining muscle mass and blood sugar management.
+    *   **Convenience (Secondary):** Getting two supplements in one unflavored powder.
+    *   **Social Approval (Absent).**
