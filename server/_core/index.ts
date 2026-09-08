@@ -9,6 +9,7 @@ import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 import { scheduledVideoAnalysisHandler } from "../scheduledVideoAnalysis";
+import fs from "fs";
 
 function isPortAvailable(port: number): Promise<boolean> {
   return new Promise(resolve => {
@@ -39,6 +40,12 @@ async function startServer() {
   registerOAuthRoutes(app);
   // Video file upload endpoint
   registerUploadRoute(app as unknown as import('express').Router);
+  // Serve video editor exports from outside git tracking directory
+  const exportStaticDir = "/home/ubuntu/webdev-static-assets/exports";
+  if (!fs.existsSync(exportStaticDir)) {
+    fs.mkdirSync(exportStaticDir, { recursive: true });
+  }
+  app.use("/api/exports", express.static(exportStaticDir));
   // Scheduled tasks — must be registered before tRPC fallthrough
   app.post("/api/scheduled/video-analysis", scheduledVideoAnalysisHandler);
   // tRPC API

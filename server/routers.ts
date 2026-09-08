@@ -9,6 +9,7 @@ import { vettingRouter } from "./routers/vetting";
 import { videolabRouter } from "./routers/videolab";
 import { commandCenterRouter } from "./routers/commandCenter";
 import { autoReportsRouter } from "./routers/autoReports";
+import { videoEditorRouter } from "./routers/videoEditor";
 
 export const appRouter = router({
   system: systemRouter,
@@ -30,6 +31,7 @@ export const appRouter = router({
   videolab: videolabRouter,
   commandCenter: commandCenterRouter,
   autoReports: autoReportsRouter,
+  videoEditor: videoEditorRouter,
 });
 
 export type AppRouter = typeof appRouter;

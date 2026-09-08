@@ -12,6 +12,7 @@ import VetProduct from './pages/VetProduct';
 import VideoLab from './pages/VideoLab';
 import CommandCenter from './pages/CommandCenter';
 import AutoReports from './pages/AutoReports';
+import VideoEditor from './pages/VideoEditor';
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function Router() {
       <Route path={"/bof"} component={BOF} />
       <Route path={"/vet"} component={VetProduct} />
       <Route path={"/videolab"} component={VideoLab} />
+      <Route path={"/editor"} component={VideoEditor} />
       <Route path={"/command"} component={CommandCenter} />
       <Route path={"/autoreports"} component={AutoReports} />
       <Route path={"/404"} component={NotFound} />

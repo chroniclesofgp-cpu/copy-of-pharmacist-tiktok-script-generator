@@ -534,3 +534,21 @@
 - [x] Complete first-party, evidence, shopper, creator-video, and competitive-decision research required by the protocol.
 - [x] Write and validate a complete fact-only product intelligence record — document integrity scan passed; 267 tests passed; production build passed.
 - [x] Save a checkpoint and deliver the intelligence record for campaign-planning review — checkpoint pending.
+
+
+## Independent Copy Baseline — September 8, 2026
+- [x] Record that this is an independent copy with fresh project history, deployment state, and empty database data.
+- [x] Record the copied project's current feature and technology baseline.
+- [x] Define the next task for this independent copy after user direction (Last-Take TikTok Video Editor MVP).
+
+
+## Last-Take TikTok Video Editor MVP — September 8, 2026
+- [x] Collect and inspect two representative clips plus the associated transcript.
+- [x] Support both one long raw video and multiple uploaded clips as MVP inputs.
+- [x] Detect repeated lines without requiring a script upload and keep the last detected take by default.
+- [x] Define and implement dead-air removal before any audio-bleed processing.
+- [x] Add an optional audio-bleed toggle that carries audio from each previous clip into the next edited clip after cuts are complete.
+- [x] Provide a review-and-approval workflow before export.
+- [x] Research publicly observable CutAI behavior and compare it with the proposed MVP.
+- [x] Define TikTok-first export defaults, including vertical 9:16 output unless testing indicates a better source-preserving behavior.
+- [x] Test the workflow against representative footage and save a working checkpoint.
