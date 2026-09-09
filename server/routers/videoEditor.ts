@@ -156,20 +156,35 @@ export const videoEditorRouter = router({
 
       // If text is still empty, look for matching transcript file or run transcription
       if (!text.trim() && resolvedPath) {
-        const dir = path.dirname(resolvedPath);
-        const base = path.basename(resolvedPath, path.extname(resolvedPath));
-        // Look for existing transcript
-        const files = fs.readdirSync(dir);
-        const matchTxt = files.find(f => f.startsWith(base) && f.endsWith(".txt") && f.includes("transcription"));
-        if (matchTxt) {
-          text = fs.readFileSync(path.join(dir, matchTxt), "utf-8");
-        } else {
+        let isLocalTranscriptFound = false;
+        const isRemoteUrl = resolvedPath.startsWith("http://") || resolvedPath.startsWith("https://");
+
+        if (!isRemoteUrl) {
+          try {
+            const dir = path.dirname(resolvedPath);
+            const base = path.basename(resolvedPath, path.extname(resolvedPath));
+            if (fs.existsSync(dir)) {
+              const files = fs.readdirSync(dir);
+              const matchTxt = files.find(f => f.startsWith(base) && f.endsWith(".txt") && f.includes("transcription"));
+              if (matchTxt) {
+                text = fs.readFileSync(path.join(dir, matchTxt), "utf-8");
+                isLocalTranscriptFound = true;
+              }
+            }
+          } catch {
+            // Ignore directory scan errors
+          }
+        }
+
+        if (!isLocalTranscriptFound) {
           // Extract lightweight audio track and transcribe via Whisper API
           const tempAudio = `/tmp/extract_${Date.now()}_${Math.random().toString(36).slice(2, 6)}.mp3`;
           try {
+            console.log(`[DetectTakes] Extracting audio track with ffmpeg from: ${resolvedPath.slice(0, 100)}...`);
             await execAsync(`ffmpeg -y -i "${resolvedPath}" -vn -acodec libmp3lame -ac 1 -ar 16000 -q:a 4 "${tempAudio}"`);
 
             if (fs.existsSync(tempAudio) && ENV.forgeApiUrl && ENV.forgeApiKey) {
+              console.log(`[DetectTakes] Audio extracted (${fs.statSync(tempAudio).size} bytes). Calling Whisper API...`);
               const audioBuffer = fs.readFileSync(tempAudio);
               const formData = new FormData();
               formData.append("file", new Blob([audioBuffer], { type: "audio/mpeg" }), "audio.mp3");
@@ -196,27 +211,34 @@ export const videoEditorRouter = router({
                     })
                     .join("\n");
 
-                  // Cache the generated transcription alongside the uploaded file
-                  const cachePath = path.join(dir, `${base}_transcription.txt`);
-                  fs.writeFileSync(cachePath, text, "utf-8");
+                  console.log(`[DetectTakes] Whisper returned ${whisperData.segments.length} segments.`);
+                  // Cache the generated transcription locally if on a filesystem path
+                  if (!isRemoteUrl) {
+                    try {
+                      const dir = path.dirname(resolvedPath);
+                      const base = path.basename(resolvedPath, path.extname(resolvedPath));
+                      const cachePath = path.join(dir, `${base}_transcription.txt`);
+                      fs.writeFileSync(cachePath, text, "utf-8");
+                    } catch {}
+                  }
                 }
               } else {
                 const errText = await whisperRes.text().catch(() => "");
                 extractionError = `Whisper API HTTP ${whisperRes.status}: ${errText.slice(0, 100)}`;
-                console.error("Whisper error:", whisperRes.status, errText);
+                console.error("[DetectTakes] Whisper error:", whisperRes.status, errText);
               }
             }
           } catch (audioErr: any) {
             extractionError = audioErr.message || String(audioErr);
-            console.error("Audio extraction / Whisper failed:", audioErr);
+            console.error("[DetectTakes] Audio extraction / Whisper failed:", audioErr);
           } finally {
             try {
               if (fs.existsSync(tempAudio)) fs.unlinkSync(tempAudio);
             } catch {}
           }
 
-          // Fallback to manus-speech-to-text if still empty and tool is present
-          if (!text.trim()) {
+          // Fallback to manus-speech-to-text if still empty and tool is present on a local file
+          if (!text.trim() && !isRemoteUrl) {
             try {
               const { stdout } = await execAsync(`manus-speech-to-text "${resolvedPath}"`);
               const txtMatch = stdout.match(/Plain text transcription saved to (.*\.txt)/);

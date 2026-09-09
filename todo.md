@@ -580,3 +580,8 @@
 - [x] Support streaming audio extraction and video cutting directly from CloudFront URLs in detectTakes and renderVideo
 - [x] Upload final rendered TikTok MP4s to S3 and return permanent CloudFront download links
 - [x] Verify end-to-end upload, transcription, take detection, and rendering with sample footage and save checkpoint
+
+## Remote CloudFront URL Handling in detectTakes — September 8, 2026
+- [x] Guard detectTakes against calling fs.readdirSync on remote HTTP/HTTPS CloudFront URLs
+- [x] Add robust logging for audio extraction and Whisper API status
+- [x] Verify test suite and save working checkpoint
