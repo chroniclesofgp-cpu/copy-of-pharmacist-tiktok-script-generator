@@ -4,6 +4,7 @@ import { radarCandidates, radarDailySales, radarImports, radarProfiles } from ".
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
 import { calculateRadarMetrics, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, parseRadarCsv, suggestedReviewStatus, type RadarProfileConfig } from "../radar";
+import { defaultKalodataAdapter } from "../kalodata";
 
 const profileSchema = z.object({
   minTotalSales: z.number().nonnegative(), maxTotalSales: z.number().positive(), matureAgeDays: z.number().positive(), veryNewAgeDays: z.number().positive(), matureWindowDays: z.number().positive(), newWindowDays: z.number().positive(), accelerationStartingPct: z.number().nonnegative(), accelerationClearPct: z.number().nonnegative(), accelerationStrongPct: z.number().nonnegative(), stableDaysRequired: z.number().int().positive(), stableVariancePct: z.number().nonnegative(), strongDayUnits: z.number().nonnegative(), strongDaysMinimum: z.number().int().nonnegative(), latestDayAccelerationMultiplier: z.number().positive(), videoSharePreferredPct: z.number().nonnegative(), videoShareMinimumPct: z.number().nonnegative(), topVideoSpreadMaxPct: z.number().nonnegative(), topVideoWatchMaxPct: z.number().nonnegative(), ratingMinimum: z.number().nonnegative(), commissionAfterAdsMinimumPct: z.number().nonnegative(),
@@ -83,4 +84,138 @@ export const radarRouter = router({
     await db.update(radarCandidates).set({ handoffStatus: "handed_off_to_campaign_planning" }).where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)));
     return { success: true, handoffStatus: "handed_off_to_campaign_planning" };
   }),
+  getKalodataStatus: publicProcedure.query(async () => {
+    return {
+      hasKey: defaultKalodataAdapter.hasKey(),
+      maskedKey: defaultKalodataAdapter.getMaskedKey(),
+    };
+  }),
+  searchKalodata: publicProcedure
+    .input(
+      z.object({
+        keyword: z.string().min(1).max(100),
+        region: z.string().default("US"),
+        maxCandidates: z.number().int().min(1).max(20).default(5),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      if (!defaultKalodataAdapter.hasKey()) {
+        throw new Error("Kalodata API Key is not configured. Please ensure KALODATA_API_KEY is set.");
+      }
+      const userId = getEffectiveUserId(ctx);
+      const db = await getDb();
+      if (!db) throw new Error("Database unavailable");
+
+      const rankItems = await defaultKalodataAdapter.searchProducts({
+        keyword: input.keyword,
+        region: input.region,
+        dateRange: "last7Day",
+        pageNumber: 1,
+      });
+
+      if (!rankItems.length) {
+        return { success: true, count: 0, candidateIds: [], message: `No products found on Kalodata for "${input.keyword}".` };
+      }
+
+      const toProcess = rankItems.slice(0, input.maxCandidates);
+      const createdIds: number[] = [];
+
+      for (const rankItem of toProcess) {
+        try {
+          const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
+            rankItem.product_id,
+            rankItem,
+            input.region
+          );
+          const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
+          const metrics = calculateRadarMetrics(rawRow, DEFAULT_RADAR_PROFILE);
+
+          const [candidate] = await db
+            .insert(radarCandidates)
+            .values({
+              userId,
+              provider: "Kalodata",
+              externalProductId: rankItem.product_id,
+              productName: rawRow.productName,
+              category: rawRow.category ?? null,
+              productUrl: rawRow.productUrl ?? null,
+              productAgeDays: rawRow.productAgeDays ?? null,
+              rawDataJson: JSON.stringify(snapshot),
+              metricsJson: JSON.stringify(metrics),
+              confidenceNotes: metrics.confidenceNotes.join(" "),
+              creatorFitJson: JSON.stringify({
+                mechanismCredibility: "",
+                audienceRelevance: "",
+                availableFootage: "",
+                evidenceSupport: "",
+                notes: "",
+              }),
+              reviewStatus: suggestedReviewStatus(metrics),
+              handoffStatus: "not_ready",
+              evidenceGateStatus: "not_reviewed",
+            })
+            .$returningId();
+
+          createdIds.push(candidate.id);
+
+          if (rawRow.dailySales.length) {
+            await db.insert(radarDailySales).values(
+              rawRow.dailySales.map((sale) => ({
+                candidateId: candidate.id,
+                salesDate: sale.date,
+                units: sale.units,
+                rawDataJson: JSON.stringify(sale),
+              }))
+            );
+          }
+        } catch (itemErr) {
+          console.error(`[Kalodata] Error importing product ${rankItem.product_id}:`, itemErr);
+        }
+      }
+
+      return {
+        success: true,
+        count: createdIds.length,
+        candidateIds: createdIds,
+        message: `Successfully imported ${createdIds.length} product(s) via Kalodata live API.`,
+      };
+    }),
+  refreshCandidateFromKalodata: publicProcedure
+    .input(z.object({ id: z.number() }))
+    .mutation(async ({ ctx, input }) => {
+      const userId = getEffectiveUserId(ctx);
+      const db = await getDb();
+      if (!db) throw new Error("Database unavailable");
+
+      const rows = await db
+        .select()
+        .from(radarCandidates)
+        .where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)))
+        .limit(1);
+
+      const candidate = rows[0];
+      if (!candidate) throw new Error("Candidate not found");
+      if (!candidate.externalProductId) {
+        throw new Error("Candidate does not have a Kalodata Product ID to refresh.");
+      }
+
+      const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(candidate.externalProductId);
+      const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
+      const newMetrics = calculateRadarMetrics(rawRow, DEFAULT_RADAR_PROFILE);
+
+      await db
+        .update(radarCandidates)
+        .set({
+          rawDataJson: JSON.stringify(snapshot),
+          metricsJson: JSON.stringify(newMetrics),
+          confidenceNotes: newMetrics.confidenceNotes.join(" "),
+        })
+        .where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)));
+
+      return {
+        success: true,
+        fetchedAt: snapshot.fetchedAt,
+        metrics: newMetrics,
+      };
+    }),
 });

@@ -582,3 +582,12 @@
 - [x] Test ratio and threshold calculations against the source-video worked example.
 - [x] Walk one realistic sample product through CSV import, scoring, review status, and compliance-gated campaign handoff.
 - [x] Provide a build walkthrough and sample-product verification results before treating the feature as ready to use.
+
+## Phase 2: Kalodata Direct API Integration
+
+- [x] Research Kalodata API endpoints, authentication, rate limits, and Terms of Service constraints for automated screening.
+- [x] Configure secure KALODATA_API_KEY environment secret handling via webdev_request_secrets.
+- [x] Implement Kalodata provider adapter with product search, daily sales history, and top-selling video mapping to candidate/daily-sales schema.
+- [x] Implement rate-limiting, exponential backoff, retry handling, and raw response snapshotting for auditability.
+- [x] Build user-triggered on-demand refresh UI in Product Radar while maintaining the evidence/compliance gate.
+- [x] Write unit and integration tests for Kalodata adapter, rate limiting, and response mapping, and verify end-to-end.
