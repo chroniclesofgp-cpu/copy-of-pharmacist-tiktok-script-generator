@@ -6,6 +6,7 @@ import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerUploadRoute } from "../uploadRoute";
 import { registerVideoEditorUploadRoute } from "../routers/videoEditorUpload";
+import { EXPORT_DIR } from "../lib/editorPaths";
 import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
@@ -44,11 +45,7 @@ async function startServer() {
   // Multi-clip video editor upload endpoint (streamed to disk up to 2GB)
   registerVideoEditorUploadRoute(app as unknown as import('express').Router);
   // Serve video editor exports from outside git tracking directory
-  const exportStaticDir = "/home/ubuntu/webdev-static-assets/exports";
-  if (!fs.existsSync(exportStaticDir)) {
-    fs.mkdirSync(exportStaticDir, { recursive: true });
-  }
-  app.use("/api/exports", express.static(exportStaticDir));
+  app.use("/api/exports", express.static(EXPORT_DIR));
   // Scheduled tasks — must be registered before tRPC fallthrough
   app.post("/api/scheduled/video-analysis", scheduledVideoAnalysisHandler);
   // tRPC API

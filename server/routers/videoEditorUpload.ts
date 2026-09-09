@@ -2,16 +2,7 @@ import { Router } from "express";
 import multer from "multer";
 import fs from "fs";
 import path from "path";
-
-const UPLOAD_DIR = "/home/ubuntu/upload";
-const CHUNK_DIR = "/tmp/video_chunks";
-
-if (!fs.existsSync(UPLOAD_DIR)) {
-  fs.mkdirSync(UPLOAD_DIR, { recursive: true });
-}
-if (!fs.existsSync(CHUNK_DIR)) {
-  fs.mkdirSync(CHUNK_DIR, { recursive: true });
-}
+import { UPLOAD_DIR, CHUNK_DIR } from "../lib/editorPaths";
 
 // Stream directly to disk to handle large 4K iPhone video files (up to 2GB) without blowing server RAM
 const diskStorage = multer.diskStorage({

@@ -568,3 +568,8 @@
 - [x] Add root Dockerfile with ffmpeg for Cloud Run production deployment
 - [x] Implement server-side audio extraction and Forge Whisper API transcription in detectTakes
 - [x] Verify end-to-end transcription and take detection on uploaded footage and save checkpoint
+
+## Production Container Path & Cloud Run Fix — September 8, 2026
+- [x] Replace hardcoded /home/ubuntu paths with container-compatible UPLOAD_DIR and EXPORT_DIR (/tmp/video_uploads and /tmp/video_exports)
+- [x] Ensure automatic directory creation and static mount in server/_core/index.ts, videoEditor.ts, and videoEditorUpload.ts
+- [x] Test upload, audio extraction, Whisper transcription, and take assembly end-to-end and save checkpoint

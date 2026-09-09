@@ -6,6 +6,7 @@ import { exec } from "child_process";
 import { promisify } from "util";
 import { publicProcedure, router } from "../_core/trpc";
 import { ENV } from "../_core/env";
+import { UPLOAD_DIR, EXPORT_DIR } from "../lib/editorPaths";
 import {
   parseTranscriptText,
   detectTakesAndGroups,
@@ -19,14 +20,6 @@ import {
 } from "../../shared/videoEditorTypes";
 
 const execAsync = promisify(exec);
-
-const UPLOAD_DIR = "/home/ubuntu/upload";
-const EXPORT_DIR = "/home/ubuntu/webdev-static-assets/exports";
-
-// Ensure exports directory exists
-if (!fs.existsSync(EXPORT_DIR)) {
-  fs.mkdirSync(EXPORT_DIR, { recursive: true });
-}
 
 const SAMPLE_CLIPS: Record<string, SampleClipMetadata> = {
   IMG_7546: {
