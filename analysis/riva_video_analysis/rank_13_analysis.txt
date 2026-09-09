@@ -1,0 +1,100 @@
+# Riva (@adoseofwellness) — Rank 13 Deep Analysis
+**GMV:** $32,663
+**Product:** Micro Ingredients Turmeric Curcumin 1,000mg | 95% Curcuminoids with Black Pepper
+**Duration:** 1m 24s
+**URL:** https://www.tiktok.com/@adoseofwellness/video/7552950350601391390
+**Description:** This is the best way to get the benefits of your turmeric supplement for joint pain and inflammation
+
+---
+
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-36fd1bd2-853c-4719-a858-ee586773d920)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[46s] Status: Analysis completed
+[46s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_rank_13_analysis_20260531_232042.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Here is the comprehensive 14-dimension conversion psychology analysis of the provided TikTok video:
+
+**1. VISUAL HOOK (0-3 seconds)**
+*   **Visuals:** The video opens with a woman wearing a professional white lab coat over a striped shirt, sitting in what appears to be a pharmacy with shelves of medication boxes in the background. She is looking directly at the camera while actively using a metal spatula to count white capsules on a clear plastic pharmacy pill-counting tray. A blue pill counter tube is also visible. 
+*   **Action:** The continuous, slightly ASMR-like action of counting pills provides immediate dynamic movement that holds the eye.
+
+**2. TEXT HOOK**
+*   **Top Overlay:** "How to take TURMERIC correctly for joint pain ‼️" (Black text on a white rectangular background, centered at the top. "TURMERIC" is capitalized for emphasis).
+*   **Middle Overlay:** "From a Pharmacist" (White text on a red rectangular background, placed right below her face).
+*   **Timing:** Both appear exactly at 0:00 and stay on screen until 0:08.
+
+**3. SPOKEN HOOK**
+*   **Verbatim:** "This is the correct way to take turmeric, and if you don't believe me, I'm a retail pharmacist. Supplements and counseling are my thing."
+*   **Timestamp:** 0:00 - 0:07
+
+**4. ON-SCREEN TEXT OVERLAYS**
+*   **0:00 - 0:08:** "How to take TURMERIC correctly for joint pain ‼️" (White box, black text) & "From a Pharmacist" (Red box, white text). *Emphasizes the topic and authority.*
+*   **0:08 - 0:14:** A graphic pops up on the right side. Title: "Curcumin, a powerful anti-inflammatory agent". Body text: "Curcumin, the colourant in turmeric, is rich in polyphenols and blocks one of the metabolic pathways leading to inflammation, reducing the effects of pathologies such as osteoarthritis and metabolic syndrome. It also has beneficial effects for people without any diagnosed ailment." Includes an image of turmeric root and powder. *Emphasizes scientific backing.*
+*   **0:27 - 0:34:** An infographic pops up on the right side. Title: "WHAT CAN TURMERIC CURCUMIN DO FOR YOU?". It features a human body outline with arrows pointing to benefits: "Supports a Healthy Inflammation Response", "Helps Support Healthy Digestion", "Promotes Healthy Cholesterol", "Joint & Mobility Support", "Supports Healthy Blood Sugar Levels", "Cardiovascular Support", "Promotes Healthy Brain Function". *Emphasizes broad health benefits.*
+*   **0:36 - 0:41:** A graphic pops up at the top. Title: "2,000% ↑". Body text: "The combination of Black Pepper and MCT Oil can enhance curcumin absorption by up to 2,000%." *Emphasizes a shocking statistic and mechanism of action.*
+*   **1:11 - 1:15:** A large red arrow pointing downwards appears on the screen. *Visual cue directing viewers to the TikTok Shop link.*
+
+**5. CREDENTIAL DELIVERY**
+*   **Verbatim:** "...and if you don't believe me, I'm a retail pharmacist. Supplements and counseling are my thing."
+*   **Timestamp:** 0:02 - 0:07
+*   **Visual Reinforcement:** She is wearing a white pharmacist's coat, sitting in a pharmacy setting with stocked shelves, and professionally handling a pill-counting tray and spatula. This creates immediate, undeniable visual authority.
+
+**6. PROBLEM/MECHANISM SECTION**
+*   **Problem Framing:** Joint pain and inflammation are established immediately in the text hook and spoken hook.
+*   **Mechanism 1 (Active Ingredient):** "Turmeric has been shown to be a very powerful anti-inflammatory because of its active compound called curcumin." (0:08 - 0:14, supported by a scientific pop-up).
+*   **Mechanism 2 (Dosage):** "But in order to get all of the benefits of curcumin, you need to make sure you're taking the right dose... you need to take at least 500 milligrams to 1,000 milligrams of turmeric per day." (0:14 - 0:27).
+*   **Mechanism 3 (Absorption):** "...your turmeric supplement needs to have black pepper extract in it and a carrier oil. Those two things are going to increase the absorption rate by 2,000%." (0:34 - 0:45, supported by the "2,000% ↑" graphic).
+
+**7. PRODUCT REVEAL**
+*   **Timestamp:** 0:52 - 0:58
+*   **Verbatim:** "My favorite supplement I found that has all of those things, the right dose, the things that it needs to be absorbed, was the Micro Ingredients Turmeric."
+*   **Visual Method:** At exactly 0:57, she lifts the white bottle with the orange label ("Turmeric Curcumin 95%") into the frame, holding it next to her face while continuing to speak.
+
+**8. PROOF/SOCIAL PROOF ELEMENTS**
+*   **Scientific Proof:** The use of three distinct infographic pop-ups (0:08, 0:27, 0:36) acts as visual "proof" of her claims regarding inflammation, bodily benefits, and the 2,000% absorption rate.
+*   **Social Proof:** "This has gone crazy viral on TikTok Shop." (1:11 - 1:14).
+
+**9. OBJECTION HANDLING**
+*   **Objection Addressed:** "I've tried turmeric before and it didn't do anything for me." (Implicit objection).
+*   **How it's handled:** She addresses this by explaining *why* previous attempts likely failed—poor absorption. 
+*   **Verbatim:** "If you don't take it with those two things [black pepper and carrier oil], you're not going to get any benefits because it won't be absorbed." (0:45 - 0:51).
+
+**10. CTA STRUCTURE**
+*   **Verbatim:** "I will leave the link for this in the orange shopping cart. This has gone crazy viral on TikTok Shop. So if you see that it's still in stock, I highly suggest grabbing it quick because it's also on sale right now."
+*   **Timestamp:** 1:10 - 1:18
+*   **Urgency/Scarcity:** "crazy viral", "if you see that it's still in stock", "highly suggest grabbing it quick", "on sale right now".
+*   **Visual Elements:** A large red arrow appears (1:11) pointing directly down to where the TikTok Shop link is located on the user's screen.
+
+**11. REHOOK / MID-VIDEO RETENTION**
+*   **0:08:** Visual interrupt (Curcumin infographic pops up).
+*   **0:14:** Curiosity gap ("But in order to get all of the benefits of curcumin, you need to make sure...")
+*   **0:27:** Visual interrupt (Body benefits infographic pops up).
+*   **0:36:** Visual interrupt (2,000% absorption graphic pops up).
+*   **0:45:** Fear avoidance tactic ("If you don't take it with those two things, you're not going to get any benefits...").
+*   **0:57:** Scene change/Prop introduction (Product is finally revealed).
+*   **Continuous:** The physical act of sorting pills on the tray acts as a constant, low-level visual retention tool throughout the first half of the video.
+
+**12. VIDEO FORMAT**
+*   **Format Classification:** Educational Expert Walkthrough / Talking Head. The creator leverages professional authority and educational value to build trust before seamlessly transitioning into a product pitch.
+
+**13. FUNNEL STAGE**
+*   **Classification:** MOF (Middle of Funnel) transitioning to BOF (Bottom of Funnel).
+*   **Reasoning:** The audience is likely problem-aware (they have joint pain) and solution-aware (they know about turmeric). The video serves to educate them on *why* their current solution isn't working (lack of absorption) and introduces the specific product as the ultimate fix. The strong, scarcity-driven CTA at the end pushes it into BOF territory to close the sale.
+
+**14. BUYER PSYCHOLOGY LEVERS**
+*   **Authority:** PRIMARY. This is the driving force of the video. The lab coat, the pharmacy setting, the pill tray, and the opening statement ("I'm a retail pharmacist") establish absolute trust.
+*   **Scarcity/Urgency:** PRIMARY. Used heavily in the CTA ("viral," "if it's still in stock," "grab it quick," "on sale").
+*   **Reciprocity:** SECONDARY. She provides 50 seconds of genuine, valuable medical education (dosage amounts, absorption mechanics) before ever showing a product.
+*   **Social Proof:** SECONDARY. Mentioning that the product is "crazy viral."
+*   **Liking:** SECONDARY. She speaks clearly, maintains eye contact, and presents herself as a helpful professional.
+*   **Commitment/Consistency:** ABSENT.
+*   **Desire Channels Activated:**
+    *   **Health (Primary):** Relief from joint pain, inflammation, and stiff knees/elbows.
+    *   **Fear Avoidance (Secondary):** The fear of wasting money on supplements that your body just passes through without absorbing.
+    *   **Convenience (Secondary):** Finding an all-in-one pill that already contains the turmeric, pepper, and oil.

@@ -1,0 +1,6 @@
+like_rate=1.2655%
+share_rate=0.3274%
+save_rate=1.5133%
+follower_rate=0.0914%
+completion_rate=1.4800%
+avg_watch_pct=16.2066%

@@ -1,0 +1,88 @@
+Starting Speech-to-Text conversion...
+Video file detected: dr_faith_7616536357099408671.mp4, file size: 16.69 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: dr_faith_7616536357099408671_converted_20260903_054811.mp3
+Transcribing audio file: dr_faith_7616536357099408671_converted_20260903_054811.mp3, file size: 1.14 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 149.7 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:02.7] Neocell versus Micro Ingredients' collagen, who did it better?
+[00:02.7 - 00:02.9] I'm Dr.
+[00:02.9 - 00:03.6] Faith Coates.
+[00:03.6 - 00:08.3] Let's break down the most viral collagen products on TikTok so you can pick which one's best for you.
+[00:08.3 - 00:15.1] First off, collagen is one of the most abundant things in your body, and you start losing collagen 1% every year, starting in your 20s.
+[00:15.1 - 00:25.2] Collagen is responsible for almost all structural components in your body, including everything from bones to joints, to gut lining, to skin, to hair, which is why when you're deficient in it, you start seeing
+[00:25.2 - 00:29.9] signs of aging, creaking, cracking, as well as some gut health issues.
+[00:29.9 - 00:36.0] While I love Neocell and Micro Ingredients, you might wanna pick one over the other, even though they're both really good collagen.
+[00:36.0 - 00:43.4] First, they're both hydrolyzed, which means they're broken down into components that your body can actually absorb, and that's going to make them more bioavailable.
+[00:43.4 - 00:49.7] They're also both really clean, where they don't have any other active ingredients like magnesium stearate and silicone dioxide.
+[00:49.7 - 00:53.3] And that's kind of where the similarities end and the differences begin.
+[00:53.3 - 01:01.2] Side note, I know Neocell has a collagen supplement, but a lot of them are capsules, and some people have a hard time taking that many capsules 'cause you need, like, six of them.
+[01:01.2 - 01:08.6] This particular collagen is great for somebody who's trying to increase their protein levels, because it does have 18 grams of protein and 20 grams of collagen.
+[01:08.6 - 01:12.6] Now, there's different kinds of collagen peptides in here because they're derived from different things.
+[01:12.6 - 01:22.7] Neocell is made with bovine, which means it's only gonna have type I and III in it, versus the Micro Ingredients having type I, II, III, V, and X, which are gonna be derived from fish,
+[01:22.7 - 01:24.2] chicken, and bovine.
+[01:24.2 - 01:33.0] Micro Ingredients also has hyaluronic acid, vitamin C, and biotin in it, which is going to help cross-link prolines, as well as give some support to the skin, hair, nails, and joints.
+[01:33.0 - 01:37.5] Micro Ingredients gives you a little over five grams with these two small scoops.
+[01:37.5 - 01:40.8] Neocell's gonna give you 20 grams, but it is a much larger scoop.
+[01:40.8 - 01:43.6] We got two cups of lukewarm water that we can dissolve.
+[01:43.6 - 01:49.4] This is the Mic- the Micro Ingredients, and this is the Neocell, and you can see how fast they dissolve on their own.
+[01:49.4 - 01:53.6] I would say that Micro Ingredients does dissolve much faster.
+[01:53.6 - 01:56.9] Neocell does take a hot minute, but it dissolves pretty fast too.
+[01:56.9 - 01:58.3] So here's my opinion as a doctor.
+[01:58.3 - 02:06.9] If you are looking for something to build protein back, or if you're on GLP or something where you need to have a high amount of collagen and protein, Neocell is great for that.
+[02:06.9 - 02:14.7] If you're just looking for a straight collagen that has a lot more benefits and is a clean ingredient, I highly recommend picking up the Micro Ingredients' Multi-Collagen.
+[02:14.7 - 02:17.1] I have both of these in my showcase, so you can check it out for yourself.
+[02:17.1 - 02:23.6] Today, they have it on a flash sale, and you can pick it up for a couple dollars cheaper, and then I can put a coupon code right in the comments for you.
+[02:23.6 - 02:29.5] But I would definitely not sleep on this if you are looking for a really decent collagen that's easy to take, and you don't have to take capsules.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/comparison-videos/dr_faith_7616536357099408671_converted_20260903_054811_transcription_20260903_054820.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/comparison-videos/dr_faith_7616536357099408671_converted_20260903_054811_transcription_20260903_054820.txt
+
+The video has been automatically converted to an audio file and saved at dr_faith_7616536357099408671_converted_20260903_054811.mp3
+[2J[H[3Jmanus-speech-to-text dr_faith_7616536357099408671.mp4
+Starting Speech-to-Text conversion...
+Video file detected: dr_faith_7616536357099408671.mp4, file size: 16.69 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: dr_faith_7616536357099408671_converted_20260903_054811.mp3, file size: 1.14 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:02.7] Neocell versus Micro Ingredients' collagen, who did it better?
+[00:02.7 - 00:02.9] I'm Dr.
+[00:02.9 - 00:03.6] Faith Coates.
+[00:03.6 - 00:08.3] Let's break down the most viral collagen products on TikTok so you can pick which one's best for you.
+[00:08.3 - 00:15.1] First off, collagen is one of the most abundant things in your body, and you start losing collagen 1% every year, starting in your 20s.
+[00:15.1 - 00:25.2] Collagen is responsible for almost all structural components in your body, including everything from bones to joints, to gut lining, to skin, to hair, which is why when you're deficient in it, you start seeing
+[00:25.2 - 00:29.9] signs of aging, creaking, cracking, as well as some gut health issues.
+[00:29.9 - 00:36.0] While I love Neocell and Micro Ingredients, you might wanna pick one over the other, even though they're both really good collagen.
+[00:36.0 - 00:43.4] First, they're both hydrolyzed, which means they're broken down into components that your body can actually absorb, and that's going to make them more bioavailable.
+[00:43.4 - 00:49.7] They're also both really clean, where they don't have any other active ingredients like magnesium stearate and silicone dioxide.
+[00:49.7 - 00:53.3] And that's kind of where the similarities end and the differences begin.
+[00:53.3 - 01:01.2] Side note, I know Neocell has a collagen supplement, but a lot of them are capsules, and some people have a hard time taking that many capsules 'cause you need, like, six of them.
+[01:01.2 - 01:08.6] This particular collagen is great for somebody who's trying to increase their protein levels, because it does have 18 grams of protein and 20 grams of collagen.
+[01:08.6 - 01:12.6] Now, there's different kinds of collagen peptides in here because they're derived from different things.
+[01:12.6 - 01:22.7] Neocell is made with bovine, which means it's only gonna have type I and III in it, versus the Micro Ingredients having type I, II, III, V, and X, which are gonna be derived from fish,
+[01:22.7 - 01:24.2] chicken, and bovine.
+[01:24.2 - 01:33.0] Micro Ingredients also has hyaluronic acid, vitamin C, and biotin in it, which is going to help cross-link prolines, as well as give some support to the skin, hair, nails, and joints.
+[01:33.0 - 01:37.5] Micro Ingredients gives you a little over five grams with these two small scoops.
+[01:37.5 - 01:40.8] Neocell's gonna give you 20 grams, but it is a much larger scoop.
+[01:40.8 - 01:43.6] We got two cups of lukewarm water that we can dissolve.
+[01:43.6 - 01:49.4] This is the Mic- the Micro Ingredients, and this is the Neocell, and you can see how fast they dissolve on their own.
+[01:49.4 - 01:53.6] I would say that Micro Ingredients does dissolve much faster.
+[01:53.6 - 01:56.9] Neocell does take a hot minute, but it dissolves pretty fast too.
+[01:56.9 - 01:58.3] So here's my opinion as a doctor.
+[01:58.3 - 02:06.9] If you are looking for something to build protein back, or if you're on GLP or something where you need to have a high amount of collagen and protein, Neocell is great for that.
+[02:06.9 - 02:14.7] If you're just looking for a straight collagen that has a lot more benefits and is a clean ingredient, I highly recommend picking up the Micro Ingredients' Multi-Collagen.
+[02:14.7 - 02:17.1] I have both of these in my showcase, so you can check it out for yourself.
+[02:17.1 - 02:23.6] Today, they have it on a flash sale, and you can pick it up for a couple dollars cheaper, and then I can put a coupon code right in the comments for you.
+[02:23.6 - 02:29.5] But I would definitely not sleep on this if you are looking for a really decent collagen that's easy to take, and you don't have to take capsules.
+
+The video has been automatically converted to an audio file and saved at dr_faith_7616536357099408671_converted_20260903_054811.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/comparison-videos/dr_faith_7616536357099408671_converted_20260903_054811_transcription_20260903_054820.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/comparison-videos/dr_faith_7616536357099408671_converted_20260903_054811_transcription_20260903_054820.txt

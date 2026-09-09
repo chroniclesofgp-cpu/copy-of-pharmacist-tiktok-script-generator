@@ -1,0 +1,88 @@
+Starting Speech-to-Text conversion...
+Transcribing video file: /home/ubuntu/Downloads/fb_reference_2_progressive.mp4, file size: 2.28 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 92.8 seconds
+Language: eng
+Timestamped segments:
+[00:00.0 - 00:00.9] Dan Martell 10.
+[00:00.9 - 00:07.5] Buy Back Your Time is actually a great book, but if you hang around him for long enough, he might just ask you for your company's internal SOPs and then use them as lead magnets.
+[00:07.5 - 00:08.5] Just my experience.
+[00:08.5 - 00:09.7] Alex Hormozi Six.
+[00:09.7 - 00:12.3] Extremely intelligent, one of the entrepreneurs that I look up to.
+[00:12.3 - 00:13.8] I just don't resonate with his communication style.
+[00:13.8 - 00:14.9] Grant Cardone Eight.
+[00:14.9 - 00:17.5] Again, Grant Cardone is the GOAT when it comes to sales.
+[00:17.5 - 00:20.3] He's one of the original gangsters, but it was just past my generation.
+[00:20.3 - 00:21.5] Behrouz Kian Five.
+[00:21.5 - 00:23.3] I actually worked with Behrouz one-on-one.
+[00:23.3 - 00:25.4] I paid him $100,000 for Domination Year.
+[00:25.4 - 00:27.3] I believe he's an incredible man and an incredible leader.
+[00:27.3 - 00:28.5] Jeremy Haynes Three.
+[00:28.5 - 00:31.7] Jeremy is literally the GOAT when it comes to marketing.
+[00:31.7 - 00:36.1] There is nobody else in the space right now that understands ads on the level that Jeremy Haynes does.
+[00:36.1 - 00:37.1] Andy Elliot Seven.
+[00:37.1 - 00:41.3] It's undeniable what Andy Elliot has built, and his boys are some of my closest friends.
+[00:41.3 - 00:42.4] Taki Moore Four.
+[00:42.4 - 00:49.8] Taki literally took me from somebody that was making $30,000 a month in my business to somebody that was doing $600,000 a month by the time I graduated his program.
+[00:49.8 - 00:54.0] I literally owe this man my life, and I wouldn't even be close to the man that I am today if it wasn't for his mentorship.
+[00:54.0 - 00:55.4] Keaton Hoskins Two.
+[00:55.4 - 01:05.5] The reason I think that Keaton is one of the best entrepreneurs in the United States right now is because I've never seen one man be able to collectively bring all of some of the biggest names in the space together underneath one roof
+[01:05.5 - 01:06.1] for one mission.
+[01:06.1 - 01:07.5] Russell Brunson Nine.
+[01:07.5 - 01:08.3] Russell Brunson.
+[01:08.3 - 01:17.9] Again, this dude literally invented funnels and I feel like all of the work that people are doing right now that are making money through funnels and webinars, have to thank Russell Brunson for, like, really paving the way.
+[01:17.9 - 01:19.8] Gary Vaynerchuk Gary Vaynerchuk's number one.
+[01:19.8 - 01:21.3] You know, he's the best entrepreneur in the space.
+[01:21.3 - 01:27.5] He's been around the longest, and he's the one that carved the path for, I would say, 99% of entrepreneurs that are currently in the game right now.
+[01:27.5 - 01:28.5] For that reason, he's number one.
+[01:28.5 - 01:31.0] What do you agree or disagree with based on this list?
+[01:31.0 - 01:32.0] Comment below and let me know.
+[01:32.0 - 01:32.8] And who's your favorite?
+Complete transcription result saved to: /home/ubuntu/Downloads/fb_reference_2_progressive_transcription_20260816_173528.json
+Plain text transcription saved to: /home/ubuntu/Downloads/fb_reference_2_progressive_transcription_20260816_173528.txt
+[2J[H[3Jmanus-speech-to-text /home/ubuntu/Downloads/fb_reference_2_progressive.mp4
+Starting Speech-to-Text conversion...
+Transcribing video file: /home/ubuntu/Downloads/fb_reference_2_progressive.mp4, file size: 2.28 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:00.9] Dan Martell 10.
+[00:00.9 - 00:07.5] Buy Back Your Time is actually a great book, but if you hang around him for long enough, he might just ask you for your company's internal SOPs and then use them as lead magnets.
+[00:07.5 - 00:08.5] Just my experience.
+[00:08.5 - 00:09.7] Alex Hormozi Six.
+[00:09.7 - 00:12.3] Extremely intelligent, one of the entrepreneurs that I look up to.
+[00:12.3 - 00:13.8] I just don't resonate with his communication style.
+[00:13.8 - 00:14.9] Grant Cardone Eight.
+[00:14.9 - 00:17.5] Again, Grant Cardone is the GOAT when it comes to sales.
+[00:17.5 - 00:20.3] He's one of the original gangsters, but it was just past my generation.
+[00:20.3 - 00:21.5] Behrouz Kian Five.
+[00:21.5 - 00:23.3] I actually worked with Behrouz one-on-one.
+[00:23.3 - 00:25.4] I paid him $100,000 for Domination Year.
+[00:25.4 - 00:27.3] I believe he's an incredible man and an incredible leader.
+[00:27.3 - 00:28.5] Jeremy Haynes Three.
+[00:28.5 - 00:31.7] Jeremy is literally the GOAT when it comes to marketing.
+[00:31.7 - 00:36.1] There is nobody else in the space right now that understands ads on the level that Jeremy Haynes does.
+[00:36.1 - 00:37.1] Andy Elliot Seven.
+[00:37.1 - 00:41.3] It's undeniable what Andy Elliot has built, and his boys are some of my closest friends.
+[00:41.3 - 00:42.4] Taki Moore Four.
+[00:42.4 - 00:49.8] Taki literally took me from somebody that was making $30,000 a month in my business to somebody that was doing $600,000 a month by the time I graduated his program.
+[00:49.8 - 00:54.0] I literally owe this man my life, and I wouldn't even be close to the man that I am today if it wasn't for his mentorship.
+[00:54.0 - 00:55.4] Keaton Hoskins Two.
+[00:55.4 - 01:05.5] The reason I think that Keaton is one of the best entrepreneurs in the United States right now is because I've never seen one man be able to collectively bring all of some of the biggest names in the space together underneath one roof
+[01:05.5 - 01:06.1] for one mission.
+[01:06.1 - 01:07.5] Russell Brunson Nine.
+[01:07.5 - 01:08.3] Russell Brunson.
+[01:08.3 - 01:17.9] Again, this dude literally invented funnels and I feel like all of the work that people are doing right now that are making money through funnels and webinars, have to thank Russell Brunson for, like, really paving the way.
+[01:17.9 - 01:19.8] Gary Vaynerchuk Gary Vaynerchuk's number one.
+[01:19.8 - 01:21.3] You know, he's the best entrepreneur in the space.
+[01:21.3 - 01:27.5] He's been around the longest, and he's the one that carved the path for, I would say, 99% of entrepreneurs that are currently in the game right now.
+[01:27.5 - 01:28.5] For that reason, he's number one.
+[01:28.5 - 01:31.0] What do you agree or disagree with based on this list?
+[01:31.0 - 01:32.0] Comment below and let me know.
+[01:32.0 - 01:32.8] And who's your favorite?
+
+Completed transcription, JSON saved to /home/ubuntu/Downloads/fb_reference_2_progressive_transcription_20260816_173528.json
+Plain text transcription saved to /home/ubuntu/Downloads/fb_reference_2_progressive_transcription_20260816_173528.txt

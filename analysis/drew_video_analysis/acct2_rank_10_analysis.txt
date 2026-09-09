@@ -1,0 +1,90 @@
+=== DREW ACCOUNT 2 - RANK 10 ===
+Product: Brooke's Anti-Aging Bundle: NMN Complex 1000mg 120 Capsules & Astaxanthin 12mg 1
+GMV: $29,514
+URL: https://www.tiktok.com/@drew.review1/video/7605736101134830862
+Analyzed: 2026-05-31 23:47:13
+============================================================
+
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-cc6eba64-2c90-4476-bbe4-fcd3f4b5b8a4)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[40s] Status: Analysis completed
+[40s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_acct2_rank_10_analysis_20260531_234713.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Here is a detailed analysis of the TikTok video across the requested dimensions:
+
+**1. VISUAL HOOK (0-3 seconds):**
+The video opens with a medium shot of a woman looking directly at the camera. She is holding two products up near her face: a white bottle of Micro Ingredients NMN (purple label) in her right hand, and an orange pouch of Micro Ingredients Astaxanthin in her left hand. A text overlay is positioned at the top center of the screen.
+
+**2. TEXT HOOK:**
+Exact verbatim text: "How to Take Astaxanthin + NMN!"
+The text is white, placed on a solid purple rectangular background at the top center of the screen. There are no emojis.
+
+**3. SPOKEN HOOK:**
+Exact verbatim: "Here's how to take NMN and astaxanthin together correctly from a pancreatic cancer researcher and a naturopathic practitioner. These are both organic molecules that have really powerful anti-aging and antioxidant support."
+
+**4. CREDENTIAL DELIVERY:**
+Authority is established immediately in the spoken hook (0:02) when the creator states she is a "pancreatic cancer researcher and a naturopathic practitioner." No physical licenses or documents are shown on screen, but her authority is continuously reinforced throughout the video by the rapid-fire display of scientific study screenshots.
+
+**5. PROBLEM/MECHANISM SECTION:**
+*   **Problems named:** Aging, fine lines and wrinkles, hair and nail growth, inflammation, joint discomfort, and eye health.
+*   **Mechanism explained:** She explains they are "organic molecules" with "powerful anti-aging and antioxidant support." She notes that Astaxanthin is a "fat-soluble molecule" so it must be taken with fats for absorption. 
+*   **Visual Aids:** The video heavily relies on screenshots of scientific studies and infographics popping up on the left side of the screen to back her claims:
+    *   0:05: Study on NMN in anti-aging and chronic conditions.
+    *   0:09: Study on Astaxanthin for bone health.
+    *   0:12: Study on Astaxanthin for skin health.
+    *   0:15: Study on Astaxanthin for dry eye disease.
+    *   0:18: Infographic showing Astaxanthin is 6000x stronger than Vitamin C, 800x stronger than CoQ10, etc.
+    *   0:22: Study on NMN as an anti-aging supplement.
+    *   0:25: Study on NMN improving hair quality.
+    *   0:29: Study on NMN for muscle recovery.
+    *   0:33: Study on NMN for exercise tolerance.
+    *   0:36: Study on NMN for chronic insomnia.
+
+**6. PRODUCT REVEAL:**
+*   **Timestamp:** 0:00.
+*   **Verbatim language:** "Here's how to take NMN and astaxanthin together correctly..."
+*   **Visual method:** Both products are held up directly to the camera from the very first frame.
+
+**7. PROOF/SOCIAL PROOF:**
+*   **Scientific Proof:** The 9 distinct study screenshots and 1 infographic mentioned above.
+*   **Text Overlay (0:44):** A purple text box appears stating: "- made in USA / - third party tested / - tons of reviews (on main listings)".
+*   **Sales/Review Proof:** At 0:49, a TikTok Shop product card pops up for the NMN showing 4.6 stars and "36.6K sold". At 0:53, a product card for the bundle pops up showing "106 sold".
+
+**8. OBJECTION HANDLING:**
+*   **Objection: Absorption/How to take it.** Addressed at 0:26: "You could take both of these together in the morning and take them with food because they are fat-soluble molecules, especially astaxanthin, so make sure that whatever you're eating has fats in it."
+*   **Objection: Medication interactions.** Addressed at 0:34: "If you are currently on medication like blood thinners for example, please ask your doctor or pharmacist first before taking any of these supplements."
+*   **Objection: Pill fatigue/size.** Addressed at 0:40 visually and verbally. She shows the exact pills in her palm: "You only need one soft gel from astaxanthin and two capsules from the NMN formula."
+*   **Objection: Value/Supply.** Addressed at 0:44: "The astaxanthin is a 120-day supply and the NMN is a two-month supply."
+
+**9. CTA STRUCTURE:**
+*   **Timestamp:** 0:48 to end.
+*   **Verbatim CTA:** "And the great news is that normally if you buy them separately it would cost $70, but they have a flash sale deal for a bundle where you are saving an extra $15 plus free shipping. So if you want to check that out, I will leave the link right down here to their bundle so that you can see it for yourself. It's very limited in stock, it's such an amazing price right now, so check it out. If you have any questions, please let me know."
+*   **Scarcity/Urgency:** "flash sale deal", "very limited in stock", "amazing price right now".
+*   **Physical gestures:** At 0:57, she physically points her finger down towards the TikTok Shop link, accompanied by a large red arrow graphic pointing to the same spot.
+
+**10. REHOOK/MID-VIDEO RETENTION:**
+The primary retention mechanism is the continuous, fast-paced popping up of scientific studies on the screen, which keeps the visual field dynamic and reinforces authority. A major pattern interrupt occurs at 0:40 when the camera cuts from her face to a close-up of the pills in her hand, breaking up the talking-head format.
+
+**11. VIDEO FORMAT:**
+Educational Explainer / Expert Verdict. The video is framed as a "how-to" guide from a medical/scientific professional, which masks the underlying sales pitch until the final CTA.
+
+**12. FUNNEL STAGE:**
+MOF (Middle of Funnel) transitioning to BOF (Bottom of Funnel). The video assumes the viewer already has some interest in anti-aging or these specific supplements (since the hook is "How to take..." rather than "What is..."). It quickly moves through the benefits, handles specific buying objections (pill size, value, absorption), and ends with a strong, price-focused BOF push for a discounted bundle.
+
+**13. BUYER PSYCHOLOGY LEVERS:**
+*   **Authority:** Extremely high. Established verbally via her job titles and visually via the relentless barrage of PubMed/clinical trial screenshots.
+*   **Scarcity:** Explicitly used in the CTA ("flash sale", "limited in stock").
+*   **Liking/Trust:** Built by giving practical advice (take with fats) and responsible medical warnings (consult a doctor if on blood thinners), which makes her seem trustworthy rather than just a salesperson.
+*   **Desire channels:** 
+    *   *Health/Appearance:* Promises fixes for wrinkles, hair/nail growth, joint pain, and eye health.
+    *   *Financial:* Heavily leverages the bundle discount ("saving an extra $15 plus free shipping").
+
+**14. UNIQUE OR UNEXPECTED ELEMENTS:**
+*   **Density of Scientific Proof:** The sheer volume of clinical trial screenshots used as visual aids is unusually high for a short-form video, creating an overwhelming "wall of proof."
+*   **Medical Disclaimer:** Explicitly warning viewers on blood thinners to consult a doctor (0:34) is a rare and highly effective trust-building tactic in supplement marketing, as it positions the creator as a responsible practitioner rather than a desperate affiliate.

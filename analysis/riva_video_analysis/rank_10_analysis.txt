@@ -1,0 +1,84 @@
+# Riva (@adoseofwellness) — Rank 10 Deep Analysis
+**GMV:** $33,532
+**Product:** MaryRuth's Multivitamin + Hair Growth Gummies - With Lustriva - Formulated for T
+**Duration:** 34s
+**URL:** https://www.tiktok.com/@adoseofwellness/video/7477168309264321838
+**Description:** YES the best selling Mary Ruth’s liquid morning multivitamin plus hair growth is now available in a 
+
+---
+
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-b78f57ab-da83-4704-91ff-125a306130e8)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[41s] Status: Analysis completed
+[41s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_rank_10_analysis_20260531_231806.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Here is the comprehensive 13-dimension conversion psychology analysis of the provided TikTok video:
+
+**1. VISUAL HOOK (0-3 seconds)**
+The video immediately opens on a close-up, talking-head shot of a woman with long, thick brown hair (subtly reinforcing the product's end benefit). She is actively opening a white supplement bottle, pulling off the safety seal, and extracting a gummy. This immediate action creates motion that stops the scroll. 
+
+**2. TEXT HOOK**
+Two static text overlays appear immediately at 0:00 and remain for the entire video, placed in the top center of the screen:
+*   **Main Text:** "Clinically proven to GROW your hair 💇🏻‍♀️" (White text with a black outline for high contrast against the background).
+*   **Authority Tag:** "told by a pharmacist" (White text inside a solid red rectangular box, placed directly below the main text to immediately establish trust).
+
+**3. SPOKEN HOOK**
+*   **0:00:** "Finally Mary Ruth's came out with a gummy version of their Hair Growth Multivitamin."
+
+**4. ON-SCREEN TEXT OVERLAYS**
+*   **0:00 - 0:35:** "Clinically proven to GROW your hair 💇🏻‍♀️" (Top center, white text, black outline. Emphasizes the primary benefit).
+*   **0:00 - 0:35:** "told by a pharmacist" (Top center, white text in a red box. Emphasizes authority).
+*   **0:00 - 0:35:** Auto-generated captions appear at the bottom center (white text with a semi-transparent black background).
+*   **0:31 - 0:35:** A large, bright red arrow pointing downwards appears on the bottom left side of the screen. (Emphasizes the location of the TikTok Shop cart).
+
+**5. CREDENTIAL DELIVERY**
+Authority is established instantaneously at **0:00** via the red text box stating "told by a pharmacist." The creator does not waste spoken time introducing herself or her credentials; she lets the visual text do the heavy lifting, allowing her to jump straight into the product pitch while the viewer already views her as a credible medical professional. 
+
+**6. PROBLEM/MECHANISM SECTION**
+*   **Mechanism (0:07):** She states, "this contains Lustriva," naming the specific patented/branded ingredient responsible for the results. 
+*   **Problem Framing (0:21 - 0:28):** The problem isn't just hair loss; it's the inconvenience of the previous product format. She frames the problem as: "it's not always easy to take the liquid especially if you're on the go." The gummy is presented as the mechanism to solve this convenience issue.
+
+**7. PRODUCT REVEAL**
+*   **0:00:** The new gummy bottle is in her hand and being opened from the very first frame.
+*   **0:04:** She visually compares the new product to the old one by holding up the new, smaller white gummy bottle in her left hand and the large, original brown liquid bottle in her right hand. This visually demonstrates the evolution and convenience of the new product.
+
+**8. PROOF/SOCIAL PROOF ELEMENTS**
+*   **Clinical Proof (0:00):** The text overlay claims the product is "Clinically proven."
+*   **Study Citation/Timeline (0:14):** She verbally cites a specific timeline and result: "This has been proven to help grow thicker fuller hair in as little as three weeks."
+*   **Personal Proof (0:09 - 0:13):** She eats the gummy on camera, chews it, nods, and says, "they nailed it," providing real-time proof that the product tastes good.
+
+**9. OBJECTION HANDLING**
+*   **Objection 1: Taste.** Handled at **0:09** by eating it on camera and confirming "they nailed it."
+*   **Objection 2: Inconvenience/Travel.** Handled at **0:21**. Consumers who liked the liquid but hated traveling with it are addressed: "I love this especially for traveling because it's not always easy to take the liquid especially if you're on the go."
+*   **Objection 3: Dosage confusion.** Handled at **0:19**: "take two a day so easy to take."
+
+**10. CTA STRUCTURE**
+*   **Scarcity/Urgency (0:28):** "grab it quick before it's sold out because there is a limited stock for their launch."
+*   **Direct CTA (0:32):** "I have a link for you in the orange shopping cart check it out."
+*   **Visual Element (0:31):** A large red arrow pops up on the left side of the screen, pointing exactly to where the viewer needs to click, accompanied by her physically pointing her finger downward.
+
+**11. REHOOK / MID-VIDEO RETENTION**
+*   **0:04:** Pattern interrupt. She suddenly brings a massive bottle of liquid into the frame next to the small gummy bottle.
+*   **0:09:** Action interrupt. She stops talking to pop the gummy in her mouth and chew it.
+*   **0:24:** Visual callback. She brings the heavy liquid bottle back into the frame to reinforce the "hard to travel with" point.
+*   **0:31:** Visual pop-up. The red arrow appears to break the visual monotony of the talking head.
+
+**12. VIDEO FORMAT**
+Talking head / Direct-to-camera product review and comparison.
+
+**13. FUNNEL STAGE**
+**MOF (Middle of Funnel) transitioning to BOF (Bottom of Funnel).** 
+The creator starts with "Finally Mary Ruth's came out with...", implying the audience already has brand awareness of MaryRuth's and their viral liquid hair growth vitamin. The video is designed to convert existing fans of the brand to a new, more convenient product format, using heavy scarcity at the end to force a BOF purchasing decision.
+
+**14. BUYER PSYCHOLOGY LEVERS**
+*   **Authority (Cialdini): PRIMARY.** The "told by a pharmacist" tag frames the entire video. The viewer trusts her claims about "Lustriva" and "three weeks" because of this perceived medical background.
+*   **Scarcity (Cialdini): PRIMARY.** The CTA relies heavily on FOMO: "limited stock for their launch" and "before it's sold out."
+*   **Social Proof (Cialdini): SECONDARY.** Relies on the "clinically proven" text rather than user reviews.
+*   **Appearance/Health (Desire Channel): PRIMARY.** The core promise is "thicker fuller hair."
+*   **Convenience (Desire Channel): PRIMARY.** The entire existence of the product (and a large portion of the script) is based on the convenience of a gummy over a heavy liquid bottle for travel.

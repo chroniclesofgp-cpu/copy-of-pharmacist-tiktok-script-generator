@@ -1,0 +1,84 @@
+Starting Speech-to-Text conversion...
+Transcribing video file: category_scorecard.mp4, file size: 3.93 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 37.6 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:01.2] Bumbo floor seat Zero.
+[00:01.2 - 00:04.0] It's like putting your baby in a bowl, so it's not doing anything for their posture.
+[00:04.0 - 00:05.1] A baby bouncer.
+[00:05.1 - 00:05.5] 10.
+[00:05.5 - 00:06.8] The Bumbo multi-seat.
+[00:06.8 - 00:07.1] 10.
+[00:07.1 - 00:08.2] The sit me up chair.
+[00:08.2 - 00:08.6] Seven.
+[00:08.6 - 00:10.1] Again, we're compromising that posture.
+[00:10.1 - 00:11.8] Not really a seat, it's more like a sling.
+[00:11.8 - 00:12.7] Picler triangle.
+[00:12.7 - 00:13.1] 10.
+[00:13.1 - 00:14.2] A bath seat.
+[00:14.2 - 00:14.5] 10.
+[00:14.5 - 00:15.5] Door jumper.
+[00:15.5 - 00:15.9] Zero.
+[00:15.9 - 00:17.2] Inflatable baby chair.
+[00:17.2 - 00:17.7] Zero.
+[00:17.7 - 00:19.4] We need a more stable support surface.
+[00:19.4 - 00:20.5] Activity center.
+[00:20.5 - 00:23.0] Eight as long as their feet are flat with a slight knee bend.
+[00:23.0 - 00:24.4] IKEA highchair.
+[00:24.4 - 00:25.8] 10 as long as you add a footrest.
+[00:25.8 - 00:27.0] Hip carriers.
+[00:27.0 - 00:27.5] Seven.
+[00:27.5 - 00:30.4] It puts your baby in a good position but it can affect posture in the parent.
+[00:30.4 - 00:32.1] Lots of loading on just one hip.
+[00:32.1 - 00:32.9] Baby slings.
+[00:32.9 - 00:33.1] Four.
+[00:33.1 - 00:36.0] Puts your baby in a decent position but affects the parents posture.
+[00:36.0 - 00:36.8] A baby carrier.
+[00:36.8 - 00:37.3] 10
+Complete transcription result saved to: /home/ubuntu/instagram-source-test/category_scorecard_transcription_20260904_141313.json
+Plain text transcription saved to: /home/ubuntu/instagram-source-test/category_scorecard_transcription_20260904_141313.txt
+[2J[H[3Jmanus-speech-to-text category_scorecard.mp4
+Starting Speech-to-Text conversion...
+Transcribing video file: category_scorecard.mp4, file size: 3.93 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:01.2] Bumbo floor seat Zero.
+[00:01.2 - 00:04.0] It's like putting your baby in a bowl, so it's not doing anything for their posture.
+[00:04.0 - 00:05.1] A baby bouncer.
+[00:05.1 - 00:05.5] 10.
+[00:05.5 - 00:06.8] The Bumbo multi-seat.
+[00:06.8 - 00:07.1] 10.
+[00:07.1 - 00:08.2] The sit me up chair.
+[00:08.2 - 00:08.6] Seven.
+[00:08.6 - 00:10.1] Again, we're compromising that posture.
+[00:10.1 - 00:11.8] Not really a seat, it's more like a sling.
+[00:11.8 - 00:12.7] Picler triangle.
+[00:12.7 - 00:13.1] 10.
+[00:13.1 - 00:14.2] A bath seat.
+[00:14.2 - 00:14.5] 10.
+[00:14.5 - 00:15.5] Door jumper.
+[00:15.5 - 00:15.9] Zero.
+[00:15.9 - 00:17.2] Inflatable baby chair.
+[00:17.2 - 00:17.7] Zero.
+[00:17.7 - 00:19.4] We need a more stable support surface.
+[00:19.4 - 00:20.5] Activity center.
+[00:20.5 - 00:23.0] Eight as long as their feet are flat with a slight knee bend.
+[00:23.0 - 00:24.4] IKEA highchair.
+[00:24.4 - 00:25.8] 10 as long as you add a footrest.
+[00:25.8 - 00:27.0] Hip carriers.
+[00:27.0 - 00:27.5] Seven.
+[00:27.5 - 00:30.4] It puts your baby in a good position but it can affect posture in the parent.
+[00:30.4 - 00:32.1] Lots of loading on just one hip.
+[00:32.1 - 00:32.9] Baby slings.
+[00:32.9 - 00:33.1] Four.
+[00:33.1 - 00:36.0] Puts your baby in a decent position but affects the parents posture.
+[00:36.0 - 00:36.8] A baby carrier.
+[00:36.8 - 00:37.3] 10
+
+Completed transcription, JSON saved to /home/ubuntu/instagram-source-test/category_scorecard_transcription_20260904_141313.json
+Plain text transcription saved to /home/ubuntu/instagram-source-test/category_scorecard_transcription_20260904_141313.txt

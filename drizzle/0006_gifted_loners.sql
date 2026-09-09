@@ -1,0 +1,21 @@
+CREATE TABLE `postedVideos` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`videoNumber` int NOT NULL,
+	`postDate` varchar(20),
+	`tiktokUrl` varchar(500),
+	`scriptFile` varchar(255),
+	`hookType` varchar(100) NOT NULL,
+	`product` varchar(255) NOT NULL,
+	`views` int DEFAULT 0,
+	`watchTimePct` int DEFAULT 0,
+	`avgWatchSec` varchar(10),
+	`saves` int DEFAULT 0,
+	`shares` int DEFAULT 0,
+	`comments` int DEFAULT 0,
+	`gmv` varchar(20) DEFAULT '$0.00',
+	`diagnosis` varchar(50),
+	`action` text,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `postedVideos_id` PRIMARY KEY(`id`)
+);

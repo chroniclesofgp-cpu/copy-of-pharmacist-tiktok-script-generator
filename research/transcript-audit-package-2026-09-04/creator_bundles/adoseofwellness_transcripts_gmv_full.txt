@@ -1,0 +1,1472 @@
+# Creator: adoseofwellness
+# Generated: 2026-05-31
+# Total videos: 30
+# Source: Kalodata top GMV export, 6-month window
+
+============================================================
+RANK: 01 | GMV: $218479.12 | VIDEO ID: 7584490494177152287
+URL: https://www.tiktok.com/@adoseofwellness/video/7584490494177152287
+WORD COUNT: 1061
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_1_7584490494177152287.mp3, file size: 2.11 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 113.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.9]  Here's how to take magnesium the right way.
+[00:02.9 - 00:07.2]  I'm a pharmacist, I counsel patients on their supplements all the time, so if you're wondering
+[00:07.2 - 00:11.2]  if a magnesium supplement is actually worth your money, you're in the right place.
+[00:11.2 - 00:15.0]  Magnesium is one of the most important minerals in our entire body because it's involved in
+[00:15.0 - 00:16.9]  over 300 functions.
+[00:16.9 - 00:22.8]  Your muscles, your nerves, your brain, your heart, your mitochondria, it all needs magnesium.
+[00:22.8 - 00:27.2]  It helps you relax, it helps you sleep deeper, it supports healthy blood pressure, it can
+[00:27.2 - 00:32.4]  convert food into energy, it keeps your heartbeat steady, and even supports bone strength with
+[00:32.4 - 00:33.9]  calcium and vitamin D.
+[00:33.9 - 00:35.8]  But here's what most people don't know.
+[00:35.8 - 00:38.4]  There is not just one type of magnesium.
+[00:38.4 - 00:42.2]  Your body uses many different forms for all different jobs.
+[00:42.2 - 00:46.2]  So if you're taking just one type of magnesium, you're not getting all the benefits.
+[00:46.2 - 00:51.0]  That's why I always recommend a multi-complex magnesium supplement that has different forms,
+[00:51.0 - 00:53.3]  different functions, all in one supplement.
+[00:53.3 - 00:57.2]  You can take magnesium in the morning with food, but I do suggest taking it in the evening
+[00:57.2 - 01:00.3]  because sometimes people use it for sleep and relaxation.
+[01:00.3 - 01:04.1]  But do not take it with zinc, calcium, or iron supplements because those compete for
+[01:04.1 - 01:07.6]  absorption so just separate them by at least 2-4 hours.
+[01:07.6 - 01:12.7]  If you have low magnesium, you might experience things like muscle cramps, headaches, anxiety,
+[01:12.7 - 01:16.6]  fatigue, irregular heartbeat, or even irregular bowel movements.
+[01:16.6 - 01:20.3]  So taking a great magnesium complex can help with all of that.
+[01:20.3 - 01:24.1]  If you want a really great recommendation for a magnesium supplement, it's the Toplex
+[01:24.1 - 01:25.1]  magnesium.
+[01:25.1 - 01:29.1]  This is my favorite because this combines 8 different types of magnesium, all in one
+[01:29.1 - 01:30.1]  supplement.
+[01:30.1 - 01:34.1]  It's lab tested, made in the US, so you can get all of the benefits.
+[01:34.1 - 01:35.1]  Two capsules a day.
+[01:35.1 - 01:38.1]  This is a 45 day supply for an excellent price.
+[01:38.1 - 01:39.7]  And they use vegetarian capsules.
+[01:39.7 - 01:42.5]  If you want to try this, I'll link it right down there in the orange shopping cart.
+[01:42.5 - 01:46.1]  They have fast free shipping, but grab it quick because it's on an amazing sale right
+[01:46.1 - 01:49.0]  now and when the price goes this low, they usually sell out.
+[01:49.0 - 01:52.7]  If you have any other questions about magnesium or how it can help, please leave them in the
+[01:52.7 - 01:53.3]  comments below.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_1_7584490494177152287_transcription_20260531_212021.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_1_7584490494177152287_transcription_20260531_212021.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_1_7584490494177152287.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_1_7584490494177152287.mp3, file size: 2.11 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.9] Here's how to take magnesium the right way.
+[00:02.9 - 00:07.2] I'm a pharmacist, I counsel patients on their supplements all the time, so if you're wondering
+[00:07.2 - 00:11.2] if a magnesium supplement is actually worth your money, you're in the right place.
+[00:11.2 - 00:15.0] Magnesium is one of the most important minerals in our entire body because it's involved in
+[00:15.0 - 00:16.9] over 300 functions.
+[00:16.9 - 00:22.8] Your muscles, your nerves, your brain, your heart, your mitochondria, it all needs magnesium.
+[00:22.8 - 00:27.2] It helps you relax, it helps you sleep deeper, it supports healthy blood pressure, it can
+[00:27.2 - 00:32.4] convert food into energy, it keeps your heartbeat steady, and even supports bone strength with
+[00:32.4 - 00:33.9] calcium and vitamin D.
+[00:33.9 - 00:35.8] But here's what most people don't know.
+[00:35.8 - 00:38.4] There is not just one type of magnesium.
+[00:38.4 - 00:42.2] Your body uses many different forms for all different jobs.
+[00:42.2 - 00:46.2] So if you're taking just one type of magnesium, you're not getting all the benefits.
+[00:46.2 - 00:51.0] That's why I always recommend a multi-complex magnesium supplement that has different forms,
+[00:51.0 - 00:53.3] different functions, all in one supplement.
+[00:53.3 - 00:57.2] You can take magnesium in the morning with food, but I do suggest taking it in the evening
+[00:57.2 - 01:00.3] because sometimes people use it for sleep and relaxation.
+[01:00.3 - 01:04.1] But do not take it with zinc, calcium, or iron supplements because those compete for
+[01:04.1 - 01:07.6] absorption so just separate them by at least 2-4 hours.
+[01:07.6 - 01:12.7] If you have low magnesium, you might experience things like muscle cramps, headaches, anxiety,
+[01:12.7 - 01:16.6] fatigue, irregular heartbeat, or even irregular bowel movements.
+[01:16.6 - 01:20.3] So taking a great magnesium complex can help with all of that.
+[01:20.3 - 01:24.1] If you want a really great recommendation for a magnesium supplement, it's the Toplex
+[01:24.1 - 01:25.1] magnesium.
+[01:25.1 - 01:29.1] This is my favorite because this combines 8 different types of magnesium, all in one
+[01:29.1 - 01:30.1] supplement.
+[01:30.1 - 01:34.1] It's lab tested, made in the US, so you can get all of the benefits.
+[01:34.1 - 01:35.1] Two capsules a day.
+[01:35.1 - 01:38.1] This is a 45 day supply for an excellent price.
+[01:38.1 - 01:39.7] And they use vegetarian capsules.
+[01:39.7 - 01:42.5] If you want to try this, I'll link it right down there in the orange shopping cart.
+[01:42.5 - 01:46.1] They have fast free shipping, but grab it quick because it's on an amazing sale right
+[01:46.1 - 01:49.0] now and when the price goes this low, they usually sell out.
+[01:49.0 - 01:52.7] If you have any other questions about magnesium or how it can help, please leave them in the
+[01:52.7 - 01:53.3] comments below.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_1_7584490494177152287_transcription_20260531_212021.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_1_7584490494177152287_transcription_20260531_212021.txt
+
+============================================================
+RANK: 02 | GMV: $133232.46 | VIDEO ID: 7588535042184465695
+URL: https://www.tiktok.com/@adoseofwellness/video/7588535042184465695
+WORD COUNT: 935
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_2_7588535042184465695.mp3, file size: 1.73 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 97.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.6]  a pharmacist and here are two supplements I recommend taking if you are seeing a lot
+[00:04.6 - 00:09.5]  of hair falling out and shedding. The first one is pumpkin seed oil. Pumpkin seed oil
+[00:09.5 - 00:14.8]  is actually a DHT blocker, which means it blocks the hormone that causes hair to shed
+[00:14.8 - 00:19.3]  and fall out. I love this one by micro ingredients because they have pumpkin seed oil, but this
+[00:19.3 - 00:24.7]  also has saw palmetto in it, which is also another DHT blocker that's also going to help
+[00:24.7 - 00:28.4]  with hair shedding and falling out. It's also great for scalp health and follicle health.
+[00:28.4 - 00:31.6]  This is so excellent. I'll link it down below if you want to try this. The second one I
+[00:31.6 - 00:37.3]  recommend is astaxanthin. Astaxanthin is actually a very powerful antioxidant that has so many
+[00:37.3 - 00:42.4]  benefits for skin health, sunspots, anti-aging, but what a lot of people don't know is how
+[00:42.4 - 00:47.7]  great it is for hair. It protects your hair follicles from damage. It also supports hair
+[00:47.7 - 00:53.0]  growth and thickness. It can improve blood flow to the scalp and reduce inflammation
+[00:53.0 - 00:57.6]  in the scalp. So it just creates a healthier environment in your follicle to support hair
+[00:57.6 - 01:02.3]  growth. Astaxanthin is one of the best antioxidants you can take that's going to really support
+[01:02.3 - 01:06.8]  your hair. This is the astaxanthin I recommend by micro ingredients because this is 12 milligrams
+[01:06.8 - 01:10.3]  triple strength. You only need one capsule a day. You should be taking at least eight
+[01:10.3 - 01:15.1]  to 12 milligrams per day to actually get the benefits. So I love that this is 12 milligrams
+[01:15.1 - 01:19.2]  all in one dose. This is a very good quality. They source it from micro algae, which is
+[01:19.2 - 01:22.9]  the best type of astaxanthin that you can get. You can even take these both together
+[01:22.9 - 01:26.7]  if you're really looking to up your hair growth game, support your follicle health and just
+[01:26.7 - 01:30.7]  get thicker, stronger, shinier hair. They are much cheaper if you get them in the bundle.
+[01:30.7 - 01:33.9]  I will link the bundle down below in the orange shopping cart if you want to try it. And if
+[01:33.9 - 01:36.9]  you have any other questions, please leave them in the comments below.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_2_7588535042184465695_transcription_20260531_212031.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_2_7588535042184465695_transcription_20260531_212031.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_2_7588535042184465695.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_2_7588535042184465695.mp3, file size: 1.73 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.6] a pharmacist and here are two supplements I recommend taking if you are seeing a lot
+[00:04.6 - 00:09.5] of hair falling out and shedding. The first one is pumpkin seed oil. Pumpkin seed oil
+[00:09.5 - 00:14.8] is actually a DHT blocker, which means it blocks the hormone that causes hair to shed
+[00:14.8 - 00:19.3] and fall out. I love this one by micro ingredients because they have pumpkin seed oil, but this
+[00:19.3 - 00:24.7] also has saw palmetto in it, which is also another DHT blocker that's also going to help
+[00:24.7 - 00:28.4] with hair shedding and falling out. It's also great for scalp health and follicle health.
+[00:28.4 - 00:31.6] This is so excellent. I'll link it down below if you want to try this. The second one I
+[00:31.6 - 00:37.3] recommend is astaxanthin. Astaxanthin is actually a very powerful antioxidant that has so many
+[00:37.3 - 00:42.4] benefits for skin health, sunspots, anti-aging, but what a lot of people don't know is how
+[00:42.4 - 00:47.7] great it is for hair. It protects your hair follicles from damage. It also supports hair
+[00:47.7 - 00:53.0] growth and thickness. It can improve blood flow to the scalp and reduce inflammation
+[00:53.0 - 00:57.6] in the scalp. So it just creates a healthier environment in your follicle to support hair
+[00:57.6 - 01:02.3] growth. Astaxanthin is one of the best antioxidants you can take that's going to really support
+[01:02.3 - 01:06.8] your hair. This is the astaxanthin I recommend by micro ingredients because this is 12 milligrams
+[01:06.8 - 01:10.3] triple strength. You only need one capsule a day. You should be taking at least eight
+[01:10.3 - 01:15.1] to 12 milligrams per day to actually get the benefits. So I love that this is 12 milligrams
+[01:15.1 - 01:19.2] all in one dose. This is a very good quality. They source it from micro algae, which is
+[01:19.2 - 01:22.9] the best type of astaxanthin that you can get. You can even take these both together
+[01:22.9 - 01:26.7] if you're really looking to up your hair growth game, support your follicle health and just
+[01:26.7 - 01:30.7] get thicker, stronger, shinier hair. They are much cheaper if you get them in the bundle.
+[01:30.7 - 01:33.9] I will link the bundle down below in the orange shopping cart if you want to try it. And if
+[01:33.9 - 01:36.9] you have any other questions, please leave them in the comments below.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_2_7588535042184465695_transcription_20260531_212031.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_2_7588535042184465695_transcription_20260531_212031.txt
+
+============================================================
+RANK: 03 | GMV: $115021.67 | VIDEO ID: 7604937217953352991
+URL: https://www.tiktok.com/@adoseofwellness/video/7604937217953352991
+WORD COUNT: 1063
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_3_7604937217953352991.mp3, file size: 1.99 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 108.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.8]  If your chin looks like this and your pooch looks like that, you're not fat.
+[00:03.8 - 00:08.8]  You're just dealing with high cortisol, chronic fatigue, brain fog, poor sleep, constant hunger
+[00:08.8 - 00:09.8]  cravings.
+[00:09.8 - 00:13.0]  These are classic signs of a dysregulated stress response.
+[00:13.0 - 00:14.0]  I'm a pharmacist.
+[00:14.0 - 00:16.2]  I've been a pharmacist for almost 10 years.
+[00:16.2 - 00:20.4]  It is literally my job to counsel patients on their supplements, and I even talk to doctors
+[00:20.4 - 00:22.5]  and nurses on clinical formulations.
+[00:22.5 - 00:27.7]  And one of the most overlooked health issues I commonly see is stress dysregulation.
+[00:27.7 - 00:32.4]  Your body runs on something called the HPA axis, which controls your stress response
+[00:32.4 - 00:33.9]  and cortisol release.
+[00:33.9 - 00:38.2]  And when that system is under constant pressure, your body stays in fight or flight mode.
+[00:38.2 - 00:42.0]  And magnesium plays a huge role in calming the nervous system.
+[00:42.0 - 00:46.1]  But most people are depleted and chronic stress burns through whatever magnesium stores you
+[00:46.1 - 00:47.1]  have left.
+[00:47.1 - 00:49.2]  And that is why symptoms just keep piling and piling.
+[00:49.2 - 00:53.5]  I recommend taking a few different things that can support stress from multiple angles,
+[00:53.5 - 00:57.3]  such as magnesium glycinate, because that will actually calm your nervous system and
+[00:57.3 - 00:58.6]  help with sleep quality.
+[00:58.6 - 01:04.1]  I also love L-theanine to quiet racing thoughts, ashwagandha to support healthy cortisol levels,
+[01:04.1 - 01:06.8]  and vitamin D3 to help with mood and stress regulation.
+[01:06.8 - 01:10.5]  When you combine these things with better lifestyle habits, many people notice within
+[01:10.5 - 01:14.5]  a few weeks, they're less anxious, less irritable, they're sleeping better and more resilient
+[01:14.5 - 01:15.5]  to stress.
+[01:15.5 - 01:18.7]  I prefer to take all of these ingredients in a delicious drink version.
+[01:18.7 - 01:20.0]  This is Nello Super Calm.
+[01:20.0 - 01:23.8]  It contains all four of those ingredients I talked about all in one packet.
+[01:23.8 - 01:25.0]  You just mix it with water.
+[01:25.0 - 01:28.4]  You can drink this up to twice a day and you will notice huge improvements.
+[01:28.4 - 01:32.6]  There's also no sugar in here, no artificial colors or any of those bad ingredients.
+[01:32.6 - 01:36.0]  Very clean formula and they come in tons of delicious flavors.
+[01:36.0 - 01:38.3]  I love the raspberry lemonade and the blue coconut.
+[01:38.3 - 01:39.3]  Those are my favorite.
+[01:39.3 - 01:40.3]  We'll link it down below.
+[01:40.3 - 01:42.9]  But I will warn you some of these flavors sell out really fast.
+[01:42.9 - 01:46.6]  So if you see something in stock that you like and you want to try it, I highly suggest
+[01:46.6 - 01:48.0]  grabbing it quick before they're gone again.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_3_7604937217953352991_transcription_20260531_212043.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_3_7604937217953352991_transcription_20260531_212043.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_3_7604937217953352991.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_3_7604937217953352991.mp3, file size: 1.99 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.8] If your chin looks like this and your pooch looks like that, you're not fat.
+[00:03.8 - 00:08.8] You're just dealing with high cortisol, chronic fatigue, brain fog, poor sleep, constant hunger
+[00:08.8 - 00:09.8] cravings.
+[00:09.8 - 00:13.0] These are classic signs of a dysregulated stress response.
+[00:13.0 - 00:14.0] I'm a pharmacist.
+[00:14.0 - 00:16.2] I've been a pharmacist for almost 10 years.
+[00:16.2 - 00:20.4] It is literally my job to counsel patients on their supplements, and I even talk to doctors
+[00:20.4 - 00:22.5] and nurses on clinical formulations.
+[00:22.5 - 00:27.7] And one of the most overlooked health issues I commonly see is stress dysregulation.
+[00:27.7 - 00:32.4] Your body runs on something called the HPA axis, which controls your stress response
+[00:32.4 - 00:33.9] and cortisol release.
+[00:33.9 - 00:38.2] And when that system is under constant pressure, your body stays in fight or flight mode.
+[00:38.2 - 00:42.0] And magnesium plays a huge role in calming the nervous system.
+[00:42.0 - 00:46.1] But most people are depleted and chronic stress burns through whatever magnesium stores you
+[00:46.1 - 00:47.1] have left.
+[00:47.1 - 00:49.2] And that is why symptoms just keep piling and piling.
+[00:49.2 - 00:53.5] I recommend taking a few different things that can support stress from multiple angles,
+[00:53.5 - 00:57.3] such as magnesium glycinate, because that will actually calm your nervous system and
+[00:57.3 - 00:58.6] help with sleep quality.
+[00:58.6 - 01:04.1] I also love L-theanine to quiet racing thoughts, ashwagandha to support healthy cortisol levels,
+[01:04.1 - 01:06.8] and vitamin D3 to help with mood and stress regulation.
+[01:06.8 - 01:10.5] When you combine these things with better lifestyle habits, many people notice within
+[01:10.5 - 01:14.5] a few weeks, they're less anxious, less irritable, they're sleeping better and more resilient
+[01:14.5 - 01:15.5] to stress.
+[01:15.5 - 01:18.7] I prefer to take all of these ingredients in a delicious drink version.
+[01:18.7 - 01:20.0] This is Nello Super Calm.
+[01:20.0 - 01:23.8] It contains all four of those ingredients I talked about all in one packet.
+[01:23.8 - 01:25.0] You just mix it with water.
+[01:25.0 - 01:28.4] You can drink this up to twice a day and you will notice huge improvements.
+[01:28.4 - 01:32.6] There's also no sugar in here, no artificial colors or any of those bad ingredients.
+[01:32.6 - 01:36.0] Very clean formula and they come in tons of delicious flavors.
+[01:36.0 - 01:38.3] I love the raspberry lemonade and the blue coconut.
+[01:38.3 - 01:39.3] Those are my favorite.
+[01:39.3 - 01:40.3] We'll link it down below.
+[01:40.3 - 01:42.9] But I will warn you some of these flavors sell out really fast.
+[01:42.9 - 01:46.6] So if you see something in stock that you like and you want to try it, I highly suggest
+[01:46.6 - 01:48.0] grabbing it quick before they're gone again.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_3_7604937217953352991_transcription_20260531_212043.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_3_7604937217953352991_transcription_20260531_212043.txt
+
+============================================================
+RANK: 04 | GMV: $87722.63 | VIDEO ID: 7597949779921980703
+URL: https://www.tiktok.com/@adoseofwellness/video/7597949779921980703
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 05 | GMV: $59457.7 | VIDEO ID: 7606001439512497439
+URL: https://www.tiktok.com/@adoseofwellness/video/7606001439512497439
+WORD COUNT: 989
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_5_7606001439512497439.mp3, file size: 1.67 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 91.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.5]  how to take Mary Ruth's lymphatic support drainage drops the right way. I'm a pharmacist. I counsel
+[00:05.5 - 00:09.7]  patients on their supplements all the time. So if you recently grabbed this on the TikTok shop
+[00:09.7 - 00:14.1]  because it's gone crazy viral, here are a few tips on how to take this so you can get the best
+[00:14.1 - 00:19.0]  benefits. Mary Ruth's lymphatic drops contain herbs that help support your lymphatic system
+[00:19.0 - 00:23.5]  naturally. This helps by clearing out fluid that has been built up either under your armpits,
+[00:23.5 - 00:28.2]  under your chin, in your stomach, or even in areas like your legs. These can build up with fluid
+[00:28.2 - 00:32.8]  without even realizing it. So first of all, it's very important that you're consistent. This needs
+[00:32.8 - 00:37.1]  to be used every single day to get the best results. You just do one milliliter. It's like
+[00:37.1 - 00:41.9]  one dropper full once a day. You can take this up to three times a day, but I usually just do it
+[00:41.9 - 00:45.8]  once a day and that seems to work great. You don't need to drop it in water or anything. You can just
+[00:45.8 - 00:50.0]  put it right in your mouth and swallow it. And this has a really nice taste like elderberry and
+[00:50.0 - 00:53.9]  it has a really sweet earthy flavor. Also, when you're using these drops, make sure to drink
+[00:53.9 - 00:57.9]  plenty of water because this is going to help flush out all of those toxins that are built up
+[00:57.9 - 01:02.4]  in your lymphatic system. So plenty of water will really help support that. You can take these first
+[01:02.4 - 01:05.9]  thing in the morning or early in the afternoon because it will help clear out all of those
+[01:05.9 - 01:10.2]  fluids and you might have to use the bathroom more than usual. Also using this in conjunction
+[01:10.2 - 01:15.0]  with one of those lymphatic drainage tools like a gua sha or a dry brush can really help support
+[01:15.0 - 01:19.6]  this as well. The best price for this is on the TikTok shop and they do sell out all the time,
+[01:19.6 - 01:23.4]  like every single week. I will link it down below and if you see the orange shopping cart and it's
+[01:23.4 - 01:27.4]  in stock and you want to try this, I would grab it quick because they do sell out really fast.
+[01:27.4 - 01:31.0]  If you have any other questions, please leave them in the comments below and I'd love to help.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_5_7606001439512497439_transcription_20260531_212056.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_5_7606001439512497439_transcription_20260531_212056.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_5_7606001439512497439.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_5_7606001439512497439.mp3, file size: 1.67 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.5] how to take Mary Ruth's lymphatic support drainage drops the right way. I'm a pharmacist. I counsel
+[00:05.5 - 00:09.7] patients on their supplements all the time. So if you recently grabbed this on the TikTok shop
+[00:09.7 - 00:14.1] because it's gone crazy viral, here are a few tips on how to take this so you can get the best
+[00:14.1 - 00:19.0] benefits. Mary Ruth's lymphatic drops contain herbs that help support your lymphatic system
+[00:19.0 - 00:23.5] naturally. This helps by clearing out fluid that has been built up either under your armpits,
+[00:23.5 - 00:28.2] under your chin, in your stomach, or even in areas like your legs. These can build up with fluid
+[00:28.2 - 00:32.8] without even realizing it. So first of all, it's very important that you're consistent. This needs
+[00:32.8 - 00:37.1] to be used every single day to get the best results. You just do one milliliter. It's like
+[00:37.1 - 00:41.9] one dropper full once a day. You can take this up to three times a day, but I usually just do it
+[00:41.9 - 00:45.8] once a day and that seems to work great. You don't need to drop it in water or anything. You can just
+[00:45.8 - 00:50.0] put it right in your mouth and swallow it. And this has a really nice taste like elderberry and
+[00:50.0 - 00:53.9] it has a really sweet earthy flavor. Also, when you're using these drops, make sure to drink
+[00:53.9 - 00:57.9] plenty of water because this is going to help flush out all of those toxins that are built up
+[00:57.9 - 01:02.4] in your lymphatic system. So plenty of water will really help support that. You can take these first
+[01:02.4 - 01:05.9] thing in the morning or early in the afternoon because it will help clear out all of those
+[01:05.9 - 01:10.2] fluids and you might have to use the bathroom more than usual. Also using this in conjunction
+[01:10.2 - 01:15.0] with one of those lymphatic drainage tools like a gua sha or a dry brush can really help support
+[01:15.0 - 01:19.6] this as well. The best price for this is on the TikTok shop and they do sell out all the time,
+[01:19.6 - 01:23.4] like every single week. I will link it down below and if you see the orange shopping cart and it's
+[01:23.4 - 01:27.4] in stock and you want to try this, I would grab it quick because they do sell out really fast.
+[01:27.4 - 01:31.0] If you have any other questions, please leave them in the comments below and I'd love to help.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_5_7606001439512497439_transcription_20260531_212056.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_5_7606001439512497439_transcription_20260531_212056.txt
+
+============================================================
+RANK: 06 | GMV: $56852.1 | VIDEO ID: 7531464392282574111
+URL: https://www.tiktok.com/@adoseofwellness/video/7531464392282574111
+WORD COUNT: 1021
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_6_7531464392282574111.mp3, file size: 2.24 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 117.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.5]  This is the correct way to take saffron, and if you don't believe me, I'm a pharmacist.
+[00:04.5 - 00:07.0]  I've been a pharmacist for almost 10 years.
+[00:07.0 - 00:12.3]  It is literally my job to counsel patients on supplements and even talk to doctors and
+[00:12.3 - 00:14.5]  nurses about clinical formulations.
+[00:14.5 - 00:18.0]  So if you're wondering if a supplement is actually worth your money or if it's just
+[00:18.0 - 00:20.1]  hype, you're in the right place.
+[00:20.1 - 00:25.5]  Saffron has been shown in over 20 clinical studies that it is safe and effective at boosting
+[00:25.5 - 00:26.5]  low mood.
+[00:26.5 - 00:31.8]  And it has been shown to be just as effective as those doctor prescribed happy pills, also
+[00:31.8 - 00:34.3]  known as SSRIs or SNRIs.
+[00:34.3 - 00:37.6]  But when you're choosing a saffron supplement, you need to make sure it's in the right form
+[00:37.6 - 00:41.5]  to actually be absorbed and be utilized to get the best benefits.
+[00:41.5 - 00:46.5]  So the supplement that I'm going to recommend contains 0.3% saffronel.
+[00:46.5 - 00:51.1]  Saffronel is the compound in saffron that has been shown to help with low mood.
+[00:51.1 - 00:55.4]  It's shown to have neuroprotective properties because it's a very powerful antioxidant
+[00:55.4 - 00:59.1]  and it even has anti-inflammatory properties as well.
+[00:59.1 - 01:03.6]  Most supplements don't even contain enough saffronel to even make a difference to get
+[01:03.6 - 01:09.0]  those benefits of increasing your low mood and just making you feel happier, especially
+[01:09.0 - 01:13.6]  if you're someone who was not able to tolerate those doctor prescribed happy pills.
+[01:13.6 - 01:18.2]  The saffron supplement I recommend is Saffron Advanced by Micro Ingredients.
+[01:18.2 - 01:23.7]  They use only clean ingredients, also contains a proper dose of saffronel to really matter
+[01:23.7 - 01:25.8]  and help you with your low mood.
+[01:25.8 - 01:32.4]  There's also rhodiola rosea in here, which is so great for brain health and KSM-66 ashwagandha,
+[01:32.4 - 01:36.0]  which is also going to help with stress and lowering cortisol levels.
+[01:36.0 - 01:40.0]  This is the best saffron supplement you can take, but listen, this has gone crazy viral
+[01:40.0 - 01:41.3]  on TikTok shop.
+[01:41.3 - 01:42.8]  It's linked in the orange shopping cart.
+[01:42.8 - 01:47.2]  So if you see that orange cart, that means it's still in stock and I would grab it immediately
+[01:47.2 - 01:50.9]  if it is because it's also on a really, really great sale right now.
+[01:50.9 - 01:55.3]  And if you have any questions about how saffron can help with your low mood, please leave
+[01:55.3 - 01:57.3]  it in the comments below and I'll be happy to help.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_6_7531464392282574111_transcription_20260531_212109.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_6_7531464392282574111_transcription_20260531_212109.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_6_7531464392282574111.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_6_7531464392282574111.mp3, file size: 2.24 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.5] This is the correct way to take saffron, and if you don't believe me, I'm a pharmacist.
+[00:04.5 - 00:07.0] I've been a pharmacist for almost 10 years.
+[00:07.0 - 00:12.3] It is literally my job to counsel patients on supplements and even talk to doctors and
+[00:12.3 - 00:14.5] nurses about clinical formulations.
+[00:14.5 - 00:18.0] So if you're wondering if a supplement is actually worth your money or if it's just
+[00:18.0 - 00:20.1] hype, you're in the right place.
+[00:20.1 - 00:25.5] Saffron has been shown in over 20 clinical studies that it is safe and effective at boosting
+[00:25.5 - 00:26.5] low mood.
+[00:26.5 - 00:31.8] And it has been shown to be just as effective as those doctor prescribed happy pills, also
+[00:31.8 - 00:34.3] known as SSRIs or SNRIs.
+[00:34.3 - 00:37.6] But when you're choosing a saffron supplement, you need to make sure it's in the right form
+[00:37.6 - 00:41.5] to actually be absorbed and be utilized to get the best benefits.
+[00:41.5 - 00:46.5] So the supplement that I'm going to recommend contains 0.3% saffronel.
+[00:46.5 - 00:51.1] Saffronel is the compound in saffron that has been shown to help with low mood.
+[00:51.1 - 00:55.4] It's shown to have neuroprotective properties because it's a very powerful antioxidant
+[00:55.4 - 00:59.1] and it even has anti-inflammatory properties as well.
+[00:59.1 - 01:03.6] Most supplements don't even contain enough saffronel to even make a difference to get
+[01:03.6 - 01:09.0] those benefits of increasing your low mood and just making you feel happier, especially
+[01:09.0 - 01:13.6] if you're someone who was not able to tolerate those doctor prescribed happy pills.
+[01:13.6 - 01:18.2] The saffron supplement I recommend is Saffron Advanced by Micro Ingredients.
+[01:18.2 - 01:23.7] They use only clean ingredients, also contains a proper dose of saffronel to really matter
+[01:23.7 - 01:25.8] and help you with your low mood.
+[01:25.8 - 01:32.4] There's also rhodiola rosea in here, which is so great for brain health and KSM-66 ashwagandha,
+[01:32.4 - 01:36.0] which is also going to help with stress and lowering cortisol levels.
+[01:36.0 - 01:40.0] This is the best saffron supplement you can take, but listen, this has gone crazy viral
+[01:40.0 - 01:41.3] on TikTok shop.
+[01:41.3 - 01:42.8] It's linked in the orange shopping cart.
+[01:42.8 - 01:47.2] So if you see that orange cart, that means it's still in stock and I would grab it immediately
+[01:47.2 - 01:50.9] if it is because it's also on a really, really great sale right now.
+[01:50.9 - 01:55.3] And if you have any questions about how saffron can help with your low mood, please leave
+[01:55.3 - 01:57.3] it in the comments below and I'll be happy to help.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_6_7531464392282574111_transcription_20260531_212109.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_6_7531464392282574111_transcription_20260531_212109.txt
+
+============================================================
+RANK: 07 | GMV: $40963.67 | VIDEO ID: 7571453173341228318
+URL: https://www.tiktok.com/@adoseofwellness/video/7571453173341228318
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 08 | GMV: $39911.47 | VIDEO ID: 7532109281538149663
+URL: https://www.tiktok.com/@adoseofwellness/video/7532109281538149663
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 09 | GMV: $36239.41 | VIDEO ID: 7566760634436668703
+URL: https://www.tiktok.com/@adoseofwellness/video/7566760634436668703
+STATUS: FAILED — Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+============================================================
+
+============================================================
+RANK: 10 | GMV: $33532.32 | VIDEO ID: 7477168309264321838
+URL: https://www.tiktok.com/@adoseofwellness/video/7477168309264321838
+STATUS: FAILED — Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+============================================================
+
+============================================================
+RANK: 11 | GMV: $33319.08 | VIDEO ID: 7611546658068860191
+URL: https://www.tiktok.com/@adoseofwellness/video/7611546658068860191
+STATUS: FAILED — Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+============================================================
+
+============================================================
+RANK: 12 | GMV: $32813.63 | VIDEO ID: 7554063750538579230
+URL: https://www.tiktok.com/@adoseofwellness/video/7554063750538579230
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 13 | GMV: $32662.7 | VIDEO ID: 7552950350601391390
+URL: https://www.tiktok.com/@adoseofwellness/video/7552950350601391390
+STATUS: FAILED — Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+============================================================
+
+============================================================
+RANK: 14 | GMV: $31055.08 | VIDEO ID: 7580009112214195486
+URL: https://www.tiktok.com/@adoseofwellness/video/7580009112214195486
+WORD COUNT: 791
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_14_7580009112214195486.mp3, file size: 1.28 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 70.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.7]  If your face has started to look sunken like this
+[00:02.7 - 00:05.8]  after being on the shot, it's not just weight loss.
+[00:05.8 - 00:08.5]  It is rapid muscle loss and collagen loss.
+[00:08.5 - 00:11.4]  And here's exactly how I tell my patients how to fix it.
+[00:11.4 - 00:13.4]  I'm a retail pharmacist, so I counsel patients
+[00:13.4 - 00:16.7]  on their side effects of being on a GLP-1 all the time.
+[00:16.7 - 00:20.2]  And one thing that is most crucial while you're on a GLP-1
+[00:20.2 - 00:23.3]  is making sure you're getting enough protein in your diet
+[00:23.3 - 00:25.6]  and also taking a collagen supplement.
+[00:25.6 - 00:28.3]  Getting enough protein is essential for muscle loss
+[00:28.3 - 00:30.2]  because if you're probably not eating your best
+[00:30.2 - 00:31.4]  while being on the shot,
+[00:31.4 - 00:33.6]  you are likely losing a lot of muscle mass.
+[00:33.6 - 00:36.2]  So getting enough protein every single day is essential.
+[00:36.2 - 00:38.0]  Collagen will also help your skin
+[00:38.0 - 00:40.0]  be more plump, firm, and juicy.
+[00:40.0 - 00:42.6]  A very easy way to get both of those in one supplement
+[00:42.6 - 00:43.9]  and something I always recommend
+[00:43.9 - 00:47.0]  is taking the NeoCell Collagen and Protein Supplement.
+[00:47.0 - 00:49.5]  This has 18 grams of protein per serving,
+[00:49.5 - 00:52.0]  also has collagen right in it in one supplement.
+[00:52.0 - 00:53.8]  It's not flavored, so you can just put it
+[00:53.8 - 00:55.2]  right in your smoothie or a drink.
+[00:55.2 - 00:56.8]  And this will be so beneficial
+[00:56.8 - 00:59.0]  if you have that sagging-looking face.
+[00:59.0 - 01:01.5]  This will keep you looking toned instead of tired.
+[01:01.5 - 01:04.2]  The best price for NeoCell products are on the TikTok shop,
+[01:04.2 - 01:05.6]  so I will leave the link down below.
+[01:05.6 - 01:08.3]  It's also on a great sale right now, so check that out.
+[01:08.3 - 01:11.1]  And I would grab it quick before the price goes back up.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_14_7580009112214195486_transcription_20260531_212237.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_14_7580009112214195486_transcription_20260531_212237.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_14_7580009112214195486.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_14_7580009112214195486.mp3, file size: 1.28 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.7] If your face has started to look sunken like this
+[00:02.7 - 00:05.8] after being on the shot, it's not just weight loss.
+[00:05.8 - 00:08.5] It is rapid muscle loss and collagen loss.
+[00:08.5 - 00:11.4] And here's exactly how I tell my patients how to fix it.
+[00:11.4 - 00:13.4] I'm a retail pharmacist, so I counsel patients
+[00:13.4 - 00:16.7] on their side effects of being on a GLP-1 all the time.
+[00:16.7 - 00:20.2] And one thing that is most crucial while you're on a GLP-1
+[00:20.2 - 00:23.3] is making sure you're getting enough protein in your diet
+[00:23.3 - 00:25.6] and also taking a collagen supplement.
+[00:25.6 - 00:28.3] Getting enough protein is essential for muscle loss
+[00:28.3 - 00:30.2] because if you're probably not eating your best
+[00:30.2 - 00:31.4] while being on the shot,
+[00:31.4 - 00:33.6] you are likely losing a lot of muscle mass.
+[00:33.6 - 00:36.2] So getting enough protein every single day is essential.
+[00:36.2 - 00:38.0] Collagen will also help your skin
+[00:38.0 - 00:40.0] be more plump, firm, and juicy.
+[00:40.0 - 00:42.6] A very easy way to get both of those in one supplement
+[00:42.6 - 00:43.9] and something I always recommend
+[00:43.9 - 00:47.0] is taking the NeoCell Collagen and Protein Supplement.
+[00:47.0 - 00:49.5] This has 18 grams of protein per serving,
+[00:49.5 - 00:52.0] also has collagen right in it in one supplement.
+[00:52.0 - 00:53.8] It's not flavored, so you can just put it
+[00:53.8 - 00:55.2] right in your smoothie or a drink.
+[00:55.2 - 00:56.8] And this will be so beneficial
+[00:56.8 - 00:59.0] if you have that sagging-looking face.
+[00:59.0 - 01:01.5] This will keep you looking toned instead of tired.
+[01:01.5 - 01:04.2] The best price for NeoCell products are on the TikTok shop,
+[01:04.2 - 01:05.6] so I will leave the link down below.
+[01:05.6 - 01:08.3] It's also on a great sale right now, so check that out.
+[01:08.3 - 01:11.1] And I would grab it quick before the price goes back up.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_14_7580009112214195486_transcription_20260531_212237.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_14_7580009112214195486_transcription_20260531_212237.txt
+
+============================================================
+RANK: 15 | GMV: $28149.78 | VIDEO ID: 7525074660086566175
+URL: https://www.tiktok.com/@adoseofwellness/video/7525074660086566175
+WORD COUNT: 1021
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_15_7525074660086566175.mp3, file size: 1.86 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 98.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.9]  If you've started seeing a ton of hair loss after being on the shot, then listen up because
+[00:04.9 - 00:06.8]  this is going to help you so much.
+[00:06.8 - 00:10.8]  You've been looking for an excellent supplement to help grow thicker, fuller hair, especially
+[00:10.8 - 00:14.0]  if you've been experiencing rapid hair loss while being on the shot.
+[00:14.0 - 00:19.0]  Do not take that super expensive supplement that starts with an N because that supplement
+[00:19.0 - 00:22.2]  is not going to do it if you want thicker, fuller hair, prevent your hair from shedding
+[00:22.2 - 00:23.3]  and falling out.
+[00:23.3 - 00:24.6]  It's just not the best supplement.
+[00:24.6 - 00:27.7]  Instead, you need to take something that contains Lestreva.
+[00:27.7 - 00:32.0]  It's a specially formulated type of biotin that is actually going to help your hair be
+[00:32.0 - 00:33.3]  thicker and fuller.
+[00:33.3 - 00:36.0]  It's been clinically shown in three weeks.
+[00:36.0 - 00:39.5]  It also has proven to help with fine lines and wrinkles and nail health as well.
+[00:39.5 - 00:43.1]  If you're looking for a hair supplement, find something with Lestreva.
+[00:43.1 - 00:48.3]  The best hair supplement that I recommend when you have hair loss on GLP1s is the Mary
+[00:48.3 - 00:51.0]  Ruth Hair Growth Vitamin Plus Multivitamin.
+[00:51.0 - 00:54.6]  I love that this contains a multivitamin because it kind of like fills in the gaps when you're
+[00:54.6 - 00:56.9]  not eating your best while being on that shot.
+[00:56.9 - 01:00.7]  It comes in a gummy now, which makes it so easy to be consistent.
+[01:00.7 - 01:02.6]  You just take two gummies once a day.
+[01:02.6 - 01:03.6]  That's it.
+[01:03.6 - 01:06.7]  They taste delicious, like a fruit snack, and it makes it so easy and you are going
+[01:06.7 - 01:11.6]  to notice thicker, fuller hair, help with skin health, nail health, and this is what
+[01:11.6 - 01:16.3]  you need to be taking, especially if you're on a GLP1 and you're getting a lot of hair
+[01:16.3 - 01:18.2]  loss or hair thinning because of it.
+[01:18.2 - 01:21.3]  This is available in stores, but it's much cheaper on TikTok Shop.
+[01:21.3 - 01:25.3]  So if you see that orange shopping cart, click that link and that will take you to the official
+[01:25.3 - 01:29.3]  Mary Ruth TikTok Shop page where you will find the best deals because they always run
+[01:29.3 - 01:31.0]  the best deals on TikTok.
+[01:31.0 - 01:34.9]  But definitely get something with Lestreva if you're looking for something for hair growth.
+[01:34.9 - 01:37.4]  If you have any questions at all, please leave them in the comments below.
+[01:37.4 - 01:38.1]  I'd love to help.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_15_7525074660086566175_transcription_20260531_212247.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_15_7525074660086566175_transcription_20260531_212247.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_15_7525074660086566175.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_15_7525074660086566175.mp3, file size: 1.86 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.9] If you've started seeing a ton of hair loss after being on the shot, then listen up because
+[00:04.9 - 00:06.8] this is going to help you so much.
+[00:06.8 - 00:10.8] You've been looking for an excellent supplement to help grow thicker, fuller hair, especially
+[00:10.8 - 00:14.0] if you've been experiencing rapid hair loss while being on the shot.
+[00:14.0 - 00:19.0] Do not take that super expensive supplement that starts with an N because that supplement
+[00:19.0 - 00:22.2] is not going to do it if you want thicker, fuller hair, prevent your hair from shedding
+[00:22.2 - 00:23.3] and falling out.
+[00:23.3 - 00:24.6] It's just not the best supplement.
+[00:24.6 - 00:27.7] Instead, you need to take something that contains Lestreva.
+[00:27.7 - 00:32.0] It's a specially formulated type of biotin that is actually going to help your hair be
+[00:32.0 - 00:33.3] thicker and fuller.
+[00:33.3 - 00:36.0] It's been clinically shown in three weeks.
+[00:36.0 - 00:39.5] It also has proven to help with fine lines and wrinkles and nail health as well.
+[00:39.5 - 00:43.1] If you're looking for a hair supplement, find something with Lestreva.
+[00:43.1 - 00:48.3] The best hair supplement that I recommend when you have hair loss on GLP1s is the Mary
+[00:48.3 - 00:51.0] Ruth Hair Growth Vitamin Plus Multivitamin.
+[00:51.0 - 00:54.6] I love that this contains a multivitamin because it kind of like fills in the gaps when you're
+[00:54.6 - 00:56.9] not eating your best while being on that shot.
+[00:56.9 - 01:00.7] It comes in a gummy now, which makes it so easy to be consistent.
+[01:00.7 - 01:02.6] You just take two gummies once a day.
+[01:02.6 - 01:03.6] That's it.
+[01:03.6 - 01:06.7] They taste delicious, like a fruit snack, and it makes it so easy and you are going
+[01:06.7 - 01:11.6] to notice thicker, fuller hair, help with skin health, nail health, and this is what
+[01:11.6 - 01:16.3] you need to be taking, especially if you're on a GLP1 and you're getting a lot of hair
+[01:16.3 - 01:18.2] loss or hair thinning because of it.
+[01:18.2 - 01:21.3] This is available in stores, but it's much cheaper on TikTok Shop.
+[01:21.3 - 01:25.3] So if you see that orange shopping cart, click that link and that will take you to the official
+[01:25.3 - 01:29.3] Mary Ruth TikTok Shop page where you will find the best deals because they always run
+[01:29.3 - 01:31.0] the best deals on TikTok.
+[01:31.0 - 01:34.9] But definitely get something with Lestreva if you're looking for something for hair growth.
+[01:34.9 - 01:37.4] If you have any questions at all, please leave them in the comments below.
+[01:37.4 - 01:38.1] I'd love to help.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_15_7525074660086566175_transcription_20260531_212247.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_15_7525074660086566175_transcription_20260531_212247.txt
+
+============================================================
+RANK: 16 | GMV: $28050.18 | VIDEO ID: 7603488254528376094
+URL: https://www.tiktok.com/@adoseofwellness/video/7603488254528376094
+STATUS: FAILED — Download failed: ERROR: [TikTok] 7603488254528376094: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+============================================================
+
+============================================================
+RANK: 17 | GMV: $25513.42 | VIDEO ID: 7607834341116251422
+URL: https://www.tiktok.com/@adoseofwellness/video/7607834341116251422
+WORD COUNT: 943
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_17_7607834341116251422.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 113.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:06.0]  took astaxanthin for back pain and suddenly your hair is thick full and shiny. I'm a pharmacist.
+[00:06.0 - 00:10.8]  I've been a pharmacist for almost 10 years and I've seen this happen over and over where people
+[00:10.8 - 00:16.1]  start taking astaxanthin for joint and inflammation support and they are genuinely surprised by their
+[00:16.1 - 00:20.9]  hair transformation. But here's what's actually happening. Most people start taking astaxanthin
+[00:20.9 - 00:27.1]  because it's a powerful anti-inflammatory and a very powerful antioxidant. It is 6,000 times
+[00:27.1 - 00:32.4]  stronger than vitamin c. That is why it is so helpful for stiff achy joints and overall recovery.
+[00:32.4 - 00:37.5]  It can also support eye health by helping protect retinal cells from blue light and artificial light
+[00:37.5 - 00:42.8]  exposure. Astaxanthin also supports cardiovascular health as well by reducing oxidative stress on
+[00:42.8 - 00:48.1]  blood vessels. And unlike many antioxidants, astaxanthin can actually cross the blood-brain
+[00:48.1 - 00:53.4]  barrier which is why people often notice benefits with focus, memory, eye health, and overall brain
+[00:53.4 - 00:59.1]  support. Astaxanthin is also one of the strongest anti-aging antioxidants available because it helps
+[00:59.1 - 01:04.0]  protect the body from oxidative stress which is one of the main causes of premature aging. And the
+[01:04.0 - 01:09.0]  part most people don't expect is that astaxanthin helps protect your hair follicles from damage.
+[01:09.0 - 01:14.5]  Over time this creates a healthier environment for hair to grow thicker, fuller, and shinier. It also
+[01:14.5 - 01:19.6]  helps improve blood flow to the scalp and reduce inflammation around the follicles which supports
+[01:19.6 - 01:24.1]  stronger healthier hair. But if you've tried astaxanthin before and you didn't notice much of a
+[01:24.1 - 01:29.3]  difference, quality really matters. The astaxanthin I recommend is the one by Micro Ingredients because
+[01:29.3 - 01:34.6]  it is naturally sourced from microalgae. It's not synthetic so it's better absorbed. It's also a 12
+[01:34.6 - 01:39.8]  milligram triple strength formula so you only need one soft gel per day. There are 120 soft gels in
+[01:39.8 - 01:44.8]  this bag which is a four-month supply so it's an excellent price but I will warn you this has gone
+[01:44.8 - 01:49.2]  really viral on TikTok shop and they sell out all the time. I will drop the link right down there in
+[01:49.2 - 01:53.0]  the orange shopping cart and if you still see it in stock I would grab it quick before it's sold out again.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_17_7607834341116251422_transcription_20260531_212302.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_17_7607834341116251422_transcription_20260531_212302.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_17_7607834341116251422.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_17_7607834341116251422.mp3, file size: 2.03 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:06.0] took astaxanthin for back pain and suddenly your hair is thick full and shiny. I'm a pharmacist.
+[00:06.0 - 00:10.8] I've been a pharmacist for almost 10 years and I've seen this happen over and over where people
+[00:10.8 - 00:16.1] start taking astaxanthin for joint and inflammation support and they are genuinely surprised by their
+[00:16.1 - 00:20.9] hair transformation. But here's what's actually happening. Most people start taking astaxanthin
+[00:20.9 - 00:27.1] because it's a powerful anti-inflammatory and a very powerful antioxidant. It is 6,000 times
+[00:27.1 - 00:32.4] stronger than vitamin c. That is why it is so helpful for stiff achy joints and overall recovery.
+[00:32.4 - 00:37.5] It can also support eye health by helping protect retinal cells from blue light and artificial light
+[00:37.5 - 00:42.8] exposure. Astaxanthin also supports cardiovascular health as well by reducing oxidative stress on
+[00:42.8 - 00:48.1] blood vessels. And unlike many antioxidants, astaxanthin can actually cross the blood-brain
+[00:48.1 - 00:53.4] barrier which is why people often notice benefits with focus, memory, eye health, and overall brain
+[00:53.4 - 00:59.1] support. Astaxanthin is also one of the strongest anti-aging antioxidants available because it helps
+[00:59.1 - 01:04.0] protect the body from oxidative stress which is one of the main causes of premature aging. And the
+[01:04.0 - 01:09.0] part most people don't expect is that astaxanthin helps protect your hair follicles from damage.
+[01:09.0 - 01:14.5] Over time this creates a healthier environment for hair to grow thicker, fuller, and shinier. It also
+[01:14.5 - 01:19.6] helps improve blood flow to the scalp and reduce inflammation around the follicles which supports
+[01:19.6 - 01:24.1] stronger healthier hair. But if you've tried astaxanthin before and you didn't notice much of a
+[01:24.1 - 01:29.3] difference, quality really matters. The astaxanthin I recommend is the one by Micro Ingredients because
+[01:29.3 - 01:34.6] it is naturally sourced from microalgae. It's not synthetic so it's better absorbed. It's also a 12
+[01:34.6 - 01:39.8] milligram triple strength formula so you only need one soft gel per day. There are 120 soft gels in
+[01:39.8 - 01:44.8] this bag which is a four-month supply so it's an excellent price but I will warn you this has gone
+[01:44.8 - 01:49.2] really viral on TikTok shop and they sell out all the time. I will drop the link right down there in
+[01:49.2 - 01:53.0] the orange shopping cart and if you still see it in stock I would grab it quick before it's sold out again.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_17_7607834341116251422_transcription_20260531_212302.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_17_7607834341116251422_transcription_20260531_212302.txt
+
+============================================================
+RANK: 18 | GMV: $24988.92 | VIDEO ID: 7610079365145038110
+URL: https://www.tiktok.com/@adoseofwellness/video/7610079365145038110
+WORD COUNT: 1013
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_18_7610079365145038110.mp3, file size: 1.87 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 103.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.3]  have to take the Dr. Melaxin Perfect Neck Bundle the right way. I'm a pharmacist. I've been a
+[00:05.3 - 00:09.3]  pharmacist for almost 10 years, so counseling is my specialty. If you recently grabbed this
+[00:09.3 - 00:12.9]  on the TikTok shop because it's gone crazy viral for helping with turkey neck like this,
+[00:12.9 - 00:16.7]  or sagging skin like this, then listen up. I have a few tips so you can make sure you get
+[00:16.7 - 00:21.3]  the best benefits from the set. First, it comes with the neckline cream. This is only going to
+[00:21.3 - 00:27.0]  be used on the deep lines and wrinkles on your neck. This is kind of like a $500 microneedling
+[00:27.0 - 00:31.4]  treatment in this little bottle because this contains tiny spicules that will create micro
+[00:31.4 - 00:36.6]  tears in your skin. That's going to help support collagen production and skin cell turnover. You
+[00:36.6 - 00:41.1]  just massage it gently, and you can do this every single day. Next, it comes with the ECM
+[00:41.1 - 00:46.6]  Neck Serum. Now, this is a highly concentrated serum. This should only be used once every three
+[00:46.6 - 00:52.2]  days. Just break the ampule open, and you can apply a small amount all over your neck and
+[00:52.2 - 00:56.7]  gently rub it in from your jawline to the bottom of your neck, and this is going to help promote
+[00:56.7 - 01:01.4]  collagen and elastin production. That is one of the main contributors to that sagging skin.
+[01:01.4 - 01:05.9]  As we get older, we tend to lose a lot of collagen. Your skin cannot rebound as quickly,
+[01:05.9 - 01:11.3]  so taking something like ECM-5, that is a patented ingredient that has been studied and shown to help
+[01:11.3 - 01:15.8]  boost collagen and elastin production. You can also reuse this because you only need a small
+[01:15.8 - 01:19.8]  amount. Just close it with the cap like this, and you can use it again. And last but not least,
+[01:19.8 - 01:25.0]  it comes with the neck cream. This cream is very hydrating, and this will lock in all that moisture.
+[01:25.0 - 01:30.2]  This also contains ECM-5 to help with collagen production and elastin production,
+[01:30.2 - 01:33.8]  and you can use this every single day. They sell this in a bundle on the TikTok shop for
+[01:33.8 - 01:37.8]  an incredible price, but when the price goes really low like this, they usually sell out.
+[01:37.8 - 01:41.0]  I will link it down below for you in the orange shopping cart, and if you see it on sale,
+[01:41.0 - 01:43.0]  I would grab it quick before that price goes back up.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_18_7610079365145038110_transcription_20260531_212313.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_18_7610079365145038110_transcription_20260531_212313.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_18_7610079365145038110.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_18_7610079365145038110.mp3, file size: 1.87 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.3] have to take the Dr. Melaxin Perfect Neck Bundle the right way. I'm a pharmacist. I've been a
+[00:05.3 - 00:09.3] pharmacist for almost 10 years, so counseling is my specialty. If you recently grabbed this
+[00:09.3 - 00:12.9] on the TikTok shop because it's gone crazy viral for helping with turkey neck like this,
+[00:12.9 - 00:16.7] or sagging skin like this, then listen up. I have a few tips so you can make sure you get
+[00:16.7 - 00:21.3] the best benefits from the set. First, it comes with the neckline cream. This is only going to
+[00:21.3 - 00:27.0] be used on the deep lines and wrinkles on your neck. This is kind of like a $500 microneedling
+[00:27.0 - 00:31.4] treatment in this little bottle because this contains tiny spicules that will create micro
+[00:31.4 - 00:36.6] tears in your skin. That's going to help support collagen production and skin cell turnover. You
+[00:36.6 - 00:41.1] just massage it gently, and you can do this every single day. Next, it comes with the ECM
+[00:41.1 - 00:46.6] Neck Serum. Now, this is a highly concentrated serum. This should only be used once every three
+[00:46.6 - 00:52.2] days. Just break the ampule open, and you can apply a small amount all over your neck and
+[00:52.2 - 00:56.7] gently rub it in from your jawline to the bottom of your neck, and this is going to help promote
+[00:56.7 - 01:01.4] collagen and elastin production. That is one of the main contributors to that sagging skin.
+[01:01.4 - 01:05.9] As we get older, we tend to lose a lot of collagen. Your skin cannot rebound as quickly,
+[01:05.9 - 01:11.3] so taking something like ECM-5, that is a patented ingredient that has been studied and shown to help
+[01:11.3 - 01:15.8] boost collagen and elastin production. You can also reuse this because you only need a small
+[01:15.8 - 01:19.8] amount. Just close it with the cap like this, and you can use it again. And last but not least,
+[01:19.8 - 01:25.0] it comes with the neck cream. This cream is very hydrating, and this will lock in all that moisture.
+[01:25.0 - 01:30.2] This also contains ECM-5 to help with collagen production and elastin production,
+[01:30.2 - 01:33.8] and you can use this every single day. They sell this in a bundle on the TikTok shop for
+[01:33.8 - 01:37.8] an incredible price, but when the price goes really low like this, they usually sell out.
+[01:37.8 - 01:41.0] I will link it down below for you in the orange shopping cart, and if you see it on sale,
+[01:41.0 - 01:43.0] I would grab it quick before that price goes back up.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_18_7610079365145038110_transcription_20260531_212313.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_18_7610079365145038110_transcription_20260531_212313.txt
+
+============================================================
+RANK: 19 | GMV: $23919.82 | VIDEO ID: 7603173445567892766
+URL: https://www.tiktok.com/@adoseofwellness/video/7603173445567892766
+WORD COUNT: 995
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_19_7603173445567892766.mp3, file size: 1.91 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 110.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.1]  So you took astaxanthin for back pain and suddenly your hair is thick, full, and shiny
+[00:05.1 - 00:06.5]  like you just got a fresh blowout.
+[00:06.5 - 00:11.0]  I've been a pharmacist for almost 10 years and I've seen this happen over and over where
+[00:11.0 - 00:15.7]  people start taking astaxanthin for joint and inflammation support and they're genuinely
+[00:15.7 - 00:17.9]  surprised by their hair transformation.
+[00:17.9 - 00:19.7]  But here's what's actually happening.
+[00:19.7 - 00:24.8]  Most people start taking astaxanthin because it is a powerful anti-inflammatory and a very
+[00:24.8 - 00:26.3]  powerful antioxidant.
+[00:26.3 - 00:31.4]  It is 6,000 times stronger than vitamin C and that is why it is so helpful for stiff
+[00:31.4 - 00:33.1]  achy joints and overall recovery.
+[00:33.1 - 00:37.9]  It can also support eye health by helping protect retinal cells from blue light and
+[00:37.9 - 00:39.7]  artificial light exposure.
+[00:39.7 - 00:44.2]  And unlike many antioxidants, astaxanthin can actually cross the blood-brain barrier
+[00:44.2 - 00:49.3]  which is why people often notice benefits with focus, memory, eye health, and overall
+[00:49.3 - 00:50.9]  brain support.
+[00:50.9 - 00:55.6]  Astaxanthin is one of the strongest anti-aging antioxidants available because it helps protect
+[00:55.6 - 01:00.2]  the body from oxidative stress which is one of the main causes of premature aging.
+[01:00.2 - 01:04.8]  And the part most people don't expect is that astaxanthin helps protect your hair follicles
+[01:04.8 - 01:05.9]  from damage.
+[01:05.9 - 01:10.8]  Over time, this creates a healthier environment for hair to grow thicker, fuller, and shinier.
+[01:10.8 - 01:15.9]  It also helps improve blood flow to the scalp and reduce inflammation around the follicles
+[01:15.9 - 01:17.8]  which supports stronger, healthier hair.
+[01:17.8 - 01:22.1]  But if you've tried astaxanthin before and you didn't notice much of a difference, quality
+[01:22.1 - 01:23.1]  really matters.
+[01:23.1 - 01:27.3]  This is the astaxanthin I recommend by Micro Ingredients because this is naturally sourced
+[01:27.3 - 01:28.3]  from microalgae.
+[01:28.3 - 01:29.3]  It is not synthetic.
+[01:29.3 - 01:34.2]  It's a 12mg triple strength formula so you only need one soft gel per day.
+[01:34.2 - 01:39.1]  There are 120 soft gels in this bag so that makes this a 4 month supply for an excellent
+[01:39.1 - 01:40.1]  price.
+[01:40.1 - 01:42.5]  I will drop the link right down there in the orange shopping cart if you want to try it
+[01:42.5 - 01:46.7]  but I will warn you, this sells out quite often because of how viral it's gone on TikTok
+[01:46.7 - 01:50.4]  Shop so if you still see it in stock, I would grab it quick before it's sold out again.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_19_7603173445567892766_transcription_20260531_212324.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_19_7603173445567892766_transcription_20260531_212324.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_19_7603173445567892766.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_19_7603173445567892766.mp3, file size: 1.91 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.1] So you took astaxanthin for back pain and suddenly your hair is thick, full, and shiny
+[00:05.1 - 00:06.5] like you just got a fresh blowout.
+[00:06.5 - 00:11.0] I've been a pharmacist for almost 10 years and I've seen this happen over and over where
+[00:11.0 - 00:15.7] people start taking astaxanthin for joint and inflammation support and they're genuinely
+[00:15.7 - 00:17.9] surprised by their hair transformation.
+[00:17.9 - 00:19.7] But here's what's actually happening.
+[00:19.7 - 00:24.8] Most people start taking astaxanthin because it is a powerful anti-inflammatory and a very
+[00:24.8 - 00:26.3] powerful antioxidant.
+[00:26.3 - 00:31.4] It is 6,000 times stronger than vitamin C and that is why it is so helpful for stiff
+[00:31.4 - 00:33.1] achy joints and overall recovery.
+[00:33.1 - 00:37.9] It can also support eye health by helping protect retinal cells from blue light and
+[00:37.9 - 00:39.7] artificial light exposure.
+[00:39.7 - 00:44.2] And unlike many antioxidants, astaxanthin can actually cross the blood-brain barrier
+[00:44.2 - 00:49.3] which is why people often notice benefits with focus, memory, eye health, and overall
+[00:49.3 - 00:50.9] brain support.
+[00:50.9 - 00:55.6] Astaxanthin is one of the strongest anti-aging antioxidants available because it helps protect
+[00:55.6 - 01:00.2] the body from oxidative stress which is one of the main causes of premature aging.
+[01:00.2 - 01:04.8] And the part most people don't expect is that astaxanthin helps protect your hair follicles
+[01:04.8 - 01:05.9] from damage.
+[01:05.9 - 01:10.8] Over time, this creates a healthier environment for hair to grow thicker, fuller, and shinier.
+[01:10.8 - 01:15.9] It also helps improve blood flow to the scalp and reduce inflammation around the follicles
+[01:15.9 - 01:17.8] which supports stronger, healthier hair.
+[01:17.8 - 01:22.1] But if you've tried astaxanthin before and you didn't notice much of a difference, quality
+[01:22.1 - 01:23.1] really matters.
+[01:23.1 - 01:27.3] This is the astaxanthin I recommend by Micro Ingredients because this is naturally sourced
+[01:27.3 - 01:28.3] from microalgae.
+[01:28.3 - 01:29.3] It is not synthetic.
+[01:29.3 - 01:34.2] It's a 12mg triple strength formula so you only need one soft gel per day.
+[01:34.2 - 01:39.1] There are 120 soft gels in this bag so that makes this a 4 month supply for an excellent
+[01:39.1 - 01:40.1] price.
+[01:40.1 - 01:42.5] I will drop the link right down there in the orange shopping cart if you want to try it
+[01:42.5 - 01:46.7] but I will warn you, this sells out quite often because of how viral it's gone on TikTok
+[01:46.7 - 01:50.4] Shop so if you still see it in stock, I would grab it quick before it's sold out again.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_19_7603173445567892766_transcription_20260531_212324.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_19_7603173445567892766_transcription_20260531_212324.txt
+
+============================================================
+RANK: 20 | GMV: $23446.93 | VIDEO ID: 7602705409119456543
+URL: https://www.tiktok.com/@adoseofwellness/video/7602705409119456543
+WORD COUNT: 903
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_20_7602705409119456543.mp3, file size: 1.41 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 81.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.4]  Here's how to take glutathione the right way.
+[00:03.4 - 00:04.4]  I'm a pharmacist.
+[00:04.4 - 00:06.5]  I've been a pharmacist for almost 10 years,
+[00:06.5 - 00:09.3]  and this is something I explain to patients all the time.
+[00:09.3 - 00:12.4]  Glutathione is your body's master antioxidant.
+[00:12.4 - 00:15.3]  It's made in the liver, and it helps detox the body.
+[00:15.3 - 00:17.6]  It protects your cells from oxidative stress,
+[00:17.6 - 00:21.0]  it supports immune function, and it aids in cellular repair.
+[00:21.0 - 00:23.3]  The problem is most people are depleted,
+[00:23.3 - 00:25.9]  especially as we age and have more stress.
+[00:25.9 - 00:27.7]  When choosing a glutathione supplement,
+[00:27.7 - 00:30.1]  I suggest choosing a liposomal formulation
+[00:30.1 - 00:32.3]  because that's designed for better absorption
+[00:32.3 - 00:33.4]  and better results.
+[00:33.4 - 00:35.8]  I also suggest taking it first thing in the morning,
+[00:35.8 - 00:37.6]  ideally on an empty stomach,
+[00:37.6 - 00:39.6]  and especially separated from protein
+[00:39.6 - 00:41.6]  because that can really inhibit the absorption
+[00:41.6 - 00:42.7]  of the glutathione.
+[00:42.7 - 00:44.4]  If you'd like a really great recommendation
+[00:44.4 - 00:47.4]  for a glutathione supplement, it's this one by Symbiotica
+[00:47.4 - 00:50.0]  because they use a liposomal formulation.
+[00:50.0 - 00:52.0]  It also has necessary ingredients in it
+[00:52.0 - 00:53.4]  to help boost absorption.
+[00:53.4 - 00:55.4]  They come in these little easy-to-take packets.
+[00:55.4 - 00:58.0]  You just rip it open and take it by mouth.
+[00:58.0 - 00:59.6]  I suggest taking it just from the packet.
+[00:59.6 - 01:01.3]  Don't mix it in food or water or anything
+[01:01.3 - 01:02.9]  because that will give you the best results
+[01:02.9 - 01:03.7]  when taking this.
+[01:03.7 - 01:05.9]  It comes in a really nice citrus vanilla flavor.
+[01:05.9 - 01:07.8]  It almost tastes like a lemon frosting,
+[01:07.8 - 01:09.5]  so it's really easy to take daily.
+[01:09.5 - 01:11.2]  And they sell this on the TikTok shop.
+[01:11.2 - 01:12.8]  If you wanna try it and you've been looking
+[01:12.8 - 01:14.2]  to start taking glutathione,
+[01:14.2 - 01:16.2]  this is one of the best brands I can recommend.
+[01:16.2 - 01:18.3]  I will link it down below if you wanna check it out.
+[01:18.3 - 01:20.6]  And if you have any other questions about glutathione,
+[01:20.6 - 01:22.0]  please leave them down below.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_20_7602705409119456543_transcription_20260531_212331.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_20_7602705409119456543_transcription_20260531_212331.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_20_7602705409119456543.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_20_7602705409119456543.mp3, file size: 1.41 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.4] Here's how to take glutathione the right way.
+[00:03.4 - 00:04.4] I'm a pharmacist.
+[00:04.4 - 00:06.5] I've been a pharmacist for almost 10 years,
+[00:06.5 - 00:09.3] and this is something I explain to patients all the time.
+[00:09.3 - 00:12.4] Glutathione is your body's master antioxidant.
+[00:12.4 - 00:15.3] It's made in the liver, and it helps detox the body.
+[00:15.3 - 00:17.6] It protects your cells from oxidative stress,
+[00:17.6 - 00:21.0] it supports immune function, and it aids in cellular repair.
+[00:21.0 - 00:23.3] The problem is most people are depleted,
+[00:23.3 - 00:25.9] especially as we age and have more stress.
+[00:25.9 - 00:27.7] When choosing a glutathione supplement,
+[00:27.7 - 00:30.1] I suggest choosing a liposomal formulation
+[00:30.1 - 00:32.3] because that's designed for better absorption
+[00:32.3 - 00:33.4] and better results.
+[00:33.4 - 00:35.8] I also suggest taking it first thing in the morning,
+[00:35.8 - 00:37.6] ideally on an empty stomach,
+[00:37.6 - 00:39.6] and especially separated from protein
+[00:39.6 - 00:41.6] because that can really inhibit the absorption
+[00:41.6 - 00:42.7] of the glutathione.
+[00:42.7 - 00:44.4] If you'd like a really great recommendation
+[00:44.4 - 00:47.4] for a glutathione supplement, it's this one by Symbiotica
+[00:47.4 - 00:50.0] because they use a liposomal formulation.
+[00:50.0 - 00:52.0] It also has necessary ingredients in it
+[00:52.0 - 00:53.4] to help boost absorption.
+[00:53.4 - 00:55.4] They come in these little easy-to-take packets.
+[00:55.4 - 00:58.0] You just rip it open and take it by mouth.
+[00:58.0 - 00:59.6] I suggest taking it just from the packet.
+[00:59.6 - 01:01.3] Don't mix it in food or water or anything
+[01:01.3 - 01:02.9] because that will give you the best results
+[01:02.9 - 01:03.7] when taking this.
+[01:03.7 - 01:05.9] It comes in a really nice citrus vanilla flavor.
+[01:05.9 - 01:07.8] It almost tastes like a lemon frosting,
+[01:07.8 - 01:09.5] so it's really easy to take daily.
+[01:09.5 - 01:11.2] And they sell this on the TikTok shop.
+[01:11.2 - 01:12.8] If you wanna try it and you've been looking
+[01:12.8 - 01:14.2] to start taking glutathione,
+[01:14.2 - 01:16.2] this is one of the best brands I can recommend.
+[01:16.2 - 01:18.3] I will link it down below if you wanna check it out.
+[01:18.3 - 01:20.6] And if you have any other questions about glutathione,
+[01:20.6 - 01:22.0] please leave them down below.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_20_7602705409119456543_transcription_20260531_212331.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_20_7602705409119456543_transcription_20260531_212331.txt
+
+============================================================
+RANK: 21 | GMV: $22921.65 | VIDEO ID: 7568899615462788383
+URL: https://www.tiktok.com/@adoseofwellness/video/7568899615462788383
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 22 | GMV: $21064.92 | VIDEO ID: 7574093074725457182
+URL: https://www.tiktok.com/@adoseofwellness/video/7574093074725457182
+WORD COUNT: 727
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_22_7574093074725457182.mp3, file size: 1.37 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 75.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.9]  Hi, what brings you in today? My belly's sticking out like crazy. I look like I'm pregnant again
+[00:04.1 - 00:09.5]  You need magnesium carbonate and i've been waking up like three times a night to pee take magnesium glycinate
+[00:09.8 - 00:13.4]  My skin has been breaking out like i'm in high school again. I can't even look at myself
+[00:14.2 - 00:17.7]  Yeah, take magnesium malate and my eyelids have been twitching all day
+[00:17.7 - 00:23.8]  It's driving me insane magnesium taurate. Sometimes my head pounds so much. I can't even think you need magnesium oxide
+[00:23.9 - 00:28.5]  My heart's always racing and skips a beat for no reason. Yep. Magnesium orotate next
+[00:28.7 - 00:33.1]  I haven't used the bathroom in days. I feel so heavy magnesium citrate will take care of that right away
+[00:33.2 - 00:39.0]  Every time I move my muscles cramp up magnesium aspartate. Wait, that's like eight different magnesium supplements
+[00:39.2 - 00:45.1]  Buying all these separate is confusing expensive and it's a nightmare to take all of these supplements every single day
+[00:45.1 - 00:51.8]  I always recommend one simple solution and it's magnesium complex because this combines eight different magnesium supplements all in one
+[00:51.9 - 00:57.5]  It's gluten-free sugar-free and so easy to take you just take two capsules a day before a meal within three weeks
+[00:57.6 - 01:02.5]  You'll sleep deeper be more calm than ever and you'll have more energy than you've ever had before
+[01:02.7 - 01:08.3]  Magnesium is behind over 400 functions in our body and so many people are deficient and they don't even know it
+[01:08.4 - 01:13.8]  They sell this on the tiktok shop for an incredible price. But when the price goes this low they usually sell out really fast
+[01:13.9 - 01:15.9]  I'll leave the link below if you want to try it
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_22_7574093074725457182_transcription_20260531_212343.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_22_7574093074725457182_transcription_20260531_212343.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_22_7574093074725457182.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_22_7574093074725457182.mp3, file size: 1.37 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.9] Hi, what brings you in today? My belly's sticking out like crazy. I look like I'm pregnant again
+[00:04.1 - 00:09.5] You need magnesium carbonate and i've been waking up like three times a night to pee take magnesium glycinate
+[00:09.8 - 00:13.4] My skin has been breaking out like i'm in high school again. I can't even look at myself
+[00:14.2 - 00:17.7] Yeah, take magnesium malate and my eyelids have been twitching all day
+[00:17.7 - 00:23.8] It's driving me insane magnesium taurate. Sometimes my head pounds so much. I can't even think you need magnesium oxide
+[00:23.9 - 00:28.5] My heart's always racing and skips a beat for no reason. Yep. Magnesium orotate next
+[00:28.7 - 00:33.1] I haven't used the bathroom in days. I feel so heavy magnesium citrate will take care of that right away
+[00:33.2 - 00:39.0] Every time I move my muscles cramp up magnesium aspartate. Wait, that's like eight different magnesium supplements
+[00:39.2 - 00:45.1] Buying all these separate is confusing expensive and it's a nightmare to take all of these supplements every single day
+[00:45.1 - 00:51.8] I always recommend one simple solution and it's magnesium complex because this combines eight different magnesium supplements all in one
+[00:51.9 - 00:57.5] It's gluten-free sugar-free and so easy to take you just take two capsules a day before a meal within three weeks
+[00:57.6 - 01:02.5] You'll sleep deeper be more calm than ever and you'll have more energy than you've ever had before
+[01:02.7 - 01:08.3] Magnesium is behind over 400 functions in our body and so many people are deficient and they don't even know it
+[01:08.4 - 01:13.8] They sell this on the tiktok shop for an incredible price. But when the price goes this low they usually sell out really fast
+[01:13.9 - 01:15.9] I'll leave the link below if you want to try it
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_22_7574093074725457182_transcription_20260531_212343.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_22_7574093074725457182_transcription_20260531_212343.txt
+
+============================================================
+RANK: 23 | GMV: $20406.96 | VIDEO ID: 7577817675456417054
+URL: https://www.tiktok.com/@adoseofwellness/video/7577817675456417054
+WORD COUNT: 973
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_23_7577817675456417054.mp3, file size: 1.84 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 95.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.4]  have to take beetroot correctly. I'm a pharmacist. I
+[00:03.4 - 00:06.0]  counsel patients on their supplements all the time. So,
+[00:06.0 - 00:07.8]  if you're wondering if a beetroot supplement is
+[00:07.8 - 00:10.4]  actually worth your money or if it's just hype, you're in
+[00:10.4 - 00:13.0]  the right place. Beetroot is one of the most underrated
+[00:13.0 - 00:15.4]  wellness supplements that I have seen lately. It's
+[00:15.4 - 00:18.6]  naturally rich in nitrates. Those are plant compounds that
+[00:18.6 - 00:21.9]  your body converts into nitric oxide and nitric oxide is
+[00:21.9 - 00:24.6]  what helps your blood flow more efficiently. Your muscles
+[00:24.6 - 00:27.4]  feel less tense and your daily movement will feel much
+[00:27.4 - 00:29.8]  smoother. That's why beetroot can help support healthy
+[00:29.8 - 00:33.3]  circulation, promote stamina, helps you feel more energized
+[00:33.3 - 00:36.3]  naturally, and it even gives you that natural glow and it
+[00:36.3 - 00:39.0]  can even support overall leg wellness, especially if you
+[00:39.0 - 00:41.4]  get like that restless leg feeling. Beetroot powder can
+[00:41.4 - 00:44.3]  help a lot. It's also packed with antioxidants which your
+[00:44.3 - 00:47.1]  body uses for recovery and vitality throughout the day
+[00:47.1 - 00:49.5]  and so here's how to actually take beetroot so you can see
+[00:49.5 - 00:52.0]  the difference and get the benefits. I suggest taking it
+[00:52.0 - 00:55.4]  daily because nitric oxide benefits come from consistency.
+[00:55.4 - 00:58.4]  Also, take it earlier in the day before walking or workouts
+[00:58.4 - 01:01.4]  or any movement and I always choose powder or capsules
+[01:01.4 - 01:03.7]  over taking like beetroot juice because it's more
+[01:03.7 - 01:06.6]  concentrated, more consistent, and it won't load you with
+[01:06.6 - 01:08.7]  sugar and when you take beetroot powder, make sure
+[01:08.7 - 01:11.4]  you're hydrated because beetroot uses natural compounds
+[01:11.4 - 01:13.9]  more efficiently when you're hydrated. If you want a really
+[01:13.9 - 01:16.4]  great suggestion for a beetroot supplement, it's this one by
+[01:16.4 - 01:20.8]  Rosabella because they use 100% organic pure beetroot powder.
+[01:20.8 - 01:23.4]  It's also lab tested and made in the US in a quality
+[01:23.4 - 01:25.4]  facility so you can be sure you're getting a quality
+[01:25.4 - 01:27.8]  supplement. They're running great great deals right now so
+[01:27.8 - 01:29.9]  check out the link below. You can see all the amazing
+[01:29.9 - 01:32.3]  reviews for yourself and if you have any other questions on
+[01:32.3 - 01:34.6]  how to take beetroot, please leave them in the comments
+[01:34.6 - 01:34.8]  below.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_23_7577817675456417054_transcription_20260531_212354.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_23_7577817675456417054_transcription_20260531_212354.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_23_7577817675456417054.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_23_7577817675456417054.mp3, file size: 1.84 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.4] have to take beetroot correctly. I'm a pharmacist. I
+[00:03.4 - 00:06.0] counsel patients on their supplements all the time. So,
+[00:06.0 - 00:07.8] if you're wondering if a beetroot supplement is
+[00:07.8 - 00:10.4] actually worth your money or if it's just hype, you're in
+[00:10.4 - 00:13.0] the right place. Beetroot is one of the most underrated
+[00:13.0 - 00:15.4] wellness supplements that I have seen lately. It's
+[00:15.4 - 00:18.6] naturally rich in nitrates. Those are plant compounds that
+[00:18.6 - 00:21.9] your body converts into nitric oxide and nitric oxide is
+[00:21.9 - 00:24.6] what helps your blood flow more efficiently. Your muscles
+[00:24.6 - 00:27.4] feel less tense and your daily movement will feel much
+[00:27.4 - 00:29.8] smoother. That's why beetroot can help support healthy
+[00:29.8 - 00:33.3] circulation, promote stamina, helps you feel more energized
+[00:33.3 - 00:36.3] naturally, and it even gives you that natural glow and it
+[00:36.3 - 00:39.0] can even support overall leg wellness, especially if you
+[00:39.0 - 00:41.4] get like that restless leg feeling. Beetroot powder can
+[00:41.4 - 00:44.3] help a lot. It's also packed with antioxidants which your
+[00:44.3 - 00:47.1] body uses for recovery and vitality throughout the day
+[00:47.1 - 00:49.5] and so here's how to actually take beetroot so you can see
+[00:49.5 - 00:52.0] the difference and get the benefits. I suggest taking it
+[00:52.0 - 00:55.4] daily because nitric oxide benefits come from consistency.
+[00:55.4 - 00:58.4] Also, take it earlier in the day before walking or workouts
+[00:58.4 - 01:01.4] or any movement and I always choose powder or capsules
+[01:01.4 - 01:03.7] over taking like beetroot juice because it's more
+[01:03.7 - 01:06.6] concentrated, more consistent, and it won't load you with
+[01:06.6 - 01:08.7] sugar and when you take beetroot powder, make sure
+[01:08.7 - 01:11.4] you're hydrated because beetroot uses natural compounds
+[01:11.4 - 01:13.9] more efficiently when you're hydrated. If you want a really
+[01:13.9 - 01:16.4] great suggestion for a beetroot supplement, it's this one by
+[01:16.4 - 01:20.8] Rosabella because they use 100% organic pure beetroot powder.
+[01:20.8 - 01:23.4] It's also lab tested and made in the US in a quality
+[01:23.4 - 01:25.4] facility so you can be sure you're getting a quality
+[01:25.4 - 01:27.8] supplement. They're running great great deals right now so
+[01:27.8 - 01:29.9] check out the link below. You can see all the amazing
+[01:29.9 - 01:32.3] reviews for yourself and if you have any other questions on
+[01:32.3 - 01:34.6] how to take beetroot, please leave them in the comments
+[01:34.6 - 01:34.8] below.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_23_7577817675456417054_transcription_20260531_212354.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_23_7577817675456417054_transcription_20260531_212354.txt
+
+============================================================
+RANK: 24 | GMV: $18173.48 | VIDEO ID: 7553354135928605983
+URL: https://www.tiktok.com/@adoseofwellness/video/7553354135928605983
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 25 | GMV: $17146.83 | VIDEO ID: 7568873543895649567
+URL: https://www.tiktok.com/@adoseofwellness/video/7568873543895649567
+WORD COUNT: 769
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_25_7568873543895649567.mp3, file size: 1.36 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 72.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.9]  If those acne patches are not working for you because they probably don't contain enough
+[00:03.9 - 00:08.0]  active ingredient to even do anything, you need to try the drying lotion by Dr. Leo.
+[00:08.0 - 00:12.1]  As a pharmacist, the best thing I can recommend for acne treatment is salicylic acid, but
+[00:12.1 - 00:14.9]  most products don't even contain enough to make a difference.
+[00:14.9 - 00:19.4]  This one actually has 1.8% salicylic acid, which is perfect for actually getting rid
+[00:19.4 - 00:20.4]  of those blemishes.
+[00:20.4 - 00:22.7]  This contains layers of acne treatment.
+[00:22.7 - 00:27.4]  There is salicylic acid, niacinamide, and a powder layer to help inhibit bacteria and
+[00:27.4 - 00:28.4]  reduce inflammation.
+[00:28.4 - 00:31.8]  I know you might think you need to shake this, but do not shake it.
+[00:31.8 - 00:33.6]  I'll show you exactly how to use this.
+[00:33.6 - 00:37.7]  You take one of their sterile cotton swabs that comes with the salicylic acid treatment.
+[00:37.7 - 00:42.5]  You just dip the cotton swab all the way down, all the way down to make sure you get it in
+[00:42.5 - 00:44.7]  that powder layer.
+[00:44.7 - 00:47.8]  Take it out, and then you can apply it right on your blemish.
+[00:47.8 - 00:51.6]  As many pimples as you have to cover, you can put this all over it.
+[00:51.6 - 00:54.9]  Salicylic acid is the best thing to help get rid of blemishes quickly.
+[00:54.9 - 00:59.1]  This also contains niacinamide, which I love because it's going to help with the dark spots
+[00:59.1 - 01:02.8]  that blemishes can leave after they're gone and just help clear your skin complexion.
+[01:02.8 - 01:07.5]  In the TikTok shop right now, they have 50% off and free shipping, so do not miss out
+[01:07.5 - 01:08.5]  on this deal.
+[01:08.5 - 01:10.8]  I will leave the link right down there below in the orange shopping cart.
+[01:10.8 - 01:12.3]  Grab it quick before that sale's over.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_25_7568873543895649567_transcription_20260531_212404.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_25_7568873543895649567_transcription_20260531_212404.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_25_7568873543895649567.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_25_7568873543895649567.mp3, file size: 1.36 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.9] If those acne patches are not working for you because they probably don't contain enough
+[00:03.9 - 00:08.0] active ingredient to even do anything, you need to try the drying lotion by Dr. Leo.
+[00:08.0 - 00:12.1] As a pharmacist, the best thing I can recommend for acne treatment is salicylic acid, but
+[00:12.1 - 00:14.9] most products don't even contain enough to make a difference.
+[00:14.9 - 00:19.4] This one actually has 1.8% salicylic acid, which is perfect for actually getting rid
+[00:19.4 - 00:20.4] of those blemishes.
+[00:20.4 - 00:22.7] This contains layers of acne treatment.
+[00:22.7 - 00:27.4] There is salicylic acid, niacinamide, and a powder layer to help inhibit bacteria and
+[00:27.4 - 00:28.4] reduce inflammation.
+[00:28.4 - 00:31.8] I know you might think you need to shake this, but do not shake it.
+[00:31.8 - 00:33.6] I'll show you exactly how to use this.
+[00:33.6 - 00:37.7] You take one of their sterile cotton swabs that comes with the salicylic acid treatment.
+[00:37.7 - 00:42.5] You just dip the cotton swab all the way down, all the way down to make sure you get it in
+[00:42.5 - 00:44.7] that powder layer.
+[00:44.7 - 00:47.8] Take it out, and then you can apply it right on your blemish.
+[00:47.8 - 00:51.6] As many pimples as you have to cover, you can put this all over it.
+[00:51.6 - 00:54.9] Salicylic acid is the best thing to help get rid of blemishes quickly.
+[00:54.9 - 00:59.1] This also contains niacinamide, which I love because it's going to help with the dark spots
+[00:59.1 - 01:02.8] that blemishes can leave after they're gone and just help clear your skin complexion.
+[01:02.8 - 01:07.5] In the TikTok shop right now, they have 50% off and free shipping, so do not miss out
+[01:07.5 - 01:08.5] on this deal.
+[01:08.5 - 01:10.8] I will leave the link right down there below in the orange shopping cart.
+[01:10.8 - 01:12.3] Grab it quick before that sale's over.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_25_7568873543895649567_transcription_20260531_212404.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_25_7568873543895649567_transcription_20260531_212404.txt
+
+============================================================
+RANK: 26 | GMV: $17025.01 | VIDEO ID: 7584884279876816158
+URL: https://www.tiktok.com/@adoseofwellness/video/7584884279876816158
+WORD COUNT: 655
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_26_7584884279876816158.mp3, file size: 1.25 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 68.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.8]  Magnesium for kids is so great because it actually naturally helps support their nervous system,
+[00:05.8 - 00:11.3]  helps with sleep, calming, muscle health, and overall wellness. But for kids, you need to look
+[00:11.3 - 00:16.9]  at the form of magnesium. Best types of magnesium for kids are magnesium citrate and magnesium
+[00:16.9 - 00:21.9]  glycinate. They usually require a lower dose than adults, so I do suggest finding a kid's
+[00:21.9 - 00:27.0]  supplement if you're going to give magnesium to your children. I love the Mary Ruth Kids Magnesium
+[00:27.0 - 00:31.9]  Calm Gummies because they actually use magnesium citrate, the perfect dose for children, and it's
+[00:31.9 - 00:36.6]  also a gummy form, so it's very easy to give it to your children. I suggest giving it to them right
+[00:36.6 - 00:41.8]  before bed because it will help them calm down and relax. Also, the Mary Ruth ones are vegan,
+[00:41.8 - 00:46.9]  they're sugar-free, they're non-GMO, very clean, and they're great for bedtime. There's no melatonin
+[00:46.9 - 00:51.6]  in them either, it's just magnesium citrate. I give them to my kids at night, they love the taste,
+[00:51.6 - 00:55.1]  they're delicious, and they're so easy to give it to your children right before bed. I'll link the
+[00:55.1 - 00:58.8]  Mary Ruth Magnesium Gummies right down there in the orange shopping cart if you want to try them
+[00:58.8 - 01:03.6]  so you can see more about them. The best price is on the TikTok shop. They also do offer fast-free
+[01:03.6 - 01:07.8]  shipping, which is great, so if you have any other questions, please leave them in the comments below.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_26_7584884279876816158_transcription_20260531_212413.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_26_7584884279876816158_transcription_20260531_212413.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_26_7584884279876816158.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_26_7584884279876816158.mp3, file size: 1.25 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.8] Magnesium for kids is so great because it actually naturally helps support their nervous system,
+[00:05.8 - 00:11.3] helps with sleep, calming, muscle health, and overall wellness. But for kids, you need to look
+[00:11.3 - 00:16.9] at the form of magnesium. Best types of magnesium for kids are magnesium citrate and magnesium
+[00:16.9 - 00:21.9] glycinate. They usually require a lower dose than adults, so I do suggest finding a kid's
+[00:21.9 - 00:27.0] supplement if you're going to give magnesium to your children. I love the Mary Ruth Kids Magnesium
+[00:27.0 - 00:31.9] Calm Gummies because they actually use magnesium citrate, the perfect dose for children, and it's
+[00:31.9 - 00:36.6] also a gummy form, so it's very easy to give it to your children. I suggest giving it to them right
+[00:36.6 - 00:41.8] before bed because it will help them calm down and relax. Also, the Mary Ruth ones are vegan,
+[00:41.8 - 00:46.9] they're sugar-free, they're non-GMO, very clean, and they're great for bedtime. There's no melatonin
+[00:46.9 - 00:51.6] in them either, it's just magnesium citrate. I give them to my kids at night, they love the taste,
+[00:51.6 - 00:55.1] they're delicious, and they're so easy to give it to your children right before bed. I'll link the
+[00:55.1 - 00:58.8] Mary Ruth Magnesium Gummies right down there in the orange shopping cart if you want to try them
+[00:58.8 - 01:03.6] so you can see more about them. The best price is on the TikTok shop. They also do offer fast-free
+[01:03.6 - 01:07.8] shipping, which is great, so if you have any other questions, please leave them in the comments below.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_26_7584884279876816158_transcription_20260531_212413.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_26_7584884279876816158_transcription_20260531_212413.txt
+
+============================================================
+RANK: 27 | GMV: $16645.58 | VIDEO ID: 7579676383291378974
+URL: https://www.tiktok.com/@adoseofwellness/video/7579676383291378974
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 28 | GMV: $16313.88 | VIDEO ID: 7539694461001960734
+URL: https://www.tiktok.com/@adoseofwellness/video/7539694461001960734
+WORD COUNT: 195
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_28_7539694461001960734.mp3, file size: 1.00 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 35.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:06.0]  And way down we go
+[00:06.0 - 00:12.0]  Way down we go
+[00:12.0 - 00:19.0]  Say way down we go
+[00:19.0 - 00:22.0]  Cause they will run you down
+[00:22.0 - 00:24.0]  Down to your core
+[00:24.0 - 00:27.0]  Way down we go
+[00:30.0 - 00:35.0]  Way down we go
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_28_7539694461001960734_transcription_20260531_212420.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_28_7539694461001960734_transcription_20260531_212420.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_28_7539694461001960734.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_28_7539694461001960734.mp3, file size: 1.00 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:06.0] And way down we go
+[00:06.0 - 00:12.0] Way down we go
+[00:12.0 - 00:19.0] Say way down we go
+[00:19.0 - 00:22.0] Cause they will run you down
+[00:22.0 - 00:24.0] Down to your core
+[00:24.0 - 00:27.0] Way down we go
+[00:30.0 - 00:35.0] Way down we go
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_28_7539694461001960734_transcription_20260531_212420.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_28_7539694461001960734_transcription_20260531_212420.txt
+
+============================================================
+RANK: 29 | GMV: $16019.69 | VIDEO ID: 7568523470447873310
+URL: https://www.tiktok.com/@adoseofwellness/video/7568523470447873310
+WORD COUNT: 797
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_29_7568523470447873310.mp3, file size: 1.50 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 82.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.2]  Hi, what brings you in today? My belly's sticking out like crazy. I look like I'm pregnant again.
+[00:04.2 - 00:08.2]  You need magnesium carbonate and I've been waking up like three times a night to pee.
+[00:08.2 - 00:13.0]  Take magnesium glycinate. My skin has been breaking out like crazy. I can't even look at myself.
+[00:13.0 - 00:17.8]  Hmm. Yeah. Take magnesium malate. My eyelids have been twitching all day. It's driving me insane.
+[00:17.8 - 00:21.4]  Magnesium taurate. Sometimes my head pounds so much. I can't even think.
+[00:21.4 - 00:26.0]  You need magnesium citrate. My heart's racing and always skips a beat for no reason. Yep.
+[00:26.0 - 00:30.2]  Magnesium orate next. I haven't used the bathroom in days. I feel so heavy.
+[00:30.2 - 00:35.0]  Magnesium oxide will take care of that right away. Every time I move, my muscles cramp up.
+[00:35.0 - 00:39.3]  Oh yes. Magnesium aspartate will help with that. Wait, that's like eight different magnesium
+[00:39.3 - 00:43.6]  supplements. Buying all these separate is confusing, expensive, and it's a nightmare to
+[00:43.6 - 00:48.5]  take all of these different supplements every single day. I always recommend one simple solution
+[00:48.5 - 00:53.7]  and it's magnesium complex. This combines eight different magnesium supplements all in one.
+[00:53.7 - 00:57.8]  It will help with all of those issues. It's gluten-free, sugar-free, and so easy to take.
+[00:57.8 - 01:02.0]  You just take two capsules right before a meal. Within three weeks, you'll sleep deeper,
+[01:02.0 - 01:06.0]  you'll be more calm than ever, and you'll have more energy than you've ever had before.
+[01:06.0 - 01:10.1]  Magnesium is responsible for over 400 different functions in our body,
+[01:10.1 - 01:13.6]  yet so many people are deficient in magnesium and they don't even know it.
+[01:13.6 - 01:17.5]  We sell this on TikTok shop for an incredible price, but it's on sale right now. And when
+[01:17.5 - 01:21.4]  the price goes this low, they sell out so fast. I'll leave the link for you below and
+[01:21.4 - 01:22.6]  you can thank me later.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_29_7568523470447873310_transcription_20260531_212430.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_29_7568523470447873310_transcription_20260531_212430.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_29_7568523470447873310.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_29_7568523470447873310.mp3, file size: 1.50 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.2] Hi, what brings you in today? My belly's sticking out like crazy. I look like I'm pregnant again.
+[00:04.2 - 00:08.2] You need magnesium carbonate and I've been waking up like three times a night to pee.
+[00:08.2 - 00:13.0] Take magnesium glycinate. My skin has been breaking out like crazy. I can't even look at myself.
+[00:13.0 - 00:17.8] Hmm. Yeah. Take magnesium malate. My eyelids have been twitching all day. It's driving me insane.
+[00:17.8 - 00:21.4] Magnesium taurate. Sometimes my head pounds so much. I can't even think.
+[00:21.4 - 00:26.0] You need magnesium citrate. My heart's racing and always skips a beat for no reason. Yep.
+[00:26.0 - 00:30.2] Magnesium orate next. I haven't used the bathroom in days. I feel so heavy.
+[00:30.2 - 00:35.0] Magnesium oxide will take care of that right away. Every time I move, my muscles cramp up.
+[00:35.0 - 00:39.3] Oh yes. Magnesium aspartate will help with that. Wait, that's like eight different magnesium
+[00:39.3 - 00:43.6] supplements. Buying all these separate is confusing, expensive, and it's a nightmare to
+[00:43.6 - 00:48.5] take all of these different supplements every single day. I always recommend one simple solution
+[00:48.5 - 00:53.7] and it's magnesium complex. This combines eight different magnesium supplements all in one.
+[00:53.7 - 00:57.8] It will help with all of those issues. It's gluten-free, sugar-free, and so easy to take.
+[00:57.8 - 01:02.0] You just take two capsules right before a meal. Within three weeks, you'll sleep deeper,
+[01:02.0 - 01:06.0] you'll be more calm than ever, and you'll have more energy than you've ever had before.
+[01:06.0 - 01:10.1] Magnesium is responsible for over 400 different functions in our body,
+[01:10.1 - 01:13.6] yet so many people are deficient in magnesium and they don't even know it.
+[01:13.6 - 01:17.5] We sell this on TikTok shop for an incredible price, but it's on sale right now. And when
+[01:17.5 - 01:21.4] the price goes this low, they sell out so fast. I'll leave the link for you below and
+[01:21.4 - 01:22.6] you can thank me later.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_29_7568523470447873310_transcription_20260531_212430.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_29_7568523470447873310_transcription_20260531_212430.txt
+
+============================================================
+RANK: 30 | GMV: $15641.35 | VIDEO ID: 7566773901586451742
+URL: https://www.tiktok.com/@adoseofwellness/video/7566773901586451742
+WORD COUNT: 775
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_30_7566773901586451742.mp3, file size: 1.44 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 79.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.9]  What brings you in today? My belly is sticking out like crazy. I look like I'm pregnant again.
+[00:03.9 - 00:07.9]  You need magnesium carbonate. I've been waking up like three times a night to pee.
+[00:07.9 - 00:12.6]  Take magnesium glycinate. My skin has been breaking out like crazy. I can't even look at myself.
+[00:13.2 - 00:17.8]  Yeah, take magnesium malate. My eyelids have been twitching all day. It's driving me insane.
+[00:17.8 - 00:22.0]  Magnesium taurate. Sometimes my head pounds so much I can't even think.
+[00:22.0 - 00:26.5]  You need magnesium citrate. My heart's racing and always skips a beat for no reason.
+[00:26.5 - 00:30.8]  Magnesium orotate. I haven't used the bathroom in days. I feel so heavy.
+[00:30.8 - 00:35.3]  Magnesium oxide will take care of that right away. Every time I move, my muscles cramp.
+[00:35.3 - 00:39.5]  Oh yes, magnesium aspartate will help with that. Wait, that's like eight different magnesium
+[00:39.5 - 00:44.0]  supplements. Buying all these separate is confusing, expensive, and it's a nightmare
+[00:44.0 - 00:47.6]  to take all these different supplements at once. I always recommend one simple solution,
+[00:47.6 - 00:51.8]  and that's magnesium complex because this combines eight different types of magnesium
+[00:51.8 - 00:55.8]  all in one supplement to help with all of those issues. It's gluten-free, sugar-free,
+[00:55.8 - 01:00.3]  and so easy to take. You just take two capsules a day before a meal. Within three weeks, you'll
+[01:00.3 - 01:05.4]  sleep deeper, be more calm than ever, and have more energy than you've ever had before. Magnesium
+[01:05.4 - 01:10.2]  is behind 400 different functions in our body, yet so many people are deficient in magnesium,
+[01:10.2 - 01:13.7]  and they don't even know it. They sell this on the TikTok shop for an incredible price,
+[01:13.7 - 01:17.0]  but usually when the price is this low, they sell out so fast. I'll leave the
+[01:17.0 - 01:19.2]  link for you if you want to try it. You can thank me later.
+Complete transcription result saved to: /tmp/tmpb5elxlbk/video_30_7566773901586451742_transcription_20260531_212441.json
+Plain text transcription saved to: /tmp/tmpb5elxlbk/video_30_7566773901586451742_transcription_20260531_212441.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmpb5elxlbk/video_30_7566773901586451742.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmpb5elxlbk/video_30_7566773901586451742.mp3, file size: 1.44 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.9] What brings you in today? My belly is sticking out like crazy. I look like I'm pregnant again.
+[00:03.9 - 00:07.9] You need magnesium carbonate. I've been waking up like three times a night to pee.
+[00:07.9 - 00:12.6] Take magnesium glycinate. My skin has been breaking out like crazy. I can't even look at myself.
+[00:13.2 - 00:17.8] Yeah, take magnesium malate. My eyelids have been twitching all day. It's driving me insane.
+[00:17.8 - 00:22.0] Magnesium taurate. Sometimes my head pounds so much I can't even think.
+[00:22.0 - 00:26.5] You need magnesium citrate. My heart's racing and always skips a beat for no reason.
+[00:26.5 - 00:30.8] Magnesium orotate. I haven't used the bathroom in days. I feel so heavy.
+[00:30.8 - 00:35.3] Magnesium oxide will take care of that right away. Every time I move, my muscles cramp.
+[00:35.3 - 00:39.5] Oh yes, magnesium aspartate will help with that. Wait, that's like eight different magnesium
+[00:39.5 - 00:44.0] supplements. Buying all these separate is confusing, expensive, and it's a nightmare
+[00:44.0 - 00:47.6] to take all these different supplements at once. I always recommend one simple solution,
+[00:47.6 - 00:51.8] and that's magnesium complex because this combines eight different types of magnesium
+[00:51.8 - 00:55.8] all in one supplement to help with all of those issues. It's gluten-free, sugar-free,
+[00:55.8 - 01:00.3] and so easy to take. You just take two capsules a day before a meal. Within three weeks, you'll
+[01:00.3 - 01:05.4] sleep deeper, be more calm than ever, and have more energy than you've ever had before. Magnesium
+[01:05.4 - 01:10.2] is behind 400 different functions in our body, yet so many people are deficient in magnesium,
+[01:10.2 - 01:13.7] and they don't even know it. They sell this on the TikTok shop for an incredible price,
+[01:13.7 - 01:17.0] but usually when the price is this low, they sell out so fast. I'll leave the
+[01:17.0 - 01:19.2] link for you if you want to try it. You can thank me later.
+
+Completed transcription, JSON saved to /tmp/tmpb5elxlbk/video_30_7566773901586451742_transcription_20260531_212441.json
+Plain text transcription saved to /tmp/tmpb5elxlbk/video_30_7566773901586451742_transcription_20260531_212441.txt
+

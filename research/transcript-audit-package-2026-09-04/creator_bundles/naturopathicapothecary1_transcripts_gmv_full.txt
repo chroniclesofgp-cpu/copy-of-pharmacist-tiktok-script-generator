@@ -1,0 +1,2445 @@
+# Creator: naturopathicapothecary1
+# Generated: 2026-05-31
+# Total videos: 30
+# Source: Kalodata top GMV export, 6-month window
+
+============================================================
+RANK: 01 | GMV: $216487.45 | VIDEO ID: 7572449245114977550
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7572449245114977550
+WORD COUNT: 917
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_1_7572449245114977550.mp3, file size: 1.59 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 87.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.9]  So you took astaxanthin for back pain and suddenly your skin is glowing and tan like
+[00:03.9 - 00:05.3]  it's still the middle of summer.
+[00:05.3 - 00:09.3]  As a certified naturopath, I've seen so many people pleasantly surprised by the sun-kissed
+[00:09.3 - 00:11.0]  glow they get from astaxanthin.
+[00:11.0 - 00:12.7]  So let me explain exactly what's happening.
+[00:12.7 - 00:16.4]  Now most people start taking it because it's a strong anti-inflammatory and with the antioxidant
+[00:16.4 - 00:21.1]  power of 16,000 oranges, this is amazing for stiff and achy joints.
+[00:21.1 - 00:24.9]  It supports eye health by protecting retinal cells from blue and artificial light.
+[00:24.9 - 00:28.2]  It supports the cardiovascular system by reducing free radical damage.
+[00:28.3 - 00:31.8]  And unlike other antioxidants, astaxanthin actually crosses the blood-brain barrier,
+[00:31.8 - 00:34.5]  making it neuroprotective, helping with memory and focus.
+[00:34.5 - 00:38.8]  At its core, astaxanthin is the ultimate anti-aging supplement because it protects the body against
+[00:38.8 - 00:42.2]  oxidative stress, which is the primary driver of premature aging.
+[00:42.2 - 00:45.5]  But because it's a dark red pigment, which is the same pigment that gives salmon and
+[00:45.5 - 00:49.6]  flamingos their color, over time it builds up in the lipid layer of your skin, giving
+[00:49.6 - 00:51.7]  it a very warm and sun-kissed glow.
+[00:51.7 - 00:55.8]  It also acts as an internal sunscreen, protecting your skin from UV damage, which breaks down
+[00:55.8 - 00:57.6]  your skin's elasticity and collagen.
+[00:57.6 - 01:01.0]  Now, if you tried astaxanthin and you really didn't notice much of a difference, you need
+[01:01.0 - 01:02.7]  to know that quality matters.
+[01:02.7 - 01:04.6]  This is the astaxanthin supplement I recommend.
+[01:04.6 - 01:06.3]  This is the one by Micro Ingredients.
+[01:06.3 - 01:10.7]  While many astaxanthin supplements are synthetically derived and do not absorb easily, this one
+[01:10.7 - 01:12.4]  has been naturally sourced from microalgae.
+[01:12.4 - 01:17.4]  It is a 12 milligram supplement, triple strength, and there are 120 soft gels in here and you
+[01:17.4 - 01:18.4]  only need one per day.
+[01:18.4 - 01:22.2]  If you want to grab a high quality astaxanthin, I'm going to make sure to drop this one down
+[01:22.2 - 01:23.2]  below.
+[01:23.2 - 01:25.2]  And if you see that orange cart, that means that they should still be in stock.
+[01:25.2 - 01:27.2]  So I would definitely snag one while you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_1_7572449245114977550_transcription_20260531_213445.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_1_7572449245114977550_transcription_20260531_213445.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_1_7572449245114977550.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_1_7572449245114977550.mp3, file size: 1.59 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.9] So you took astaxanthin for back pain and suddenly your skin is glowing and tan like
+[00:03.9 - 00:05.3] it's still the middle of summer.
+[00:05.3 - 00:09.3] As a certified naturopath, I've seen so many people pleasantly surprised by the sun-kissed
+[00:09.3 - 00:11.0] glow they get from astaxanthin.
+[00:11.0 - 00:12.7] So let me explain exactly what's happening.
+[00:12.7 - 00:16.4] Now most people start taking it because it's a strong anti-inflammatory and with the antioxidant
+[00:16.4 - 00:21.1] power of 16,000 oranges, this is amazing for stiff and achy joints.
+[00:21.1 - 00:24.9] It supports eye health by protecting retinal cells from blue and artificial light.
+[00:24.9 - 00:28.2] It supports the cardiovascular system by reducing free radical damage.
+[00:28.3 - 00:31.8] And unlike other antioxidants, astaxanthin actually crosses the blood-brain barrier,
+[00:31.8 - 00:34.5] making it neuroprotective, helping with memory and focus.
+[00:34.5 - 00:38.8] At its core, astaxanthin is the ultimate anti-aging supplement because it protects the body against
+[00:38.8 - 00:42.2] oxidative stress, which is the primary driver of premature aging.
+[00:42.2 - 00:45.5] But because it's a dark red pigment, which is the same pigment that gives salmon and
+[00:45.5 - 00:49.6] flamingos their color, over time it builds up in the lipid layer of your skin, giving
+[00:49.6 - 00:51.7] it a very warm and sun-kissed glow.
+[00:51.7 - 00:55.8] It also acts as an internal sunscreen, protecting your skin from UV damage, which breaks down
+[00:55.8 - 00:57.6] your skin's elasticity and collagen.
+[00:57.6 - 01:01.0] Now, if you tried astaxanthin and you really didn't notice much of a difference, you need
+[01:01.0 - 01:02.7] to know that quality matters.
+[01:02.7 - 01:04.6] This is the astaxanthin supplement I recommend.
+[01:04.6 - 01:06.3] This is the one by Micro Ingredients.
+[01:06.3 - 01:10.7] While many astaxanthin supplements are synthetically derived and do not absorb easily, this one
+[01:10.7 - 01:12.4] has been naturally sourced from microalgae.
+[01:12.4 - 01:17.4] It is a 12 milligram supplement, triple strength, and there are 120 soft gels in here and you
+[01:17.4 - 01:18.4] only need one per day.
+[01:18.4 - 01:22.2] If you want to grab a high quality astaxanthin, I'm going to make sure to drop this one down
+[01:22.2 - 01:23.2] below.
+[01:23.2 - 01:25.2] And if you see that orange cart, that means that they should still be in stock.
+[01:25.2 - 01:27.2] So I would definitely snag one while you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_1_7572449245114977550_transcription_20260531_213445.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_1_7572449245114977550_transcription_20260531_213445.txt
+
+============================================================
+RANK: 02 | GMV: $102362.05 | VIDEO ID: 7628589452616617229
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7628589452616617229
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 03 | GMV: $71015.35 | VIDEO ID: 7619776533477068046
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7619776533477068046
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 04 | GMV: $49861.49 | VIDEO ID: 7595071601272474935
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7595071601272474935
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 05 | GMV: $39820.6 | VIDEO ID: 7607672627657772301
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7607672627657772301
+WORD COUNT: 1693
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_5_7607672627657772301.mp3, file size: 3.19 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 174.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:01.5]  Astaxanthin or NMN?
+[00:01.5 - 00:03.0]  Which one should you be taking?
+[00:03.0 - 00:05.3]  As a holistic wellness coach certified in naturopathy,
+[00:05.3 - 00:06.6]  I keep getting this question
+[00:06.6 - 00:08.8]  because both of these supplements are being touted
+[00:08.8 - 00:11.4]  for their great longevity and anti-aging benefits.
+[00:11.4 - 00:13.4]  So I'm gonna break down the benefits of both
+[00:13.4 - 00:14.9]  and a few of their key differences.
+[00:14.9 - 00:17.1]  Astaxanthin is an organic pigment molecule
+[00:17.1 - 00:18.7]  commonly found in microalgae,
+[00:18.7 - 00:20.9]  and it's the same pigment that gives flamingos
+[00:20.9 - 00:22.4]  and salmon their vibrant color.
+[00:22.4 - 00:23.2]  And because of this,
+[00:23.2 - 00:25.8]  it's one of the top ingredients in tanning gummies
+[00:25.8 - 00:27.5]  because over time it builds up
+[00:27.5 - 00:28.8]  in the lipid layer of your skin,
+[00:28.8 - 00:30.8]  giving it a very warm and sun-kissed glow
+[00:30.8 - 00:31.8]  from the inside out.
+[00:31.8 - 00:32.9]  But because Astaxanthin
+[00:32.9 - 00:35.1]  is one of the world's strongest antioxidants,
+[00:35.1 - 00:37.9]  making it 6,000 times stronger than vitamin C,
+[00:37.9 - 00:40.1]  and because it has a unique molecular structure
+[00:40.1 - 00:42.4]  which allows it to penetrate both sides
+[00:42.4 - 00:43.4]  of the cell membrane,
+[00:43.4 - 00:45.1]  it is one of the best antioxidants
+[00:45.1 - 00:46.7]  for fighting oxidative stress,
+[00:46.7 - 00:49.8]  which is one of the primary drivers to premature aging.
+[00:49.8 - 00:52.1]  Studies show it acts as an internal sunscreen
+[00:52.1 - 00:53.9]  shielding skin from UV damage.
+[00:53.9 - 00:56.1]  It supports skin health by boosting hydration,
+[00:56.1 - 00:57.9]  skin elasticity, and skin density.
+[00:57.9 - 00:58.9]  It supports eye health
+[00:58.9 - 01:01.1]  by protecting retinol cells from artificial light.
+[01:01.1 - 01:02.2]  It supports joint health
+[01:02.2 - 01:04.1]  because it's a great anti-inflammatory.
+[01:04.1 - 01:05.8]  And because it's one of the only antioxidants
+[01:05.8 - 01:07.3]  that can cross the blood-brain barrier,
+[01:07.3 - 01:09.0]  it has some neuroprotective properties,
+[01:09.0 - 01:10.6]  which is great for memory and focus.
+[01:10.6 - 01:13.5]  Now NMN is one of the most studied anti-aging compounds
+[01:13.5 - 01:16.3]  because it is a precursor to a vital molecule
+[01:16.3 - 01:18.8]  found in every single one of your cells called NAD.
+[01:18.8 - 01:21.3]  And NAD has been nicknamed the fountain of youth molecule
+[01:21.3 - 01:23.5]  because of its role in energy production,
+[01:23.5 - 01:25.9]  DNA repair, and overall cellular health.
+[01:25.9 - 01:27.4]  And because NAD is essential
+[01:27.4 - 01:29.5]  for the skin's collagen and elastin production
+[01:29.5 - 01:32.2]  and our NAD levels drop as we get older,
+[01:32.2 - 01:35.0]  that decline can lead to fine lines, wrinkles,
+[01:35.0 - 01:37.6]  low energy, stiff, achy joints, and poor memory.
+[01:37.6 - 01:40.5]  But studies show the best way to elevate our NAD levels
+[01:40.5 - 01:41.8]  is by taking NMN.
+[01:41.8 - 01:43.4]  The NMN molecule is small enough
+[01:43.4 - 01:45.4]  that it enters the cell much more easily
+[01:45.4 - 01:47.0]  than taking pure NMN.
+[01:47.0 - 01:50.3]  So even though the body has to convert NMN into NAD,
+[01:50.3 - 01:53.4]  that conversion is more efficient than taking actual NAD.
+[01:53.4 - 01:56.3]  So both astaxanthin and NMN have amazing benefits,
+[01:56.3 - 01:57.6]  but which one should you take?
+[01:57.6 - 01:59.6]  Well, they are actually considered to work better together
+[01:59.6 - 02:02.8]  because they create a synergistic dual action approach
+[02:02.8 - 02:04.2]  to cellular health and aging.
+[02:04.2 - 02:07.0]  NMN providing the fuel for energy metabolism
+[02:07.0 - 02:09.6]  and astaxanthin as the protector of those processes
+[02:09.6 - 02:11.7]  because of how well it fights oxidative stress.
+[02:11.7 - 02:13.1]  Now, if you want my top recommendation
+[02:13.1 - 02:15.9]  for a high quality NMN and a high quality astaxanthin,
+[02:15.9 - 02:17.9]  I love the ones by Micro Ingredients.
+[02:17.9 - 02:20.1]  Now I prefer their NMN because it's the only one
+[02:20.1 - 02:21.6]  I have found that does not include
+[02:21.6 - 02:24.1]  cheap filler ingredients like silicon dioxide
+[02:24.1 - 02:25.2]  and magnesium stearate,
+[02:25.2 - 02:27.8]  which can actually affect the absorption of NMN.
+[02:27.8 - 02:29.8]  Unlike a lot of other astaxanthin supplements
+[02:29.8 - 02:32.5]  that are synthetically derived and do not absorb well,
+[02:32.5 - 02:35.0]  this one has been naturally sourced from microalgae.
+[02:35.0 - 02:36.8]  Both have been lab tested and were produced
+[02:36.8 - 02:37.8]  in a GMP facility,
+[02:37.8 - 02:39.4]  so you know what you're getting is high quality.
+[02:39.4 - 02:41.1]  And because they put them in a bundle,
+[02:41.1 - 02:43.2]  you can actually get these for an amazing price.
+[02:43.2 - 02:44.3]  So if you've been thinking about starting
+[02:44.3 - 02:47.1]  your anti-aging journey and you wanted to try both of these,
+[02:47.1 - 02:49.5]  I will make sure to drop this bundle down below.
+[02:49.5 - 02:50.8]  Now, if you see that orange card,
+[02:50.8 - 02:52.4]  it means that they still have it in stock,
+[02:52.4 - 02:54.6]  so I would definitely snag it while you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_5_7607672627657772301_transcription_20260531_213506.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_5_7607672627657772301_transcription_20260531_213506.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_5_7607672627657772301.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_5_7607672627657772301.mp3, file size: 3.19 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:30.8 - 00:31.8] from the inside out.
+[00:31.8 - 00:32.9] But because Astaxanthin
+[00:32.9 - 00:35.1] is one of the world's strongest antioxidants,
+[00:35.1 - 00:37.9] making it 6,000 times stronger than vitamin C,
+[00:37.9 - 00:40.1] and because it has a unique molecular structure
+[00:40.1 - 00:42.4] which allows it to penetrate both sides
+[00:42.4 - 00:43.4] of the cell membrane,
+[00:43.4 - 00:45.1] it is one of the best antioxidants
+[00:45.1 - 00:46.7] for fighting oxidative stress,
+[00:46.7 - 00:49.8] which is one of the primary drivers to premature aging.
+[00:49.8 - 00:52.1] Studies show it acts as an internal sunscreen
+[00:52.1 - 00:53.9] shielding skin from UV damage.
+[00:53.9 - 00:56.1] It supports skin health by boosting hydration,
+[00:56.1 - 00:57.9] skin elasticity, and skin density.
+[00:57.9 - 00:58.9] It supports eye health
+[00:58.9 - 01:01.1] by protecting retinol cells from artificial light.
+[01:01.1 - 01:02.2] It supports joint health
+[01:02.2 - 01:04.1] because it's a great anti-inflammatory.
+[01:04.1 - 01:05.8] And because it's one of the only antioxidants
+[01:05.8 - 01:07.3] that can cross the blood-brain barrier,
+[01:07.3 - 01:09.0] it has some neuroprotective properties,
+[01:09.0 - 01:10.6] which is great for memory and focus.
+[01:10.6 - 01:13.5] Now NMN is one of the most studied anti-aging compounds
+[01:13.5 - 01:16.3] because it is a precursor to a vital molecule
+[01:16.3 - 01:18.8] found in every single one of your cells called NAD.
+[01:18.8 - 01:21.3] And NAD has been nicknamed the fountain of youth molecule
+[01:21.3 - 01:23.5] because of its role in energy production,
+[01:23.5 - 01:25.9] DNA repair, and overall cellular health.
+[01:25.9 - 01:27.4] And because NAD is essential
+[01:27.4 - 01:29.5] for the skin's collagen and elastin production
+[01:29.5 - 01:32.2] and our NAD levels drop as we get older,
+[01:32.2 - 01:35.0] that decline can lead to fine lines, wrinkles,
+[01:35.0 - 01:37.6] low energy, stiff, achy joints, and poor memory.
+[01:37.6 - 01:40.5] But studies show the best way to elevate our NAD levels
+[01:40.5 - 01:41.8] is by taking NMN.
+[01:41.8 - 01:43.4] The NMN molecule is small enough
+[01:43.4 - 01:45.4] that it enters the cell much more easily
+[01:45.4 - 01:47.0] than taking pure NMN.
+[01:47.0 - 01:50.3] So even though the body has to convert NMN into NAD,
+[01:50.3 - 01:53.4] that conversion is more efficient than taking actual NAD.
+[01:53.4 - 01:56.3] So both astaxanthin and NMN have amazing benefits,
+[01:56.3 - 01:57.6] but which one should you take?
+[01:57.6 - 01:59.6] Well, they are actually considered to work better together
+[01:59.6 - 02:02.8] because they create a synergistic dual action approach
+[02:02.8 - 02:04.2] to cellular health and aging.
+[02:04.2 - 02:07.0] NMN providing the fuel for energy metabolism
+[02:07.0 - 02:09.6] and astaxanthin as the protector of those processes
+[02:09.6 - 02:11.7] because of how well it fights oxidative stress.
+[02:11.7 - 02:13.1] Now, if you want my top recommendation
+[02:13.1 - 02:15.9] for a high quality NMN and a high quality astaxanthin,
+[02:15.9 - 02:17.9] I love the ones by Micro Ingredients.
+[02:17.9 - 02:20.1] Now I prefer their NMN because it's the only one
+[02:20.1 - 02:21.6] I have found that does not include
+[02:21.6 - 02:24.1] cheap filler ingredients like silicon dioxide
+[02:24.1 - 02:25.2] and magnesium stearate,
+[02:25.2 - 02:27.8] which can actually affect the absorption of NMN.
+[02:27.8 - 02:29.8] Unlike a lot of other astaxanthin supplements
+[02:29.8 - 02:32.5] that are synthetically derived and do not absorb well,
+[02:32.5 - 02:35.0] this one has been naturally sourced from microalgae.
+[02:35.0 - 02:36.8] Both have been lab tested and were produced
+[02:36.8 - 02:37.8] in a GMP facility,
+[02:37.8 - 02:39.4] so you know what you're getting is high quality.
+[02:39.4 - 02:41.1] And because they put them in a bundle,
+[02:41.1 - 02:43.2] you can actually get these for an amazing price.
+[02:43.2 - 02:44.3] So if you've been thinking about starting
+[02:44.3 - 02:47.1] your anti-aging journey and you wanted to try both of these,
+[02:47.1 - 02:49.5] I will make sure to drop this bundle down below.
+[02:49.5 - 02:50.8] Now, if you see that orange card,
+[02:50.8 - 02:52.4] it means that they still have it in stock,
+[02:52.4 - 02:54.6] so I would definitely snag it while you can.
+Timestamped segments truncated to fit terminal limit (5000 chars).
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_5_7607672627657772301_transcription_20260531_213506.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_5_7607672627657772301_transcription_20260531_213506.txt
+
+============================================================
+RANK: 06 | GMV: $34956.24 | VIDEO ID: 7575778778463440142
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7575778778463440142
+WORD COUNT: 1153
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_6_7575778778463440142.mp3, file size: 1.90 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 104.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.7]  So they told you to take astaxanthin for dry eyes,
+[00:02.7 - 00:04.6]  and now your skin is tan and glowing
+[00:04.6 - 00:06.0]  like it's still the middle of summer.
+[00:06.0 - 00:07.1]  As a certified naturopath,
+[00:07.1 - 00:09.3]  I've seen so many people pleasantly surprised
+[00:09.3 - 00:11.5]  by the sun-kissed glow they get from astaxanthin,
+[00:11.5 - 00:13.7]  so let me explain exactly why this is happening.
+[00:13.7 - 00:15.4]  Now, most people start taking astaxanthin
+[00:15.4 - 00:17.4]  because it's a strong anti-inflammatory
+[00:17.4 - 00:18.8]  with the antioxidant power
+[00:18.8 - 00:21.4]  that is 6,000 times stronger than vitamin C.
+[00:21.4 - 00:23.8]  It supports eye health by protecting retinol cells
+[00:23.8 - 00:25.4]  from blue and artificial light.
+[00:25.4 - 00:27.1]  It supports the cardiovascular system
+[00:27.1 - 00:28.7]  by reducing free radical damage.
+[00:28.7 - 00:30.6]  It supports cartilage and bone health,
+[00:30.6 - 00:32.8]  which is amazing for stiff and achy joints.
+[00:32.8 - 00:34.2]  And unlike other antioxidants,
+[00:34.2 - 00:36.1]  it actually crosses the blood-brain barrier,
+[00:36.1 - 00:39.2]  making it neuroprotective, supporting memory and focus.
+[00:39.2 - 00:40.4]  At its core, astaxanthin
+[00:40.4 - 00:42.2]  is the ultimate anti-aging supplement
+[00:42.2 - 00:44.6]  because it shields the body against oxidative stress,
+[00:44.6 - 00:47.1]  which is the primary driver of premature aging.
+[00:47.1 - 00:49.2]  But because it's a deep red carotenoid,
+[00:49.2 - 00:50.6]  the same pigment that gives salmon
+[00:50.6 - 00:52.1]  and flamingos their color,
+[00:52.1 - 00:55.1]  over time, this builds up in the lipid layer of your skin,
+[00:55.1 - 00:57.3]  giving it a very warm and sun-kissed glow.
+[00:57.3 - 00:58.2]  And that's not all.
+[00:58.2 - 00:59.8]  It acts as an internal sunscreen,
+[00:59.8 - 01:01.8]  protecting your skin from UV damage,
+[01:01.8 - 01:04.7]  which breaks down collagen and your skin's elasticity,
+[01:04.7 - 01:07.8]  resulting in firmer, more bouncy, resilient skin.
+[01:07.8 - 01:09.1]  Now, if you've tried astaxanthin
+[01:09.1 - 01:10.7]  and you really didn't notice much of a difference,
+[01:10.7 - 01:12.6]  you need to know that quality matters.
+[01:12.6 - 01:14.9]  And while most astaxanthin is synthetically derived
+[01:14.9 - 01:16.1]  and is poorly absorbed,
+[01:16.1 - 01:17.7]  I highly recommend finding one
+[01:17.7 - 01:19.1]  that has been naturally sourced.
+[01:19.1 - 01:21.2]  The one I recommend is by Micro Ingredients.
+[01:21.2 - 01:23.4]  This has been naturally sourced from microalgae.
+[01:23.4 - 01:26.1]  It is a 12 milligram triple strength supplement.
+[01:26.1 - 01:27.2]  It's been made in the USA.
+[01:27.2 - 01:28.5]  It's been third-party tested.
+[01:28.5 - 01:30.2]  And you get 120 capsules.
+[01:30.2 - 01:32.0]  You only need one gel capsule per day.
+[01:32.0 - 01:34.0]  So this bag will last you for four months.
+[01:34.0 - 01:35.8]  They're also running an amazing sale right now.
+[01:35.8 - 01:38.2]  So if you wanna try a high quality astaxanthin,
+[01:38.2 - 01:39.8]  I'm gonna make sure to drop it down below.
+[01:39.8 - 01:41.0]  And if you see that orange card,
+[01:41.0 - 01:42.8]  that means they still have them in stock.
+[01:42.8 - 01:44.0]  So snag one if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_6_7575778778463440142_transcription_20260531_213516.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_6_7575778778463440142_transcription_20260531_213516.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_6_7575778778463440142.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_6_7575778778463440142.mp3, file size: 1.90 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.7] So they told you to take astaxanthin for dry eyes,
+[00:02.7 - 00:04.6] and now your skin is tan and glowing
+[00:04.6 - 00:06.0] like it's still the middle of summer.
+[00:06.0 - 00:07.1] As a certified naturopath,
+[00:07.1 - 00:09.3] I've seen so many people pleasantly surprised
+[00:09.3 - 00:11.5] by the sun-kissed glow they get from astaxanthin,
+[00:11.5 - 00:13.7] so let me explain exactly why this is happening.
+[00:13.7 - 00:15.4] Now, most people start taking astaxanthin
+[00:15.4 - 00:17.4] because it's a strong anti-inflammatory
+[00:17.4 - 00:18.8] with the antioxidant power
+[00:18.8 - 00:21.4] that is 6,000 times stronger than vitamin C.
+[00:21.4 - 00:23.8] It supports eye health by protecting retinol cells
+[00:23.8 - 00:25.4] from blue and artificial light.
+[00:25.4 - 00:27.1] It supports the cardiovascular system
+[00:27.1 - 00:28.7] by reducing free radical damage.
+[00:28.7 - 00:30.6] It supports cartilage and bone health,
+[00:30.6 - 00:32.8] which is amazing for stiff and achy joints.
+[00:32.8 - 00:34.2] And unlike other antioxidants,
+[00:34.2 - 00:36.1] it actually crosses the blood-brain barrier,
+[00:36.1 - 00:39.2] making it neuroprotective, supporting memory and focus.
+[00:39.2 - 00:40.4] At its core, astaxanthin
+[00:40.4 - 00:42.2] is the ultimate anti-aging supplement
+[00:42.2 - 00:44.6] because it shields the body against oxidative stress,
+[00:44.6 - 00:47.1] which is the primary driver of premature aging.
+[00:47.1 - 00:49.2] But because it's a deep red carotenoid,
+[00:49.2 - 00:50.6] the same pigment that gives salmon
+[00:50.6 - 00:52.1] and flamingos their color,
+[00:52.1 - 00:55.1] over time, this builds up in the lipid layer of your skin,
+[00:55.1 - 00:57.3] giving it a very warm and sun-kissed glow.
+[00:57.3 - 00:58.2] And that's not all.
+[00:58.2 - 00:59.8] It acts as an internal sunscreen,
+[00:59.8 - 01:01.8] protecting your skin from UV damage,
+[01:01.8 - 01:04.7] which breaks down collagen and your skin's elasticity,
+[01:04.7 - 01:07.8] resulting in firmer, more bouncy, resilient skin.
+[01:07.8 - 01:09.1] Now, if you've tried astaxanthin
+[01:09.1 - 01:10.7] and you really didn't notice much of a difference,
+[01:10.7 - 01:12.6] you need to know that quality matters.
+[01:12.6 - 01:14.9] And while most astaxanthin is synthetically derived
+[01:14.9 - 01:16.1] and is poorly absorbed,
+[01:16.1 - 01:17.7] I highly recommend finding one
+[01:17.7 - 01:19.1] that has been naturally sourced.
+[01:19.1 - 01:21.2] The one I recommend is by Micro Ingredients.
+[01:21.2 - 01:23.4] This has been naturally sourced from microalgae.
+[01:23.4 - 01:26.1] It is a 12 milligram triple strength supplement.
+[01:26.1 - 01:27.2] It's been made in the USA.
+[01:27.2 - 01:28.5] It's been third-party tested.
+[01:28.5 - 01:30.2] And you get 120 capsules.
+[01:30.2 - 01:32.0] You only need one gel capsule per day.
+[01:32.0 - 01:34.0] So this bag will last you for four months.
+[01:34.0 - 01:35.8] They're also running an amazing sale right now.
+[01:35.8 - 01:38.2] So if you wanna try a high quality astaxanthin,
+[01:38.2 - 01:39.8] I'm gonna make sure to drop it down below.
+[01:39.8 - 01:41.0] And if you see that orange card,
+[01:41.0 - 01:42.8] that means they still have them in stock.
+[01:42.8 - 01:44.0] So snag one if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_6_7575778778463440142_transcription_20260531_213516.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_6_7575778778463440142_transcription_20260531_213516.txt
+
+============================================================
+RANK: 07 | GMV: $33642.52 | VIDEO ID: 7580155751004474637
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7580155751004474637
+WORD COUNT: 1067
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_7_7580155751004474637.mp3, file size: 1.80 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 101.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.5]  Nature's tanning pill or the ultimate anti-aging supplement.
+[00:03.5 - 00:06.5]  There is a reason the Japanese have been taking astaxanthin
+[00:06.5 - 00:08.8]  since the 1980s and are notorious
+[00:08.8 - 00:10.3]  for not looking their age.
+[00:10.3 - 00:12.0]  Now here in the West, we often refer to this
+[00:12.0 - 00:14.3]  as the tanning pill, because as you can see,
+[00:14.3 - 00:17.4]  this algae derived pigment over time will build up
+[00:17.4 - 00:18.8]  in the lipid layer of your skin,
+[00:18.8 - 00:20.8]  giving it a very warm and sun-kissed glow.
+[00:20.8 - 00:22.0]  But what most people don't realize
+[00:22.0 - 00:24.0]  is that astaxanthin is an antioxidant
+[00:24.0 - 00:26.7]  that is 6,000 times stronger than vitamin C,
+[00:26.7 - 00:28.8]  800 times stronger than CoQ10,
+[00:28.8 - 00:31.4]  and 550 times stronger than vitamin E,
+[00:31.4 - 00:34.0]  making it the strongest antioxidant on the planet.
+[00:34.0 - 00:35.6]  And it's the only antioxidant
+[00:35.6 - 00:37.8]  that protects both sides of the cell membrane,
+[00:37.8 - 00:40.1]  which is one of the reasons it is so beneficial
+[00:40.1 - 00:43.0]  for hydrating skin, boosting collagen and elastin,
+[00:43.0 - 00:45.9]  which is amazing for fine lines, wrinkles, and sagging skin.
+[00:45.9 - 00:48.0]  It also acts as an internal sunscreen,
+[00:48.0 - 00:49.8]  shielding skin from UV damage,
+[00:49.8 - 00:52.5]  which causes hyperpigmentation and collagen breakdown.
+[00:52.5 - 00:55.0]  It also supports eye health by protecting retinol cells
+[00:55.0 - 00:56.4]  from blue and artificial light.
+[00:56.4 - 00:58.0]  It supports the cardiovascular system
+[00:58.0 - 01:00.6]  by reducing free radical damage and oxidative stress.
+[01:00.6 - 01:02.3]  It also crosses the blood-brain barrier,
+[01:02.3 - 01:05.2]  making it neuroprotective, supporting memory and focus.
+[01:05.2 - 01:07.4]  And because it's such a potent anti-inflammatory,
+[01:07.4 - 01:09.7]  it is amazing for stiff and achy joints.
+[01:09.7 - 01:12.4]  So ultimately, the tanning pill shields the body
+[01:12.4 - 01:13.5]  from oxidative stress,
+[01:13.5 - 01:15.9]  which is the primary driver of premature aging.
+[01:15.9 - 01:18.0]  So if you're thinking about testing it out for yourself
+[01:18.0 - 01:19.0]  and you want a recommendation
+[01:19.0 - 01:21.4]  for a high-quality astaxanthin,
+[01:21.4 - 01:22.9]  Micro Ingredients Astaxanthin
+[01:22.9 - 01:24.8]  is my number one recommendation.
+[01:24.8 - 01:27.0]  This has been naturally sourced from microalgae.
+[01:27.0 - 01:28.8]  It's 12 milligrams, triple strength.
+[01:28.8 - 01:30.8]  There are 120 soft gels in here.
+[01:30.8 - 01:31.8]  You only need one per day,
+[01:31.8 - 01:33.3]  so this will last you four months.
+[01:33.3 - 01:35.3]  And they are currently running an amazing sale,
+[01:35.3 - 01:37.2]  so I'm gonna make sure to drop it down below.
+[01:37.2 - 01:38.4]  If you see the orange cart,
+[01:38.4 - 01:40.1]  that means that they still have it in stock,
+[01:40.1 - 01:41.4]  so snag it if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_7_7580155751004474637_transcription_20260531_213527.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_7_7580155751004474637_transcription_20260531_213527.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_7_7580155751004474637.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_7_7580155751004474637.mp3, file size: 1.80 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.5] Nature's tanning pill or the ultimate anti-aging supplement.
+[00:03.5 - 00:06.5] There is a reason the Japanese have been taking astaxanthin
+[00:06.5 - 00:08.8] since the 1980s and are notorious
+[00:08.8 - 00:10.3] for not looking their age.
+[00:10.3 - 00:12.0] Now here in the West, we often refer to this
+[00:12.0 - 00:14.3] as the tanning pill, because as you can see,
+[00:14.3 - 00:17.4] this algae derived pigment over time will build up
+[00:17.4 - 00:18.8] in the lipid layer of your skin,
+[00:18.8 - 00:20.8] giving it a very warm and sun-kissed glow.
+[00:20.8 - 00:22.0] But what most people don't realize
+[00:22.0 - 00:24.0] is that astaxanthin is an antioxidant
+[00:24.0 - 00:26.7] that is 6,000 times stronger than vitamin C,
+[00:26.7 - 00:28.8] 800 times stronger than CoQ10,
+[00:28.8 - 00:31.4] and 550 times stronger than vitamin E,
+[00:31.4 - 00:34.0] making it the strongest antioxidant on the planet.
+[00:34.0 - 00:35.6] And it's the only antioxidant
+[00:35.6 - 00:37.8] that protects both sides of the cell membrane,
+[00:37.8 - 00:40.1] which is one of the reasons it is so beneficial
+[00:40.1 - 00:43.0] for hydrating skin, boosting collagen and elastin,
+[00:43.0 - 00:45.9] which is amazing for fine lines, wrinkles, and sagging skin.
+[00:45.9 - 00:48.0] It also acts as an internal sunscreen,
+[00:48.0 - 00:49.8] shielding skin from UV damage,
+[00:49.8 - 00:52.5] which causes hyperpigmentation and collagen breakdown.
+[00:52.5 - 00:55.0] It also supports eye health by protecting retinol cells
+[00:55.0 - 00:56.4] from blue and artificial light.
+[00:56.4 - 00:58.0] It supports the cardiovascular system
+[00:58.0 - 01:00.6] by reducing free radical damage and oxidative stress.
+[01:00.6 - 01:02.3] It also crosses the blood-brain barrier,
+[01:02.3 - 01:05.2] making it neuroprotective, supporting memory and focus.
+[01:05.2 - 01:07.4] And because it's such a potent anti-inflammatory,
+[01:07.4 - 01:09.7] it is amazing for stiff and achy joints.
+[01:09.7 - 01:12.4] So ultimately, the tanning pill shields the body
+[01:12.4 - 01:13.5] from oxidative stress,
+[01:13.5 - 01:15.9] which is the primary driver of premature aging.
+[01:15.9 - 01:18.0] So if you're thinking about testing it out for yourself
+[01:18.0 - 01:19.0] and you want a recommendation
+[01:19.0 - 01:21.4] for a high-quality astaxanthin,
+[01:21.4 - 01:22.9] Micro Ingredients Astaxanthin
+[01:22.9 - 01:24.8] is my number one recommendation.
+[01:24.8 - 01:27.0] This has been naturally sourced from microalgae.
+[01:27.0 - 01:28.8] It's 12 milligrams, triple strength.
+[01:28.8 - 01:30.8] There are 120 soft gels in here.
+[01:30.8 - 01:31.8] You only need one per day,
+[01:31.8 - 01:33.3] so this will last you four months.
+[01:33.3 - 01:35.3] And they are currently running an amazing sale,
+[01:35.3 - 01:37.2] so I'm gonna make sure to drop it down below.
+[01:37.2 - 01:38.4] If you see the orange cart,
+[01:38.4 - 01:40.1] that means that they still have it in stock,
+[01:40.1 - 01:41.4] so snag it if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_7_7580155751004474637_transcription_20260531_213527.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_7_7580155751004474637_transcription_20260531_213527.txt
+
+============================================================
+RANK: 08 | GMV: $22559.62 | VIDEO ID: 7578415112596229389
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7578415112596229389
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 09 | GMV: $21104.11 | VIDEO ID: 7550533574936612109
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7550533574936612109
+WORD COUNT: 853
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_9_7550533574936612109.mp3, file size: 1.51 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 80.3 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:04.0]  Sometimes when I wipe, I'll wipe and I'll wipe
+[00:04.0 - 00:07.5]  and I'll wipe and I'll wipe a hundred times,
+[00:07.5 - 00:09.4]  still poop, still poop.
+[00:09.4 - 00:11.1]  Let me check that.
+[00:11.1 - 00:12.9]  It's like I'm wiping a marker or something.
+[00:12.9 - 00:14.8]  If that sounds like you, there is a good chance
+[00:14.8 - 00:16.8]  that you are not digesting your food properly.
+[00:16.8 - 00:18.9]  And when the body can't properly break down food,
+[00:18.9 - 00:20.6]  it leads to fat malabsorption.
+[00:20.6 - 00:22.3]  And that excess fat ends up in your stool,
+[00:22.3 - 00:23.7]  making it sticky, greasy,
+[00:23.7 - 00:26.0]  and nearly impossible to fully evacuate.
+[00:26.0 - 00:28.2]  Because that undigested food doesn't move,
+[00:28.2 - 00:29.8]  it ends up sitting and fermenting,
+[00:29.8 - 00:32.4]  causing really bad bloating and foul smelling gas.
+[00:32.4 - 00:35.0]  When I was dealing with really bad, embarrassing gut issues,
+[00:35.0 - 00:36.4]  I did a ton of research
+[00:36.4 - 00:39.1]  and I came across this Gut Guardian Bundle.
+[00:39.1 - 00:42.4]  It is digestive enzymes and two types of probiotics.
+[00:42.4 - 00:44.5]  And let me just say, there is a reason
+[00:44.5 - 00:46.5]  there are so many five-star reviews
+[00:46.5 - 00:48.0]  of people raving about these.
+[00:48.0 - 00:50.1]  No more indigestion, regardless of what I eat.
+[00:50.1 - 00:52.0]  I barely have gas anymore.
+[00:52.0 - 00:56.1]  My bloating is gone and I am super regular now.
+[00:56.1 - 00:58.2]  The digestive enzymes break down any food
+[00:58.2 - 00:59.7]  that you put into your system.
+[01:00.6 - 01:02.2]  The 60 billion probiotic help populate the gut
+[01:02.2 - 01:04.8]  with good gut bacteria to get things moving along.
+[01:04.8 - 01:07.9]  And the gas and bloat probiotic targets gas at the source.
+[01:07.9 - 01:09.1]  So if your gut is struggling,
+[01:09.1 - 01:11.2]  highly suggest grabbing some of these.
+[01:11.2 - 01:13.7]  You can actually get these in any major retailer.
+[01:13.7 - 01:15.7]  I just prefer to get them on TikTok shop
+[01:15.7 - 01:16.6]  because they're cheaper.
+[01:16.6 - 01:19.0]  Either way, do yourself a favor and grab some of these.
+[01:19.0 - 01:20.2]  You will thank me later.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_9_7550533574936612109_transcription_20260531_213540.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_9_7550533574936612109_transcription_20260531_213540.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_9_7550533574936612109.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_9_7550533574936612109.mp3, file size: 1.51 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:04.0] Sometimes when I wipe, I'll wipe and I'll wipe
+[00:04.0 - 00:07.5] and I'll wipe and I'll wipe a hundred times,
+[00:07.5 - 00:09.4] still poop, still poop.
+[00:09.4 - 00:11.1] Let me check that.
+[00:11.1 - 00:12.9] It's like I'm wiping a marker or something.
+[00:12.9 - 00:14.8] If that sounds like you, there is a good chance
+[00:14.8 - 00:16.8] that you are not digesting your food properly.
+[00:16.8 - 00:18.9] And when the body can't properly break down food,
+[00:18.9 - 00:20.6] it leads to fat malabsorption.
+[00:20.6 - 00:22.3] And that excess fat ends up in your stool,
+[00:22.3 - 00:23.7] making it sticky, greasy,
+[00:23.7 - 00:26.0] and nearly impossible to fully evacuate.
+[00:26.0 - 00:28.2] Because that undigested food doesn't move,
+[00:28.2 - 00:29.8] it ends up sitting and fermenting,
+[00:29.8 - 00:32.4] causing really bad bloating and foul smelling gas.
+[00:32.4 - 00:35.0] When I was dealing with really bad, embarrassing gut issues,
+[00:35.0 - 00:36.4] I did a ton of research
+[00:36.4 - 00:39.1] and I came across this Gut Guardian Bundle.
+[00:39.1 - 00:42.4] It is digestive enzymes and two types of probiotics.
+[00:42.4 - 00:44.5] And let me just say, there is a reason
+[00:44.5 - 00:46.5] there are so many five-star reviews
+[00:46.5 - 00:48.0] of people raving about these.
+[00:48.0 - 00:50.1] No more indigestion, regardless of what I eat.
+[00:50.1 - 00:52.0] I barely have gas anymore.
+[00:52.0 - 00:56.1] My bloating is gone and I am super regular now.
+[00:56.1 - 00:58.2] The digestive enzymes break down any food
+[00:58.2 - 00:59.7] that you put into your system.
+[01:00.6 - 01:02.2] The 60 billion probiotic help populate the gut
+[01:02.2 - 01:04.8] with good gut bacteria to get things moving along.
+[01:04.8 - 01:07.9] And the gas and bloat probiotic targets gas at the source.
+[01:07.9 - 01:09.1] So if your gut is struggling,
+[01:09.1 - 01:11.2] highly suggest grabbing some of these.
+[01:11.2 - 01:13.7] You can actually get these in any major retailer.
+[01:13.7 - 01:15.7] I just prefer to get them on TikTok shop
+[01:15.7 - 01:16.6] because they're cheaper.
+[01:16.6 - 01:19.0] Either way, do yourself a favor and grab some of these.
+[01:19.0 - 01:20.2] You will thank me later.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_9_7550533574936612109_transcription_20260531_213540.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_9_7550533574936612109_transcription_20260531_213540.txt
+
+============================================================
+RANK: 10 | GMV: $18681.8 | VIDEO ID: 7572425239204744461
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7572425239204744461
+WORD COUNT: 905
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_10_7572425239204744461.mp3, file size: 1.47 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 80.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.2]  If you didn't listen to the cancer researcher, please listen to me when I tell you that this
+[00:03.2 - 00:05.2]  is the best holistic supplement stack.
+[00:05.2 - 00:06.8]  I'm a certified naturopath.
+[00:06.8 - 00:09.1]  Holistic healing is my thing, so let's get into it.
+[00:09.1 - 00:10.1]  First up, turmeric.
+[00:10.1 - 00:13.0]  Hands down, this is one of the most potent anti-inflammatories on the planet.
+[00:13.0 - 00:14.4]  I take this every single morning.
+[00:14.4 - 00:18.0]  Joint pain, back pain, hip pain, chronic pain, sciatica, headaches.
+[00:18.0 - 00:21.8]  Turmeric has been used for centuries for a reason, and studies show it has pain relieving
+[00:21.8 - 00:25.9]  properties comparable to ibuprofen, but is much safer to take long-term.
+[00:25.9 - 00:28.1]  Next up, moringa, also known as the miracle tree.
+[00:28.1 - 00:30.5]  This is the most nutrient-dense plant on the planet.
+[00:30.5 - 00:34.1]  It's got all nine essential amino acids, and it is packed with vitamins, minerals, and
+[00:34.1 - 00:37.4]  antioxidants, and this makes your multivitamin look like a piece of candy.
+[00:37.4 - 00:41.3]  Amazing for energy, immune support, it nourishes your hair, skin, nails, and gut.
+[00:41.3 - 00:42.8]  Next is the liver detox supplement.
+[00:42.8 - 00:44.5]  This is a 20-in-one supplement.
+[00:44.5 - 00:48.9]  It's got organic herbs along with NAD, the anti-aging supplement, antioxidants like NAC
+[00:48.9 - 00:51.9]  and glutathione, all meant to protect, cleanse, and detox the liver.
+[00:51.9 - 00:55.0]  With all the processed food, the soda, the booze, this is a must.
+[00:55.0 - 00:59.0]  And last but not least, saffron, nature's happy pill, which there are over 25 clinical
+[00:59.0 - 01:00.5]  trials backing that up.
+[01:00.5 - 01:02.0]  This advanced formula is a mood enhancer.
+[01:02.0 - 01:03.9]  It helps with memory, focus, and sleep.
+[01:03.9 - 01:04.9]  Now, here's the thing.
+[01:04.9 - 01:08.2]  If you were to buy all of these individually, you would be spending well over $100, but
+[01:08.2 - 01:11.3]  micro-ingredients has an amazing pre-Black Friday sale going on right now.
+[01:11.3 - 01:14.9]  So if you want to grab the total body reset bundle, I'm going to make sure to drop this
+[01:14.9 - 01:15.9]  below.
+[01:15.9 - 01:18.3]  And if you see that orange card, that means that they still have some in stock, so make
+[01:18.3 - 01:20.1]  sure you can snag it while it's on sale.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_10_7572425239204744461_transcription_20260531_213548.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_10_7572425239204744461_transcription_20260531_213548.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_10_7572425239204744461.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_10_7572425239204744461.mp3, file size: 1.47 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.2] If you didn't listen to the cancer researcher, please listen to me when I tell you that this
+[00:03.2 - 00:05.2] is the best holistic supplement stack.
+[00:05.2 - 00:06.8] I'm a certified naturopath.
+[00:06.8 - 00:09.1] Holistic healing is my thing, so let's get into it.
+[00:09.1 - 00:10.1] First up, turmeric.
+[00:10.1 - 00:13.0] Hands down, this is one of the most potent anti-inflammatories on the planet.
+[00:13.0 - 00:14.4] I take this every single morning.
+[00:14.4 - 00:18.0] Joint pain, back pain, hip pain, chronic pain, sciatica, headaches.
+[00:18.0 - 00:21.8] Turmeric has been used for centuries for a reason, and studies show it has pain relieving
+[00:21.8 - 00:25.9] properties comparable to ibuprofen, but is much safer to take long-term.
+[00:25.9 - 00:28.1] Next up, moringa, also known as the miracle tree.
+[00:28.1 - 00:30.5] This is the most nutrient-dense plant on the planet.
+[00:30.5 - 00:34.1] It's got all nine essential amino acids, and it is packed with vitamins, minerals, and
+[00:34.1 - 00:37.4] antioxidants, and this makes your multivitamin look like a piece of candy.
+[00:37.4 - 00:41.3] Amazing for energy, immune support, it nourishes your hair, skin, nails, and gut.
+[00:41.3 - 00:42.8] Next is the liver detox supplement.
+[00:42.8 - 00:44.5] This is a 20-in-one supplement.
+[00:44.5 - 00:48.9] It's got organic herbs along with NAD, the anti-aging supplement, antioxidants like NAC
+[00:48.9 - 00:51.9] and glutathione, all meant to protect, cleanse, and detox the liver.
+[00:51.9 - 00:55.0] With all the processed food, the soda, the booze, this is a must.
+[00:55.0 - 00:59.0] And last but not least, saffron, nature's happy pill, which there are over 25 clinical
+[00:59.0 - 01:00.5] trials backing that up.
+[01:00.5 - 01:02.0] This advanced formula is a mood enhancer.
+[01:02.0 - 01:03.9] It helps with memory, focus, and sleep.
+[01:03.9 - 01:04.9] Now, here's the thing.
+[01:04.9 - 01:08.2] If you were to buy all of these individually, you would be spending well over $100, but
+[01:08.2 - 01:11.3] micro-ingredients has an amazing pre-Black Friday sale going on right now.
+[01:11.3 - 01:14.9] So if you want to grab the total body reset bundle, I'm going to make sure to drop this
+[01:14.9 - 01:15.9] below.
+[01:15.9 - 01:18.3] And if you see that orange card, that means that they still have some in stock, so make
+[01:18.3 - 01:20.1] sure you can snag it while it's on sale.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_10_7572425239204744461_transcription_20260531_213548.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_10_7572425239204744461_transcription_20260531_213548.txt
+
+============================================================
+RANK: 11 | GMV: $15375.03 | VIDEO ID: 7610971090550066446
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7610971090550066446
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 12 | GMV: $14219.41 | VIDEO ID: 7624530774804516109
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7624530774804516109
+WORD COUNT: 945
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_12_7624530774804516109.mp3, file size: 2.39 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 79.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:01.3]  If you're popping turmeric pills
+[00:01.3 - 00:03.6]  and still waking up with stiff, achy joints,
+[00:03.6 - 00:04.6]  you're not imagining it,
+[00:04.6 - 00:06.4]  but you probably are taking it the wrong way.
+[00:06.4 - 00:08.5]  I'm a holistic wellness coach certified in naturopathy,
+[00:08.5 - 00:09.6]  and I've seen so many people
+[00:09.6 - 00:11.0]  make this mistake with turmeric.
+[00:11.0 - 00:13.3]  So let me explain how you take it the correct way
+[00:13.3 - 00:14.3]  so you don't waste your money.
+[00:14.3 - 00:15.4]  Now, what most people don't know
+[00:15.4 - 00:17.0]  about this potent anti-inflammatory
+[00:17.0 - 00:19.1]  is that the active compound curcumin
+[00:19.1 - 00:22.2]  is almost impossible for the body to absorb on its own.
+[00:22.2 - 00:23.1]  So if you really want
+[00:23.1 - 00:25.5]  the pain relieving anti-inflammatory benefits,
+[00:25.5 - 00:27.4]  there are three things you need to look for
+[00:27.4 - 00:28.7]  when buying a turmeric supplement.
+[00:28.7 - 00:30.6]  Number one is you need the right dose,
+[00:30.6 - 00:32.9]  at least 500 milligrams of curcumin,
+[00:32.9 - 00:35.7]  but 1,000 milligrams is really the clinical sweet spot
+[00:35.7 - 00:37.6]  for joint pain and inflammation reduction.
+[00:37.6 - 00:40.5]  Number two, it needs to be paired with black pepper extract
+[00:40.5 - 00:44.3]  because this alone will boost up the absorption by 2,000%.
+[00:44.3 - 00:46.5]  And number three, you need a carrier oil.
+[00:46.5 - 00:49.3]  This is how the curcumin gets shuttled into your cells
+[00:49.3 - 00:50.8]  so you actually get the benefits.
+[00:50.8 - 00:53.7]  And this is why micronutrients is my top recommendation.
+[00:53.7 - 00:56.0]  It's got the 1,000 milligrams of curcumin,
+[00:56.0 - 00:57.3]  so it's a great dosage.
+[00:57.3 - 00:59.5]  It's got the black pepper and the MCT oil,
+[00:59.5 - 01:01.5]  and they've even included vitamin C and ginger
+[01:01.5 - 01:03.6]  to enhance the anti-inflammatory benefits.
+[01:03.6 - 01:06.8]  These are lab tested, GMP certified, and made in the USA.
+[01:06.8 - 01:07.8]  And with a sale going on right now,
+[01:07.8 - 01:10.0]  you can actually get this for a really great price.
+[01:10.0 - 01:11.9]  So if you want turmeric that actually works,
+[01:11.9 - 01:13.0]  highly recommend this one.
+[01:13.0 - 01:14.7]  I will make sure to drop it down below.
+[01:14.7 - 01:15.8]  And if you see that orange card,
+[01:15.8 - 01:17.3]  that means that they still have it in stock.
+[01:17.3 - 01:19.5]  So I would definitely grab it while you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_12_7624530774804516109_transcription_20260531_213559.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_12_7624530774804516109_transcription_20260531_213559.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_12_7624530774804516109.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_12_7624530774804516109.mp3, file size: 2.39 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:01.3] If you're popping turmeric pills
+[00:01.3 - 00:03.6] and still waking up with stiff, achy joints,
+[00:03.6 - 00:04.6] you're not imagining it,
+[00:04.6 - 00:06.4] but you probably are taking it the wrong way.
+[00:06.4 - 00:08.5] I'm a holistic wellness coach certified in naturopathy,
+[00:08.5 - 00:09.6] and I've seen so many people
+[00:09.6 - 00:11.0] make this mistake with turmeric.
+[00:11.0 - 00:13.3] So let me explain how you take it the correct way
+[00:13.3 - 00:14.3] so you don't waste your money.
+[00:14.3 - 00:15.4] Now, what most people don't know
+[00:15.4 - 00:17.0] about this potent anti-inflammatory
+[00:17.0 - 00:19.1] is that the active compound curcumin
+[00:19.1 - 00:22.2] is almost impossible for the body to absorb on its own.
+[00:22.2 - 00:23.1] So if you really want
+[00:23.1 - 00:25.5] the pain relieving anti-inflammatory benefits,
+[00:25.5 - 00:27.4] there are three things you need to look for
+[00:27.4 - 00:28.7] when buying a turmeric supplement.
+[00:28.7 - 00:30.6] Number one is you need the right dose,
+[00:30.6 - 00:32.9] at least 500 milligrams of curcumin,
+[00:32.9 - 00:35.7] but 1,000 milligrams is really the clinical sweet spot
+[00:35.7 - 00:37.6] for joint pain and inflammation reduction.
+[00:37.6 - 00:40.5] Number two, it needs to be paired with black pepper extract
+[00:40.5 - 00:44.3] because this alone will boost up the absorption by 2,000%.
+[00:44.3 - 00:46.5] And number three, you need a carrier oil.
+[00:46.5 - 00:49.3] This is how the curcumin gets shuttled into your cells
+[00:49.3 - 00:50.8] so you actually get the benefits.
+[00:50.8 - 00:53.7] And this is why micronutrients is my top recommendation.
+[00:53.7 - 00:56.0] It's got the 1,000 milligrams of curcumin,
+[00:56.0 - 00:57.3] so it's a great dosage.
+[00:57.3 - 00:59.5] It's got the black pepper and the MCT oil,
+[00:59.5 - 01:01.5] and they've even included vitamin C and ginger
+[01:01.5 - 01:03.6] to enhance the anti-inflammatory benefits.
+[01:03.6 - 01:06.8] These are lab tested, GMP certified, and made in the USA.
+[01:06.8 - 01:07.8] And with a sale going on right now,
+[01:07.8 - 01:10.0] you can actually get this for a really great price.
+[01:10.0 - 01:11.9] So if you want turmeric that actually works,
+[01:11.9 - 01:13.0] highly recommend this one.
+[01:13.0 - 01:14.7] I will make sure to drop it down below.
+[01:14.7 - 01:15.8] And if you see that orange card,
+[01:15.8 - 01:17.3] that means that they still have it in stock.
+[01:17.3 - 01:19.5] So I would definitely grab it while you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_12_7624530774804516109_transcription_20260531_213559.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_12_7624530774804516109_transcription_20260531_213559.txt
+
+============================================================
+RANK: 13 | GMV: $11550.21 | VIDEO ID: 7579433606104255799
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7579433606104255799
+WORD COUNT: 899
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_13_7579433606104255799.mp3, file size: 1.48 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 80.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.8]  NAD or NMN, which one should you be taking?
+[00:02.8 - 00:05.1]  As a certified naturopath, I get this question a lot
+[00:05.1 - 00:08.0]  because NAD and NMN lead to the same result,
+[00:08.0 - 00:10.1]  which is elevating the body's NAD levels.
+[00:10.1 - 00:12.9]  And NAD, also known as the fountain of youth molecule,
+[00:12.9 - 00:14.6]  is found in every cell of the body.
+[00:14.6 - 00:17.2]  It's responsible for energy production, DNA repair,
+[00:17.2 - 00:20.1]  immune function, tissue regeneration, cellular repair,
+[00:20.1 - 00:22.6]  collagen production, and the list goes on and on.
+[00:22.6 - 00:25.4]  But because our own naturally occurring NAD levels plummet,
+[00:25.4 - 00:27.5]  especially when we get into our 30s and 40s,
+[00:27.5 - 00:29.5]  supplementing those levels can be great
+[00:29.5 - 00:32.0]  for boosting energy, sharpening memory and focus,
+[00:32.0 - 00:33.6]  and it's amazing for bringing back
+[00:33.6 - 00:35.0]  the youthfulness to our skin.
+[00:35.0 - 00:37.8]  But the issue with NAD is that the molecule is very large
+[00:37.8 - 00:41.1]  and it pales in comparison to NMN's bioavailability,
+[00:41.1 - 00:43.0]  meaning it just does not absorb well.
+[00:43.0 - 00:44.7]  And even though NMN is a precursor
+[00:44.7 - 00:46.7]  that the body has to convert into NAD,
+[00:46.7 - 00:48.8]  that conversion is way more efficient
+[00:48.8 - 00:50.2]  than taking actual NAD.
+[00:50.2 - 00:52.6]  So if you've taken NAD and saw good results,
+[00:52.6 - 00:55.3]  chances are they will be even better with NMN.
+[00:55.3 - 00:58.2]  Now, if you want my recommendation on a high quality NMN,
+[00:58.2 - 01:00.7]  I love the one by the highly trusted brand,
+[01:00.7 - 01:01.7]  Micro Ingredients.
+[01:01.7 - 01:02.5]  It's made in the USA.
+[01:02.5 - 01:03.5]  It's been lab tested.
+[01:03.5 - 01:05.0]  And this not only contains NMN,
+[01:05.0 - 01:06.8]  but it has several potent antioxidants
+[01:06.8 - 01:10.1]  like astaxanthin, glutathione, resveratrol, and CoQ10,
+[01:10.1 - 01:12.3]  all which have their own anti-aging properties.
+[01:12.3 - 01:13.8]  It is also currently on sale.
+[01:13.8 - 01:15.4]  So if you do want to try this out,
+[01:15.4 - 01:17.0]  I'm going to make sure to drop it down below.
+[01:17.0 - 01:18.0]  If you see the orange card,
+[01:18.0 - 01:19.4]  that means they still have it in stock.
+[01:19.4 - 01:20.6]  So snag it if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_13_7579433606104255799_transcription_20260531_213609.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_13_7579433606104255799_transcription_20260531_213609.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_13_7579433606104255799.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_13_7579433606104255799.mp3, file size: 1.48 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.8] NAD or NMN, which one should you be taking?
+[00:02.8 - 00:05.1] As a certified naturopath, I get this question a lot
+[00:05.1 - 00:08.0] because NAD and NMN lead to the same result,
+[00:08.0 - 00:10.1] which is elevating the body's NAD levels.
+[00:10.1 - 00:12.9] And NAD, also known as the fountain of youth molecule,
+[00:12.9 - 00:14.6] is found in every cell of the body.
+[00:14.6 - 00:17.2] It's responsible for energy production, DNA repair,
+[00:17.2 - 00:20.1] immune function, tissue regeneration, cellular repair,
+[00:20.1 - 00:22.6] collagen production, and the list goes on and on.
+[00:22.6 - 00:25.4] But because our own naturally occurring NAD levels plummet,
+[00:25.4 - 00:27.5] especially when we get into our 30s and 40s,
+[00:27.5 - 00:29.5] supplementing those levels can be great
+[00:29.5 - 00:32.0] for boosting energy, sharpening memory and focus,
+[00:32.0 - 00:33.6] and it's amazing for bringing back
+[00:33.6 - 00:35.0] the youthfulness to our skin.
+[00:35.0 - 00:37.8] But the issue with NAD is that the molecule is very large
+[00:37.8 - 00:41.1] and it pales in comparison to NMN's bioavailability,
+[00:41.1 - 00:43.0] meaning it just does not absorb well.
+[00:43.0 - 00:44.7] And even though NMN is a precursor
+[00:44.7 - 00:46.7] that the body has to convert into NAD,
+[00:46.7 - 00:48.8] that conversion is way more efficient
+[00:48.8 - 00:50.2] than taking actual NAD.
+[00:50.2 - 00:52.6] So if you've taken NAD and saw good results,
+[00:52.6 - 00:55.3] chances are they will be even better with NMN.
+[00:55.3 - 00:58.2] Now, if you want my recommendation on a high quality NMN,
+[00:58.2 - 01:00.7] I love the one by the highly trusted brand,
+[01:00.7 - 01:01.7] Micro Ingredients.
+[01:01.7 - 01:02.5] It's made in the USA.
+[01:02.5 - 01:03.5] It's been lab tested.
+[01:03.5 - 01:05.0] And this not only contains NMN,
+[01:05.0 - 01:06.8] but it has several potent antioxidants
+[01:06.8 - 01:10.1] like astaxanthin, glutathione, resveratrol, and CoQ10,
+[01:10.1 - 01:12.3] all which have their own anti-aging properties.
+[01:12.3 - 01:13.8] It is also currently on sale.
+[01:13.8 - 01:15.4] So if you do want to try this out,
+[01:15.4 - 01:17.0] I'm going to make sure to drop it down below.
+[01:17.0 - 01:18.0] If you see the orange card,
+[01:18.0 - 01:19.4] that means they still have it in stock.
+[01:19.4 - 01:20.6] So snag it if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_13_7579433606104255799_transcription_20260531_213609.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_13_7579433606104255799_transcription_20260531_213609.txt
+
+============================================================
+RANK: 14 | GMV: $8888.13 | VIDEO ID: 7580977474670988599
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7580977474670988599
+WORD COUNT: 1147
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_14_7580977474670988599.mp3, file size: 1.87 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 102.2 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.1]  is NMN a complete and total scam?
+[00:02.1 - 00:04.1]  Because why would they tell us to take NAD
+[00:04.1 - 00:06.0]  and suddenly it's all about NMN?
+[00:06.0 - 00:07.2]  As a certified naturopath,
+[00:07.2 - 00:09.2]  let me tell you exactly what is happening.
+[00:09.2 - 00:11.1]  NMN was being studied in clinical trials
+[00:11.1 - 00:13.1]  as a potential prescription medication.
+[00:13.1 - 00:13.9]  Why?
+[00:13.9 - 00:15.4]  Because of how well it works.
+[00:15.4 - 00:17.1]  And there was regulatory back and forth
+[00:17.1 - 00:19.4]  about whether or not it could stay available as a supplement
+[00:19.4 - 00:21.6]  or become available by prescription only.
+[00:21.6 - 00:23.4]  And if it had gone to prescription only,
+[00:23.4 - 00:25.1]  it would have been incredibly expensive
+[00:25.1 - 00:27.2]  and gate kept behind doctor's visits.
+[00:27.2 - 00:30.2]  So NAD started getting pushed as a safe alternative
+[00:30.2 - 00:32.4]  while NMN was tied up in red tape.
+[00:32.4 - 00:36.1]  But here's the thing, NMN is more bioavailable than NAD.
+[00:36.1 - 00:37.1]  It absorbs better.
+[00:37.1 - 00:38.4]  And even though it's a precursor
+[00:38.4 - 00:40.3]  that the body has to convert into NAD,
+[00:40.3 - 00:42.1]  that conversion is way more efficient
+[00:42.1 - 00:43.9]  than taking plain old NAD,
+[00:43.9 - 00:46.3]  which is exactly why it was being so heavily studied
+[00:46.3 - 00:47.2]  in the first place.
+[00:47.2 - 00:49.6]  And because there was so much regulatory scrutiny,
+[00:49.6 - 00:51.9]  there are strict safety and quality standards
+[00:51.9 - 00:53.2]  around NMN production.
+[00:53.2 - 00:55.1]  So not every company is gonna start making it
+[00:55.1 - 00:57.9]  because those standards make it fairly expensive to produce.
+[00:57.9 - 00:59.6]  Now, I have seen a few companies start to come out
+[00:59.6 - 01:00.9]  with their own NMN supplements,
+[01:00.9 - 01:02.7]  but if you want my recommendation,
+[01:02.7 - 01:05.4]  I highly recommend the one by Micro Ingredients.
+[01:05.4 - 01:07.7]  They're one of the top selling holistic supplement companies
+[01:07.7 - 01:09.8]  because all of their stuff is very high quality.
+[01:09.8 - 01:11.7]  It's made in the USA, it's been lab tested,
+[01:11.7 - 01:14.8]  and it not only contains the clinically studied dose of NMN,
+[01:14.8 - 01:17.6]  but it also contains several potent antioxidants
+[01:17.6 - 01:20.8]  like astaxanthin, glutathione, CoQ10, and resveratrol,
+[01:20.8 - 01:22.8]  all which have their own anti-aging properties.
+[01:22.8 - 01:24.7]  So if you were looking for clean, sustained energy
+[01:24.7 - 01:27.3]  all day long, a boost in collagen and elastin,
+[01:27.3 - 01:29.8]  hair growth, mental sharpness, faster recovery,
+[01:29.8 - 01:32.2]  if you wanna press the rewind button on your cells,
+[01:32.2 - 01:33.6]  start taking NMN.
+[01:33.6 - 01:35.2]  If you wanna grab this one by Micro Ingredients,
+[01:35.2 - 01:36.4]  I'm gonna drop it down below.
+[01:36.4 - 01:38.0]  They are running a sale on this right now.
+[01:38.0 - 01:39.2]  So if you see that orange card,
+[01:39.2 - 01:40.8]  that means that they still have them in stock.
+[01:40.8 - 01:42.2]  So snag it if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_14_7580977474670988599_transcription_20260531_213618.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_14_7580977474670988599_transcription_20260531_213618.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_14_7580977474670988599.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_14_7580977474670988599.mp3, file size: 1.87 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.1] is NMN a complete and total scam?
+[00:02.1 - 00:04.1] Because why would they tell us to take NAD
+[00:04.1 - 00:06.0] and suddenly it's all about NMN?
+[00:06.0 - 00:07.2] As a certified naturopath,
+[00:07.2 - 00:09.2] let me tell you exactly what is happening.
+[00:09.2 - 00:11.1] NMN was being studied in clinical trials
+[00:11.1 - 00:13.1] as a potential prescription medication.
+[00:13.1 - 00:13.9] Why?
+[00:13.9 - 00:15.4] Because of how well it works.
+[00:15.4 - 00:17.1] And there was regulatory back and forth
+[00:17.1 - 00:19.4] about whether or not it could stay available as a supplement
+[00:19.4 - 00:21.6] or become available by prescription only.
+[00:21.6 - 00:23.4] And if it had gone to prescription only,
+[00:23.4 - 00:25.1] it would have been incredibly expensive
+[00:25.1 - 00:27.2] and gate kept behind doctor's visits.
+[00:27.2 - 00:30.2] So NAD started getting pushed as a safe alternative
+[00:30.2 - 00:32.4] while NMN was tied up in red tape.
+[00:32.4 - 00:36.1] But here's the thing, NMN is more bioavailable than NAD.
+[00:36.1 - 00:37.1] It absorbs better.
+[00:37.1 - 00:38.4] And even though it's a precursor
+[00:38.4 - 00:40.3] that the body has to convert into NAD,
+[00:40.3 - 00:42.1] that conversion is way more efficient
+[00:42.1 - 00:43.9] than taking plain old NAD,
+[00:43.9 - 00:46.3] which is exactly why it was being so heavily studied
+[00:46.3 - 00:47.2] in the first place.
+[00:47.2 - 00:49.6] And because there was so much regulatory scrutiny,
+[00:49.6 - 00:51.9] there are strict safety and quality standards
+[00:51.9 - 00:53.2] around NMN production.
+[00:53.2 - 00:55.1] So not every company is gonna start making it
+[00:55.1 - 00:57.9] because those standards make it fairly expensive to produce.
+[00:57.9 - 00:59.6] Now, I have seen a few companies start to come out
+[00:59.6 - 01:00.9] with their own NMN supplements,
+[01:00.9 - 01:02.7] but if you want my recommendation,
+[01:02.7 - 01:05.4] I highly recommend the one by Micro Ingredients.
+[01:05.4 - 01:07.7] They're one of the top selling holistic supplement companies
+[01:07.7 - 01:09.8] because all of their stuff is very high quality.
+[01:09.8 - 01:11.7] It's made in the USA, it's been lab tested,
+[01:11.7 - 01:14.8] and it not only contains the clinically studied dose of NMN,
+[01:14.8 - 01:17.6] but it also contains several potent antioxidants
+[01:17.6 - 01:20.8] like astaxanthin, glutathione, CoQ10, and resveratrol,
+[01:20.8 - 01:22.8] all which have their own anti-aging properties.
+[01:22.8 - 01:24.7] So if you were looking for clean, sustained energy
+[01:24.7 - 01:27.3] all day long, a boost in collagen and elastin,
+[01:27.3 - 01:29.8] hair growth, mental sharpness, faster recovery,
+[01:29.8 - 01:32.2] if you wanna press the rewind button on your cells,
+[01:32.2 - 01:33.6] start taking NMN.
+[01:33.6 - 01:35.2] If you wanna grab this one by Micro Ingredients,
+[01:35.2 - 01:36.4] I'm gonna drop it down below.
+[01:36.4 - 01:38.0] They are running a sale on this right now.
+[01:38.0 - 01:39.2] So if you see that orange card,
+[01:39.2 - 01:40.8] that means that they still have them in stock.
+[01:40.8 - 01:42.2] So snag it if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_14_7580977474670988599_transcription_20260531_213618.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_14_7580977474670988599_transcription_20260531_213618.txt
+
+============================================================
+RANK: 15 | GMV: $8332.46 | VIDEO ID: 7614525330740546830
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7614525330740546830
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 16 | GMV: $8250.08 | VIDEO ID: 7573950295386983693
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7573950295386983693
+WORD COUNT: 1149
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_16_7573950295386983693.mp3, file size: 1.78 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 96.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.1]  If your face looks like this and your hair looks like this,
+[00:02.1 - 00:03.5]  after taking a GLP,
+[00:03.5 - 00:05.7]  these are the three supplements you need to be taking.
+[00:05.7 - 00:06.9]  I'm a certified naturopath.
+[00:06.9 - 00:09.2]  Holistic healing is my thing, so let's get into it.
+[00:09.2 - 00:10.4]  Number one, collagen.
+[00:10.4 - 00:13.2]  We already lose 1% of collagen every single year,
+[00:13.2 - 00:15.4]  but that happens even faster when you're on a GLP.
+[00:15.4 - 00:17.2]  So if you're not supplementing what you're losing,
+[00:17.2 - 00:19.2]  you're gonna end up with more fine lines and wrinkles,
+[00:19.2 - 00:21.2]  saggy skin, and thin, brittle hair.
+[00:21.2 - 00:22.6]  Number two, NAD.
+[00:22.6 - 00:25.1]  Your energy is low and you're feeling constantly fatigued.
+[00:25.1 - 00:27.7]  NAD is called the fountain of youth molecule for a reason.
+[00:27.7 - 00:30.4]  It is essential for cellular energy and DNA repair.
+[00:30.4 - 00:31.5]  And if you're taking the collagen,
+[00:31.5 - 00:33.6]  it actually gives your cells the energy they need
+[00:33.6 - 00:35.3]  to break it down and absorb it
+[00:35.3 - 00:36.7]  to replenish what's been lost.
+[00:36.7 - 00:38.6]  NAD also helps with cellular repair,
+[00:38.6 - 00:40.8]  cellular turnover, and tissue regeneration.
+[00:40.8 - 00:42.4]  So it's not only amazing for energy,
+[00:42.4 - 00:43.6]  it is so good for skin.
+[00:43.6 - 00:45.9]  And last but not least, omega-3 fish oil.
+[00:45.9 - 00:47.5]  These have anti-inflammatory properties
+[00:47.5 - 00:49.1]  that support a strong skin barrier,
+[00:49.1 - 00:50.5]  keeping everything hydrated,
+[00:50.5 - 00:52.9]  which is not only amazing for fine lines and wrinkles,
+[00:52.9 - 00:55.0]  but with scalp health, keeping hair follicles nourished
+[00:55.0 - 00:56.9]  to promote growth and stop breakage.
+[00:56.9 - 00:58.4]  Now you can buy all of these things individually,
+[00:58.4 - 00:59.7]  which can be kind of pricey,
+[00:59.7 - 01:02.4]  but Micro Ingredients created a bundle with all three
+[01:02.4 - 01:04.3]  called the Ultimate Anti-Aging Bundle.
+[01:04.3 - 01:06.4]  They're one of the top-selling holistic supplement brands
+[01:06.4 - 01:08.2]  because their supplements are such high quality.
+[01:08.2 - 01:09.5]  Their NAD is liposomal,
+[01:09.5 - 01:11.2]  and it also contains potent antioxidants
+[01:11.2 - 01:13.4]  like astaxanthin, glutathione, and resveratrol.
+[01:13.4 - 01:15.5]  Their collagen has five different types of collagen,
+[01:15.5 - 01:18.1]  vitamin C, hyaluronic acid, and it is hydrolyzed,
+[01:18.1 - 01:20.0]  meaning the body can actually absorb this.
+[01:20.0 - 01:22.8]  And while most fish oil only provides 30% omega-3s,
+[01:22.8 - 01:24.3]  these provide 90%.
+[01:24.3 - 01:26.3]  They've also been lab tested for heavy metals.
+[01:26.3 - 01:28.2]  And with the current sale they have going on right now,
+[01:28.2 - 01:29.4]  this bundle will sell out.
+[01:29.4 - 01:31.0]  So if you want to grab one while it's on sale,
+[01:31.0 - 01:32.5]  I will make sure to drop it down below.
+[01:32.5 - 01:33.7]  And if you see that orange cart,
+[01:33.7 - 01:35.3]  that means that they still have some in stock,
+[01:35.3 - 01:36.6]  so snag it if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_16_7573950295386983693_transcription_20260531_213631.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_16_7573950295386983693_transcription_20260531_213631.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_16_7573950295386983693.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_16_7573950295386983693.mp3, file size: 1.78 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.1] If your face looks like this and your hair looks like this,
+[00:02.1 - 00:03.5] after taking a GLP,
+[00:03.5 - 00:05.7] these are the three supplements you need to be taking.
+[00:05.7 - 00:06.9] I'm a certified naturopath.
+[00:06.9 - 00:09.2] Holistic healing is my thing, so let's get into it.
+[00:09.2 - 00:10.4] Number one, collagen.
+[00:10.4 - 00:13.2] We already lose 1% of collagen every single year,
+[00:13.2 - 00:15.4] but that happens even faster when you're on a GLP.
+[00:15.4 - 00:17.2] So if you're not supplementing what you're losing,
+[00:17.2 - 00:19.2] you're gonna end up with more fine lines and wrinkles,
+[00:19.2 - 00:21.2] saggy skin, and thin, brittle hair.
+[00:21.2 - 00:22.6] Number two, NAD.
+[00:22.6 - 00:25.1] Your energy is low and you're feeling constantly fatigued.
+[00:25.1 - 00:27.7] NAD is called the fountain of youth molecule for a reason.
+[00:27.7 - 00:30.4] It is essential for cellular energy and DNA repair.
+[00:30.4 - 00:31.5] And if you're taking the collagen,
+[00:31.5 - 00:33.6] it actually gives your cells the energy they need
+[00:33.6 - 00:35.3] to break it down and absorb it
+[00:35.3 - 00:36.7] to replenish what's been lost.
+[00:36.7 - 00:38.6] NAD also helps with cellular repair,
+[00:38.6 - 00:40.8] cellular turnover, and tissue regeneration.
+[00:40.8 - 00:42.4] So it's not only amazing for energy,
+[00:42.4 - 00:43.6] it is so good for skin.
+[00:43.6 - 00:45.9] And last but not least, omega-3 fish oil.
+[00:45.9 - 00:47.5] These have anti-inflammatory properties
+[00:47.5 - 00:49.1] that support a strong skin barrier,
+[00:49.1 - 00:50.5] keeping everything hydrated,
+[00:50.5 - 00:52.9] which is not only amazing for fine lines and wrinkles,
+[00:52.9 - 00:55.0] but with scalp health, keeping hair follicles nourished
+[00:55.0 - 00:56.9] to promote growth and stop breakage.
+[00:56.9 - 00:58.4] Now you can buy all of these things individually,
+[00:58.4 - 00:59.7] which can be kind of pricey,
+[00:59.7 - 01:02.4] but Micro Ingredients created a bundle with all three
+[01:02.4 - 01:04.3] called the Ultimate Anti-Aging Bundle.
+[01:04.3 - 01:06.4] They're one of the top-selling holistic supplement brands
+[01:06.4 - 01:08.2] because their supplements are such high quality.
+[01:08.2 - 01:09.5] Their NAD is liposomal,
+[01:09.5 - 01:11.2] and it also contains potent antioxidants
+[01:11.2 - 01:13.4] like astaxanthin, glutathione, and resveratrol.
+[01:13.4 - 01:15.5] Their collagen has five different types of collagen,
+[01:15.5 - 01:18.1] vitamin C, hyaluronic acid, and it is hydrolyzed,
+[01:18.1 - 01:20.0] meaning the body can actually absorb this.
+[01:20.0 - 01:22.8] And while most fish oil only provides 30% omega-3s,
+[01:22.8 - 01:24.3] these provide 90%.
+[01:24.3 - 01:26.3] They've also been lab tested for heavy metals.
+[01:26.3 - 01:28.2] And with the current sale they have going on right now,
+[01:28.2 - 01:29.4] this bundle will sell out.
+[01:29.4 - 01:31.0] So if you want to grab one while it's on sale,
+[01:31.0 - 01:32.5] I will make sure to drop it down below.
+[01:32.5 - 01:33.7] And if you see that orange cart,
+[01:33.7 - 01:35.3] that means that they still have some in stock,
+[01:35.3 - 01:36.6] so snag it if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_16_7573950295386983693_transcription_20260531_213631.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_16_7573950295386983693_transcription_20260531_213631.txt
+
+============================================================
+RANK: 17 | GMV: $8055.56 | VIDEO ID: 7608022862305185037
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7608022862305185037
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 18 | GMV: $7004.11 | VIDEO ID: 7566793038182321463
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7566793038182321463
+WORD COUNT: 1053
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_18_7566793038182321463.mp3, file size: 3.10 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 105.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:05.5]  right here is giving you this, this, this, and even this. I'm a certified naturopath and I always look
+[00:05.5 - 00:10.1]  at the root cause of an issue and most of the time it starts in the gut. When your gut microbiome is
+[00:10.1 - 00:15.8]  off, digestion slows down. The wrong kind of bacteria build up causing gas, bloat, and inflammation
+[00:15.8 - 00:19.9]  that you can not only see in your gut but your skin as well. And your body can't properly absorb
+[00:19.9 - 00:23.8]  nutrients which not only affects your sleep quality and energy levels but your hair and nail
+[00:23.8 - 00:27.9]  growth as well. Now supporting your digestion does not have to be about restriction or perfection
+[00:27.9 - 00:31.9]  with what you're eating because this is about working smarter not harder. One of the easiest
+[00:31.9 - 00:36.6]  ways to support your gut health is by taking a high quality probiotic and digestive enzyme. These
+[00:36.6 - 00:40.7]  two things can make a massive difference on the way that you look and feel. These digestive enzymes
+[00:40.7 - 00:45.0]  and probiotics by physician's choice are the ones that I not only recommend, these are the ones I
+[00:45.0 - 00:49.2]  personally take. The digestive enzymes help by breaking down any of the food that you eat during
+[00:49.2 - 00:53.7]  the day. This is going to help ensure smoother digestion and nutrient absorption. The 60 billion
+[00:53.7 - 00:59.2]  probiotic helps to restore your healthy gut flora which is crucial for digestion, regularity, mood,
+[00:59.2 - 01:04.6]  and even to have glowing radiant skin. The bloat and gas probiotic does exactly what it says. This
+[01:04.6 - 01:09.0]  targets gas at the source so if you are somebody that gets really triggered by certain foods making
+[01:09.0 - 01:13.0]  you really gassy and really bloated, this is going to be your best friend. These are all natural,
+[01:13.0 - 01:17.7]  they are third-party tested, and they're actually formulated to survive stomach acid so the
+[01:17.7 - 01:22.5]  probiotics reach your gut alive. The capsules are small, they're easy to swallow, there's no weird
+[01:22.5 - 01:26.6]  aftertaste, and many people report feeling a difference within a few days of taking this with
+[01:26.6 - 01:30.6]  less bloat, smoother digestion, and more energy. If you haven't started addressing your gut health,
+[01:30.6 - 01:35.1]  highly recommend grabbing the Gut Guardian Bundle today. Now you can actually buy these in any major
+[01:35.1 - 01:39.3]  retailer, but you have to get them individually. If you grab them on TikTok Shop, you can get them
+[01:39.3 - 01:42.7]  as the bundle and save some money. So if you want to grab them here, I will make sure to drop them
+[01:42.7 - 01:45.1]  below and feel free to comment if you have any questions.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_18_7566793038182321463_transcription_20260531_213644.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_18_7566793038182321463_transcription_20260531_213644.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_18_7566793038182321463.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_18_7566793038182321463.mp3, file size: 3.10 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.5] right here is giving you this, this, this, and even this. I'm a certified naturopath and I always look
+[00:05.5 - 00:10.1] at the root cause of an issue and most of the time it starts in the gut. When your gut microbiome is
+[00:10.1 - 00:15.8] off, digestion slows down. The wrong kind of bacteria build up causing gas, bloat, and inflammation
+[00:15.8 - 00:19.9] that you can not only see in your gut but your skin as well. And your body can't properly absorb
+[00:19.9 - 00:23.8] nutrients which not only affects your sleep quality and energy levels but your hair and nail
+[00:23.8 - 00:27.9] growth as well. Now supporting your digestion does not have to be about restriction or perfection
+[00:27.9 - 00:31.9] with what you're eating because this is about working smarter not harder. One of the easiest
+[00:31.9 - 00:36.6] ways to support your gut health is by taking a high quality probiotic and digestive enzyme. These
+[00:36.6 - 00:40.7] two things can make a massive difference on the way that you look and feel. These digestive enzymes
+[00:40.7 - 00:45.0] and probiotics by physician's choice are the ones that I not only recommend, these are the ones I
+[00:45.0 - 00:49.2] personally take. The digestive enzymes help by breaking down any of the food that you eat during
+[00:49.2 - 00:53.7] the day. This is going to help ensure smoother digestion and nutrient absorption. The 60 billion
+[00:53.7 - 00:59.2] probiotic helps to restore your healthy gut flora which is crucial for digestion, regularity, mood,
+[00:59.2 - 01:04.6] and even to have glowing radiant skin. The bloat and gas probiotic does exactly what it says. This
+[01:04.6 - 01:09.0] targets gas at the source so if you are somebody that gets really triggered by certain foods making
+[01:09.0 - 01:13.0] you really gassy and really bloated, this is going to be your best friend. These are all natural,
+[01:13.0 - 01:17.7] they are third-party tested, and they're actually formulated to survive stomach acid so the
+[01:17.7 - 01:22.5] probiotics reach your gut alive. The capsules are small, they're easy to swallow, there's no weird
+[01:22.5 - 01:26.6] aftertaste, and many people report feeling a difference within a few days of taking this with
+[01:26.6 - 01:30.6] less bloat, smoother digestion, and more energy. If you haven't started addressing your gut health,
+[01:30.6 - 01:35.1] highly recommend grabbing the Gut Guardian Bundle today. Now you can actually buy these in any major
+[01:35.1 - 01:39.3] retailer, but you have to get them individually. If you grab them on TikTok Shop, you can get them
+[01:39.3 - 01:42.7] as the bundle and save some money. So if you want to grab them here, I will make sure to drop them
+[01:42.7 - 01:45.1] below and feel free to comment if you have any questions.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_18_7566793038182321463_transcription_20260531_213644.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_18_7566793038182321463_transcription_20260531_213644.txt
+
+============================================================
+RANK: 19 | GMV: $6969.54 | VIDEO ID: 7545657714786045198
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7545657714786045198
+WORD COUNT: 547
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_19_7545657714786045198.mp3, file size: 0.86 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 45.0 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:01.6]  If you wake up feeling congested
+[00:01.6 - 00:03.9]  or like there's always something stuck in your throat,
+[00:03.9 - 00:05.9]  you need to take one of these daily
+[00:05.9 - 00:08.7]  until that nasty mucus gets flushed out of your system.
+[00:08.7 - 00:10.3]  Because when that builds up over time,
+[00:10.3 - 00:11.9]  it doesn't just mess with your breathing,
+[00:11.9 - 00:13.8]  it messes with your sleep, your energy,
+[00:13.8 - 00:16.0]  and it puts you in a state of chronic inflammation,
+[00:16.0 - 00:17.9]  causing puffiness, dark under eyes,
+[00:17.9 - 00:20.4]  and that tired, swollen look that just won't go away.
+[00:20.4 - 00:23.4]  And that's where NAC or N-acetylcysteine comes in.
+[00:23.4 - 00:25.7]  This is an amino acid that helps break down
+[00:25.7 - 00:28.2]  and flush out the mucus from your sinuses and lungs.
+[00:28.2 - 00:30.4]  NAC is also the precursor to glutathione,
+[00:30.4 - 00:32.4]  which is the body's master antioxidant.
+[00:32.4 - 00:34.0]  So it's not just clearing out the mucus,
+[00:34.0 - 00:36.0]  it's protecting your cells in the process.
+[00:36.0 - 00:38.1]  I'm gonna link the one by Nutricost down below
+[00:38.1 - 00:40.2]  because it's not only been third-party tested,
+[00:40.2 - 00:42.0]  is non-GMO and cruelty-free,
+[00:42.0 - 00:44.9]  but it is one of the most affordable NACs I have found.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_19_7545657714786045198_transcription_20260531_213650.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_19_7545657714786045198_transcription_20260531_213650.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_19_7545657714786045198.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_19_7545657714786045198.mp3, file size: 0.86 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:01.6] If you wake up feeling congested
+[00:01.6 - 00:03.9] or like there's always something stuck in your throat,
+[00:03.9 - 00:05.9] you need to take one of these daily
+[00:05.9 - 00:08.7] until that nasty mucus gets flushed out of your system.
+[00:08.7 - 00:10.3] Because when that builds up over time,
+[00:10.3 - 00:11.9] it doesn't just mess with your breathing,
+[00:11.9 - 00:13.8] it messes with your sleep, your energy,
+[00:13.8 - 00:16.0] and it puts you in a state of chronic inflammation,
+[00:16.0 - 00:17.9] causing puffiness, dark under eyes,
+[00:17.9 - 00:20.4] and that tired, swollen look that just won't go away.
+[00:20.4 - 00:23.4] And that's where NAC or N-acetylcysteine comes in.
+[00:23.4 - 00:25.7] This is an amino acid that helps break down
+[00:25.7 - 00:28.2] and flush out the mucus from your sinuses and lungs.
+[00:28.2 - 00:30.4] NAC is also the precursor to glutathione,
+[00:30.4 - 00:32.4] which is the body's master antioxidant.
+[00:32.4 - 00:34.0] So it's not just clearing out the mucus,
+[00:34.0 - 00:36.0] it's protecting your cells in the process.
+[00:36.0 - 00:38.1] I'm gonna link the one by Nutricost down below
+[00:38.1 - 00:40.2] because it's not only been third-party tested,
+[00:40.2 - 00:42.0] is non-GMO and cruelty-free,
+[00:42.0 - 00:44.9] but it is one of the most affordable NACs I have found.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_19_7545657714786045198_transcription_20260531_213650.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_19_7545657714786045198_transcription_20260531_213650.txt
+
+============================================================
+RANK: 20 | GMV: $6339.57 | VIDEO ID: 7581592940930288909
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7581592940930288909
+WORD COUNT: 1075
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_20_7581592940930288909.mp3, file size: 1.76 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 95.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.0]  So your eye floaters are driving you nuts
+[00:02.0 - 00:04.1]  and your doctor said there's nothing you can do about it.
+[00:04.1 - 00:07.0]  There is now anecdotal evidence that astaxanthin can help.
+[00:07.0 - 00:08.8]  As a certified naturopath, let me tell you
+[00:08.8 - 00:11.0]  why astaxanthin is already heavily recommended
+[00:11.0 - 00:13.8]  for eye health and how it can benefit floaters specifically.
+[00:13.8 - 00:15.9]  Astaxanthin is an organic pigment molecule
+[00:15.9 - 00:19.1]  found in microalgae and it is 6,000 times stronger
+[00:19.1 - 00:21.0]  than vitamin C as an antioxidant.
+[00:21.0 - 00:23.2]  And it's not only known for its anti-aging benefits
+[00:23.2 - 00:24.7]  that boost collagen and elastin
+[00:24.7 - 00:26.9]  to promote glowing at youthful looking skin,
+[00:26.9 - 00:29.2]  but it's been heavily studied for eye health too.
+[00:29.2 - 00:31.7]  It's been shown to protect retinol cells from blue light.
+[00:31.7 - 00:33.4]  So if you're staring at screens all day,
+[00:33.4 - 00:35.6]  it is amazing for eye strain and fatigue.
+[00:35.6 - 00:36.6]  And what makes this possible
+[00:36.6 - 00:38.5]  is that unlike other antioxidants,
+[00:38.5 - 00:40.7]  astaxanthin crosses the blood brain barrier,
+[00:40.7 - 00:43.4]  which means it also crosses the blood retinol barrier,
+[00:43.4 - 00:45.4]  getting directly into your eye tissues,
+[00:45.4 - 00:48.0]  including the vitreous gel where eye floaters form.
+[00:48.0 - 00:50.5]  And it encourages blood vessel growth into your retina,
+[00:50.5 - 00:52.4]  delivering oxygen and nutrients
+[00:52.4 - 00:54.8]  and removing toxins and built up waste.
+[00:54.8 - 00:56.8]  And as a potent anti-inflammatory,
+[00:56.8 - 00:58.2]  it fights oxidative stress,
+[00:58.2 - 01:00.4]  which is the primary driver for floaters
+[01:00.4 - 01:02.0]  and age-related eye decline.
+[01:02.0 - 01:03.5]  So astaxanthin can help floaters
+[01:03.5 - 01:05.3]  become less visible and less frequent
+[01:05.3 - 01:07.5]  and stops more from popping up in the future.
+[01:07.5 - 01:09.1]  The astaxanthin by microingredients
+[01:09.1 - 01:10.5]  is not only the one I recommend,
+[01:10.5 - 01:11.9]  I personally take this one.
+[01:11.9 - 01:14.2]  It has been naturally sourced from microalgae.
+[01:14.2 - 01:15.5]  Many astaxanthin supplements
+[01:15.5 - 01:17.0]  have been synthetically derived
+[01:17.0 - 01:18.3]  and they do not absorb well.
+[01:18.3 - 01:19.7]  So you wanna make sure that you're getting one
+[01:19.7 - 01:21.0]  that has been naturally sourced.
+[01:21.0 - 01:21.9]  It's made in USA.
+[01:21.9 - 01:24.8]  It's been third-party tested for heavy metals and impurities.
+[01:24.8 - 01:26.8]  And there are 120 capsules in here.
+[01:26.8 - 01:27.8]  You only need one per day.
+[01:28.3 - 01:29.1]  So this will last you four months.
+[01:29.1 - 01:30.6]  They're also running an amazing sale.
+[01:30.6 - 01:32.5]  So if you want a high quality astaxanthin
+[01:32.5 - 01:33.4]  for a really great price,
+[01:33.4 - 01:36.4]  I will make sure to drop it down below in the orange card.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_20_7581592940930288909_transcription_20260531_213659.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_20_7581592940930288909_transcription_20260531_213659.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_20_7581592940930288909.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_20_7581592940930288909.mp3, file size: 1.76 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.0] So your eye floaters are driving you nuts
+[00:02.0 - 00:04.1] and your doctor said there's nothing you can do about it.
+[00:04.1 - 00:07.0] There is now anecdotal evidence that astaxanthin can help.
+[00:07.0 - 00:08.8] As a certified naturopath, let me tell you
+[00:08.8 - 00:11.0] why astaxanthin is already heavily recommended
+[00:11.0 - 00:13.8] for eye health and how it can benefit floaters specifically.
+[00:13.8 - 00:15.9] Astaxanthin is an organic pigment molecule
+[00:15.9 - 00:19.1] found in microalgae and it is 6,000 times stronger
+[00:19.1 - 00:21.0] than vitamin C as an antioxidant.
+[00:21.0 - 00:23.2] And it's not only known for its anti-aging benefits
+[00:23.2 - 00:24.7] that boost collagen and elastin
+[00:24.7 - 00:26.9] to promote glowing at youthful looking skin,
+[00:26.9 - 00:29.2] but it's been heavily studied for eye health too.
+[00:29.2 - 00:31.7] It's been shown to protect retinol cells from blue light.
+[00:31.7 - 00:33.4] So if you're staring at screens all day,
+[00:33.4 - 00:35.6] it is amazing for eye strain and fatigue.
+[00:35.6 - 00:36.6] And what makes this possible
+[00:36.6 - 00:38.5] is that unlike other antioxidants,
+[00:38.5 - 00:40.7] astaxanthin crosses the blood brain barrier,
+[00:40.7 - 00:43.4] which means it also crosses the blood retinol barrier,
+[00:43.4 - 00:45.4] getting directly into your eye tissues,
+[00:45.4 - 00:48.0] including the vitreous gel where eye floaters form.
+[00:48.0 - 00:50.5] And it encourages blood vessel growth into your retina,
+[00:50.5 - 00:52.4] delivering oxygen and nutrients
+[00:52.4 - 00:54.8] and removing toxins and built up waste.
+[00:54.8 - 00:56.8] And as a potent anti-inflammatory,
+[00:56.8 - 00:58.2] it fights oxidative stress,
+[00:58.2 - 01:00.4] which is the primary driver for floaters
+[01:00.4 - 01:02.0] and age-related eye decline.
+[01:02.0 - 01:03.5] So astaxanthin can help floaters
+[01:03.5 - 01:05.3] become less visible and less frequent
+[01:05.3 - 01:07.5] and stops more from popping up in the future.
+[01:07.5 - 01:09.1] The astaxanthin by microingredients
+[01:09.1 - 01:10.5] is not only the one I recommend,
+[01:10.5 - 01:11.9] I personally take this one.
+[01:11.9 - 01:14.2] It has been naturally sourced from microalgae.
+[01:14.2 - 01:15.5] Many astaxanthin supplements
+[01:15.5 - 01:17.0] have been synthetically derived
+[01:17.0 - 01:18.3] and they do not absorb well.
+[01:18.3 - 01:19.7] So you wanna make sure that you're getting one
+[01:19.7 - 01:21.0] that has been naturally sourced.
+[01:21.0 - 01:21.9] It's made in USA.
+[01:21.9 - 01:24.8] It's been third-party tested for heavy metals and impurities.
+[01:24.8 - 01:26.8] And there are 120 capsules in here.
+[01:26.8 - 01:27.8] You only need one per day.
+[01:28.3 - 01:29.1] So this will last you four months.
+[01:29.1 - 01:30.6] They're also running an amazing sale.
+[01:30.6 - 01:32.5] So if you want a high quality astaxanthin
+[01:32.5 - 01:33.4] for a really great price,
+[01:33.4 - 01:36.4] I will make sure to drop it down below in the orange card.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_20_7581592940930288909_transcription_20260531_213659.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_20_7581592940930288909_transcription_20260531_213659.txt
+
+============================================================
+RANK: 21 | GMV: $6289.87 | VIDEO ID: 7612828038547442957
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7612828038547442957
+WORD COUNT: 887
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_21_7612828038547442957.mp3, file size: 1.54 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 84.4 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.9]  If your chin looks like this and your pooch looks like that, you're not fat.
+[00:02.9 - 00:07.4]  You just have high cortisol, constant sugar cravings, chronic stress, brain fog, poor
+[00:07.4 - 00:11.0]  sleep and thinning hair are all classic signs of high cortisol.
+[00:11.0 - 00:14.5]  As a holistic wellness coach certified in naturopathy, I always look for the root cause
+[00:14.5 - 00:15.5]  of an issue.
+[00:15.5 - 00:18.6]  And one of the most overlooked health issues is stress dysregulation.
+[00:18.6 - 00:22.8]  This is when your body stress response does not turn off and cortisol stays elevated.
+[00:22.8 - 00:27.1]  And one of the most crucial minerals for regulating the body stress response is magnesium.
+[00:27.1 - 00:32.7]  But because modern soil has 90% less magnesium than soil did a hundred years ago, most people
+[00:32.7 - 00:36.6]  are not getting enough magnesium in their diets and chronic stress actually burns through
+[00:36.6 - 00:40.4]  the magnesium you do have, which is why symptoms keep piling and piling up.
+[00:40.4 - 00:43.8]  But before you run to buy any magnesium, here's what you need to know first.
+[00:43.8 - 00:47.8]  There are several different types of magnesium and each one helps to regulate stress differently
+[00:47.8 - 00:50.9]  along with over 300 bodily processes.
+[00:50.9 - 00:55.3]  And this is why I always recommend a multi-complex magnesium supplement that has different forms
+[00:55.3 - 00:57.4]  for different functions, all in one supplement.
+[00:57.4 - 01:01.7]  Now, if you want my recommendation for a high quality magnesium, I love the one by Toplex
+[01:01.7 - 01:05.2]  because this contains eight different forms of magnesium all in one.
+[01:05.2 - 01:06.3]  You only need two per day.
+[01:06.3 - 01:08.0]  So this is a 45 day supply.
+[01:08.0 - 01:10.1]  It's been lab tested, made in the USA.
+[01:10.1 - 01:11.7]  They use vegetarian capsules.
+[01:11.7 - 01:15.2]  They have so many amazing five-star reviews and because of the sale they have going on
+[01:15.2 - 01:17.8]  right now, you can actually get this for a really great price.
+[01:17.8 - 01:20.4]  So if you want to try this one, I will make sure to drop it down below.
+[01:20.4 - 01:22.8]  If you see that orange card, they still have it in stock.
+[01:22.8 - 01:24.3]  So definitely grab it while you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_21_7612828038547442957_transcription_20260531_213709.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_21_7612828038547442957_transcription_20260531_213709.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_21_7612828038547442957.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_21_7612828038547442957.mp3, file size: 1.54 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.9] If your chin looks like this and your pooch looks like that, you're not fat.
+[00:02.9 - 00:07.4] You just have high cortisol, constant sugar cravings, chronic stress, brain fog, poor
+[00:07.4 - 00:11.0] sleep and thinning hair are all classic signs of high cortisol.
+[00:11.0 - 00:14.5] As a holistic wellness coach certified in naturopathy, I always look for the root cause
+[00:14.5 - 00:15.5] of an issue.
+[00:15.5 - 00:18.6] And one of the most overlooked health issues is stress dysregulation.
+[00:18.6 - 00:22.8] This is when your body stress response does not turn off and cortisol stays elevated.
+[00:22.8 - 00:27.1] And one of the most crucial minerals for regulating the body stress response is magnesium.
+[00:27.1 - 00:32.7] But because modern soil has 90% less magnesium than soil did a hundred years ago, most people
+[00:32.7 - 00:36.6] are not getting enough magnesium in their diets and chronic stress actually burns through
+[00:36.6 - 00:40.4] the magnesium you do have, which is why symptoms keep piling and piling up.
+[00:40.4 - 00:43.8] But before you run to buy any magnesium, here's what you need to know first.
+[00:43.8 - 00:47.8] There are several different types of magnesium and each one helps to regulate stress differently
+[00:47.8 - 00:50.9] along with over 300 bodily processes.
+[00:50.9 - 00:55.3] And this is why I always recommend a multi-complex magnesium supplement that has different forms
+[00:55.3 - 00:57.4] for different functions, all in one supplement.
+[00:57.4 - 01:01.7] Now, if you want my recommendation for a high quality magnesium, I love the one by Toplex
+[01:01.7 - 01:05.2] because this contains eight different forms of magnesium all in one.
+[01:05.2 - 01:06.3] You only need two per day.
+[01:06.3 - 01:08.0] So this is a 45 day supply.
+[01:08.0 - 01:10.1] It's been lab tested, made in the USA.
+[01:10.1 - 01:11.7] They use vegetarian capsules.
+[01:11.7 - 01:15.2] They have so many amazing five-star reviews and because of the sale they have going on
+[01:15.2 - 01:17.8] right now, you can actually get this for a really great price.
+[01:17.8 - 01:20.4] So if you want to try this one, I will make sure to drop it down below.
+[01:20.4 - 01:22.8] If you see that orange card, they still have it in stock.
+[01:22.8 - 01:24.3] So definitely grab it while you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_21_7612828038547442957_transcription_20260531_213709.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_21_7612828038547442957_transcription_20260531_213709.txt
+
+============================================================
+RANK: 22 | GMV: $5865.76 | VIDEO ID: 7623036563500305678
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7623036563500305678
+WORD COUNT: 1732
+============================================================
+Starting Speech-to-Text conversion...
+Audio file size (5.0MB) exceeds limit (5MB), downsampling audio file...
+Source audio bitrate: 257 kbps
+Bitrate exceeds 128 kbps, downsampling...
+Downsampled audio saved to: /tmp/tmp0t99ktc6/.video_22_7623036563500305678_chunks_20260531_213715/downsampled_20260531_213715.mp3
+Downsampled audio file size is 2.51 MB.
+Downsampled audio file size is within 5MB target, skipping chunking.
+Transcribing audio file: /tmp/tmp0t99ktc6/.video_22_7623036563500305678_chunks_20260531_213715/downsampled_20260531_213715.mp3, file size: 2.51 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 164.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.9]  Christina swears by Asazanthin and Kim swears by NMN,
+[00:02.9 - 00:04.8]  but which one of these anti-aging supplements
+[00:04.8 - 00:06.0]  is actually worth your money?
+[00:06.0 - 00:08.0]  I'm a holistic wellness coach certified in naturopathy
+[00:08.0 - 00:10.2]  and I've been getting asked about these two quite a bit.
+[00:10.2 - 00:11.6]  So I'm gonna break down their benefits
+[00:11.6 - 00:13.0]  and a few of their key differences.
+[00:13.0 - 00:15.1]  Asazanthin is an organic pigment molecule
+[00:15.1 - 00:16.6]  commonly found in microalgae.
+[00:16.6 - 00:18.5]  And this is the same pigment that give flamingo
+[00:18.5 - 00:20.0]  and salmon their vibrant color.
+[00:20.0 - 00:20.8]  And because of this,
+[00:20.8 - 00:22.9]  it's one of the main ingredients in tanning gummies
+[00:22.9 - 00:25.1]  because over time it builds up in your skin,
+[00:25.1 - 00:27.8]  giving you a warm sun-kissed glow from the inside out.
+[00:27.8 - 00:29.0]  But what most people don't know
+[00:29.0 - 00:30.9]  is that it's one of the most potent antioxidants
+[00:30.9 - 00:31.7]  on the planet.
+[00:31.7 - 00:33.8]  It's 6,000 times stronger than vitamin C.
+[00:33.8 - 00:35.4]  It acts as an internal sunscreen
+[00:35.4 - 00:37.0]  shielding skin from UV damage.
+[00:37.0 - 00:39.2]  It supports the skin by boosting hydration,
+[00:39.2 - 00:41.0]  skin density, and skin elasticity.
+[00:41.0 - 00:42.6]  And this is one of the reasons you can find it
+[00:42.6 - 00:44.6]  in so many anti-aging skincare products
+[00:44.6 - 00:46.4]  because it's great for fine lines and wrinkles.
+[00:46.4 - 00:48.6]  It supports eye health by protecting retinol cells
+[00:48.6 - 00:49.5]  from blue light.
+[00:49.5 - 00:51.4]  It supports joint health, the cardiovascular system,
+[00:51.4 - 00:52.4]  and it supports brain health
+[00:52.4 - 00:54.0]  because it's one of the only antioxidants
+[00:54.0 - 00:55.5]  that crosses the blood-brain barrier.
+[00:55.5 - 00:57.0]  So it's great for memory and focus.
+[00:57.0 - 00:59.6]  Ultimately, what qualifies this as an anti-aging supplement
+[00:59.6 - 01:02.2]  is its potent ability to fight oxidative stress.
+[01:02.2 - 01:04.7]  And oxidative stress is one of the primary drivers
+[01:04.7 - 01:05.6]  of premature aging.
+[01:05.6 - 01:08.4]  Now, NMN is one of the most studied anti-aging compounds
+[01:08.4 - 01:10.9]  because it's the precursor to a vital molecule
+[01:10.9 - 01:12.8]  found in every one of our cells called NAD.
+[01:12.8 - 01:15.6]  And NAD has been nicknamed the fountain of youth molecule
+[01:15.6 - 01:17.4]  because of its role in cellular energy,
+[01:17.4 - 01:20.9]  DNA repair, metabolism, hormone balance, and aging itself.
+[01:20.9 - 01:23.1]  And our NAD levels can drop by 50%
+[01:23.1 - 01:24.7]  by the time we're in our forties and fifties.
+[01:24.7 - 01:27.0]  And that decline can lead to fine lines and wrinkles,
+[01:27.0 - 01:28.5]  thin gray hair, low energy,
+[01:28.5 - 01:30.5]  stiff, achy joints, and mental fogginess.
+[01:30.5 - 01:32.1]  But studies show that taking NMN
+[01:32.1 - 01:34.8]  is one of the best way to boost our NAD levels back up.
+[01:34.8 - 01:37.5]  The NMN molecule is smaller than the NAD molecule,
+[01:37.5 - 01:38.9]  so it absorbs much more easily.
+[01:38.9 - 01:41.3]  So even though the body has to convert it into NAD,
+[01:41.3 - 01:43.0]  that conversion is much more efficient
+[01:43.0 - 01:44.4]  than taking direct NAD.
+[01:44.4 - 01:46.2]  And research indicates that NMN
+[01:46.2 - 01:48.1]  reverses biological age markers,
+[01:48.1 - 01:49.8]  which translates to firmer, tighter,
+[01:49.8 - 01:50.9]  more youthful-looking skin,
+[01:50.9 - 01:53.6]  more energy, better sleep, and improved metabolic function.
+[01:53.6 - 01:55.3]  So if you're starting your anti-aging journey,
+[01:55.3 - 01:56.3]  which one should you take?
+[01:56.4 - 01:57.7]  Well, astaxanthin and NMN
+[01:57.7 - 01:59.5]  are actually considered to work better together
+[01:59.5 - 02:01.1]  because they create a synergistic,
+[02:01.1 - 02:03.5]  dual-action approach to cellular health and aging.
+[02:03.5 - 02:05.6]  NMN as the fuel for energy metabolism,
+[02:05.6 - 02:08.2]  and astaxanthin as the protection for those processes
+[02:08.2 - 02:10.3]  as it's so potent at fighting oxidative stress.
+[02:10.3 - 02:12.5]  Where one falls short, the other is there to cover.
+[02:12.5 - 02:14.4]  Now, I will tell you that quality really does matter
+[02:14.4 - 02:15.5]  with both of these supplements.
+[02:15.5 - 02:16.7]  If you want my recommendation,
+[02:16.7 - 02:19.4]  I love the NMN and the astaxanthin by MicroIngredients.
+[02:19.4 - 02:21.8]  Their astaxanthin is naturally sourced from microalgae,
+[02:21.8 - 02:23.4]  so it's got great bioavailability.
+[02:23.4 - 02:25.7]  And their NMN is one of the only NMNs I've found
+[02:26.1 - 02:27.9]  that does not contain cheap filler ingredients
+[02:27.9 - 02:29.8]  that can affect the absorption of NMN.
+[02:29.8 - 02:31.6]  You get a four-month supply of the astaxanthin
+[02:31.6 - 02:33.2]  and a two-month supply of the NMN,
+[02:33.2 - 02:34.2]  and they come in a bundle,
+[02:34.2 - 02:35.6]  which is currently on sale right now.
+[02:35.6 - 02:38.1]  So if you wanna try this comprehensive anti-aging bundle,
+[02:38.1 - 02:39.8]  I will make sure to drop it down below.
+[02:39.8 - 02:40.9]  And if you see that orange cart,
+[02:40.9 - 02:42.4]  that means they still have it in stock,
+[02:42.4 - 02:44.6]  so I would definitely grab it while you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_22_7623036563500305678_transcription_20260531_213733.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_22_7623036563500305678_transcription_20260531_213733.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_22_7623036563500305678.mp3
+Starting Speech-to-Text conversion...
+Audio file size (5.0MB) exceeds limit (5MB), downsampling audio file...
+Source audio bitrate: 257 kbps
+Bitrate exceeds 128 kbps, downsampling...
+Downsampled audio file size is 2.51 MB.
+Downsampled audio file size is within 5MB target, skipping chunking.
+Transcribing audio file: /tmp/tmp0t99ktc6/.video_22_7623036563500305678_chunks_20260531_213715/downsampled_20260531_213715.mp3, file size: 2.51 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:41.0 - 00:42.6] And this is one of the reasons you can find it
+[00:42.6 - 00:44.6] in so many anti-aging skincare products
+[00:44.6 - 00:46.4] because it's great for fine lines and wrinkles.
+[00:46.4 - 00:48.6] It supports eye health by protecting retinol cells
+[00:48.6 - 00:49.5] from blue light.
+[00:49.5 - 00:51.4] It supports joint health, the cardiovascular system,
+[00:51.4 - 00:52.4] and it supports brain health
+[00:52.4 - 00:54.0] because it's one of the only antioxidants
+[00:54.0 - 00:55.5] that crosses the blood-brain barrier.
+[00:55.5 - 00:57.0] So it's great for memory and focus.
+[00:57.0 - 00:59.6] Ultimately, what qualifies this as an anti-aging supplement
+[00:59.6 - 01:02.2] is its potent ability to fight oxidative stress.
+[01:02.2 - 01:04.7] And oxidative stress is one of the primary drivers
+[01:04.7 - 01:05.6] of premature aging.
+[01:05.6 - 01:08.4] Now, NMN is one of the most studied anti-aging compounds
+[01:08.4 - 01:10.9] because it's the precursor to a vital molecule
+[01:10.9 - 01:12.8] found in every one of our cells called NAD.
+[01:12.8 - 01:15.6] And NAD has been nicknamed the fountain of youth molecule
+[01:15.6 - 01:17.4] because of its role in cellular energy,
+[01:17.4 - 01:20.9] DNA repair, metabolism, hormone balance, and aging itself.
+[01:20.9 - 01:23.1] And our NAD levels can drop by 50%
+[01:23.1 - 01:24.7] by the time we're in our forties and fifties.
+[01:24.7 - 01:27.0] And that decline can lead to fine lines and wrinkles,
+[01:27.0 - 01:28.5] thin gray hair, low energy,
+[01:28.5 - 01:30.5] stiff, achy joints, and mental fogginess.
+[01:30.5 - 01:32.1] But studies show that taking NMN
+[01:32.1 - 01:34.8] is one of the best way to boost our NAD levels back up.
+[01:34.8 - 01:37.5] The NMN molecule is smaller than the NAD molecule,
+[01:37.5 - 01:38.9] so it absorbs much more easily.
+[01:38.9 - 01:41.3] So even though the body has to convert it into NAD,
+[01:41.3 - 01:43.0] that conversion is much more efficient
+[01:43.0 - 01:44.4] than taking direct NAD.
+[01:44.4 - 01:46.2] And research indicates that NMN
+[01:46.2 - 01:48.1] reverses biological age markers,
+[01:48.1 - 01:49.8] which translates to firmer, tighter,
+[01:49.8 - 01:50.9] more youthful-looking skin,
+[01:50.9 - 01:53.6] more energy, better sleep, and improved metabolic function.
+[01:53.6 - 01:55.3] So if you're starting your anti-aging journey,
+[01:55.3 - 01:56.3] which one should you take?
+[01:56.4 - 01:57.7] Well, astaxanthin and NMN
+[01:57.7 - 01:59.5] are actually considered to work better together
+[01:59.5 - 02:01.1] because they create a synergistic,
+[02:01.1 - 02:03.5] dual-action approach to cellular health and aging.
+[02:03.5 - 02:05.6] NMN as the fuel for energy metabolism,
+[02:05.6 - 02:08.2] and astaxanthin as the protection for those processes
+[02:08.2 - 02:10.3] as it's so potent at fighting oxidative stress.
+[02:10.3 - 02:12.5] Where one falls short, the other is there to cover.
+[02:12.5 - 02:14.4] Now, I will tell you that quality really does matter
+[02:14.4 - 02:15.5] with both of these supplements.
+[02:15.5 - 02:16.7] If you want my recommendation,
+[02:16.7 - 02:19.4] I love the NMN and the astaxanthin by MicroIngredients.
+[02:19.4 - 02:21.8] Their astaxanthin is naturally sourced from microalgae,
+[02:21.8 - 02:23.4] so it's got great bioavailability.
+[02:23.4 - 02:25.7] And their NMN is one of the only NMNs I've found
+[02:26.1 - 02:27.9] that does not contain cheap filler ingredients
+[02:27.9 - 02:29.8] that can affect the absorption of NMN.
+[02:29.8 - 02:31.6] You get a four-month supply of the astaxanthin
+[02:31.6 - 02:33.2] and a two-month supply of the NMN,
+[02:33.2 - 02:34.2] and they come in a bundle,
+[02:34.2 - 02:35.6] which is currently on sale right now.
+[02:35.6 - 02:38.1] So if you wanna try this comprehensive anti-aging bundle,
+[02:38.1 - 02:39.8] I will make sure to drop it down below.
+[02:39.8 - 02:40.9] And if you see that orange cart,
+[02:40.9 - 02:42.4] that means they still have it in stock,
+[02:42.4 - 02:44.6] so I would definitely grab it while you can.
+Timestamped segments truncated to fit terminal limit (5000 chars).
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_22_7623036563500305678_transcription_20260531_213733.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_22_7623036563500305678_transcription_20260531_213733.txt
+
+============================================================
+RANK: 23 | GMV: $5834.88 | VIDEO ID: 7621266150793547022
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7621266150793547022
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 24 | GMV: $5372.91 | VIDEO ID: 7595382737226190135
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7595382737226190135
+STATUS: FAILED — Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+============================================================
+
+============================================================
+RANK: 25 | GMV: $5360.73 | VIDEO ID: 7552408816474688782
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7552408816474688782
+WORD COUNT: 841
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_25_7552408816474688782.mp3, file size: 1.29 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 69.6 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.6]  If your husband is a boomer who looks like this
+[00:02.6 - 00:05.7]  or pees around the toilet more than he pees in it
+[00:05.7 - 00:07.9]  and has zero energy in the bedroom,
+[00:07.9 - 00:10.2]  those are signs that he's not fat or lazy.
+[00:10.2 - 00:13.1]  He is seriously inflamed and his gut, prostate,
+[00:13.1 - 00:14.9]  and hormones are screaming for help
+[00:14.9 - 00:17.0]  because that inflammation, prostate swelling,
+[00:17.0 - 00:19.8]  and poor blood flow are not only giving him the spare tire
+[00:19.8 - 00:21.0]  and tanking his libido,
+[00:21.0 - 00:23.1]  but it's making him feel like he always has to pee,
+[00:23.1 - 00:25.4]  like his bladder is never fully empty
+[00:25.4 - 00:28.5]  and that he has no energy regardless of how much he sleeps.
+[00:28.5 - 00:29.4]  And here's the thing.
+[00:29.4 - 00:31.1]  Most men will suffer in silence
+[00:31.1 - 00:33.2]  until we push them to actually get help.
+[00:33.2 - 00:35.7]  I put my man on this men's health supplement bundle
+[00:35.7 - 00:38.0]  that honestly every man over 40 should be taking.
+[00:38.0 - 00:40.3]  The prostate health supplement has all natural ingredients
+[00:40.3 - 00:42.0]  like mushrooms, herbs, and vitamins,
+[00:42.0 - 00:44.6]  and this is gonna help with inflammation, proper flow,
+[00:44.6 - 00:46.2]  and overall hormonal balancing.
+[00:46.2 - 00:48.3]  And the nitric oxide is gonna help with energy,
+[00:48.3 - 00:50.1]  blood flow, and stamina.
+[00:50.1 - 00:51.1]  Since I got him on these,
+[00:51.1 - 00:53.5]  he looks and feels better than he did five years ago,
+[00:53.5 - 00:55.8]  and it feels like we are back in the honeymoon phase.
+[00:55.8 - 00:57.4]  Now, these bundles always sell out,
+[00:57.4 - 00:58.9]  so every time I buy them, I stock up
+[00:59.5 - 01:00.9]  because I don't want my man to be without.
+[01:00.9 - 01:02.7]  So if your man is over 40
+[01:02.7 - 01:03.9]  and you wanna grab some of these,
+[01:03.9 - 01:05.3]  I will drop them below.
+[01:05.3 - 01:06.5]  And if you see that orange cart,
+[01:06.5 - 01:08.1]  that means that they still have some in stock,
+[01:08.1 - 01:09.5]  so grab them if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_25_7552408816474688782_transcription_20260531_213746.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_25_7552408816474688782_transcription_20260531_213746.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_25_7552408816474688782.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_25_7552408816474688782.mp3, file size: 1.29 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.6] If your husband is a boomer who looks like this
+[00:02.6 - 00:05.7] or pees around the toilet more than he pees in it
+[00:05.7 - 00:07.9] and has zero energy in the bedroom,
+[00:07.9 - 00:10.2] those are signs that he's not fat or lazy.
+[00:10.2 - 00:13.1] He is seriously inflamed and his gut, prostate,
+[00:13.1 - 00:14.9] and hormones are screaming for help
+[00:14.9 - 00:17.0] because that inflammation, prostate swelling,
+[00:17.0 - 00:19.8] and poor blood flow are not only giving him the spare tire
+[00:19.8 - 00:21.0] and tanking his libido,
+[00:21.0 - 00:23.1] but it's making him feel like he always has to pee,
+[00:23.1 - 00:25.4] like his bladder is never fully empty
+[00:25.4 - 00:28.5] and that he has no energy regardless of how much he sleeps.
+[00:28.5 - 00:29.4] And here's the thing.
+[00:29.4 - 00:31.1] Most men will suffer in silence
+[00:31.1 - 00:33.2] until we push them to actually get help.
+[00:33.2 - 00:35.7] I put my man on this men's health supplement bundle
+[00:35.7 - 00:38.0] that honestly every man over 40 should be taking.
+[00:38.0 - 00:40.3] The prostate health supplement has all natural ingredients
+[00:40.3 - 00:42.0] like mushrooms, herbs, and vitamins,
+[00:42.0 - 00:44.6] and this is gonna help with inflammation, proper flow,
+[00:44.6 - 00:46.2] and overall hormonal balancing.
+[00:46.2 - 00:48.3] And the nitric oxide is gonna help with energy,
+[00:48.3 - 00:50.1] blood flow, and stamina.
+[00:50.1 - 00:51.1] Since I got him on these,
+[00:51.1 - 00:53.5] he looks and feels better than he did five years ago,
+[00:53.5 - 00:55.8] and it feels like we are back in the honeymoon phase.
+[00:55.8 - 00:57.4] Now, these bundles always sell out,
+[00:57.4 - 00:58.9] so every time I buy them, I stock up
+[00:59.5 - 01:00.9] because I don't want my man to be without.
+[01:00.9 - 01:02.7] So if your man is over 40
+[01:02.7 - 01:03.9] and you wanna grab some of these,
+[01:03.9 - 01:05.3] I will drop them below.
+[01:05.3 - 01:06.5] And if you see that orange cart,
+[01:06.5 - 01:08.1] that means that they still have some in stock,
+[01:08.1 - 01:09.5] so grab them if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_25_7552408816474688782_transcription_20260531_213746.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_25_7552408816474688782_transcription_20260531_213746.txt
+
+============================================================
+RANK: 26 | GMV: $5087.87 | VIDEO ID: 7620820521726299406
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7620820521726299406
+WORD COUNT: 893
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_26_7620820521726299406.mp3, file size: 2.61 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 85.7 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.0]  You shouldn't get pregnant if you're over 38.
+[00:02.0 - 00:03.0]  Have you heard that before?
+[00:03.0 - 00:07.2]  I started hearing that at 35, and as I approach 40 and I'm still actively planning to have
+[00:07.2 - 00:10.4]  a family, the idea that I was too old has stayed with me.
+[00:10.4 - 00:14.2]  Not because it's true, but because it highlights something real, that fertility does decline
+[00:14.2 - 00:15.2]  with age.
+[00:15.2 - 00:19.2]  However, there are evidence-based steps that you can take to support fertility and preserve
+[00:19.2 - 00:20.2]  egg quality.
+[00:20.2 - 00:24.3]  And research shows that egg quality can be influenced by targeted nutritional support,
+[00:24.3 - 00:28.6]  specifically antioxidants that protect against oxidative stress, which is a primary driver
+[00:28.6 - 00:30.7]  to age-related fertility decline.
+[00:30.7 - 00:35.2]  And mitochondrial function in eggs is critical for energy production and chromosomal integrity.
+[00:35.2 - 00:38.4]  As a holistic wellness coach certified in naturopathy, I always recommend getting this
+[00:38.4 - 00:41.3]  kind of antioxidant support directly from your diet.
+[00:41.3 - 00:44.4]  But if you're like me and you need something a little bit more convenient, I love the egg
+[00:44.4 - 00:45.9]  quality support by Needed.
+[00:45.9 - 00:50.3]  It contains acetyl L-carnitine and alpha-lipoic acid, and these have been shown to work synergistically
+[00:50.3 - 00:52.7]  at supporting mitochondrial energy production.
+[00:52.7 - 00:57.1]  It contains something called EGCG, which is a potent plant polyphenol from green tea,
+[00:57.1 - 01:00.3]  which has been shown to protect follicular cells from oxidative damage.
+[01:00.3 - 01:04.3]  And PQQ, which is another potent antioxidant commonly found in kiwi and parsley, which
+[01:04.3 - 01:06.5]  actually stimulates new mitochondrial growth.
+[01:06.5 - 01:10.6]  And this is critical because egg cells contain more mitochondria than any other cell.
+[01:10.6 - 01:13.1]  This has actually been formulated by reproductive specialists.
+[01:13.1 - 01:16.7]  It's been third-party tested, and it's actually designed for all prenatal stages, not just
+[01:16.7 - 01:17.7]  before getting pregnant.
+[01:17.7 - 01:19.9]  So if this is something you would like to try, I highly recommend it.
+[01:19.9 - 01:21.5]  I will make sure to drop it down below.
+[01:21.5 - 01:24.6]  And if you see that orange card, it means that they still have it in stock, so I would
+[01:24.6 - 01:25.7]  definitely grab it if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_26_7620820521726299406_transcription_20260531_213757.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_26_7620820521726299406_transcription_20260531_213757.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_26_7620820521726299406.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_26_7620820521726299406.mp3, file size: 2.61 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.0] You shouldn't get pregnant if you're over 38.
+[00:02.0 - 00:03.0] Have you heard that before?
+[00:03.0 - 00:07.2] I started hearing that at 35, and as I approach 40 and I'm still actively planning to have
+[00:07.2 - 00:10.4] a family, the idea that I was too old has stayed with me.
+[00:10.4 - 00:14.2] Not because it's true, but because it highlights something real, that fertility does decline
+[00:14.2 - 00:15.2] with age.
+[00:15.2 - 00:19.2] However, there are evidence-based steps that you can take to support fertility and preserve
+[00:19.2 - 00:20.2] egg quality.
+[00:20.2 - 00:24.3] And research shows that egg quality can be influenced by targeted nutritional support,
+[00:24.3 - 00:28.6] specifically antioxidants that protect against oxidative stress, which is a primary driver
+[00:28.6 - 00:30.7] to age-related fertility decline.
+[00:30.7 - 00:35.2] And mitochondrial function in eggs is critical for energy production and chromosomal integrity.
+[00:35.2 - 00:38.4] As a holistic wellness coach certified in naturopathy, I always recommend getting this
+[00:38.4 - 00:41.3] kind of antioxidant support directly from your diet.
+[00:41.3 - 00:44.4] But if you're like me and you need something a little bit more convenient, I love the egg
+[00:44.4 - 00:45.9] quality support by Needed.
+[00:45.9 - 00:50.3] It contains acetyl L-carnitine and alpha-lipoic acid, and these have been shown to work synergistically
+[00:50.3 - 00:52.7] at supporting mitochondrial energy production.
+[00:52.7 - 00:57.1] It contains something called EGCG, which is a potent plant polyphenol from green tea,
+[00:57.1 - 01:00.3] which has been shown to protect follicular cells from oxidative damage.
+[01:00.3 - 01:04.3] And PQQ, which is another potent antioxidant commonly found in kiwi and parsley, which
+[01:04.3 - 01:06.5] actually stimulates new mitochondrial growth.
+[01:06.5 - 01:10.6] And this is critical because egg cells contain more mitochondria than any other cell.
+[01:10.6 - 01:13.1] This has actually been formulated by reproductive specialists.
+[01:13.1 - 01:16.7] It's been third-party tested, and it's actually designed for all prenatal stages, not just
+[01:16.7 - 01:17.7] before getting pregnant.
+[01:17.7 - 01:19.9] So if this is something you would like to try, I highly recommend it.
+[01:19.9 - 01:21.5] I will make sure to drop it down below.
+[01:21.5 - 01:24.6] And if you see that orange card, it means that they still have it in stock, so I would
+[01:24.6 - 01:25.7] definitely grab it if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_26_7620820521726299406_transcription_20260531_213757.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_26_7620820521726299406_transcription_20260531_213757.txt
+
+============================================================
+RANK: 27 | GMV: $4940.7 | VIDEO ID: 7565270030250822925
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7565270030250822925
+WORD COUNT: 899
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_27_7565270030250822925.mp3, file size: 1.54 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 80.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.4]  So they told you to start taking nature's happy pill,
+[00:02.4 - 00:03.8]  but you've been on it for a while
+[00:03.8 - 00:05.7]  and you haven't noticed a damn thing.
+[00:05.7 - 00:07.7]  I'm a certified naturopath and wellness coach,
+[00:07.7 - 00:10.4]  so let's get into why saffron didn't work for you.
+[00:10.4 - 00:11.2]  Now, first of all,
+[00:11.2 - 00:13.7]  there are over 26 clinical trials
+[00:13.7 - 00:16.5]  documenting saffron's benefits for mood, stress,
+[00:16.5 - 00:18.2]  sleep, and emotional stability.
+[00:18.2 - 00:20.0]  And it works by supporting neurotransmitters
+[00:20.0 - 00:22.4]  like dopamine, serotonin, and norepinephrine,
+[00:22.4 - 00:24.9]  which means it can help with mood swings, irritability.
+[00:24.9 - 00:26.7]  If you're somebody that feels like you're constantly
+[00:26.7 - 00:29.6]  on an emotional rollercoaster, saffron may be for you.
+[00:29.6 - 00:31.6]  It also helps with better sleep quality,
+[00:31.6 - 00:33.8]  which in turn can help boost energy during the day.
+[00:33.8 - 00:35.3]  And there are even some studies showing
+[00:35.3 - 00:37.0]  that it can help with menopausal symptoms
+[00:37.0 - 00:38.7]  like hot flashes and dryness.
+[00:38.7 - 00:39.8]  But here's the problem.
+[00:39.8 - 00:41.8]  If your supplement does not contain
+[00:41.8 - 00:44.0]  a clinically effective dose of saffronol,
+[00:44.0 - 00:46.7]  which is the active compound found in saffron,
+[00:46.7 - 00:48.6]  you're not gonna feel anything at all.
+[00:48.6 - 00:51.4]  And most brands do not contain saffron
+[00:51.4 - 00:52.4]  with enough saffronol.
+[00:52.4 - 00:53.8]  And this is why I recommend
+[00:53.8 - 00:56.0]  the Saffron Advanced by Micro Ingredients.
+[00:56.0 - 00:57.8]  It has the clinical dose of saffronol.
+[00:57.8 - 01:00.4]  It also has rhodiola for mental clarity and energy
+[01:00.4 - 01:03.3]  and KSM-66 ashwagandha that also helps
+[01:03.3 - 01:04.9]  with hormonal balancing and stress.
+[01:04.9 - 01:06.0]  It's got clean ingredients.
+[01:06.0 - 01:08.3]  It's been third-party tested and it actually works,
+[01:08.3 - 01:10.8]  which is why this one is now going viral on TikTok.
+[01:10.8 - 01:12.4]  So if you were disappointed by saffron
+[01:12.4 - 01:14.6]  and you haven't tried the one by Micro Ingredients,
+[01:14.6 - 01:16.2]  I'm gonna make sure to drop it below.
+[01:16.2 - 01:17.3]  If you see that orange card,
+[01:17.3 - 01:19.0]  that means they still have this in stock.
+[01:19.0 - 01:20.3]  So grab one if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_27_7565270030250822925_transcription_20260531_213807.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_27_7565270030250822925_transcription_20260531_213807.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_27_7565270030250822925.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_27_7565270030250822925.mp3, file size: 1.54 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.4] So they told you to start taking nature's happy pill,
+[00:02.4 - 00:03.8] but you've been on it for a while
+[00:03.8 - 00:05.7] and you haven't noticed a damn thing.
+[00:05.7 - 00:07.7] I'm a certified naturopath and wellness coach,
+[00:07.7 - 00:10.4] so let's get into why saffron didn't work for you.
+[00:10.4 - 00:11.2] Now, first of all,
+[00:11.2 - 00:13.7] there are over 26 clinical trials
+[00:13.7 - 00:16.5] documenting saffron's benefits for mood, stress,
+[00:16.5 - 00:18.2] sleep, and emotional stability.
+[00:18.2 - 00:20.0] And it works by supporting neurotransmitters
+[00:20.0 - 00:22.4] like dopamine, serotonin, and norepinephrine,
+[00:22.4 - 00:24.9] which means it can help with mood swings, irritability.
+[00:24.9 - 00:26.7] If you're somebody that feels like you're constantly
+[00:26.7 - 00:29.6] on an emotional rollercoaster, saffron may be for you.
+[00:29.6 - 00:31.6] It also helps with better sleep quality,
+[00:31.6 - 00:33.8] which in turn can help boost energy during the day.
+[00:33.8 - 00:35.3] And there are even some studies showing
+[00:35.3 - 00:37.0] that it can help with menopausal symptoms
+[00:37.0 - 00:38.7] like hot flashes and dryness.
+[00:38.7 - 00:39.8] But here's the problem.
+[00:39.8 - 00:41.8] If your supplement does not contain
+[00:41.8 - 00:44.0] a clinically effective dose of saffronol,
+[00:44.0 - 00:46.7] which is the active compound found in saffron,
+[00:46.7 - 00:48.6] you're not gonna feel anything at all.
+[00:48.6 - 00:51.4] And most brands do not contain saffron
+[00:51.4 - 00:52.4] with enough saffronol.
+[00:52.4 - 00:53.8] And this is why I recommend
+[00:53.8 - 00:56.0] the Saffron Advanced by Micro Ingredients.
+[00:56.0 - 00:57.8] It has the clinical dose of saffronol.
+[00:57.8 - 01:00.4] It also has rhodiola for mental clarity and energy
+[01:00.4 - 01:03.3] and KSM-66 ashwagandha that also helps
+[01:03.3 - 01:04.9] with hormonal balancing and stress.
+[01:04.9 - 01:06.0] It's got clean ingredients.
+[01:06.0 - 01:08.3] It's been third-party tested and it actually works,
+[01:08.3 - 01:10.8] which is why this one is now going viral on TikTok.
+[01:10.8 - 01:12.4] So if you were disappointed by saffron
+[01:12.4 - 01:14.6] and you haven't tried the one by Micro Ingredients,
+[01:14.6 - 01:16.2] I'm gonna make sure to drop it below.
+[01:16.2 - 01:17.3] If you see that orange card,
+[01:17.3 - 01:19.0] that means they still have this in stock.
+[01:19.0 - 01:20.3] So grab one if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_27_7565270030250822925_transcription_20260531_213807.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_27_7565270030250822925_transcription_20260531_213807.txt
+
+============================================================
+RANK: 28 | GMV: $4770.92 | VIDEO ID: 7574646741656423694
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7574646741656423694
+WORD COUNT: 1009
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_28_7574646741656423694.mp3, file size: 1.46 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 80.8 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:03.2]  I got it for blurry vision, but it's helped my skin so much.
+[00:03.2 - 00:04.4]  As a certified naturopath,
+[00:04.4 - 00:06.1]  I see so many comments just like this
+[00:06.1 - 00:07.5]  when talking about astaxanthin,
+[00:07.5 - 00:09.4]  so let me explain exactly what's happening.
+[00:09.4 - 00:11.6]  Astaxanthin is one of the most potent antioxidants
+[00:11.6 - 00:14.5]  on the planet and is actually 6,000 times stronger
+[00:14.5 - 00:15.4]  than vitamin C.
+[00:15.4 - 00:16.7]  And unlike other antioxidants,
+[00:16.7 - 00:18.1]  it crosses the blood-brain barrier,
+[00:18.1 - 00:20.0]  not only supporting memory and focus,
+[00:20.0 - 00:21.1]  but eye health as well.
+[00:21.1 - 00:22.6]  It protects the retinal cells from blue
+[00:22.6 - 00:24.5]  and artificial light, which can not only lead
+[00:24.5 - 00:26.0]  to eye strain and eye fatigue,
+[00:26.0 - 00:28.5]  but can negatively impact vision later on in life.
+[00:28.5 - 00:29.5]  Many people also take it
+[00:29.5 - 00:31.3]  because it's a potent anti-inflammatory,
+[00:31.3 - 00:33.6]  making it great for stiff and achy joints,
+[00:33.6 - 00:35.3]  but they're often pleasantly surprised
+[00:35.3 - 00:36.6]  by what it does for their skin.
+[00:36.6 - 00:38.2]  It acts as an internal sunscreen,
+[00:38.2 - 00:40.1]  shielding your skin from UV damage.
+[00:40.1 - 00:41.4]  And it supports your skin's elasticity
+[00:41.4 - 00:42.3]  and collagen production,
+[00:42.3 - 00:43.9]  which is great for fine lines and wrinkles.
+[00:43.9 - 00:46.4]  But because astaxanthin is a deep red carotenoid,
+[00:46.4 - 00:48.0]  the same pigment that gives salmon
+[00:48.0 - 00:49.1]  and flamingo their color,
+[00:49.1 - 00:51.6]  over time it builds up in the lipid layer of your skin,
+[00:51.6 - 00:53.7]  giving it a very warm and sun-kissed glow.
+[00:53.7 - 00:55.8]  This is the astaxanthin supplement I recommend.
+[00:55.8 - 00:57.2]  While many astaxanthin supplements
+[00:57.2 - 00:59.6]  are synthetically derived and do not absorb well,
+[00:59.6 - 01:01.8]  this one has been naturally sourced from microalgae.
+[01:01.8 - 01:02.7]  It's made in the USA.
+[01:02.7 - 01:06.0]  It has been lab tested and you get 120 soft gels
+[01:06.0 - 01:07.1]  and you only need one per day.
+[01:07.1 - 01:08.8]  So this is going to last about four months.
+[01:08.8 - 01:10.8]  So if you've been hearing about all the amazing benefits
+[01:10.8 - 01:13.0]  and you want to try a high quality astaxanthin,
+[01:13.0 - 01:15.1]  I'm going to make sure to link this one down below.
+[01:15.1 - 01:16.8]  Now they are running a sale right now.
+[01:16.8 - 01:18.0]  So if you see that orange cart,
+[01:18.0 - 01:19.7]  that means that they still have some in stock.
+[01:19.7 - 01:20.8]  So grab one if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_28_7574646741656423694_transcription_20260531_213817.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_28_7574646741656423694_transcription_20260531_213817.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_28_7574646741656423694.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_28_7574646741656423694.mp3, file size: 1.46 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:03.2] I got it for blurry vision, but it's helped my skin so much.
+[00:03.2 - 00:04.4] As a certified naturopath,
+[00:04.4 - 00:06.1] I see so many comments just like this
+[00:06.1 - 00:07.5] when talking about astaxanthin,
+[00:07.5 - 00:09.4] so let me explain exactly what's happening.
+[00:09.4 - 00:11.6] Astaxanthin is one of the most potent antioxidants
+[00:11.6 - 00:14.5] on the planet and is actually 6,000 times stronger
+[00:14.5 - 00:15.4] than vitamin C.
+[00:15.4 - 00:16.7] And unlike other antioxidants,
+[00:16.7 - 00:18.1] it crosses the blood-brain barrier,
+[00:18.1 - 00:20.0] not only supporting memory and focus,
+[00:20.0 - 00:21.1] but eye health as well.
+[00:21.1 - 00:22.6] It protects the retinal cells from blue
+[00:22.6 - 00:24.5] and artificial light, which can not only lead
+[00:24.5 - 00:26.0] to eye strain and eye fatigue,
+[00:26.0 - 00:28.5] but can negatively impact vision later on in life.
+[00:28.5 - 00:29.5] Many people also take it
+[00:29.5 - 00:31.3] because it's a potent anti-inflammatory,
+[00:31.3 - 00:33.6] making it great for stiff and achy joints,
+[00:33.6 - 00:35.3] but they're often pleasantly surprised
+[00:35.3 - 00:36.6] by what it does for their skin.
+[00:36.6 - 00:38.2] It acts as an internal sunscreen,
+[00:38.2 - 00:40.1] shielding your skin from UV damage.
+[00:40.1 - 00:41.4] And it supports your skin's elasticity
+[00:41.4 - 00:42.3] and collagen production,
+[00:42.3 - 00:43.9] which is great for fine lines and wrinkles.
+[00:43.9 - 00:46.4] But because astaxanthin is a deep red carotenoid,
+[00:46.4 - 00:48.0] the same pigment that gives salmon
+[00:48.0 - 00:49.1] and flamingo their color,
+[00:49.1 - 00:51.6] over time it builds up in the lipid layer of your skin,
+[00:51.6 - 00:53.7] giving it a very warm and sun-kissed glow.
+[00:53.7 - 00:55.8] This is the astaxanthin supplement I recommend.
+[00:55.8 - 00:57.2] While many astaxanthin supplements
+[00:57.2 - 00:59.6] are synthetically derived and do not absorb well,
+[00:59.6 - 01:01.8] this one has been naturally sourced from microalgae.
+[01:01.8 - 01:02.7] It's made in the USA.
+[01:02.7 - 01:06.0] It has been lab tested and you get 120 soft gels
+[01:06.0 - 01:07.1] and you only need one per day.
+[01:07.1 - 01:08.8] So this is going to last about four months.
+[01:08.8 - 01:10.8] So if you've been hearing about all the amazing benefits
+[01:10.8 - 01:13.0] and you want to try a high quality astaxanthin,
+[01:13.0 - 01:15.1] I'm going to make sure to link this one down below.
+[01:15.1 - 01:16.8] Now they are running a sale right now.
+[01:16.8 - 01:18.0] So if you see that orange cart,
+[01:18.0 - 01:19.7] that means that they still have some in stock.
+[01:19.7 - 01:20.8] So grab one if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_28_7574646741656423694_transcription_20260531_213817.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_28_7574646741656423694_transcription_20260531_213817.txt
+
+============================================================
+RANK: 29 | GMV: $4593.71 | VIDEO ID: 7618973264538291469
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7618973264538291469
+WORD COUNT: 847
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_29_7618973264538291469.mp3, file size: 1.34 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 72.5 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:01.6]  You actually need the pink bottle
+[00:01.6 - 00:03.2]  if you're already using the brown one.
+[00:03.2 - 00:05.3]  I'm a holistic wellness coach certified in naturopathy
+[00:05.3 - 00:06.7]  and I keep getting this question about
+[00:06.7 - 00:09.0]  Catechor's NMN and CAAKG.
+[00:09.0 - 00:11.5]  Now everyone raves about what this NMN does for their skin
+[00:11.5 - 00:13.6]  and because NMN boosts cellular energy,
+[00:13.6 - 00:16.0]  it does have an indirect way of supporting the skin.
+[00:16.0 - 00:16.9]  But here's the truth.
+[00:16.9 - 00:18.7]  If you're not just looking for the boost in energy,
+[00:18.7 - 00:20.9]  the sharp mental clarity, the supported joints,
+[00:20.9 - 00:23.0]  and you really want the anti-aging skincare,
+[00:23.0 - 00:25.0]  this pink bottle was designed for that.
+[00:25.0 - 00:26.7]  So while NMN is the cellular fuel,
+[00:26.7 - 00:29.6]  which is great for energy, DNA repair, and overall vitality,
+[00:29.6 - 00:31.4]  it's support for the skin is indirect.
+[00:31.4 - 00:34.6]  But the CAAKG has vitamin C for collagen synthesis,
+[00:34.6 - 00:37.0]  hyaluronic acid for skin hydration and plumpness,
+[00:37.0 - 00:38.9]  MSN for joint and skin flexibility,
+[00:38.9 - 00:41.1]  and zinc and biotin for hair, skin, and nails.
+[00:41.1 - 00:44.8]  And CAAKG is what converts pro-collagen into collagen.
+[00:44.8 - 00:48.7]  Studies show 27% less skin sagging within 28 days.
+[00:48.7 - 00:50.7]  So brown bottle for energy, mental clarity,
+[00:50.7 - 00:53.0]  pink bottle for skin, hair, nails, and bones.
+[00:53.0 - 00:54.4]  So if your skin is a priority,
+[00:54.4 - 00:55.9]  highly recommend taking both.
+[00:55.9 - 00:57.3]  Now you can buy these separately,
+[00:57.3 - 00:58.6]  but it's actually more cost effective
+[00:58.6 - 00:59.8]  to get them in the bundle.
+[00:59.8 - 01:01.5]  And with the current sale they have going on right now,
+[01:01.5 - 01:03.5]  you can actually get this for a really amazing price.
+[01:03.5 - 01:06.6]  So if you want to try CAAKG and NMN together,
+[01:06.6 - 01:08.0]  I will drop these down below.
+[01:08.0 - 01:09.1]  If you see that orange card,
+[01:09.1 - 01:10.7]  that means that they still have them in stock.
+[01:10.7 - 01:12.8]  So I would definitely snag them if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_29_7618973264538291469_transcription_20260531_213827.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_29_7618973264538291469_transcription_20260531_213827.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_29_7618973264538291469.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_29_7618973264538291469.mp3, file size: 1.34 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:01.6] You actually need the pink bottle
+[00:01.6 - 00:03.2] if you're already using the brown one.
+[00:03.2 - 00:05.3] I'm a holistic wellness coach certified in naturopathy
+[00:05.3 - 00:06.7] and I keep getting this question about
+[00:06.7 - 00:09.0] Catechor's NMN and CAAKG.
+[00:09.0 - 00:11.5] Now everyone raves about what this NMN does for their skin
+[00:11.5 - 00:13.6] and because NMN boosts cellular energy,
+[00:13.6 - 00:16.0] it does have an indirect way of supporting the skin.
+[00:16.0 - 00:16.9] But here's the truth.
+[00:16.9 - 00:18.7] If you're not just looking for the boost in energy,
+[00:18.7 - 00:20.9] the sharp mental clarity, the supported joints,
+[00:20.9 - 00:23.0] and you really want the anti-aging skincare,
+[00:23.0 - 00:25.0] this pink bottle was designed for that.
+[00:25.0 - 00:26.7] So while NMN is the cellular fuel,
+[00:26.7 - 00:29.6] which is great for energy, DNA repair, and overall vitality,
+[00:29.6 - 00:31.4] it's support for the skin is indirect.
+[00:31.4 - 00:34.6] But the CAAKG has vitamin C for collagen synthesis,
+[00:34.6 - 00:37.0] hyaluronic acid for skin hydration and plumpness,
+[00:37.0 - 00:38.9] MSN for joint and skin flexibility,
+[00:38.9 - 00:41.1] and zinc and biotin for hair, skin, and nails.
+[00:41.1 - 00:44.8] And CAAKG is what converts pro-collagen into collagen.
+[00:44.8 - 00:48.7] Studies show 27% less skin sagging within 28 days.
+[00:48.7 - 00:50.7] So brown bottle for energy, mental clarity,
+[00:50.7 - 00:53.0] pink bottle for skin, hair, nails, and bones.
+[00:53.0 - 00:54.4] So if your skin is a priority,
+[00:54.4 - 00:55.9] highly recommend taking both.
+[00:55.9 - 00:57.3] Now you can buy these separately,
+[00:57.3 - 00:58.6] but it's actually more cost effective
+[00:58.6 - 00:59.8] to get them in the bundle.
+[00:59.8 - 01:01.5] And with the current sale they have going on right now,
+[01:01.5 - 01:03.5] you can actually get this for a really amazing price.
+[01:03.5 - 01:06.6] So if you want to try CAAKG and NMN together,
+[01:06.6 - 01:08.0] I will drop these down below.
+[01:08.0 - 01:09.1] If you see that orange card,
+[01:09.1 - 01:10.7] that means that they still have them in stock.
+[01:10.7 - 01:12.8] So I would definitely snag them if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_29_7618973264538291469_transcription_20260531_213827.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_29_7618973264538291469_transcription_20260531_213827.txt
+
+============================================================
+RANK: 30 | GMV: $4502.81 | VIDEO ID: 7597620834055884046
+URL: https://www.tiktok.com/@naturopathicapothecary1/video/7597620834055884046
+WORD COUNT: 1217
+============================================================
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_30_7597620834055884046.mp3, file size: 1.97 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 107.1 seconds
+Language: english
+Timestamped segments:
+[00:00.0 - 00:02.0]  So you took astaxanthin for eye floaters
+[00:02.0 - 00:04.2]  and now your skin is glowing and tan
+[00:04.2 - 00:05.6]  like it's still the middle of summer.
+[00:05.6 - 00:06.8]  As a certified naturopath,
+[00:06.8 - 00:09.2]  I've seen so many people pleasantly surprised
+[00:09.2 - 00:12.2]  by the glowy tan skin they get from taking astaxanthin.
+[00:12.2 - 00:14.3]  So let me explain exactly what's happening.
+[00:14.3 - 00:16.2]  Now, most people start taking astaxanthin
+[00:16.2 - 00:18.2]  because it's a strong anti-inflammatory
+[00:18.2 - 00:19.6]  with the antioxidant power
+[00:19.6 - 00:22.2]  that is 6,000 times stronger than vitamin C.
+[00:22.2 - 00:25.1]  And because of this, it's amazing for stiff and achy joints.
+[00:25.1 - 00:27.5]  It supports eye health by protecting retinal cells
+[00:27.5 - 00:29.0]  from blue and artificial light.
+[00:29.0 - 00:30.9]  It supports the cardiovascular system
+[00:30.9 - 00:33.1]  by reducing free radical damage in the body.
+[00:33.1 - 00:34.7]  It crosses the blood-brain barrier,
+[00:34.7 - 00:36.0]  making it neuroprotective,
+[00:36.0 - 00:37.9]  which is great for memory and focus.
+[00:37.9 - 00:39.7]  It acts as an internal sunscreen,
+[00:39.7 - 00:41.8]  protecting skin from UV damage.
+[00:41.8 - 00:43.6]  And because it's the only antioxidant
+[00:43.6 - 00:45.7]  that penetrates both sides of the cell membrane,
+[00:45.7 - 00:47.1]  boosting collagen and elastin,
+[00:47.1 - 00:50.1]  it's amazing for fine lines, wrinkles, and sagging skin.
+[00:50.1 - 00:52.7]  At its core, astaxanthin is the ultimate anti-aging
+[00:52.7 - 00:55.4]  supplement because of how well it fights oxidative stress,
+[00:55.4 - 00:57.9]  which is the primary driver of premature aging.
+[00:57.9 - 00:59.7]  But because it's a dark red pigment,
+[00:59.7 - 01:01.5]  the same pigment that gives flamingos
+[01:01.5 - 01:02.7]  and salmon their color,
+[01:02.7 - 01:05.3]  over time it builds up in the lipid layer of your skin,
+[01:05.3 - 01:07.3]  giving it a very warm and sun-kissed glow,
+[01:07.3 - 01:09.7]  which is the reason it's one of the main ingredients
+[01:09.7 - 01:11.6]  in tanning pills and tanning gummies.
+[01:11.6 - 01:12.6]  Now, if you took astaxanthin
+[01:12.6 - 01:14.4]  and you really didn't notice much of a difference,
+[01:14.4 - 01:16.2]  you need to know that quality matters.
+[01:16.2 - 01:18.7]  While many astaxanthin supplements are synthetically derived
+[01:18.7 - 01:19.8]  and don't absorb well,
+[01:19.8 - 01:21.1]  you wanna make sure that you're getting it
+[01:21.1 - 01:22.4]  in its organic form.
+[01:22.4 - 01:24.2]  My top recommendation for astaxanthin
+[01:24.2 - 01:25.6]  is the one by Micro Ingredients
+[01:25.6 - 01:27.3]  because this one has been naturally sourced
+[01:27.3 - 01:28.2]  from microalgae.
+[01:28.2 - 01:30.1]  It's made in the USA, it's been lab tested,
+[01:30.1 - 01:31.4]  it's GMP certified,
+[01:31.4 - 01:33.3]  and you get 120 soft gels in here.
+[01:33.3 - 01:34.3]  You only need one per day,
+[01:34.3 - 01:35.9]  so this will last you about four months.
+[01:35.9 - 01:37.6]  They are also running an amazing sale,
+[01:37.6 - 01:39.8]  so if you want a high quality astaxanthin
+[01:39.8 - 01:40.8]  at a really great price,
+[01:40.8 - 01:42.7]  I will make sure to drop this one down below.
+[01:42.7 - 01:44.0]  If you see that orange card,
+[01:44.0 - 01:45.6]  that means they still have some in stock,
+[01:45.6 - 01:47.3]  so definitely grab one if you can.
+Complete transcription result saved to: /tmp/tmp0t99ktc6/video_30_7597620834055884046_transcription_20260531_213838.json
+Plain text transcription saved to: /tmp/tmp0t99ktc6/video_30_7597620834055884046_transcription_20260531_213838.txt
+[2J[H[3Jmanus-speech-to-text /tmp/tmp0t99ktc6/video_30_7597620834055884046.mp3
+Starting Speech-to-Text conversion...
+Transcribing audio file: /tmp/tmp0t99ktc6/video_30_7597620834055884046.mp3, file size: 1.97 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:02.0] So you took astaxanthin for eye floaters
+[00:02.0 - 00:04.2] and now your skin is glowing and tan
+[00:04.2 - 00:05.6] like it's still the middle of summer.
+[00:05.6 - 00:06.8] As a certified naturopath,
+[00:06.8 - 00:09.2] I've seen so many people pleasantly surprised
+[00:09.2 - 00:12.2] by the glowy tan skin they get from taking astaxanthin.
+[00:12.2 - 00:14.3] So let me explain exactly what's happening.
+[00:14.3 - 00:16.2] Now, most people start taking astaxanthin
+[00:16.2 - 00:18.2] because it's a strong anti-inflammatory
+[00:18.2 - 00:19.6] with the antioxidant power
+[00:19.6 - 00:22.2] that is 6,000 times stronger than vitamin C.
+[00:22.2 - 00:25.1] And because of this, it's amazing for stiff and achy joints.
+[00:25.1 - 00:27.5] It supports eye health by protecting retinal cells
+[00:27.5 - 00:29.0] from blue and artificial light.
+[00:29.0 - 00:30.9] It supports the cardiovascular system
+[00:30.9 - 00:33.1] by reducing free radical damage in the body.
+[00:33.1 - 00:34.7] It crosses the blood-brain barrier,
+[00:34.7 - 00:36.0] making it neuroprotective,
+[00:36.0 - 00:37.9] which is great for memory and focus.
+[00:37.9 - 00:39.7] It acts as an internal sunscreen,
+[00:39.7 - 00:41.8] protecting skin from UV damage.
+[00:41.8 - 00:43.6] And because it's the only antioxidant
+[00:43.6 - 00:45.7] that penetrates both sides of the cell membrane,
+[00:45.7 - 00:47.1] boosting collagen and elastin,
+[00:47.1 - 00:50.1] it's amazing for fine lines, wrinkles, and sagging skin.
+[00:50.1 - 00:52.7] At its core, astaxanthin is the ultimate anti-aging
+[00:52.7 - 00:55.4] supplement because of how well it fights oxidative stress,
+[00:55.4 - 00:57.9] which is the primary driver of premature aging.
+[00:57.9 - 00:59.7] But because it's a dark red pigment,
+[00:59.7 - 01:01.5] the same pigment that gives flamingos
+[01:01.5 - 01:02.7] and salmon their color,
+[01:02.7 - 01:05.3] over time it builds up in the lipid layer of your skin,
+[01:05.3 - 01:07.3] giving it a very warm and sun-kissed glow,
+[01:07.3 - 01:09.7] which is the reason it's one of the main ingredients
+[01:09.7 - 01:11.6] in tanning pills and tanning gummies.
+[01:11.6 - 01:12.6] Now, if you took astaxanthin
+[01:12.6 - 01:14.4] and you really didn't notice much of a difference,
+[01:14.4 - 01:16.2] you need to know that quality matters.
+[01:16.2 - 01:18.7] While many astaxanthin supplements are synthetically derived
+[01:18.7 - 01:19.8] and don't absorb well,
+[01:19.8 - 01:21.1] you wanna make sure that you're getting it
+[01:21.1 - 01:22.4] in its organic form.
+[01:22.4 - 01:24.2] My top recommendation for astaxanthin
+[01:24.2 - 01:25.6] is the one by Micro Ingredients
+[01:25.6 - 01:27.3] because this one has been naturally sourced
+[01:27.3 - 01:28.2] from microalgae.
+[01:28.2 - 01:30.1] It's made in the USA, it's been lab tested,
+[01:30.1 - 01:31.4] it's GMP certified,
+[01:31.4 - 01:33.3] and you get 120 soft gels in here.
+[01:33.3 - 01:34.3] You only need one per day,
+[01:34.3 - 01:35.9] so this will last you about four months.
+[01:35.9 - 01:37.6] They are also running an amazing sale,
+[01:37.6 - 01:39.8] so if you want a high quality astaxanthin
+[01:39.8 - 01:40.8] at a really great price,
+[01:40.8 - 01:42.7] I will make sure to drop this one down below.
+[01:42.7 - 01:44.0] If you see that orange card,
+[01:44.0 - 01:45.6] that means they still have some in stock,
+[01:45.6 - 01:47.3] so definitely grab one if you can.
+
+Completed transcription, JSON saved to /tmp/tmp0t99ktc6/video_30_7597620834055884046_transcription_20260531_213838.json
+Plain text transcription saved to /tmp/tmp0t99ktc6/video_30_7597620834055884046_transcription_20260531_213838.txt
+

@@ -1,0 +1,26 @@
+Starting Speech-to-Text conversion...
+Transcribing video file: 7681582206665444640.mp4, file size: 2.16 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 18.0 seconds
+Language: hin
+Timestamped segments:
+[00:00.2 - 00:00.3] Dr.
+[00:00.3 - 00:10.8] Malaxin के ये वाले patches बहुत ही thin है। You can't even see them under your makeup। इसमें आपको दो type के मिलते हैं dark spot corrector का और एक blemishes
+[00:10.8 - 00:17.9] का। जहां आपको कोई blemish हो उसके ऊपर blemishes वाला लगाएं और अगर mark रह गया तो ये वाला लगाएं। Problem solve।
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7681582206665444640_transcription_20260907_045104.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7681582206665444640_transcription_20260907_045104.txt
+[2J[H[3Jmanus-speech-to-text 7681582206665444640.mp4
+Starting Speech-to-Text conversion...
+Transcribing video file: 7681582206665444640.mp4, file size: 2.16 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.2 - 00:00.3] Dr.
+[00:00.3 - 00:10.8] Malaxin के ये वाले patches बहुत ही thin है। You can't even see them under your makeup। इसमें आपको दो type के मिलते हैं dark spot corrector का और एक blemishes
+[00:10.8 - 00:17.9] का। जहां आपको कोई blemish हो उसके ऊपर blemishes वाला लगाएं और अगर mark रह गया तो ये वाला लगाएं। Problem solve।
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7681582206665444640_transcription_20260907_045104.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7681582206665444640_transcription_20260907_045104.txt

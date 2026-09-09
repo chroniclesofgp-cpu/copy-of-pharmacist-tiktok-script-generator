@@ -1,0 +1,38 @@
+=== LANE TERM COUNTS BY FILE ===
+  17  ./scripts/SCRIPT_52_medicube-deodorant-split-screen.md
+  17  ./analysis/past_photo_borrowed_image_format_analysis_working_2026-08-18.md
+  16  ./product-intel/drdent-purple-toothpaste-tablets-intel.md
+  16  ./TIKTOK_SHOP_HEALTH_BEAUTY_COMPLIANCE_PREFLIGHT.md
+  16  ./HOOK_FRAMEWORKS.md
+  13  ./scripts/SCRIPT_50-51_external-list-format-tests.md
+  13  ./MASTER_CONTEXT.md
+  11  ./POST_WRITE_CHECKLIST.md
+  10  ./scripts/MULTI_WINNER_CATEGORY_SCORECARD_SCRIPTS.md
+  10  ./VISUAL_OVERLAY_PLAYBOOK.md
+  10  ./SCRIPT_ARCHITECTURE_GUIDE.md
+   9  ./todo.md
+   9  ./analysis/conversion_preserving_evidence_ready_operating_model_2026-08-18.md
+   8  ./analysis/compliance_writing_calibration_audit_2026-08-20.md
+   8  ./PRE_SESSION_BRIEF.md
+   6  ./scripts/SCRIPT_53_medicube-truly-original-preserving-iteration.md
+   6  ./SCRIPT_FEEDBACK_LOG.md
+   5  ./analysis/drdent_framework_fidelity_audit_2026-08-31.md
+   5  ./analysis/compliance_writing_recalibration_pilot_cards_2026-08-20.md
+   4  ./analysis/compliance_writing_recalibration_evaluation_plan_2026-08-20.md
+   4  ./PRODUCT_RESEARCH_PROTOCOL.md
+   3  ./scripts/campaigns/DRDENT_PURPLE_TOOTHPASTE_TABLETS_campaign.md
+   2  ./analysis/drdent_script_rebuild_audit_2026-08-31.md
+   1  ./scripts/SCRIPT_54_DRDENT_pain-first-pharmacist-breakdown.md
+   1  ./research/drdent_toothpaste_tablets_evidence_capture_2026-08-30.md
+   1  ./research/drdent_toothpaste_tablets_creator_audit_capture_2026-08-30.md
+   1  ./research/drdent_purple_whitening_strips_listing_capture_2026-08-30.md
+   1  ./analysis/scorecard_category_competition_audit_2026-08-20.md
+   1  ./analysis/midlife_nursing_creator_onboarding_brief_2026-08-18.md
+   1  ./analysis/instagram_category_rating_reel_analysis_working_2026-08-19.md
+   1  ./analysis/initial_cross_platform_format_scout_working_2026-08-18.md
+   1  ./analysis/bundle_use_walkthrough_analysis_working_2026-08-18.md
+   1  ./HEALTHCARE_HOOK_REFERENCE_GUIDE.md
+
+=== CURRENT OVERRIDE / PRECEDENCE REFERENCES ===
+MASTER_CONTEXT.md:1549:The project’s proven creator-validated frameworks are the primary execution contract. The evidence-lane layer controls truth, scope, and visual integrity; it does **not** outrank or erase the hook, audience pain, authority, direct-benefit stack, pharmacist education, proof-card strategy, delayed reveal, apology payoff, scam-warning sequence, or CTA that make a selected framework convert.
+POST_WRITE_CHECKLIST.md:446:**BOF hard-fail reminder:** A Type 1 or Type 2 script cannot pass without its negative-apology loop and price/offer reveal. A Type 4 script cannot be called the Riva execution without the documented four-beat real-listing path. A cautious script that omits these beats fails framework fidelity.

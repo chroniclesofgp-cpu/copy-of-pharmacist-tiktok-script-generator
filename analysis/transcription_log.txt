@@ -1,0 +1,373 @@
+nohup: ignoring input
+
+============================================================
+Processing: adoseofwellness
+============================================================
+Found 30 videos
+  Rank 01 | GMV: $218,479.12 | https://www.tiktok.com/@adoseofwellness/video/7584490494177152287
+    ✓ Transcribed (1061 words)
+  Rank 02 | GMV: $133,232.46 | https://www.tiktok.com/@adoseofwellness/video/7588535042184465695
+    ✓ Transcribed (935 words)
+  Rank 03 | GMV: $115,021.67 | https://www.tiktok.com/@adoseofwellness/video/7604937217953352991
+    ✓ Transcribed (1063 words)
+  Rank 04 | GMV: $87,722.63 | https://www.tiktok.com/@adoseofwellness/video/7597949779921980703
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 05 | GMV: $59,457.70 | https://www.tiktok.com/@adoseofwellness/video/7606001439512497439
+    ✓ Transcribed (989 words)
+  Rank 06 | GMV: $56,852.10 | https://www.tiktok.com/@adoseofwellness/video/7531464392282574111
+    ✓ Transcribed (1021 words)
+  Rank 07 | GMV: $40,963.67 | https://www.tiktok.com/@adoseofwellness/video/7571453173341228318
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 08 | GMV: $39,911.47 | https://www.tiktok.com/@adoseofwellness/video/7532109281538149663
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 09 | GMV: $36,239.41 | https://www.tiktok.com/@adoseofwellness/video/7566760634436668703
+    ✗ Failed: Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+  Rank 10 | GMV: $33,532.32 | https://www.tiktok.com/@adoseofwellness/video/7477168309264321838
+    ✗ Failed: Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+  Rank 11 | GMV: $33,319.08 | https://www.tiktok.com/@adoseofwellness/video/7611546658068860191
+    ✗ Failed: Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+  Rank 12 | GMV: $32,813.63 | https://www.tiktok.com/@adoseofwellness/video/7554063750538579230
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 13 | GMV: $32,662.70 | https://www.tiktok.com/@adoseofwellness/video/7552950350601391390
+    ✗ Failed: Transcription failed: Error: transcription failed for chunk 1 after 3 attempts: error, status code: 402, status: 402 Payment Required, message: , body: {"details":{"available_credits":0,"message":"You don't have enough cre
+  Rank 14 | GMV: $31,055.08 | https://www.tiktok.com/@adoseofwellness/video/7580009112214195486
+    ✓ Transcribed (791 words)
+  Rank 15 | GMV: $28,149.78 | https://www.tiktok.com/@adoseofwellness/video/7525074660086566175
+    ✓ Transcribed (1021 words)
+  Rank 16 | GMV: $28,050.18 | https://www.tiktok.com/@adoseofwellness/video/7603488254528376094
+    ✗ Failed: Download failed: ERROR: [TikTok] 7603488254528376094: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+  Rank 17 | GMV: $25,513.42 | https://www.tiktok.com/@adoseofwellness/video/7607834341116251422
+    ✓ Transcribed (943 words)
+  Rank 18 | GMV: $24,988.92 | https://www.tiktok.com/@adoseofwellness/video/7610079365145038110
+    ✓ Transcribed (1013 words)
+  Rank 19 | GMV: $23,919.82 | https://www.tiktok.com/@adoseofwellness/video/7603173445567892766
+    ✓ Transcribed (995 words)
+  Rank 20 | GMV: $23,446.93 | https://www.tiktok.com/@adoseofwellness/video/7602705409119456543
+    ✓ Transcribed (903 words)
+  Rank 21 | GMV: $22,921.65 | https://www.tiktok.com/@adoseofwellness/video/7568899615462788383
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 22 | GMV: $21,064.92 | https://www.tiktok.com/@adoseofwellness/video/7574093074725457182
+    ✓ Transcribed (727 words)
+  Rank 23 | GMV: $20,406.96 | https://www.tiktok.com/@adoseofwellness/video/7577817675456417054
+    ✓ Transcribed (973 words)
+  Rank 24 | GMV: $18,173.48 | https://www.tiktok.com/@adoseofwellness/video/7553354135928605983
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 25 | GMV: $17,146.83 | https://www.tiktok.com/@adoseofwellness/video/7568873543895649567
+    ✓ Transcribed (769 words)
+  Rank 26 | GMV: $17,025.01 | https://www.tiktok.com/@adoseofwellness/video/7584884279876816158
+    ✓ Transcribed (655 words)
+  Rank 27 | GMV: $16,645.58 | https://www.tiktok.com/@adoseofwellness/video/7579676383291378974
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 28 | GMV: $16,313.88 | https://www.tiktok.com/@adoseofwellness/video/7539694461001960734
+    ✓ Transcribed (195 words)
+  Rank 29 | GMV: $16,019.69 | https://www.tiktok.com/@adoseofwellness/video/7568523470447873310
+    ✓ Transcribed (797 words)
+  Rank 30 | GMV: $15,641.35 | https://www.tiktok.com/@adoseofwellness/video/7566773901586451742
+    ✓ Transcribed (775 words)
+
+  Done: 18 successful, 12 failed
+  Output: /home/ubuntu/pharma-script-gen/analysis/adoseofwellness_transcripts_gmv_full.txt
+
+============================================================
+Processing: drew_acct1
+============================================================
+Found 30 videos
+  Rank 01 | GMV: $179,256.89 | https://www.tiktok.com/@drew.review/video/7592733868550114574
+    ✓ Transcribed (961 words)
+  Rank 02 | GMV: $117,035.23 | https://www.tiktok.com/@drew.review/video/7578355445631356174
+    ✓ Transcribed (1235 words)
+  Rank 03 | GMV: $113,169.53 | https://www.tiktok.com/@drew.review/video/7569758846734961934
+    ✓ Transcribed (861 words)
+  Rank 04 | GMV: $62,390.49 | https://www.tiktok.com/@drew.review/video/7569148424658881805
+    ✓ Transcribed (1015 words)
+  Rank 05 | GMV: $56,376.81 | https://www.tiktok.com/@drew.review/video/7547812216284663070
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 06 | GMV: $52,179.34 | https://www.tiktok.com/@drew.review/video/7546115820276026679
+    ✓ Transcribed (1277 words)
+  Rank 07 | GMV: $48,062.06 | https://www.tiktok.com/@drew.review/video/7537204269229919543
+    ✓ Transcribed (1003 words)
+  Rank 08 | GMV: $31,107.50 | https://www.tiktok.com/@drew.review/video/7636166523144375566
+    ✓ Transcribed (861 words)
+  Rank 09 | GMV: $27,418.11 | https://www.tiktok.com/@drew.review/video/7485813162827205931
+    ✓ Transcribed (635 words)
+  Rank 10 | GMV: $24,143.88 | https://www.tiktok.com/@drew.review/video/7642095636027804942
+    ✓ Transcribed (1033 words)
+  Rank 11 | GMV: $19,617.49 | https://www.tiktok.com/@drew.review/video/7580521520338832653
+    ✓ Transcribed (961 words)
+  Rank 12 | GMV: $17,924.56 | https://www.tiktok.com/@drew.review/video/7578593080262053175
+    ✓ Transcribed (1233 words)
+  Rank 13 | GMV: $17,317.35 | https://www.tiktok.com/@drew.review/video/7552245376087002398
+    ✓ Transcribed (793 words)
+  Rank 14 | GMV: $15,736.13 | https://www.tiktok.com/@drew.review/video/7492895750817565998
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 15 | GMV: $14,654.01 | https://www.tiktok.com/@drew.review/video/7570498351515356471
+    ✓ Transcribed (1860 words)
+  Rank 16 | GMV: $13,591.46 | https://www.tiktok.com/@drew.review/video/7515513323174087978
+    ✓ Transcribed (565 words)
+  Rank 17 | GMV: $13,520.73 | https://www.tiktok.com/@drew.review/video/7593449715576917303
+    ✓ Transcribed (1187 words)
+  Rank 18 | GMV: $12,883.86 | https://www.tiktok.com/@drew.review/video/7488117078424063275
+    ✓ Transcribed (893 words)
+  Rank 19 | GMV: $12,089.24 | https://www.tiktok.com/@drew.review/video/7571534506574744887
+    ✓ Transcribed (877 words)
+  Rank 20 | GMV: $11,979.21 | https://www.tiktok.com/@drew.review/video/7574567101227224333
+    ✓ Transcribed (573 words)
+  Rank 21 | GMV: $10,926.20 | https://www.tiktok.com/@drew.review/video/7605758340303555853
+    ✓ Transcribed (747 words)
+  Rank 22 | GMV: $10,369.87 | https://www.tiktok.com/@drew.review/video/7615143411242323230
+    ✓ Transcribed (949 words)
+  Rank 23 | GMV: $9,485.53 | https://www.tiktok.com/@drew.review/video/7591652239270235405
+    ✓ Transcribed (843 words)
+  Rank 24 | GMV: $8,708.19 | https://www.tiktok.com/@drew.review/video/7539665335511829791
+    ✓ Transcribed (949 words)
+  Rank 25 | GMV: $8,082.41 | https://www.tiktok.com/@drew.review/video/7491905522283597102
+    ✓ Transcribed (1073 words)
+  Rank 26 | GMV: $7,878.18 | https://www.tiktok.com/@drew.review/video/7605743384052976910
+    ✓ Transcribed (451 words)
+  Rank 27 | GMV: $7,180.33 | https://www.tiktok.com/@drew.review/video/7600276237688376607
+    ✓ Transcribed (1021 words)
+  Rank 28 | GMV: $6,898.16 | https://www.tiktok.com/@drew.review/video/7528462911967153421
+    ✓ Transcribed (1622 words)
+  Rank 29 | GMV: $6,749.79 | https://www.tiktok.com/@drew.review/video/7636815014367628558
+    ✓ Transcribed (771 words)
+  Rank 30 | GMV: $6,499.27 | https://www.tiktok.com/@drew.review/video/7616231250310810911
+    ✓ Transcribed (1055 words)
+
+  Done: 28 successful, 2 failed
+  Output: /home/ubuntu/pharma-script-gen/analysis/drew_acct1_transcripts_gmv_full.txt
+
+============================================================
+Processing: drew_acct2
+============================================================
+Found 30 videos
+  Rank 01 | GMV: $165,157.01 | https://www.tiktok.com/@drew.review1/video/7521464528568175902
+    ✗ Failed: Download failed: ERROR: [TikTok] 7521464528568175902: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+  Rank 02 | GMV: $143,133.04 | https://www.tiktok.com/@drew.review1/video/7582049483853237518
+    ✓ Transcribed (1281 words)
+  Rank 03 | GMV: $62,799.00 | https://www.tiktok.com/@drew.review1/video/7581605506045840671
+    ✗ Failed: Download failed: ERROR: [TikTok] 7581605506045840671: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+  Rank 04 | GMV: $54,990.22 | https://www.tiktok.com/@drew.review1/video/7603509622141504781
+    ✓ Transcribed (815 words)
+  Rank 05 | GMV: $54,751.48 | https://www.tiktok.com/@drew.review1/video/7541161073328672030
+    ✓ Transcribed (991 words)
+  Rank 06 | GMV: $45,235.93 | https://www.tiktok.com/@drew.review1/video/7596558535207488781
+    ✗ Failed: Download failed: ERROR: [TikTok] 7596558535207488781: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+  Rank 07 | GMV: $36,825.32 | https://www.tiktok.com/@drew.review1/video/7563038744190897422
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 08 | GMV: $35,281.38 | https://www.tiktok.com/@drew.review1/video/7569719323917389111
+    ✓ Transcribed (1303 words)
+  Rank 09 | GMV: $32,018.92 | https://www.tiktok.com/@drew.review1/video/7492532292091612462
+    ✓ Transcribed (997 words)
+  Rank 10 | GMV: $29,514.33 | https://www.tiktok.com/@drew.review1/video/7605736101134830862
+    ✓ Transcribed (697 words)
+  Rank 11 | GMV: $25,164.65 | https://www.tiktok.com/@drew.review1/video/7594391735007055117
+    ✓ Transcribed (1203 words)
+  Rank 12 | GMV: $21,731.79 | https://www.tiktok.com/@drew.review1/video/7568336039471795469
+    ✓ Transcribed (705 words)
+  Rank 13 | GMV: $19,759.58 | https://www.tiktok.com/@drew.review1/video/7566354227811929358
+    ✓ Transcribed (821 words)
+  Rank 14 | GMV: $15,655.04 | https://www.tiktok.com/@drew.review1/video/7583914069342571806
+    ✗ Failed: Download failed: ERROR: [TikTok] 7583914069342571806: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+  Rank 15 | GMV: $14,806.97 | https://www.tiktok.com/@drew.review1/video/7520775900745518366
+    ✓ Transcribed (1241 words)
+  Rank 16 | GMV: $14,696.50 | https://www.tiktok.com/@drew.review1/video/7522186829106269471
+    ✓ Transcribed (585 words)
+  Rank 17 | GMV: $13,982.23 | https://www.tiktok.com/@drew.review1/video/7562278367639145783
+    ✓ Transcribed (1257 words)
+  Rank 18 | GMV: $13,230.93 | https://www.tiktok.com/@drew.review1/video/7565691181582077197
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 19 | GMV: $11,860.47 | https://www.tiktok.com/@drew.review1/video/7611746545368567053
+    ✓ Transcribed (853 words)
+  Rank 20 | GMV: $11,134.04 | https://www.tiktok.com/@drew.review1/video/7612412617650392334
+    ✓ Transcribed (1033 words)
+  Rank 21 | GMV: $11,009.03 | https://www.tiktok.com/@drew.review1/video/7532168294883724575
+    ✓ Transcribed (959 words)
+  Rank 22 | GMV: $10,648.19 | https://www.tiktok.com/@drew.review1/video/7562339960540400951
+    ✓ Transcribed (837 words)
+  Rank 23 | GMV: $9,693.53 | https://www.tiktok.com/@drew.review1/video/7569044486400019767
+    ✓ Transcribed (915 words)
+  Rank 24 | GMV: $9,692.34 | https://www.tiktok.com/@drew.review1/video/7583589624316955918
+    ✗ Failed: Download failed: ERROR: [TikTok] 7583589624316955918: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-
+  Rank 25 | GMV: $9,426.74 | https://www.tiktok.com/@drew.review1/video/7606261979178618125
+    ✓ Transcribed (783 words)
+  Rank 26 | GMV: $8,260.20 | https://www.tiktok.com/@drew.review1/video/7578210644286016823
+    ✓ Transcribed (1039 words)
+  Rank 27 | GMV: $8,059.52 | https://www.tiktok.com/@drew.review1/video/7568944314844335374
+    ✓ Transcribed (849 words)
+  Rank 28 | GMV: $7,304.57 | https://www.tiktok.com/@drew.review1/video/7533316854199176461
+    ✓ Transcribed (965 words)
+  Rank 29 | GMV: $7,181.88 | https://www.tiktok.com/@drew.review1/video/7580974666521595191
+    ✓ Transcribed (873 words)
+  Rank 30 | GMV: $6,864.64 | https://www.tiktok.com/@drew.review1/video/7541828131137539358
+    ✓ Transcribed (1393 words)
+
+  Done: 23 successful, 7 failed
+  Output: /home/ubuntu/pharma-script-gen/analysis/drew_acct2_transcripts_gmv_full.txt
+
+============================================================
+Processing: naturopathicapothecary1
+============================================================
+Found 30 videos
+  Rank 01 | GMV: $216,487.45 | https://www.tiktok.com/@naturopathicapothecary1/video/7572449245114977550
+    ✓ Transcribed (917 words)
+  Rank 02 | GMV: $102,362.05 | https://www.tiktok.com/@naturopathicapothecary1/video/7628589452616617229
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 03 | GMV: $71,015.35 | https://www.tiktok.com/@naturopathicapothecary1/video/7619776533477068046
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 04 | GMV: $49,861.49 | https://www.tiktok.com/@naturopathicapothecary1/video/7595071601272474935
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 05 | GMV: $39,820.60 | https://www.tiktok.com/@naturopathicapothecary1/video/7607672627657772301
+    ✓ Transcribed (1693 words)
+  Rank 06 | GMV: $34,956.24 | https://www.tiktok.com/@naturopathicapothecary1/video/7575778778463440142
+    ✓ Transcribed (1153 words)
+  Rank 07 | GMV: $33,642.52 | https://www.tiktok.com/@naturopathicapothecary1/video/7580155751004474637
+    ✓ Transcribed (1067 words)
+  Rank 08 | GMV: $22,559.62 | https://www.tiktok.com/@naturopathicapothecary1/video/7578415112596229389
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 09 | GMV: $21,104.11 | https://www.tiktok.com/@naturopathicapothecary1/video/7550533574936612109
+    ✓ Transcribed (853 words)
+  Rank 10 | GMV: $18,681.80 | https://www.tiktok.com/@naturopathicapothecary1/video/7572425239204744461
+    ✓ Transcribed (905 words)
+  Rank 11 | GMV: $15,375.03 | https://www.tiktok.com/@naturopathicapothecary1/video/7610971090550066446
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 12 | GMV: $14,219.41 | https://www.tiktok.com/@naturopathicapothecary1/video/7624530774804516109
+    ✓ Transcribed (945 words)
+  Rank 13 | GMV: $11,550.21 | https://www.tiktok.com/@naturopathicapothecary1/video/7579433606104255799
+    ✓ Transcribed (899 words)
+  Rank 14 | GMV: $8,888.13 | https://www.tiktok.com/@naturopathicapothecary1/video/7580977474670988599
+    ✓ Transcribed (1147 words)
+  Rank 15 | GMV: $8,332.46 | https://www.tiktok.com/@naturopathicapothecary1/video/7614525330740546830
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 16 | GMV: $8,250.08 | https://www.tiktok.com/@naturopathicapothecary1/video/7573950295386983693
+    ✓ Transcribed (1149 words)
+  Rank 17 | GMV: $8,055.56 | https://www.tiktok.com/@naturopathicapothecary1/video/7608022862305185037
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 18 | GMV: $7,004.11 | https://www.tiktok.com/@naturopathicapothecary1/video/7566793038182321463
+    ✓ Transcribed (1053 words)
+  Rank 19 | GMV: $6,969.54 | https://www.tiktok.com/@naturopathicapothecary1/video/7545657714786045198
+    ✓ Transcribed (547 words)
+  Rank 20 | GMV: $6,339.57 | https://www.tiktok.com/@naturopathicapothecary1/video/7581592940930288909
+    ✓ Transcribed (1075 words)
+  Rank 21 | GMV: $6,289.87 | https://www.tiktok.com/@naturopathicapothecary1/video/7612828038547442957
+    ✓ Transcribed (887 words)
+  Rank 22 | GMV: $5,865.76 | https://www.tiktok.com/@naturopathicapothecary1/video/7623036563500305678
+    ✓ Transcribed (1732 words)
+  Rank 23 | GMV: $5,834.88 | https://www.tiktok.com/@naturopathicapothecary1/video/7621266150793547022
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 24 | GMV: $5,372.91 | https://www.tiktok.com/@naturopathicapothecary1/video/7595382737226190135
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 25 | GMV: $5,360.73 | https://www.tiktok.com/@naturopathicapothecary1/video/7552408816474688782
+    ✓ Transcribed (841 words)
+  Rank 26 | GMV: $5,087.87 | https://www.tiktok.com/@naturopathicapothecary1/video/7620820521726299406
+    ✓ Transcribed (893 words)
+  Rank 27 | GMV: $4,940.70 | https://www.tiktok.com/@naturopathicapothecary1/video/7565270030250822925
+    ✓ Transcribed (899 words)
+  Rank 28 | GMV: $4,770.92 | https://www.tiktok.com/@naturopathicapothecary1/video/7574646741656423694
+    ✓ Transcribed (1009 words)
+  Rank 29 | GMV: $4,593.71 | https://www.tiktok.com/@naturopathicapothecary1/video/7618973264538291469
+    ✓ Transcribed (847 words)
+  Rank 30 | GMV: $4,502.81 | https://www.tiktok.com/@naturopathicapothecary1/video/7597620834055884046
+    ✓ Transcribed (1217 words)
+
+  Done: 21 successful, 9 failed
+  Output: /home/ubuntu/pharma-script-gen/analysis/naturopathicapothecary1_transcripts_gmv_full.txt
+
+============================================================
+Processing: faithfuldoc
+============================================================
+Found 30 videos
+  Rank 01 | GMV: $279,459.20 | https://www.tiktok.com/@faithfuldoc/video/7617134860129471774
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 02 | GMV: $172,446.00 | https://www.tiktok.com/@faithfuldoc/video/7620952794832309535
+    ✓ Transcribed (803 words)
+  Rank 03 | GMV: $155,884.45 | https://www.tiktok.com/@faithfuldoc/video/7618978253952257310
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 04 | GMV: $99,165.80 | https://www.tiktok.com/@faithfuldoc/video/7616016652441832734
+    ✓ Transcribed (591 words)
+  Rank 05 | GMV: $31,004.15 | https://www.tiktok.com/@faithfuldoc/video/7611584716600249630
+    ✓ Transcribed (1303 words)
+  Rank 06 | GMV: $30,195.06 | https://www.tiktok.com/@faithfuldoc/video/7613850177354485023
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 07 | GMV: $28,969.31 | https://www.tiktok.com/@faithfuldoc/video/7622902639453408542
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 08 | GMV: $27,660.07 | https://www.tiktok.com/@faithfuldoc/video/7609504443960233246
+    ✓ Transcribed (1065 words)
+  Rank 09 | GMV: $26,339.64 | https://www.tiktok.com/@faithfuldoc/video/7619348231989759263
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 10 | GMV: $21,749.00 | https://www.tiktok.com/@faithfuldoc/video/7626589820898250014
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 11 | GMV: $18,953.51 | https://www.tiktok.com/@faithfuldoc/video/7608798649996414238
+    ✓ Transcribed (761 words)
+  Rank 12 | GMV: $13,584.22 | https://www.tiktok.com/@faithfuldoc/video/7606447102507437343
+    ✓ Transcribed (779 words)
+  Rank 13 | GMV: $13,311.32 | https://www.tiktok.com/@faithfuldoc/video/7622903274361933086
+    ✓ Transcribed (1505 words)
+  Rank 14 | GMV: $13,099.83 | https://www.tiktok.com/@faithfuldoc/video/7621660139036167455
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 15 | GMV: $12,332.00 | https://www.tiktok.com/@faithfuldoc/video/7621674334297378079
+    ✓ Transcribed (1243 words)
+  Rank 16 | GMV: $11,979.29 | https://www.tiktok.com/@faithfuldoc/video/7609800656005647647
+    ✓ Transcribed (659 words)
+  Rank 17 | GMV: $9,880.86 | https://www.tiktok.com/@faithfuldoc/video/7617896681501232414
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 18 | GMV: $9,607.17 | https://www.tiktok.com/@faithfuldoc/video/7621974851821014303
+    ✓ Transcribed (1221 words)
+  Rank 19 | GMV: $9,409.00 | https://www.tiktok.com/@faithfuldoc/video/7634695531511549214
+    ✓ Transcribed (1289 words)
+  Rank 20 | GMV: $8,211.37 | https://www.tiktok.com/@faithfuldoc/video/7627526725047471391
+    ✓ Transcribed (947 words)
+  Rank 21 | GMV: $7,966.22 | https://www.tiktok.com/@faithfuldoc/video/7639587516210810142
+    ✓ Transcribed (1227 words)
+  Rank 22 | GMV: $7,958.08 | https://www.tiktok.com/@faithfuldoc/video/7615833270101544222
+    ✓ Transcribed (677 words)
+  Rank 23 | GMV: $7,519.17 | https://www.tiktok.com/@faithfuldoc/video/7618214008755211551
+    ✓ Transcribed (1277 words)
+  Rank 24 | GMV: $6,950.82 | https://www.tiktok.com/@faithfuldoc/video/7618260604662418719
+    ✓ Transcribed (1287 words)
+  Rank 25 | GMV: $6,599.40 | https://www.tiktok.com/@faithfuldoc/video/7618999063068839199
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 26 | GMV: $6,027.91 | https://www.tiktok.com/@faithfuldoc/video/7637014791999032606
+    ✓ Transcribed (1369 words)
+  Rank 27 | GMV: $5,692.76 | https://www.tiktok.com/@faithfuldoc/video/7613783589976558879
+    ✓ Transcribed (1001 words)
+  Rank 28 | GMV: $5,610.89 | https://www.tiktok.com/@faithfuldoc/video/7619481286113021215
+    ✗ Failed: Download failed: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe
+
+  Rank 29 | GMV: $5,484.62 | https://www.tiktok.com/@faithfuldoc/video/7616011268452879646
+    ✓ Transcribed (1173 words)
+  Rank 30 | GMV: $5,279.58 | https://www.tiktok.com/@faithfuldoc/video/7639514736349990175
+    ✓ Transcribed (1193 words)
+
+  Done: 20 successful, 10 failed
+  Output: /home/ubuntu/pharma-script-gen/analysis/faithfuldoc_transcripts_gmv_full.txt
+
+All done!

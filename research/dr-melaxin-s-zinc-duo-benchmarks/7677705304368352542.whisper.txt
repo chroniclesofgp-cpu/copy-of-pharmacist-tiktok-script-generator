@@ -1,0 +1,76 @@
+Starting Speech-to-Text conversion...
+Video file detected: 7677705304368352542.mp4, file size: 6.86 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: 7677705304368352542_converted_20260907_045041.mp3
+Transcribing audio file: 7677705304368352542_converted_20260907_045041.mp3, file size: 0.77 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 100.3 seconds
+Language: eng
+Timestamped segments:
+[00:00.4 - 00:00.7] So Dr.
+[00:00.7 - 00:06.6] Malachan sent me their Z-Zinc Zero Fit Ultra Thin Blemish Patches.
+[00:06.6 - 00:07.8] That's a lot to say.
+[00:07.8 - 00:18.9] Anyhow, you can use these pre-makeup and put makeup over top of it, and when they sent these to me, I was like, "Oh, I don't think I'm gonna get any use out of these because I'm
+[00:18.9 - 00:23.9] not one to really break out." I've been jinxed.
+[00:23.9 - 00:30.4] My daughter has been using it, and she said the makeup, you could still tell that there was a patch underneath.
+[00:30.4 - 00:32.3] So I'm gonna give this a try.
+[00:32.3 - 00:33.7] It comes like this.
+[00:33.7 - 00:36.1] So we're gonna put it over this.
+[00:36.1 - 00:37.9] I've been picking at this.
+[00:37.9 - 00:39.7] It's horrible looking.
+[00:39.7 - 00:43.0] So you put it, and then you just...
+[00:43.0 - 00:51.5] Once you put it on your skin, you peel it off, and oh my, that is like ultra thin.
+[00:51.5 - 00:53.1] Can you see?
+[00:53.1 - 00:59.4] So it's like super thin.
+[00:59.4 - 01:09.4] The thing is, I think what my daughter was saying, is that you can see a little bit of the wrinkling, so if it's at a spot that's gonna be moving, you might see it.
+[01:09.4 - 01:15.0] See how my skin is a little loose there, so you can kind of see it, but not really.
+[01:15.0 - 01:16.7] That was really easy to apply.
+[01:16.7 - 01:26.7] I gotta work on my technique, but yeah, that is a very, very thin, like paper thin patch, and I can't even
+[01:26.7 - 01:28.6] feel it on there.
+[01:28.6 - 01:34.6] I can see it just a little bit, the outline of it, and then when I kind of move around, I can see where it's at.
+[01:34.6 - 01:36.9] Other than that, it is...
+[01:36.9 - 01:39.8] It's on there, so we're gonna continue to use these.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7677705304368352542_converted_20260907_045041_transcription_20260907_045048.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7677705304368352542_converted_20260907_045041_transcription_20260907_045048.txt
+
+The video has been automatically converted to an audio file and saved at 7677705304368352542_converted_20260907_045041.mp3
+[2J[H[3Jmanus-speech-to-text 7677705304368352542.mp4
+Starting Speech-to-Text conversion...
+Video file detected: 7677705304368352542.mp4, file size: 6.86 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: 7677705304368352542_converted_20260907_045041.mp3, file size: 0.77 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.4 - 00:00.7] So Dr.
+[00:00.7 - 00:06.6] Malachan sent me their Z-Zinc Zero Fit Ultra Thin Blemish Patches.
+[00:06.6 - 00:07.8] That's a lot to say.
+[00:07.8 - 00:18.9] Anyhow, you can use these pre-makeup and put makeup over top of it, and when they sent these to me, I was like, "Oh, I don't think I'm gonna get any use out of these because I'm
+[00:18.9 - 00:23.9] not one to really break out." I've been jinxed.
+[00:23.9 - 00:30.4] My daughter has been using it, and she said the makeup, you could still tell that there was a patch underneath.
+[00:30.4 - 00:32.3] So I'm gonna give this a try.
+[00:32.3 - 00:33.7] It comes like this.
+[00:33.7 - 00:36.1] So we're gonna put it over this.
+[00:36.1 - 00:37.9] I've been picking at this.
+[00:37.9 - 00:39.7] It's horrible looking.
+[00:39.7 - 00:43.0] So you put it, and then you just...
+[00:43.0 - 00:51.5] Once you put it on your skin, you peel it off, and oh my, that is like ultra thin.
+[00:51.5 - 00:53.1] Can you see?
+[00:53.1 - 00:59.4] So it's like super thin.
+[00:59.4 - 01:09.4] The thing is, I think what my daughter was saying, is that you can see a little bit of the wrinkling, so if it's at a spot that's gonna be moving, you might see it.
+[01:09.4 - 01:15.0] See how my skin is a little loose there, so you can kind of see it, but not really.
+[01:15.0 - 01:16.7] That was really easy to apply.
+[01:16.7 - 01:26.7] I gotta work on my technique, but yeah, that is a very, very thin, like paper thin patch, and I can't even
+[01:26.7 - 01:28.6] feel it on there.
+[01:28.6 - 01:34.6] I can see it just a little bit, the outline of it, and then when I kind of move around, I can see where it's at.
+[01:34.6 - 01:36.9] Other than that, it is...
+[01:36.9 - 01:39.8] It's on there, so we're gonna continue to use these.
+
+The video has been automatically converted to an audio file and saved at 7677705304368352542_converted_20260907_045041.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7677705304368352542_converted_20260907_045041_transcription_20260907_045048.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7677705304368352542_converted_20260907_045041_transcription_20260907_045048.txt

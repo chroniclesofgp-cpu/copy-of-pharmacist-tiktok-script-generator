@@ -1,0 +1,108 @@
+# Riva (@adoseofwellness) — Rank 15 Deep Analysis
+**GMV:** $28,150
+**Product:** MaryRuth's Multivitamin + Hair Growth Gummies - With Lustriva - Formulated for T
+**Duration:** 1m 38s
+**URL:** https://www.tiktok.com/@adoseofwellness/video/7525074660086566175
+**Description:** Lustriva is clinically proven to grow thicker fuller hair! Be consistent and you will have great res
+
+---
+
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-2aa23f79-5e3f-40e1-a94b-60b60761ea83)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[42s] Status: Analysis completed
+[42s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_rank_15_analysis_20260531_232210.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Here is a comprehensive 13-dimension conversion psychology analysis of the provided TikTok video.
+
+**Product:** MaryRuth's Multivitamin + Hair Growth Gummies (with Lustriva)
+**Target Audience:** Individuals experiencing hair loss while taking GLP-1 weight loss medications.
+
+---
+
+### 1. VISUAL HOOK (0-3 seconds)
+*   **Visuals:** The video opens with a woman wearing a professional white lab coat over a black button-down shirt. She performs a dynamic movement by taking her glasses off her face and pushing them up onto her head. 
+*   **Emphasis:** The white coat immediately establishes medical/professional authority before she even speaks. 
+
+### 2. TEXT HOOK
+*   **Text & Formatting:** 
+    *   Top box: "HAIR LOSS while on GLP-1? ⚠️" (White background, bold black text, warning emoji).
+    *   Bottom box: "From a Pharmacist" (Red background, bold white text).
+*   **Placement:** Top center of the screen, highly visible.
+*   **Emphasis:** Calls out a highly specific, trending pain point (GLP-1 side effects) and immediately pairs it with a trusted credential.
+
+### 3. SPOKEN HOOK
+*   **Verbatim:** "If you've started seeing a ton of hair loss after being on the shot, then listen up because this is gonna help you so much."
+*   **Timestamp:** 0:00 - 0:06.
+
+### 4. ON-SCREEN TEXT OVERLAYS
+*   **0:00 - 0:06:** "HAIR LOSS while on GLP-1? ⚠️" and "From a Pharmacist" (Establishes niche problem and authority).
+*   **0:32 - 0:35:** A screenshot of a clinical study abstract pops up on the right side of the screen. The visible text reads: *"A Randomized Double-Blind Evaluation of a Novel Biotin and Silicon Ingredient Complex on the Hair and Skin of Healthy Women."* (Emphasizes clinical/scientific proof).
+*   **1:21 - 1:24:** A large red arrow pointing downwards toward the bottom left of the screen. (Directs the eye to the TikTok Shop cart link).
+
+### 5. CREDENTIAL DELIVERY
+*   **Visual:** The creator wears a white lab coat throughout the entire video.
+*   **Text:** "From a Pharmacist" is displayed in the first 6 seconds.
+*   **Verbal:** She speaks with clinical authority, referencing ingredients, clinical trials, and nutritional gaps. At 0:43, she states, "The best hair supplement that I recommend..." using her established authority to validate the product.
+
+### 6. PROBLEM/MECHANISM SECTION
+*   **Problem Framing (0:00 - 0:13):** The problem is framed as "rapid hair loss" and hair "shedding and falling out" specifically caused by being on "the shot" (GLP-1). 
+*   **Mechanism (0:27 - 0:35):** She introduces the mechanism as an ingredient called **Lustriva**. She explains it is an "especially formulated type of biotin that is actually going to help your hair be thicker and fuller."
+*   **Visual Aid (0:32):** She uses a pop-up of a randomized double-blind clinical study to back up the mechanism. 
+
+### 7. PRODUCT REVEAL
+*   **Timestamp & Method:** 
+    *   **0:24:** She physically brings the white bottle into the frame. 
+    *   **0:43:** She officially names the product: "The best hair supplement that I recommend when you have hair loss on GLP-1s is the MaryRuth Hair Growth Vitamin plus Multivitamin."
+    *   **0:47:** She points directly to the label on the bottle.
+    *   **0:57:** She opens the bottle to show the format.
+    *   **1:00:** She holds a single red gummy up close to the camera.
+
+### 8. PROOF/SOCIAL PROOF ELEMENTS
+*   **Scientific Proof (0:32 - 0:35):** Displays the PubMed/journal abstract on screen.
+*   **Verbal Clinical Proof (0:34):** "It's been clinically shown in three weeks."
+*   **Authority Proof:** The entire video relies on the "Pharmacist Recommended" angle. 
+
+### 9. OBJECTION HANDLING
+*   **Objection: "I'm already taking a popular hair supplement." (0:14 - 0:23):** She uses a "de-influencing" tactic against a major competitor (likely Nutrafol). *Verbatim:* "Do not take that super expensive supplement that starts with an N... because that supplement is not gonna do it if you want thicker fuller hair..."
+*   **Objection: "Pills are hard to swallow / I forget to take them." (0:57 - 1:05):** *Verbatim:* "It comes in a gummy now, which makes it so easy to be consistent. You just take two gummies once a day. That's it. They taste delicious like a fruit snack."
+*   **Objection: "I'm not getting enough nutrients because the GLP-1 makes me eat less." (0:51 - 0:55):** *Verbatim:* "I love that this contains a multivitamin because it kind of like fills in the gaps when you're not eating your best while being on that shot."
+*   **Objection: "Supplements are too expensive." (1:18):** *Verbatim:* "This is available in stores but it's much cheaper on TikTok shop."
+
+### 10. CTA STRUCTURE
+*   **Timestamp:** 1:18 - 1:30
+*   **Verbatim:** "This is available in stores, but it's much cheaper on TikTok Shop. So if you see that orange shopping cart, click that link and that will take you to the official MaryRuth TikTok Shop page where you will find the best deals because they always run the best deals on TikTok."
+*   **Visual Elements:** A large red arrow pops up at 1:21 pointing directly to where the TikTok shop link appears on the UI.
+*   **Urgency/Scarcity:** Framed around getting the "best deals" and it being "much cheaper" here than in retail stores.
+
+### 11. REHOOK / MID-VIDEO RETENTION
+*   **0:14 (Curiosity Gap / Negative Hook):** "Do not take that super expensive supplement that starts with an N..." This creates immediate curiosity (What is N? Why is it bad?).
+*   **0:24 (Prop Introduction):** Brings the physical bottle into the frame.
+*   **0:32 (Visual Interrupt):** The clinical study graphic pops onto the screen.
+*   **0:57 (Action/Sound):** She physically opens the bottle, changing the visual dynamic.
+*   **1:00 (Visual Shift):** Holds the bright red gummy close to the camera lens.
+
+### 12. VIDEO FORMAT
+*   **Format:** Talking Head / Expert Recommendation / "De-influencing" (comparing a popular expensive product against a better, cheaper alternative). 
+
+### 13. FUNNEL STAGE
+*   **Classification:** **MOF (Middle of Funnel) to BOF (Bottom of Funnel).**
+*   **Reasoning:** The video targets a highly specific audience that is already problem-aware (they know they are on GLP-1s and they know they are losing hair). The creator immediately compares solutions (Brand N vs. MaryRuth's) and drives directly to a purchase decision based on price, convenience, and clinical proof.
+
+### 14. BUYER PSYCHOLOGY LEVERS
+**Cialdini Levers:**
+*   **Authority: PRIMARY.** Driven heavily by the lab coat, "Pharmacist" text, and the clinical study pop-up.
+*   **Liking: SECONDARY.** The creator speaks in a conspiratorial, helpful tone ("listen up because this is gonna help you so much"). 
+*   **Scarcity/Urgency: SECONDARY.** Leveraged at the end regarding TikTok Shop pricing ("best deals").
+*   **Social Proof: ABSENT.** (Relies entirely on authority and clinical proof rather than customer reviews or testimonials).
+
+**Desire Channels:**
+*   **Fear Avoidance: PRIMARY.** Taps into the deep fear of losing one's hair due to medication, and the secondary fear of wasting money on expensive supplements that don't work.
+*   **Appearance: PRIMARY.** Promises "thicker, fuller hair" and mentions it helps with "fine lines and wrinkles" (0:37).
+*   **Convenience: PRIMARY.** Heavily pushes the fact that it is a delicious gummy, making it easy to be consistent.
+*   **Health: SECONDARY.** Mentions filling in nutritional gaps caused by eating less on weight-loss medication.

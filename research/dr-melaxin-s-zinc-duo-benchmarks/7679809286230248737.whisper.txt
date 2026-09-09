@@ -1,0 +1,54 @@
+Starting Speech-to-Text conversion...
+Video file detected: 7679809286230248737.mp4, file size: 8.46 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: 7679809286230248737_converted_20260907_045058.mp3
+Transcribing audio file: 7679809286230248737_converted_20260907_045058.mp3, file size: 0.42 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 54.5 seconds
+Language: eng
+Timestamped segments:
+[00:00.8 - 00:02.6] So I got these from Dr.
+[00:02.6 - 00:03.2] Malacin.
+[00:03.2 - 00:03.8] There's a Dr.
+[00:03.8 - 00:08.4] Malacin Zero Fit Blemish and Dark Spot Patch duo.
+[00:08.4 - 00:11.2] So the dark spot patches are really, really interesting.
+[00:11.2 - 00:16.0] So let's talk about the kind of, um, blemish patches first.
+[00:16.0 - 00:23.0] Um, these are for active blemishes with zinc PCA plus ingredients like, um, salicylic acid and sulfur.
+[00:23.0 - 00:26.0] And then you've got the dark spot patches.
+[00:26.0 - 00:36.1] Um, and these are for visible marks left behind by, um, blemishes with vitamin C, tranexamic acid, and niacinamide to help app- improve the appearance
+[00:36.1 - 00:37.9] of uneven-looking skin.
+[00:37.9 - 00:44.2] They're really, really thin as well, uh, so they sit really flat against the skin and can be worn under makeup.
+[00:44.2 - 00:53.0] I really like the idea of having one patch for the active blemish and then one patch for the inevitable dark spot that happens afterwards.
+Complete transcription result saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679809286230248737_converted_20260907_045058_transcription_20260907_045103.json
+Plain text transcription saved to: /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679809286230248737_converted_20260907_045058_transcription_20260907_045103.txt
+
+The video has been automatically converted to an audio file and saved at 7679809286230248737_converted_20260907_045058.mp3
+[2J[H[3Jmanus-speech-to-text 7679809286230248737.mp4
+Starting Speech-to-Text conversion...
+Video file detected: 7679809286230248737.mp4, file size: 8.46 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: 7679809286230248737_converted_20260907_045058.mp3, file size: 0.42 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.8 - 00:02.6] So I got these from Dr.
+[00:02.6 - 00:03.2] Malacin.
+[00:03.2 - 00:03.8] There's a Dr.
+[00:03.8 - 00:08.4] Malacin Zero Fit Blemish and Dark Spot Patch duo.
+[00:08.4 - 00:11.2] So the dark spot patches are really, really interesting.
+[00:11.2 - 00:16.0] So let's talk about the kind of, um, blemish patches first.
+[00:16.0 - 00:23.0] Um, these are for active blemishes with zinc PCA plus ingredients like, um, salicylic acid and sulfur.
+[00:23.0 - 00:26.0] And then you've got the dark spot patches.
+[00:26.0 - 00:36.1] Um, and these are for visible marks left behind by, um, blemishes with vitamin C, tranexamic acid, and niacinamide to help app- improve the appearance
+[00:36.1 - 00:37.9] of uneven-looking skin.
+[00:37.9 - 00:44.2] They're really, really thin as well, uh, so they sit really flat against the skin and can be worn under makeup.
+[00:44.2 - 00:53.0] I really like the idea of having one patch for the active blemish and then one patch for the inevitable dark spot that happens afterwards.
+
+The video has been automatically converted to an audio file and saved at 7679809286230248737_converted_20260907_045058.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679809286230248737_converted_20260907_045058_transcription_20260907_045103.json
+Plain text transcription saved to /home/ubuntu/pharma-script-gen/research/dr-melaxin-s-zinc-duo-benchmarks/7679809286230248737_converted_20260907_045058_transcription_20260907_045103.txt

@@ -1,0 +1,58 @@
+Starting Speech-to-Text conversion...
+Video file detected: /home/ubuntu/Downloads/riva_video2.mp4, file size: 5.68 MB
+File size exceeds limit, converting to audio (64kbps)...
+Converting video to audio (bitrate: 64k)...
+Audio conversion completed. Saved to: /home/ubuntu/Downloads/riva_video2_converted_20260801_001800.mp3
+Transcribing audio file: /home/ubuntu/Downloads/riva_video2_converted_20260801_001800.mp3, file size: 0.50 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 65.2 seconds
+Language: eng
+Timestamped segments:
+[00:00.1 - 00:02.9] This is fake, this is fake, this is fake, and this is fake.
+[00:02.9 - 00:13.1] If you are looking to buy the viral Physician's Choice Digestive Enzyme Complex, be very careful when purchasing this because since this has gone crazy viral, there have been multiple different shops just popping up with these, posting
+[00:13.1 - 00:16.6] the picture of the Physician's Choice ones, but you really don't know what you're getting.
+[00:16.6 - 00:21.6] As a pharmacist, it is very important to me to make sure you understand exactly how to know you're getting the right one.
+[00:21.6 - 00:27.2] A lot of people can just copy this label and just give you whatever, so you want to make sure you're getting it from Physician's Choice directly.
+[00:27.2 - 00:33.0] When you tap the orange cart below, it will pop up the screen, and it will say Physician's Choice with a blue check mark right next to it.
+[00:33.0 - 00:34.5] That's how you know you're getting the verified page.
+[00:34.5 - 00:39.2] Make sure you're not, like, scrolling down and clicking around, 'cause that's where you'll see all these other fake listings.
+[00:39.2 - 00:46.8] And unfortunately, supplements are not very well-regulated, so using a quality brand, like Physician's Choice, is a great formula, but you need to be very careful.
+[00:46.8 - 00:51.6] Digestive enzymes help with bloating, especially if you get that heavy bloating feeling after you eat.
+[00:51.6 - 00:55.1] It's great to take one of these just right before a meal, and people have seen such great results.
+[00:55.1 - 00:59.9] And I will also always have the official Physician's Choice link right down below on any of my videos.
+[00:59.9 - 01:02.4] I will link this right down below to make sure you're getting the right one.
+[01:02.4 - 01:05.1] And if you have any other questions, please leave it in the comments below.
+Complete transcription result saved to: /home/ubuntu/Downloads/riva_video2_converted_20260801_001800_transcription_20260801_001803.json
+Plain text transcription saved to: /home/ubuntu/Downloads/riva_video2_converted_20260801_001800_transcription_20260801_001803.txt
+
+The video has been automatically converted to an audio file and saved at /home/ubuntu/Downloads/riva_video2_converted_20260801_001800.mp3
+[2J[H[3Jmanus-speech-to-text --terminal-max-len-single=5000 /home/ubuntu/Downloads/riva_video2.mp4
+Starting Speech-to-Text conversion...
+Video file detected: /home/ubuntu/Downloads/riva_video2.mp4, file size: 5.68 MB
+File size exceeds limit, converting to audio (64kbps)...
+Transcribing audio file: /home/ubuntu/Downloads/riva_video2_converted_20260801_001800.mp3, file size: 0.50 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.1 - 00:02.9] This is fake, this is fake, this is fake, and this is fake.
+[00:02.9 - 00:13.1] If you are looking to buy the viral Physician's Choice Digestive Enzyme Complex, be very careful when purchasing this because since this has gone crazy viral, there have been multiple different shops just popping up with these, posting
+[00:13.1 - 00:16.6] the picture of the Physician's Choice ones, but you really don't know what you're getting.
+[00:16.6 - 00:21.6] As a pharmacist, it is very important to me to make sure you understand exactly how to know you're getting the right one.
+[00:21.6 - 00:27.2] A lot of people can just copy this label and just give you whatever, so you want to make sure you're getting it from Physician's Choice directly.
+[00:27.2 - 00:33.0] When you tap the orange cart below, it will pop up the screen, and it will say Physician's Choice with a blue check mark right next to it.
+[00:33.0 - 00:34.5] That's how you know you're getting the verified page.
+[00:34.5 - 00:39.2] Make sure you're not, like, scrolling down and clicking around, 'cause that's where you'll see all these other fake listings.
+[00:39.2 - 00:46.8] And unfortunately, supplements are not very well-regulated, so using a quality brand, like Physician's Choice, is a great formula, but you need to be very careful.
+[00:46.8 - 00:51.6] Digestive enzymes help with bloating, especially if you get that heavy bloating feeling after you eat.
+[00:51.6 - 00:55.1] It's great to take one of these just right before a meal, and people have seen such great results.
+[00:55.1 - 00:59.9] And I will also always have the official Physician's Choice link right down below on any of my videos.
+[00:59.9 - 01:02.4] I will link this right down below to make sure you're getting the right one.
+[01:02.4 - 01:05.1] And if you have any other questions, please leave it in the comments below.
+
+The video has been automatically converted to an audio file and saved at /home/ubuntu/Downloads/riva_video2_converted_20260801_001800.mp3
+
+Completed transcription, JSON saved to /home/ubuntu/Downloads/riva_video2_converted_20260801_001800_transcription_20260801_001803.json
+Plain text transcription saved to /home/ubuntu/Downloads/riva_video2_converted_20260801_001800_transcription_20260801_001803.txt
