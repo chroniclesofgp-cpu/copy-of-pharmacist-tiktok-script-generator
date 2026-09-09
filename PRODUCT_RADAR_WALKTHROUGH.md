@@ -33,7 +33,7 @@ Because the product is 120 days old, the mature-product formula applies:
 
 The source video describes 15–20% as **clearly accelerating**, so the Product Radar classifies this candidate as `clear`. This is not an AI judgment.
 
-The last seven daily observations contain five days within 20% of their seven-day average, so the stability requirement of 5+ similar days is met. Six of seven days are at least 100 units, so the minimum strength requirement of two days over 100 is met. The latest-day multiplier is:
+The last seven daily observations contain 6 days within 20% of their seven-day average (mean of 140.7 units; all days except the 190-unit day fall between 112.6 and 168.9), so the stability requirement of 5+ similar days is met. All 7 days are at least 100 units, so the minimum strength requirement of two days over 100 is met. The latest-day multiplier is:
 
 > 190 ÷ 145 = **1.31×**
 

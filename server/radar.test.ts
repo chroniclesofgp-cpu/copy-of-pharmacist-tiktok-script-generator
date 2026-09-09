@@ -32,6 +32,10 @@ describe("Product Radar deterministic scoring", () => {
     expect(metrics.totalSalesInRange).toBe(true);
     expect(metrics.videoSharePreferred).toBe(true);
     expect(metrics.concentrationBand).toBe("spread_out");
+    expect(metrics.stableDays).toBe(6);
+    expect(metrics.stablePattern).toBe(true);
+    expect(metrics.strongDays).toBe(7);
+    expect(metrics.strengthPattern).toBe(true);
   });
 
   it("uses 7-day / 30-day for products under 90 days", () => {
