@@ -18,7 +18,8 @@ const redirectToLoginIfUnauthorized = (error: unknown) => {
 
   if (!isUnauthorized) return;
 
-  window.location.href = getLoginUrl();
+  // Do not aggressively hijack the page on background queries; let UI present sign-in buttons when needed
+  console.warn("[Auth] Unauthenticated request caught by query cache:", error.message);
 };
 
 queryClient.getQueryCache().subscribe(event => {
