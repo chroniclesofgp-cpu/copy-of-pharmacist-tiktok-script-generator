@@ -5,6 +5,7 @@ import path from "path";
 import { exec } from "child_process";
 import { promisify } from "util";
 import { publicProcedure, router } from "../_core/trpc";
+import { ENV } from "../_core/env";
 import {
   parseTranscriptText,
   detectTakesAndGroups,
@@ -94,6 +95,7 @@ export const videoEditorRouter = router({
       let totalDuration = 0;
       let clipName = "custom_clip";
       let resolvedPath = "";
+      let extractionError = "";
 
       if (input.clipId && SAMPLE_CLIPS[input.clipId]) {
         const clip = SAMPLE_CLIPS[input.clipId];
@@ -130,24 +132,77 @@ export const videoEditorRouter = router({
         if (matchTxt) {
           text = fs.readFileSync(path.join(dir, matchTxt), "utf-8");
         } else {
-          // Run manus-speech-to-text
+          // Extract lightweight audio track and transcribe via Whisper API
+          const tempAudio = `/tmp/extract_${Date.now()}_${Math.random().toString(36).slice(2, 6)}.mp3`;
           try {
-            const { stdout } = await execAsync(`manus-speech-to-text "${resolvedPath}"`);
-            // Read generated txt
-            const txtMatch = stdout.match(/Plain text transcription saved to (.*\.txt)/);
-            if (txtMatch && fs.existsSync(txtMatch[1])) {
-              text = fs.readFileSync(txtMatch[1], "utf-8");
+            await execAsync(`ffmpeg -y -i "${resolvedPath}" -vn -acodec libmp3lame -ac 1 -ar 16000 -q:a 4 "${tempAudio}"`);
+
+            if (fs.existsSync(tempAudio) && ENV.forgeApiUrl && ENV.forgeApiKey) {
+              const audioBuffer = fs.readFileSync(tempAudio);
+              const formData = new FormData();
+              formData.append("file", new Blob([audioBuffer], { type: "audio/mpeg" }), "audio.mp3");
+              formData.append("model", "whisper-1");
+              formData.append("response_format", "verbose_json");
+
+              const whisperUrl = `${ENV.forgeApiUrl.replace(/\/$/, "")}/v1/audio/transcriptions`;
+              const whisperRes = await fetch(whisperUrl, {
+                method: "POST",
+                headers: { authorization: `Bearer ${ENV.forgeApiKey}` },
+                body: formData,
+              });
+
+              if (whisperRes.ok) {
+                const whisperData = (await whisperRes.json()) as any;
+                if (whisperData.segments && whisperData.segments.length > 0) {
+                  text = whisperData.segments
+                    .map((s: any) => {
+                      const startMin = Math.floor(s.start / 60);
+                      const startSec = (s.start % 60).toFixed(1).padStart(4, "0");
+                      const endMin = Math.floor(s.end / 60);
+                      const endSec = (s.end % 60).toFixed(1).padStart(4, "0");
+                      return `[${startMin.toString().padStart(2, "0")}:${startSec} - ${endMin.toString().padStart(2, "0")}:${endSec}] ${s.text.trim()}`;
+                    })
+                    .join("\n");
+
+                  // Cache the generated transcription alongside the uploaded file
+                  const cachePath = path.join(dir, `${base}_transcription.txt`);
+                  fs.writeFileSync(cachePath, text, "utf-8");
+                }
+              } else {
+                const errText = await whisperRes.text().catch(() => "");
+                extractionError = `Whisper API HTTP ${whisperRes.status}: ${errText.slice(0, 100)}`;
+                console.error("Whisper error:", whisperRes.status, errText);
+              }
             }
-          } catch (sttErr) {
-            console.error("STT conversion failed:", sttErr);
+          } catch (audioErr: any) {
+            extractionError = audioErr.message || String(audioErr);
+            console.error("Audio extraction / Whisper failed:", audioErr);
+          } finally {
+            try {
+              if (fs.existsSync(tempAudio)) fs.unlinkSync(tempAudio);
+            } catch {}
+          }
+
+          // Fallback to manus-speech-to-text if still empty and tool is present
+          if (!text.trim()) {
+            try {
+              const { stdout } = await execAsync(`manus-speech-to-text "${resolvedPath}"`);
+              const txtMatch = stdout.match(/Plain text transcription saved to (.*\.txt)/);
+              if (txtMatch && fs.existsSync(txtMatch[1])) {
+                text = fs.readFileSync(txtMatch[1], "utf-8");
+              }
+            } catch {
+              // Ignore fallback failure
+            }
           }
         }
       }
 
       if (!text.trim()) {
+        const detail = extractionError ? ` (${extractionError})` : "";
         throw new TRPCError({
           code: "BAD_REQUEST",
-          message: "No transcript text found or generated for this clip. Please paste transcript text or upload an audio/video with clear speech.",
+          message: `No speech or transcript detected for this clip${detail}. Please ensure the video has audible speech, or paste/upload a transcript.`,
         });
       }
 

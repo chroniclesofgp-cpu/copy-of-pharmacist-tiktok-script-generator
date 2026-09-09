@@ -563,3 +563,8 @@
 - [x] Update VideoEditor frontend to slice large video files into 10MB chunks with smooth progress tracking
 - [x] Handle automatic take detection after final chunk reassembly
 - [x] Test chunked upload end-to-end and save working checkpoint
+
+## Production Audio Extraction & Whisper Transcription — September 8, 2026
+- [x] Add root Dockerfile with ffmpeg for Cloud Run production deployment
+- [x] Implement server-side audio extraction and Forge Whisper API transcription in detectTakes
+- [x] Verify end-to-end transcription and take detection on uploaded footage and save checkpoint

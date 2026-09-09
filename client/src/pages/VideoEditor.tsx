@@ -88,12 +88,12 @@ export default function VideoEditor() {
     }
   }, [sampleClipsQuery.data]);
 
-  const handleRunDetection = async (clipId?: string) => {
+  const handleRunDetection = async (clipId?: string, overrideTranscript?: string) => {
     const targetClipId = clipId || selectedClipId;
     try {
       const res = await detectTakesMutation.mutateAsync({
         clipId: targetClipId,
-        transcriptText: inputMode === 'custom' ? customTranscript : undefined,
+        transcriptText: overrideTranscript || (inputMode === 'custom' ? customTranscript : undefined),
         leadInPaddingMs: settings.leadInPaddingMs,
         leadOutPaddingMs: settings.leadOutPaddingMs,
         audioBleedEnabled: settings.audioBleedEnabled,
@@ -177,6 +177,16 @@ export default function VideoEditor() {
     const files = Array.from(fileList);
     if (files.length === 0) return;
 
+    // Check for companion transcript files (.txt)
+    let companionTranscript = '';
+    const textFiles = files.filter(f => f.name.endsWith('.txt') || f.type.startsWith('text/'));
+    if (textFiles.length > 0) {
+      try {
+        companionTranscript = await textFiles[0].text();
+        setCustomTranscript(companionTranscript);
+      } catch {}
+    }
+
     const validFiles = files.filter(f => {
       const ext = f.name.toLowerCase();
       return (
@@ -218,8 +228,8 @@ export default function VideoEditor() {
         const videoFile = newFiles.find(f => !f.isTranscript);
         if (videoFile) {
           setSelectedClipId(videoFile.savedFilename);
-          toast.success(`Successfully uploaded ${newFiles.length} file(s)! Detecting takes...`);
-          handleRunDetection(videoFile.savedFilename);
+          toast.success(`Uploaded ${newFiles.length} file(s)! Extracting audio & analyzing takes...`);
+          handleRunDetection(videoFile.savedFilename, companionTranscript || undefined);
         } else {
           toast.success(`Uploaded ${newFiles.length} file(s)`);
         }
