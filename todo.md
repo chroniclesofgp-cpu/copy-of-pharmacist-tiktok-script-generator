@@ -596,3 +596,8 @@
 - [x] Fix FFmpeg filter script generator to separate filters with semicolons without a trailing semicolon (resolves "No such filter: ''" error)
 - [x] Truncate verbose FFmpeg error logs so UI toasts remain clean and concise
 - [x] Verify multi-take export rendering and save working checkpoint
+
+## Output Filename Path Sanitization Fix — September 9, 2026
+- [x] Sanitize clipId in outputFilename and ensure recursive directory creation for outputPath to prevent nested path "No such file or directory" error
+- [x] Ensure workDir also uses sanitized safe clipId
+- [x] Verify test suite and save working checkpoint

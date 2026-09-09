@@ -330,13 +330,15 @@ export const videoEditorRouter = router({
       }
 
       const timestamp = Date.now();
-      const workDir = `/tmp/render_${clipId}_${timestamp}`;
+      const safeId = path.basename(clipId).replace(/[^a-zA-Z0-9_-]/g, "_");
+      const workDir = `/tmp/render_${safeId}_${timestamp}`;
       fs.mkdirSync(workDir, { recursive: true });
 
       const targetWidth = settings.resolution === "1080p" ? 1080 : 720;
       const targetHeight = settings.resolution === "1080p" ? 1920 : 1280;
-      const outputFilename = `tiktok_cut_${clipId}_${timestamp}.mp4`;
+      const outputFilename = `tiktok_cut_${safeId}_${timestamp}.mp4`;
       const outputPath = path.join(EXPORT_DIR, outputFilename);
+      fs.mkdirSync(path.dirname(outputPath), { recursive: true });
       const filterScriptPath = path.join(workDir, "filter.txt");
 
       try {
