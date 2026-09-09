@@ -81,6 +81,7 @@ export const videoEditorRouter = router({
     .input(
       z.object({
         clipId: z.string().optional(),
+        filePath: z.string().optional(),
         transcriptText: z.string().optional(),
         leadInPaddingMs: z.number().optional().default(80),
         leadOutPaddingMs: z.number().optional().default(120),
@@ -92,20 +93,61 @@ export const videoEditorRouter = router({
       let text = input.transcriptText || "";
       let totalDuration = 0;
       let clipName = "custom_clip";
+      let resolvedPath = "";
 
       if (input.clipId && SAMPLE_CLIPS[input.clipId]) {
         const clip = SAMPLE_CLIPS[input.clipId];
         clipName = clip.id;
         totalDuration = clip.durationSeconds;
+        resolvedPath = clip.path;
         if (!text && clip.transcriptPath && fs.existsSync(clip.transcriptPath)) {
           text = fs.readFileSync(clip.transcriptPath, "utf-8");
+        }
+      } else if (input.filePath || input.clipId) {
+        const candidate = input.filePath || input.clipId || "";
+        const fullPath = path.isAbsolute(candidate) ? candidate : path.join(UPLOAD_DIR, path.basename(candidate));
+        if (fs.existsSync(fullPath)) {
+          resolvedPath = fullPath;
+          clipName = path.basename(fullPath);
+          // Probe duration
+          try {
+            const { stdout } = await execAsync(`ffprobe -v error -show_entries format=duration -of json "${fullPath}"`);
+            const probeData = JSON.parse(stdout);
+            totalDuration = parseFloat(probeData.format?.duration || "0");
+          } catch {
+            // Ignore probe failure
+          }
+        }
+      }
+
+      // If text is still empty, look for matching transcript file or run transcription
+      if (!text.trim() && resolvedPath) {
+        const dir = path.dirname(resolvedPath);
+        const base = path.basename(resolvedPath, path.extname(resolvedPath));
+        // Look for existing transcript
+        const files = fs.readdirSync(dir);
+        const matchTxt = files.find(f => f.startsWith(base) && f.endsWith(".txt") && f.includes("transcription"));
+        if (matchTxt) {
+          text = fs.readFileSync(path.join(dir, matchTxt), "utf-8");
+        } else {
+          // Run manus-speech-to-text
+          try {
+            const { stdout } = await execAsync(`manus-speech-to-text "${resolvedPath}"`);
+            // Read generated txt
+            const txtMatch = stdout.match(/Plain text transcription saved to (.*\.txt)/);
+            if (txtMatch && fs.existsSync(txtMatch[1])) {
+              text = fs.readFileSync(txtMatch[1], "utf-8");
+            }
+          } catch (sttErr) {
+            console.error("STT conversion failed:", sttErr);
+          }
         }
       }
 
       if (!text.trim()) {
         throw new TRPCError({
           code: "BAD_REQUEST",
-          message: "No transcript text found or provided for analysis.",
+          message: "No transcript text found or generated for this clip. Please paste transcript text or upload an audio/video with clear speech.",
         });
       }
 
@@ -151,18 +193,20 @@ export const videoEditorRouter = router({
     .mutation(async ({ input }) => {
       const { clipId, selectedTakes, settings } = input;
 
-      if (!SAMPLE_CLIPS[clipId]) {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-          message: `Sample clip ${clipId} not found.`,
-        });
+      let sourcePath = "";
+      if (SAMPLE_CLIPS[clipId]) {
+        sourcePath = SAMPLE_CLIPS[clipId].path;
+      } else {
+        const candidate = path.isAbsolute(clipId) ? clipId : path.join(UPLOAD_DIR, path.basename(clipId));
+        if (fs.existsSync(candidate)) {
+          sourcePath = candidate;
+        }
       }
 
-      const sourceClip = SAMPLE_CLIPS[clipId];
-      if (!fs.existsSync(sourceClip.path)) {
+      if (!sourcePath || !fs.existsSync(sourcePath)) {
         throw new TRPCError({
           code: "NOT_FOUND",
-          message: `Source video file ${sourceClip.path} does not exist on disk.`,
+          message: `Source video file ${clipId} not found on disk.`,
         });
       }
 
@@ -189,7 +233,7 @@ export const videoEditorRouter = router({
           const startSec = Math.max(0, take.paddedStart || take.startTime);
           const durSec = Math.max(0.5, take.duration || (take.paddedEnd - take.paddedStart));
 
-          const cutCmd = `ffmpeg -y -ss ${startSec.toFixed(3)} -t ${durSec.toFixed(3)} -i "${sourceClip.path}" -vf "scale=${targetWidth}:${targetHeight}:force_original_aspect_ratio=decrease,pad=${targetWidth}:${targetHeight}:(ow-iw)/2:(oh-ih)/2,fps=${settings.fps}" -c:v libx264 -preset veryfast -crf 22 -c:a aac -ar 48000 -ac 1 -b:a 128k "${takeFile}"`;
+          const cutCmd = `ffmpeg -y -ss ${startSec.toFixed(3)} -t ${durSec.toFixed(3)} -i "${sourcePath}" -vf "scale=${targetWidth}:${targetHeight}:force_original_aspect_ratio=decrease,pad=${targetWidth}:${targetHeight}:(ow-iw)/2:(oh-ih)/2,fps=${settings.fps}" -c:v libx264 -preset veryfast -crf 22 -c:a aac -ar 48000 -ac 1 -b:a 128k "${takeFile}"`;
           await execAsync(cutCmd);
           takeFiles.push(takeFile);
         }

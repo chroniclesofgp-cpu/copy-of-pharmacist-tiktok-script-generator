@@ -552,3 +552,8 @@
 - [x] Research publicly observable CutAI behavior and compare it with the proposed MVP.
 - [x] Define TikTok-first export defaults, including vertical 9:16 output unless testing indicates a better source-preserving behavior.
 - [x] Test the workflow against representative footage and save a working checkpoint.
+
+## Multi-Clip File Selection & Drag-and-Drop Fix — September 8, 2026
+- [x] Wire genuine file picker input and drag-and-drop handlers on Multi-Clip Upload zone in VideoEditor
+- [x] Support handling uploaded clips (display file list with sizes, thumbnail/preview, and transcription/take detection)
+- [x] Test file selection and drag-and-drop in browser and save a new working checkpoint

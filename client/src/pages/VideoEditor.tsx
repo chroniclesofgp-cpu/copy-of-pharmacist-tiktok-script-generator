@@ -65,6 +65,22 @@ export default function VideoEditor() {
   } | null>(null);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
 
+  // Multi-clip upload state
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [isDragging, setIsDragging] = useState<boolean>(false);
+  const [isUploading, setIsUploading] = useState<boolean>(false);
+  const [uploadProgress, setUploadProgress] = useState<number>(0);
+  const [uploadedClips, setUploadedClips] = useState<Array<{
+    id: string;
+    originalName: string;
+    savedFilename: string;
+    savedPath: string;
+    fileSizeBytes: number;
+    mimeType: string;
+    isTranscript: boolean;
+    url: string;
+  }>>([]);
+
   // Auto-analyze selected sample clip on initial load if available
   useEffect(() => {
     if (sampleClipsQuery.data && sampleClipsQuery.data.length > 0 && !detectionResult && !detectTakesMutation.isPending) {
@@ -76,7 +92,7 @@ export default function VideoEditor() {
     const targetClipId = clipId || selectedClipId;
     try {
       const res = await detectTakesMutation.mutateAsync({
-        clipId: inputMode === 'sample' ? targetClipId : undefined,
+        clipId: targetClipId,
         transcriptText: inputMode === 'custom' ? customTranscript : undefined,
         leadInPaddingMs: settings.leadInPaddingMs,
         leadOutPaddingMs: settings.leadOutPaddingMs,
@@ -106,6 +122,102 @@ export default function VideoEditor() {
       ...prev,
       [groupId]: takeId,
     }));
+  };
+
+  // Multi-file selection and upload handler
+  const handleFileSelect = (fileList: FileList | File[]) => {
+    const files = Array.from(fileList);
+    if (files.length === 0) return;
+
+    const validFiles = files.filter(f => {
+      const ext = f.name.toLowerCase();
+      return (
+        f.type.startsWith('video/') ||
+        f.type.startsWith('text/') ||
+        ext.endsWith('.mp4') ||
+        ext.endsWith('.mov') ||
+        ext.endsWith('.webm') ||
+        ext.endsWith('.m4v') ||
+        ext.endsWith('.txt') ||
+        ext.endsWith('.srt') ||
+        ext.endsWith('.vtt')
+      );
+    });
+
+    if (validFiles.length === 0) {
+      toast.error('Please upload valid video files (MP4, MOV, WebM, M4V) or transcripts (TXT)');
+      return;
+    }
+
+    setIsUploading(true);
+    setUploadProgress(5);
+
+    const formData = new FormData();
+    validFiles.forEach(f => {
+      formData.append('files', f);
+    });
+
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', '/api/editor/upload');
+
+    xhr.upload.onprogress = (event) => {
+      if (event.lengthComputable) {
+        const percent = Math.round((event.loaded / event.total) * 100);
+        setUploadProgress(percent);
+      }
+    };
+
+    xhr.onload = () => {
+      setIsUploading(false);
+      if (xhr.status >= 200 && xhr.status < 300) {
+        try {
+          const data = JSON.parse(xhr.responseText);
+          if (data.files && data.files.length > 0) {
+            setUploadedClips(prev => [...prev, ...data.files]);
+            const videoFile = data.files.find((f: any) => !f.isTranscript);
+            if (videoFile) {
+              setSelectedClipId(videoFile.savedFilename);
+              toast.success(`Uploaded ${data.files.length} file(s)! Detecting takes...`);
+              handleRunDetection(videoFile.savedFilename);
+            } else {
+              toast.success(`Uploaded ${data.files.length} file(s)`);
+            }
+          }
+        } catch {
+          toast.error('Failed to parse upload response');
+        }
+      } else {
+        toast.error('Upload failed. Please check format and try again.');
+      }
+    };
+
+    xhr.onerror = () => {
+      setIsUploading(false);
+      toast.error('Network error during file upload');
+    };
+
+    xhr.send(formData);
+  };
+
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(true);
+  };
+
+  const handleDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+    if (e.dataTransfer?.files && e.dataTransfer.files.length > 0) {
+      handleFileSelect(e.dataTransfer.files);
+    }
   };
 
   // Compute currently selected takes across all groups
@@ -328,18 +440,118 @@ export default function VideoEditor() {
 
             {/* Upload Zone */}
             {inputMode === 'upload' && (
-              <div className="border-2 border-dashed border-white/15 rounded-xl p-5 text-center bg-white/[0.02]">
-                <Upload className="w-7 h-7 text-white/30 mx-auto mb-2" />
-                <h4 className="text-xs font-semibold text-white/80">Drop Raw TikTok Clips</h4>
-                <p className="text-[11px] text-white/40 mt-1">Accepts multiple MOV or MP4 video files</p>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="mt-3 text-xs border-white/20 text-white/80 hover:bg-white/10"
-                  onClick={() => toast.info('For sandbox testing, use the 2 pre-loaded 4K iPhone creator recordings above.')}
+              <div className="space-y-3">
+                {/* Hidden file input */}
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  multiple
+                  accept="video/mp4,video/quicktime,video/webm,video/x-m4v,.mp4,.mov,.webm,.m4v,.txt,.srt"
+                  className="hidden"
+                  onChange={e => {
+                    if (e.target.files) handleFileSelect(e.target.files);
+                    e.target.value = '';
+                  }}
+                />
+
+                {/* Drag and Drop Box */}
+                <div
+                  onDragOver={handleDragOver}
+                  onDragLeave={handleDragLeave}
+                  onDrop={handleDrop}
+                  onClick={() => fileInputRef.current?.click()}
+                  className={`border-2 border-dashed rounded-xl p-5 text-center cursor-pointer transition-all ${
+                    isDragging
+                      ? 'border-teal-400 bg-teal-500/10 scale-[1.01]'
+                      : 'border-white/15 bg-white/[0.02] hover:border-white/30 hover:bg-white/[0.04]'
+                  }`}
                 >
-                  Choose Files
-                </Button>
+                  <Upload className={`w-7 h-7 mx-auto mb-2 transition-colors ${isDragging ? 'text-teal-400 animate-bounce' : 'text-white/40'}`} />
+                  <h4 className="text-xs font-semibold text-white/90">
+                    {isDragging ? 'Drop video files here' : 'Drop Raw TikTok Clips Here'}
+                  </h4>
+                  <p className="text-[11px] text-white/40 mt-1">
+                    Select multiple MOV, MP4, WebM clips or transcripts
+                  </p>
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    className="mt-3 text-xs border-teal-500/30 text-teal-300 hover:bg-teal-500/10"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      fileInputRef.current?.click();
+                    }}
+                  >
+                    <Upload className="w-3 h-3 mr-1.5" />
+                    Choose Files
+                  </Button>
+                </div>
+
+                {/* Upload Progress Bar */}
+                {isUploading && (
+                  <div className="bg-white/5 border border-white/10 rounded-lg p-3 space-y-1.5">
+                    <div className="flex justify-between text-xs">
+                      <span className="text-white/70">Uploading footage...</span>
+                      <span className="font-mono text-teal-400 font-semibold">{uploadProgress}%</span>
+                    </div>
+                    <div className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden">
+                      <div
+                        style={{ width: `${uploadProgress}%` }}
+                        className="h-full bg-teal-400 transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                )}
+
+                {/* Uploaded Clips List */}
+                {uploadedClips.length > 0 && (
+                  <div className="space-y-2 pt-1">
+                    <label className="text-[11px] font-medium text-white/40 uppercase tracking-wider block">
+                      Uploaded Footage ({uploadedClips.length})
+                    </label>
+                    {uploadedClips.map((clip) => {
+                      const isSelected = selectedClipId === clip.savedFilename;
+                      return (
+                        <div
+                          key={clip.id}
+                          onClick={() => {
+                            setSelectedClipId(clip.savedFilename);
+                            handleRunDetection(clip.savedFilename);
+                          }}
+                          className={`p-2.5 rounded-lg border text-xs cursor-pointer transition-all flex items-center justify-between gap-2 ${
+                            isSelected
+                              ? 'bg-teal-500/10 border-teal-500/40 text-white'
+                              : 'bg-white/5 border-white/10 text-white/70 hover:bg-white/[0.08]'
+                          }`}
+                        >
+                          <div className="flex items-center gap-2 min-w-0">
+                            <FileVideo className={`w-3.5 h-3.5 flex-shrink-0 ${isSelected ? 'text-teal-400' : 'text-white/40'}`} />
+                            <div className="min-w-0">
+                              <p className="font-medium truncate text-[11px] text-white/90">{clip.originalName}</p>
+                              <p className="text-[10px] text-white/40 font-mono">
+                                {(clip.fileSizeBytes / (1024 * 1024)).toFixed(1)} MB
+                              </p>
+                            </div>
+                          </div>
+                          {isSelected ? (
+                            <Badge className="bg-teal-500/20 text-teal-300 border-teal-500/30 text-[9px]">
+                              Active
+                            </Badge>
+                          ) : (
+                            <Button
+                              size="sm"
+                              variant="ghost"
+                              className="h-6 px-2 text-[10px] text-white/50 hover:text-white"
+                            >
+                              Select
+                            </Button>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             )}
 

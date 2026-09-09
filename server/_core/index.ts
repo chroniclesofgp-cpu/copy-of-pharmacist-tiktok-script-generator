@@ -5,6 +5,7 @@ import net from "net";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerUploadRoute } from "../uploadRoute";
+import { registerVideoEditorUploadRoute } from "../routers/videoEditorUpload";
 import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
@@ -40,6 +41,8 @@ async function startServer() {
   registerOAuthRoutes(app);
   // Video file upload endpoint
   registerUploadRoute(app as unknown as import('express').Router);
+  // Multi-clip video editor upload endpoint (streamed to disk up to 2GB)
+  registerVideoEditorUploadRoute(app as unknown as import('express').Router);
   // Serve video editor exports from outside git tracking directory
   const exportStaticDir = "/home/ubuntu/webdev-static-assets/exports";
   if (!fs.existsSync(exportStaticDir)) {
