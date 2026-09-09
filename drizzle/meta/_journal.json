@@ -71,6 +71,13 @@
       "when": 1786897857535,
       "tag": "0009_brave_madripoor",
       "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1788926763849,
+      "tag": "0010_daily_skullbuster",
+      "breakpoints": true
     }
   ]
 }

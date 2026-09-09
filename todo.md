@@ -551,3 +551,34 @@
 - [x] Validate cross-document statuses, filenames, tests, and production build — status-reference checks passed; 267 tests passed; production build passed.
 - [x] Save a checkpoint and confirm synchronization with the Claude-side copies — checkpoint pending.
 
+
+
+## Fresh Copy Session Scope — September 2026
+
+- [x] Confirm this is a fresh independent copy with its own project state, database contents, and checkpoint history.
+- [x] Preserve the copied pharmacist TikTok script-generation codebase and documentation as reference material.
+- [ ] Await the user's next explicitly requested feature, fix, or workflow change before starting new implementation work.
+
+> Source-project tasks are not being continued automatically in this copy. The potential video-editor work and documentation follow-ups remain reference options until explicitly selected by the user.
+
+
+## Linked Video Review and AI Product-Selection Automation — September 2026
+
+- [x] Inspect the supplied YouTube video and identify the demonstrated product-selection and AI-automation workflow.
+- [x] Produce a raw transcript of the supplied YouTube video, preserving wording and uncertainty where audio is unclear.
+- [x] Assess which parts of the demonstrated workflow can be implemented in this copied project and identify required integrations, credentials, and hosting constraints.
+- [x] Present at least two viable implementation approaches, including a lighter-weight alternative, before beginning build work.
+
+
+## CSV-first Product Radar — User-Requested Build
+
+- [x] Add product-candidate, daily-sales-observation, and provider-import metadata persistence inside the existing project.
+- [x] Add configurable screening profiles with editable sales, ratio, daily-pattern, sales-source, concentration, rating, and commission thresholds.
+- [x] Add CSV upload and validation for manually exported FastMoss/Kalodata data.
+- [x] Implement deterministic metric calculations for sales ranges, mature/new-product acceleration, daily-sales patterns, sales-source split, and top-video concentration.
+- [x] Add Product Radar UI showing raw data, calculated metrics, confidence notes, review status, and creator-fit operational fields.
+- [x] Add campaign-planning handoff for approved products without bypassing product-intelligence, evidence, or compliance gates.
+- [x] Keep AI-assisted video-pattern summaries and creator-fit briefs separate from the deterministic score and prevent them from overriding it.
+- [x] Test ratio and threshold calculations against the source-video worked example.
+- [x] Walk one realistic sample product through CSV import, scoring, review status, and compliance-gated campaign handoff.
+- [x] Provide a build walkthrough and sample-product verification results before treating the feature as ready to use.
