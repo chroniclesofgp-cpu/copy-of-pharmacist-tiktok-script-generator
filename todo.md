@@ -557,3 +557,9 @@
 - [x] Wire genuine file picker input and drag-and-drop handlers on Multi-Clip Upload zone in VideoEditor
 - [x] Support handling uploaded clips (display file list with sizes, thumbnail/preview, and transcription/take detection)
 - [x] Test file selection and drag-and-drop in browser and save a new working checkpoint
+
+## Chunked Upload & Gateway Limit Fix — September 8, 2026
+- [x] Implement chunked upload endpoint (/api/editor/upload-chunk) with 10MB chunk slicing to bypass Cloud Run 32MB payload limit
+- [x] Update VideoEditor frontend to slice large video files into 10MB chunks with smooth progress tracking
+- [x] Handle automatic take detection after final chunk reassembly
+- [x] Test chunked upload end-to-end and save working checkpoint

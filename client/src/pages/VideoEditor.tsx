@@ -124,8 +124,56 @@ export default function VideoEditor() {
     }));
   };
 
-  // Multi-file selection and upload handler
-  const handleFileSelect = (fileList: FileList | File[]) => {
+  // Slices large video files into 10MB chunks to safely bypass Cloud Run 32MB gateway limits
+  const CHUNK_SIZE = 10 * 1024 * 1024; // 10MB
+
+  const uploadFileInChunks = async (file: File) => {
+    const totalSize = file.size;
+    const totalChunks = Math.ceil(totalSize / CHUNK_SIZE);
+    const fileId = `upload_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+
+    for (let chunkIndex = 0; chunkIndex < totalChunks; chunkIndex++) {
+      const start = chunkIndex * CHUNK_SIZE;
+      const end = Math.min(totalSize, start + CHUNK_SIZE);
+      const chunkBlob = file.slice(start, end);
+
+      const formData = new FormData();
+      formData.append('fileId', fileId);
+      formData.append('chunkIndex', chunkIndex.toString());
+      formData.append('totalChunks', totalChunks.toString());
+      formData.append('filename', file.name);
+      formData.append('totalSize', totalSize.toString());
+      formData.append('chunk', chunkBlob, file.name);
+
+      const res = await fetch('/api/editor/upload-chunk', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (!res.ok) {
+        let errMsg = `Upload chunk ${chunkIndex + 1}/${totalChunks} failed`;
+        try {
+          const errJson = await res.json();
+          if (errJson.error) errMsg = errJson.error;
+        } catch {
+          // Ignore json parse error
+        }
+        throw new Error(errMsg);
+      }
+
+      const data = await res.json();
+      const currentPct = Math.round(((chunkIndex + 1) / totalChunks) * 100);
+      setUploadProgress(currentPct);
+
+      if (data.completed && data.file) {
+        return data.file;
+      }
+    }
+    return null;
+  };
+
+  // Multi-file selection and upload handler using chunking
+  const handleFileSelect = async (fileList: FileList | File[]) => {
     const files = Array.from(fileList);
     if (files.length === 0) return;
 
@@ -150,53 +198,37 @@ export default function VideoEditor() {
     }
 
     setIsUploading(true);
-    setUploadProgress(5);
+    setUploadProgress(0);
 
-    const formData = new FormData();
-    validFiles.forEach(f => {
-      formData.append('files', f);
-    });
-
-    const xhr = new XMLHttpRequest();
-    xhr.open('POST', '/api/editor/upload');
-
-    xhr.upload.onprogress = (event) => {
-      if (event.lengthComputable) {
-        const percent = Math.round((event.loaded / event.total) * 100);
-        setUploadProgress(percent);
-      }
-    };
-
-    xhr.onload = () => {
-      setIsUploading(false);
-      if (xhr.status >= 200 && xhr.status < 300) {
-        try {
-          const data = JSON.parse(xhr.responseText);
-          if (data.files && data.files.length > 0) {
-            setUploadedClips(prev => [...prev, ...data.files]);
-            const videoFile = data.files.find((f: any) => !f.isTranscript);
-            if (videoFile) {
-              setSelectedClipId(videoFile.savedFilename);
-              toast.success(`Uploaded ${data.files.length} file(s)! Detecting takes...`);
-              handleRunDetection(videoFile.savedFilename);
-            } else {
-              toast.success(`Uploaded ${data.files.length} file(s)`);
-            }
-          }
-        } catch {
-          toast.error('Failed to parse upload response');
+    try {
+      const newFiles: any[] = [];
+      for (let i = 0; i < validFiles.length; i++) {
+        const file = validFiles[i];
+        toast.info(`Uploading ${file.name} (${(file.size / (1024 * 1024)).toFixed(1)} MB)...`);
+        const uploadedFile = await uploadFileInChunks(file);
+        if (uploadedFile) {
+          newFiles.push(uploadedFile);
         }
-      } else {
-        toast.error('Upload failed. Please check format and try again.');
       }
-    };
 
-    xhr.onerror = () => {
       setIsUploading(false);
-      toast.error('Network error during file upload');
-    };
 
-    xhr.send(formData);
+      if (newFiles.length > 0) {
+        setUploadedClips(prev => [...prev, ...newFiles]);
+        const videoFile = newFiles.find(f => !f.isTranscript);
+        if (videoFile) {
+          setSelectedClipId(videoFile.savedFilename);
+          toast.success(`Successfully uploaded ${newFiles.length} file(s)! Detecting takes...`);
+          handleRunDetection(videoFile.savedFilename);
+        } else {
+          toast.success(`Uploaded ${newFiles.length} file(s)`);
+        }
+      }
+    } catch (err: any) {
+      setIsUploading(false);
+      console.error('Upload error:', err);
+      toast.error(err.message || 'Error during file upload');
+    }
   };
 
   const handleDragOver = (e: React.DragEvent) => {
