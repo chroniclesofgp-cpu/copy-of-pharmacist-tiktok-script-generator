@@ -2,6 +2,13 @@ import { useState, useRef, useEffect } from 'react';
 import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from '@/components/ui/dialog';
 import { toast } from 'sonner';
 import { trpc } from '@/lib/trpc';
 import {
@@ -32,6 +39,7 @@ import {
   Flame,
   Split,
   Check,
+  Copy,
 } from 'lucide-react';
 import {
   TakeItem,
@@ -51,18 +59,24 @@ export default function VideoEditor() {
 
   // State
   const [selectedClipId, setSelectedClipId] = useState<string>('IMG_7546');
+  const [selectedVideoUrl, setSelectedVideoUrl] = useState<string | undefined>(undefined);
   const [customTranscript, setCustomTranscript] = useState<string>('');
   const [inputMode, setInputMode] = useState<'sample' | 'custom' | 'upload'>('sample');
   const [settings, setSettings] = useState<EditSettings>(DEFAULT_EDIT_SETTINGS);
   const [detectionResult, setDetectionResult] = useState<DetectionResult | null>(null);
   const [selectedTakeMap, setSelectedTakeMap] = useState<Record<string, string>>({}); // groupId -> takeId
   const [activePreviewTake, setActivePreviewTake] = useState<TakeItem | null>(null);
+  const [isExportModalOpen, setIsExportModalOpen] = useState<boolean>(false);
   const [renderedOutput, setRenderedOutput] = useState<{
     outputUrl: string;
     outputFilename: string;
     durationSeconds: number;
     fileSizeBytes: number;
     takeCount: number;
+    audioBleedApplied?: boolean;
+    bleedDurationMs?: number;
+    resolution?: string;
+    fps?: number;
   } | null>(null);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
 
@@ -235,6 +249,7 @@ export default function VideoEditor() {
         const videoFile = newFiles.find(f => !f.isTranscript);
         if (videoFile) {
           setSelectedClipId(videoFile.savedFilename);
+          setSelectedVideoUrl(videoFile.url);
           toast.success(`Uploaded ${newFiles.length} file(s) to cloud! Extracting speech & analyzing takes...`);
           handleRunDetection(videoFile.savedFilename, companionTranscript || undefined, videoFile.url);
         } else {
@@ -297,13 +312,17 @@ export default function VideoEditor() {
       return;
     }
 
-    try {
-      toast.info('Rendering TikTok video with FFmpeg & Audio Bleed...');
-      const matchingUploaded = uploadedClips.find(c => c.savedFilename === selectedClipId || c.url === selectedClipId || c.id === selectedClipId);
+    const matchingUploaded = uploadedClips.find(
+      c => c.savedFilename === selectedClipId || c.url === selectedClipId || c.id === selectedClipId
+    );
+    const targetUrl = selectedVideoUrl || matchingUploaded?.url;
 
+    setIsExportModalOpen(true);
+
+    try {
       const result = await renderVideoMutation.mutateAsync({
         clipId: selectedClipId,
-        videoUrl: matchingUploaded?.url,
+        videoUrl: targetUrl,
         selectedTakes: currentSelectedTakes.map(t => ({
           id: t.id,
           startTime: t.startTime,
@@ -317,8 +336,8 @@ export default function VideoEditor() {
       });
 
       setRenderedOutput(result);
-      toast.success('Video rendered successfully! Ready for TikTok.');
     } catch (err: any) {
+      setIsExportModalOpen(false);
       toast.error(err.message || 'Failed to render video');
     }
   };
@@ -569,7 +588,8 @@ export default function VideoEditor() {
                           key={clip.id}
                           onClick={() => {
                             setSelectedClipId(clip.savedFilename);
-                            handleRunDetection(clip.savedFilename);
+                            setSelectedVideoUrl(clip.url);
+                            handleRunDetection(clip.savedFilename, undefined, clip.url);
                           }}
                           className={`p-2.5 rounded-lg border text-xs cursor-pointer transition-all flex items-center justify-between gap-2 ${
                             isSelected
@@ -1001,6 +1021,125 @@ export default function VideoEditor() {
           </div>
         </div>
       </div>
+
+      {/* ── Export & Preview Modal ─────────────────────────────────────────── */}
+      <Dialog open={isExportModalOpen} onOpenChange={setIsExportModalOpen}>
+        <DialogContent className="bg-[#0c1222] border-white/10 text-white max-w-xl max-h-[90vh] overflow-y-auto">
+          {renderVideoMutation.isPending ? (
+            <div className="py-8 flex flex-col items-center justify-center text-center space-y-5">
+              <div className="relative">
+                <div className="w-16 h-16 rounded-full border-2 border-teal-500/20 border-t-teal-400 animate-spin" />
+                <Sparkles className="w-6 h-6 text-teal-400 absolute inset-0 m-auto" />
+              </div>
+              <div className="space-y-1.5">
+                <h3 className="text-base font-bold text-white tracking-tight">
+                  Assembling TikTok 9:16 Video
+                </h3>
+                <p className="text-xs text-white/50">
+                  Single-pass FFmpeg trim & audio bleed in progress...
+                </p>
+              </div>
+
+              <div className="w-full max-w-sm bg-white/5 rounded-lg p-3 text-left space-y-2 border border-white/5 text-xs text-white/70">
+                <div className="flex items-center gap-2 text-teal-300">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>{currentSelectedTakes.length} clean takes selected</span>
+                </div>
+                <div className="flex items-center gap-2 text-teal-300">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>{currentSavingsPercent}% dead air and retakes cut</span>
+                </div>
+                <div className="flex items-center gap-2 text-teal-300">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>{settings.audioBleedEnabled ? `${settings.audioBleedDurationMs}ms audio bleed enabled` : 'Zero-gap jump cuts'}</span>
+                </div>
+                <div className="flex items-center gap-2 text-teal-400 animate-pulse">
+                  <RotateCcw className="w-3.5 h-3.5 animate-spin" />
+                  <span>Encoding vertical 9:16 MP4 on cloud...</span>
+                </div>
+              </div>
+            </div>
+          ) : renderedOutput ? (
+            <div className="space-y-4 py-2">
+              <DialogHeader>
+                <div className="flex items-center gap-2">
+                  <div className="w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+                    <Check className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <DialogTitle className="text-base font-bold text-white">
+                      TikTok 9:16 Video Ready!
+                    </DialogTitle>
+                    <DialogDescription className="text-xs text-white/50">
+                      Assembled {renderedOutput.takeCount} clean takes · {renderedOutput.audioBleedApplied ? `${renderedOutput.bleedDurationMs}ms Audio Bleed` : 'Jump Cuts'}
+                    </DialogDescription>
+                  </div>
+                </div>
+              </DialogHeader>
+
+              {/* Video Player Preview */}
+              <div className="relative aspect-[9/16] max-h-[380px] mx-auto bg-black rounded-xl overflow-hidden border border-white/20 shadow-2xl">
+                <video
+                  src={renderedOutput.outputUrl}
+                  controls
+                  autoPlay
+                  playsInline
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Stats row */}
+              <div className="grid grid-cols-3 gap-2 text-center text-xs">
+                <div className="bg-white/5 rounded-lg p-2 border border-white/5">
+                  <div className="text-[10px] text-white/40">Duration</div>
+                  <div className="font-bold text-teal-300 font-mono">
+                    {formatSecondsToTimestamp(renderedOutput.durationSeconds)}
+                  </div>
+                </div>
+                <div className="bg-white/5 rounded-lg p-2 border border-white/5">
+                  <div className="text-[10px] text-white/40">Takes Kept</div>
+                  <div className="font-bold text-white/90">
+                    {renderedOutput.takeCount} / {detectionResult?.takeGroups.length || 0}
+                  </div>
+                </div>
+                <div className="bg-white/5 rounded-lg p-2 border border-white/5">
+                  <div className="text-[10px] text-white/40">File Size</div>
+                  <div className="font-bold text-white/90 font-mono">
+                    {(renderedOutput.fileSizeBytes / (1024 * 1024)).toFixed(1)} MB
+                  </div>
+                </div>
+              </div>
+
+              {/* Download & Copy Buttons */}
+              <div className="flex items-center gap-2 pt-2">
+                <a
+                  href={renderedOutput.outputUrl}
+                  download={renderedOutput.outputFilename}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex-1"
+                >
+                  <Button className="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-xs h-10 shadow-lg shadow-emerald-500/20">
+                    <Download className="w-4 h-4 mr-1.5" />
+                    Download 9:16 MP4
+                  </Button>
+                </a>
+                <Button
+                  variant="outline"
+                  onClick={() => {
+                    navigator.clipboard.writeText(renderedOutput.outputUrl);
+                    toast.success('Video link copied to clipboard!');
+                  }}
+                  className="border-white/10 text-white/70 hover:text-white text-xs h-10 px-3"
+                >
+                  <Copy className="w-3.5 h-3.5 mr-1" />
+                  Copy Link
+                </Button>
+              </div>
+            </div>
+          ) : null}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

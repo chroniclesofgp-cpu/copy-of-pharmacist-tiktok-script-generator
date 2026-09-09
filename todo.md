@@ -585,3 +585,9 @@
 - [x] Guard detectTakes against calling fs.readdirSync on remote HTTP/HTTPS CloudFront URLs
 - [x] Add robust logging for audio extraction and Whisper API status
 - [x] Verify test suite and save working checkpoint
+
+## Fast Single-Pass Video Export & Export Modal — September 8, 2026
+- [x] Replace slow 22-loop sequential FFmpeg cutting with single-pass filter_complex trim, concat, and acrossfade
+- [x] Add dedicated in-app Export Progress dialog with animated step indicators instead of corner info toast
+- [x] Add Export Success modal with embedded video player, stats, and direct download button
+- [x] Verify multi-take export rendering performance and save checkpoint

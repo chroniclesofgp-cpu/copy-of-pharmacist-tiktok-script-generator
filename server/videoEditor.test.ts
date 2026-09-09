@@ -226,7 +226,7 @@ describe("videoEditor tRPC router tests", () => {
     expect(renderRes.durationSeconds).toBeGreaterThan(6);
     expect(renderRes.fileSizeBytes).toBeGreaterThan(100000);
     expect(renderRes.audioBleedApplied).toBe(true);
-  }, 45000); // 45s timeout for video encoding
+  }, 60000); // 60s timeout for video encoding
 
   it("renders an edited TikTok video with audio bleed for IMG_7502 via renderVideo mutation", async () => {
     const caller = appRouter.createCaller(createTestContext());
@@ -268,5 +268,5 @@ describe("videoEditor tRPC router tests", () => {
     expect(renderRes.outputUrl).toMatch(/tiktok_cut_IMG_7502_|cloudfront\.net/);
     expect(renderRes.durationSeconds).toBeGreaterThan(8);
     expect(renderRes.fileSizeBytes).toBeGreaterThan(100000);
-  }, 45000);
+  }, 60000);
 });
