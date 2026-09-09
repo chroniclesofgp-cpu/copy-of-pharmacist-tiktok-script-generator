@@ -269,6 +269,13 @@ export class KalodataAdapter {
     // Commission rate
     const commRate = Number(rawDetail7d?.commission_rate ?? rawRank?.commission_rate ?? 15);
 
+    // Count videos with >= 1,000,000 views
+    const videosOver1MViews = rawTopVideos.filter((v) => Number(v.views ?? 0) >= 1_000_000).length;
+
+    // Extract active creator count if provided by Kalodata rank or detail
+    const rawCreatorCount = (rawRank as any)?.creator_count ?? (rawDetail7d as any)?.creator_count ?? (rawRank as any)?.author_count;
+    const activeCreatorCount = typeof rawCreatorCount === "number" && rawCreatorCount >= 0 ? rawCreatorCount : undefined;
+
     // Rating / review count
     const reviewCount = rawDetail7d?.product_review_count ?? 100;
     const rating = reviewCount > 50 ? 4.6 : 4.2;
@@ -293,6 +300,8 @@ export class KalodataAdapter {
       category: rawDetail7d?.pri_cate_id ? `Category ${rawDetail7d.pri_cate_id}` : undefined,
       productUrl: `https://www.tiktok.com/view/product/${snapshot.productId}`,
       productAgeDays,
+      activeCreatorCount,
+      videosOver1MViews,
       totalSales,
       sales7d,
       sales30d,

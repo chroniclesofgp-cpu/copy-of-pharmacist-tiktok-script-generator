@@ -210,6 +210,8 @@ export const radarCandidates = mysqlTable("radarCandidates", {
   category: varchar("category", { length: 120 }),
   productUrl: text("productUrl"),
   productAgeDays: int("productAgeDays"),
+  activeCreatorCount: int("activeCreatorCount"),
+  videosOver1MViews: int("videosOver1MViews"),
   rawDataJson: text("rawDataJson").notNull(),
   metricsJson: text("metricsJson").notNull(),
   confidenceNotes: text("confidenceNotes"),

@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "wouter";
-import { AlertTriangle, BookMarked, CheckCircle2, ExternalLink, FileSpreadsheet, Globe, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Zap } from "lucide-react";
+import { AlertTriangle, BookMarked, CheckCircle2, ExternalLink, FileSpreadsheet, Flame, Globe, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -16,9 +16,12 @@ export default function ProductRadar() {
   const utils = trpc.useUtils();
   const { data: profileData } = trpc.radar.getProfile.useQuery();
   const { data: kalodataStatus } = trpc.radar.getKalodataStatus.useQuery();
+  const { data: presetProfiles } = trpc.radar.getPresets.useQuery();
+  const { data: savedProfiles = [] } = trpc.radar.listProfiles.useQuery();
   const { data: candidates = [], isLoading } = trpc.radar.listCandidates.useQuery();
   const [profile, setProfile] = useState<RadarProfileConfig>(DEFAULT_RADAR_PROFILE);
-  const [profileName, setProfileName] = useState("Default health and skincare screen");
+  const [profileName, setProfileName] = useState("Coach A Range (2,000–40,000)");
+  const [selectedProfileKey, setSelectedProfileKey] = useState("coach_a");
   const [provider, setProvider] = useState("FastMoss CSV");
   const [activeInputTab, setActiveInputTab] = useState<"kalodata" | "csv">("kalodata");
   const [searchKeyword, setSearchKeyword] = useState("Magnesium");
@@ -31,6 +34,12 @@ export default function ProductRadar() {
   const [showRawSnapshot, setShowRawSnapshot] = useState(false);
 
   const saveProfile = trpc.radar.saveProfile.useMutation({ onSuccess: () => setNotice("Screening profile saved.") });
+  const recalculateAll = trpc.radar.recalculateCandidatesWithProfile.useMutation({
+    onSuccess: (res) => {
+      setNotice(`Re-evaluated ${res.count} candidate(s) against "${profileName}".`);
+      void utils.radar.listCandidates.invalidate();
+    },
+  });
   const importCsv = trpc.radar.importCsv.useMutation({ onSuccess: (result) => { setNotice(`Imported ${result.validRows} candidate rows with ${result.errors.length} validation errors.`); void utils.radar.listCandidates.invalidate(); setUploading(false); }, onError: (error) => { setNotice(error.message); setUploading(false); } });
   const searchKalodata = trpc.radar.searchKalodata.useMutation({
     onSuccess: (res) => {
@@ -147,9 +156,63 @@ export default function ProductRadar() {
       <div className="grid gap-6 xl:grid-cols-[360px_1fr]">
         <aside className="space-y-6">
           <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardHeader><CardTitle className="flex items-center gap-2 text-base"><SlidersHorizontal className="h-4 w-4 text-cyan-300" /> Screening profile</CardTitle></CardHeader><CardContent className="space-y-4">
+            <div>
+              <Label className="text-xs text-slate-300">Profile Presets & Saved</Label>
+              <select
+                className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/30 px-2 text-xs text-slate-200"
+                value={selectedProfileKey}
+                onChange={(e) => {
+                  const key = e.target.value;
+                  setSelectedProfileKey(key);
+                  if (presetProfiles && presetProfiles[key]) {
+                    setProfile(presetProfiles[key].config);
+                    setProfileName(presetProfiles[key].name);
+                  } else {
+                    const custom = savedProfiles.find((p) => String(p.id) === key);
+                    if (custom) {
+                      setProfile(custom.config);
+                      setProfileName(custom.name);
+                    }
+                  }
+                }}
+              >
+                <optgroup label="Standard Presets">
+                  <option value="coach_a">Coach A Range (2,000–40,000 total sales)</option>
+                  <option value="coach_b">Coach B Range (1,000–9,000 total sales)</option>
+                </optgroup>
+                {savedProfiles.length > 0 && (
+                  <optgroup label="Your Saved Profiles">
+                    {savedProfiles.map((p) => (
+                      <option key={p.id} value={String(p.id)}>
+                        {p.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                )}
+              </select>
+            </div>
             <div><Label>Profile name</Label><Input className="mt-1 border-white/10 bg-black/20" value={profileName} onChange={(e) => setProfileName(e.target.value)} /></div>
-            <div className="grid grid-cols-2 gap-3">{([["minTotalSales", "Min total sales"], ["maxTotalSales", "Max total sales"], ["matureAgeDays", "Mature age days"], ["veryNewAgeDays", "Very new age days"], ["accelerationStartingPct", "Starting %"], ["accelerationClearPct", "Clear %"], ["accelerationStrongPct", "Strong %"], ["stableDaysRequired", "Stable days"], ["stableVariancePct", "Stable variance %"], ["strongDayUnits", "Strong day units"], ["strongDaysMinimum", "Strong days min"], ["latestDayAccelerationMultiplier", "Latest multiplier"], ["videoShareMinimumPct", "Video share min %"], ["topVideoSpreadMaxPct", "Spread max %"], ["topVideoWatchMaxPct", "Watch max %"], ["ratingMinimum", "Rating min"], ["commissionAfterAdsMinimumPct", "Commission min %"]] as const).map(([key, label]) => <div key={key}><Label className="text-xs text-slate-400">{label}</Label><Input type="number" step="any" className="mt-1 border-white/10 bg-black/20" value={profile[key]} onChange={(e) => setNumber(key, e.target.value)} /></div>)}</div>
-            <div className="flex gap-2"><Button className="flex-1" onClick={() => saveProfile.mutate({ name: profileName, config: profile })}>Save profile</Button><Button variant="outline" className="border-white/10 bg-transparent" onClick={() => setProfile(DEFAULT_RADAR_PROFILE)}><RefreshCw className="h-4 w-4" /></Button></div>
+            <div className="grid grid-cols-2 gap-3">{([["minTotalSales", "Min total sales"], ["maxTotalSales", "Max total sales"], ["matureAgeDays", "Mature age days"], ["veryNewAgeDays", "Very new age days"], ["accelerationStartingPct", "Starting %"], ["accelerationClearPct", "Clear %"], ["accelerationStrongPct", "Strong %"], ["stableDaysRequired", "Stable days"], ["stableVariancePct", "Stable variance %"], ["strongDayUnits", "Strong day units"], ["strongDaysMinimum", "Strong days min"], ["latestDayAccelerationMultiplier", "Latest multiplier"], ["videoShareMinimumPct", "Video share min %"], ["topVideoSpreadMaxPct", "Spread max %"], ["topVideoWatchMaxPct", "Watch max %"], ["highCompetitionCreatorThreshold", "Max competitors"], ["videosOver1MViewsThreshold", "Min 1M+ videos"], ["ratingMinimum", "Rating min"], ["commissionAfterAdsMinimumPct", "Commission min %"]] as const).map(([key, label]) => <div key={key}><Label className="text-xs text-slate-400">{label}</Label><Input type="number" step="any" className="mt-1 border-white/10 bg-black/20" value={profile[key]} onChange={(e) => setNumber(key, e.target.value)} /></div>)}</div>
+            <div className="flex flex-col gap-2">
+              <div className="flex gap-2">
+                <Button className="flex-1 bg-cyan-600 hover:bg-cyan-500 text-white" onClick={() => saveProfile.mutate({ name: profileName, config: profile })}>
+                  Save profile
+                </Button>
+                <Button variant="outline" className="border-white/10 bg-transparent" title="Reset to Coach A default" onClick={() => setProfile(DEFAULT_RADAR_PROFILE)}>
+                  <RefreshCw className="h-4 w-4" />
+                </Button>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-full border-cyan-500/30 bg-cyan-500/10 text-cyan-300 hover:bg-cyan-500/20 text-xs"
+                disabled={recalculateAll.isPending}
+                onClick={() => recalculateAll.mutate({ profile })}
+              >
+                <RefreshCw className={`mr-1.5 h-3.5 w-3.5 ${recalculateAll.isPending ? "animate-spin" : ""}`} />
+                {recalculateAll.isPending ? "Re-scoring..." : "Apply & Rescore All Candidates"}
+              </Button>
+            </div>
           </CardContent></Card>
 
           {/* Data Intake Tabs: Kalodata Live API vs CSV */}
@@ -261,6 +324,9 @@ export default function ProductRadar() {
                     <input type="file" accept=".csv,text/csv" className="hidden" disabled={uploading} onChange={(e) => { const file = e.target.files?.[0]; if (file) handleUpload(file); }} />
                   </label>
                   <p className="text-xs leading-5 text-slate-500">Required columns: product name, total sales, and 7-day sales. Optional dailySalesJson array.</p>
+                  <p className="text-[11px] leading-4 text-slate-400">
+                    Optional competition columns: <code className="text-slate-300 font-mono">active_creators</code> (threshold &gt;300 flags high competition), <code className="text-slate-300 font-mono">videos_over_1m</code> (ad backing signal).
+                  </p>
                 </div>
               )}
             </CardContent>
@@ -270,7 +336,22 @@ export default function ProductRadar() {
         </aside>
 
         <main className="space-y-6"><div className="flex items-center justify-between"><div><p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p><h2 className="mt-1 text-xl font-semibold">{candidates.length} imported products</h2></div><div className="text-right text-xs text-slate-500">{isLoading ? "Loading…" : "Scores are deterministic"}</div></div>
-          {!candidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">No product candidates yet.</p><p className="max-w-md text-sm text-slate-500">Import a FastMoss or Kalodata export to calculate the first transparent radar pass.</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{candidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div><div className="mt-4 grid grid-cols-3 gap-2 text-xs"><div><p className="text-slate-500">Acceleration</p><p className="mt-1 font-medium text-cyan-200">{String(m.accelerationBand ?? "—")}</p></div><div><p className="text-slate-500">Signals</p><p className="mt-1 font-medium">{String(m.deterministicSignalsMet ?? 0)}/{String(m.deterministicSignalsConsidered ?? 0)}</p></div><div><p className="text-slate-500">Handoff</p><p className="mt-1 font-medium">{candidate.handoffStatus === "not_ready" ? "Blocked" : "Ready"}</p></div></div></button>; })}</div>
+          {!candidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">No product candidates yet.</p><p className="max-w-md text-sm text-slate-500">Import a FastMoss or Kalodata export to calculate the first transparent radar pass.</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{candidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div>
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              {candidate.activeCreatorCount != null && (
+                <span className={`inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded ${m.isHighCompetition ? "bg-amber-500/20 text-amber-300 border border-amber-500/30" : "bg-white/5 text-slate-300"}`}>
+                  <Users className="h-2.5 w-2.5" />
+                  {candidate.activeCreatorCount} creators {m.isHighCompetition ? "(High Saturation)" : ""}
+                </span>
+              )}
+              {candidate.videosOver1MViews != null && candidate.videosOver1MViews > 0 && (
+                <span className="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded bg-violet-500/20 text-violet-300 border border-violet-500/30">
+                  <Flame className="h-2.5 w-2.5" />
+                  {candidate.videosOver1MViews} video(s) &gt;1M views
+                </span>
+              )}
+            </div>
+            <div className="mt-3 grid grid-cols-3 gap-2 text-xs"><div><p className="text-slate-500">Acceleration</p><p className="mt-1 font-medium text-cyan-200">{String(m.accelerationBand ?? "—")}</p></div><div><p className="text-slate-500">Signals</p><p className="mt-1 font-medium">{String(m.deterministicSignalsMet ?? 0)}/{String(m.deterministicSignalsConsidered ?? 0)}</p></div><div><p className="text-slate-500">Handoff</p><p className="mt-1 font-medium">{candidate.handoffStatus === "not_ready" ? "Blocked" : "Ready"}</p></div></div></button>; })}</div>
             {selected && (
               <CandidateDetail
                 candidate={selected}
@@ -399,6 +480,10 @@ function CandidateDetail({
               ["Concentration", m.concentrationBand],
               ["Rating", raw.rating ?? "—"],
               ["Commission", raw.commissionAfterAdsPct != null ? `${raw.commissionAfterAdsPct}%` : "—"],
+              ["Active creators", raw.activeCreatorCount ?? candidate.activeCreatorCount ?? "—"],
+              ["Creator saturation", m.isHighCompetition === true ? "High (>300)" : m.isHighCompetition === false ? "Manageable" : "—"],
+              ["1M+ view videos", raw.videosOver1MViews ?? candidate.videosOver1MViews ?? "—"],
+              ["Ad backing", m.hasHighViewVideoBacking === true ? "Verified (>=1)" : m.hasHighViewVideoBacking === false ? "None recorded" : "—"],
             ].map(([label, value]) => (
               <div key={String(label)} className="rounded-lg border border-white/10 bg-black/20 p-3">
                 <p className="text-[11px] text-slate-500">{label}</p>
@@ -406,6 +491,22 @@ function CandidateDetail({
               </div>
             ))}
           </div>
+          {m.isHighCompetition && (
+            <div className="mt-3 rounded-lg border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-200 flex items-center gap-2">
+              <AlertTriangle className="h-4 w-4 shrink-0 text-amber-400" />
+              <span>
+                <strong>High Competitor Saturation:</strong> {String(raw.activeCreatorCount ?? candidate.activeCreatorCount)} creators are actively promoting this product. Consider differentiation angles carefully.
+              </span>
+            </div>
+          )}
+          {m.hasHighViewVideoBacking && (
+            <div className="mt-2 rounded-lg border border-violet-500/30 bg-violet-500/10 p-3 text-xs text-violet-200 flex items-center gap-2">
+              <Flame className="h-4 w-4 shrink-0 text-violet-400" />
+              <span>
+                <strong>Ad-Spend / Viral Backing:</strong> {String(raw.videosOver1MViews ?? candidate.videosOver1MViews)} video(s) on this product have cleared 1M views, signaling proven buyer interest.
+              </span>
+            </div>
+          )}
           <div className="mt-3 rounded-lg border border-white/10 bg-black/20 p-3 text-xs leading-5 text-slate-400">
             <strong className="text-slate-200">Confidence notes:</strong> {candidate.confidenceNotes || "No confidence notes."}
           </div>

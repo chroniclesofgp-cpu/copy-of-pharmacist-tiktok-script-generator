@@ -22,6 +22,8 @@ export type RadarProfileConfig = {
   topVideoWatchMaxPct: number;
   ratingMinimum: number;
   commissionAfterAdsMinimumPct: number;
+  highCompetitionCreatorThreshold: number;
+  videosOver1MViewsThreshold: number;
 };
 
 export const DEFAULT_RADAR_PROFILE: RadarProfileConfig = {
@@ -45,6 +47,35 @@ export const DEFAULT_RADAR_PROFILE: RadarProfileConfig = {
   topVideoWatchMaxPct: 70,
   ratingMinimum: 4,
   commissionAfterAdsMinimumPct: 10,
+  highCompetitionCreatorThreshold: 300,
+  videosOver1MViewsThreshold: 1,
+};
+
+export const COACH_A_PROFILE: RadarProfileConfig = {
+  ...DEFAULT_RADAR_PROFILE,
+  minTotalSales: 2000,
+  maxTotalSales: 40000,
+};
+
+export const COACH_B_PROFILE: RadarProfileConfig = {
+  ...DEFAULT_RADAR_PROFILE,
+  minTotalSales: 1000,
+  maxTotalSales: 9000,
+};
+
+export const PRESET_PROFILES: Record<string, { id: string; name: string; description: string; config: RadarProfileConfig }> = {
+  coach_a: {
+    id: "coach_a",
+    name: "Coach A Range (2,000–40,000)",
+    description: "Standard mature velocity band: 2k–40k total sales, 8–20% acceleration, <=300 competitors",
+    config: COACH_A_PROFILE,
+  },
+  coach_b: {
+    id: "coach_b",
+    name: "Coach B Range (1,000–9,000)",
+    description: "Early breakout velocity band: 1k–9k total sales, tighter saturation ceiling, <=300 competitors",
+    config: COACH_B_PROFILE,
+  },
 };
 
 export type RadarRawRow = {
@@ -54,6 +85,8 @@ export type RadarRawRow = {
   category?: string;
   productUrl?: string;
   productAgeDays?: number;
+  activeCreatorCount?: number;
+  videosOver1MViews?: number;
   totalSales: number;
   sales7d: number;
   sales28d?: number;
@@ -88,6 +121,10 @@ export type RadarMetrics = {
   concentrationBand: "spread_out" | "watch" | "high_risk_single_video" | "unknown";
   ratingMinimumMet: boolean | null;
   commissionMinimumMet: boolean | null;
+  activeCreatorCount: number | null;
+  isHighCompetition: boolean | null;
+  videosOver1MViews: number | null;
+  hasHighViewVideoBacking: boolean | null;
   confidenceNotes: string[];
   deterministicSignalsMet: number;
   deterministicSignalsConsidered: number;
@@ -127,7 +164,29 @@ export function calculateRadarMetrics(raw: RadarRawRow, profile: RadarProfileCon
   if (raw.topVideoSalesPct === undefined) confidenceNotes.push("Top-video concentration is missing.");
   if (raw.rating === undefined) confidenceNotes.push("Rating is missing; rating gate is not counted.");
   if (raw.commissionAfterAdsPct === undefined) confidenceNotes.push("Commission after ads is missing; commission gate is not counted.");
-  const considered = 6 + (raw.rating === undefined ? 0 : 1) + (raw.commissionAfterAdsPct === undefined ? 0 : 1);
+
+  const isHighCompetition = raw.activeCreatorCount !== undefined ? raw.activeCreatorCount > profile.highCompetitionCreatorThreshold : null;
+  if (raw.activeCreatorCount !== undefined) {
+    if (isHighCompetition) {
+      confidenceNotes.push(`High creator competition: ${raw.activeCreatorCount} active creators (> ${profile.highCompetitionCreatorThreshold} threshold).`);
+    } else {
+      confidenceNotes.push(`Competitive density manageable: ${raw.activeCreatorCount} active creators (<= ${profile.highCompetitionCreatorThreshold}).`);
+    }
+  }
+
+  const hasHighViewVideoBacking = raw.videosOver1MViews !== undefined ? raw.videosOver1MViews >= profile.videosOver1MViewsThreshold : null;
+  if (raw.videosOver1MViews !== undefined) {
+    if (hasHighViewVideoBacking) {
+      confidenceNotes.push(`Strong ad-spend backing verified: ${raw.videosOver1MViews} video(s) over 1M views.`);
+    } else {
+      confidenceNotes.push(`Zero 1M+ view videos recorded (limited verified viral ad backing).`);
+    }
+  }
+
+  let considered = 6 + (raw.rating === undefined ? 0 : 1) + (raw.commissionAfterAdsPct === undefined ? 0 : 1);
+  if (raw.activeCreatorCount !== undefined) considered += 1;
+  if (raw.videosOver1MViews !== undefined) considered += 1;
+
   const met = [
     raw.totalSales >= profile.minTotalSales && raw.totalSales <= profile.maxTotalSales,
     classifyAcceleration(accelerationPct, profile) === "clear" || classifyAcceleration(accelerationPct, profile) === "strong",
@@ -138,6 +197,12 @@ export function calculateRadarMetrics(raw: RadarRawRow, profile: RadarProfileCon
     raw.rating === undefined ? false : raw.rating >= profile.ratingMinimum,
     raw.commissionAfterAdsPct === undefined ? false : raw.commissionAfterAdsPct >= profile.commissionAfterAdsMinimumPct,
   ];
+  if (raw.activeCreatorCount !== undefined) {
+    met.push(raw.activeCreatorCount <= profile.highCompetitionCreatorThreshold);
+  }
+  if (raw.videosOver1MViews !== undefined) {
+    met.push(raw.videosOver1MViews >= profile.videosOver1MViewsThreshold);
+  }
   const topVideoConcentrationPct = raw.topVideoSalesPct ?? null;
   const concentrationBand = topVideoConcentrationPct === null ? "unknown" : topVideoConcentrationPct < profile.topVideoSpreadMaxPct ? "spread_out" : topVideoConcentrationPct <= profile.topVideoWatchMaxPct ? "watch" : "high_risk_single_video";
   return {
@@ -158,6 +223,10 @@ export function calculateRadarMetrics(raw: RadarRawRow, profile: RadarProfileCon
     concentrationBand,
     ratingMinimumMet: raw.rating === undefined ? null : raw.rating >= profile.ratingMinimum,
     commissionMinimumMet: raw.commissionAfterAdsPct === undefined ? null : raw.commissionAfterAdsPct >= profile.commissionAfterAdsMinimumPct,
+    activeCreatorCount: raw.activeCreatorCount ?? null,
+    isHighCompetition,
+    videosOver1MViews: raw.videosOver1MViews ?? null,
+    hasHighViewVideoBacking,
     confidenceNotes,
     deterministicSignalsMet: met.filter(Boolean).length,
     deterministicSignalsConsidered: considered,
@@ -178,7 +247,7 @@ export function suggestedReviewStatus(metrics: RadarMetrics): ReviewStatus {
 export type CsvValidationResult = { rows: RadarRawRow[]; errors: Array<{ row: number; message: string }> };
 
 const aliases: Record<string, string[]> = {
-  provider: ["provider", "source"], externalProductId: ["externalProductId", "product_id", "product id", "id"], productName: ["productName", "product_name", "product", "name"], category: ["category", "niche"], productUrl: ["productUrl", "product_url", "url"], productAgeDays: ["productAgeDays", "product_age_days", "age_days"], totalSales: ["totalSales", "total_sales", "total units sold", "total units"], sales7d: ["sales7d", "7d sales", "7 day sales", "7_days"], sales30d: ["sales30d", "30d sales", "30 day sales"], sales90d: ["sales90d", "90d sales", "90 day sales"], sales28d: ["sales28d", "28d sales", "28 day sales"], yesterdaySales: ["yesterdaySales", "yesterday sales"], price: ["price"], commissionAfterAdsPct: ["commissionAfterAdsPct", "commission after ads", "commission %", "commission"], rating: ["rating", "stars"], videoSalesPct: ["videoSalesPct", "video sales %", "video share"], liveSalesPct: ["liveSalesPct", "live sales %"], productCardSalesPct: ["productCardSalesPct", "product card sales %"], topVideoSalesPct: ["topVideoSalesPct", "top video concentration", "top video %"], dailySales: ["dailySalesJson", "daily sales json", "daily_sales_json"],
+  provider: ["provider", "source"], externalProductId: ["externalProductId", "product_id", "product id", "id"], productName: ["productName", "product_name", "product", "name"], category: ["category", "niche"], productUrl: ["productUrl", "product_url", "url"], productAgeDays: ["productAgeDays", "product_age_days", "age_days"], totalSales: ["totalSales", "total_sales", "total units sold", "total units"], sales7d: ["sales7d", "7d sales", "7 day sales", "7_days"], sales30d: ["sales30d", "30d sales", "30 day sales"], sales90d: ["sales90d", "90d sales", "90 day sales"], sales28d: ["sales28d", "28d sales", "28 day sales"], yesterdaySales: ["yesterdaySales", "yesterday sales"], price: ["price"], commissionAfterAdsPct: ["commissionAfterAdsPct", "commission after ads", "commission %", "commission"], rating: ["rating", "stars"], videoSalesPct: ["videoSalesPct", "video sales %", "video share"], liveSalesPct: ["liveSalesPct", "live sales %"], productCardSalesPct: ["productCardSalesPct", "product card sales %"], topVideoSalesPct: ["topVideoSalesPct", "top video concentration", "top video %"], activeCreatorCount: ["activeCreatorCount", "active_creator_count", "active_creators", "creator_count", "creators", "competitor_count", "competitor_creators", "active creators"], videosOver1MViews: ["videosOver1MViews", "videos_over_1m_views", "videos_over_1m", "videos_1m_views", "high_view_videos", "1m_videos", "viral_videos", "1m+ videos", "videos > 1m"], dailySales: ["dailySalesJson", "daily sales json", "daily_sales_json"],
 };
 
 function findValue(record: Record<string, string>, field: string): string | undefined {
@@ -230,6 +299,8 @@ export function parseRadarCsv(csv: string): CsvValidationResult {
       category: findValue(record, "category") || undefined,
       productUrl: findValue(record, "productUrl") || undefined,
       productAgeDays: finite(findValue(record, "productAgeDays")),
+      activeCreatorCount: finite(findValue(record, "activeCreatorCount")),
+      videosOver1MViews: finite(findValue(record, "videosOver1MViews")),
       totalSales: requiredNumbers[0][1]!,
       sales7d: requiredNumbers[1][1]!,
       sales28d: finite(findValue(record, "sales28d")),

@@ -591,3 +591,12 @@
 - [x] Implement rate-limiting, exponential backoff, retry handling, and raw response snapshotting for auditability.
 - [x] Build user-triggered on-demand refresh UI in Product Radar while maintaining the evidence/compliance gate.
 - [x] Write unit and integration tests for Kalodata adapter, rate limiting, and response mapping, and verify end-to-end.
+
+## Phase 3: Competitor Count, 1M+ Views Backing Signal, and Named Switchable Profiles
+
+- [x] Add activeCreatorCount and videosOver1MViews columns to database schema and migration.
+- [x] Update CSV parser and RadarRawRow to parse optional competitor/creator count and 1M+ view video count.
+- [x] Add configurable highCompetitionCreatorThreshold (default 300) to screening profile config and deterministic metrics.
+- [x] Update radarRouter to support named switchable profile presets and multiple saved profiles (e.g. Coach A 2,000–40,000 vs Coach B 1,000–9,000).
+- [x] Update ProductRadar UI with new metrics cards, competition warning badges, and named profile switcher dropdown.
+- [x] Write vitest tests for new fields, competition threshold logic, and switchable profiles.
