@@ -353,34 +353,36 @@ export const videoEditorRouter = router({
           const durSec = Math.max(0.5, take.duration || (take.paddedEnd - take.paddedStart));
 
           inputArgs.push(`-ss ${startSec.toFixed(3)} -t ${durSec.toFixed(3)} -i "${sourcePath}"`);
-          vScales.push(
+        }
+
+        const filterElements: string[] = [];
+
+        // 1. Scale all video streams to vertical 9:16
+        for (let i = 0; i < n; i++) {
+          filterElements.push(
             `[${i}:v]scale=${targetWidth}:${targetHeight}:force_original_aspect_ratio=decrease,pad=${targetWidth}:${targetHeight}:(ow-iw)/2:(oh-ih)/2,fps=${settings.fps}[v${i}]`
           );
         }
 
-        const filterLines: string[] = [];
-
-        // 1. Scale all video streams to vertical 9:16
-        filterLines.push(vScales.join("; ") + ";");
-
         // 2. Video concatenation
         const vInputs = Array.from({ length: n }, (_, i) => `[v${i}]`).join("");
-        filterLines.push(`${vInputs}concat=n=${n}:v=1:a=0[outv];`);
+        filterElements.push(`${vInputs}concat=n=${n}:v=1:a=0[outv]`);
 
         // 3. Audio concatenation or acrossfade bleed
         if (!settings.audioBleedEnabled || settings.audioBleedDurationMs <= 0 || n === 1) {
           const aInputs = Array.from({ length: n }, (_, i) => `[${i}:a]`).join("");
-          filterLines.push(`${aInputs}concat=n=${n}:v=0:a=1[outa]`);
+          filterElements.push(`${aInputs}concat=n=${n}:v=0:a=1[outa]`);
         } else {
           let lastAudio = "[0:a]";
           for (let i = 1; i < n; i++) {
             const nextAudio = i === n - 1 ? "[outa]" : `[aud${i}]`;
-            filterLines.push(`${lastAudio}[${i}:a]acrossfade=d=${bleedSec}:c1=tri:c2=tri${nextAudio};`);
+            filterElements.push(`${lastAudio}[${i}:a]acrossfade=d=${bleedSec}:c1=tri:c2=tri${nextAudio}`);
             lastAudio = nextAudio;
           }
         }
 
-        const filterScriptContent = filterLines.join("\n");
+        // Separate filter elements by semicolon with NO trailing semicolon at end
+        const filterScriptContent = filterElements.join(";\n");
         fs.writeFileSync(filterScriptPath, filterScriptContent);
 
         console.log(`[RenderVideo] Running fast-seek render for ${n} takes on ${sourcePath.slice(0, 80)}...`);
@@ -417,9 +419,15 @@ export const videoEditorRouter = router({
         };
       } catch (error) {
         console.error("FFmpeg render error:", error);
+        let cleanMsg = error instanceof Error ? error.message : "Failed to render video";
+        if (cleanMsg.length > 250) {
+          const lines = cleanMsg.split("\n");
+          const errorLines = lines.filter(l => l.toLowerCase().includes("error") || l.toLowerCase().includes("invalid"));
+          cleanMsg = errorLines.length > 0 ? errorLines.slice(-2).join(" ") : cleanMsg.slice(-150);
+        }
         throw new TRPCError({
           code: "INTERNAL_SERVER_ERROR",
-          message: error instanceof Error ? error.message : "Failed to render video",
+          message: cleanMsg,
         });
       } finally {
         // Cleanup temporary workDir

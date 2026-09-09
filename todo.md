@@ -591,3 +591,8 @@
 - [x] Add dedicated in-app Export Progress dialog with animated step indicators instead of corner info toast
 - [x] Add Export Success modal with embedded video player, stats, and direct download button
 - [x] Verify multi-take export rendering performance and save checkpoint
+
+## FFmpeg Filter Script Trailing Semicolon Fix — September 8, 2026
+- [x] Fix FFmpeg filter script generator to separate filters with semicolons without a trailing semicolon (resolves "No such filter: ''" error)
+- [x] Truncate verbose FFmpeg error logs so UI toasts remain clean and concise
+- [x] Verify multi-take export rendering and save working checkpoint
