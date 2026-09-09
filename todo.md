@@ -541,9 +541,9 @@
 - [x] Provide a realistic build-complexity assessment, reliability limits, and phased implementation recommendation — recommend a reviewable rough-cut assistant before any fully automatic final-cut behavior.
 
 ## Personal Script-Aware Video Auto-Editor — Clarified Requirements
-- [ ] Replace subjective take scoring with transcript-only adjacent-repeat detection: retain only the last take in a cluster of materially equivalent spoken utterances, with no script import or selector.
-- [ ] Make the default edit style zero-gap, with no preserved breathing room between selected takes.
-- [ ] Include an adjustable outgoing-audio bleed/crossfade into the next clip to create a continuous fast-paced TikTok Shop delivery.
+- [x] Scope decision: transcript-only adjacent-repeat detection is deferred and not part of the user's CSV-first Product Radar request.
+- [x] Scope decision: zero-gap video editing is deferred and not part of the user's CSV-first Product Radar request.
+- [x] Scope decision: adjustable audio bleed/crossfade is deferred and not part of the user's CSV-first Product Radar request.
 
 ## Canonical Documentation Reconciliation — September 8, 2026
 - [x] Compare the three attached v2 documents with live project copies and record any differences — all three differed from the live copies; attached versions are now canonical.
@@ -557,7 +557,7 @@
 
 - [x] Confirm this is a fresh independent copy with its own project state, database contents, and checkpoint history.
 - [x] Preserve the copied pharmacist TikTok script-generation codebase and documentation as reference material.
-- [ ] Await the user's next explicitly requested feature, fix, or workflow change before starting new implementation work.
+- [x] User explicitly requested the CSV-first Product Radar build; implementation scope was added below and completed.
 
 > Source-project tasks are not being continued automatically in this copy. The potential video-editor work and documentation follow-ups remain reference options until explicitly selected by the user.
 
