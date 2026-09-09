@@ -6,6 +6,7 @@ import { exec } from "child_process";
 import { promisify } from "util";
 import { publicProcedure, router } from "../_core/trpc";
 import { ENV } from "../_core/env";
+import { storagePut } from "../storage";
 import { UPLOAD_DIR, EXPORT_DIR } from "../lib/editorPaths";
 import {
   parseTranscriptText,
@@ -54,6 +55,33 @@ const SAMPLE_CLIPS: Record<string, SampleClipMetadata> = {
 
 export const videoEditorRouter = router({
   /**
+   * Get direct Forge S3 storage upload URL and credentials.
+   * Allows the browser to upload large 4K video files directly to Cloud S3,
+   * bypassing Cloud Run container memory and payload size limits.
+   */
+  getUploadUrl: publicProcedure
+    .input(
+      z.object({
+        filename: z.string(),
+        contentType: z.string().optional(),
+      })
+    )
+    .mutation(async ({ input }) => {
+      const fileId = `upload_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+      const safeName = input.filename.replace(/[^a-zA-Z0-9._-]/g, "_");
+      const key = `video-editor/${fileId}_${safeName}`;
+      const baseUrl = ENV.forgeApiUrl.endsWith("/") ? ENV.forgeApiUrl : `${ENV.forgeApiUrl}/`;
+      const uploadUrl = new URL("v1/storage/upload", baseUrl);
+      uploadUrl.searchParams.set("path", key);
+      return {
+        uploadUrl: uploadUrl.toString(),
+        key,
+        fileId,
+        authToken: ENV.forgeApiKey,
+      };
+    }),
+
+  /**
    * List available sample raw footage clips
    */
   getSampleClips: publicProcedure.query(async () => {
@@ -75,6 +103,7 @@ export const videoEditorRouter = router({
     .input(
       z.object({
         clipId: z.string().optional(),
+        videoUrl: z.string().optional(),
         filePath: z.string().optional(),
         transcriptText: z.string().optional(),
         leadInPaddingMs: z.number().optional().default(80),
@@ -90,7 +119,17 @@ export const videoEditorRouter = router({
       let resolvedPath = "";
       let extractionError = "";
 
-      if (input.clipId && SAMPLE_CLIPS[input.clipId]) {
+      if (input.videoUrl) {
+        resolvedPath = input.videoUrl;
+        clipName = input.clipId || "cloud_video";
+        try {
+          const { stdout } = await execAsync(`ffprobe -v error -show_entries format=duration -of json "${input.videoUrl}"`);
+          const probeData = JSON.parse(stdout);
+          totalDuration = parseFloat(probeData.format?.duration || "0");
+        } catch {
+          // Ignore probe failure
+        }
+      } else if (input.clipId && SAMPLE_CLIPS[input.clipId]) {
         const clip = SAMPLE_CLIPS[input.clipId];
         clipName = clip.id;
         totalDuration = clip.durationSeconds;
@@ -216,6 +255,7 @@ export const videoEditorRouter = router({
     .input(
       z.object({
         clipId: z.string(),
+        videoUrl: z.string().optional(),
         selectedTakes: z.array(
           z.object({
             id: z.string(),
@@ -242,7 +282,9 @@ export const videoEditorRouter = router({
       const { clipId, selectedTakes, settings } = input;
 
       let sourcePath = "";
-      if (SAMPLE_CLIPS[clipId]) {
+      if (input.videoUrl) {
+        sourcePath = input.videoUrl;
+      } else if (SAMPLE_CLIPS[clipId]) {
         sourcePath = SAMPLE_CLIPS[clipId].path;
       } else {
         const candidate = path.isAbsolute(clipId) ? clipId : path.join(UPLOAD_DIR, path.basename(clipId));
@@ -251,10 +293,10 @@ export const videoEditorRouter = router({
         }
       }
 
-      if (!sourcePath || !fs.existsSync(sourcePath)) {
+      if (!sourcePath || (!sourcePath.startsWith("http") && !fs.existsSync(sourcePath))) {
         throw new TRPCError({
           code: "NOT_FOUND",
-          message: `Source video file ${clipId} not found on disk.`,
+          message: `Source video file ${clipId} not found.`,
         });
       }
 
@@ -333,9 +375,19 @@ export const videoEditorRouter = router({
         const probeJson = JSON.parse(probeStdout);
         const finalDuration = parseFloat(probeJson.format?.duration || "0");
 
+        // Upload rendered MP4 to Forge Storage for reliable CloudFront streaming & download
+        let finalVideoUrl = publicUrl;
+        try {
+          const mp4Buffer = fs.readFileSync(outputPath);
+          const uploadRes = await storagePut(`video-editor/exports/${outputFilename}`, mp4Buffer, "video/mp4");
+          finalVideoUrl = uploadRes.url;
+        } catch (s3Err) {
+          console.warn("Storage upload failed for export, falling back to local static URL:", s3Err);
+        }
+
         return {
           success: true,
-          outputUrl: publicUrl,
+          outputUrl: finalVideoUrl,
           outputFilename,
           fileSizeBytes: stat.size,
           durationSeconds: Number(finalDuration.toFixed(2)),

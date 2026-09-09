@@ -573,3 +573,10 @@
 - [x] Replace hardcoded /home/ubuntu paths with container-compatible UPLOAD_DIR and EXPORT_DIR (/tmp/video_uploads and /tmp/video_exports)
 - [x] Ensure automatic directory creation and static mount in server/_core/index.ts, videoEditor.ts, and videoEditorUpload.ts
 - [x] Test upload, audio extraction, Whisper transcription, and take assembly end-to-end and save checkpoint
+
+## Direct Cloud S3 Storage & CloudFront Streaming — September 8, 2026
+- [x] Add getUploadUrl procedure in videoEditor router for direct Forge S3 upload credentials
+- [x] Update VideoEditor frontend to upload directly to S3 via XMLHttpRequest with live progress tracking
+- [x] Support streaming audio extraction and video cutting directly from CloudFront URLs in detectTakes and renderVideo
+- [x] Upload final rendered TikTok MP4s to S3 and return permanent CloudFront download links
+- [x] Verify end-to-end upload, transcription, take detection, and rendering with sample footage and save checkpoint

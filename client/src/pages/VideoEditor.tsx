@@ -47,6 +47,7 @@ export default function VideoEditor() {
   const sampleClipsQuery = trpc.videoEditor.getSampleClips.useQuery();
   const detectTakesMutation = trpc.videoEditor.detectTakes.useMutation();
   const renderVideoMutation = trpc.videoEditor.renderVideo.useMutation();
+  const getUploadUrlMutation = trpc.videoEditor.getUploadUrl.useMutation();
 
   // State
   const [selectedClipId, setSelectedClipId] = useState<string>('IMG_7546');
@@ -88,11 +89,15 @@ export default function VideoEditor() {
     }
   }, [sampleClipsQuery.data]);
 
-  const handleRunDetection = async (clipId?: string, overrideTranscript?: string) => {
+  const handleRunDetection = async (clipId?: string, overrideTranscript?: string, videoUrl?: string) => {
     const targetClipId = clipId || selectedClipId;
+    const matchingUploaded = uploadedClips.find(c => c.savedFilename === targetClipId || c.url === targetClipId || c.id === targetClipId);
+    const targetVideoUrl = videoUrl || matchingUploaded?.url;
+
     try {
       const res = await detectTakesMutation.mutateAsync({
         clipId: targetClipId,
+        videoUrl: targetVideoUrl,
         transcriptText: overrideTranscript || (inputMode === 'custom' ? customTranscript : undefined),
         leadInPaddingMs: settings.leadInPaddingMs,
         leadOutPaddingMs: settings.leadOutPaddingMs,
@@ -124,55 +129,57 @@ export default function VideoEditor() {
     }));
   };
 
-  // Slices large video files into 10MB chunks to safely bypass Cloud Run 32MB gateway limits
-  const CHUNK_SIZE = 10 * 1024 * 1024; // 10MB
+  // Upload directly to Forge S3 storage bypassing Cloud Run proxy payload and memory limits
+  const uploadFileDirectToStorage = async (file: File) => {
+    const creds = await getUploadUrlMutation.mutateAsync({
+      filename: file.name,
+      contentType: file.type || 'application/octet-stream',
+    });
 
-  const uploadFileInChunks = async (file: File) => {
-    const totalSize = file.size;
-    const totalChunks = Math.ceil(totalSize / CHUNK_SIZE);
-    const fileId = `upload_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+    return new Promise<any>((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', creds.uploadUrl);
+      xhr.setRequestHeader('Authorization', `Bearer ${creds.authToken}`);
 
-    for (let chunkIndex = 0; chunkIndex < totalChunks; chunkIndex++) {
-      const start = chunkIndex * CHUNK_SIZE;
-      const end = Math.min(totalSize, start + CHUNK_SIZE);
-      const chunkBlob = file.slice(start, end);
+      xhr.upload.onprogress = (e) => {
+        if (e.lengthComputable) {
+          const pct = Math.round((e.loaded / e.total) * 100);
+          setUploadProgress(pct);
+        }
+      };
+
+      xhr.onload = () => {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          try {
+            const data = JSON.parse(xhr.responseText);
+            const ext = file.name.substring(file.name.lastIndexOf('.')).toLowerCase();
+            const isTranscript = ext === '.txt' || ext === '.srt' || ext === '.vtt';
+            resolve({
+              id: creds.fileId,
+              originalName: file.name,
+              savedFilename: creds.key,
+              savedPath: data.url,
+              fileSizeBytes: file.size,
+              isTranscript,
+              url: data.url,
+            });
+          } catch {
+            reject(new Error('Failed to parse storage response'));
+          }
+        } else {
+          reject(new Error(`Cloud storage upload failed (${xhr.status}): ${xhr.responseText}`));
+        }
+      };
+
+      xhr.onerror = () => reject(new Error('Network error during cloud upload'));
 
       const formData = new FormData();
-      formData.append('fileId', fileId);
-      formData.append('chunkIndex', chunkIndex.toString());
-      formData.append('totalChunks', totalChunks.toString());
-      formData.append('filename', file.name);
-      formData.append('totalSize', totalSize.toString());
-      formData.append('chunk', chunkBlob, file.name);
-
-      const res = await fetch('/api/editor/upload-chunk', {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (!res.ok) {
-        let errMsg = `Upload chunk ${chunkIndex + 1}/${totalChunks} failed`;
-        try {
-          const errJson = await res.json();
-          if (errJson.error) errMsg = errJson.error;
-        } catch {
-          // Ignore json parse error
-        }
-        throw new Error(errMsg);
-      }
-
-      const data = await res.json();
-      const currentPct = Math.round(((chunkIndex + 1) / totalChunks) * 100);
-      setUploadProgress(currentPct);
-
-      if (data.completed && data.file) {
-        return data.file;
-      }
-    }
-    return null;
+      formData.append('file', file, file.name);
+      xhr.send(formData);
+    });
   };
 
-  // Multi-file selection and upload handler using chunking
+  // Multi-file selection and direct cloud storage upload handler
   const handleFileSelect = async (fileList: FileList | File[]) => {
     const files = Array.from(fileList);
     if (files.length === 0) return;
@@ -215,7 +222,7 @@ export default function VideoEditor() {
       for (let i = 0; i < validFiles.length; i++) {
         const file = validFiles[i];
         toast.info(`Uploading ${file.name} (${(file.size / (1024 * 1024)).toFixed(1)} MB)...`);
-        const uploadedFile = await uploadFileInChunks(file);
+        const uploadedFile = await uploadFileDirectToStorage(file);
         if (uploadedFile) {
           newFiles.push(uploadedFile);
         }
@@ -228,8 +235,8 @@ export default function VideoEditor() {
         const videoFile = newFiles.find(f => !f.isTranscript);
         if (videoFile) {
           setSelectedClipId(videoFile.savedFilename);
-          toast.success(`Uploaded ${newFiles.length} file(s)! Extracting audio & analyzing takes...`);
-          handleRunDetection(videoFile.savedFilename, companionTranscript || undefined);
+          toast.success(`Uploaded ${newFiles.length} file(s) to cloud! Extracting speech & analyzing takes...`);
+          handleRunDetection(videoFile.savedFilename, companionTranscript || undefined, videoFile.url);
         } else {
           toast.success(`Uploaded ${newFiles.length} file(s)`);
         }
@@ -292,8 +299,11 @@ export default function VideoEditor() {
 
     try {
       toast.info('Rendering TikTok video with FFmpeg & Audio Bleed...');
+      const matchingUploaded = uploadedClips.find(c => c.savedFilename === selectedClipId || c.url === selectedClipId || c.id === selectedClipId);
+
       const result = await renderVideoMutation.mutateAsync({
         clipId: selectedClipId,
+        videoUrl: matchingUploaded?.url,
         selectedTakes: currentSelectedTakes.map(t => ({
           id: t.id,
           startTime: t.startTime,

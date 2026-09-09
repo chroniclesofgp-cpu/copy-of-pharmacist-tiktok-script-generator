@@ -129,6 +129,18 @@ describe("takeDetector unit tests", () => {
 });
 
 describe("videoEditor tRPC router tests", () => {
+  it("generates a direct cloud storage upload URL and credentials", async () => {
+    const caller = appRouter.createCaller(createTestContext());
+    const creds = await caller.videoEditor.getUploadUrl({
+      filename: "creator_raw_4k.mov",
+      contentType: "video/quicktime",
+    });
+    expect(creds.uploadUrl).toContain("v1/storage/upload");
+    expect(creds.key).toContain("video-editor/upload_");
+    expect(creds.fileId).toBeTruthy();
+    expect(creds.authToken).toBeTruthy();
+  });
+
   it("returns available sample clips", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const clips = await caller.videoEditor.getSampleClips();
@@ -210,7 +222,7 @@ describe("videoEditor tRPC router tests", () => {
     });
 
     expect(renderRes.success).toBe(true);
-    expect(renderRes.outputUrl).toContain("/api/exports/tiktok_cut_IMG_7546_");
+    expect(renderRes.outputUrl).toMatch(/tiktok_cut_IMG_7546_|cloudfront\.net/);
     expect(renderRes.durationSeconds).toBeGreaterThan(6);
     expect(renderRes.fileSizeBytes).toBeGreaterThan(100000);
     expect(renderRes.audioBleedApplied).toBe(true);
@@ -253,7 +265,7 @@ describe("videoEditor tRPC router tests", () => {
     });
 
     expect(renderRes.success).toBe(true);
-    expect(renderRes.outputUrl).toContain("/api/exports/tiktok_cut_IMG_7502_");
+    expect(renderRes.outputUrl).toMatch(/tiktok_cut_IMG_7502_|cloudfront\.net/);
     expect(renderRes.durationSeconds).toBeGreaterThan(8);
     expect(renderRes.fileSizeBytes).toBeGreaterThan(100000);
   }, 45000);
