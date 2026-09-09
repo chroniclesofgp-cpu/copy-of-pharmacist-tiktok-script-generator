@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { AlertTriangle, CheckCircle2, FileSpreadsheet, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Upload } from "lucide-react";
+import { Link } from "wouter";
+import { AlertTriangle, BookMarked, CheckCircle2, FileSpreadsheet, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -37,12 +38,81 @@ export default function ProductRadar() {
   };
   const setNumber = (key: keyof RadarProfileConfig, value: string) => setProfile((current) => ({ ...current, [key]: Number(value) }));
 
-  return <div className="min-h-screen bg-[#10131b] text-slate-100 px-5 py-8 md:px-10">
-    <div className="mx-auto max-w-7xl space-y-6">
-      <header className="flex flex-col gap-4 border-b border-white/10 pb-6 md:flex-row md:items-end md:justify-between">
-        <div><div className="mb-2 flex items-center gap-2 text-xs uppercase tracking-[0.24em] text-cyan-300"><FileSpreadsheet className="h-4 w-4" /> Product Radar</div><h1 className="text-3xl font-semibold tracking-tight">Find movement before saturation.</h1><p className="mt-2 max-w-3xl text-sm leading-6 text-slate-400">CSV-first product screening for the existing pharmacist TikTok workflow. Deterministic sales metrics stay visible and separate from AI-assisted interpretation.</p></div>
-        <a href="/" className="text-sm text-slate-400 underline underline-offset-4 hover:text-white">Back to script generator</a>
+  return (
+    <div className="min-h-screen bg-[#0a0f1e] text-slate-100 font-sans">
+      {/* Top Nav matching RxContent standard */}
+      <header className="border-b border-white/10 px-4 md:px-6 py-3 flex items-center justify-between sticky top-0 z-30 bg-[#0a0f1e]">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-lg bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center">
+            <FileSpreadsheet className="w-4 h-4 text-cyan-400" />
+          </div>
+          <div>
+            <h1 className="text-sm font-bold tracking-wide text-white font-mono">Product Radar</h1>
+            <p className="text-[10px] text-white/40 tracking-widest uppercase hidden sm:block">Pharmacist Product Selection</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 bg-white/5 rounded-lg p-1 border border-white/10">
+            <Link href="/">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-teal-400 inline-block" />
+                <span className="hidden sm:inline">Rx</span>Content
+              </button>
+            </Link>
+            <Link href="/bof">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-amber-400 inline-block" />
+                <span className="hidden sm:inline">Shop</span>Script
+              </button>
+            </Link>
+            <Link href="/vet">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-violet-400 inline-block" />
+                <span className="hidden sm:inline">Vet</span>Product
+              </button>
+            </Link>
+            <Link href="/videolab">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-blue-400 inline-block" />
+                <span className="hidden sm:inline">Video</span>Lab
+              </button>
+            </Link>
+            <Link href="/command">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-teal-300 inline-block" />
+                <span className="hidden sm:inline">Command</span>Center
+              </button>
+            </Link>
+            <Link href="/autoreports">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-violet-400 inline-block" />
+                <span className="hidden sm:inline">Auto</span>Reports
+              </button>
+            </Link>
+            <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-cyan-400 inline-block" />
+              <span className="hidden sm:inline">Product </span>Radar
+            </button>
+          </div>
+          <Link href="/saved">
+            <Button variant="ghost" size="sm" className="text-white/60 hover:text-white gap-1.5 text-xs">
+              <BookMarked className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Saved Scripts</span>
+            </Button>
+          </Link>
+        </div>
       </header>
+
+      <div className="mx-auto max-w-7xl space-y-6 px-5 py-6 md:px-10">
+        <div className="border-b border-white/10 pb-6">
+          <div className="mb-2 flex items-center gap-2 text-xs uppercase tracking-[0.24em] text-cyan-300">
+            <FileSpreadsheet className="h-4 w-4" /> Product Radar
+          </div>
+          <h1 className="text-3xl font-semibold tracking-tight text-white">Find movement before saturation.</h1>
+          <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-400">
+            CSV-first product screening for the existing pharmacist TikTok workflow. Deterministic sales metrics stay visible and separate from AI-assisted interpretation.
+          </p>
+        </div>
 
       {notice && <div className="rounded-xl border border-cyan-400/30 bg-cyan-400/10 px-4 py-3 text-sm text-cyan-100">{notice}</div>}
 
@@ -64,7 +134,8 @@ export default function ProductRadar() {
         </main>
       </div>
     </div>
-  </div>;
+    </div>
+  );
 }
 
 function CandidateDetail({ candidate, onUpdate, onHandoff }: { candidate: any; onUpdate: (data: any) => void; onHandoff: () => void }) {
