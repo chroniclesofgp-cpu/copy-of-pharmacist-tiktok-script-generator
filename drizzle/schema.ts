@@ -221,6 +221,9 @@ export const radarCandidates = mysqlTable("radarCandidates", {
   handoffStatus: varchar("handoffStatus", { length: 40 }).notNull().default("not_ready"),
   evidenceGateStatus: varchar("evidenceGateStatus", { length: 40 }).notNull().default("not_reviewed"),
   reviewNotes: text("reviewNotes"),
+  queueState: varchar("queueState", { length: 20 }).notNull().default("active"),
+  queueReason: text("queueReason"),
+  archivedAt: timestamp("archivedAt"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 });

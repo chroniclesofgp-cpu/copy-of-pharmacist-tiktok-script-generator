@@ -631,3 +631,12 @@
 - [x] Implement the optimal candidate intake architecture (pre-filtering by volume before deep analysis, deduplicating against existing DB candidates).
 - [x] Verify with tests and live UI pull that clicking Pull Live returns genuine breakout candidates in the active profile's volume range.
 - [x] Document findings and quota math for the user.
+
+## Product Radar Queue Re-screening & Pull Audit — September 10, 2026
+- [x] Audit the user's 10:42 Kalodata pull and determine why Yummy Skin Blurring Balm Powder is absent from the 63 imported products
+- [x] Add a safe active-profile re-screening action that identifies queued candidates outside the current volume/filter range without deleting raw source data
+- [x] Add explicit queue cleanup controls for stale/out-of-profile candidates, with confirmation and clear count/reasons
+- [x] Preserve candidates that are approved, under clinical review, or otherwise intentionally retained unless the user explicitly removes them
+- [x] Add Vitest coverage for profile re-screening and cleanup behavior
+- [x] Verify the updated queue in the browser and document the 10:42 pull findings
+

@@ -3,7 +3,7 @@ import { z } from "zod";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, parseRadarCsv, suggestedReviewStatus, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter } from "../kalodata";
 
@@ -52,7 +52,7 @@ export const radarRouter = router({
     const userId = getEffectiveUserId(ctx);
     const db = await getDb();
     if (!db) return [];
-    const rows = await db.select().from(radarCandidates).where(eq(radarCandidates.userId, userId)).orderBy(desc(radarCandidates.updatedAt));
+    const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active"))).orderBy(desc(radarCandidates.updatedAt));
     return rows.map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
   }),
   importCsv: publicProcedure.input(z.object({ provider: z.string().min(1).max(40), fileName: z.string().min(1).max(255), csv: z.string().min(1), profile: profileSchema.optional() })).mutation(async ({ ctx, input }) => {
@@ -76,7 +76,7 @@ export const radarRouter = router({
     const userId = getEffectiveUserId(ctx);
     const db = await getDb();
     if (!db) throw new Error("Database unavailable");
-    const rows = await db.select().from(radarCandidates).where(eq(radarCandidates.userId, userId));
+    const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active")));
     for (const c of rows) {
       const raw = parseJson<any>(c.rawDataJson, null);
       if (!raw) continue;
@@ -87,6 +87,29 @@ export const radarRouter = router({
       }).where(eq(radarCandidates.id, c.id));
     }
     return { success: true, count: rows.length };
+  }),
+  reconcileQueue: publicProcedure.input(z.object({
+    profile: profileSchema,
+    action: z.enum(["preview", "archive"]).default("preview"),
+  })).mutation(async ({ ctx, input }) => {
+    const userId = getEffectiveUserId(ctx);
+    const db = await getDb();
+    if (!db) throw new Error("Database unavailable");
+    const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active")));
+    const outOfProfile: Array<{ id: number; productName: string; totalSales: number; reason: string; protected: boolean }> = [];
+    for (const candidate of rows) {
+      const raw = parseJson<any>(candidate.rawDataJson, null);
+      const evaluation = isRadarCandidateOutsideProfile(raw, input.profile as RadarProfileConfig);
+      if (evaluation.outside) {
+        const protectedCandidate = !canArchiveRadarCandidate(candidate);
+        outOfProfile.push({ id: candidate.id, productName: candidate.productName, totalSales: evaluation.totalSales, reason: evaluation.reason, protected: protectedCandidate });
+        if (input.action === "archive" && !protectedCandidate) {
+          await db.update(radarCandidates).set({ queueState: "archived", queueReason: evaluation.reason, archivedAt: new Date() }).where(and(eq(radarCandidates.id, candidate.id), eq(radarCandidates.userId, userId)));
+        }
+      }
+    }
+    const archivedCount = input.action === "archive" ? outOfProfile.filter((candidate) => !candidate.protected).length : 0;
+    return { success: true, action: input.action, outOfProfile, archivedCount, protectedCount: outOfProfile.filter((candidate) => candidate.protected).length };
   }),
   updateReview: publicProcedure.input(z.object({ id: z.number(), reviewStatus: z.enum(["candidate", "watchlist", "human_review", "avoid", "approved_for_campaign_planning"]), evidenceGateStatus: z.enum(["not_reviewed", "needs_product_intel", "blocked", "approved"]), reviewNotes: z.string().optional(), creatorFit: z.record(z.string(), z.string()).optional() })).mutation(async ({ ctx, input }) => {
     const userId = getEffectiveUserId(ctx);

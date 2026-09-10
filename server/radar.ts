@@ -237,6 +237,19 @@ export function campaignHandoffAllowed(reviewStatus: ReviewStatus, evidenceGateS
   return reviewStatus === "approved_for_campaign_planning" && evidenceGateStatus === "approved";
 }
 
+export function isRadarCandidateOutsideProfile(raw: Pick<RadarRawRow, "totalSales"> | null | undefined, profile: RadarProfileConfig): { outside: boolean; reason: string; totalSales: number } {
+  const totalSales = Number(raw?.totalSales ?? 0);
+  if (!raw || !Number.isFinite(totalSales)) return { outside: true, reason: "Missing usable total-sales data", totalSales };
+  if (totalSales < profile.minTotalSales || totalSales > profile.maxTotalSales) {
+    return { outside: true, reason: `${totalSales.toLocaleString()} total sales is outside ${profile.minTotalSales.toLocaleString()}–${profile.maxTotalSales.toLocaleString()}`, totalSales };
+  }
+  return { outside: false, reason: "Within active total-sales range", totalSales };
+}
+
+export function canArchiveRadarCandidate(candidate: { reviewStatus: string; evidenceGateStatus: string; handoffStatus: string }): boolean {
+  return candidate.reviewStatus !== "human_review" && candidate.reviewStatus !== "approved_for_campaign_planning" && candidate.evidenceGateStatus !== "approved" && candidate.handoffStatus === "not_ready";
+}
+
 export function suggestedReviewStatus(metrics: RadarMetrics): ReviewStatus {
   if (metrics.concentrationBand === "high_risk_single_video") return "human_review";
   if (!metrics.totalSalesInRange || metrics.accelerationBand === "not_accelerating") return "avoid";

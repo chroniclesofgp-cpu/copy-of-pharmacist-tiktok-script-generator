@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, parseRadarCsv } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv } from "./radar";
 
 const sourceVideoWorkedExample = {
   provider: "FastMoss",
@@ -77,5 +77,21 @@ describe("Product Radar deterministic scoring", () => {
   it("keeps default thresholds editable rather than hidden in score logic", () => {
     const custom = { ...DEFAULT_RADAR_PROFILE, minTotalSales: 15000 };
     expect(calculateRadarMetrics(sourceVideoWorkedExample, custom).totalSalesInRange).toBe(false);
+  });
+});
+
+describe("Product Radar queue reconciliation", () => {
+  it("marks candidates outside the active total-sales profile without changing raw data", () => {
+    const outside = isRadarCandidateOutsideProfile({ totalSales: 84102 }, DEFAULT_RADAR_PROFILE);
+    const inside = isRadarCandidateOutsideProfile({ totalSales: 36551 }, DEFAULT_RADAR_PROFILE);
+    expect(outside.outside).toBe(true);
+    expect(outside.reason).toContain("84,102");
+    expect(inside.outside).toBe(false);
+  });
+
+  it("protects reviewed or handed-off candidates from queue archiving", () => {
+    expect(canArchiveRadarCandidate({ reviewStatus: "avoid", evidenceGateStatus: "not_reviewed", handoffStatus: "not_ready" })).toBe(true);
+    expect(canArchiveRadarCandidate({ reviewStatus: "human_review", evidenceGateStatus: "not_reviewed", handoffStatus: "not_ready" })).toBe(false);
+    expect(canArchiveRadarCandidate({ reviewStatus: "approved_for_campaign_planning", evidenceGateStatus: "approved", handoffStatus: "ready_for_campaign_planning" })).toBe(false);
   });
 });

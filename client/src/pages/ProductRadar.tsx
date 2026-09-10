@@ -42,6 +42,17 @@ export default function ProductRadar() {
       void utils.radar.listCandidates.invalidate();
     },
   });
+  const reconcileQueue = trpc.radar.reconcileQueue.useMutation({
+    onSuccess: (res) => {
+      if (res.action === "preview") {
+        setNotice(res.outOfProfile.length ? `${res.outOfProfile.length} active candidate(s) fall outside "${profileName}"; ${res.protectedCount} protected candidate(s) were not eligible for archive.` : `All active candidates fit "${profileName}".`);
+      } else {
+        setNotice(`Archived ${res.archivedCount} out-of-profile candidate(s). ${res.protectedCount} protected candidate(s) were kept.`);
+        void utils.radar.listCandidates.invalidate();
+      }
+    },
+    onError: (error) => setNotice(`Queue cleanup failed: ${error.message}`),
+  });
   const importCsv = trpc.radar.importCsv.useMutation({ onSuccess: (result) => { setNotice(`Imported ${result.validRows} candidate rows with ${result.errors.length} validation errors.`); void utils.radar.listCandidates.invalidate(); setUploading(false); }, onError: (error) => { setNotice(error.message); setUploading(false); } });
   const searchKalodata = trpc.radar.searchKalodata.useMutation({
     onSuccess: (res) => {
@@ -214,6 +225,31 @@ export default function ProductRadar() {
                 <RefreshCw className={`mr-1.5 h-3.5 w-3.5 ${recalculateAll.isPending ? "animate-spin" : ""}`} />
                 {recalculateAll.isPending ? "Re-scoring..." : "Apply & Rescore All Candidates"}
               </Button>
+              <div className="grid grid-cols-2 gap-2">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="border-amber-500/30 bg-amber-500/10 text-amber-200 hover:bg-amber-500/20 text-xs"
+                  disabled={reconcileQueue.isPending}
+                  onClick={() => reconcileQueue.mutate({ profile, action: "preview" })}
+                >
+                  Preview out-of-range
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="border-rose-500/30 bg-rose-500/10 text-rose-200 hover:bg-rose-500/20 text-xs"
+                  disabled={reconcileQueue.isPending}
+                  onClick={() => {
+                    if (window.confirm(`Archive active candidates outside ${profile.minTotalSales.toLocaleString()}–${profile.maxTotalSales.toLocaleString()}? Raw data will be retained and protected/reviewed candidates will be kept.`)) {
+                      reconcileQueue.mutate({ profile, action: "archive" });
+                    }
+                  }}
+                >
+                  Archive out-of-range
+                </Button>
+              </div>
+              <p className="text-[10px] leading-4 text-slate-500">Cleanup hides only unprotected candidates outside the selected total-sales range. Raw snapshots remain retained for audit.</p>
             </div>
           </CardContent></Card>
 
