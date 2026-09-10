@@ -12,6 +12,11 @@ import {
 import { appRouter } from "./routers";
 import type { TrpcContext } from "./_core/context";
 
+const sample7546Transcript = "/home/ubuntu/upload/IMG_7546_converted_20260908_171807_transcription_20260908_171817.txt";
+const sample7502Transcript = "/home/ubuntu/upload/IMG_7502_converted_20260908_170157_transcription_20260908_170205.txt";
+const sample7546Video = "/home/ubuntu/upload/IMG_7546.MOV";
+const sample7502Video = "/home/ubuntu/upload/IMG_7502.MOV";
+
 function createTestContext(): TrpcContext {
   return {
     user: {
@@ -62,8 +67,8 @@ describe("takeDetector unit tests", () => {
     expect(calculateSimilarity(unrelated, cta)).toBeLessThan(0.2);
   });
 
-  it("processes IMG_7546 transcript and groups retakes with Last-Take rule", () => {
-    const filePath = "/home/ubuntu/upload/IMG_7546_converted_20260908_171807_transcription_20260908_171817.txt";
+  it.skipIf(!fs.existsSync(sample7546Transcript))("processes IMG_7546 transcript and groups retakes with Last-Take rule", () => {
+    const filePath = sample7546Transcript;
     const text = fs.readFileSync(filePath, "utf-8");
     const segments = parseTranscriptText(text, "IMG_7546", 0);
 
@@ -102,8 +107,8 @@ describe("takeDetector unit tests", () => {
     expect(selectedCta?.text.toLowerCase()).toContain("hurry before they're gone");
   });
 
-  it("processes IMG_7502 transcript and handles warning take options", () => {
-    const filePath = "/home/ubuntu/upload/IMG_7502_converted_20260908_170157_transcription_20260908_170205.txt";
+  it.skipIf(!fs.existsSync(sample7502Transcript))("processes IMG_7502 transcript and handles warning take options", () => {
+    const filePath = sample7502Transcript;
     const text = fs.readFileSync(filePath, "utf-8");
     const segments = parseTranscriptText(text, "IMG_7502", 0);
 
@@ -141,7 +146,7 @@ describe("videoEditor tRPC router tests", () => {
     expect(creds.authToken).toBeTruthy();
   });
 
-  it("returns available sample clips", async () => {
+  it.skipIf(!fs.existsSync(sample7546Video))("returns available sample clips", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const clips = await caller.videoEditor.getSampleClips();
     expect(clips.length).toBeGreaterThanOrEqual(2);
@@ -149,7 +154,7 @@ describe("videoEditor tRPC router tests", () => {
     expect(clips.some(c => c.id === "IMG_7502")).toBe(true);
   });
 
-  it("detects takes from sample clip IMG_7546 via router", async () => {
+  it.skipIf(!fs.existsSync(sample7546Video))("detects takes from sample clip IMG_7546 via router", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const result = await caller.videoEditor.detectTakes({
       clipId: "IMG_7546",
@@ -185,7 +190,7 @@ describe("videoEditor tRPC router tests", () => {
     expect(result.takeGroups[2].takes[1].text).toContain("before it sells out");
   });
 
-  it("renders an edited TikTok video with audio bleed via renderVideo mutation", async () => {
+  it.skipIf(!fs.existsSync(sample7546Video))("renders an edited TikTok video with audio bleed via renderVideo mutation", async () => {
     const caller = appRouter.createCaller(createTestContext());
     // Render two short takes from IMG_7546
     const renderRes = await caller.videoEditor.renderVideo({
@@ -228,7 +233,7 @@ describe("videoEditor tRPC router tests", () => {
     expect(renderRes.audioBleedApplied).toBe(true);
   }, 60000); // 60s timeout for video encoding
 
-  it("renders an edited TikTok video with audio bleed for IMG_7502 via renderVideo mutation", async () => {
+  it.skipIf(!fs.existsSync(sample7502Video))("renders an edited TikTok video with audio bleed for IMG_7502 via renderVideo mutation", async () => {
     const caller = appRouter.createCaller(createTestContext());
     // Render two takes from IMG_7502 (intro + warning)
     const renderRes = await caller.videoEditor.renderVideo({

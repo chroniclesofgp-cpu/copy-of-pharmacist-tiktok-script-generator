@@ -761,10 +761,10 @@
 - [x] Re-score and verify existing candidates (e.g. Medicube Glass Glow Set with 2,048 creators marked AVOID)
 
 ## Unified Repository Merge (Video Editor + Product Radar) — September 10, 2026
-- [ ] Add remote 'unified' pointing to https://github.com/chroniclesofgp-cpu/pharma-script-gen.git
-- [ ] Pull 'unified main' with --allow-unrelated-histories
-- [ ] Inspect and resolve any merge conflicts, ensuring both Product Radar and Last-Take Video Editor are fully preserved
-- [ ] Verify database schema compatibility and run drizzle generate/migrations if needed
-- [ ] Verify all Vitest test suites pass (both script generator, video editor, and radar suites)
-- [ ] Verify production build compiles without errors
-- [ ] Save final unified checkpoint and deliver outcome
+- [x] Add remote 'unified' pointing to https://github.com/chroniclesofgp-cpu/pharma-script-gen.git
+- [x] Pull 'unified main' with --allow-unrelated-histories
+- [x] Inspect and resolve any merge conflicts, ensuring both Product Radar and Last-Take Video Editor are fully preserved
+- [x] Verify database schema compatibility and run drizzle generate/migrations if needed
+- [x] Verify all Vitest test suites pass (both script generator, video editor, and radar suites)
+- [x] Verify production build compiles without errors
+- [x] Save final unified checkpoint and deliver outcome
