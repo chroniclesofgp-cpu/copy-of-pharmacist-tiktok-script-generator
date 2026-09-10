@@ -94,4 +94,21 @@ describe("Product Radar queue reconciliation", () => {
     expect(canArchiveRadarCandidate({ reviewStatus: "human_review", evidenceGateStatus: "not_reviewed", handoffStatus: "not_ready" })).toBe(false);
     expect(canArchiveRadarCandidate({ reviewStatus: "approved_for_campaign_planning", evidenceGateStatus: "approved", handoffStatus: "ready_for_campaign_planning" })).toBe(false);
   });
+
+  it("keeps the verified Yummy Skin values inside Coach A and outside the concentration watch band", () => {
+    const metrics = calculateRadarMetrics({
+      provider: "Kalodata",
+      productName: "Yummy Skin Blurring Balm Powder",
+      productAgeDays: 120,
+      totalSales: 7568,
+      sales7d: 3156,
+      sales90d: 12600,
+      videoSalesPct: 65,
+      topVideoSalesPct: 27.8,
+      dailySales: [{ date: "2026-09-01", units: 400 }, { date: "2026-09-02", units: 420 }, { date: "2026-09-03", units: 430 }, { date: "2026-09-04", units: 440 }, { date: "2026-09-05", units: 450 }, { date: "2026-09-06", units: 480 }, { date: "2026-09-07", units: 536 }],
+    });
+    expect(metrics.totalSalesInRange).toBe(true);
+    expect(metrics.topVideoConcentrationPct).toBe(27.8);
+    expect(metrics.concentrationBand).toBe("spread_out");
+  });
 });

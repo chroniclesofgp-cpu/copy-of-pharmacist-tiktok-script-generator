@@ -42,6 +42,13 @@ export default function ProductRadar() {
       void utils.radar.listCandidates.invalidate();
     },
   });
+  const clearQueue = trpc.radar.clearQueue.useMutation({
+    onSuccess: (res) => {
+      setNotice(`Cleared ${res.archivedCount} unreviewed candidate(s) from the active queue. You now have a fresh slate.`);
+      void utils.radar.listCandidates.invalidate();
+    },
+    onError: (err) => setNotice(`Failed to clear queue: ${err.message}`),
+  });
   const reconcileQueue = trpc.radar.reconcileQueue.useMutation({
     onSuccess: (res) => {
       if (res.action === "preview") {
@@ -331,11 +338,35 @@ export default function ProductRadar() {
                       >
                         All Trending (No Keyword)
                       </button>
-                      {["Cortisol", "Sleep", "Bloating", "Liposomal", "Dark Spot", "NAD+"].map((kw) => (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSearchKeyword("Yummy");
+                          setSearchCategory("601450");
+                        }}
+                        className={`text-[11px] px-2 py-0.5 rounded border transition ${searchKeyword.toLowerCase().includes("yummy") ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
+                      >
+                        Yummy Skin (Danessa)
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSearchKeyword("Blurring Balm");
+                          setSearchCategory("601450");
+                        }}
+                        className={`text-[11px] px-2 py-0.5 rounded border transition ${searchKeyword.toLowerCase().includes("blurring") ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
+                      >
+                        Blurring Balm
+                      </button>
+                      {["Cortisol", "Sleep", "Bloating", "Liposomal", "Dark Spot", "NAD+", "Peptides"].map((kw) => (
                         <button
                           key={kw}
                           type="button"
-                          onClick={() => setSearchKeyword(kw)}
+                          onClick={() => {
+                            setSearchKeyword(kw);
+                            if (kw === "Dark Spot" || kw === "Peptides") setSearchCategory("601450");
+                            else if (kw === "Cortisol" || kw === "Sleep" || kw === "Bloating" || kw === "Liposomal") setSearchCategory("700646");
+                          }}
                           className={`text-[11px] px-2 py-0.5 rounded border transition ${searchKeyword === kw ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
                         >
                           {kw}
@@ -367,6 +398,9 @@ export default function ProductRadar() {
                         <option value={3}>Top 3</option>
                         <option value={5}>Top 5</option>
                         <option value={10}>Top 10</option>
+                        <option value={15}>Top 15</option>
+                        <option value={20}>Top 20</option>
+                        <option value={25}>Top 25</option>
                       </select>
                     </div>
                   </div>
@@ -431,7 +465,39 @@ export default function ProductRadar() {
           <Card className="border-amber-300/20 bg-amber-300/5 text-slate-100"><CardContent className="p-4 text-xs leading-5 text-amber-100"><strong>Gate design:</strong> high sales velocity never unlocks script generation by itself. A candidate must be explicitly approved for campaign planning <em>and</em> have an approved evidence/compliance gate.</CardContent></Card>
         </aside>
 
-        <main className="space-y-6"><div className="flex items-center justify-between"><div><p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p><h2 className="mt-1 text-xl font-semibold">{candidates.length} imported products</h2></div><div className="text-right text-xs text-slate-500">{isLoading ? "Loading…" : "Scores are deterministic"}</div></div>
+        <main className="space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-2 border-b border-white/10">
+            <div>
+              <p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p>
+              <h2 className="mt-1 text-xl font-semibold text-white">{candidates.length} active products</h2>
+            </div>
+            <div className="flex items-center gap-2 flex-wrap">
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-amber-500/30 bg-amber-500/10 text-amber-300 hover:bg-amber-500/20 text-xs h-8"
+                disabled={reconcileQueue.isPending}
+                onClick={() => {
+                  reconcileQueue.mutate({ profile, action: "archive" });
+                }}
+              >
+                Archive Out-of-Range ({profile.minTotalSales.toLocaleString()}–{profile.maxTotalSales.toLocaleString()})
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-rose-500/30 bg-rose-500/10 text-rose-300 hover:bg-rose-500/20 text-xs h-8"
+                disabled={clearQueue.isPending}
+                onClick={() => {
+                  if (window.confirm("Archive all unreviewed products in the queue to start fresh? (Approved or reviewed products will remain protected, and raw data is retained).")) {
+                    clearQueue.mutate({ onlyUnreviewed: true });
+                  }
+                }}
+              >
+                Clear Queue (Start Fresh)
+              </Button>
+            </div>
+          </div>
           {!candidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">No product candidates yet.</p><p className="max-w-md text-sm text-slate-500">Import a FastMoss or Kalodata export to calculate the first transparent radar pass.</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{candidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div>
             {(() => {
               const diag = diagnoseMetrics(candidate.rawData || {}, (candidate.metrics || {}) as any, candidate, activeProfile);

@@ -191,7 +191,7 @@ export class KalodataAdapter {
     pagesToScan?: number;
     revenueRange?: string;
   }): Promise<KalodataProductRankItem[]> {
-    const pages = Math.min(Math.max(params.pagesToScan || 2, 1), 3);
+    const pages = Math.min(Math.max(params.pagesToScan || 2, 1), 6);
     const results: KalodataProductRankItem[] = [];
     const seenIds = new Set<string>();
 

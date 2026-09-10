@@ -640,3 +640,16 @@
 - [x] Add Vitest coverage for profile re-screening and cleanup behavior
 - [x] Verify the updated queue in the browser and document the 10:42 pull findings
 
+
+## Product Radar Automatic Pull Cleanup — September 10, 2026
+- [x] Audit the user's new Beauty & Skincare Top 10 pull and confirm why Yummy Skin is absent
+- [x] Automatically archive unprotected out-of-profile candidates during live Kalodata pulls using the selected profile range
+- [x] Preserve raw snapshots and protect reviewed, approved, and handed-off candidates during automatic archiving
+- [x] Make the pull result clearly report imported, archived, and retained counts
+- [x] Add Vitest coverage for automatic pull cleanup and Yummy Skin eligibility diagnostics
+- [x] Verify the new 73-product queue behavior in the browser and save a checkpoint
+- [x] Add "Clear All (Start Fresh)" button to archive unreviewed candidates in one click
+- [x] Add "Archive Out-of-Range" one-click button to automatically purge non-matching candidates from the active view
+- [x] Expand pull limit dropdown to include 15, 20, and 25 candidates, with proportional page scanning
+- [x] Add quick keyword chips for "Yummy", "Blurring Balm", "Toner", "Peptides"
+- [x] Pull Yummy Skin into the active queue with the corrected 27.8% concentration so the user can inspect its card directly

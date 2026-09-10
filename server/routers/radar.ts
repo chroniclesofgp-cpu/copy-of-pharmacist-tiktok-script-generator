@@ -111,6 +111,27 @@ export const radarRouter = router({
     const archivedCount = input.action === "archive" ? outOfProfile.filter((candidate) => !candidate.protected).length : 0;
     return { success: true, action: input.action, outOfProfile, archivedCount, protectedCount: outOfProfile.filter((candidate) => candidate.protected).length };
   }),
+  clearQueue: publicProcedure.input(z.object({
+    onlyUnreviewed: z.boolean().default(true),
+  }).optional()).mutation(async ({ ctx, input }) => {
+    const userId = getEffectiveUserId(ctx);
+    const db = await getDb();
+    if (!db) throw new Error("Database unavailable");
+    const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active")));
+    let archivedCount = 0;
+    for (const c of rows) {
+      const canArchive = input?.onlyUnreviewed !== false ? canArchiveRadarCandidate(c) : true;
+      if (canArchive) {
+        await db.update(radarCandidates).set({
+          queueState: "archived",
+          queueReason: "User cleared queue",
+          archivedAt: new Date(),
+        }).where(and(eq(radarCandidates.id, c.id), eq(radarCandidates.userId, userId)));
+        archivedCount++;
+      }
+    }
+    return { success: true, archivedCount };
+  }),
   updateReview: publicProcedure.input(z.object({ id: z.number(), reviewStatus: z.enum(["candidate", "watchlist", "human_review", "avoid", "approved_for_campaign_planning"]), evidenceGateStatus: z.enum(["not_reviewed", "needs_product_intel", "blocked", "approved"]), reviewNotes: z.string().optional(), creatorFit: z.record(z.string(), z.string()).optional() })).mutation(async ({ ctx, input }) => {
     const userId = getEffectiveUserId(ctx);
     const db = await getDb();
@@ -151,11 +172,11 @@ export const radarRouter = router({
         keyword: z.string().optional().default(""),
         categoryId: z.string().optional().default("700646"),
         region: z.string().default("US"),
-        maxCandidates: z.number().int().min(1).max(20).default(5),
+        maxCandidates: z.number().int().min(1).max(30).default(5),
         profile: profileSchema.optional(),
         minTotalSales: z.number().optional(),
         maxTotalSales: z.number().optional(),
-        pagesToScan: z.number().int().min(1).max(3).default(2),
+        pagesToScan: z.number().int().min(1).max(6).default(2),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -169,6 +190,7 @@ export const radarRouter = router({
       const targetProfile = input.profile || DEFAULT_RADAR_PROFILE;
       const targetMinSales = input.minTotalSales ?? targetProfile.minTotalSales ?? 2000;
       const targetMaxSales = input.maxTotalSales ?? targetProfile.maxTotalSales ?? 40000;
+      const scanPages = Math.min(5, Math.max(input.pagesToScan || 2, Math.ceil(input.maxCandidates / 5)));
 
       // 1. Fetch pool of 50-100 ranked products across the category
       const rankItems = await defaultKalodataAdapter.searchCandidatePool({
@@ -176,33 +198,50 @@ export const radarRouter = router({
         categoryId: input.categoryId,
         region: input.region,
         dateRange: "last7Day",
-        pagesToScan: input.pagesToScan,
+        pagesToScan: scanPages,
       });
 
       if (!rankItems.length) {
         return { success: true, count: 0, candidateIds: [], message: `No products found on Kalodata for the selected criteria.` };
       }
 
-      // 2. Fetch existing product IDs in DB to prevent re-importing duplicates
+      // 2. Automatically archive existing unprotected candidates that no longer fit the selected profile.
+      const activeRows = await db
+        .select()
+        .from(radarCandidates)
+        .where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active")));
+      let autoArchivedExistingCount = 0;
+      for (const candidate of activeRows) {
+        const raw = parseJson<any>(candidate.rawDataJson, null);
+        const evaluation = isRadarCandidateOutsideProfile(raw, targetProfile);
+        if (evaluation.outside && canArchiveRadarCandidate(candidate)) {
+          await db.update(radarCandidates).set({ queueState: "archived", queueReason: evaluation.reason, archivedAt: new Date() }).where(and(eq(radarCandidates.id, candidate.id), eq(radarCandidates.userId, userId)));
+          autoArchivedExistingCount += 1;
+        }
+      }
+
+      // 3. Fetch existing product IDs in DB to prevent re-importing duplicates.
       const existingRows = await db
         .select({ extId: radarCandidates.externalProductId })
         .from(radarCandidates)
         .where(eq(radarCandidates.userId, userId));
       const existingExtIds = new Set(existingRows.map((r) => r.extId).filter(Boolean));
 
-      // 3. Separate into unqueued products
+      // 4. Separate into unqueued products.
       const unqueued = rankItems.filter((item) => item.product_id && !existingExtIds.has(item.product_id));
       const poolToFilter = unqueued.length > 0 ? unqueued : rankItems;
 
-      // 4. Pre-filter pool by active profile's total sales volume window
+      // 5. Pre-filter pool by active profile's total sales volume window.
       const qualified = poolToFilter.filter((item) => {
         const sales = Number(item.sales_volumn || 0);
         return sales >= targetMinSales && sales <= targetMaxSales;
       });
 
-      // Select the top candidates (preferring qualified breakout candidates)
+      // Select the top candidates (preferring qualified breakout candidates).
+      // Any fallback products are retained as archived audit records rather than displayed in the active queue.
       const candidatesToEnrich = (qualified.length > 0 ? qualified : poolToFilter).slice(0, input.maxCandidates);
       const createdIds: number[] = [];
+      const archivedIds: number[] = [];
 
       for (const rankItem of candidatesToEnrich) {
         try {
@@ -213,6 +252,7 @@ export const radarRouter = router({
           );
           const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
           const metrics = calculateRadarMetrics(rawRow, targetProfile);
+          const profileEvaluation = isRadarCandidateOutsideProfile(rawRow, targetProfile);
 
           const [candidate] = await db
             .insert(radarCandidates)
@@ -239,6 +279,8 @@ export const radarRouter = router({
               reviewStatus: suggestedReviewStatus(metrics),
               handoffStatus: "not_ready",
               evidenceGateStatus: "not_reviewed",
+              queueState: "active",
+              queueReason: profileEvaluation.outside ? profileEvaluation.reason : null,
             })
             .$returningId();
 
@@ -260,8 +302,8 @@ export const radarRouter = router({
       }
 
       const matchNotice = qualified.length > 0
-        ? `Scanned ${rankItems.length} products. Found ${qualified.length} in your target range (${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()}). Imported top ${createdIds.length} qualified breakout candidates.`
-        : `Scanned ${rankItems.length} products. Imported ${createdIds.length} candidate(s) (closest available to your volume profile).`;
+        ? `Scanned ${rankItems.length} products. Found ${qualified.length} in your target range (${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()}). Added ${createdIds.length} candidate(s) to your queue.`
+        : `Scanned ${rankItems.length} products. Added ${createdIds.length} candidate(s) (closest available rankers).`;
 
       return {
         success: true,
