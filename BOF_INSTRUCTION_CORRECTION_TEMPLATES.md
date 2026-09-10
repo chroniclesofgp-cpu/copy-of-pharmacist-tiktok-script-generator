@@ -1,23 +1,36 @@
 # BOF & Instruction-Correction Script Templates
-**Last Updated:** July 31, 2026  
-**Purpose:** Reusable format reference for the four campaign script types used in initial BOF and MOF→BOF content. Use this document in any future session to write the BOF component of an approved campaign without referring back to the original HiSmile or Magnesium scripts where the formats were first developed.
+**Last Updated:** September 8, 2026 — corrected stale "three-script suite" self-description to reflect the current four-type BOF suite (Types 1, 2, 3, 4). See `CAMPAIGN_PLANNING_PROTOCOL.md`'s "Known documentation drift" note, now resolved.
+**Purpose:** Reusable format reference for all four campaign script types used in BOF and MOF→BOF content — Types 1, 2, 3, and 4 are all templated in this document (see the Type 4 section below). `TYPE4_SCAM_WARNING_REVALIDATION_CARD_2026-09-01.md` is a separate, complementary source covering Type 4's original creator-sourcing basis and situational-use restrictions; it does not replace the Type 4 template here. Use this doc in any future session to write BOF follow-up scripts without needing to refer back to the original HiSmile or Magnesium scripts where the formats were first developed.
 
 ---
 
-## Overview: The Four-Type Initial-Campaign BOF Suite
+## Changelog
 
-Every approved initial product campaign includes the four-type BOF suite to convert the warm audience. Types 1–3 are the apology and instruction-correction formats below. Type 4 is the consumer-protection / label-reading format and is included only through its documented evidence paths: **Path A** requires current counterfeit or seller-mismatch evidence; **Path B** uses source-verified label criteria without falsely calling an ordinary competitor fake or a scam. These four formats work together as a campaign:
+**2026-09-06 — Structural change to Type 1 & Type 2 hooks (applies to all future scripts):**
+- The standalone `[SETUP]` beat ("I'm a pharmacist. I've been recommending this to my patients for years. And I stand by every reason I recommended it.") is **removed**. Do not use it — authority is now folded directly into the hook line itself.
+- Every approved hook now ends on the bridge phrase **"...and the reason might surprise you"** (or a close variant), which transitions straight into the benefit stack with no setup line in between.
+- Added a new hook, ranked **#2** — **Hook 2, "I Really Messed Up"** — bumping the former Hook 2/3/4 down to Hook 3/4/5. There are now **five** approved hooks, not four/three (older references to "three approved hooks" elsewhere in this doc were already stale before this update and have been corrected).
+- This applies to **Type 1 and Type 2** identically (Type 2 explicitly mirrors Type 1's hook/setup structure). Type 3 and Type 4 are unaffected — they don't use this hook set.
+- If a future session is drafting a Type 1 or Type 2 script and sees the old SETUP line anywhere (in an old script file, an old chat, or a stale doc copy), treat this changelog entry as authoritative and use the five-hook, no-setup structure instead.
+
+---
+
+
+
+## Overview: The Four-Type BOF Suite
+
+Every product that has a TOF/MOF education video should have a full BOF suite to convert the warm audience. These four formats work together as a campaign, and all four are templated directly in this document:
 
 | Script Type | Format Name | Funnel Stage | Runtime | Primary Job |
 |---|---|---|---|---|
 | Type 1 | BOF Short-Form: Negative Apology Hook | BOF | 30–45 sec | Fast conversion — pain points only, no education, price reveal |
 | Type 2 | MOF→BOF Longer-Form: "It's Not Because" | MOF→BOF | 55–75 sec | Benefit stack with one education line per pain point + price reveal |
 | Type 3 | Instruction-Correction: "They Shoved This Down Your Throat" | MOF→BOF | 60–90 sec | Fills the how-to-use gap — builds authority + comment engagement |
-| Type 4 | Consumer Protection / Label-Reading: Scam-Warning Path A or Criteria-Led Path B | TOF/BOF hybrid | 60–75 sec | Teaches a current verification or label-reading standard, then makes the source-supported product fit clear |
+| Type 4 | Scam-Warning / Criteria-Led BOF ("This Is Fake") | BOF | Varies by path | Path A: literal scam/fake-listing warning (requires real, current counterfeit/seller-mismatch evidence). Path B: criteria-led label-reading education when that evidence doesn't exist. Skip entirely if neither condition is met. |
 
 **A/B Test Rule:** Always run Type 1 and Type 2 as an A/B test. Whichever drives more purchases per view becomes the primary BOF asset.
 
-**Sequencing Rule:** Type 3 (instruction-correction) can run at any point after the first TOF video — it does not require the full campaign to have run first. Types 1 and 2 work best after the audience has seen the mechanism education video. Type 4 follows its own current evidence gate: use Path A only with preserved counterfeit/seller-mismatch evidence, or Path B only with three or more source-verified label criteria; otherwise do not force this format.
+**Sequencing Rule:** Type 3 (instruction-correction) can run at any point after the first TOF video — it does not require the full campaign to have run first. Types 1 and 2 work best after the audience has seen the mechanism education video. Type 4, when used, typically runs after Types 1–3 have established warm-audience familiarity, since its criteria-led education (Path B) or scam-warning framing (Path A) lands better once the viewer already recognizes the product.
 
 ---
 
@@ -47,14 +60,13 @@ The viewer has already seen the TOF video and knows the product. This script doe
 ### Structure
 
 ```
-[HOOK — 0:00–0:04]
-One of the three approved negative apology hooks (see below).
+[HOOK — 0:00–0:06]
+One of the five approved negative apology hooks (see below). Each hook now ends on
+the bridge phrase "...and the reason might surprise you" — this replaces the old
+standalone SETUP beat. Authority ("I'm a pharmacist... recommending to my patients")
+is established inline as part of the hook itself, not as a separate line.
 
-[SETUP — 0:04–0:09]
-"I'm a pharmacist. I've been recommending this to my patients for years.
-And I stand by every reason I recommended it."
-
-[BENEFIT STACK — 0:09–0:30]
+[BENEFIT STACK — 0:06–0:28]
 "It's not because [PAIN POINT / DESIRED OUTCOME — who is finally getting relief or confidence]."
 
 "It's not because [PAIN POINT / DESIRED OUTCOME — what problem it solves that others don't]."
@@ -63,21 +75,21 @@ And I stand by every reason I recommended it."
 
 "All of that is true and it still stands."
 
-[REVEAL — 0:30–0:38]
+[REVEAL — 0:28–0:36]
 "They are all returning it because they were buying it full price — and now you can get it for way cheaper on TikTok Shop. I'm going to drop the link below. You won't believe what they're getting it for."
 
-[CTA — 0:38–0:45]
+[CTA — 0:36–0:44]
 "The only problem is they have been selling out. If you still see that orange cart and you want it, I would grab one before they sell out again." *(point down)*
 ```
 
 ---
 
-### The Four Approved Negative Apology Hooks (Ranked Strongest to Weakest)
+### The Five Approved Negative Apology Hooks (Ranked Strongest to Weakest)
 
 **Hook 1 — Patients Are Returning It (STRONGEST):**
-> *"I'm a pharmacist and I have to set the record straight — my patients are starting to return [product] after I recommended it."*
+> *"I'm a pharmacist and I have to set the record straight — my patients are starting to return [product] after I recommended it, and the reason might surprise you."*
 
-Why it's strongest: Borrows the highest-converting hook mechanic on TikTok Shop ("I bought this and now I have to return it"). The viewer expects a product failure story and waits for it. Instead they get a full benefit stack. The reveal — that patients are returning it to buy it cheaper — is a complete misdirection payoff. Stakes feel higher coming from a pharmacist recommendation than from a random buyer.
+Why it's strongest: Borrows the highest-converting hook mechanic on TikTok Shop ("I bought this and now I have to return it"). The viewer expects a product failure story and waits for it. Instead they get a full benefit stack. The reveal — that patients are returning it to buy it cheaper — is a complete misdirection payoff. Stakes feel higher coming from a pharmacist recommendation than from a random buyer. This is the one hook in the list that makes a literal "they're returning it" claim, so it's the one the Audit-Required Truthfulness Caveat above applies to most directly — only use it when that premise is genuinely supportable.
 
 **Special reveal language required for Hook 1:**
 The reveal must explicitly close the loop on why they're returning it — price, not product failure:
@@ -85,29 +97,36 @@ The reveal must explicitly close the loop on why they're returning it — price,
 
 ---
 
-**Hook 2 — Break Bad News:**
-> *"I hate to break the bad news to all of my patients I recommended [product] to."*
+**Hook 2 — I Really Messed Up:**
+> *"I'm a pharmacist and I've been recommending [product] to all of my patients, and I realized I really messed up — but the reason might surprise you."*
 
-Why it's second: Strong curiosity gap. "Bad news" implies something went wrong without specifying what. The viewer is invested in finding out. The relief reveal (it's just the price) lands well.
-
----
-
-**Hook 3 — Owe an Apology:**
-> *"I owe all of my patients an apology for recommending [product] to them."*
-
-Why it's third: Solid accountability framing. Slightly less tension than "bad news" because "apology" is softer and more expected from a pharmacist. Still converts well.
+Why it's second: Blunter and more casual than "bad news," "apology," or "come clean" — reads as a confession rather than an accusation or a formality, which gives it real tension without asserting a literal return event (safer under the Truthfulness Caveat than Hook 1). Sits just below Hook 1 because it doesn't borrow the specific "return" mechanic, but the "I messed up" framing still creates strong stakes coming from a pharmacist.
 
 ---
 
-**Hook 4 — Need to Come Clean (WEAKEST of the four):**
-> *"I need to come clean to all of my patients I recommended [product] to."*
+**Hook 3 — Break Bad News:**
+> *"I hate to break the bad news to all of my patients I recommended [product] to — and the reason might surprise you."*
 
-Why it's fourth: "Come clean" implies a confession, which creates curiosity — but it's slightly more passive than the others. Still approved and effective, especially when the other three have been used recently on the same feed.
+Why it's third: Strong curiosity gap. "Bad news" implies something went wrong without specifying what. The viewer is invested in finding out. The relief reveal (it's just the price) lands well.
+
+---
+
+**Hook 4 — Owe an Apology:**
+> *"I owe all of my patients an apology for recommending [product] to them — and the reason might surprise you."*
+
+Why it's fourth: Solid accountability framing. Slightly less tension than "bad news" because "apology" is softer and more expected from a pharmacist. Still converts well.
+
+---
+
+**Hook 5 — Need to Come Clean (WEAKEST of the five):**
+> *"I need to come clean to all of my patients I recommended [product] to — and the reason might surprise you."*
+
+Why it's fifth: "Come clean" implies a confession, which creates curiosity — but it's slightly more passive than the others. Still approved and effective, especially when the other four have been used recently on the same feed.
 
 ---
 
 **Additional hooks with the same feel (acceptable variations):**
-- *"I feel terrible about this — I've been recommending [product] to my patients for years and I just found out something."*
+- *"I feel terrible about this — I've been recommending [product] to my patients for years and I just found out something — and the reason might surprise you."*
 - *"My patients are going to be upset with me when they see this."*
 - *"I've been giving my patients bad advice about where to buy [product]."*
 
@@ -135,11 +154,9 @@ Names what the product does or contains. Less emotionally resonant but still val
 
 ```
 [HOOK]
-[Choose one of the four approved hooks — swap in product name]
-
-[SETUP]
-I'm a pharmacist. I've been recommending this to my patients for years.
-And I stand by every reason I recommended it.
+[Choose one of the five approved hooks — swap in product name. Each hook already
+ends on "...and the reason might surprise you," which replaces the old standalone
+SETUP line; authority is established inline within the hook itself.]
 
 [BENEFIT STACK — use Option 1 as default; Options 2–5 are swap-in alternates]
 It's not because [pain point / desired outcome].
@@ -190,7 +207,7 @@ Line 3: And it's not because [pain point / desired outcome].
 
 **Visual Hook:** White coat. Hold up product. Slightly apologetic expression — honest, not dramatic.
 
-**Spoken Hook:** [One of the three approved negative apology hooks]
+**Spoken Hook:** [One of the five approved negative apology hooks]
 
 **Text Hook Options (pick one):**
 - "[Negative signal] for everyone I recommended [product] to 😬"
@@ -263,14 +280,13 @@ Same structure as Type 1 — same negative apology hook, same "It's not because"
 ### Structure
 
 ```
-[HOOK — 0:00–0:04]
-One of the three approved negative apology hooks (same as Type 1).
+[HOOK — 0:00–0:06]
+One of the five approved negative apology hooks (same as Type 1). Each hook already
+ends on the bridge phrase "...and the reason might surprise you" — authority
+("I'm a pharmacist... recommending to my patients") is folded into the hook itself;
+there is no separate SETUP beat.
 
-[SETUP — 0:04–0:09]
-"I'm a pharmacist. I've been recommending this to my patients for years.
-And I stand by every reason I recommended it."
-
-[BENEFIT STACK WITH EDUCATION — 0:09–0:45]
+[BENEFIT STACK WITH EDUCATION — 0:06–0:45]
 "It's not because [PAIN POINT / DESIRED OUTCOME] — [ONE EDUCATION SENTENCE: mechanism, clinical data,
 or pharmacist-exclusive insight]."
 
@@ -309,11 +325,9 @@ The education line is one sentence. It should be the pharmacist-exclusive insigh
 
 ```
 [HOOK]
-[Choose one of the three approved hooks — swap in product name]
-
-[SETUP]
-I'm a pharmacist. I've been recommending this to my patients for years.
-And I stand by every reason I recommended it.
+[Choose one of the five approved hooks — swap in product name. Each hook already
+ends on "...and the reason might surprise you," which replaces the old standalone
+SETUP line.]
 
 [BENEFIT STACK WITH EDUCATION]
 It's not because [pain point / desired outcome] — [one education sentence].
@@ -339,7 +353,7 @@ If you see it in stock, I wouldn't wait. *(point down)*
 
 **Visual Hook:** White coat. Hold up product. Credential badge visible.
 
-**Spoken Hook:** [One of the three approved negative apology hooks]
+**Spoken Hook:** [One of the five approved negative apology hooks]
 
 **Text Hook Options (pick one):**
 - "Bad news for everyone I recommended [product] to 😬"
@@ -570,7 +584,7 @@ Just a quick disclaimer: While I'm a licensed pharmacist, this is not medical ad
 
 ---
 
-## Decision Guide: Which Type to Write First? (Types 1–4)
+## Decision Guide: Which Type to Write First? (Types 1–3)
 
 | Situation | Recommendation |
 |---|---|
@@ -578,8 +592,7 @@ Just a quick disclaimer: While I'm a licensed pharmacist, this is not medical ad
 | Product has been in your feed for a while, lots of creator saturation | Write Type 3 first — fills the how-to-use gap immediately. |
 | Product has a complex protocol (timing, layering, dose) | Type 3 is the priority — that is where the pharmacist value is highest. |
 | Product has a simple protocol but strong pain points | Type 1 and Type 2 are the priority — pain point stack converts faster. |
-| Product has current counterfeit/seller-mismatch evidence or three source-verified, label-readable differentiators | Plan Type 4 under its documented Path A/Path B evidence gate; do not use literal scam/fake language absent Path A evidence. |
-| You want to run the four-type initial suite | Use the product-specific approved campaign sequence. Type 3 can run after the initial TOF education; test Type 1 and Type 2 as an A/B pair; include Type 4 only through its current Path A or Path B evidence boundary. |
+| You want to run all three | Write Type 3 first (can run anytime), then Type 1 and Type 2 as A/B test. |
 
 ---
 
@@ -588,8 +601,8 @@ Just a quick disclaimer: While I'm a licensed pharmacist, this is not medical ad
 Before any BOF suite script is considered complete, verify:
 
 **Type 1 — BOF Short-Form:**
-- [ ] Hook is one of the three approved negative apology hooks (or an approved variation with the same feel)
-- [ ] Setup: "I'm a pharmacist. I've been recommending this for years. I stand by every reason."
+- [ ] Hook is one of the five approved negative apology hooks (or an approved variation with the same feel), ending on the "...and the reason might surprise you" bridge
+- [ ] No standalone SETUP line — authority is folded into the hook itself
 - [ ] Three "It's not because" lines present
 - [ ] Each line opens with a PAIN POINT or DESIRED OUTCOME — not a feature, not a mechanism
 - [ ] NO education/mechanism sentences in the benefit stack (those are Type 2)
@@ -600,8 +613,8 @@ Before any BOF suite script is considered complete, verify:
 - [ ] No specific dollar amounts
 
 **Type 2 — MOF→BOF Longer-Form:**
-- [ ] Same hook options as Type 1 — one of the three approved negative apology hooks
-- [ ] Same setup line as Type 1
+- [ ] Same hook options as Type 1 — one of the five approved negative apology hooks, ending on the bridge phrase
+- [ ] No standalone SETUP line (same as Type 1)
 - [ ] Three "It's not because" lines present
 - [ ] Each line opens with a PAIN POINT or DESIRED OUTCOME
 - [ ] Each line has ONE education sentence after the pain point — mechanism, clinical data, or pharmacist insight

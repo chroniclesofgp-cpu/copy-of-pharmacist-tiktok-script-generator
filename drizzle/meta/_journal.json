@@ -71,6 +71,27 @@
       "when": 1786897857535,
       "tag": "0009_brave_madripoor",
       "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1788926763849,
+      "tag": "0010_daily_skullbuster",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1788964708085,
+      "tag": "0011_mushy_richard_fisk",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "5",
+      "when": 1789051970904,
+      "tag": "0012_magical_odin",
+      "breakpoints": true
     }
   ]
 }

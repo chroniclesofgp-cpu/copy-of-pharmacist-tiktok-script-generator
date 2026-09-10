@@ -535,7 +535,6 @@
 - [x] Write and validate a complete fact-only product intelligence record — document integrity scan passed; 267 tests passed; production build passed.
 - [x] Save a checkpoint and deliver the intelligence record for campaign-planning review — checkpoint pending.
 
-
 ## Independent Copy Baseline — September 8, 2026
 - [x] Record that this is an independent copy with fresh project history, deployment state, and empty database data.
 - [x] Record the copied project's current feature and technology baseline.
@@ -609,8 +608,154 @@
 - [x] Verify persistence across navigation and save checkpoint
 
 ## Merge Second Project Features (copy-of-pharmacist-tiktok-script-generator) — September 10, 2026
-- [ ] Inspect remote branch and commits from https://github.com/chroniclesofgp-cpu/copy-of-pharmacist-tiktok-script-generator.git
-- [ ] Identify new or modified files (e.g. product selection, vet product, UI toggles)
-- [ ] Merge or cherry-pick changes into current codebase without conflicting with video editor
-- [ ] Run full test suite to ensure all tests pass
-- [ ] Push unified codebase to GitHub and save checkpoint
+- [x] Inspect remote branch and commits from https://github.com/chroniclesofgp-cpu/copy-of-pharmacist-tiktok-script-generator.git
+- [x] Identify new or modified files (e.g. product selection, vet product, UI toggles)
+- [x] Merge or cherry-pick changes into current codebase without conflicting with video editor
+- [x] Run full test suite to ensure all tests pass
+- [x] Push unified codebase to GitHub and save checkpoint
+## Personal Script-Aware Video Auto-Editor — Feasibility Assessment
+- [x] Define the minimum reliable editing behavior: silence removal, repeated-take detection, script matching, review controls, and export.
+- [x] Evaluate video-processing architecture, background-work requirements, and suitable hosting for a personal-use tool.
+- [x] Provide a realistic build-complexity assessment, reliability limits, and phased implementation recommendation — recommend a reviewable rough-cut assistant before any fully automatic final-cut behavior.
+
+## Personal Script-Aware Video Auto-Editor — Clarified Requirements
+- [x] Scope decision: transcript-only adjacent-repeat detection is deferred and not part of the user's CSV-first Product Radar request.
+- [x] Scope decision: zero-gap video editing is deferred and not part of the user's CSV-first Product Radar request.
+- [x] Scope decision: adjustable audio bleed/crossfade is deferred and not part of the user's CSV-first Product Radar request.
+
+## Canonical Documentation Reconciliation — September 8, 2026
+- [x] Compare the three attached v2 documents with live project copies and record any differences — all three differed from the live copies; attached versions are now canonical.
+- [x] Replace live `CLEAN_SLATE_ACTIVE_SOURCE_MAP.md`, `CAMPAIGN_PLANNING_PROTOCOL.md`, and `BOF_INSTRUCTION_CORRECTION_TEMPLATES.md` with the attached reconciled versions.
+- [x] Validate cross-document statuses, filenames, tests, and production build — status-reference checks passed; 267 tests passed; production build passed.
+- [x] Save a checkpoint and confirm synchronization with the Claude-side copies — checkpoint pending.
+
+
+
+## Fresh Copy Session Scope — September 2026
+
+- [x] Confirm this is a fresh independent copy with its own project state, database contents, and checkpoint history.
+- [x] Preserve the copied pharmacist TikTok script-generation codebase and documentation as reference material.
+- [x] User explicitly requested the CSV-first Product Radar build; implementation scope was added below and completed.
+
+> Source-project tasks are not being continued automatically in this copy. The potential video-editor work and documentation follow-ups remain reference options until explicitly selected by the user.
+
+
+## Linked Video Review and AI Product-Selection Automation — September 2026
+
+- [x] Inspect the supplied YouTube video and identify the demonstrated product-selection and AI-automation workflow.
+- [x] Produce a raw transcript of the supplied YouTube video, preserving wording and uncertainty where audio is unclear.
+- [x] Assess which parts of the demonstrated workflow can be implemented in this copied project and identify required integrations, credentials, and hosting constraints.
+- [x] Present at least two viable implementation approaches, including a lighter-weight alternative, before beginning build work.
+
+
+## CSV-first Product Radar — User-Requested Build
+
+- [x] Add product-candidate, daily-sales-observation, and provider-import metadata persistence inside the existing project.
+- [x] Add configurable screening profiles with editable sales, ratio, daily-pattern, sales-source, concentration, rating, and commission thresholds.
+- [x] Add CSV upload and validation for manually exported FastMoss/Kalodata data.
+- [x] Implement deterministic metric calculations for sales ranges, mature/new-product acceleration, daily-sales patterns, sales-source split, and top-video concentration.
+- [x] Add Product Radar UI showing raw data, calculated metrics, confidence notes, review status, and creator-fit operational fields.
+- [x] Add campaign-planning handoff for approved products without bypassing product-intelligence, evidence, or compliance gates.
+- [x] Keep AI-assisted video-pattern summaries and creator-fit briefs separate from the deterministic score and prevent them from overriding it.
+- [x] Test ratio and threshold calculations against the source-video worked example.
+- [x] Walk one realistic sample product through CSV import, scoring, review status, and compliance-gated campaign handoff.
+- [x] Provide a build walkthrough and sample-product verification results before treating the feature as ready to use.
+
+## Phase 2: Kalodata Direct API Integration
+
+- [x] Research Kalodata API endpoints, authentication, rate limits, and Terms of Service constraints for automated screening.
+- [x] Configure secure KALODATA_API_KEY environment secret handling via webdev_request_secrets.
+- [x] Implement Kalodata provider adapter with product search, daily sales history, and top-selling video mapping to candidate/daily-sales schema.
+- [x] Implement rate-limiting, exponential backoff, retry handling, and raw response snapshotting for auditability.
+- [x] Build user-triggered on-demand refresh UI in Product Radar while maintaining the evidence/compliance gate.
+- [x] Write unit and integration tests for Kalodata adapter, rate limiting, and response mapping, and verify end-to-end.
+
+## Phase 3: Competitor Count, 1M+ Views Backing Signal, and Named Switchable Profiles
+
+- [x] Add activeCreatorCount and videosOver1MViews columns to database schema and migration.
+- [x] Update CSV parser and RadarRawRow to parse optional competitor/creator count and 1M+ view video count.
+- [x] Add configurable highCompetitionCreatorThreshold (default 300) to screening profile config and deterministic metrics.
+- [x] Update radarRouter to support named switchable profile presets and multiple saved profiles (e.g. Coach A 2,000–40,000 vs Coach B 1,000–9,000).
+- [x] Update ProductRadar UI with new metrics cards, competition warning badges, and named profile switcher dropdown.
+- [x] Write vitest tests for new fields, competition threshold logic, and switchable profiles.
+
+## Phase 4: Category-Based Trending Discovery (Keyword-Free Scouting)
+
+- [x] Update KalodataAdapter to support category filtering with optional/blank keyword across standard TikTok Shop health and skincare categories.
+- [x] Update radarRouter.searchKalodata to accept category and optional keyword.
+- [x] Add Category Discovery dropdown to ProductRadar UI (Health & Supplements, Beauty & Skincare, Personal Care, All Categories).
+- [x] Support quick switching between Category Trending mode and Symptom/Keyword search mode.
+- [x] Test and verify category-based product pulls and update Vitest test suite.
+
+## Phase 5: Kalodata Response Field Mapping Fixes (Video Share, Rating, Commission, Creator Saturation)
+
+- [x] Inspect raw snapshot JSON for imported candidates and check Kalodata API response structure for rating, commission, video share, creator count, and viral videos.
+- [x] Fix server/kalodata.ts adapter mapping to correctly extract and store all returned Kalodata metrics.
+- [x] Update ProductRadar UI detail panel to reliably display active creators, creator saturation status, rating, commission, video share, and 1M+ view videos.
+- [x] Verify with tests and re-refresh imported candidates to ensure numbers populate properly.
+
+## Phase 6: Green / Yellow / Red Visual Metrics & Status Explanations
+
+- [x] Create deterministic metric status evaluator returning color grade ('green' | 'yellow' | 'red') and status label for every measured signal.
+- [x] Generate explicit human-readable reasons for why a product is marked AVOID, WATCHLIST, HUMAN REVIEW, or CANDIDATE.
+- [x] Update candidate queue list items to display the primary status reason right on the card.
+- [x] Update CandidateDetail metric cards with green/yellow/red borders, text badges, and a prominent 'Why this status?' diagnostic banner.
+- [x] Verify with tests and preview screenshot.
+
+## Phase 7: Kalodata Native Volume Filtering & Qualified Candidate Intake
+
+- [x] Test Kalodata `/product/rank` request payload against live API and documentation to verify if native volume range filter (sales_min / sales_max / min_revenue / etc.) is supported.
+- [x] Analyze sustained daily API call volumes and rate-limit safety for native filtering vs. multi-page pool intake.
+- [x] Implement the optimal candidate intake architecture (pre-filtering by volume before deep analysis, deduplicating against existing DB candidates).
+- [x] Verify with tests and live UI pull that clicking Pull Live returns genuine breakout candidates in the active profile's volume range.
+- [x] Document findings and quota math for the user.
+
+## Product Radar Queue Re-screening & Pull Audit — September 10, 2026
+- [x] Audit the user's 10:42 Kalodata pull and determine why Yummy Skin Blurring Balm Powder is absent from the 63 imported products
+- [x] Add a safe active-profile re-screening action that identifies queued candidates outside the current volume/filter range without deleting raw source data
+- [x] Add explicit queue cleanup controls for stale/out-of-profile candidates, with confirmation and clear count/reasons
+- [x] Preserve candidates that are approved, under clinical review, or otherwise intentionally retained unless the user explicitly removes them
+- [x] Add Vitest coverage for profile re-screening and cleanup behavior
+- [x] Verify the updated queue in the browser and document the 10:42 pull findings
+
+
+## Product Radar Automatic Pull Cleanup — September 10, 2026
+- [x] Audit the user's new Beauty & Skincare Top 10 pull and confirm why Yummy Skin is absent
+- [x] Automatically archive unprotected out-of-profile candidates during live Kalodata pulls using the selected profile range
+- [x] Preserve raw snapshots and protect reviewed, approved, and handed-off candidates during automatic archiving
+- [x] Make the pull result clearly report imported, archived, and retained counts
+- [x] Add Vitest coverage for automatic pull cleanup and Yummy Skin eligibility diagnostics
+- [x] Verify the new 73-product queue behavior in the browser and save a checkpoint
+- [x] Add "Clear All (Start Fresh)" button to archive unreviewed candidates in one click
+- [x] Add "Archive Out-of-Range" one-click button to automatically purge non-matching candidates from the active view
+- [x] Expand pull limit dropdown to include 15, 20, and 25 candidates, with proportional page scanning
+- [x] Add quick keyword chips for "Yummy", "Blurring Balm", "Toner", "Peptides"
+- [x] Pull Yummy Skin into the active queue with the corrected 27.8% concentration so the user can inspect its card directly
+
+## Product Radar Strict Volume Filtering & Dynamic Category Chips — September 10, 2026
+- [x] Investigate why products over 40k total sales entered the active queue and probe Kalodata Beauty category ranks for Yummy Skin
+- [x] Enforce strict post-enrichment volume gate: reject/archive any candidate whose calculated total sales exceeds the profile ceiling (e.g. >40k for Coach A) so out-of-range products never enter the active queue
+- [x] Replace brand-specific buttons with category-aware product type and symptom suggestions (Beauty: Serums, Eye Cream, Eye Patches, Lip Tint, Moisturizer; Supplements: Magnesium, Cortisol, Sleep, Bloating, Protein, Berberine; Healthcare: Oral Care, Pain Relief)
+- [x] Prevent fallback import of unqualified mega-sellers when pre-filter finds no breakout matches
+- [x] Verify with Vitest tests and browser check that only true in-range products populate the active queue
+
+## Kalodata Official Schema & Native Pre-Filter Optimization — September 10, 2026
+- [x] Inspect official Kalodata Open Center documentation, skill integration repository, and playbooks
+- [x] Discover native rank parameters: sort_field (revenue_growth_rate, video_revenue, sales_volumn), revenue_range, and is_affiliate
+- [x] Implement native revenueRange and isAffiliate filters in Kalodata adapter to filter mega-sellers directly at the API layer
+- [x] Add Discovery Strategy selector (Breakout Velocity, Video-Driven Movers, Sales Volume, Gross Revenue) to Product Radar UI
+- [x] Verify all 287 Vitest tests pass and production build succeeds
+
+## Option A: Direct Velocity Discovery & Uniform Real-Unit Gate — September 10, 2026
+- [x] Remove artificial revenue_range dollar extrapolation from Kalodata discovery query so no legitimate breakouts are missed
+- [x] Ensure strict real-unit gate (2k–40k for Coach A / 1k–9k for Coach B from /product/detail) applies identically across all 4 discovery strategies (Breakout Velocity, Video-Driven Movers, Sales Volume, Gross Revenue)
+- [x] Add Vitest tests confirming real-unit gating consistency regardless of discovery strategy
+- [x] Check Kalodata live API credit status and run a live category re-test under the new query logic
+- [x] Document discovered candidates and deliver final report
+
+## Creator Saturation Gate Refinement — September 10, 2026
+- [x] Inspect reviewStatus calculation in server/radar.ts and diagnostic categorization in client/src/lib/radarDiagnostics.ts
+- [x] Enforce hard AVOID status when activeCreatorCount exceeds the saturation threshold (>300) so creator-saturated products are never labeled as Candidates
+- [x] Update calculated score penalties and diagnostic banners to explicitly highlight creator saturation as a primary AVOID driver
+- [x] Add Vitest tests asserting that creator saturation (>300) produces reviewStatus: "avoid" even if unit volume and stability pass
+- [x] Re-score and verify existing candidates (e.g. Medicube Glass Glow Set with 2,048 creators marked AVOID)

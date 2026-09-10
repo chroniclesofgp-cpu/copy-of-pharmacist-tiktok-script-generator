@@ -1,4 +1,4 @@
-import { int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
+import { int, mediumtext, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -173,3 +173,70 @@ export const scheduledVideoReports = mysqlTable("scheduledVideoReports", {
 });
 export type ScheduledVideoReport = typeof scheduledVideoReports.$inferSelect;
 export type InsertScheduledVideoReport = typeof scheduledVideoReports.$inferInsert;
+
+
+// ─── CSV-first Product Radar ──────────────────────────────────────────────────
+export const radarProfiles = mysqlTable("radarProfiles", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  name: varchar("name", { length: 120 }).notNull(),
+  configJson: text("configJson").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type RadarProfile = typeof radarProfiles.$inferSelect;
+export type InsertRadarProfile = typeof radarProfiles.$inferInsert;
+
+export const radarImports = mysqlTable("radarImports", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  provider: varchar("provider", { length: 40 }).notNull(),
+  fileName: varchar("fileName", { length: 255 }).notNull(),
+  rowCount: int("rowCount").notNull().default(0),
+  validRowCount: int("validRowCount").notNull().default(0),
+  errorJson: text("errorJson"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+export type RadarImport = typeof radarImports.$inferSelect;
+export type InsertRadarImport = typeof radarImports.$inferInsert;
+
+export const radarCandidates = mysqlTable("radarCandidates", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  importId: int("importId"),
+  provider: varchar("provider", { length: 40 }).notNull(),
+  externalProductId: varchar("externalProductId", { length: 180 }),
+  productName: varchar("productName", { length: 255 }).notNull(),
+  category: varchar("category", { length: 120 }),
+  productUrl: text("productUrl"),
+  productAgeDays: int("productAgeDays"),
+  activeCreatorCount: int("activeCreatorCount"),
+  videosOver1MViews: int("videosOver1MViews"),
+  rawDataJson: mediumtext("rawDataJson").notNull(),
+  metricsJson: text("metricsJson").notNull(),
+  confidenceNotes: text("confidenceNotes"),
+  creatorFitJson: text("creatorFitJson"),
+  aiBriefJson: text("aiBriefJson"),
+  reviewStatus: varchar("reviewStatus", { length: 40 }).notNull().default("candidate"),
+  handoffStatus: varchar("handoffStatus", { length: 40 }).notNull().default("not_ready"),
+  evidenceGateStatus: varchar("evidenceGateStatus", { length: 40 }).notNull().default("not_reviewed"),
+  reviewNotes: text("reviewNotes"),
+  queueState: varchar("queueState", { length: 20 }).notNull().default("active"),
+  queueReason: text("queueReason"),
+  archivedAt: timestamp("archivedAt"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+export type RadarCandidate = typeof radarCandidates.$inferSelect;
+export type InsertRadarCandidate = typeof radarCandidates.$inferInsert;
+
+export const radarDailySales = mysqlTable("radarDailySales", {
+  id: int("id").autoincrement().primaryKey(),
+  candidateId: int("candidateId").notNull(),
+  salesDate: varchar("salesDate", { length: 20 }).notNull(),
+  units: int("units").notNull().default(0),
+  rawDataJson: text("rawDataJson"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+export type RadarDailySale = typeof radarDailySales.$inferSelect;
+export type InsertRadarDailySale = typeof radarDailySales.$inferInsert;

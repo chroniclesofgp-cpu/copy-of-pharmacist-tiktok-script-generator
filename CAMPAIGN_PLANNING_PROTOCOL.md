@@ -1,107 +1,97 @@
 # Campaign Planning Protocol
-
-**Status:** Active shared authority for campaign-planning decisions.  
-**Adopted:** September 6, 2026  
-**Source:** Reconciled from Claude’s uploaded protocol and `analysis/CAMPAIGN_STRUCTURE_STATUS_2026-09-06.md`.  
-**Scope:** The decision layer between fact-only product research and script drafting. This document does **not** replace product research, live listing verification, or the six script-writing documents.
-
-> **Authority boundary:** Use this protocol to decide whether a product deserves a campaign, which assets to propose, and why they belong together. Use the fact record for live product facts and source limits; use the selected framework card and six writing documents for script mechanics.
+**Source:** Built from Manus's `CAMPAIGN_STRUCTURE_STATUS_2026-09-06` reconciliation. This document governs the *decision layer* between product research and script writing — not research (Manus's domain) and not sentence-level script mechanics (the six writing docs' domain). If Manus later approves a formal `CAMPAIGN_PLANNING_PROTOCOL.md` on its own end, treat that as authoritative and update this file to match.
 
 ---
 
-## 1. The Hard Gate
+## The Hard Gate (non-negotiable sequence)
 
-1. **Fact record complete.**
-2. **Campaign plan proposed** using the fact record, selected framework(s), real buyer problem, buyer-psychology levers, proof-card sources, and filming-day cart conditions.
-3. **Explicit user approval** of that campaign plan.
-4. **Only then** are scripts drafted.
+1. Fact record complete (Manus's process)
+2. **Directory and status reconciliation** (see below) — required before step 3
+3. Campaign plan proposed — citing the fact record, selected framework(s), the real buyer problem being addressed, buyer-psychology levers, proof-card sources, and filming-day cart condition
+4. **Explicit user approval** of the campaign plan
+5. Only then, scripts get drafted
 
-Do not move from a completed fact record directly into scripts. A campaign plan is an approval gate, not a drafting outline created after the fact.
+Do not skip from a completed fact record straight to writing scripts without an explicit campaign plan and approval step in between.
 
-## 2. What Is Not a Universal Rule
+## Directory and Status Reconciliation Requirement
 
-| Former or tempting rule | Current status |
-|---|---|
-| Fixed minimum of 1 TOF + 2 MOF + 1 BOF / four total videos | **Not active.** Asset count is earned from the product fact record and campaign rationale. |
-| Fixed four-sequence playbook from the original five-creator dataset | **Legacy context only.** Use the current selected framework and its source mechanics, not a generic old sequence. |
-| TOF before MOF/BOF in every campaign | **Strong default, not automatic.** Use it when cold-audience education is necessary for the product/category. |
-| DryWater’s 10 assets as a universal initial-campaign template | **Approved product-specific precedent only.** It demonstrates a well-supported extended package, not a mandatory count or mix. |
-| Generic 5/5 CTA, gesture, or creator-count claims | **Not active.** Use current sample-scoped evidence in `HOOK_FRAMEWORKS.md` and the selected card. |
+Before proposing a campaign plan, enumerate every `*_REVALIDATION_CARD*.md` file (and any other format-defining file, e.g. a synthesized test-format card) physically present in the project directory. This enumeration must come from the actual directory contents, not from this protocol's own summary list below or from memory of a prior session — a secondary summary is not a substitute for checking the directory itself.
 
-## 3. Available Situational Formats — Options, Not Defaults
+For each file found, cross-check its current status against `CLEAN_SLATE_ACTIVE_SOURCE_MAP.md` Section 5's Status column before treating it as an eligible candidate:
 
-The following may be proposed for TOF/MOF only when the exact product fact record and campaign rationale support their use. They do not automatically expand or replace the BOF set.
+- **Active or Situational** → eligible for evaluation against the current product's fact record.
+- **Retired** → not eligible. Do not evaluate it as a candidate, do not describe it as "missed," and do not fold it into the same category as genuinely unevaluated formats — a retired format was deliberately removed, not overlooked.
+- **Unresolved** → stop and flag the discrepancy to the user before proceeding. Do not assume the file is either active or retired, and do not substitute a similarly-named or overlapping document without confirmation.
+- **Not listed in Section 5 at all** → flag it. A file present in the directory but absent from the index is itself a reconciliation gap, not a reason to exclude the file by default — check with the user whether it should be added as active/situational or left out deliberately.
 
-| Format | Planning condition |
-|---|---|
-| Tier-List Comparison | Current Competitive Decision Map; fair, recognizable alternatives; situational source boundary stated. |
-| Category Scorecard | Current Competitive Decision Map; real options; immediate expert reasons; earned final verdict. |
-| Numeric Scorecard | Same category-decision requirements as Category Scorecard, with a numeric execution. |
-| Do/Don't Contrast | Every red-side behavior has a genuine green-side replacement and a natural product bridge. |
-| Bundle Routine Walkthrough | Exact bundle, sourced order, one verified role per item, and current bundle cart. |
-| Split-Screen Comparison | Genuine all-in-one versus complicated-routine match and partner/clone-edit capability. |
-| Bad/Good Label Demonstration | **User-approved synthesized test only.** Use goal-specific, label-visible distinctions; state every alternative’s fair role; use a current Competitive Decision Map before category multi-linking. |
+If any file's Section 5 status cannot be confirmed, or Section 5 points to a filename that doesn't exist in the directory, stop and flag the discrepancy before building the plan. Do not proceed on an assumption in either direction.
 
-> These formats have different source depth. The campaign plan must state why the specific product fact record supports the chosen format; do not add a situational format merely to fill a campaign quota.
+## What Is NOT a Universal Rule Anymore
 
-## 4. BOF Policy for Initial Product Campaigns
+- **No fixed minimum video count.** The old "1 TOF + 2 MOF + 1 BOF" rule is not active. Asset count is decided per-product, based on what the fact record actually supports — not a template number.
+- **No fixed 4-video sequence templates from the original 5-creator dataset.** Those sequences are historical/legacy examples, since narrowed by the full transcript audit — not a verified universal playbook to default to.
+- **TOF-before-MOF/BOF is a strong default, not an automatic rule.** Use it when the category genuinely needs cold-audience education first. Don't apply it reflexively if the product/fact record doesn't call for it.
+- **DryWater's 10-asset campaign is a real, approved precedent — not a template to copy onto every future product.** It's useful as a reference for *how much* a well-supported campaign can reasonably contain, and for the campaign-package formatting itself (see `CAMPAIGN_PACKAGE_FORMAT.md`), but the specific count and mix were earned from DryWater's own fact record, not handed down as policy.
 
-Every initial campaign must **assess all four BOF types**. Types 1, 2, and 3 are the standard BOF suite. Type 4 is conditional and may be included only through its evidence gate.
+## Newer Situational Formats — Available Options, Not Defaults
 
-| Type | Policy |
-|---|---|
-| Type 1 — Short Apology-Reveal | Standard BOF asset when its truthful recommendation/offer setup is supported. |
-| Type 2 — Long Apology-Reveal | Standard BOF asset when its truthful recommendation/offer setup is supported. |
-| Type 3 — Instruction-Correction | Standard BOF asset when there is a genuine product-use gap. A general `right-way` asset is **not** a substitute unless it actually follows Type 3’s required instruction-correction mechanics. |
-| Type 4 — Scam-Warning / Label-Reading | **Conditional.** Use Path A only with current counterfeit/seller-mismatch evidence. Use Path B only with three or more source-verified, label-readable differentiators. If neither condition is met, document the reason and skip Type 4 rather than force literal scam/fake language or fabricated criteria. |
+The following formats are real, usable options for a campaign's TOF/MOF portion **when the specific product's fact record genuinely supports them** — they are not a required or default part of every campaign, and they do not replace or expand the BOF suite. (This list is a summary for orientation only — always confirm current status against `CLEAN_SLATE_ACTIVE_SOURCE_MAP.md` Section 5 per the reconciliation requirement above; a format appearing here is not itself confirmation it's still active.)
 
-The detailed structures, truthfulness caveats, offer gates, and Path A/Path B rules remain in `BOF_INSTRUCTION_CORRECTION_TEMPLATES.md` and the Type 4 revalidation card.
+- Tier-List Comparison
+- Category Scorecard
+- Numeric Scorecard
+- Do/Don't Contrast
+- Bundle Routine Walkthrough
+- Split-Screen Comparison
+- Bad/Good Label Demonstration (single-product or category rapid-fire; requires a genuinely label-visible distinction and a narrow, specific viewer goal — see its own card for the full "bad" framing safeguard)
 
-## 5. Required Campaign-Plan Record
+**Why not default:** these sit on meaningfully thinner evidence than the core hook library (several single-creator sources, some originally non-healthcare). Treating them as standard would blur the evidence-tier distinction the whole framework relies on.
 
-For **every proposed asset**, record the following before approval:
+**Why they're still real, working options:** DryWater's actual approved campaign uses two of these (Numeric Scorecard, Tier-List Comparison) successfully — proof they earn their place when the fact record actually fits the format, not proof they belong in every campaign by default.
 
-| Required field | Decision standard |
-|---|---|
-| Framework | Name the selected hook/format, its current verification status, and its specific card/source boundary. |
-| Real buyer problem | State the actual buyer situation addressed by this asset—not a generic restatement of the product category. |
-| Buyer-psychology lever(s) | Name the lever(s) that create recognition, decision tension, authority, proof, convenience, value, or urgency. |
-| Proof-card source | Identify the exact label, first-party page, study, certification, decision-map source, or other evidence supporting this asset’s specific claim. |
-| Filming-day cart condition | State what must still be current before filming: exact listing/seller, cart, offer, bundle, stock, comparative label, or eligible linked products. |
-| Product-advancement role | State the asset’s unique primary buyer payoff and message job so it does not repeat another asset’s selling reason. |
+**When proposing a campaign that includes one of these:** state explicitly why this specific product's fact record supports this specific format — the same product-specific-rationale requirement that already applies to every asset in a campaign plan.
 
-### Required Planning Sources
+## What IS Still Current Policy
 
-Load the completed product fact record, the selected current framework card(s), `BUYER_PSYCHOLOGY_LEVERS.md`, original creator source/reference material where the framework requires it, and the current cart/listing facts relevant to the planned asset.
+**The full BOF suite (Types 1, 2, 3, and 4) is required for an initial product campaign.** For Type 4 specifically: use **Path A** only with real, current counterfeit/seller-mismatch evidence; otherwise use **Path B** (criteria-led label education) or skip Type 4 entirely if neither evidence condition is met — same rule already established in `BOF_INSTRUCTION_CORRECTION_TEMPLATES.md`.
 
-## 6. Cross-Script Discipline in an Approved Campaign
+**Known documentation drift, flagged by Manus, not yet resolved:** `BOF_INSTRUCTION_CORRECTION_TEMPLATES.md` still describes itself as a "three-script suite" in places, which is now inconsistent with the four-type requirement actually in active use. Worth a follow-up correction to that document specifically.
 
-Apply `SCRIPT_ARCHITECTURE_GUIDE.md` **Rule E** and **Rule E.1 Product-Advancement Ledger**, then complete the `POST_WRITE_CHECKLIST.md` Rule E / quality review. The same strong proof point may appear in more than one script when it is genuinely the best evidence. What must change between assets is the **hook, buyer situation, argument role, and primary buyer payoff**—not the truth of the underlying fact.
+**Confirmed distinct, non-substitutable frameworks — `right-way` vs. BOF Type 3 instruction-correction.** These serve a similar general purpose (correcting a usage gap) but are not interchangeable, and a `right-way` asset does not satisfy the BOF suite's Type 3 requirement:
 
-> A fact does not become redundant solely because it is reused. It becomes redundant when it repeats without a new decision job or new buyer payoff in the same script or campaign.
+| | `right-way` | BOF Type 3 instruction-correction |
+|---|---|---|
+| Opening | "Here's how to take [product] the right way..." | "They shoved [product] down your throat..." |
+| Core job | Correct a preparation error, show the official ratio/method | Fill a use-gap the buyer was never taught, with two practical answers and a "why" for each |
+| Structure | Common mistake → correct method → convenience → formula | Mis-sold/omitted-use setup → two answers → pharmacist flag → full protocol → question-inviting CTA |
+| CTA | Cart/action CTA | Invites comments on the specific use issue |
+| Campaign role | Valid MOF→BOF asset | Required Type 3 BOF-suite asset — must be present separately |
 
-## 7. Planning-Record and Source-Ownership Boundary
+**Real precedent this was confirmed against:** DryWater's campaign proposal originally mislabeled its Script 7 as "Type 3 Instruction Correction," but the finished script actually executes the `right-way` structure. The two are complementary, not substitutable — a campaign claiming to include the full BOF suite needs a genuine Type 3 asset in addition to any `right-way` asset, not instead of it.
 
-| Material | Governing location |
-|---|---|
-| Exact product identity, label, directions, studies, reviews, comments, competitor facts, exact-video links, and live seller/cart/offers | Product-specific fact record and Manus research workflow. |
-| Campaign gate, asset selection, BOF policy, asset-specific rationale, proof-card/campaign fit, and sequencing decision | **This Campaign Planning Protocol** plus the approved product-specific campaign plan. |
-| Format mechanics and source limits | `HOOK_FRAMEWORKS.md`, the selected framework/revalidation card, and original creator reference material. |
-| Sentence-level script execution and post-write audit | Six core script-writing documents and `POST_WRITE_CHECKLIST.md`. |
+## How to Build an Actual Campaign Plan
 
-## 8. Reconciliation Notes — September 6, 2026
+For every asset (script) proposed in a campaign, the plan must state:
+- **Framework** — which hook/format, and its current verification status (per the reconciliation requirement above)
+- **The specific real buyer problem** this asset addresses — not a generic restatement of the product's category
+- **Buyer-psychology lever(s)** being used
+- **Proof-card source** — what evidence backs this asset's specific claims
+- **Filming-day cart condition** — what must be true/verified live before this asset can actually be filmed (especially relevant for any BOF asset requiring a live offer)
 
-| Uploaded-protocol item | Reconciled decision |
-|---|---|
-| “If Manus later approves a formal protocol…” | Resolved: this file is now the active shared campaign-planning authority. |
-| Six listed newer situational formats | Updated to include the newly active/situational **Bad/Good Label Demonstration** synthesized test card and its special safeguards. |
-| “Full BOF suite required” alongside “skip Type 4 if neither condition” | Clarified: assess all four; Types 1–3 are standard; Type 4 is conditional under its existing Path A/Path B evidence gate. |
-| `CAMPAIGN_PACKAGE_FORMAT.md` as Rule E authority | Corrected: no active file by that name exists. Rule E and the Product-Advancement Ledger are governed by `SCRIPT_ARCHITECTURE_GUIDE.md`; the final review is in `POST_WRITE_CHECKLIST.md`. |
+**Required sources when building a campaign plan:** the product's fact record, the relevant current framework card(s), a buyer-psychology reference, and the original creator source/reference material behind whichever framework is selected.
 
-## References
+## Cross-Script Discipline Within an Approved Campaign
 
-1. `analysis/CAMPAIGN_STRUCTURE_STATUS_2026-09-06.md`.
-2. `FACT_ONLY_PRODUCT_RESEARCH_PROTOCOL.md` §4–5.
-3. `BOF_INSTRUCTION_CORRECTION_TEMPLATES.md`.
-4. `HOOK_FRAMEWORKS.md` and active framework cards.
-5. `SCRIPT_ARCHITECTURE_GUIDE.md` Rule E / Rule E.1; `POST_WRITE_CHECKLIST.md`.
+Once a campaign plan is approved and scripts are being written, apply `CAMPAIGN_PACKAGE_FORMAT.md`'s Rule E / Product-Advancement Record — remembering that a strong, high-converting proof point *should* be reused across multiple scripts when it's genuinely the best evidence available; what must differ between scripts is the angle, hook, and buyer situation wrapping around it, not the underlying fact itself.
+
+## Safety Notes and Contraindications Are Campaign-Level, Not Per-Script
+
+**A product's caution or contraindication does not need to appear in every script — it needs to appear in at least one asset within the campaign.** Campaigns exist specifically to attack from multiple angles; a real, specific caution is one of those angles, not a tax every other angle has to pay.
+
+**A real caution is a genuine pharmacist-differentiation opportunity, not a liability to manage defensively.** Being able to explain a specific drug interaction or population exclusion is exactly the kind of thing a regular affiliate can't do — it's a strength, and it deserves its own dedicated, confident script, not a forced paragraph bolted onto every unrelated video.
+
+**Distinguish two genuinely different things that have been getting conflated:**
+- **Qualifying the strength of evidence for the specific claim a script is actually making** (e.g., "this is a formula I trust, not a study I can hand you" when a mechanism claim outpaces disclosed concentration) — this applies to *every* script, always, because it's about not overclaiming what you're actually saying.
+- **A population caution or contraindication unrelated to the script's specific claim** (e.g., a pregnancy/age exclusion, a drug-interaction warning) — this does *not* need to appear in every script. It needs to appear somewhere in the campaign, ideally as its own confident, dedicated pharmacist-authority asset.
+
+Don't let the first rule bleed into forcing the second into scripts where it doesn't belong.

@@ -13,6 +13,7 @@ import VideoLab from './pages/VideoLab';
 import CommandCenter from './pages/CommandCenter';
 import AutoReports from './pages/AutoReports';
 import VideoEditor from './pages/VideoEditor';
+import ProductRadar from './pages/ProductRadar';
 
 function Router() {
   return (
@@ -25,6 +26,7 @@ function Router() {
       <Route path={"/editor"} component={VideoEditor} />
       <Route path={"/command"} component={CommandCenter} />
       <Route path={"/autoreports"} component={AutoReports} />
+      <Route path={"/radar"} component={ProductRadar} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>

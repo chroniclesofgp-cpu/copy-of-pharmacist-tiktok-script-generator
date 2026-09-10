@@ -319,6 +319,12 @@ export default function CommandCenter() {
                 <span className="hidden sm:inline">Video</span>Lab
               </button>
             </Link>
+            <Link href="/editor">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-teal-400 inline-block" />
+                <span className="hidden sm:inline">Video</span>Editor
+              </button>
+            </Link>
             <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium bg-teal-500/20 text-teal-300 border border-teal-500/30 flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-teal-400 inline-block" />
               <span className="hidden sm:inline">Command</span>Center
@@ -327,6 +333,12 @@ export default function CommandCenter() {
               <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-violet-400 inline-block" />
                 <span className="hidden sm:inline">Auto</span>Reports
+              </button>
+            </Link>
+            <Link href="/radar">
+              <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-cyan-400 inline-block" />
+                <span className="hidden sm:inline">Product </span>Radar
               </button>
             </Link>
           </div>

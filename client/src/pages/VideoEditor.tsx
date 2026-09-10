@@ -476,6 +476,12 @@ export default function VideoEditor() {
                 CommandCenter
               </button>
             </Link>
+            <Link href="/radar">
+              <button className="px-2.5 py-1 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1">
+                <span className="w-2 h-2 rounded-full bg-cyan-400 inline-block" />
+                Radar
+              </button>
+            </Link>
             <Link href="/saved">
               <Button variant="ghost" size="sm" className="text-white/60 hover:text-white gap-1 text-xs h-7 px-2">
                 <BookMarked className="w-3 h-3" />
