@@ -156,19 +156,24 @@ export class KalodataAdapter {
   }
 
   public async searchProducts(params: {
-    keyword: string;
+    keyword?: string;
+    categoryId?: string;
     region?: string;
     dateRange?: "last7Day" | "last30Day";
     pageNumber?: number;
   }): Promise<KalodataProductRankItem[]> {
-    const data = await this.postEndpoint<KalodataProductRankItem[]>("/product/rank", {
+    const payload: Record<string, unknown> = {
       region: params.region || "US",
       language: "en-US",
       currency: "USD",
       date_range: params.dateRange || "last7Day",
-      keyword: params.keyword.trim(),
+      keyword: params.keyword ? params.keyword.trim() : "",
       page_number: params.pageNumber || 1,
-    });
+    };
+    if (params.categoryId && params.categoryId !== "all") {
+      payload.category_ids = [params.categoryId];
+    }
+    const data = await this.postEndpoint<KalodataProductRankItem[]>("/product/rank", payload);
     return Array.isArray(data) ? data : [];
   }
 

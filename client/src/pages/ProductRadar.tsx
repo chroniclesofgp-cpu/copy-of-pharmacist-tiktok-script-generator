@@ -24,7 +24,8 @@ export default function ProductRadar() {
   const [selectedProfileKey, setSelectedProfileKey] = useState("coach_a");
   const [provider, setProvider] = useState("FastMoss CSV");
   const [activeInputTab, setActiveInputTab] = useState<"kalodata" | "csv">("kalodata");
-  const [searchKeyword, setSearchKeyword] = useState("Magnesium");
+  const [searchCategory, setSearchCategory] = useState("700646");
+  const [searchKeyword, setSearchKeyword] = useState("");
   const [searchRegion, setSearchRegion] = useState("US");
   const [searchLimit, setSearchLimit] = useState(5);
   const [selectedId, setSelectedId] = useState<number | null>(null);
@@ -251,20 +252,54 @@ export default function ProductRadar() {
                     </span>
                   </div>
                   <div>
-                    <Label className="text-xs text-slate-300">Keyword Search</Label>
+                    <Label className="text-xs text-slate-300">Category Discovery (Trending)</Label>
+                    <select
+                      className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
+                      value={searchCategory}
+                      onChange={(e) => setSearchCategory(e.target.value)}
+                    >
+                      <option value="700646">Dietary Supplements & Nutrition (Supplements, Minerals, Vitamins)</option>
+                      <option value="700645">Health & Healthcare (Wellness, OTC, Medical Devices)</option>
+                      <option value="601450">Beauty & Personal Care (Skincare, Actives, Topical Serums)</option>
+                      <option value="all">All TikTok Shop Categories (Platform-Wide Trending)</option>
+                    </select>
+                    <p className="mt-1 text-[11px] text-slate-400">
+                      Scouts trending products by category ranking without needing any search keyword.
+                    </p>
+                  </div>
+                  <div>
+                    <div className="flex items-center justify-between">
+                      <Label className="text-xs text-slate-300">Symptom, Mechanism, or Keyword (Optional)</Label>
+                      {searchKeyword && (
+                        <button
+                          type="button"
+                          onClick={() => setSearchKeyword("")}
+                          className="text-[10px] text-cyan-400 hover:text-cyan-300"
+                        >
+                          Clear (All in Category)
+                        </button>
+                      )}
+                    </div>
                     <Input
                       className="mt-1 border-white/10 bg-black/20"
-                      placeholder="e.g. Magnesium, Retinol, Berberine"
+                      placeholder="Leave empty for all trending, or type symptom (e.g. Cortisol, Bloating)..."
                       value={searchKeyword}
                       onChange={(e) => setSearchKeyword(e.target.value)}
                     />
                     <div className="mt-2 flex flex-wrap gap-1.5">
-                      {["Magnesium", "Retinol", "Shilajit", "Creatine", "Berberine"].map((kw) => (
+                      <button
+                        type="button"
+                        onClick={() => setSearchKeyword("")}
+                        className={`text-[11px] px-2 py-0.5 rounded border transition ${!searchKeyword ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 text-slate-400 border-white/10"}`}
+                      >
+                        All Trending (No Keyword)
+                      </button>
+                      {["Cortisol", "Sleep", "Bloating", "Liposomal", "Dark Spot", "NAD+"].map((kw) => (
                         <button
                           key={kw}
                           type="button"
                           onClick={() => setSearchKeyword(kw)}
-                          className="text-[11px] px-2 py-0.5 rounded bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 transition"
+                          className={`text-[11px] px-2 py-0.5 rounded border transition ${searchKeyword === kw ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
                         >
                           {kw}
                         </button>
@@ -300,8 +335,8 @@ export default function ProductRadar() {
                   </div>
                   <Button
                     className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-medium"
-                    disabled={searchKalodata.isPending || !searchKeyword.trim()}
-                    onClick={() => searchKalodata.mutate({ keyword: searchKeyword, region: searchRegion, maxCandidates: searchLimit })}
+                    disabled={searchKalodata.isPending}
+                    onClick={() => searchKalodata.mutate({ keyword: searchKeyword.trim(), categoryId: searchCategory, region: searchRegion, maxCandidates: searchLimit })}
                   >
                     {searchKalodata.isPending ? (
                       <span className="flex items-center gap-2"><RefreshCw className="h-4 w-4 animate-spin" /> Pulling Kalodata Live...</span>
@@ -310,7 +345,7 @@ export default function ProductRadar() {
                     )}
                   </Button>
                   <p className="text-[11px] leading-4 text-slate-500">
-                    Pulls product ranking, 7d/30d details, and top shoppable videos in a single snapshot. Rate-limited with automatic backoff.
+                    {searchKeyword.trim() ? `Filtering category for "${searchKeyword.trim()}".` : `Scouting top-velocity products in selected category.`} Rate-limited with automatic backoff.
                   </p>
                 </div>
               ) : (

@@ -600,3 +600,11 @@
 - [x] Update radarRouter to support named switchable profile presets and multiple saved profiles (e.g. Coach A 2,000–40,000 vs Coach B 1,000–9,000).
 - [x] Update ProductRadar UI with new metrics cards, competition warning badges, and named profile switcher dropdown.
 - [x] Write vitest tests for new fields, competition threshold logic, and switchable profiles.
+
+## Phase 4: Category-Based Trending Discovery (Keyword-Free Scouting)
+
+- [x] Update KalodataAdapter to support category filtering with optional/blank keyword across standard TikTok Shop health and skincare categories.
+- [x] Update radarRouter.searchKalodata to accept category and optional keyword.
+- [x] Add Category Discovery dropdown to ProductRadar UI (Health & Supplements, Beauty & Skincare, Personal Care, All Categories).
+- [x] Support quick switching between Category Trending mode and Symptom/Keyword search mode.
+- [x] Test and verify category-based product pulls and update Vitest test suite.

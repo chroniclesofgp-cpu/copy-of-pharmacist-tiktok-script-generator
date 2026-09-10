@@ -125,7 +125,8 @@ export const radarRouter = router({
   searchKalodata: publicProcedure
     .input(
       z.object({
-        keyword: z.string().min(1).max(100),
+        keyword: z.string().optional().default(""),
+        categoryId: z.string().optional().default("700646"),
         region: z.string().default("US"),
         maxCandidates: z.number().int().min(1).max(20).default(5),
       })
@@ -140,13 +141,14 @@ export const radarRouter = router({
 
       const rankItems = await defaultKalodataAdapter.searchProducts({
         keyword: input.keyword,
+        categoryId: input.categoryId,
         region: input.region,
         dateRange: "last7Day",
         pageNumber: 1,
       });
 
       if (!rankItems.length) {
-        return { success: true, count: 0, candidateIds: [], message: `No products found on Kalodata for "${input.keyword}".` };
+        return { success: true, count: 0, candidateIds: [], message: `No products found on Kalodata for the selected criteria.` };
       }
 
       const toProcess = rankItems.slice(0, input.maxCandidates);

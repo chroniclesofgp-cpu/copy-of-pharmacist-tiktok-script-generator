@@ -63,4 +63,18 @@ describe("Kalodata tRPC integration and compliance gate", () => {
     expect(refreshedRows[0].evidenceGateStatus).toBe("not_reviewed");
     expect(refreshedRows[0].handoffStatus).toBe("not_ready");
   }, 35000);
+
+  it("discovers products by category without requiring a search keyword", async () => {
+    const caller = appRouter.createCaller({ user: { id: 1 } } as any);
+    const result = await caller.radar.searchKalodata({
+      keyword: "", // Blank keyword for pure category ranking
+      categoryId: "700646", // Nutrition & Wellness
+      region: "US",
+      maxCandidates: 1,
+    });
+
+    expect(result.success).toBe(true);
+    expect(result.count).toBeGreaterThanOrEqual(1);
+    expect(result.candidateIds.length).toBeGreaterThanOrEqual(1);
+  }, 35000);
 });
