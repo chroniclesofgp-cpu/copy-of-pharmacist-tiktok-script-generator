@@ -9,6 +9,7 @@ import { vettingRouter } from "./routers/vetting";
 import { videolabRouter } from "./routers/videolab";
 import { commandCenterRouter } from "./routers/commandCenter";
 import { autoReportsRouter } from "./routers/autoReports";
+import { videoEditorRouter } from "./routers/videoEditor";
 import { radarRouter } from "./routers/radar";
 
 export const appRouter = router({
@@ -31,6 +32,7 @@ export const appRouter = router({
   videolab: videolabRouter,
   commandCenter: commandCenterRouter,
   autoReports: autoReportsRouter,
+  videoEditor: videoEditorRouter,
   radar: radarRouter,
 });
 

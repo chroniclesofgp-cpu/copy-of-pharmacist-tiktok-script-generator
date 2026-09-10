@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-describe("Kalodata API Key validation", () => {
+describe.skipIf(!process.env.KALODATA_API_KEY)("Kalodata API Key validation", () => {
   it("authenticates against Kalodata Open API with the supplied KALODATA_API_KEY secret", async () => {
     const key = process.env.KALODATA_API_KEY;
     expect(key).toBeDefined();

@@ -5,10 +5,13 @@ import net from "net";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { registerUploadRoute } from "../uploadRoute";
+import { registerVideoEditorUploadRoute } from "../routers/videoEditorUpload";
+import { EXPORT_DIR } from "../lib/editorPaths";
 import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 import { scheduledVideoAnalysisHandler } from "../scheduledVideoAnalysis";
+import fs from "fs";
 
 function isPortAvailable(port: number): Promise<boolean> {
   return new Promise(resolve => {
@@ -39,6 +42,10 @@ async function startServer() {
   registerOAuthRoutes(app);
   // Video file upload endpoint
   registerUploadRoute(app as unknown as import('express').Router);
+  // Multi-clip video editor upload endpoint (streamed to disk up to 2GB)
+  registerVideoEditorUploadRoute(app as unknown as import('express').Router);
+  // Serve video editor exports from outside git tracking directory
+  app.use("/api/exports", express.static(EXPORT_DIR));
   // Scheduled tasks — must be registered before tRPC fallthrough
   app.post("/api/scheduled/video-analysis", scheduledVideoAnalysisHandler);
   // tRPC API

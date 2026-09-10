@@ -4,7 +4,7 @@ import { getDb } from "./db";
 import { radarCandidates } from "../drizzle/schema";
 import { eq } from "drizzle-orm";
 
-describe("Kalodata tRPC integration and compliance gate", () => {
+describe.skipIf(!process.env.KALODATA_API_KEY)("Kalodata tRPC integration and compliance gate", () => {
   it("returns Kalodata status with masked key", async () => {
     const caller = appRouter.createCaller({ user: { id: 1 } } as any);
     const status = await caller.radar.getKalodataStatus();

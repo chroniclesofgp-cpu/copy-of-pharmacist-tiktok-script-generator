@@ -535,6 +535,84 @@
 - [x] Write and validate a complete fact-only product intelligence record — document integrity scan passed; 267 tests passed; production build passed.
 - [x] Save a checkpoint and deliver the intelligence record for campaign-planning review — checkpoint pending.
 
+## Independent Copy Baseline — September 8, 2026
+- [x] Record that this is an independent copy with fresh project history, deployment state, and empty database data.
+- [x] Record the copied project's current feature and technology baseline.
+- [x] Define the next task for this independent copy after user direction (Last-Take TikTok Video Editor MVP).
+
+
+## Last-Take TikTok Video Editor MVP — September 8, 2026
+- [x] Collect and inspect two representative clips plus the associated transcript.
+- [x] Support both one long raw video and multiple uploaded clips as MVP inputs.
+- [x] Detect repeated lines without requiring a script upload and keep the last detected take by default.
+- [x] Define and implement dead-air removal before any audio-bleed processing.
+- [x] Add an optional audio-bleed toggle that carries audio from each previous clip into the next edited clip after cuts are complete.
+- [x] Provide a review-and-approval workflow before export.
+- [x] Research publicly observable CutAI behavior and compare it with the proposed MVP.
+- [x] Define TikTok-first export defaults, including vertical 9:16 output unless testing indicates a better source-preserving behavior.
+- [x] Test the workflow against representative footage and save a working checkpoint.
+
+## Multi-Clip File Selection & Drag-and-Drop Fix — September 8, 2026
+- [x] Wire genuine file picker input and drag-and-drop handlers on Multi-Clip Upload zone in VideoEditor
+- [x] Support handling uploaded clips (display file list with sizes, thumbnail/preview, and transcription/take detection)
+- [x] Test file selection and drag-and-drop in browser and save a new working checkpoint
+
+## Chunked Upload & Gateway Limit Fix — September 8, 2026
+- [x] Implement chunked upload endpoint (/api/editor/upload-chunk) with 10MB chunk slicing to bypass Cloud Run 32MB payload limit
+- [x] Update VideoEditor frontend to slice large video files into 10MB chunks with smooth progress tracking
+- [x] Handle automatic take detection after final chunk reassembly
+- [x] Test chunked upload end-to-end and save working checkpoint
+
+## Production Audio Extraction & Whisper Transcription — September 8, 2026
+- [x] Add root Dockerfile with ffmpeg for Cloud Run production deployment
+- [x] Implement server-side audio extraction and Forge Whisper API transcription in detectTakes
+- [x] Verify end-to-end transcription and take detection on uploaded footage and save checkpoint
+
+## Production Container Path & Cloud Run Fix — September 8, 2026
+- [x] Replace hardcoded /home/ubuntu paths with container-compatible UPLOAD_DIR and EXPORT_DIR (/tmp/video_uploads and /tmp/video_exports)
+- [x] Ensure automatic directory creation and static mount in server/_core/index.ts, videoEditor.ts, and videoEditorUpload.ts
+- [x] Test upload, audio extraction, Whisper transcription, and take assembly end-to-end and save checkpoint
+
+## Direct Cloud S3 Storage & CloudFront Streaming — September 8, 2026
+- [x] Add getUploadUrl procedure in videoEditor router for direct Forge S3 upload credentials
+- [x] Update VideoEditor frontend to upload directly to S3 via XMLHttpRequest with live progress tracking
+- [x] Support streaming audio extraction and video cutting directly from CloudFront URLs in detectTakes and renderVideo
+- [x] Upload final rendered TikTok MP4s to S3 and return permanent CloudFront download links
+- [x] Verify end-to-end upload, transcription, take detection, and rendering with sample footage and save checkpoint
+
+## Remote CloudFront URL Handling in detectTakes — September 8, 2026
+- [x] Guard detectTakes against calling fs.readdirSync on remote HTTP/HTTPS CloudFront URLs
+- [x] Add robust logging for audio extraction and Whisper API status
+- [x] Verify test suite and save working checkpoint
+
+## Fast Single-Pass Video Export & Export Modal — September 8, 2026
+- [x] Replace slow 22-loop sequential FFmpeg cutting with single-pass filter_complex trim, concat, and acrossfade
+- [x] Add dedicated in-app Export Progress dialog with animated step indicators instead of corner info toast
+- [x] Add Export Success modal with embedded video player, stats, and direct download button
+- [x] Verify multi-take export rendering performance and save checkpoint
+
+## FFmpeg Filter Script Trailing Semicolon Fix — September 8, 2026
+- [x] Fix FFmpeg filter script generator to separate filters with semicolons without a trailing semicolon (resolves "No such filter: ''" error)
+- [x] Truncate verbose FFmpeg error logs so UI toasts remain clean and concise
+- [x] Verify multi-take export rendering and save working checkpoint
+
+## Output Filename Path Sanitization Fix — September 9, 2026
+- [x] Sanitize clipId in outputFilename and ensure recursive directory creation for outputPath to prevent nested path "No such file or directory" error
+- [x] Ensure workDir also uses sanitized safe clipId
+- [x] Verify test suite and save working checkpoint
+
+## Video Editor Session Persistence Across Tabs & Browser Closes — September 9, 2026
+- [x] Implement localStorage persistence for uploaded clips, active clip selection, detection results, and take overrides in VideoEditor
+- [x] Automatically rehydrate editor state when returning to tab or refreshing
+- [x] Add "Reset / New Video" button to clear stored session and start fresh
+- [x] Verify persistence across navigation and save checkpoint
+
+## Merge Second Project Features (copy-of-pharmacist-tiktok-script-generator) — September 10, 2026
+- [x] Inspect remote branch and commits from https://github.com/chroniclesofgp-cpu/copy-of-pharmacist-tiktok-script-generator.git
+- [x] Identify new or modified files (e.g. product selection, vet product, UI toggles)
+- [x] Merge or cherry-pick changes into current codebase without conflicting with video editor
+- [x] Run full test suite to ensure all tests pass
+- [x] Push unified codebase to GitHub and save checkpoint
 ## Personal Script-Aware Video Auto-Editor — Feasibility Assessment
 - [x] Define the minimum reliable editing behavior: silence removal, repeated-take detection, script matching, review controls, and export.
 - [x] Evaluate video-processing architecture, background-work requirements, and suitable hosting for a personal-use tool.
