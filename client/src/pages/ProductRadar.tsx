@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "wouter";
-import { AlertTriangle, BookMarked, CheckCircle2, ExternalLink, FileSpreadsheet, Flame, Globe, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
+import { AlertTriangle, BookMarked, CheckCircle2, ExternalLink, Eye, FileSpreadsheet, Flame, Globe, HelpCircle, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
 import { DEFAULT_RADAR_PROFILE, type RadarProfileConfig } from "../../../server/radar";
+import { diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
 
 const statusLabels: Record<string, string> = { candidate: "Candidate", watchlist: "Watchlist", human_review: "Human review", avoid: "Avoid", approved_for_campaign_planning: "Approved for campaign planning" };
 const metric = (value: unknown) => typeof value === "number" ? Number(value.toFixed(2)) : "—";
@@ -372,6 +373,25 @@ export default function ProductRadar() {
 
         <main className="space-y-6"><div className="flex items-center justify-between"><div><p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p><h2 className="mt-1 text-xl font-semibold">{candidates.length} imported products</h2></div><div className="text-right text-xs text-slate-500">{isLoading ? "Loading…" : "Scores are deterministic"}</div></div>
           {!candidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">No product candidates yet.</p><p className="max-w-md text-sm text-slate-500">Import a FastMoss or Kalodata export to calculate the first transparent radar pass.</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{candidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div>
+            {(() => {
+              const diag = diagnoseMetrics(candidate.rawData || {}, (candidate.metrics || {}) as any, candidate, activeProfile);
+              return (
+                <div className="mt-2">
+                  <div className={`text-[11px] font-medium flex items-center gap-1.5 px-2 py-1 rounded border ${
+                    diag.overall.statusType === "avoid" ? "bg-rose-500/10 text-rose-300 border-rose-500/30" :
+                    diag.overall.statusType === "watchlist" ? "bg-emerald-500/10 text-emerald-300 border-emerald-500/30" :
+                    diag.overall.statusType === "human_review" ? "bg-amber-500/10 text-amber-300 border-amber-500/30" :
+                    "bg-cyan-500/10 text-cyan-300 border-cyan-500/30"
+                  }`}>
+                    {diag.overall.statusType === "avoid" && <AlertTriangle className="h-3.5 w-3.5 text-rose-400 shrink-0" />}
+                    {diag.overall.statusType === "watchlist" && <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400 shrink-0" />}
+                    {diag.overall.statusType === "human_review" && <Eye className="h-3.5 w-3.5 text-amber-400 shrink-0" />}
+                    {diag.overall.statusType === "candidate" && <HelpCircle className="h-3.5 w-3.5 text-cyan-400 shrink-0" />}
+                    <span className="truncate">{diag.overall.headlineReason}</span>
+                  </div>
+                </div>
+              );
+            })()}
             <div className="mt-3 flex flex-wrap gap-1.5">
               {candidate.activeCreatorCount != null && (
                 <span className={`inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded ${m.isHighCompetition ? "bg-amber-500/20 text-amber-300 border border-amber-500/30" : "bg-white/5 text-slate-300"}`}>
@@ -390,6 +410,8 @@ export default function ProductRadar() {
             {selected && (
               <CandidateDetail
                 candidate={selected}
+                profile={activeProfile}
+                profileName={profileName}
                 onUpdate={(data) => updateReview.mutate({ id: selected.id, ...data })}
                 onHandoff={() => handoff.mutate({ id: selected.id })}
                 onRefresh={() => {
@@ -411,6 +433,8 @@ export default function ProductRadar() {
 
 function CandidateDetail({
   candidate,
+  profile,
+  profileName,
   onUpdate,
   onHandoff,
   onRefresh,
@@ -419,6 +443,8 @@ function CandidateDetail({
   setShowRawSnapshot,
 }: {
   candidate: any;
+  profile: RadarProfileConfig;
+  profileName: string;
   onUpdate: (data: any) => void;
   onHandoff: () => void;
   onRefresh: () => void;
@@ -432,44 +458,21 @@ function CandidateDetail({
   const [fit, setFit] = useState<Record<string, string>>(candidate.creatorFit ?? {});
   const raw = candidate.rawData as Record<string, any>;
   const m = candidate.metrics as Record<string, any>;
-  const detail7d = raw.rawDetail7d || {};
-  const rankItem = raw.rawRank || {};
-  const topVideos = raw.rawTopVideos || [];
+  const { items, overall } = diagnoseMetrics(raw, m, candidate, profile);
 
-  const videoShareVal =
-    raw.videoSalesPct != null
-      ? `${raw.videoSalesPct}%`
-      : detail7d.revenue
-      ? `${Math.round(((detail7d.video_revenue || 0) / detail7d.revenue) * 100)}%`
-      : "—";
+  const getCardStyle = (color?: MetricColor) => {
+    if (color === "red") return "border-rose-500/50 bg-rose-500/10";
+    if (color === "yellow") return "border-amber-500/50 bg-amber-500/10";
+    if (color === "green") return "border-emerald-500/50 bg-emerald-500/10";
+    return "border-white/10 bg-black/20";
+  };
 
-  const ratingVal =
-    raw.rating != null
-      ? `${raw.rating}★`
-      : detail7d.product_review_count
-      ? `${Number(detail7d.product_review_count).toLocaleString()} reviews`
-      : "4.5★";
-
-  const commissionVal =
-    raw.commissionAfterAdsPct != null
-      ? `${raw.commissionAfterAdsPct}%`
-      : detail7d.commission_rate != null
-      ? `${detail7d.commission_rate}%`
-      : rankItem.commission_rate != null
-      ? `${rankItem.commission_rate}%`
-      : "—";
-
-  const activeCreatorsVal =
-    candidate.activeCreatorCount ??
-    raw.activeCreatorCount ??
-    detail7d.creator_number ??
-    rankItem.creator_number ??
-    null;
-
-  const viralVideosVal =
-    candidate.videosOver1MViews ??
-    raw.videosOver1MViews ??
-    (topVideos.length ? topVideos.filter((v: any) => Number(v.views || 0) >= 1000000).length : null);
+  const getBadgeStyle = (color?: MetricColor) => {
+    if (color === "red") return "bg-rose-500/20 text-rose-300 border border-rose-500/40";
+    if (color === "yellow") return "bg-amber-500/20 text-amber-300 border border-amber-500/40";
+    if (color === "green") return "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40";
+    return "bg-white/5 text-slate-400 border border-white/10";
+  };
 
   return (
     <Card className="border-white/10 bg-white/[0.04] text-slate-100">
@@ -515,6 +518,70 @@ function CandidateDetail({
         </div>
       </CardHeader>
       <CardContent className="space-y-5">
+        {/* Prominent Diagnostic Status Banner */}
+        <div className={`rounded-xl border p-4 ${
+          overall.statusType === "avoid"
+            ? "border-rose-500/40 bg-rose-500/10 text-rose-100"
+            : overall.statusType === "watchlist"
+            ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-100"
+            : overall.statusType === "human_review"
+            ? "border-amber-500/40 bg-amber-500/10 text-amber-100"
+            : "border-cyan-500/40 bg-cyan-500/10 text-cyan-100"
+        }`}>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              {overall.statusType === "avoid" && <AlertTriangle className="h-5 w-5 text-rose-400 shrink-0" />}
+              {overall.statusType === "watchlist" && <CheckCircle2 className="h-5 w-5 text-emerald-400 shrink-0" />}
+              {overall.statusType === "human_review" && <Eye className="h-5 w-5 text-amber-400 shrink-0" />}
+              {overall.statusType === "candidate" && <HelpCircle className="h-5 w-5 text-cyan-400 shrink-0" />}
+              <span className="font-bold text-sm tracking-wide">{overall.title}</span>
+            </div>
+            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-black/40 border border-white/10 uppercase text-slate-300">
+              Profile: {profileName || "Active Screening Profile"}
+            </span>
+          </div>
+          <p className="mt-2 text-xs font-medium leading-relaxed">
+            {overall.headlineReason}
+          </p>
+
+          {overall.redFlags.length > 0 && (
+            <div className="mt-3 space-y-1.5 border-t border-rose-500/20 pt-2 text-xs">
+              <p className="text-[11px] font-semibold uppercase tracking-wider text-rose-400">Why Avoid? (Failed Thresholds):</p>
+              {overall.redFlags.map((flag, idx) => (
+                <div key={idx} className="flex items-start gap-1.5 text-rose-300">
+                  <span className="text-rose-400 font-bold">•</span>
+                  <span>{flag}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {overall.warningFlags.length > 0 && (
+            <div className="mt-2 space-y-1 border-t border-amber-500/20 pt-2 text-xs">
+              <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">Watch Points:</p>
+              {overall.warningFlags.map((flag, idx) => (
+                <div key={idx} className="flex items-start gap-1.5 text-amber-300">
+                  <span className="text-amber-400 font-bold">•</span>
+                  <span>{flag}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {overall.greenSignals.length > 0 && (
+            <div className="mt-2.5 space-y-1 border-t border-emerald-500/20 pt-2 text-xs">
+              <p className="text-[11px] font-semibold uppercase tracking-wider text-emerald-400">Passing Signals ({overall.greenSignals.length}):</p>
+              <div className="flex flex-wrap gap-1.5 mt-1">
+                {overall.greenSignals.map((sig, idx) => (
+                  <span key={idx} className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[10px]">
+                    ✓ {sig}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
         <section>
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-xs uppercase tracking-[0.18em] text-slate-500">Raw data and deterministic metrics</h3>
@@ -541,45 +608,32 @@ function CandidateDetail({
 
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             {[
-              ["Total sales", raw.totalSales ?? detail7d.sales_volumn ?? rankItem.sales_volumn ?? "—"],
-              ["7-day sales", raw.sales7d ?? detail7d.sales_volumn ?? rankItem.sales_volumn ?? "—"],
-              ["30-day sales", raw.sales30d ?? raw.rawDetail30d?.sales_volumn ?? "—"],
-              ["Video share", videoShareVal],
-              ["Acceleration", m.accelerationPct != null ? `${metric(m.accelerationPct)}%` : "—"],
-              ["Band", m.accelerationBand],
-              ["Stable days", m.stableDays],
-              ["Latest multiplier", metric(m.latestDayMultiplier)],
-              ["Top-video concentration", m.topVideoConcentrationPct != null ? `${m.topVideoConcentrationPct}%` : "—"],
-              ["Concentration", m.concentrationBand],
-              ["Rating", ratingVal],
-              ["Commission", commissionVal],
-              ["Active creators", activeCreatorsVal ?? "—"],
-              ["Creator saturation", m.isHighCompetition === true || (activeCreatorsVal && activeCreatorsVal > 300) ? `High (${activeCreatorsVal} > 300)` : (activeCreatorsVal ? `Manageable (${activeCreatorsVal})` : "—")],
-              ["1M+ view videos", viralVideosVal ?? "—"],
-              ["Ad backing", m.hasHighViewVideoBacking === true ? "Verified (>=1)" : m.hasHighViewVideoBacking === false ? "None recorded" : "—"],
-            ].map(([label, value]) => (
-              <div key={String(label)} className="rounded-lg border border-white/10 bg-black/20 p-3">
-                <p className="text-[11px] text-slate-500">{label}</p>
-                <p className="mt-1 text-sm font-medium">{String(value)}</p>
+              { label: "Total sales", value: items.totalSales?.valueDisplay ?? "—", badge: items.totalSales?.badge, color: items.totalSales?.color },
+              { label: "7-day sales", value: Number(raw.sales7d ?? raw.rawDetail7d?.sales_volumn ?? 0).toLocaleString(), badge: "7d Sales Window", color: "slate" as MetricColor },
+              { label: "30-day sales", value: Number(raw.sales30d ?? raw.rawDetail30d?.sales_volumn ?? 0).toLocaleString(), badge: "30d Baseline", color: "slate" as MetricColor },
+              { label: "Video share", value: items.videoShare?.valueDisplay ?? "—", badge: items.videoShare?.badge, color: items.videoShare?.color },
+              { label: "Acceleration", value: items.acceleration?.valueDisplay ?? "—", badge: items.acceleration?.badge, color: items.acceleration?.color },
+              { label: "Stable days", value: items.stability?.valueDisplay ?? "—", badge: items.stability?.badge, color: items.stability?.color },
+              { label: "Latest multiplier", value: `${metric(m.latestDayMultiplier)}x`, badge: Number(m.latestDayMultiplier) >= profile.latestDayAccelerationMultiplier ? `Surging (≥${profile.latestDayAccelerationMultiplier}x)` : "Normal", color: Number(m.latestDayMultiplier) >= profile.latestDayAccelerationMultiplier ? "green" : "slate" as MetricColor },
+              { label: "Top-video concentration", value: items.concentration?.valueDisplay ?? "—", badge: items.concentration?.badge, color: items.concentration?.color },
+              { label: "Rating", value: items.rating?.valueDisplay ?? "—", badge: items.rating?.badge, color: items.rating?.color },
+              { label: "Commission", value: items.commission?.valueDisplay ?? "—", badge: items.commission?.badge, color: items.commission?.color },
+              { label: "Active creators", value: items.creators?.valueDisplay ?? "—", badge: items.creators?.badge, color: items.creators?.color },
+              { label: "1M+ view videos", value: items.viralVideos?.valueDisplay ?? "0", badge: items.viralVideos?.badge, color: items.viralVideos?.color },
+            ].map((col, idx) => (
+              <div key={idx} className={`rounded-lg border p-3 flex flex-col justify-between ${getCardStyle(col.color)}`}>
+                <div className="flex items-center justify-between gap-1">
+                  <p className="text-[11px] font-medium opacity-80">{col.label}</p>
+                  {col.badge && (
+                    <span className={`text-[9px] font-semibold px-1.5 py-0.2 rounded border truncate max-w-[120px] ${getBadgeStyle(col.color)}`}>
+                      {col.badge}
+                    </span>
+                  )}
+                </div>
+                <p className="mt-2 text-base font-bold text-white tracking-tight">{col.value}</p>
               </div>
             ))}
           </div>
-          {(m.isHighCompetition || (activeCreatorsVal && activeCreatorsVal > 300)) && (
-            <div className="mt-3 rounded-lg border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-200 flex items-center gap-2">
-              <AlertTriangle className="h-4 w-4 shrink-0 text-amber-400" />
-              <span>
-                <strong>High Competitor Saturation:</strong> {String(activeCreatorsVal)} creators are actively promoting this product on TikTok Shop (&gt; 300 threshold). Expect elevated audience fatigue; focus on contrarian educational angles.
-              </span>
-            </div>
-          )}
-          {m.hasHighViewVideoBacking && (
-            <div className="mt-2 rounded-lg border border-violet-500/30 bg-violet-500/10 p-3 text-xs text-violet-200 flex items-center gap-2">
-              <Flame className="h-4 w-4 shrink-0 text-violet-400" />
-              <span>
-                <strong>Ad-Spend / Viral Backing:</strong> {String(raw.videosOver1MViews ?? candidate.videosOver1MViews)} video(s) on this product have cleared 1M views, signaling proven buyer interest.
-              </span>
-            </div>
-          )}
           <div className="mt-3 rounded-lg border border-white/10 bg-black/20 p-3 text-xs leading-5 text-slate-400">
             <strong className="text-slate-200">Confidence notes:</strong> {candidate.confidenceNotes || "No confidence notes."}
           </div>

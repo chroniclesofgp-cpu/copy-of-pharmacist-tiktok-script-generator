@@ -615,3 +615,11 @@
 - [x] Fix server/kalodata.ts adapter mapping to correctly extract and store all returned Kalodata metrics.
 - [x] Update ProductRadar UI detail panel to reliably display active creators, creator saturation status, rating, commission, video share, and 1M+ view videos.
 - [x] Verify with tests and re-refresh imported candidates to ensure numbers populate properly.
+
+## Phase 6: Green / Yellow / Red Visual Metrics & Status Explanations
+
+- [x] Create deterministic metric status evaluator returning color grade ('green' | 'yellow' | 'red') and status label for every measured signal.
+- [x] Generate explicit human-readable reasons for why a product is marked AVOID, WATCHLIST, HUMAN REVIEW, or CANDIDATE.
+- [x] Update candidate queue list items to display the primary status reason right on the card.
+- [x] Update CandidateDetail metric cards with green/yellow/red borders, text badges, and a prominent 'Why this status?' diagnostic banner.
+- [x] Verify with tests and preview screenshot.
