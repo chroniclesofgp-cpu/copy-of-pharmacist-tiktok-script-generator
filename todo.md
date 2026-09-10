@@ -681,3 +681,12 @@
 - [x] Update calculated score penalties and diagnostic banners to explicitly highlight creator saturation as a primary AVOID driver
 - [x] Add Vitest tests asserting that creator saturation (>300) produces reviewStatus: "avoid" even if unit volume and stability pass
 - [x] Re-score and verify existing candidates (e.g. Medicube Glass Glow Set with 2,048 creators marked AVOID)
+
+## Unified Repository Merge (Video Editor + Product Radar) — September 10, 2026
+- [ ] Add remote 'unified' pointing to https://github.com/chroniclesofgp-cpu/pharma-script-gen.git
+- [ ] Pull 'unified main' with --allow-unrelated-histories
+- [ ] Inspect and resolve any merge conflicts, ensuring both Product Radar and Last-Take Video Editor are fully preserved
+- [ ] Verify database schema compatibility and run drizzle generate/migrations if needed
+- [ ] Verify all Vitest test suites pass (both script generator, video editor, and radar suites)
+- [ ] Verify production build compiles without errors
+- [ ] Save final unified checkpoint and deliver outcome
