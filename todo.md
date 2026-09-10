@@ -607,3 +607,10 @@
 - [x] Automatically rehydrate editor state when returning to tab or refreshing
 - [x] Add "Reset / New Video" button to clear stored session and start fresh
 - [x] Verify persistence across navigation and save checkpoint
+
+## Merge Second Project Features (copy-of-pharmacist-tiktok-script-generator) — September 10, 2026
+- [ ] Inspect remote branch and commits from https://github.com/chroniclesofgp-cpu/copy-of-pharmacist-tiktok-script-generator.git
+- [ ] Identify new or modified files (e.g. product selection, vet product, UI toggles)
+- [ ] Merge or cherry-pick changes into current codebase without conflicting with video editor
+- [ ] Run full test suite to ensure all tests pass
+- [ ] Push unified codebase to GitHub and save checkpoint
