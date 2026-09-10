@@ -161,6 +161,8 @@ export class KalodataAdapter {
     region?: string;
     dateRange?: "last7Day" | "last30Day";
     pageNumber?: number;
+    pageSize?: number;
+    revenueRange?: string;
   }): Promise<KalodataProductRankItem[]> {
     const payload: Record<string, unknown> = {
       region: params.region || "US",
@@ -169,12 +171,45 @@ export class KalodataAdapter {
       date_range: params.dateRange || "last7Day",
       keyword: params.keyword ? params.keyword.trim() : "",
       page_number: params.pageNumber || 1,
+      page_size: params.pageSize || 50,
     };
     if (params.categoryId && params.categoryId !== "all") {
       payload.category_ids = [params.categoryId];
     }
+    if (params.revenueRange) {
+      payload.revenue_range = params.revenueRange;
+    }
     const data = await this.postEndpoint<KalodataProductRankItem[]>("/product/rank", payload);
     return Array.isArray(data) ? data : [];
+  }
+
+  public async searchCandidatePool(params: {
+    keyword?: string;
+    categoryId?: string;
+    region?: string;
+    dateRange?: "last7Day" | "last30Day";
+    pagesToScan?: number;
+    revenueRange?: string;
+  }): Promise<KalodataProductRankItem[]> {
+    const pages = Math.min(Math.max(params.pagesToScan || 2, 1), 3);
+    const results: KalodataProductRankItem[] = [];
+    const seenIds = new Set<string>();
+
+    for (let page = 1; page <= pages; page++) {
+      const batch = await this.searchProducts({
+        ...params,
+        pageNumber: page,
+        pageSize: 50,
+      });
+      for (const item of batch) {
+        if (item.product_id && !seenIds.has(item.product_id)) {
+          seenIds.add(item.product_id);
+          results.push(item);
+        }
+      }
+      if (batch.length < 50) break;
+    }
+    return results;
   }
 
   public async getProductDetail(params: {

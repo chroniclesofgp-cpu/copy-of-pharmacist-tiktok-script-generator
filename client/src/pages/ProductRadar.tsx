@@ -334,10 +334,37 @@ export default function ProductRadar() {
                       </select>
                     </div>
                   </div>
+
+                  <div className="rounded-md border border-cyan-500/30 bg-cyan-950/30 p-2.5 text-xs text-slate-300 space-y-1">
+                    <div className="flex items-center justify-between font-medium text-cyan-300">
+                      <span className="flex items-center gap-1.5">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400" />
+                        Intake Pre-Filter Gate: Active
+                      </span>
+                      <span className="text-[10px] uppercase font-mono px-1.5 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/20 text-cyan-200">
+                        {profileName}
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-slate-400 leading-relaxed">
+                      Scans up to 100 category rankers, pre-filters for sales volume between <strong className="text-slate-200">{activeProfile.minTotalSales.toLocaleString()} – {activeProfile.maxTotalSales.toLocaleString()}</strong>, deduplicates existing products, and deep-enriches only qualified breakout candidates.
+                    </p>
+                  </div>
+
                   <Button
                     className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-medium"
                     disabled={searchKalodata.isPending}
-                    onClick={() => searchKalodata.mutate({ keyword: searchKeyword.trim(), categoryId: searchCategory, region: searchRegion, maxCandidates: searchLimit })}
+                    onClick={() =>
+                      searchKalodata.mutate({
+                        keyword: searchKeyword.trim(),
+                        categoryId: searchCategory,
+                        region: searchRegion,
+                        maxCandidates: searchLimit,
+                        profile: activeProfile,
+                        minTotalSales: activeProfile.minTotalSales,
+                        maxTotalSales: activeProfile.maxTotalSales,
+                        pagesToScan: 2,
+                      })
+                    }
                   >
                     {searchKalodata.isPending ? (
                       <span className="flex items-center gap-2"><RefreshCw className="h-4 w-4 animate-spin" /> Pulling Kalodata Live...</span>
@@ -345,9 +372,6 @@ export default function ProductRadar() {
                       <span className="flex items-center gap-2"><Globe className="h-4 w-4" /> Pull Live from Kalodata</span>
                     )}
                   </Button>
-                  <p className="text-[11px] leading-4 text-slate-500">
-                    {searchKeyword.trim() ? `Filtering category for "${searchKeyword.trim()}".` : `Scouting top-velocity products in selected category.`} Rate-limited with automatic backoff.
-                  </p>
                 </div>
               ) : (
                 <div className="space-y-3">

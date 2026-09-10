@@ -623,3 +623,11 @@
 - [x] Update candidate queue list items to display the primary status reason right on the card.
 - [x] Update CandidateDetail metric cards with green/yellow/red borders, text badges, and a prominent 'Why this status?' diagnostic banner.
 - [x] Verify with tests and preview screenshot.
+
+## Phase 7: Kalodata Native Volume Filtering & Qualified Candidate Intake
+
+- [x] Test Kalodata `/product/rank` request payload against live API and documentation to verify if native volume range filter (sales_min / sales_max / min_revenue / etc.) is supported.
+- [x] Analyze sustained daily API call volumes and rate-limit safety for native filtering vs. multi-page pool intake.
+- [x] Implement the optimal candidate intake architecture (pre-filtering by volume before deep analysis, deduplicating against existing DB candidates).
+- [x] Verify with tests and live UI pull that clicking Pull Live returns genuine breakout candidates in the active profile's volume range.
+- [x] Document findings and quota math for the user.

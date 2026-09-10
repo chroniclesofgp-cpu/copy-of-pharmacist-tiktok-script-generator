@@ -129,6 +129,10 @@ export const radarRouter = router({
         categoryId: z.string().optional().default("700646"),
         region: z.string().default("US"),
         maxCandidates: z.number().int().min(1).max(20).default(5),
+        profile: profileSchema.optional(),
+        minTotalSales: z.number().optional(),
+        maxTotalSales: z.number().optional(),
+        pagesToScan: z.number().int().min(1).max(3).default(2),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -139,22 +143,45 @@ export const radarRouter = router({
       const db = await getDb();
       if (!db) throw new Error("Database unavailable");
 
-      const rankItems = await defaultKalodataAdapter.searchProducts({
+      const targetProfile = input.profile || DEFAULT_RADAR_PROFILE;
+      const targetMinSales = input.minTotalSales ?? targetProfile.minTotalSales ?? 2000;
+      const targetMaxSales = input.maxTotalSales ?? targetProfile.maxTotalSales ?? 40000;
+
+      // 1. Fetch pool of 50-100 ranked products across the category
+      const rankItems = await defaultKalodataAdapter.searchCandidatePool({
         keyword: input.keyword,
         categoryId: input.categoryId,
         region: input.region,
         dateRange: "last7Day",
-        pageNumber: 1,
+        pagesToScan: input.pagesToScan,
       });
 
       if (!rankItems.length) {
         return { success: true, count: 0, candidateIds: [], message: `No products found on Kalodata for the selected criteria.` };
       }
 
-      const toProcess = rankItems.slice(0, input.maxCandidates);
+      // 2. Fetch existing product IDs in DB to prevent re-importing duplicates
+      const existingRows = await db
+        .select({ extId: radarCandidates.externalProductId })
+        .from(radarCandidates)
+        .where(eq(radarCandidates.userId, userId));
+      const existingExtIds = new Set(existingRows.map((r) => r.extId).filter(Boolean));
+
+      // 3. Separate into unqueued products
+      const unqueued = rankItems.filter((item) => item.product_id && !existingExtIds.has(item.product_id));
+      const poolToFilter = unqueued.length > 0 ? unqueued : rankItems;
+
+      // 4. Pre-filter pool by active profile's total sales volume window
+      const qualified = poolToFilter.filter((item) => {
+        const sales = Number(item.sales_volumn || 0);
+        return sales >= targetMinSales && sales <= targetMaxSales;
+      });
+
+      // Select the top candidates (preferring qualified breakout candidates)
+      const candidatesToEnrich = (qualified.length > 0 ? qualified : poolToFilter).slice(0, input.maxCandidates);
       const createdIds: number[] = [];
 
-      for (const rankItem of toProcess) {
+      for (const rankItem of candidatesToEnrich) {
         try {
           const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
             rankItem.product_id,
@@ -162,7 +189,7 @@ export const radarRouter = router({
             input.region
           );
           const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
-          const metrics = calculateRadarMetrics(rawRow, DEFAULT_RADAR_PROFILE);
+          const metrics = calculateRadarMetrics(rawRow, targetProfile);
 
           const [candidate] = await db
             .insert(radarCandidates)
@@ -209,11 +236,15 @@ export const radarRouter = router({
         }
       }
 
+      const matchNotice = qualified.length > 0
+        ? `Scanned ${rankItems.length} products. Found ${qualified.length} in your target range (${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()}). Imported top ${createdIds.length} qualified breakout candidates.`
+        : `Scanned ${rankItems.length} products. Imported ${createdIds.length} candidate(s) (closest available to your volume profile).`;
+
       return {
         success: true,
         count: createdIds.length,
         candidateIds: createdIds,
-        message: `Successfully imported ${createdIds.length} product(s) via Kalodata live API.`,
+        message: matchNotice,
       };
     }),
   refreshCandidateFromKalodata: publicProcedure
