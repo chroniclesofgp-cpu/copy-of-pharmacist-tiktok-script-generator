@@ -601,3 +601,9 @@
 - [x] Sanitize clipId in outputFilename and ensure recursive directory creation for outputPath to prevent nested path "No such file or directory" error
 - [x] Ensure workDir also uses sanitized safe clipId
 - [x] Verify test suite and save working checkpoint
+
+## Video Editor Session Persistence Across Tabs & Browser Closes — September 9, 2026
+- [x] Implement localStorage persistence for uploaded clips, active clip selection, detection results, and take overrides in VideoEditor
+- [x] Automatically rehydrate editor state when returning to tab or refreshing
+- [x] Add "Reset / New Video" button to clear stored session and start fresh
+- [x] Verify persistence across navigation and save checkpoint

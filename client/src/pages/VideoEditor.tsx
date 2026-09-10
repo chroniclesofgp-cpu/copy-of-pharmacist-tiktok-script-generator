@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -50,6 +50,19 @@ import {
 } from '../../../shared/videoEditorTypes';
 import { DEFAULT_EDIT_SETTINGS, formatSecondsToTimestamp } from '../../../server/lib/takeDetector';
 
+const STORAGE_KEY = 'rx_last_take_video_editor_session_v1';
+
+function loadStoredSession() {
+  if (typeof window === 'undefined') return null;
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
 export default function VideoEditor() {
   // Data queries & mutations
   const sampleClipsQuery = trpc.videoEditor.getSampleClips.useQuery();
@@ -57,14 +70,31 @@ export default function VideoEditor() {
   const renderVideoMutation = trpc.videoEditor.renderVideo.useMutation();
   const getUploadUrlMutation = trpc.videoEditor.getUploadUrl.useMutation();
 
+  // Session persistence loader
+  const storedSession = useMemo(() => loadStoredSession(), []);
+
   // State
-  const [selectedClipId, setSelectedClipId] = useState<string>('IMG_7546');
-  const [selectedVideoUrl, setSelectedVideoUrl] = useState<string | undefined>(undefined);
-  const [customTranscript, setCustomTranscript] = useState<string>('');
-  const [inputMode, setInputMode] = useState<'sample' | 'custom' | 'upload'>('sample');
-  const [settings, setSettings] = useState<EditSettings>(DEFAULT_EDIT_SETTINGS);
-  const [detectionResult, setDetectionResult] = useState<DetectionResult | null>(null);
-  const [selectedTakeMap, setSelectedTakeMap] = useState<Record<string, string>>({}); // groupId -> takeId
+  const [selectedClipId, setSelectedClipId] = useState<string>(
+    storedSession?.selectedClipId || 'IMG_7546'
+  );
+  const [selectedVideoUrl, setSelectedVideoUrl] = useState<string | undefined>(
+    storedSession?.selectedVideoUrl || undefined
+  );
+  const [customTranscript, setCustomTranscript] = useState<string>(
+    storedSession?.customTranscript || ''
+  );
+  const [inputMode, setInputMode] = useState<'sample' | 'custom' | 'upload'>(
+    storedSession?.inputMode || (storedSession?.uploadedClips?.length > 0 ? 'upload' : 'sample')
+  );
+  const [settings, setSettings] = useState<EditSettings>(
+    storedSession?.settings || DEFAULT_EDIT_SETTINGS
+  );
+  const [detectionResult, setDetectionResult] = useState<DetectionResult | null>(
+    storedSession?.detectionResult || null
+  );
+  const [selectedTakeMap, setSelectedTakeMap] = useState<Record<string, string>>(
+    storedSession?.selectedTakeMap || {}
+  );
   const [activePreviewTake, setActivePreviewTake] = useState<TakeItem | null>(null);
   const [isExportModalOpen, setIsExportModalOpen] = useState<boolean>(false);
   const [renderedOutput, setRenderedOutput] = useState<{
@@ -93,8 +123,56 @@ export default function VideoEditor() {
     fileSizeBytes: number;
     mimeType: string;
     isTranscript: boolean;
-    url: string;
-  }>>([]);
+    url?: string;
+  }>>(storedSession?.uploadedClips || []);
+
+  // Automatically persist session changes to localStorage
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    try {
+      const payload = {
+        selectedClipId,
+        selectedVideoUrl,
+        customTranscript,
+        inputMode,
+        settings,
+        detectionResult,
+        selectedTakeMap,
+        uploadedClips,
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+    } catch (e) {
+      console.warn('Failed to persist session to localStorage:', e);
+    }
+  }, [
+    selectedClipId,
+    selectedVideoUrl,
+    customTranscript,
+    inputMode,
+    settings,
+    detectionResult,
+    selectedTakeMap,
+    uploadedClips,
+  ]);
+
+  // Clear / Reset session handler
+  const handleResetSession = () => {
+    if (window.confirm('Clear all uploaded clips and detected takes to start a fresh project?')) {
+      if (typeof window !== 'undefined') {
+        localStorage.removeItem(STORAGE_KEY);
+      }
+      setUploadedClips([]);
+      setSelectedClipId('IMG_7546');
+      setSelectedVideoUrl(undefined);
+      setDetectionResult(null);
+      setSelectedTakeMap({});
+      setCustomTranscript('');
+      setInputMode('sample');
+      setSettings(DEFAULT_EDIT_SETTINGS);
+      setRenderedOutput(null);
+      toast.success('Session cleared. Ready for fresh upload.');
+    }
+  };
 
   // Auto-analyze selected sample clip on initial load if available
   useEffect(() => {
@@ -360,6 +438,10 @@ export default function VideoEditor() {
               <Badge variant="outline" className="text-[10px] bg-teal-500/10 text-teal-300 border-teal-500/30 px-1.5 py-0">
                 CutAI Style
               </Badge>
+              <Badge variant="outline" className="text-[10px] bg-white/5 text-white/40 border-white/10 hidden sm:inline-flex items-center gap-1">
+                <CheckCircle2 className="w-2.5 h-2.5 text-teal-400" />
+                Auto-Saved
+              </Badge>
             </div>
           </div>
 
@@ -416,7 +498,18 @@ export default function VideoEditor() {
                   <Video className="w-4 h-4 text-teal-400" />
                   Source Footage
                 </h2>
-                <span className="text-[11px] text-white/40">No script upload required</span>
+                {uploadedClips.length > 0 ? (
+                  <button
+                    onClick={handleResetSession}
+                    className="text-[11px] text-white/40 hover:text-red-400 transition-colors flex items-center gap-1"
+                    title="Clear saved session and upload a new video"
+                  >
+                    <RotateCcw className="w-2.5 h-2.5" />
+                    New Video
+                  </button>
+                ) : (
+                  <span className="text-[11px] text-white/40">No script upload required</span>
+                )}
               </div>
               <p className="text-xs text-white/50 leading-relaxed">
                 Select creator raw recordings or paste transcripts. The AI identifies repeated attempts and selects the final clean take.
