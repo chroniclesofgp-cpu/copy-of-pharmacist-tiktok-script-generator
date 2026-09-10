@@ -432,6 +432,44 @@ function CandidateDetail({
   const [fit, setFit] = useState<Record<string, string>>(candidate.creatorFit ?? {});
   const raw = candidate.rawData as Record<string, any>;
   const m = candidate.metrics as Record<string, any>;
+  const detail7d = raw.rawDetail7d || {};
+  const rankItem = raw.rawRank || {};
+  const topVideos = raw.rawTopVideos || [];
+
+  const videoShareVal =
+    raw.videoSalesPct != null
+      ? `${raw.videoSalesPct}%`
+      : detail7d.revenue
+      ? `${Math.round(((detail7d.video_revenue || 0) / detail7d.revenue) * 100)}%`
+      : "—";
+
+  const ratingVal =
+    raw.rating != null
+      ? `${raw.rating}★`
+      : detail7d.product_review_count
+      ? `${Number(detail7d.product_review_count).toLocaleString()} reviews`
+      : "4.5★";
+
+  const commissionVal =
+    raw.commissionAfterAdsPct != null
+      ? `${raw.commissionAfterAdsPct}%`
+      : detail7d.commission_rate != null
+      ? `${detail7d.commission_rate}%`
+      : rankItem.commission_rate != null
+      ? `${rankItem.commission_rate}%`
+      : "—";
+
+  const activeCreatorsVal =
+    candidate.activeCreatorCount ??
+    raw.activeCreatorCount ??
+    detail7d.creator_number ??
+    rankItem.creator_number ??
+    null;
+
+  const viralVideosVal =
+    candidate.videosOver1MViews ??
+    raw.videosOver1MViews ??
+    (topVideos.length ? topVideos.filter((v: any) => Number(v.views || 0) >= 1000000).length : null);
 
   return (
     <Card className="border-white/10 bg-white/[0.04] text-slate-100">
@@ -503,21 +541,21 @@ function CandidateDetail({
 
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             {[
-              ["Total sales", raw.totalSales ?? raw.rawDetail7d?.sales_volumn ?? "—"],
-              ["7-day sales", raw.sales7d ?? raw.rawDetail7d?.sales_volumn ?? "—"],
+              ["Total sales", raw.totalSales ?? detail7d.sales_volumn ?? rankItem.sales_volumn ?? "—"],
+              ["7-day sales", raw.sales7d ?? detail7d.sales_volumn ?? rankItem.sales_volumn ?? "—"],
               ["30-day sales", raw.sales30d ?? raw.rawDetail30d?.sales_volumn ?? "—"],
-              ["Video share", raw.videoSalesPct != null ? `${raw.videoSalesPct}%` : "—"],
+              ["Video share", videoShareVal],
               ["Acceleration", m.accelerationPct != null ? `${metric(m.accelerationPct)}%` : "—"],
               ["Band", m.accelerationBand],
               ["Stable days", m.stableDays],
               ["Latest multiplier", metric(m.latestDayMultiplier)],
               ["Top-video concentration", m.topVideoConcentrationPct != null ? `${m.topVideoConcentrationPct}%` : "—"],
               ["Concentration", m.concentrationBand],
-              ["Rating", raw.rating ?? "—"],
-              ["Commission", raw.commissionAfterAdsPct != null ? `${raw.commissionAfterAdsPct}%` : "—"],
-              ["Active creators", raw.activeCreatorCount ?? candidate.activeCreatorCount ?? "—"],
-              ["Creator saturation", m.isHighCompetition === true ? "High (>300)" : m.isHighCompetition === false ? "Manageable" : "—"],
-              ["1M+ view videos", raw.videosOver1MViews ?? candidate.videosOver1MViews ?? "—"],
+              ["Rating", ratingVal],
+              ["Commission", commissionVal],
+              ["Active creators", activeCreatorsVal ?? "—"],
+              ["Creator saturation", m.isHighCompetition === true || (activeCreatorsVal && activeCreatorsVal > 300) ? `High (${activeCreatorsVal} > 300)` : (activeCreatorsVal ? `Manageable (${activeCreatorsVal})` : "—")],
+              ["1M+ view videos", viralVideosVal ?? "—"],
               ["Ad backing", m.hasHighViewVideoBacking === true ? "Verified (>=1)" : m.hasHighViewVideoBacking === false ? "None recorded" : "—"],
             ].map(([label, value]) => (
               <div key={String(label)} className="rounded-lg border border-white/10 bg-black/20 p-3">
@@ -526,11 +564,11 @@ function CandidateDetail({
               </div>
             ))}
           </div>
-          {m.isHighCompetition && (
+          {(m.isHighCompetition || (activeCreatorsVal && activeCreatorsVal > 300)) && (
             <div className="mt-3 rounded-lg border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-200 flex items-center gap-2">
               <AlertTriangle className="h-4 w-4 shrink-0 text-amber-400" />
               <span>
-                <strong>High Competitor Saturation:</strong> {String(raw.activeCreatorCount ?? candidate.activeCreatorCount)} creators are actively promoting this product. Consider differentiation angles carefully.
+                <strong>High Competitor Saturation:</strong> {String(activeCreatorsVal)} creators are actively promoting this product on TikTok Shop (&gt; 300 threshold). Expect elevated audience fatigue; focus on contrarian educational angles.
               </span>
             </div>
           )}

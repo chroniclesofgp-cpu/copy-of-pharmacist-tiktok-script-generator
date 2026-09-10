@@ -176,7 +176,7 @@ export const radarRouter = router({
               productAgeDays: rawRow.productAgeDays ?? null,
               activeCreatorCount: rawRow.activeCreatorCount ?? null,
               videosOver1MViews: rawRow.videosOver1MViews ?? null,
-              rawDataJson: JSON.stringify(snapshot),
+              rawDataJson: JSON.stringify({ ...rawRow, productId: snapshot.productId, fetchedAt: snapshot.fetchedAt, rawSnapshot: snapshot, rawDetail7d: snapshot.rawDetail7d, rawRank: snapshot.rawRank, rawTopVideos: snapshot.rawTopVideos }),
               metricsJson: JSON.stringify(metrics),
               confidenceNotes: metrics.confidenceNotes.join(" "),
               creatorFitJson: JSON.stringify({
@@ -242,7 +242,7 @@ export const radarRouter = router({
       await db
         .update(radarCandidates)
         .set({
-          rawDataJson: JSON.stringify(snapshot),
+          rawDataJson: JSON.stringify({ ...rawRow, productId: snapshot.productId, fetchedAt: snapshot.fetchedAt, rawSnapshot: snapshot, rawDetail7d: snapshot.rawDetail7d, rawRank: snapshot.rawRank, rawTopVideos: snapshot.rawTopVideos }),
           activeCreatorCount: rawRow.activeCreatorCount ?? null,
           videosOver1MViews: rawRow.videosOver1MViews ?? null,
           metricsJson: JSON.stringify(newMetrics),

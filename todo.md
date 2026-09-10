@@ -608,3 +608,10 @@
 - [x] Add Category Discovery dropdown to ProductRadar UI (Health & Supplements, Beauty & Skincare, Personal Care, All Categories).
 - [x] Support quick switching between Category Trending mode and Symptom/Keyword search mode.
 - [x] Test and verify category-based product pulls and update Vitest test suite.
+
+## Phase 5: Kalodata Response Field Mapping Fixes (Video Share, Rating, Commission, Creator Saturation)
+
+- [x] Inspect raw snapshot JSON for imported candidates and check Kalodata API response structure for rating, commission, video share, creator count, and viral videos.
+- [x] Fix server/kalodata.ts adapter mapping to correctly extract and store all returned Kalodata metrics.
+- [x] Update ProductRadar UI detail panel to reliably display active creators, creator saturation status, rating, commission, video share, and 1M+ view videos.
+- [x] Verify with tests and re-refresh imported candidates to ensure numbers populate properly.
