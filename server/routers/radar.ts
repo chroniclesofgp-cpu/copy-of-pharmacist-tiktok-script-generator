@@ -189,9 +189,13 @@ export const radarRouter = router({
       const db = await getDb();
       if (!db) throw new Error("Database unavailable");
 
-      const targetProfile = input.profile || DEFAULT_RADAR_PROFILE;
-      const targetMinSales = input.minTotalSales ?? targetProfile.minTotalSales ?? 2000;
-      const targetMaxSales = input.maxTotalSales ?? targetProfile.maxTotalSales ?? 40000;
+      const targetMinSales = input.minTotalSales ?? input.profile?.minTotalSales ?? 2000;
+      const targetMaxSales = input.maxTotalSales ?? input.profile?.maxTotalSales ?? 40000;
+      const targetProfile = {
+        ...(input.profile || DEFAULT_RADAR_PROFILE),
+        minTotalSales: targetMinSales,
+        maxTotalSales: targetMaxSales,
+      };
       const scanPages = Math.min(5, Math.max(input.pagesToScan || 2, Math.ceil(input.maxCandidates / 5)));
 
       const sortField =
@@ -203,12 +207,9 @@ export const radarRouter = router({
           ? "sales_volumn"
           : "revenue";
 
-      // Native 7-day revenue range corresponding to target volume window at typical $15-$50 price points
-      const estMinRev = Math.max(1000, Math.floor(targetMinSales * 0.8));
-      const estMaxRev = Math.ceil(targetMaxSales * 6.0);
-      const revenueRange = `${estMinRev}-${estMaxRev}`;
-
-      // 1. Fetch pool of 50-100 ranked products across the category
+      // 1. Fetch pool of ranked products across the category using native sort strategy.
+      // In Option A, we do NOT pass a speculative revenueRange dollar conversion to avoid missing
+      // explosive non-linear breakouts (e.g. Yummy Skin).
       const rankItems = await defaultKalodataAdapter.searchCandidatePool({
         keyword: input.keyword,
         categoryId: input.categoryId,
@@ -216,7 +217,6 @@ export const radarRouter = router({
         dateRange: "last7Day",
         pagesToScan: scanPages,
         sortField,
-        revenueRange,
         isAffiliate: true,
         unitPriceRange: input.priceRange,
       });
@@ -251,22 +251,19 @@ export const radarRouter = router({
       const unqueued = rankItems.filter((item) => item.product_id && !existingExtIds.has(item.product_id));
       const poolToFilter = unqueued.length > 0 ? unqueued : rankItems;
 
-      // 5. Pre-filter pool by active profile's total sales volume window.
-      // Est. 7d velocity for products in the 90d window is typically 5% to 35% of total sales.
-      const min7d = Math.max(50, Math.floor(targetMinSales * 0.04));
-      const max7d = Math.ceil(targetMaxSales * 0.35);
-      const qualified = poolToFilter.filter((item) => {
-        const sales = Number(item.sales_volumn || 0);
-        return sales >= min7d && sales <= max7d;
-      });
+      // 5. Filter out only products whose single-week sales ALREADY exceeds the target ceiling.
+      // (Since lifetime sales >= 7-day sales, if 7-day sales > targetMaxSales, lifetime is mathematically > targetMaxSales).
+      const candidatesToScan = poolToFilter
+        .filter((item) => {
+          const sales7d = Number(item.sales_volumn || 0);
+          return sales7d <= targetMaxSales;
+        })
+        .slice(0, Math.max(input.maxCandidates * 3, 8));
 
-      // Select the top candidates (preferring qualified breakout candidates).
-      // If no products match the 7d estimate, scan the pool directly up to maxCandidates.
-      const candidatesToEnrich = (qualified.length > 0 ? qualified : poolToFilter).slice(0, Math.max(input.maxCandidates, 10));
       const createdIds: number[] = [];
       const archivedIds: number[] = [];
 
-      for (const rankItem of candidatesToEnrich) {
+      for (const rankItem of candidatesToScan) {
         if (createdIds.length >= input.maxCandidates) break;
         try {
           const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
@@ -276,9 +273,11 @@ export const radarRouter = router({
           );
           const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
           const metrics = calculateRadarMetrics(rawRow, targetProfile);
+
+          // Strict Real-Unit Hard Gate (Option A):
+          // Evaluated against actual un-extrapolated lifetime / 90-day unit sales from /product/detail.
+          // Applies identically across all 4 discovery strategies (Breakout Velocity, Video-Driven Movers, Sales Volume, Gross Revenue).
           const profileEvaluation = isRadarCandidateOutsideProfile(rawRow, targetProfile);
-          // Strict Hard Gate: if the enriched total sales is outside the screening profile,
-          // archive it immediately so it NEVER pollutes the active candidate queue.
           const queueState = profileEvaluation.outside ? "archived" : "active";
 
           const [candidate] = await db
@@ -333,7 +332,7 @@ export const radarRouter = router({
         }
       }
 
-      const matchNotice = qualified.length > 0
+      const matchNotice = createdIds.length > 0
         ? `Scanned ${rankItems.length} products. Found ${createdIds.length} candidate(s) strictly matching your ${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()} volume profile (archived ${archivedIds.length} out-of-range products).`
         : `Scanned ${rankItems.length} products. Found 0 products meeting your ${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()} volume profile (they are either too early or over 40k). Try using the category suggestion chips (like Serums, Eye Patches, or Protein) to narrow down the pool.`;
 

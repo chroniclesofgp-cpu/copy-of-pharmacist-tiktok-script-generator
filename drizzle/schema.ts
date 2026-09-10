@@ -1,4 +1,4 @@
-import { int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
+import { int, mediumtext, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -212,7 +212,7 @@ export const radarCandidates = mysqlTable("radarCandidates", {
   productAgeDays: int("productAgeDays"),
   activeCreatorCount: int("activeCreatorCount"),
   videosOver1MViews: int("videosOver1MViews"),
-  rawDataJson: text("rawDataJson").notNull(),
+  rawDataJson: mediumtext("rawDataJson").notNull(),
   metricsJson: text("metricsJson").notNull(),
   confidenceNotes: text("confidenceNotes"),
   creatorFitJson: text("creatorFitJson"),

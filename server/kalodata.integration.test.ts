@@ -20,6 +20,9 @@ describe("Kalodata tRPC integration and compliance gate", () => {
         keyword: "Magnesium",
         region: "US",
         maxCandidates: 1,
+        pagesToScan: 1,
+        minTotalSales: 1,
+        maxTotalSales: 1000000,
       });
     } catch (err: any) {
       if (err.message?.includes("credit quota") || err.message?.includes("credit balance")) {
@@ -72,7 +75,7 @@ describe("Kalodata tRPC integration and compliance gate", () => {
     const refreshedRows = await db!.select().from(radarCandidates).where(eq(radarCandidates.id, candidateId)).limit(1);
     expect(refreshedRows[0].evidenceGateStatus).toBe("not_reviewed");
     expect(refreshedRows[0].handoffStatus).toBe("not_ready");
-  }, 35000);
+  }, 60000);
 
   it("discovers products by category without requiring a search keyword", async () => {
     const caller = appRouter.createCaller({ user: { id: 1 } } as any);
@@ -82,6 +85,7 @@ describe("Kalodata tRPC integration and compliance gate", () => {
         categoryId: "700646", // Nutrition & Wellness
         region: "US",
         maxCandidates: 1,
+        pagesToScan: 1,
       });
       expect(result.success).toBe(true);
     } catch (err: any) {
@@ -92,5 +96,5 @@ describe("Kalodata tRPC integration and compliance gate", () => {
       }
       throw err;
     }
-  }, 35000);
+  }, 60000);
 });

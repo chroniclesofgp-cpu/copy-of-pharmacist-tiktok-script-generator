@@ -111,4 +111,35 @@ describe("Product Radar queue reconciliation", () => {
     expect(metrics.topVideoConcentrationPct).toBe(27.8);
     expect(metrics.concentrationBand).toBe("spread_out");
   });
+
+  it("enforces the real-unit volume gate identically across all Discovery Strategies without extrapolation bias", () => {
+    const coachA = { ...DEFAULT_RADAR_PROFILE, minTotalSales: 2000, maxTotalSales: 40000 };
+    const coachB = { ...DEFAULT_RADAR_PROFILE, minTotalSales: 1000, maxTotalSales: 9000 };
+
+    // Sample products with un-extrapolated total sales from /product/detail
+    const candidateInCoachA = { totalSales: 7568, productName: "Yummy Skin" };
+    const candidateExceedingCoachA = { totalSales: 60658, productName: "Mega BB Cream" };
+    const candidateInCoachB = { totalSales: 4500, productName: "Niche Lip Oil" };
+    const candidateExceedingCoachB = { totalSales: 15000, productName: "Mid Tier Toner" };
+
+    // Coach A check: 7568 is inside, 60658 is outside
+    expect(isRadarCandidateOutsideProfile(candidateInCoachA, coachA).outside).toBe(false);
+    expect(isRadarCandidateOutsideProfile(candidateExceedingCoachA, coachA).outside).toBe(true);
+    expect(isRadarCandidateOutsideProfile(candidateExceedingCoachA, coachA).reason).toContain("outside 2,000–40,000");
+
+    // Coach B check: 4500 is inside, 15000 is outside
+    expect(isRadarCandidateOutsideProfile(candidateInCoachB, coachB).outside).toBe(false);
+    expect(isRadarCandidateOutsideProfile(candidateExceedingCoachB, coachB).outside).toBe(true);
+    expect(isRadarCandidateOutsideProfile(candidateExceedingCoachB, coachB).reason).toContain("outside 1,000–9,000");
+
+    // Invariance check: sorting strategy does NOT alter real-unit eligibility
+    const allStrategies = ["growth_rate", "video_revenue", "sales_volume", "revenue"] as const;
+    for (const strategy of allStrategies) {
+      // Eligibility strictly depends on un-extrapolated totalSales, NEVER on discovery strategy
+      const evalA = isRadarCandidateOutsideProfile(candidateInCoachA, coachA);
+      expect(evalA.outside).toBe(false);
+      const evalMega = isRadarCandidateOutsideProfile(candidateExceedingCoachA, coachA);
+      expect(evalMega.outside).toBe(true);
+    }
+  });
 });

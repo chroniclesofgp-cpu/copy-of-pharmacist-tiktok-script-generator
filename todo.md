@@ -667,3 +667,10 @@
 - [x] Implement native revenueRange and isAffiliate filters in Kalodata adapter to filter mega-sellers directly at the API layer
 - [x] Add Discovery Strategy selector (Breakout Velocity, Video-Driven Movers, Sales Volume, Gross Revenue) to Product Radar UI
 - [x] Verify all 287 Vitest tests pass and production build succeeds
+
+## Option A: Direct Velocity Discovery & Uniform Real-Unit Gate — September 10, 2026
+- [x] Remove artificial revenue_range dollar extrapolation from Kalodata discovery query so no legitimate breakouts are missed
+- [x] Ensure strict real-unit gate (2k–40k for Coach A / 1k–9k for Coach B from /product/detail) applies identically across all 4 discovery strategies (Breakout Velocity, Video-Driven Movers, Sales Volume, Gross Revenue)
+- [x] Add Vitest tests confirming real-unit gating consistency regardless of discovery strategy
+- [x] Check Kalodata live API credit status and run a live category re-test under the new query logic
+- [x] Document discovered candidates and deliver final report
