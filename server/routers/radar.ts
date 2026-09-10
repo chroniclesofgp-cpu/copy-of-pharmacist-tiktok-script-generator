@@ -81,9 +81,12 @@ export const radarRouter = router({
       const raw = parseJson<any>(c.rawDataJson, null);
       if (!raw) continue;
       const newMetrics = calculateRadarMetrics(raw, input.profile as RadarProfileConfig);
+      const newStatus = suggestedReviewStatus(newMetrics);
+      const canUpdateStatus = c.reviewStatus !== "approved_for_campaign_planning" && c.evidenceGateStatus !== "approved";
       await db.update(radarCandidates).set({
         metricsJson: JSON.stringify(newMetrics),
         confidenceNotes: newMetrics.confidenceNotes.join(" "),
+        reviewStatus: canUpdateStatus ? newStatus : c.reviewStatus,
       }).where(eq(radarCandidates.id, c.id));
     }
     return { success: true, count: rows.length };
@@ -375,6 +378,7 @@ export const radarRouter = router({
           videosOver1MViews: rawRow.videosOver1MViews ?? null,
           metricsJson: JSON.stringify(newMetrics),
           confidenceNotes: newMetrics.confidenceNotes.join(" "),
+          reviewStatus: candidate.reviewStatus !== "approved_for_campaign_planning" ? suggestedReviewStatus(newMetrics) : candidate.reviewStatus,
         })
         .where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)));
 

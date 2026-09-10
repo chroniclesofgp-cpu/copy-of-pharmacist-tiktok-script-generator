@@ -674,3 +674,10 @@
 - [x] Add Vitest tests confirming real-unit gating consistency regardless of discovery strategy
 - [x] Check Kalodata live API credit status and run a live category re-test under the new query logic
 - [x] Document discovered candidates and deliver final report
+
+## Creator Saturation Gate Refinement — September 10, 2026
+- [x] Inspect reviewStatus calculation in server/radar.ts and diagnostic categorization in client/src/lib/radarDiagnostics.ts
+- [x] Enforce hard AVOID status when activeCreatorCount exceeds the saturation threshold (>300) so creator-saturated products are never labeled as Candidates
+- [x] Update calculated score penalties and diagnostic banners to explicitly highlight creator saturation as a primary AVOID driver
+- [x] Add Vitest tests asserting that creator saturation (>300) produces reviewStatus: "avoid" even if unit volume and stability pass
+- [x] Re-score and verify existing candidates (e.g. Medicube Glass Glow Set with 2,048 creators marked AVOID)

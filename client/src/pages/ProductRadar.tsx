@@ -561,9 +561,9 @@ export default function ProductRadar() {
             })()}
             <div className="mt-3 flex flex-wrap gap-1.5">
               {candidate.activeCreatorCount != null && (
-                <span className={`inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded ${m.isHighCompetition ? "bg-amber-500/20 text-amber-300 border border-amber-500/30" : "bg-white/5 text-slate-300"}`}>
+                <span className={`inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded ${m.isHighCompetition ? "bg-rose-500/20 text-rose-300 border border-rose-500/30" : "bg-white/5 text-slate-300"}`}>
                   <Users className="h-2.5 w-2.5" />
-                  {candidate.activeCreatorCount} creators {m.isHighCompetition ? "(High Saturation)" : ""}
+                  {candidate.activeCreatorCount} creators {m.isHighCompetition ? "(Saturated >300)" : ""}
                 </span>
               )}
               {candidate.videosOver1MViews != null && candidate.videosOver1MViews > 0 && (

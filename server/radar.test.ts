@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus } from "./radar";
 
 const sourceVideoWorkedExample = {
   provider: "FastMoss",
@@ -141,5 +141,41 @@ describe("Product Radar queue reconciliation", () => {
       const evalMega = isRadarCandidateOutsideProfile(candidateExceedingCoachA, coachA);
       expect(evalMega.outside).toBe(true);
     }
+  });
+
+  it("enforces hard AVOID classification when creator saturation exceeds threshold (>300)", () => {
+    // Product like Medicube with passing volume (22,253) and passing velocity, but 2,048 creators
+    const saturatedProduct = {
+      provider: "Kalodata",
+      productName: "[medicube] Affordable Glass Glow Skincare Set",
+      productAgeDays: 120,
+      totalSales: 22253,
+      sales7d: 1914,
+      sales90d: 22253,
+      activeCreatorCount: 2048, // 7x over the 300 limit
+      videoSalesPct: 80,
+      topVideoSalesPct: 13.3,
+      dailySales: [
+        { date: "2026-09-01", units: 270 },
+        { date: "2026-09-02", units: 270 },
+        { date: "2026-09-03", units: 270 },
+        { date: "2026-09-04", units: 270 },
+        { date: "2026-09-05", units: 270 },
+        { date: "2026-09-06", units: 280 },
+        { date: "2026-09-07", units: 284 },
+      ],
+    };
+
+    const metrics = calculateRadarMetrics(saturatedProduct, DEFAULT_RADAR_PROFILE);
+    expect(metrics.totalSalesInRange).toBe(true);
+    expect(metrics.isHighCompetition).toBe(true);
+    // Saturated products must be hard-rejected as 'avoid' to protect creator bandwidth
+    expect(suggestedReviewStatus(metrics)).toBe("avoid");
+
+    // Compare with low-competition breakout (e.g. 187 creators)
+    const nonSaturatedProduct = { ...saturatedProduct, activeCreatorCount: 187 };
+    const nonSatMetrics = calculateRadarMetrics(nonSaturatedProduct, DEFAULT_RADAR_PROFILE);
+    expect(nonSatMetrics.isHighCompetition).toBe(false);
+    expect(suggestedReviewStatus(nonSatMetrics)).toBe("candidate");
   });
 });

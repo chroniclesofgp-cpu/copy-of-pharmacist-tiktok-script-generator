@@ -251,8 +251,14 @@ export function canArchiveRadarCandidate(candidate: { reviewStatus: string; evid
 }
 
 export function suggestedReviewStatus(metrics: RadarMetrics): ReviewStatus {
+  // Hard Rejections:
+  // 1. Outside target total sales volume window
+  // 2. Not accelerating (<8% velocity ratio)
+  // 3. Creator saturation breached (>300 active creators) - violates "Find movement before saturation"
+  if (!metrics.totalSalesInRange || metrics.accelerationBand === "not_accelerating" || metrics.isHighCompetition) {
+    return "avoid";
+  }
   if (metrics.concentrationBand === "high_risk_single_video") return "human_review";
-  if (!metrics.totalSalesInRange || metrics.accelerationBand === "not_accelerating") return "avoid";
   if (metrics.accelerationBand === "strong" && metrics.stablePattern && metrics.videoShareMinimumMet && metrics.latestDayAcceleration) return "watchlist";
   return "candidate";
 }
