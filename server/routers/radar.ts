@@ -177,6 +177,8 @@ export const radarRouter = router({
         minTotalSales: z.number().optional(),
         maxTotalSales: z.number().optional(),
         pagesToScan: z.number().int().min(1).max(6).default(2),
+        sortStrategy: z.enum(["growth_rate", "video_revenue", "sales_volume", "revenue"]).default("growth_rate"),
+        priceRange: z.string().optional(),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -192,6 +194,20 @@ export const radarRouter = router({
       const targetMaxSales = input.maxTotalSales ?? targetProfile.maxTotalSales ?? 40000;
       const scanPages = Math.min(5, Math.max(input.pagesToScan || 2, Math.ceil(input.maxCandidates / 5)));
 
+      const sortField =
+        input.sortStrategy === "growth_rate"
+          ? "revenue_growth_rate"
+          : input.sortStrategy === "video_revenue"
+          ? "video_revenue"
+          : input.sortStrategy === "sales_volume"
+          ? "sales_volumn"
+          : "revenue";
+
+      // Native 7-day revenue range corresponding to target volume window at typical $15-$50 price points
+      const estMinRev = Math.max(1000, Math.floor(targetMinSales * 0.8));
+      const estMaxRev = Math.ceil(targetMaxSales * 6.0);
+      const revenueRange = `${estMinRev}-${estMaxRev}`;
+
       // 1. Fetch pool of 50-100 ranked products across the category
       const rankItems = await defaultKalodataAdapter.searchCandidatePool({
         keyword: input.keyword,
@@ -199,6 +215,10 @@ export const radarRouter = router({
         region: input.region,
         dateRange: "last7Day",
         pagesToScan: scanPages,
+        sortField,
+        revenueRange,
+        isAffiliate: true,
+        unitPriceRange: input.priceRange,
       });
 
       if (!rankItems.length) {

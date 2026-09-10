@@ -660,3 +660,10 @@
 - [x] Replace brand-specific buttons with category-aware product type and symptom suggestions (Beauty: Serums, Eye Cream, Eye Patches, Lip Tint, Moisturizer; Supplements: Magnesium, Cortisol, Sleep, Bloating, Protein, Berberine; Healthcare: Oral Care, Pain Relief)
 - [x] Prevent fallback import of unqualified mega-sellers when pre-filter finds no breakout matches
 - [x] Verify with Vitest tests and browser check that only true in-range products populate the active queue
+
+## Kalodata Official Schema & Native Pre-Filter Optimization — September 10, 2026
+- [x] Inspect official Kalodata Open Center documentation, skill integration repository, and playbooks
+- [x] Discover native rank parameters: sort_field (revenue_growth_rate, video_revenue, sales_volumn), revenue_range, and is_affiliate
+- [x] Implement native revenueRange and isAffiliate filters in Kalodata adapter to filter mega-sellers directly at the API layer
+- [x] Add Discovery Strategy selector (Breakout Velocity, Video-Driven Movers, Sales Volume, Gross Revenue) to Product Radar UI
+- [x] Verify all 287 Vitest tests pass and production build succeeds

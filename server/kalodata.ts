@@ -163,6 +163,9 @@ export class KalodataAdapter {
     pageNumber?: number;
     pageSize?: number;
     revenueRange?: string;
+    sortField?: "revenue" | "video_revenue" | "sales_volumn" | "revenue_growth_rate" | "unit_price";
+    unitPriceRange?: string;
+    isAffiliate?: boolean;
   }): Promise<KalodataProductRankItem[]> {
     const payload: Record<string, unknown> = {
       region: params.region || "US",
@@ -179,6 +182,15 @@ export class KalodataAdapter {
     if (params.revenueRange) {
       payload.revenue_range = params.revenueRange;
     }
+    if (params.unitPriceRange) {
+      payload.unit_price_range = params.unitPriceRange;
+    }
+    if (params.sortField) {
+      payload.sort_field = { field: params.sortField, type: "DESC" };
+    }
+    if (params.isAffiliate !== undefined) {
+      payload.is_affiliate = params.isAffiliate ? 1 : 0;
+    }
     const data = await this.postEndpoint<KalodataProductRankItem[]>("/product/rank", payload);
     return Array.isArray(data) ? data : [];
   }
@@ -190,6 +202,9 @@ export class KalodataAdapter {
     dateRange?: "last7Day" | "last30Day";
     pagesToScan?: number;
     revenueRange?: string;
+    sortField?: "revenue" | "video_revenue" | "sales_volumn" | "revenue_growth_rate" | "unit_price";
+    unitPriceRange?: string;
+    isAffiliate?: boolean;
   }): Promise<KalodataProductRankItem[]> {
     const pages = Math.min(Math.max(params.pagesToScan || 2, 1), 6);
     const results: KalodataProductRankItem[] = [];

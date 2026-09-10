@@ -76,6 +76,7 @@ export default function ProductRadar() {
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchRegion, setSearchRegion] = useState("US");
   const [searchLimit, setSearchLimit] = useState(5);
+  const [sortStrategy, setSortStrategy] = useState<"growth_rate" | "video_revenue" | "sales_volume" | "revenue">("growth_rate");
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [notice, setNotice] = useState<string>("");
   const [uploading, setUploading] = useState(false);
@@ -402,6 +403,19 @@ export default function ProductRadar() {
                   </div>
                   <div className="grid grid-cols-2 gap-2">
                     <div>
+                      <Label className="text-xs text-slate-400">Discovery Strategy</Label>
+                      <select
+                        className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
+                        value={sortStrategy}
+                        onChange={(e) => setSortStrategy(e.target.value as any)}
+                      >
+                        <option value="growth_rate">Breakout Velocity (Growth Rate)</option>
+                        <option value="video_revenue">Video-Driven Movers (Video GMV)</option>
+                        <option value="sales_volume">Sales Volume (Units)</option>
+                        <option value="revenue">Gross Revenue (GMV)</option>
+                      </select>
+                    </div>
+                    <div>
                       <Label className="text-xs text-slate-400">Region</Label>
                       <select
                         className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
@@ -455,6 +469,7 @@ export default function ProductRadar() {
                         categoryId: searchCategory,
                         region: searchRegion,
                         maxCandidates: searchLimit,
+                        sortStrategy,
                         profile: activeProfile,
                         minTotalSales: activeProfile.minTotalSales,
                         maxTotalSales: activeProfile.maxTotalSales,
