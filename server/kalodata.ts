@@ -299,9 +299,13 @@ export class KalodataAdapter {
 
     // Top video concentration
     let topVideoSalesPct: number | undefined = undefined;
-    if (rawTopVideos.length > 0 && videoRev > 0) {
+    if (rawTopVideos.length > 0) {
       const topVideoRev = Number(rawTopVideos[0]?.revenue ?? 0);
-      topVideoSalesPct = Number(((topVideoRev / videoRev) * 100).toFixed(1));
+      const sumTopVideosRev = rawTopVideos.reduce((sum, v) => sum + Number(v.revenue || 0), 0);
+      const effectiveVideoRev = Math.max(videoRev, sumTopVideosRev);
+      if (effectiveVideoRev > 0) {
+        topVideoSalesPct = Number(((topVideoRev / effectiveVideoRev) * 100).toFixed(1));
+      }
     } else if (rawTopVideos.length === 0) {
       topVideoSalesPct = 25; // default spread out if no single dominant video
     }
