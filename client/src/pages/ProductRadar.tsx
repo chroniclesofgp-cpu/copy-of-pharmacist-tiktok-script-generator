@@ -13,6 +13,53 @@ import { diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
 const statusLabels: Record<string, string> = { candidate: "Candidate", watchlist: "Watchlist", human_review: "Human review", avoid: "Avoid", approved_for_campaign_planning: "Approved for campaign planning" };
 const metric = (value: unknown) => typeof value === "number" ? Number(value.toFixed(2)) : "—";
 
+const CATEGORY_SUGGESTIONS: Record<string, Array<{ label: string; keyword: string }>> = {
+  // Beauty & Personal Care (601450)
+  "601450": [
+    { label: "Serums", keyword: "Serum" },
+    { label: "Eye Patches / Cream", keyword: "Eye Cream" },
+    { label: "Lip Tint / Oil", keyword: "Lip Oil" },
+    { label: "Moisturizer / Cream", keyword: "Moisturizer" },
+    { label: "Sunscreen / SPF", keyword: "Sunscreen" },
+    { label: "Toner Pads", keyword: "Toner" },
+    { label: "Cleanser", keyword: "Cleanser" },
+    { label: "Balm / Stick", keyword: "Balm" },
+    { label: "Collagen", keyword: "Collagen" },
+    { label: "Peptides", keyword: "Peptide" },
+  ],
+  // Dietary Supplements (700646)
+  "700646": [
+    { label: "Magnesium", keyword: "Magnesium" },
+    { label: "Cortisol / Adrenal", keyword: "Cortisol" },
+    { label: "Sleep", keyword: "Sleep" },
+    { label: "Bloating / Gut", keyword: "Bloating" },
+    { label: "Protein Powder", keyword: "Protein" },
+    { label: "Creatine", keyword: "Creatine" },
+    { label: "Berberine", keyword: "Berberine" },
+    { label: "Ashwagandha", keyword: "Ashwagandha" },
+    { label: "Electrolytes", keyword: "Electrolytes" },
+    { label: "NAD+ / Longevity", keyword: "NAD" },
+  ],
+  // Health & Healthcare (600001)
+  "600001": [
+    { label: "Oral Care", keyword: "Oral Care" },
+    { label: "Teeth Whitening", keyword: "Whitening" },
+    { label: "Pain Relief", keyword: "Pain Relief" },
+    { label: "Posture / Support", keyword: "Posture" },
+    { label: "Hair Density", keyword: "Hair Density" },
+    { label: "Sleep Aid", keyword: "Sleep Aid" },
+  ],
+  // All Categories ("")
+  "": [
+    { label: "Skin Care", keyword: "Skin Care" },
+    { label: "Supplements", keyword: "Supplements" },
+    { label: "Sleep", keyword: "Sleep" },
+    { label: "Energy", keyword: "Energy" },
+    { label: "Hair Care", keyword: "Hair" },
+    { label: "Wellness", keyword: "Wellness" },
+  ],
+};
+
 export default function ProductRadar() {
   const utils = trpc.useUtils();
   const { data: profileData } = trpc.radar.getProfile.useQuery();
@@ -338,40 +385,19 @@ export default function ProductRadar() {
                       >
                         All Trending (No Keyword)
                       </button>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setSearchKeyword("Yummy");
-                          setSearchCategory("601450");
-                        }}
-                        className={`text-[11px] px-2 py-0.5 rounded border transition ${searchKeyword.toLowerCase().includes("yummy") ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
-                      >
-                        Yummy Skin (Danessa)
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setSearchKeyword("Blurring Balm");
-                          setSearchCategory("601450");
-                        }}
-                        className={`text-[11px] px-2 py-0.5 rounded border transition ${searchKeyword.toLowerCase().includes("blurring") ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
-                      >
-                        Blurring Balm
-                      </button>
-                      {["Cortisol", "Sleep", "Bloating", "Liposomal", "Dark Spot", "NAD+", "Peptides"].map((kw) => (
-                        <button
-                          key={kw}
-                          type="button"
-                          onClick={() => {
-                            setSearchKeyword(kw);
-                            if (kw === "Dark Spot" || kw === "Peptides") setSearchCategory("601450");
-                            else if (kw === "Cortisol" || kw === "Sleep" || kw === "Bloating" || kw === "Liposomal") setSearchCategory("700646");
-                          }}
-                          className={`text-[11px] px-2 py-0.5 rounded border transition ${searchKeyword === kw ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
-                        >
-                          {kw}
-                        </button>
-                      ))}
+                      {(CATEGORY_SUGGESTIONS[searchCategory] || CATEGORY_SUGGESTIONS[""] || []).map((sug) => {
+                        const isActive = searchKeyword.toLowerCase() === sug.keyword.toLowerCase();
+                        return (
+                          <button
+                            key={sug.keyword}
+                            type="button"
+                            onClick={() => setSearchKeyword(isActive ? "" : sug.keyword)}
+                            className={`text-[11px] px-2 py-0.5 rounded border transition ${isActive ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
+                          >
+                            {sug.label}
+                          </button>
+                        );
+                      })}
                     </div>
                   </div>
                   <div className="grid grid-cols-2 gap-2">

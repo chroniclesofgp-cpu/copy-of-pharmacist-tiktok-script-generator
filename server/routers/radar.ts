@@ -232,18 +232,22 @@ export const radarRouter = router({
       const poolToFilter = unqueued.length > 0 ? unqueued : rankItems;
 
       // 5. Pre-filter pool by active profile's total sales volume window.
+      // Est. 7d velocity for products in the 90d window is typically 5% to 35% of total sales.
+      const min7d = Math.max(50, Math.floor(targetMinSales * 0.04));
+      const max7d = Math.ceil(targetMaxSales * 0.35);
       const qualified = poolToFilter.filter((item) => {
         const sales = Number(item.sales_volumn || 0);
-        return sales >= targetMinSales && sales <= targetMaxSales;
+        return sales >= min7d && sales <= max7d;
       });
 
       // Select the top candidates (preferring qualified breakout candidates).
-      // Any fallback products are retained as archived audit records rather than displayed in the active queue.
-      const candidatesToEnrich = (qualified.length > 0 ? qualified : poolToFilter).slice(0, input.maxCandidates);
+      // If no products match the 7d estimate, scan the pool directly up to maxCandidates.
+      const candidatesToEnrich = (qualified.length > 0 ? qualified : poolToFilter).slice(0, Math.max(input.maxCandidates, 10));
       const createdIds: number[] = [];
       const archivedIds: number[] = [];
 
       for (const rankItem of candidatesToEnrich) {
+        if (createdIds.length >= input.maxCandidates) break;
         try {
           const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
             rankItem.product_id,
@@ -253,6 +257,9 @@ export const radarRouter = router({
           const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
           const metrics = calculateRadarMetrics(rawRow, targetProfile);
           const profileEvaluation = isRadarCandidateOutsideProfile(rawRow, targetProfile);
+          // Strict Hard Gate: if the enriched total sales is outside the screening profile,
+          // archive it immediately so it NEVER pollutes the active candidate queue.
+          const queueState = profileEvaluation.outside ? "archived" : "active";
 
           const [candidate] = await db
             .insert(radarCandidates)
@@ -279,12 +286,17 @@ export const radarRouter = router({
               reviewStatus: suggestedReviewStatus(metrics),
               handoffStatus: "not_ready",
               evidenceGateStatus: "not_reviewed",
-              queueState: "active",
+              queueState,
               queueReason: profileEvaluation.outside ? profileEvaluation.reason : null,
+              archivedAt: profileEvaluation.outside ? new Date() : null,
             })
             .$returningId();
 
-          createdIds.push(candidate.id);
+          if (profileEvaluation.outside) {
+            archivedIds.push(candidate.id);
+          } else {
+            createdIds.push(candidate.id);
+          }
 
           if (rawRow.dailySales.length) {
             await db.insert(radarDailySales).values(
@@ -302,13 +314,14 @@ export const radarRouter = router({
       }
 
       const matchNotice = qualified.length > 0
-        ? `Scanned ${rankItems.length} products. Found ${qualified.length} in your target range (${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()}). Added ${createdIds.length} candidate(s) to your queue.`
-        : `Scanned ${rankItems.length} products. Added ${createdIds.length} candidate(s) (closest available rankers).`;
+        ? `Scanned ${rankItems.length} products. Found ${createdIds.length} candidate(s) strictly matching your ${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()} volume profile (archived ${archivedIds.length} out-of-range products).`
+        : `Scanned ${rankItems.length} products. Found 0 products meeting your ${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()} volume profile (they are either too early or over 40k). Try using the category suggestion chips (like Serums, Eye Patches, or Protein) to narrow down the pool.`;
 
       return {
         success: true,
         count: createdIds.length,
         candidateIds: createdIds,
+        archivedCount: archivedIds.length,
         message: matchNotice,
       };
     }),

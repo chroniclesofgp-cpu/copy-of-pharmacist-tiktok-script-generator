@@ -653,3 +653,10 @@
 - [x] Expand pull limit dropdown to include 15, 20, and 25 candidates, with proportional page scanning
 - [x] Add quick keyword chips for "Yummy", "Blurring Balm", "Toner", "Peptides"
 - [x] Pull Yummy Skin into the active queue with the corrected 27.8% concentration so the user can inspect its card directly
+
+## Product Radar Strict Volume Filtering & Dynamic Category Chips — September 10, 2026
+- [x] Investigate why products over 40k total sales entered the active queue and probe Kalodata Beauty category ranks for Yummy Skin
+- [x] Enforce strict post-enrichment volume gate: reject/archive any candidate whose calculated total sales exceeds the profile ceiling (e.g. >40k for Coach A) so out-of-range products never enter the active queue
+- [x] Replace brand-specific buttons with category-aware product type and symptom suggestions (Beauty: Serums, Eye Cream, Eye Patches, Lip Tint, Moisturizer; Supplements: Magnesium, Cortisol, Sleep, Bloating, Protein, Berberine; Healthcare: Oral Care, Pain Relief)
+- [x] Prevent fallback import of unqualified mega-sellers when pre-filter finds no breakout matches
+- [x] Verify with Vitest tests and browser check that only true in-range products populate the active queue
