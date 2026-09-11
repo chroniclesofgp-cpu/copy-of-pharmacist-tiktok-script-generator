@@ -834,3 +834,9 @@
 - [x] Implement two-stage enrichment in server/routers/radar.ts and kalodata adapter to skip calls 2-4 for disqualified products
 - [x] Add Vitest tests asserting short-circuit accuracy on saturated/giant products and safe continuation on normal products
 - [x] Verify test suite and production build pass
+
+## Empirical Live Run with Two-Stage Gating — September 11, 2026
+- [x] Execute a live discovery pull with Two-Stage Gating active
+- [x] Log exact API call breakdown: Stage 1 calls vs Stage 2 calls vs short-circuits
+- [x] Calculate actual before/after calls and dollar cost comparison
+- [x] Verify candidate queue populated with authentic, verified candidates
