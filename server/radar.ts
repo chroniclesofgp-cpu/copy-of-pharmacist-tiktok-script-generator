@@ -267,10 +267,11 @@ export function determineDiscoveryPaging(params: {
   keyword?: string;
   sortStrategy?: string;
   targetMaxSales?: number;
+  category?: string;
   userStartPage?: number;
   userPagesToScan?: number;
   maxCandidates?: number;
-}): { startPage: number; pagesToScan: number } {
+}): { startPage: number; pagesToScan: number; adaptiveSeeking: boolean } {
   const isBroadCategory = !params.keyword || params.keyword.trim() === "";
   const isVolumeOrRevenueSort =
     params.sortStrategy === "sales_volume" ||
@@ -280,18 +281,46 @@ export function determineDiscoveryPaging(params: {
 
   let defaultStartPage = 1;
   const maxSales = params.targetMaxSales ?? 40000;
+  const isKnownMegaCategory =
+    params.category === "601450" ||
+    params.category === "700646" ||
+    params.category === "Beauty & Skincare" ||
+    params.category === "Dietary Supplements";
 
-  if (isBroadCategory && isVolumeOrRevenueSort) {
+  // Only apply aggressive rank-offset to known mega-categories where rank 1 exceeds 100k units.
+  // For smaller or less-saturated categories, default to page 1 to prevent overshooting candidates.
+  if (isBroadCategory && isVolumeOrRevenueSort && isKnownMegaCategory) {
     if (maxSales <= 10000) {
-      defaultStartPage = 6; // Coach B (1k-9k) band lives at ranks ~250-600
+      defaultStartPage = 5; // Coach B in mega category lives at ranks ~200-500
     } else if (maxSales <= 45000) {
-      defaultStartPage = 3; // Coach A (2k-40k) band lives at ranks ~100-350
+      defaultStartPage = 2; // Coach A in mega category starts at ranks ~50-250
     }
   }
 
   const startPage = params.userStartPage || defaultStartPage;
-  const pagesToScan = Math.min(5, Math.max(params.userPagesToScan || 3, Math.ceil((params.maxCandidates || 5) / 5)));
-  return { startPage, pagesToScan };
+  const pagesToScan = Math.min(6, Math.max(params.userPagesToScan || 3, Math.ceil((params.maxCandidates || 5) / 5)));
+  return { startPage, pagesToScan, adaptiveSeeking: true };
+}
+
+export function shouldStopAdaptiveScan(params: {
+  isUnitSort: boolean;
+  minFloor?: number;
+  pageMaxSales: number;
+  currentConsecutiveUnderFloor: number;
+}): { shouldStop: boolean; nextConsecutiveCount: number } {
+  // Non-unit sorts (video_revenue, revenue_growth_rate, etc.) do NOT decline monotonically.
+  // Never early-stop on volume floor for non-unit sorts.
+  if (!params.isUnitSort || !params.minFloor || params.minFloor <= 0) {
+    return { shouldStop: false, nextConsecutiveCount: 0 };
+  }
+
+  if (params.pageMaxSales > 0 && params.pageMaxSales < params.minFloor) {
+    const nextCount = params.currentConsecutiveUnderFloor + 1;
+    // Require at least 2 consecutive under-floor pages before stopping to protect against dips
+    return { shouldStop: nextCount >= 2, nextConsecutiveCount: nextCount };
+  }
+
+  return { shouldStop: false, nextConsecutiveCount: 0 };
 }
 
 export type CsvValidationResult = { rows: RadarRawRow[]; errors: Array<{ row: number; message: string }> };

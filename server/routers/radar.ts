@@ -204,6 +204,7 @@ export const radarRouter = router({
       const { startPage, pagesToScan: scanPages } = determineDiscoveryPaging({
         keyword: input.keyword,
         sortStrategy: input.sortStrategy,
+        category: input.categoryId,
         targetMaxSales,
         userStartPage: input.startPage,
         userPagesToScan: input.pagesToScan,
@@ -232,6 +233,8 @@ export const radarRouter = router({
         sortField,
         isAffiliate: true,
         unitPriceRange: input.priceRange,
+        targetMinSales,
+        targetMaxSales,
       });
 
       if (!rankItems.length) {

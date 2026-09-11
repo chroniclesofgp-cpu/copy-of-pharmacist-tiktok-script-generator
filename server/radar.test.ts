@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan } from "./radar";
 
 const sourceVideoWorkedExample = {
   provider: "FastMoss",
@@ -180,22 +180,33 @@ describe("Product Radar queue reconciliation", () => {
   });
 
   it("intelligently offsets discovery start page for broad categories vs sub-niches", () => {
-    // Broad category under Coach A (2k-40k): auto-offsets to Page 3 (ranks 101-150+) to skip mega-sellers
+    // Known mega-category (Beauty / Supplements) under Coach A: auto-offsets to Page 2+ to skip 140k mega-sellers
     const coachAPaging = determineDiscoveryPaging({
       keyword: "",
+      category: "601450",
       sortStrategy: "sales_volume",
       targetMaxSales: 40000,
     });
-    expect(coachAPaging.startPage).toBe(3);
+    expect(coachAPaging.startPage).toBe(2);
     expect(coachAPaging.pagesToScan).toBeGreaterThanOrEqual(3);
 
-    // Broad category under Coach B (1k-9k): auto-offsets to Page 6 (ranks 251-300+)
+    // Known mega-category under Coach B: auto-offsets to Page 5+
     const coachBPaging = determineDiscoveryPaging({
       keyword: "",
+      category: "601450",
       sortStrategy: "sales_volume",
       targetMaxSales: 9000,
     });
-    expect(coachBPaging.startPage).toBe(6);
+    expect(coachBPaging.startPage).toBe(5);
+
+    // Smaller / unclassified categories: ALWAYS start at Page 1 to ensure zero candidate overshooting
+    const smallCatPaging = determineDiscoveryPaging({
+      keyword: "",
+      category: "600001",
+      sortStrategy: "sales_volume",
+      targetMaxSales: 40000,
+    });
+    expect(smallCatPaging.startPage).toBe(1);
 
     // Sub-niche with keyword: starts at Page 1 (ranks 1-50) because sub-niche top rankers are already in candidate range
     const subNichePaging = determineDiscoveryPaging({
@@ -211,5 +222,46 @@ describe("Product Radar queue reconciliation", () => {
       userStartPage: 10,
     });
     expect(manualPaging.startPage).toBe(10);
+  });
+
+  it("enforces 2-consecutive-page smoothing safeguard on adaptive scanning", () => {
+    // Non-unit sort (e.g. video_revenue): MUST NEVER early-stop on volume floor
+    const nonUnitResult = shouldStopAdaptiveScan({
+      isUnitSort: false,
+      minFloor: 2000,
+      pageMaxSales: 400,
+      currentConsecutiveUnderFloor: 5,
+    });
+    expect(nonUnitResult.shouldStop).toBe(false);
+
+    // Unit sort, 1st page under floor: does NOT stop (consecutive count becomes 1)
+    const firstUnderResult = shouldStopAdaptiveScan({
+      isUnitSort: true,
+      minFloor: 2000,
+      pageMaxSales: 1800,
+      currentConsecutiveUnderFloor: 0,
+    });
+    expect(firstUnderResult.shouldStop).toBe(false);
+    expect(firstUnderResult.nextConsecutiveCount).toBe(1);
+
+    // Temporary dip recovery: next page rises back above floor -> count resets to 0
+    const recoveryResult = shouldStopAdaptiveScan({
+      isUnitSort: true,
+      minFloor: 2000,
+      pageMaxSales: 2200,
+      currentConsecutiveUnderFloor: 1,
+    });
+    expect(recoveryResult.shouldStop).toBe(false);
+    expect(recoveryResult.nextConsecutiveCount).toBe(0);
+
+    // 2nd consecutive page under floor: safely triggers early-stop
+    const secondUnderResult = shouldStopAdaptiveScan({
+      isUnitSort: true,
+      minFloor: 2000,
+      pageMaxSales: 1500,
+      currentConsecutiveUnderFloor: 1,
+    });
+    expect(secondUnderResult.shouldStop).toBe(true);
+    expect(secondUnderResult.nextConsecutiveCount).toBe(2);
   });
 });

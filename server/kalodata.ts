@@ -207,11 +207,16 @@ export class KalodataAdapter {
     sortField?: "revenue" | "video_revenue" | "sales_volumn" | "revenue_growth_rate" | "unit_price";
     unitPriceRange?: string;
     isAffiliate?: boolean;
+    targetMinSales?: number;
+    targetMaxSales?: number;
   }): Promise<KalodataProductRankItem[]> {
     const start = Math.max(params.startPage || 1, 1);
-    const pages = Math.min(Math.max(params.pagesToScan || 2, 1), 6);
+    const pages = Math.min(Math.max(params.pagesToScan || 3, 1), 6);
     const results: KalodataProductRankItem[] = [];
     const seenIds = new Set<string>();
+    let consecutiveUnderFloorPages = 0;
+    const isUnitSort = params.sortField === "sales_volumn";
+    const minFloor = params.targetMinSales;
 
     for (let page = start; page < start + pages; page++) {
       const batch = await this.searchProducts({
@@ -219,12 +224,32 @@ export class KalodataAdapter {
         pageNumber: page,
         pageSize: 50,
       });
+
+      if (batch.length === 0) break;
+
       for (const item of batch) {
         if (item.product_id && !seenIds.has(item.product_id)) {
           seenIds.add(item.product_id);
           results.push(item);
         }
       }
+
+      // Smoothing safeguard: ONLY apply early-stop on volume floor when sorting monotonically by unit sales.
+      // Requires 2 consecutive pages where the MAX sales on the entire page is below minFloor.
+      if (isUnitSort && minFloor && minFloor > 0) {
+        const salesList = batch.map((it) => Number(it.sales_volumn || 0)).filter((s) => !isNaN(s));
+        const maxPageSales = salesList.length > 0 ? Math.max(...salesList) : 0;
+
+        if (maxPageSales > 0 && maxPageSales < minFloor) {
+          consecutiveUnderFloorPages++;
+          if (consecutiveUnderFloorPages >= 2) {
+            break; // Genuinely passed below floor for 2 full pages
+          }
+        } else {
+          consecutiveUnderFloorPages = 0; // Reset on any dip recovery
+        }
+      }
+
       if (batch.length < 50) break;
     }
     return results;

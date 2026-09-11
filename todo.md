@@ -801,3 +801,18 @@
 - [x] Retain page 1 starting point when a sub-niche keyword is active (where volume already starts in candidate range)
 - [x] Add regression tests asserting broad category queries auto-offset to candidate volume band
 - [x] Verify test suite and production build pass
+
+## Kalodata Unit-Volume Native Filtering Re-Investigation & Page Depth Generalization — September 11, 2026
+- [x] Audit Kalodata full API docs and schema for any unit-based range parameter name
+- [x] Probe live Kalodata API with unit-range parameters using exact revenue_range syntax (sales_volumn_range, sales_volume_range, sales_num_range, units_range, min_sales/max_sales)
+- [x] Inspect Kalodata web app network requests when filtering by sales volume to see if web filter is server-side or client-side
+- [x] Test page-depth rank offsets on smaller/less-saturated categories (e.g. Health & Healthcare, Pet Supplies, Home) to test generalization
+- [x] Implement dynamic category volume scaling if fixed Page 3/6 offset skips candidates in smaller categories
+- [x] Deliver comprehensive findings, empirical test results, and final checkpoint
+
+## Adaptive Dynamic Window Seeking with Smoothing Safeguard — September 11, 2026
+- [x] Check project directory for large static files to resolve deployment timeout
+- [x] Analyze volume decline monotonicity across sort strategies (sales_volumn vs video_revenue / growth_rate)
+- [x] Implement Adaptive Window Seeking with 2-consecutive-under-floor safeguard in server/radar.ts
+- [x] Add Vitest tests asserting non-monotonic and monotonic distribution safety
+- [x] Verify production build, test suite, and clean checkpoint deployment
