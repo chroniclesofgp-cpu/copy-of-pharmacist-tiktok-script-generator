@@ -775,11 +775,11 @@
 - [x] Verified minimal call cost (0.1 credit / 1 cent)
 
 ## Audit Top 25 Beauty Pull & Yield Investigation — September 10, 2026
-- [ ] Inspect database for recent Top 25 Beauty pull records and created candidates without making any API calls
-- [ ] Check server logs for the exact query parameters (category, keyword, sortStrategy, page count) and scanned pool size
-- [ ] Trace why only 2 options surfaced (analyze volume, acceleration, and creator saturation gates on the scanned pool)
-- [ ] Investigate why Yummy Skin did not appear in this specific scan
-- [ ] Deliver objective, data-backed findings and filter calibration advice to user
+- [x] Inspect database for recent Top 25 Beauty pull records and created candidates without making any API calls
+- [x] Check server logs for the exact query parameters (category, keyword, sortStrategy, page count) and scanned pool size
+- [x] Trace why only 2 options surfaced (analyze volume, acceleration, and creator saturation gates on the scanned pool)
+- [x] Investigate why Yummy Skin did not appear in this specific scan
+- [x] Deliver objective, data-backed findings and filter calibration advice to user
 
 ## Direct 90-Day Sales Data Correction — September 11, 2026
 - [x] Audit entire codebase for any other 2.2x-style multipliers, approximations, or synthetic shortcuts across all fields
