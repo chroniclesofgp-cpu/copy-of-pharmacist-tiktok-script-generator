@@ -768,3 +768,29 @@
 - [x] Verify all Vitest test suites pass (both script generator, video editor, and radar suites)
 - [x] Verify production build compiles without errors
 - [x] Save final unified checkpoint and deliver outcome
+
+## Live Kalodata Recharged Credit Verification & Pipeline Validation — September 10, 2026
+- [x] Probe Kalodata API to confirm credit balance is positive and functional (verified with single 10-row query, returned live data instantly)
+- [x] Confirmed recharged credits are active and key caa9e56f... is fully operational
+- [x] Verified minimal call cost (0.1 credit / 1 cent)
+
+## Audit Top 25 Beauty Pull & Yield Investigation — September 10, 2026
+- [ ] Inspect database for recent Top 25 Beauty pull records and created candidates without making any API calls
+- [ ] Check server logs for the exact query parameters (category, keyword, sortStrategy, page count) and scanned pool size
+- [ ] Trace why only 2 options surfaced (analyze volume, acceleration, and creator saturation gates on the scanned pool)
+- [ ] Investigate why Yummy Skin did not appear in this specific scan
+- [ ] Deliver objective, data-backed findings and filter calibration advice to user
+
+## Direct 90-Day Sales Data Correction — September 11, 2026
+- [x] Audit entire codebase for any other 2.2x-style multipliers, approximations, or synthetic shortcuts across all fields
+- [x] Replace the fixed 2.2x total-sales approximation with a direct Kalodata 90-day/lifetime detail pull
+- [x] Preserve raw 7-day, 30-day, and 90-day detail snapshots for auditability
+- [x] Add regression coverage proving totalSales no longer derives from a fixed multiplier when direct 90-day data is present
+- [x] Re-run Stretch Food Covers, SOPAMI Toilet Scrubber, and Micro-Fork Brow Pencil after the mapping fix
+- [x] Report corrected lifetime totals and full deterministic metrics, then save a checkpoint
+
+
+## Direct /product/detail Period Verification — September 11, 2026
+- [x] Verify directly whether Kalodata accepts last90Day for an existing product detail request
+- [x] Confirm whether the 2.2x multiplier is obsolete or required by a real API limitation
+- [x] Document the exact period behavior and next correction step

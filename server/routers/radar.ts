@@ -295,7 +295,7 @@ export const radarRouter = router({
               productAgeDays: rawRow.productAgeDays ?? null,
               activeCreatorCount: rawRow.activeCreatorCount ?? null,
               videosOver1MViews: rawRow.videosOver1MViews ?? null,
-              rawDataJson: JSON.stringify({ ...rawRow, productId: snapshot.productId, fetchedAt: snapshot.fetchedAt, rawSnapshot: snapshot, rawDetail7d: snapshot.rawDetail7d, rawRank: snapshot.rawRank, rawTopVideos: snapshot.rawTopVideos }),
+              rawDataJson: JSON.stringify({ ...rawRow, productId: snapshot.productId, fetchedAt: snapshot.fetchedAt, rawSnapshot: snapshot, rawDetail7d: snapshot.rawDetail7d, rawDetail30d: snapshot.rawDetail30d, rawDetail90d: snapshot.rawDetail90d, rawRank: snapshot.rawRank, rawTopVideos: snapshot.rawTopVideos }),
               metricsJson: JSON.stringify(metrics),
               confidenceNotes: metrics.confidenceNotes.join(" "),
               creatorFitJson: JSON.stringify({

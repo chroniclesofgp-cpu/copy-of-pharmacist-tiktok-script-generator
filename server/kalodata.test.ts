@@ -50,6 +50,15 @@ describe("KalodataAdapter", () => {
         sales_volumn: 139413,
         commission_rate: 25,
       },
+      rawDetail90d: {
+        product_id: "1729448464509734958",
+        product_name: "Toplux Magnesium Complex 8 Essential Magnesium Supplement",
+        revenue: 5310000.00,
+        video_revenue: 4100000,
+        live_revenue: 1210000,
+        sales_volumn: 348912,
+        commission_rate: 25,
+      },
       rawTopVideos: [
         {
           video_id: "7681727984826404110",
@@ -65,6 +74,7 @@ describe("KalodataAdapter", () => {
     expect(rawRow.externalProductId).toBe("1729448464509734958");
     expect(rawRow.sales7d).toBe(25966);
     expect(rawRow.sales30d).toBe(139413);
+    expect(rawRow.totalSales).toBe(348912); // Exact rawDetail90d, zero multipliers
     expect(rawRow.videoSalesPct).toBeCloseTo((302513.04 / 394324.64) * 100, 1);
     expect(rawRow.topVideoSalesPct).toBeCloseTo((13883.34 / 302513.04) * 100, 1);
     expect(rawRow.dailySales).toHaveLength(7);

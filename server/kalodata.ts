@@ -61,6 +61,7 @@ export interface KalodataProductSnapshot {
   rawRank?: KalodataProductRankItem;
   rawDetail7d?: KalodataProductDetail;
   rawDetail30d?: KalodataProductDetail;
+  rawDetail90d?: KalodataProductDetail;
   rawTopVideos: KalodataVideoItem[];
 }
 
@@ -230,7 +231,7 @@ export class KalodataAdapter {
   public async getProductDetail(params: {
     productId: string;
     region?: string;
-    dateRange?: "last7Day" | "last30Day";
+    dateRange?: "last7Day" | "last30Day" | "last90Day";
   }): Promise<KalodataProductDetail | null> {
     try {
       const data = await this.postEndpoint<KalodataProductDetail>("/product/detail", {
@@ -274,9 +275,10 @@ export class KalodataAdapter {
     fallbackRankItem?: KalodataProductRankItem,
     region: string = "US",
   ): Promise<KalodataProductSnapshot> {
-    const [detail7d, detail30d, topVideos] = await Promise.all([
+    const [detail7d, detail30d, detail90d, topVideos] = await Promise.all([
       this.getProductDetail({ productId, region, dateRange: "last7Day" }),
       this.getProductDetail({ productId, region, dateRange: "last30Day" }),
+      this.getProductDetail({ productId, region, dateRange: "last90Day" }),
       this.getProductTopVideos({ productId, region, dateRange: "last7Day" }),
     ]);
 
@@ -286,16 +288,18 @@ export class KalodataAdapter {
       rawRank: fallbackRankItem,
       rawDetail7d: detail7d || undefined,
       rawDetail30d: detail30d || undefined,
+      rawDetail90d: detail90d || undefined,
       rawTopVideos: topVideos || [],
     };
   }
 
   public mapSnapshotToRadarRawRow(snapshot: KalodataProductSnapshot): RadarRawRow {
-    const { rawRank, rawDetail7d, rawDetail30d, rawTopVideos } = snapshot;
+    const { rawRank, rawDetail7d, rawDetail30d, rawDetail90d, rawTopVideos } = snapshot;
     const name = rawDetail7d?.product_name || rawRank?.product_name || `TikTok Shop Product ${snapshot.productId}`;
     const sales7d = Number(rawDetail7d?.sales_volumn ?? rawRank?.sales_volumn ?? 0);
-    const sales30d = Number(rawDetail30d?.sales_volumn ?? (sales7d > 0 ? Math.round(sales7d * 3.5) : 0));
-    const totalSales = sales30d > sales7d ? Math.round(sales30d * 2.2) : sales7d * 5;
+    const sales30d = Number(rawDetail30d?.sales_volumn ?? 0);
+    const sales90d = Number(rawDetail90d?.sales_volumn ?? 0);
+    const totalSales = sales90d > 0 ? sales90d : (sales30d > 0 ? sales30d : sales7d);
 
     // Calculate product age from launch_date if present
     let productAgeDays = 120; // default mature
@@ -322,7 +326,7 @@ export class KalodataAdapter {
         topVideoSalesPct = Number(((topVideoRev / effectiveVideoRev) * 100).toFixed(1));
       }
     } else if (rawTopVideos.length === 0) {
-      topVideoSalesPct = 25; // default spread out if no single dominant video
+      topVideoSalesPct = undefined;
     }
 
     // Commission rate
@@ -342,7 +346,6 @@ export class KalodataAdapter {
 
     // Rating / review count from Kalodata
     const reviewCount = Number(rawDetail7d?.product_review_count ?? (rawRank as any)?.sku_count ?? 0);
-    const rating = reviewCount > 500 ? 4.8 : reviewCount > 50 ? 4.6 : 4.3;
 
     // Category resolution
     let categoryName = "TikTok Shop";
@@ -354,14 +357,12 @@ export class KalodataAdapter {
 
     // Daily sales distribution across last 7 days
     const dailySales: Array<{ date: string; units: number }> = [];
-    const baseUnitsPerDay = Math.max(10, Math.round(sales7d / 7));
+    const baseUnitsPerDay = Math.max(0, Math.round(sales7d / 7));
     const now = new Date();
     for (let i = 6; i >= 0; i--) {
       const d = new Date(now.getTime() - i * 24 * 60 * 60 * 1000);
       const dateStr = d.toISOString().slice(0, 10);
-      // Synthesize realistic variance matching weekly curve if exact daily points are omitted
-      const factor = i === 0 ? 1.35 : i === 1 ? 1.05 : 0.95 + (i % 2) * 0.08;
-      const units = Math.max(1, Math.round(baseUnitsPerDay * factor));
+      const units = baseUnitsPerDay;
       dailySales.push({ date: dateStr, units });
     }
 
@@ -377,10 +378,10 @@ export class KalodataAdapter {
       totalSales,
       sales7d,
       sales30d,
-      sales90d: totalSales,
+      sales90d: sales90d > 0 ? sales90d : undefined,
       videoSalesPct,
       topVideoSalesPct,
-      rating,
+      rating: undefined,
       commissionAfterAdsPct: commRate,
       dailySales,
     };
