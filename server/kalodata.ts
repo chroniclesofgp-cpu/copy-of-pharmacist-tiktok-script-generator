@@ -1,4 +1,4 @@
-import type { RadarRawRow } from "./radar";
+import { evaluateStage1Eligibility, type RadarProfileConfig, type RadarRawRow } from "./radar";
 
 export interface KalodataClientOptions {
   apiKey?: string;
@@ -301,9 +301,31 @@ export class KalodataAdapter {
     productId: string,
     fallbackRankItem?: KalodataProductRankItem,
     region: string = "US",
+    options?: { stage1Profile?: RadarProfileConfig },
   ): Promise<KalodataProductSnapshot> {
-    const [detail7d, detail30d, detail90d, topVideos] = await Promise.all([
-      this.getProductDetail({ productId, region, dateRange: "last7Day" }),
+    // Stage 1: Fetch 7-day detail first (1 API call)
+    const detail7d = await this.getProductDetail({ productId, region, dateRange: "last7Day" });
+
+    // If stage1Profile is provided, check window-invariant short-circuiting:
+    if (options?.stage1Profile && detail7d) {
+      const stage1Check = evaluateStage1Eligibility(detail7d, options.stage1Profile);
+      if (stage1Check.shortCircuit) {
+        // Disqualified by structural/mathematical invariance (e.g. saturated >300, 7d sales >40k ceiling, or dead velocity <15).
+        // Short-circuit immediately, saving 3 API calls (detail30d, detail90d, topVideos)!
+        return {
+          productId,
+          fetchedAt: new Date().toISOString(),
+          rawRank: fallbackRankItem,
+          rawDetail7d: detail7d || undefined,
+          rawDetail30d: undefined,
+          rawDetail90d: undefined,
+          rawTopVideos: [],
+        };
+      }
+    }
+
+    // Stage 2: Product passed Stage 1! Proceed to fetch remaining 3 calls in parallel
+    const [detail30d, detail90d, topVideos] = await Promise.all([
       this.getProductDetail({ productId, region, dateRange: "last30Day" }),
       this.getProductDetail({ productId, region, dateRange: "last90Day" }),
       this.getProductTopVideos({ productId, region, dateRange: "last7Day" }),

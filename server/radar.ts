@@ -246,6 +246,59 @@ export function isRadarCandidateOutsideProfile(raw: Pick<RadarRawRow, "totalSale
   return { outside: false, reason: "Within active total-sales range", totalSales };
 }
 
+export interface Stage1CheckResult {
+  shortCircuit: boolean;
+  reason?: string;
+  rejectionType?: "creator_saturation" | "exceeds_ceiling" | "dead_velocity";
+}
+
+/**
+ * Two-Stage Gating Stage 1: Short-circuit only on mathematically and structurally window-invariant signals.
+ * - Creator Saturation (>300 creators in 7d): Already saturated today; 30d/90d count can only be equal or higher.
+ * - Sales 7d > maxTotalSales (>40k units): Mathematically impossible for 90d sales to be <= 40k.
+ * - Dead Velocity (<15 units over 7d): Averaging <2 units/day, cannot mathematically achieve >=8% acceleration ratio.
+ * - ALL OTHER PRODUCTS (50 to 40,000 units) MUST PROCEED to Stage 2 (last30Day, last90Day, topVideos) for zero false negatives.
+ */
+export function evaluateStage1Eligibility(
+  detail7d: { sales_volumn?: number; creator_number?: number } | null | undefined,
+  profile: RadarProfileConfig
+): Stage1CheckResult {
+  if (!detail7d) return { shortCircuit: false };
+
+  const sales7d = Number(detail7d.sales_volumn || 0);
+  const creatorNumber = Number(detail7d.creator_number || 0);
+
+  // 1. Creator Saturation: Already >300 active creators in 7 days
+  if (creatorNumber > profile.highCompetitionCreatorThreshold) {
+    return {
+      shortCircuit: true,
+      reason: `Creator saturation breached in 7d snapshot (${creatorNumber} creators > ${profile.highCompetitionCreatorThreshold} ceiling)`,
+      rejectionType: "creator_saturation",
+    };
+  }
+
+  // 2. 7-Day sales already exceeds the entire 90-day ceiling (mathematically impossible to be <= ceiling at 90d)
+  if (sales7d > profile.maxTotalSales) {
+    return {
+      shortCircuit: true,
+      reason: `7-day sales (${sales7d.toLocaleString()}) already exceeds the ${profile.maxTotalSales.toLocaleString()} ceiling`,
+      rejectionType: "exceeds_ceiling",
+    };
+  }
+
+  // 3. Completely dead velocity (<15 units over 7 days = mathematically cannot reach >=8% velocity ratio)
+  if (sales7d < 15) {
+    return {
+      shortCircuit: true,
+      reason: `Velocity collapsed (${sales7d} units over 7 days, cannot meet 8% acceleration ratio)`,
+      rejectionType: "dead_velocity",
+    };
+  }
+
+  // All other products MUST proceed to Stage 2 (30d, 90d, and videos)
+  return { shortCircuit: false };
+}
+
 export function canArchiveRadarCandidate(candidate: { reviewStatus: string; evidenceGateStatus: string; handoffStatus: string }): boolean {
   return candidate.reviewStatus !== "human_review" && candidate.reviewStatus !== "approved_for_campaign_planning" && candidate.evidenceGateStatus !== "approved" && candidate.handoffStatus === "not_ready";
 }

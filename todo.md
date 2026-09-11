@@ -827,3 +827,10 @@
 - [x] Audit commission rate threshold handling in server/radar.ts and diagnostics (soft signal vs hard gate)
 - [x] Calculate exact API calls made (rank pages vs 7d detail vs 30d detail vs 90d detail vs videos)
 - [x] Deliver complete cost breakdown ($5 explanation) and daily cadence optimization recommendations
+
+## Two-Stage Gating & Window-Invariant Short-Circuiting — September 11, 2026
+- [x] Define window-invariant short-circuit rules in server/radar.ts (saturation >300, 7d sales >40k, dead velocity <20)
+- [x] Ensure volume candidates (50 to 40,000 units) strictly proceed to Stage 2 (30d/90d/videos) with zero false negatives
+- [x] Implement two-stage enrichment in server/routers/radar.ts and kalodata adapter to skip calls 2-4 for disqualified products
+- [x] Add Vitest tests asserting short-circuit accuracy on saturated/giant products and safe continuation on normal products
+- [x] Verify test suite and production build pass

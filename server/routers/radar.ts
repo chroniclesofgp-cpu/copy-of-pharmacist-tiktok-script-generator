@@ -285,7 +285,8 @@ export const radarRouter = router({
           const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
             rankItem.product_id,
             rankItem,
-            input.region
+            input.region,
+            { stage1Profile: targetProfile }
           );
           const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
           const metrics = calculateRadarMetrics(rawRow, targetProfile);
@@ -379,7 +380,12 @@ export const radarRouter = router({
         throw new Error("Candidate does not have a Kalodata Product ID to refresh.");
       }
 
-      const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(candidate.externalProductId);
+      const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
+        candidate.externalProductId,
+        undefined,
+        "US",
+        { stage1Profile: DEFAULT_RADAR_PROFILE }
+      );
       const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
       const newMetrics = calculateRadarMetrics(rawRow, DEFAULT_RADAR_PROFILE);
 

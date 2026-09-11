@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility } from "./radar";
 
 const sourceVideoWorkedExample = {
   provider: "FastMoss",
@@ -263,5 +263,44 @@ describe("Product Radar queue reconciliation", () => {
     });
     expect(secondUnderResult.shouldStop).toBe(true);
     expect(secondUnderResult.nextConsecutiveCount).toBe(2);
+  });
+
+  it("evaluates Stage 1 short-circuiting on window-invariant signals while ensuring zero false negatives on normal candidates", () => {
+    // 1. Structural Short-Circuit: Creator Saturation (>300 active creators)
+    const saturatedResult = evaluateStage1Eligibility(
+      { sales_volumn: 2500, creator_number: 485 },
+      DEFAULT_RADAR_PROFILE
+    );
+    expect(saturatedResult.shortCircuit).toBe(true);
+    expect(saturatedResult.rejectionType).toBe("creator_saturation");
+
+    // 2. Mathematical Short-Circuit: 7d sales exceeds entire 90d ceiling (>40k)
+    const ceilingExceededResult = evaluateStage1Eligibility(
+      { sales_volumn: 48000, creator_number: 120 },
+      DEFAULT_RADAR_PROFILE
+    );
+    expect(ceilingExceededResult.shortCircuit).toBe(true);
+    expect(ceilingExceededResult.rejectionType).toBe("exceeds_ceiling");
+
+    // 3. Structural Short-Circuit: Completely dead velocity (<15 units over 7d)
+    const deadVelocityResult = evaluateStage1Eligibility(
+      { sales_volumn: 6, creator_number: 2 },
+      DEFAULT_RADAR_PROFILE
+    );
+    expect(deadVelocityResult.shortCircuit).toBe(true);
+    expect(deadVelocityResult.rejectionType).toBe("dead_velocity");
+
+    // 4. Zero False Negative Guarantee: Breakouts with normal volume MUST proceed to Stage 2
+    const breakoutResult = evaluateStage1Eligibility(
+      { sales_volumn: 3156, creator_number: 198 }, // Yummy Skin profile
+      DEFAULT_RADAR_PROFILE
+    );
+    expect(breakoutResult.shortCircuit).toBe(false);
+
+    const steadyMoverResult = evaluateStage1Eligibility(
+      { sales_volumn: 1200, creator_number: 45 },
+      DEFAULT_RADAR_PROFILE
+    );
+    expect(steadyMoverResult.shortCircuit).toBe(false);
   });
 });
