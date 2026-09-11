@@ -816,3 +816,8 @@
 - [x] Implement Adaptive Window Seeking with 2-consecutive-under-floor safeguard in server/radar.ts
 - [x] Add Vitest tests asserting non-monotonic and monotonic distribution safety
 - [x] Verify production build, test suite, and clean checkpoint deployment
+
+## Empirical Dip-and-Recovery & Small Category End-to-End Verification — September 11, 2026
+- [x] Audit real page-by-page volume data from prior pulls to document an authentic dip-and-recovery sequence
+- [x] Execute end-to-end small category discovery on Health & Healthcare (600001) starting at Page 1
+- [x] Confirm zero overshooting and report exact page-by-page candidates and volume distribution
