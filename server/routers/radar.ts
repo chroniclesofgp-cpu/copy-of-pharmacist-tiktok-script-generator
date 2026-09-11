@@ -3,7 +3,7 @@ import { z } from "zod";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter } from "../kalodata";
 
@@ -179,8 +179,9 @@ export const radarRouter = router({
         profile: profileSchema.optional(),
         minTotalSales: z.number().optional(),
         maxTotalSales: z.number().optional(),
+        startPage: z.number().int().min(1).max(50).optional(),
         pagesToScan: z.number().int().min(1).max(6).default(2),
-        sortStrategy: z.enum(["growth_rate", "video_revenue", "sales_volume", "revenue"]).default("growth_rate"),
+        sortStrategy: z.enum(["growth_rate", "video_revenue", "sales_volume", "revenue"]).default("sales_volume"),
         priceRange: z.string().optional(),
       })
     )
@@ -194,12 +195,20 @@ export const radarRouter = router({
 
       const targetMinSales = input.minTotalSales ?? input.profile?.minTotalSales ?? 2000;
       const targetMaxSales = input.maxTotalSales ?? input.profile?.maxTotalSales ?? 40000;
-      const targetProfile = {
-        ...(input.profile || DEFAULT_RADAR_PROFILE),
+      const targetProfile: RadarProfileConfig = {
+        ...(input.profile ?? DEFAULT_RADAR_PROFILE),
         minTotalSales: targetMinSales,
         maxTotalSales: targetMaxSales,
       };
-      const scanPages = Math.min(5, Math.max(input.pagesToScan || 2, Math.ceil(input.maxCandidates / 5)));
+
+      const { startPage, pagesToScan: scanPages } = determineDiscoveryPaging({
+        keyword: input.keyword,
+        sortStrategy: input.sortStrategy,
+        targetMaxSales,
+        userStartPage: input.startPage,
+        userPagesToScan: input.pagesToScan,
+        maxCandidates: input.maxCandidates,
+      });
 
       const sortField =
         input.sortStrategy === "growth_rate"
@@ -218,6 +227,7 @@ export const radarRouter = router({
         categoryId: input.categoryId,
         region: input.region,
         dateRange: "last7Day",
+        startPage,
         pagesToScan: scanPages,
         sortField,
         isAffiliate: true,

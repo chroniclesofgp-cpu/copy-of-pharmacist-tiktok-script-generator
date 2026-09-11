@@ -263,6 +263,37 @@ export function suggestedReviewStatus(metrics: RadarMetrics): ReviewStatus {
   return "candidate";
 }
 
+export function determineDiscoveryPaging(params: {
+  keyword?: string;
+  sortStrategy?: string;
+  targetMaxSales?: number;
+  userStartPage?: number;
+  userPagesToScan?: number;
+  maxCandidates?: number;
+}): { startPage: number; pagesToScan: number } {
+  const isBroadCategory = !params.keyword || params.keyword.trim() === "";
+  const isVolumeOrRevenueSort =
+    params.sortStrategy === "sales_volume" ||
+    params.sortStrategy === "revenue" ||
+    params.sortStrategy === "video_revenue" ||
+    !params.sortStrategy;
+
+  let defaultStartPage = 1;
+  const maxSales = params.targetMaxSales ?? 40000;
+
+  if (isBroadCategory && isVolumeOrRevenueSort) {
+    if (maxSales <= 10000) {
+      defaultStartPage = 6; // Coach B (1k-9k) band lives at ranks ~250-600
+    } else if (maxSales <= 45000) {
+      defaultStartPage = 3; // Coach A (2k-40k) band lives at ranks ~100-350
+    }
+  }
+
+  const startPage = params.userStartPage || defaultStartPage;
+  const pagesToScan = Math.min(5, Math.max(params.userPagesToScan || 3, Math.ceil((params.maxCandidates || 5) / 5)));
+  return { startPage, pagesToScan };
+}
+
 export type CsvValidationResult = { rows: RadarRawRow[]; errors: Array<{ row: number; message: string }> };
 
 const aliases: Record<string, string[]> = {

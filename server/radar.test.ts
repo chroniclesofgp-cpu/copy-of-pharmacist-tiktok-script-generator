@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging } from "./radar";
 
 const sourceVideoWorkedExample = {
   provider: "FastMoss",
@@ -177,5 +177,39 @@ describe("Product Radar queue reconciliation", () => {
     const nonSatMetrics = calculateRadarMetrics(nonSaturatedProduct, DEFAULT_RADAR_PROFILE);
     expect(nonSatMetrics.isHighCompetition).toBe(false);
     expect(suggestedReviewStatus(nonSatMetrics)).toBe("candidate");
+  });
+
+  it("intelligently offsets discovery start page for broad categories vs sub-niches", () => {
+    // Broad category under Coach A (2k-40k): auto-offsets to Page 3 (ranks 101-150+) to skip mega-sellers
+    const coachAPaging = determineDiscoveryPaging({
+      keyword: "",
+      sortStrategy: "sales_volume",
+      targetMaxSales: 40000,
+    });
+    expect(coachAPaging.startPage).toBe(3);
+    expect(coachAPaging.pagesToScan).toBeGreaterThanOrEqual(3);
+
+    // Broad category under Coach B (1k-9k): auto-offsets to Page 6 (ranks 251-300+)
+    const coachBPaging = determineDiscoveryPaging({
+      keyword: "",
+      sortStrategy: "sales_volume",
+      targetMaxSales: 9000,
+    });
+    expect(coachBPaging.startPage).toBe(6);
+
+    // Sub-niche with keyword: starts at Page 1 (ranks 1-50) because sub-niche top rankers are already in candidate range
+    const subNichePaging = determineDiscoveryPaging({
+      keyword: "Magnesium",
+      sortStrategy: "sales_volume",
+      targetMaxSales: 40000,
+    });
+    expect(subNichePaging.startPage).toBe(1);
+
+    // Explicit user start page takes priority
+    const manualPaging = determineDiscoveryPaging({
+      keyword: "",
+      userStartPage: 10,
+    });
+    expect(manualPaging.startPage).toBe(10);
   });
 });

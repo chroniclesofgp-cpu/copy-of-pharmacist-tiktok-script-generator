@@ -76,7 +76,7 @@ export default function ProductRadar() {
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchRegion, setSearchRegion] = useState("US");
   const [searchLimit, setSearchLimit] = useState(5);
-  const [sortStrategy, setSortStrategy] = useState<"growth_rate" | "video_revenue" | "sales_volume" | "revenue">("growth_rate");
+  const [sortStrategy, setSortStrategy] = useState<"growth_rate" | "video_revenue" | "sales_volume" | "revenue">("sales_volume");
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [notice, setNotice] = useState<string>("");
   const [uploading, setUploading] = useState(false);
@@ -464,6 +464,9 @@ export default function ProductRadar() {
                     <p className="text-[11px] text-slate-400 leading-relaxed">
                       Scans up to 100 category rankers, pre-filters for sales volume between <strong className="text-slate-200">{activeProfile.minTotalSales.toLocaleString()} – {activeProfile.maxTotalSales.toLocaleString()}</strong>, deduplicates existing products, and deep-enriches only qualified breakout candidates.
                     </p>
+                    <div className="pt-1 text-[10px] text-cyan-300/80">
+                      {!searchKeyword.trim() ? "• Broad category auto-offset enabled: intelligently targets qualifying ranks (skips mega-sellers)." : "• Sub-niche targeted scan: starts at rank 1 for maximum keyword relevance."}
+                    </div>
                   </div>
 
                   <Button
@@ -479,7 +482,7 @@ export default function ProductRadar() {
                         profile: activeProfile,
                         minTotalSales: activeProfile.minTotalSales,
                         maxTotalSales: activeProfile.maxTotalSales,
-                        pagesToScan: 2,
+                        pagesToScan: Math.min(4, Math.max(2, Math.ceil(searchLimit / 5))),
                       })
                     }
                   >

@@ -201,17 +201,19 @@ export class KalodataAdapter {
     categoryId?: string;
     region?: string;
     dateRange?: "last7Day" | "last30Day";
+    startPage?: number;
     pagesToScan?: number;
     revenueRange?: string;
     sortField?: "revenue" | "video_revenue" | "sales_volumn" | "revenue_growth_rate" | "unit_price";
     unitPriceRange?: string;
     isAffiliate?: boolean;
   }): Promise<KalodataProductRankItem[]> {
+    const start = Math.max(params.startPage || 1, 1);
     const pages = Math.min(Math.max(params.pagesToScan || 2, 1), 6);
     const results: KalodataProductRankItem[] = [];
     const seenIds = new Set<string>();
 
-    for (let page = 1; page <= pages; page++) {
+    for (let page = start; page < start + pages; page++) {
       const batch = await this.searchProducts({
         ...params,
         pageNumber: page,

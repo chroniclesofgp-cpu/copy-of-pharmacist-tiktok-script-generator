@@ -794,3 +794,10 @@
 - [x] Verify directly whether Kalodata accepts last90Day for an existing product detail request
 - [x] Confirm whether the 2.2x multiplier is obsolete or required by a real API limitation
 - [x] Document the exact period behavior and next correction step
+
+## Broad Category Discovery Page-Depth & Smart Rank Targeting — September 11, 2026
+- [x] Inspect current page-depth logic in server/routers/radar.ts and server/kalodata.ts
+- [x] Implement smart start-page offset for broad category searches with no keyword (targeting ranks ~100-400 where 2k-40k items live)
+- [x] Retain page 1 starting point when a sub-niche keyword is active (where volume already starts in candidate range)
+- [x] Add regression tests asserting broad category queries auto-offset to candidate volume band
+- [x] Verify test suite and production build pass
