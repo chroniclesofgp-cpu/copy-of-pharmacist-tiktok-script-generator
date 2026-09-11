@@ -821,3 +821,9 @@
 - [x] Audit real page-by-page volume data from prior pulls to document an authentic dip-and-recovery sequence
 - [x] Execute end-to-end small category discovery on Health & Healthcare (600001) starting at Page 1
 - [x] Confirm zero overshooting and report exact page-by-page candidates and volume distribution
+
+## Live Run Audit, Commission Gate Analysis & API Cost Breakdown — September 11, 2026
+- [x] Inspect database records for the latest 25-candidate pull (Victoria's Secret, Saviland, etc.)
+- [x] Audit commission rate threshold handling in server/radar.ts and diagnostics (soft signal vs hard gate)
+- [x] Calculate exact API calls made (rank pages vs 7d detail vs 30d detail vs 90d detail vs videos)
+- [x] Deliver complete cost breakdown ($5 explanation) and daily cadence optimization recommendations
