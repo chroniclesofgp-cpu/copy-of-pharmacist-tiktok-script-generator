@@ -143,14 +143,17 @@ export function diagnoseMetrics(
       reason: `Growth is in early starting phase (${accelPct ?? "8–15"}%), not yet a clear velocity breakout.`,
     };
   } else if (accelBand === "not_accelerating") {
+    const isSteady = (metrics.stableDays ?? 0) >= profile.stableDaysRequired && (metrics.strongDays ?? 0) >= profile.strongDaysMinimum;
     items.acceleration = {
       valueDisplay: accelPct ? `${accelPct}%` : "<8%",
-      color: "red",
-      badge: "Stagnant (<8%)",
-      isRed: true,
-      isYellow: false,
+      color: isSteady ? "yellow" : "red",
+      badge: isSteady ? "Steady (<8%)" : "Declining (<8%)",
+      isRed: !isSteady,
+      isYellow: isSteady,
       isGreen: false,
-      reason: `Sales velocity is flat or declining (${accelPct ?? "<8"}% 7d/90d ratio).`,
+      reason: isSteady
+        ? `Sales velocity is flat and steady (~${accelPct ?? "7.8"}% flat 7d/90d ratio) with consistent daily volume. Evergreen performer.`
+        : `Sales velocity is declining or collapsing (${accelPct ?? "<8"}% 7d/90d ratio).`,
     };
   } else {
     items.acceleration = {
@@ -274,14 +277,17 @@ export function diagnoseMetrics(
   // 6. Creator Saturation
   if (activeCreators != null) {
     if (activeCreators > profile.highCompetitionCreatorThreshold) {
+      const isHardAvoid = Boolean(profile.enforceCreatorSaturationAsHardAvoid);
       items.creators = {
         valueDisplay: activeCreators.toLocaleString(),
-        color: "red",
-        badge: `High Saturation (>${profile.highCompetitionCreatorThreshold})`,
-        isRed: true,
-        isYellow: false,
+        color: isHardAvoid ? "red" : "yellow",
+        badge: isHardAvoid ? `Saturated (>${profile.highCompetitionCreatorThreshold})` : `High Competition (>${profile.highCompetitionCreatorThreshold})`,
+        isRed: isHardAvoid,
+        isYellow: !isHardAvoid,
         isGreen: false,
-        reason: `High creator competition (${activeCreators.toLocaleString()} creators > ${profile.highCompetitionCreatorThreshold} threshold). High viewer fatigue risk.`,
+        reason: isHardAvoid
+          ? `High creator competition (${activeCreators.toLocaleString()} creators > ${profile.highCompetitionCreatorThreshold} threshold under Coach B). Hard avoid.`
+          : `High creator competition (${activeCreators.toLocaleString()} creators > ${profile.highCompetitionCreatorThreshold} threshold). Under Coach A, verify low top-video concentration rather than auto-rejecting.`,
       };
     } else if (activeCreators > 150) {
       items.creators = {

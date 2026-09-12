@@ -3,12 +3,12 @@ import { z } from "zod";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter } from "../kalodata";
 
 const profileSchema = z.object({
-  minTotalSales: z.number().nonnegative(), maxTotalSales: z.number().positive(), matureAgeDays: z.number().positive(), veryNewAgeDays: z.number().positive(), matureWindowDays: z.number().positive(), newWindowDays: z.number().positive(), accelerationStartingPct: z.number().nonnegative(), accelerationClearPct: z.number().nonnegative(), accelerationStrongPct: z.number().nonnegative(), stableDaysRequired: z.number().int().positive(), stableVariancePct: z.number().nonnegative(), strongDayUnits: z.number().nonnegative(), strongDaysMinimum: z.number().int().nonnegative(), latestDayAccelerationMultiplier: z.number().positive(), videoSharePreferredPct: z.number().nonnegative(), videoShareMinimumPct: z.number().nonnegative(), topVideoSpreadMaxPct: z.number().nonnegative(), topVideoWatchMaxPct: z.number().nonnegative(), ratingMinimum: z.number().nonnegative(), commissionAfterAdsMinimumPct: z.number().nonnegative(), highCompetitionCreatorThreshold: z.number().int().nonnegative().default(300), videosOver1MViewsThreshold: z.number().int().nonnegative().default(1),
+  minTotalSales: z.number().nonnegative(), maxTotalSales: z.number().positive(), matureAgeDays: z.number().positive(), veryNewAgeDays: z.number().positive(), matureWindowDays: z.number().positive(), newWindowDays: z.number().positive(), accelerationStartingPct: z.number().nonnegative(), accelerationClearPct: z.number().nonnegative(), accelerationStrongPct: z.number().nonnegative(), stableDaysRequired: z.number().int().positive(), stableVariancePct: z.number().nonnegative(), strongDayUnits: z.number().nonnegative(), strongDaysMinimum: z.number().int().nonnegative(), latestDayAccelerationMultiplier: z.number().positive(), videoSharePreferredPct: z.number().nonnegative(), videoShareMinimumPct: z.number().nonnegative(), topVideoSpreadMaxPct: z.number().nonnegative(), topVideoWatchMaxPct: z.number().nonnegative(), ratingMinimum: z.number().nonnegative(), commissionAfterAdsMinimumPct: z.number().nonnegative(), highCompetitionCreatorThreshold: z.number().int().nonnegative().default(300), videosOver1MViewsThreshold: z.number().int().nonnegative().default(1), enforceCreatorSaturationAsHardAvoid: z.boolean().optional(),
 });
 
 function parseJson<T>(value: string | null | undefined, fallback: T): T {
@@ -57,7 +57,7 @@ export const radarRouter = router({
   }),
   importCsv: publicProcedure.input(z.object({ provider: z.string().min(1).max(40), fileName: z.string().min(1).max(255), csv: z.string().min(1), profile: profileSchema.optional() })).mutation(async ({ ctx, input }) => {
     const userId = getEffectiveUserId(ctx);
-    const parsed = parseRadarCsv(input.csv);
+    const parsed = parseRadarFile(input.csv, input.fileName);
     const db = await getDb();
     if (!db) throw new Error("Database unavailable");
     const [importRow] = await db.insert(radarImports).values({ userId, provider: input.provider, fileName: input.fileName, rowCount: parsed.rows.length + parsed.errors.length, validRowCount: parsed.rows.length, errorJson: parsed.errors.length ? JSON.stringify(parsed.errors) : null }).$returningId();
@@ -66,7 +66,7 @@ export const radarRouter = router({
     const created: number[] = [];
     for (const raw of parsed.rows) {
       const metrics = calculateRadarMetrics(raw, profile);
-      const [candidate] = await db.insert(radarCandidates).values({ userId, importId, provider: raw.provider || input.provider, externalProductId: raw.externalProductId ?? null, productName: raw.productName, category: raw.category ?? null, productUrl: raw.productUrl ?? null, productAgeDays: raw.productAgeDays ?? null, activeCreatorCount: raw.activeCreatorCount ?? null, videosOver1MViews: raw.videosOver1MViews ?? null, rawDataJson: JSON.stringify(raw), metricsJson: JSON.stringify(metrics), confidenceNotes: metrics.confidenceNotes.join(" "), creatorFitJson: JSON.stringify({ mechanismCredibility: "", audienceRelevance: "", availableFootage: "", evidenceSupport: "", notes: "" }), reviewStatus: suggestedReviewStatus(metrics), handoffStatus: "not_ready", evidenceGateStatus: "not_reviewed" }).$returningId();
+      const [candidate] = await db.insert(radarCandidates).values({ userId, importId, provider: raw.provider || input.provider, externalProductId: raw.externalProductId ?? null, productName: raw.productName, category: raw.category ?? null, productUrl: raw.productUrl ?? null, productAgeDays: raw.productAgeDays ?? null, activeCreatorCount: raw.activeCreatorCount ?? null, videosOver1MViews: raw.videosOver1MViews ?? null, rawDataJson: JSON.stringify(raw), metricsJson: JSON.stringify(metrics), confidenceNotes: metrics.confidenceNotes.join(" "), creatorFitJson: JSON.stringify({ mechanismCredibility: "", audienceRelevance: "", availableFootage: "", evidenceSupport: "", notes: "" }), reviewStatus: suggestedReviewStatus(metrics, profile), handoffStatus: "not_ready", evidenceGateStatus: "not_reviewed" }).$returningId();
       created.push(candidate.id);
       if (raw.dailySales.length) await db.insert(radarDailySales).values(raw.dailySales.map((sale) => ({ candidateId: candidate.id, salesDate: sale.date, units: sale.units, rawDataJson: JSON.stringify(sale) })));
     }
@@ -81,7 +81,7 @@ export const radarRouter = router({
       const raw = parseJson<any>(c.rawDataJson, null);
       if (!raw) continue;
       const newMetrics = calculateRadarMetrics(raw, input.profile as RadarProfileConfig);
-      const newStatus = suggestedReviewStatus(newMetrics);
+      const newStatus = suggestedReviewStatus(newMetrics, input.profile as RadarProfileConfig);
       const canUpdateStatus = c.reviewStatus !== "approved_for_campaign_planning" && c.evidenceGateStatus !== "approved";
       await db.update(radarCandidates).set({
         metricsJson: JSON.stringify(newMetrics),
@@ -318,9 +318,9 @@ export const radarRouter = router({
                 availableFootage: "",
                 evidenceSupport: "",
                 notes: "",
-              }),
-              reviewStatus: suggestedReviewStatus(metrics),
-              handoffStatus: "not_ready",
+            }),
+            reviewStatus: suggestedReviewStatus(metrics, targetProfile),
+            handoffStatus: "not_ready",
               evidenceGateStatus: "not_reviewed",
               queueState,
               queueReason: profileEvaluation.outside ? profileEvaluation.reason : null,

@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery } from "./radar";
+import * as fs from "fs";
 
 const sourceVideoWorkedExample = {
   provider: "FastMoss",
@@ -169,8 +170,10 @@ describe("Product Radar queue reconciliation", () => {
     const metrics = calculateRadarMetrics(saturatedProduct, DEFAULT_RADAR_PROFILE);
     expect(metrics.totalSalesInRange).toBe(true);
     expect(metrics.isHighCompetition).toBe(true);
-    // Saturated products must be hard-rejected as 'avoid' to protect creator bandwidth
-    expect(suggestedReviewStatus(metrics)).toBe("avoid");
+    // Under Coach B, saturated products (>300 creators) are hard-rejected to protect creator margins
+    expect(suggestedReviewStatus(metrics, COACH_B_PROFILE)).toBe("avoid");
+    // Under Coach A / default profile, >300 creators is a visual competition flag, not an automatic hard reject
+    expect(suggestedReviewStatus(metrics, DEFAULT_RADAR_PROFILE)).toBe("candidate");
 
     // Compare with low-competition breakout (e.g. 187 creators)
     const nonSaturatedProduct = { ...saturatedProduct, activeCreatorCount: 187 };
@@ -266,13 +269,20 @@ describe("Product Radar queue reconciliation", () => {
   });
 
   it("evaluates Stage 1 short-circuiting on window-invariant signals while ensuring zero false negatives on normal candidates", () => {
-    // 1. Structural Short-Circuit: Creator Saturation (>300 active creators)
+    // 1. Structural Short-Circuit: Creator Saturation (>300 active creators) under Coach B profile
     const saturatedResult = evaluateStage1Eligibility(
       { sales_volumn: 2500, creator_number: 485 },
-      DEFAULT_RADAR_PROFILE
+      COACH_B_PROFILE
     );
     expect(saturatedResult.shortCircuit).toBe(true);
     expect(saturatedResult.rejectionType).toBe("creator_saturation");
+
+    // Under Coach A / default profile, >300 creators is a soft visual signal and does NOT short circuit
+    const coachASaturated = evaluateStage1Eligibility(
+      { sales_volumn: 2500, creator_number: 485 },
+      DEFAULT_RADAR_PROFILE
+    );
+    expect(coachASaturated.shortCircuit).toBe(false);
 
     // 2. Mathematical Short-Circuit: 7d sales exceeds entire 90d ceiling (>40k)
     const ceilingExceededResult = evaluateStage1Eligibility(
@@ -331,5 +341,105 @@ describe("Product Radar queue reconciliation", () => {
     // 6. Empty / whitespace queries return null
     expect(extractProductIdFromQuery("")).toBeNull();
     expect(extractProductIdFromQuery("    ")).toBeNull();
+  });
+
+  it("distinguishes steady consistent evergreen sellers from truly declining products under <8% velocity", () => {
+    // 1. Steady evergreen seller: exactly 100 units/day for 90 days = 700/9000 = 7.78% ratio
+    const steadyProduct = {
+      productName: "Consistent Magnesium Glycinate",
+      totalSales: 9000,
+      sales7d: 700,
+      sales90d: 9000,
+      productAgeDays: 120,
+      videoSalesPct: 75,
+      rating: 4.7,
+      commissionAfterAdsPct: 15,
+      dailySales: [
+        { date: "2026-09-01", units: 100 },
+        { date: "2026-09-02", units: 100 },
+        { date: "2026-09-03", units: 100 },
+        { date: "2026-09-04", units: 100 },
+        { date: "2026-09-05", units: 100 },
+        { date: "2026-09-06", units: 100 },
+        { date: "2026-09-07", units: 100 },
+      ],
+    };
+    const steadyMetrics = calculateRadarMetrics(steadyProduct, DEFAULT_RADAR_PROFILE);
+    expect(steadyMetrics.accelerationBand).toBe("not_accelerating");
+    expect(steadyMetrics.stablePattern).toBe(true);
+    expect(steadyMetrics.strengthPattern).toBe(true);
+    // Because it is steady and consistent, it is classified as watchlist (consistent performer), NOT hard avoid!
+    expect(suggestedReviewStatus(steadyMetrics, DEFAULT_RADAR_PROFILE)).toBe("watchlist");
+
+    // 2. Truly declining product: recent sales collapsed (e.g. 5 units/day after massive past volume)
+    const decliningProduct = {
+      productName: "Fading Trend Product",
+      totalSales: 9000,
+      sales7d: 35,
+      sales90d: 9000,
+      productAgeDays: 120,
+      videoSalesPct: 75,
+      rating: 4.7,
+      commissionAfterAdsPct: 15,
+      dailySales: [
+        { date: "2026-09-01", units: 5 },
+        { date: "2026-09-02", units: 5 },
+        { date: "2026-09-03", units: 5 },
+        { date: "2026-09-04", units: 5 },
+        { date: "2026-09-05", units: 5 },
+        { date: "2026-09-06", units: 5 },
+        { date: "2026-09-07", units: 5 },
+      ],
+    };
+    const decliningMetrics = calculateRadarMetrics(decliningProduct, DEFAULT_RADAR_PROFILE);
+    expect(decliningMetrics.accelerationBand).toBe("not_accelerating");
+    expect(decliningMetrics.strengthPattern).toBe(false);
+    // Genuinely declining velocity is hard-rejected as avoid
+    expect(suggestedReviewStatus(decliningMetrics, DEFAULT_RADAR_PROFILE)).toBe("avoid");
+  });
+
+  it("natively parses Kalodata web export columns and derives video shares and product IDs", () => {
+    const kalodataCsvSample = [
+      "Date Range,Product Name,img_url,Category,Price($),Shipping Fee($),Launch Date,Product Rating,Item Sold,Avg. Unit Price($),Commission Rate,Revenue($),Revenue Growth Rate,Live Revenue($),Video Revenue($),Product Card Revenue,Creator Number,Creator Conversion Ratio,KalodataUrl,TikTokUrl",
+      '2026-08-09~2026-09-07,"EBIN Sports Edition Adhesive Spray",https://example.com/img.jpg,Haircare,28.99,0,2025-12-31,4.5,1458,27.42,15%,39984.38,32.2%,9001.43,30814.36,168.59,135,61.48%,https://www.kalodata.com/product/detail?id=1732186596358853194,https://shop.tiktok.com/view/product/1732186596358853194?region=US',
+    ].join("\n");
+
+    const result = parseRadarCsv(kalodataCsvSample);
+    expect(result.errors).toHaveLength(0);
+    expect(result.rows).toHaveLength(1);
+
+    const row = result.rows[0];
+    expect(row.productName).toBe("EBIN Sports Edition Adhesive Spray");
+    expect(row.totalSales).toBe(1458);
+    // Auto-derived 7-day sales from 30-day range (1458 * 7/30 ≈ 340)
+    expect(row.sales7d).toBe(340);
+    expect(row.rating).toBe(4.5);
+    expect(row.commissionAfterAdsPct).toBe(15);
+    expect(row.price).toBe(28.99);
+    expect(row.activeCreatorCount).toBe(135);
+    // Video share auto-calculated: 30814.36 / 39984.38 * 100 = 77.1%
+    expect(row.videoSalesPct).toBe(77.1);
+    // Live share auto-calculated: 9001.43 / 39984.38 * 100 = 22.5%
+    expect(row.liveSalesPct).toBe(22.5);
+    // Auto-extracted 19-digit TikTok Shop ID from URL
+    expect(row.externalProductId).toBe("1732186596358853194");
+    // Auto-calculated age from launch date
+    expect(row.productAgeDays).toBeGreaterThan(100);
+  });
+
+  it("natively parses uploaded Kalodata Excel (.xlsx) files via parseRadarFile", () => {
+    const xlsxPath = "/home/ubuntu/upload/Kalodata_Product_20260912121602_US.xlsx";
+    if (fs.existsSync(xlsxPath)) {
+      const buffer = fs.readFileSync(xlsxPath);
+      const base64 = buffer.toString("base64");
+      const result = parseRadarFile(`data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,${base64}`, "Kalodata_Product_20260912121602_US.xlsx");
+      expect(result.errors).toHaveLength(0);
+      expect(result.rows.length).toBeGreaterThanOrEqual(2);
+      expect(result.rows[0].productName).toContain("EBIN Sports Edition");
+      expect(result.rows[0].totalSales).toBe(1458);
+      expect(result.rows[0].activeCreatorCount).toBe(135);
+      expect(result.rows[0].videoSalesPct).toBe(77.1);
+      expect(result.rows[0].externalProductId).toBe("1732186596358853194");
+    }
   });
 });

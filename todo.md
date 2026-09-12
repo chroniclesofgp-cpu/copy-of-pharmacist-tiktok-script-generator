@@ -847,3 +847,11 @@
 - [x] Immediately select and display the audited candidate in the detail panel with green/yellow/red cards and Candidate/Watchlist/AVOID status
 - [x] Add Vitest tests for direct product ID / URL extraction and single-product vetting
 - [x] Verify with live product lookup and save checkpoint
+
+## Profile-Aware Saturation, Steady-Seller Velocity & Kalodata Native Export — September 12, 2026
+- [x] Make creator saturation (>300 creators) profile-specific: hard AVOID for Coach B, visual high-competition warning for Coach A / default
+- [x] Refine <8% velocity ratio: differentiate steady/flat consistent performers (stable daily sales) from collapsing/declining products, avoiding false AVOID on evergreen sellers
+- [x] Upgrade file importer to natively recognize Kalodata's exact export columns (Item Sold, Product Rating, Commission Rate, Creator Number, TikTokUrl, etc.) and support both CSV and XLSX files
+- [x] Embed collapsible Kalodata Web Filter Guide directly inside the CSV tab in Product Radar UI
+- [x] Add Vitest tests for profile-specific saturation, steady-seller ratio differentiation, and Kalodata export mapping
+- [x] Verify with uploaded Kalodata_Product_20260912121602_US.xlsx sample, verify production build, take screenshot, and save checkpoint

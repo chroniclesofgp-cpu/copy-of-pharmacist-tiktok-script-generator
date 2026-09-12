@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "wouter";
-import { AlertTriangle, BookMarked, CheckCircle2, ExternalLink, Eye, FileSpreadsheet, Flame, Globe, HelpCircle, Loader2, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
+import { AlertTriangle, BookMarked, CheckCircle2, ChevronDown, ChevronUp, ExternalLink, Eye, FileSpreadsheet, Flame, Globe, HelpCircle, Loader2, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -75,6 +75,7 @@ export default function ProductRadar() {
   const [searchCategory, setSearchCategory] = useState("700646");
   const [searchKeyword, setSearchKeyword] = useState("");
   const [singleAuditQuery, setSingleAuditQuery] = useState("");
+  const [showKalodataGuide, setShowKalodataGuide] = useState(true);
   const [searchRegion, setSearchRegion] = useState("US");
   const [searchLimit, setSearchLimit] = useState(5);
   const [sortStrategy, setSortStrategy] = useState<"growth_rate" | "video_revenue" | "sales_volume" | "revenue">("sales_volume");
@@ -153,9 +154,36 @@ export default function ProductRadar() {
   const handleUpload = (file: File) => {
     setUploading(true);
     const reader = new FileReader();
-    reader.onload = () => importCsv.mutate({ provider, fileName: file.name, csv: String(reader.result ?? ""), profile: activeProfile });
-    reader.onerror = () => { setNotice("Could not read the CSV file."); setUploading(false); };
-    reader.readAsText(file);
+    const isExcel = Boolean(file.name.match(/\.xlsx?$/i));
+    if (isExcel) {
+      reader.onload = () => {
+        importCsv.mutate({
+          provider: provider || "Kalodata Export",
+          fileName: file.name,
+          csv: String(reader.result ?? ""),
+          profile: activeProfile,
+        });
+      };
+      reader.onerror = () => {
+        setNotice("Could not read the Excel file.");
+        setUploading(false);
+      };
+      reader.readAsDataURL(file);
+    } else {
+      reader.onload = () => {
+        importCsv.mutate({
+          provider: provider || "Kalodata Export",
+          fileName: file.name,
+          csv: String(reader.result ?? ""),
+          profile: activeProfile,
+        });
+      };
+      reader.onerror = () => {
+        setNotice("Could not read the CSV file.");
+        setUploading(false);
+      };
+      reader.readAsText(file);
+    }
   };
   const setNumber = (key: keyof RadarProfileConfig, value: string) => setProfile((current) => ({ ...current, [key]: Number(value) }));
 
@@ -572,17 +600,78 @@ export default function ProductRadar() {
                 </div>
               ) : (
                 <div className="space-y-3">
+                  {/* Collapsible Kalodata Web Export Filter Guide */}
+                  <div className="rounded-lg border border-cyan-500/30 bg-cyan-950/20 p-3">
+                    <button
+                      type="button"
+                      onClick={() => setShowKalodataGuide(!showKalodataGuide)}
+                      className="flex items-center justify-between w-full text-left"
+                    >
+                      <span className="flex items-center gap-2 text-xs font-medium text-cyan-300">
+                        <FileSpreadsheet className="h-4 w-4 text-cyan-400" />
+                        Kalodata Web Export Filter Guide
+                      </span>
+                      <span className="text-[11px] text-cyan-400 hover:text-cyan-300 flex items-center gap-1 font-medium">
+                        {showKalodataGuide ? (
+                          <>Hide Filters <ChevronUp className="h-3.5 w-3.5" /></>
+                        ) : (
+                          <>View Filters <ChevronDown className="h-3.5 w-3.5" /></>
+                        )}
+                      </span>
+                    </button>
+
+                    {showKalodataGuide && (
+                      <div className="mt-2.5 pt-2.5 border-t border-cyan-500/20 space-y-2 text-[11px] text-slate-300">
+                        <p className="text-slate-400 leading-relaxed text-[11px]">
+                          Set these filters on <strong>Kalodata.com</strong> (Product Search) before clicking <strong>Export</strong>:
+                        </p>
+                        <div className="space-y-1 bg-black/30 rounded-md p-2 border border-white/5 font-mono text-[11px]">
+                          <div className="flex justify-between py-0.5 border-b border-white/5">
+                            <span className="text-slate-400 font-sans">Dates:</span>
+                            <span className="text-cyan-300">Last 30 Days (or 7 Days)</span>
+                          </div>
+                          <div className="flex justify-between py-0.5 border-b border-white/5">
+                            <span className="text-slate-400 font-sans">Category:</span>
+                            <span className="text-cyan-300">Supplements / Beauty</span>
+                          </div>
+                          <div className="flex justify-between py-0.5 border-b border-white/5">
+                            <span className="text-slate-400 font-sans">Item Sold:</span>
+                            <span className="text-amber-300 font-bold">2,000 ~ 40,000 (Coach A)</span>
+                          </div>
+                          <div className="flex justify-between py-0.5 border-b border-white/5">
+                            <span className="text-slate-400 font-sans">Is Affiliate:</span>
+                            <span className="text-emerald-300 font-bold">Yes</span>
+                          </div>
+                          <div className="flex justify-between py-0.5 border-b border-white/5">
+                            <span className="text-slate-400 font-sans">Commission:</span>
+                            <span className="text-cyan-300">10% ~ 100%</span>
+                          </div>
+                          <div className="flex justify-between py-0.5 border-b border-white/5">
+                            <span className="text-slate-400 font-sans">Rating:</span>
+                            <span className="text-cyan-300">4 ~ 5 Stars</span>
+                          </div>
+                          <div className="flex justify-between py-0.5">
+                            <span className="text-slate-400 font-sans">Creator Count:</span>
+                            <span className="text-slate-300">Optional: max 300</span>
+                          </div>
+                        </div>
+                        <div className="text-[10px] text-amber-300/90 bg-amber-950/30 p-1.5 rounded border border-amber-500/20 leading-relaxed">
+                          <strong>Important:</strong> On Kalodata's sidebar, click <strong>Item Sold</strong> (units), NOT <strong>Revenue($)</strong>.
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
                   <div>
                     <Label className="text-xs text-slate-400">Provider Label</Label>
-                    <Input className="mt-1 border-white/10 bg-black/20" value={provider} onChange={(e) => setProvider(e.target.value)} />
+                    <Input className="mt-1 border-white/10 bg-black/20 h-8 text-xs" value={provider} onChange={(e) => setProvider(e.target.value)} placeholder="e.g. Kalodata Export" />
                   </div>
-                  <label className="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-emerald-300/40 bg-emerald-300/5 px-4 py-5 text-sm text-emerald-100 hover:bg-emerald-300/10">
-                    <Upload className="h-4 w-4" /> {uploading ? "Importing…" : "Choose CSV"}
-                    <input type="file" accept=".csv,text/csv" className="hidden" disabled={uploading} onChange={(e) => { const file = e.target.files?.[0]; if (file) handleUpload(file); }} />
+                  <label className="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-emerald-300/40 bg-emerald-300/5 px-4 py-4 text-xs text-emerald-100 hover:bg-emerald-300/10 transition">
+                    <Upload className="h-4 w-4 text-emerald-400" /> {uploading ? "Importing…" : "Choose Kalodata XLSX or CSV"}
+                    <input type="file" accept=".csv,text/csv,.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,.xls" className="hidden" disabled={uploading} onChange={(e) => { const file = e.target.files?.[0]; if (file) handleUpload(file); }} />
                   </label>
-                  <p className="text-xs leading-5 text-slate-500">Required columns: product name, total sales, and 7-day sales. Optional dailySalesJson array.</p>
-                  <p className="text-[11px] leading-4 text-slate-400">
-                    Optional competition columns: <code className="text-slate-300 font-mono">active_creators</code> (threshold &gt;300 flags high competition), <code className="text-slate-300 font-mono">videos_over_1m</code> (ad backing signal).
+                  <p className="text-[11px] leading-relaxed text-slate-400">
+                    Directly supports Kalodata's native export files (both <code>.xlsx</code> and <code>.csv</code>). Automatically maps <code>Item Sold</code>, <code>Product Rating</code>, <code>Commission Rate</code>, <code>Creator Number</code>, and calculates video/live GMV shares.
                   </p>
                 </div>
               )}

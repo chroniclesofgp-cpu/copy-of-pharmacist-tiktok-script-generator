@@ -1,4 +1,5 @@
 export type AccelerationBand = "not_accelerating" | "starting" | "clear" | "strong" | "insufficient_history";
+import * as XLSX from "xlsx";
 export type ReviewStatus = "candidate" | "watchlist" | "human_review" | "avoid" | "approved_for_campaign_planning";
 
 export type RadarProfileConfig = {
@@ -24,6 +25,7 @@ export type RadarProfileConfig = {
   commissionAfterAdsMinimumPct: number;
   highCompetitionCreatorThreshold: number;
   videosOver1MViewsThreshold: number;
+  enforceCreatorSaturationAsHardAvoid?: boolean;
 };
 
 export const DEFAULT_RADAR_PROFILE: RadarProfileConfig = {
@@ -49,18 +51,21 @@ export const DEFAULT_RADAR_PROFILE: RadarProfileConfig = {
   commissionAfterAdsMinimumPct: 10,
   highCompetitionCreatorThreshold: 300,
   videosOver1MViewsThreshold: 1,
+  enforceCreatorSaturationAsHardAvoid: false,
 };
 
 export const COACH_A_PROFILE: RadarProfileConfig = {
   ...DEFAULT_RADAR_PROFILE,
   minTotalSales: 2000,
   maxTotalSales: 40000,
+  enforceCreatorSaturationAsHardAvoid: false,
 };
 
 export const COACH_B_PROFILE: RadarProfileConfig = {
   ...DEFAULT_RADAR_PROFILE,
   minTotalSales: 1000,
   maxTotalSales: 9000,
+  enforceCreatorSaturationAsHardAvoid: true,
 };
 
 export const PRESET_PROFILES: Record<string, { id: string; name: string; description: string; config: RadarProfileConfig }> = {
@@ -131,7 +136,10 @@ export type RadarMetrics = {
 };
 
 const finite = (value: unknown): number | undefined => {
-  const parsed = typeof value === "number" ? value : Number(String(value ?? "").replace(/[,$%]/g, ""));
+  if (value === undefined || value === null) return undefined;
+  const str = String(value).replace(/[,$%]/g, "").trim();
+  if (str === "") return undefined;
+  const parsed = typeof value === "number" ? value : Number(str);
   return Number.isFinite(parsed) ? parsed : undefined;
 };
 
@@ -268,8 +276,8 @@ export function evaluateStage1Eligibility(
   const sales7d = Number(detail7d.sales_volumn || 0);
   const creatorNumber = Number(detail7d.creator_number || 0);
 
-  // 1. Creator Saturation: Already >300 active creators in 7 days
-  if (creatorNumber > profile.highCompetitionCreatorThreshold) {
+  // 1. Creator Saturation: Only short-circuit if profile explicitly enforces it as hard avoid (e.g. Coach B)
+  if (profile.enforceCreatorSaturationAsHardAvoid && creatorNumber > profile.highCompetitionCreatorThreshold) {
     return {
       shortCircuit: true,
       reason: `Creator saturation breached in 7d snapshot (${creatorNumber} creators > ${profile.highCompetitionCreatorThreshold} ceiling)`,
@@ -313,12 +321,29 @@ export function extractProductIdFromQuery(query: string): string | null {
   return match ? match[1] : null;
 }
 
-export function suggestedReviewStatus(metrics: RadarMetrics): ReviewStatus {
+export function suggestedReviewStatus(metrics: RadarMetrics, profile?: RadarProfileConfig): ReviewStatus {
   // Hard Rejections:
   // 1. Outside target total sales volume window
-  // 2. Not accelerating (<8% velocity ratio)
-  // 3. Creator saturation breached (>300 active creators) - violates "Find movement before saturation"
-  if (!metrics.totalSalesInRange || metrics.accelerationBand === "not_accelerating" || metrics.isHighCompetition) {
+  if (!metrics.totalSalesInRange) {
+    return "avoid";
+  }
+
+  // 2. Velocity evaluation:
+  // Differentiate steady/flat consistent performers from declining products:
+  // A uniform flat product has 7d/90d = 7.78%. If it has a steady, consistent pattern
+  // (5+ stable days, 2+ days >=100 units), it is consistent money, NOT an automatic hard avoid.
+  // Only truly collapsing / dead products (no stable pattern, dead velocity) remain hard AVOID.
+  if (metrics.accelerationBand === "not_accelerating") {
+    if (metrics.stablePattern && metrics.strengthPattern) {
+      return "watchlist"; // Consistent evergreen seller
+    }
+    return "avoid"; // Genuinely declining / dead velocity
+  }
+
+  // 3. Creator saturation (>300 active creators):
+  // Hard avoid ONLY if profile explicitly enforces it (e.g. Coach B).
+  // Under Coach A / default, it is a visual competition flag, not an automatic rejection.
+  if (metrics.isHighCompetition && profile?.enforceCreatorSaturationAsHardAvoid) {
     return "avoid";
   }
   if (metrics.concentrationBand === "high_risk_single_video") return "human_review";
@@ -389,7 +414,34 @@ export function shouldStopAdaptiveScan(params: {
 export type CsvValidationResult = { rows: RadarRawRow[]; errors: Array<{ row: number; message: string }> };
 
 const aliases: Record<string, string[]> = {
-  provider: ["provider", "source"], externalProductId: ["externalProductId", "product_id", "product id", "id"], productName: ["productName", "product_name", "product", "name"], category: ["category", "niche"], productUrl: ["productUrl", "product_url", "url"], productAgeDays: ["productAgeDays", "product_age_days", "age_days"], totalSales: ["totalSales", "total_sales", "total units sold", "total units"], sales7d: ["sales7d", "7d sales", "7 day sales", "7_days"], sales30d: ["sales30d", "30d sales", "30 day sales"], sales90d: ["sales90d", "90d sales", "90 day sales"], sales28d: ["sales28d", "28d sales", "28 day sales"], yesterdaySales: ["yesterdaySales", "yesterday sales"], price: ["price"], commissionAfterAdsPct: ["commissionAfterAdsPct", "commission after ads", "commission %", "commission"], rating: ["rating", "stars"], videoSalesPct: ["videoSalesPct", "video sales %", "video share"], liveSalesPct: ["liveSalesPct", "live sales %"], productCardSalesPct: ["productCardSalesPct", "product card sales %"], topVideoSalesPct: ["topVideoSalesPct", "top video concentration", "top video %"], activeCreatorCount: ["activeCreatorCount", "active_creator_count", "active_creators", "creator_count", "creators", "competitor_count", "competitor_creators", "active creators"], videosOver1MViews: ["videosOver1MViews", "videos_over_1m_views", "videos_over_1m", "videos_1m_views", "high_view_videos", "1m_videos", "viral_videos", "1m+ videos", "videos > 1m"], dailySales: ["dailySalesJson", "daily sales json", "daily_sales_json"],
+  provider: ["provider", "source"],
+  externalProductId: ["externalProductId", "product_id", "product id", "id", "kalodataurl", "tiktokurl"],
+  productName: ["productName", "product_name", "product", "name", "product name"],
+  category: ["category", "niche"],
+  productUrl: ["productUrl", "product_url", "url", "tiktokurl", "kalodataurl", "tiktok url", "kalodata url"],
+  productAgeDays: ["productAgeDays", "product_age_days", "age_days"],
+  launchDate: ["launch date", "launch_date", "launchdate"],
+  dateRange: ["date range", "date_range", "dates"],
+  totalSales: ["totalSales", "total_sales", "total units sold", "total units", "item sold", "items sold", "item_sold", "items_sold"],
+  sales7d: ["sales7d", "7d sales", "7 day sales", "7_days", "day7_sales_volumn", "7-day sales"],
+  sales30d: ["sales30d", "30d sales", "30 day sales", "day30_sales_volumn"],
+  sales90d: ["sales90d", "90d sales", "90 day sales", "day90_sales_volumn"],
+  sales28d: ["sales28d", "28d sales", "28 day sales"],
+  yesterdaySales: ["yesterdaySales", "yesterday sales"],
+  price: ["price", "price($)", "price $", "avg. unit price($)", "avg. unit price"],
+  commissionAfterAdsPct: ["commissionAfterAdsPct", "commission after ads", "commission %", "commission", "commission rate", "commission_rate"],
+  rating: ["rating", "stars", "product rating", "product_rating"],
+  revenue: ["revenue", "revenue($)", "revenue $", "gmv", "total revenue"],
+  videoRevenue: ["video revenue", "video revenue($)", "video_revenue"],
+  liveRevenue: ["live revenue", "live revenue($)", "live_revenue"],
+  productCardRevenue: ["product card revenue", "product card revenue($)", "product_card_revenue"],
+  videoSalesPct: ["videoSalesPct", "video sales %", "video share"],
+  liveSalesPct: ["liveSalesPct", "live sales %"],
+  productCardSalesPct: ["productCardSalesPct", "product card sales %"],
+  topVideoSalesPct: ["topVideoSalesPct", "top video concentration", "top video %"],
+  activeCreatorCount: ["activeCreatorCount", "active_creator_count", "active_creators", "creator_count", "creators", "competitor_count", "competitor_creators", "active creators", "creator number", "creator_number"],
+  videosOver1MViews: ["videosOver1MViews", "videos_over_1m_views", "videos_over_1m", "videos_1m_views", "high_view_videos", "1m_videos", "viral_videos", "1m+ videos", "videos > 1m"],
+  dailySales: ["dailySalesJson", "daily sales json", "daily_sales_json"],
 };
 
 function findValue(record: Record<string, string>, field: string): string | undefined {
@@ -422,10 +474,72 @@ export function parseRadarCsv(csv: string): CsvValidationResult {
     const values = parseCsvLine(line);
     const record = Object.fromEntries(headers.map((header, i) => [header, values[i] ?? ""]));
     const productName = findValue(record, "productName")?.trim();
-    const requiredNumbers = ["totalSales", "sales7d"].map((field) => [field, finite(findValue(record, field))] as const);
     if (!productName) { errors.push({ row: index + 2, message: "Product name is required." }); return; }
-    const missing = requiredNumbers.filter(([, value]) => value === undefined).map(([field]) => field);
-    if (missing.length) { errors.push({ row: index + 2, message: `Missing or invalid numeric fields: ${missing.join(", ")}.` }); return; }
+
+    const totalSales = finite(findValue(record, "totalSales"));
+    if (totalSales === undefined) {
+      errors.push({ row: index + 2, message: "Missing or invalid numeric field: totalSales (or Item Sold)." });
+      return;
+    }
+
+    let sales7d = finite(findValue(record, "sales7d"));
+    let sales30d = finite(findValue(record, "sales30d"));
+    const sales90d = finite(findValue(record, "sales90d"));
+
+    // Gracefully handle exports where only a single date range (like 30-day Item Sold) was exported:
+    if (sales7d === undefined) {
+      const dateRangeStr = String(findValue(record, "dateRange") || "").toLowerCase();
+      if (dateRangeStr.includes("7day") || dateRangeStr.includes("7 day") || dateRangeStr.includes("7d")) {
+        sales7d = totalSales;
+      } else {
+        sales30d = sales30d ?? totalSales;
+        sales7d = Math.round(totalSales * (7 / 30));
+      }
+    }
+
+    // Auto-calculate video and revenue share percentages if revenue breakdown was exported:
+    let videoSalesPct = finite(findValue(record, "videoSalesPct"));
+    let liveSalesPct = finite(findValue(record, "liveSalesPct"));
+    let productCardSalesPct = finite(findValue(record, "productCardSalesPct"));
+    const totalRev = finite(findValue(record, "revenue"));
+    const videoRev = finite(findValue(record, "videoRevenue"));
+    const liveRev = finite(findValue(record, "liveRevenue"));
+    const cardRev = finite(findValue(record, "productCardRevenue"));
+
+    if (totalRev && totalRev > 0) {
+      if (videoSalesPct === undefined && videoRev !== undefined) {
+        videoSalesPct = Number(((videoRev / totalRev) * 100).toFixed(1));
+      }
+      if (liveSalesPct === undefined && liveRev !== undefined) {
+        liveSalesPct = Number(((liveRev / totalRev) * 100).toFixed(1));
+      }
+      if (productCardSalesPct === undefined && cardRev !== undefined) {
+        productCardSalesPct = Number(((cardRev / totalRev) * 100).toFixed(1));
+      }
+    }
+
+    // Auto-extract product ID and URL:
+    const productUrl = findValue(record, "productUrl") || undefined;
+    const rawExternalId = findValue(record, "externalProductId") || undefined;
+    let externalProductId: string | undefined = undefined;
+    if (rawExternalId) {
+      externalProductId = extractProductIdFromQuery(rawExternalId) || rawExternalId;
+    } else if (productUrl) {
+      externalProductId = extractProductIdFromQuery(productUrl) || undefined;
+    }
+
+    // Auto-calculate product age from Launch Date if present:
+    let productAgeDays = finite(findValue(record, "productAgeDays"));
+    if (productAgeDays === undefined) {
+      const launchDateStr = findValue(record, "launchDate");
+      if (launchDateStr) {
+        const launchTime = new Date(launchDateStr).getTime();
+        if (!isNaN(launchTime)) {
+          productAgeDays = Math.max(1, Math.round((Date.now() - launchTime) / (1000 * 60 * 60 * 24)));
+        }
+      }
+    }
+
     let dailySales: Array<{ date: string; units: number }> = [];
     const dailyRaw = findValue(record, "dailySales");
     if (dailyRaw) {
@@ -436,30 +550,50 @@ export function parseRadarCsv(csv: string): CsvValidationResult {
     }
     rows.push({
       provider: findValue(record, "provider") || "manual_csv",
-      externalProductId: findValue(record, "externalProductId") || undefined,
+      externalProductId,
       productName,
       category: findValue(record, "category") || undefined,
-      productUrl: findValue(record, "productUrl") || undefined,
-      productAgeDays: finite(findValue(record, "productAgeDays")),
+      productUrl,
+      productAgeDays,
       activeCreatorCount: finite(findValue(record, "activeCreatorCount")),
       videosOver1MViews: finite(findValue(record, "videosOver1MViews")),
-      totalSales: requiredNumbers[0][1]!,
-      sales7d: requiredNumbers[1][1]!,
+      totalSales,
+      sales7d,
       sales28d: finite(findValue(record, "sales28d")),
-      sales30d: finite(findValue(record, "sales30d")),
-      sales90d: finite(findValue(record, "sales90d")),
+      sales30d,
+      sales90d,
       yesterdaySales: finite(findValue(record, "yesterdaySales")),
       price: finite(findValue(record, "price")),
       commissionAfterAdsPct: finite(findValue(record, "commissionAfterAdsPct")),
       rating: finite(findValue(record, "rating")),
-      videoSalesPct: finite(findValue(record, "videoSalesPct")),
-      liveSalesPct: finite(findValue(record, "liveSalesPct")),
-      productCardSalesPct: finite(findValue(record, "productCardSalesPct")),
+      videoSalesPct,
+      liveSalesPct,
+      productCardSalesPct,
       topVideoSalesPct: finite(findValue(record, "topVideoSalesPct")),
       dailySales,
     });
   });
   return { rows, errors };
+}
+
+/**
+ * Parses either a CSV text or a base64-encoded XLSX/XLS file buffer into RadarRawRow entries.
+ */
+export function parseRadarFile(content: string, fileName?: string): CsvValidationResult {
+  const isExcel = Boolean(fileName?.match(/\.xlsx?$/i) || content.startsWith("data:"));
+  if (isExcel) {
+    try {
+      const base64Data = content.includes(";base64,") ? content.split(";base64,")[1] : content;
+      const buffer = Buffer.from(base64Data, "base64");
+      const workbook = XLSX.read(buffer, { type: "buffer" });
+      const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+      const csv = XLSX.utils.sheet_to_csv(firstSheet);
+      return parseRadarCsv(csv);
+    } catch (err: any) {
+      return { rows: [], errors: [{ row: 1, message: `Failed to parse Excel file: ${err.message}` }] };
+    }
+  }
+  return parseRadarCsv(content);
 }
 
 export function csvTemplate(): string {
