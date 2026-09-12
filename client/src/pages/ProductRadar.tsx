@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
-import { DEFAULT_RADAR_PROFILE, type RadarProfileConfig } from "../../../server/radar";
+import { buildKalodataProductDetailUrl, DEFAULT_RADAR_PROFILE, type RadarProfileConfig } from "../../../server/radar";
 import { diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
 
 const statusLabels: Record<string, string> = { candidate: "Candidate", watchlist: "Watchlist", human_review: "Human review", avoid: "Avoid", approved_for_campaign_planning: "Approved for campaign planning" };
@@ -84,6 +84,14 @@ export default function ProductRadar() {
   const [uploading, setUploading] = useState(false);
   const [refreshingCandidate, setRefreshingCandidate] = useState(false);
   const [showRawSnapshot, setShowRawSnapshot] = useState(false);
+  const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "ready" | "handed_off">("all");
+
+  const visibleCandidates = useMemo(() => {
+    if (queueFilter === "approved") return candidates.filter((candidate) => candidate.reviewStatus === "approved_for_campaign_planning");
+    if (queueFilter === "ready") return candidates.filter((candidate) => candidate.handoffStatus === "ready_for_campaign_planning");
+    if (queueFilter === "handed_off") return candidates.filter((candidate) => candidate.handoffStatus === "handed_off_to_campaign_planning");
+    return candidates;
+  }, [candidates, queueFilter]);
 
   const saveProfile = trpc.radar.saveProfile.useMutation({ onSuccess: () => setNotice("Screening profile saved.") });
   const recalculateAll = trpc.radar.recalculateCandidatesWithProfile.useMutation({
@@ -151,7 +159,7 @@ export default function ProductRadar() {
   const updateReview = trpc.radar.updateReview.useMutation({ onSuccess: () => { setNotice("Review saved. The handoff remains blocked until the evidence gate is approved."); void utils.radar.listCandidates.invalidate(); } });
   const handoff = trpc.radar.handoffToCampaign.useMutation({ onSuccess: () => { setNotice("Campaign-planning handoff completed after the evidence gate."); void utils.radar.listCandidates.invalidate(); }, onError: (error) => setNotice(error.message) });
   const activeProfile = profileData?.config ?? profile;
-  const selected = useMemo(() => candidates.find((candidate) => candidate.id === selectedId) ?? candidates[0], [candidates, selectedId]);
+  const selected = useMemo(() => visibleCandidates.find((candidate) => candidate.id === selectedId) ?? visibleCandidates[0], [visibleCandidates, selectedId]);
 
   const handleUpload = (file: File) => {
     setUploading(true);
@@ -687,7 +695,7 @@ export default function ProductRadar() {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-2 border-b border-white/10">
             <div>
               <p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p>
-              <h2 className="mt-1 text-xl font-semibold text-white">{candidates.length} active products</h2>
+              <h2 className="mt-1 text-xl font-semibold text-white">{queueFilter === "all" ? `${candidates.length} active products` : `${visibleCandidates.length} matching products`}</h2>
             </div>
             <div className="flex items-center gap-2 flex-wrap">
               <Button
@@ -714,9 +722,20 @@ export default function ProductRadar() {
               >
                 Clear Queue (Start Fresh)
               </Button>
+              <select
+                aria-label="Filter candidate queue"
+                className="h-8 rounded-md border border-white/10 bg-black/30 px-2 text-xs text-slate-200"
+                value={queueFilter}
+                onChange={(e) => setQueueFilter(e.target.value as typeof queueFilter)}
+              >
+                <option value="all">All active</option>
+                <option value="approved">Approved products</option>
+                <option value="ready">Ready for handoff</option>
+                <option value="handed_off">Handed off</option>
+              </select>
             </div>
           </div>
-          {!candidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">No product candidates yet.</p><p className="max-w-md text-sm text-slate-500">Import a FastMoss or Kalodata export to calculate the first transparent radar pass.</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{candidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div>
+          {!candidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">No product candidates yet.</p><p className="max-w-md text-sm text-slate-500">Import a FastMoss or Kalodata export to calculate the first transparent radar pass.</p></CardContent></Card> : !visibleCandidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><BookMarked className="h-10 w-10 text-slate-600" /><p className="font-medium">No products in this view.</p><p className="max-w-md text-sm text-slate-500">Save a candidate with the matching review or handoff status to see it here.</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{visibleCandidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div>
             {(() => {
               const diag = diagnoseMetrics(candidate.rawData || {}, (candidate.metrics || {}) as any, candidate, activeProfile);
               return (
@@ -836,6 +855,16 @@ function CandidateDetail({
             <CardTitle className="mt-1 text-lg font-semibold">{candidate.productName}</CardTitle>
           </div>
           <div className="flex items-center gap-2">
+            {candidate.provider === "Kalodata" && candidate.externalProductId && (
+              <a
+                href={buildKalodataProductDetailUrl(candidate.externalProductId)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-xs text-cyan-300 hover:text-cyan-100 transition px-2 py-1 rounded border border-cyan-400/30 bg-cyan-400/10"
+              >
+                <ExternalLink className="h-3 w-3" /> Kalodata Deep Dive
+              </a>
+            )}
             {candidate.productUrl && (
               <a
                 href={candidate.productUrl}
@@ -985,7 +1014,7 @@ function CandidateDetail({
 
     <section><h3 className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">Operational creator-fit review</h3><div className="grid gap-3 md:grid-cols-2">{[["mechanismCredibility", "Credibility to demonstrate mechanism"], ["audienceRelevance", "Audience relevance"], ["availableFootage", "Available footage"], ["evidenceSupport", "Claims support in product intelligence"]].map(([key, label]) => <div key={key}><Label className="text-xs text-slate-400">{label}</Label><Textarea className="mt-1 min-h-16 border-white/10 bg-black/20" value={fit[key] ?? ""} onChange={(e) => setFit({ ...fit, [key]: e.target.value })} /></div>)}</div></section>
     <section className="rounded-xl border border-violet-300/20 bg-violet-300/5 p-4"><div className="flex items-start gap-3"><LockKeyhole className="mt-0.5 h-4 w-4 text-violet-200" /><div><h3 className="text-sm font-medium text-violet-100">AI-assisted notes stay separate</h3><p className="mt-1 text-xs leading-5 text-violet-200/70">Video-pattern summaries and creator-fit briefs are advisory only. They do not change the deterministic metrics, status, or evidence gate.</p>{candidate.aiBrief && <p className="mt-2 text-xs text-violet-100">AI brief present: {String(candidate.aiBrief.summary ?? "structured notes")}</p>}</div></div></section>
-    <section><h3 className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">Review and campaign handoff</h3><div className="grid gap-3 md:grid-cols-2"><div><Label className="text-xs text-slate-400">Review status</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={status} onChange={(e) => setStatus(e.target.value)}>{Object.entries(statusLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></div><div><Label className="text-xs text-slate-400">Evidence/compliance gate</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={gate} onChange={(e) => setGate(e.target.value)}><option value="not_reviewed">Not reviewed</option><option value="needs_product_intel">Needs product intelligence</option><option value="blocked">Blocked</option><option value="approved">Approved</option></select></div></div><Textarea className="mt-3 min-h-20 border-white/10 bg-black/20" placeholder="Review notes, evidence links, or next verification step" value={notes} onChange={(e) => setNotes(e.target.value)} /><div className="mt-3 flex flex-wrap gap-2"><Button onClick={() => onUpdate({ reviewStatus: status, evidenceGateStatus: gate, reviewNotes: notes, creatorFit: fit })}><ShieldCheck className="mr-2 h-4 w-4" /> Save review</Button><Button variant="outline" className="border-emerald-300/30 bg-transparent text-emerald-100" disabled={status !== "approved_for_campaign_planning" || gate !== "approved"} onClick={onHandoff}><CheckCircle2 className="mr-2 h-4 w-4" /> Handoff to campaign planning</Button></div><p className="mt-2 flex items-center gap-2 text-xs text-slate-500"><AlertTriangle className="h-3 w-3" /> Current handoff status: {candidate.handoffStatus}</p></section>
+    <section><h3 className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">Review and campaign handoff</h3><p className="mb-3 rounded-md border border-cyan-500/20 bg-cyan-500/5 p-2.5 text-[11px] leading-4 text-slate-400">To approve a product, choose <strong className="text-slate-200">Approved for campaign planning</strong>, complete the evidence/compliance review separately, choose <strong className="text-slate-200">Approved</strong> only when supported, then click <strong className="text-slate-200">Save review</strong>. The handoff button unlocks only after both statuses pass.</p><div className="grid gap-3 md:grid-cols-2"><div><Label className="text-xs text-slate-400">Review status</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={status} onChange={(e) => setStatus(e.target.value)}>{Object.entries(statusLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></div><div><Label className="text-xs text-slate-400">Evidence/compliance gate</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={gate} onChange={(e) => setGate(e.target.value)}><option value="not_reviewed">Not reviewed</option><option value="needs_product_intel">Needs product intelligence</option><option value="blocked">Blocked</option><option value="approved">Approved</option></select></div></div><Textarea className="mt-3 min-h-20 border-white/10 bg-black/20" placeholder="Review notes, evidence links, or next verification step" value={notes} onChange={(e) => setNotes(e.target.value)} /><div className="mt-3 flex flex-wrap gap-2"><Button onClick={() => onUpdate({ reviewStatus: status, evidenceGateStatus: gate, reviewNotes: notes, creatorFit: fit })}><ShieldCheck className="mr-2 h-4 w-4" /> Save review</Button><Button variant="outline" className="border-emerald-300/30 bg-transparent text-emerald-100" disabled={status !== "approved_for_campaign_planning" || gate !== "approved"} onClick={onHandoff}><CheckCircle2 className="mr-2 h-4 w-4" /> Handoff to campaign planning</Button></div><p className="mt-2 flex items-center gap-2 text-xs text-slate-500"><AlertTriangle className="h-3 w-3" /> Current handoff status: {candidate.handoffStatus}</p></section>
       </CardContent>
     </Card>
   );

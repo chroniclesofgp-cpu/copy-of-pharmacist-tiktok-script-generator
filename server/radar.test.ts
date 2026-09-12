@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
+import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
 import * as fs from "fs";
 
 const sourceVideoWorkedExample = {
@@ -341,6 +341,11 @@ describe("Product Radar queue reconciliation", () => {
     // 6. Empty / whitespace queries return null
     expect(extractProductIdFromQuery("")).toBeNull();
     expect(extractProductIdFromQuery("    ")).toBeNull();
+  });
+
+  it("builds a Kalodata product-detail deep link from a provider product ID", () => {
+    expect(buildKalodataProductDetailUrl("1732621368377970923")).toBe("https://www.kalodata.com/product/detail?id=1732621368377970923&language=en-US&region=US");
+    expect(buildKalodataProductDetailUrl("1732621368377970923", "GB")).toContain("region=GB");
   });
 
   it("recognizes TikTok /t/ short links and extracts the product ID from their redirect target", async () => {

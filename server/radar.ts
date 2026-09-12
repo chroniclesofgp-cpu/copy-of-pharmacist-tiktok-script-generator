@@ -323,6 +323,10 @@ export function extractProductIdFromQuery(query: string): string | null {
 
 const TIKTOK_SHORT_LINK_HOSTS = new Set(["www.tiktok.com", "t.tiktok.com", "vm.tiktok.com"]);
 
+export function buildKalodataProductDetailUrl(productId: string | number, region = "US"): string {
+  return `https://www.kalodata.com/product/detail?id=${encodeURIComponent(String(productId))}&language=en-US&region=${encodeURIComponent(region)}`;
+}
+
 export function isTikTokShortLink(value: string): boolean {
   try {
     const url = new URL(value.trim());

@@ -862,3 +862,12 @@
 - [x] Fix short-link handling or error messaging without breaking exact product IDs, full TikTok Shop URLs, or name searches.
 - [x] Add regression tests for the supplied short URL and verify the inbound-offer UI flow with tests/build/screenshots.
 
+
+## Product Radar Deep Dive & Approved Products Workflow
+
+- [x] Inspect and clarify the current Kalodata/provider deep-dive link behavior on candidate cards.
+- [x] Inspect and clarify the current approval, approved-for-campaign-planning, and compliance handoff workflow.
+- [x] Add a reliable Kalodata deep-dive link where the product identifier supports one, without bypassing evidence/compliance gates.
+- [x] Add or improve an Approved Products view/filter so approved candidates are easy to find while preserving compliance blocking.
+- [x] Add tests and verify the Product Radar deep-dive and approval workflow in the UI.
+
