@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "wouter";
-import { AlertTriangle, BookMarked, CheckCircle2, ExternalLink, Eye, FileSpreadsheet, Flame, Globe, HelpCircle, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
+import { AlertTriangle, BookMarked, CheckCircle2, ExternalLink, Eye, FileSpreadsheet, Flame, Globe, HelpCircle, Loader2, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -71,9 +71,10 @@ export default function ProductRadar() {
   const [profileName, setProfileName] = useState("Coach A Range (2,000–40,000)");
   const [selectedProfileKey, setSelectedProfileKey] = useState("coach_a");
   const [provider, setProvider] = useState("FastMoss CSV");
-  const [activeInputTab, setActiveInputTab] = useState<"kalodata" | "csv">("kalodata");
+  const [activeInputTab, setActiveInputTab] = useState<"kalodata" | "single_audit" | "csv">("kalodata");
   const [searchCategory, setSearchCategory] = useState("700646");
   const [searchKeyword, setSearchKeyword] = useState("");
+  const [singleAuditQuery, setSingleAuditQuery] = useState("");
   const [searchRegion, setSearchRegion] = useState("US");
   const [searchLimit, setSearchLimit] = useState(5);
   const [sortStrategy, setSortStrategy] = useState<"growth_rate" | "video_revenue" | "sales_volume" | "revenue">("sales_volume");
@@ -125,8 +126,23 @@ export default function ProductRadar() {
       setRefreshingCandidate(false);
     },
     onError: (err) => {
-      setNotice(`Refresh failed: ${err.message}`);
+      setNotice(`Kalodata refresh error: ${err.message}`);
       setRefreshingCandidate(false);
+    },
+  });
+
+  const vetSingleProduct = trpc.radar.vetSingleProduct.useMutation({
+    onSuccess: (res) => {
+      const matchPrefix = res.matchedBy === "exact_id"
+        ? `Audited exact product ID (${res.productId})`
+        : `Audited top Kalodata match`;
+      setNotice(`${matchPrefix}: "${res.productName}" — Recommended Status: ${res.status.toUpperCase()}. Diagnostic card loaded below.`);
+      setSelectedId(res.candidateId);
+      void utils.radar.listCandidates.invalidate();
+      setSingleAuditQuery("");
+    },
+    onError: (err) => {
+      setNotice(`Product audit error: ${err.message}`);
     },
   });
   const updateReview = trpc.radar.updateReview.useMutation({ onSuccess: () => { setNotice("Review saved. The handoff remains blocked until the evidence gate is approved."); void utils.radar.listCandidates.invalidate(); } });
@@ -325,16 +341,23 @@ export default function ProductRadar() {
                   <button
                     type="button"
                     onClick={() => setActiveInputTab("kalodata")}
-                    className={`px-2.5 py-1 rounded-md transition ${activeInputTab === "kalodata" ? "bg-cyan-500/20 text-cyan-300 font-medium" : "text-slate-400 hover:text-white"}`}
+                    className={`px-2 py-1 rounded-md transition ${activeInputTab === "kalodata" ? "bg-cyan-500/20 text-cyan-300 font-medium" : "text-slate-400 hover:text-white"}`}
                   >
-                    Kalodata API
+                    Category Scout
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setActiveInputTab("single_audit")}
+                    className={`px-2 py-1 rounded-md transition ${activeInputTab === "single_audit" ? "bg-amber-500/20 text-amber-300 font-medium" : "text-slate-400 hover:text-white"}`}
+                  >
+                    Audit Inbound Offer
                   </button>
                   <button
                     type="button"
                     onClick={() => setActiveInputTab("csv")}
-                    className={`px-2.5 py-1 rounded-md transition ${activeInputTab === "csv" ? "bg-emerald-500/20 text-emerald-300 font-medium" : "text-slate-400 hover:text-white"}`}
+                    className={`px-2 py-1 rounded-md transition ${activeInputTab === "csv" ? "bg-emerald-500/20 text-emerald-300 font-medium" : "text-slate-400 hover:text-white"}`}
                   >
-                    CSV Import
+                    CSV
                   </button>
                 </div>
               </div>
@@ -379,65 +402,69 @@ export default function ProductRadar() {
                       )}
                     </div>
                     <Input
-                      className="mt-1 border-white/10 bg-black/20"
-                      placeholder="Leave empty for all trending, or type symptom (e.g. Cortisol, Bloating)..."
+                      placeholder="e.g. Magnesium, Cortisol, Liposomal, Eye Cream, Peptides"
                       value={searchKeyword}
                       onChange={(e) => setSearchKeyword(e.target.value)}
+                      className="mt-1 h-9 bg-black/20 text-xs text-slate-200"
                     />
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      <button
-                        type="button"
-                        onClick={() => setSearchKeyword("")}
-                        className={`text-[11px] px-2 py-0.5 rounded border transition ${!searchKeyword ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 text-slate-400 border-white/10"}`}
-                      >
-                        All Trending (No Keyword)
-                      </button>
-                      {(CATEGORY_SUGGESTIONS[searchCategory] || CATEGORY_SUGGESTIONS[""] || []).map((sug) => {
-                        const isActive = searchKeyword.toLowerCase() === sug.keyword.toLowerCase();
-                        return (
-                          <button
-                            key={sug.keyword}
-                            type="button"
-                            onClick={() => setSearchKeyword(isActive ? "" : sug.keyword)}
-                            className={`text-[11px] px-2 py-0.5 rounded border transition ${isActive ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40 font-medium" : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"}`}
-                          >
-                            {sug.label}
-                          </button>
-                        );
-                      })}
+                    <div className="mt-2">
+                      <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
+                        <span>Target High-Yield Sub-Niches:</span>
+                        {searchKeyword && (
+                          <span className="text-[10px] text-cyan-300 font-mono">
+                            active: "{searchKeyword}"
+                          </span>
+                        )}
+                      </div>
+                      <div className="flex flex-wrap gap-1.5">
+                        {(CATEGORY_SUGGESTIONS[searchCategory] || CATEGORY_SUGGESTIONS[""]).map((chip) => {
+                          const isSelected = searchKeyword.toLowerCase() === chip.keyword.toLowerCase();
+                          return (
+                            <button
+                              key={chip.keyword}
+                              type="button"
+                              onClick={() => setSearchKeyword(isSelected ? "" : chip.keyword)}
+                              className={`px-2 py-0.5 rounded text-[11px] transition border ${
+                                isSelected
+                                  ? "bg-cyan-500/25 border-cyan-400/50 text-cyan-200 font-medium"
+                                  : "bg-white/5 border-white/10 text-slate-400 hover:text-slate-200 hover:bg-white/10"
+                              }`}
+                            >
+                              {chip.label}
+                            </button>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
-                  <div className="grid grid-cols-2 gap-2">
+                  <div className="grid grid-cols-3 gap-2">
                     <div>
-                      <Label className="text-xs text-slate-400">Discovery Strategy</Label>
+                      <Label className="text-xs text-slate-300">Region</Label>
                       <select
-                        className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
+                        className="mt-1 h-8 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
+                        value={searchRegion}
+                        onChange={(e) => setSearchRegion(e.target.value)}
+                      >
+                        <option value="US">US TikTok Shop</option>
+                      </select>
+                    </div>
+                    <div>
+                      <Label className="text-xs text-slate-300">Discovery Strategy</Label>
+                      <select
+                        className="mt-1 h-8 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
                         value={sortStrategy}
                         onChange={(e) => setSortStrategy(e.target.value as any)}
                       >
-                        <option value="growth_rate">Breakout Velocity (Growth Rate)</option>
-                        <option value="video_revenue">Video-Driven Movers (Video GMV)</option>
                         <option value="sales_volume">Sales Volume (Units)</option>
+                        <option value="video_revenue">Video-Driven Movers</option>
+                        <option value="growth_rate">Breakout Velocity</option>
                         <option value="revenue">Gross Revenue (GMV)</option>
                       </select>
                     </div>
                     <div>
-                      <Label className="text-xs text-slate-400">Region</Label>
+                      <Label className="text-xs text-slate-300">Max Candidates</Label>
                       <select
-                        className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
-                        value={searchRegion}
-                        onChange={(e) => setSearchRegion(e.target.value)}
-                      >
-                        <option value="US">US (United States)</option>
-                        <option value="GB">GB (United Kingdom)</option>
-                        <option value="TH">TH (Thailand)</option>
-                        <option value="VN">VN (Vietnam)</option>
-                      </select>
-                    </div>
-                    <div>
-                      <Label className="text-xs text-slate-400">Max Candidates</Label>
-                      <select
-                        className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
+                        className="mt-1 h-8 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
                         value={searchLimit}
                         onChange={(e) => setSearchLimit(Number(e.target.value))}
                       >
@@ -450,46 +477,96 @@ export default function ProductRadar() {
                       </select>
                     </div>
                   </div>
-
-                  <div className="rounded-md border border-cyan-500/30 bg-cyan-950/30 p-2.5 text-xs text-slate-300 space-y-1">
-                    <div className="flex items-center justify-between font-medium text-cyan-300">
-                      <span className="flex items-center gap-1.5">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400" />
-                        Intake Pre-Filter Gate: Active
-                      </span>
-                      <span className="text-[10px] uppercase font-mono px-1.5 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/20 text-cyan-200">
-                        {profileName}
-                      </span>
-                    </div>
-                    <p className="text-[11px] text-slate-400 leading-relaxed">
-                      Scans up to 100 category rankers, pre-filters for sales volume between <strong className="text-slate-200">{activeProfile.minTotalSales.toLocaleString()} – {activeProfile.maxTotalSales.toLocaleString()}</strong>, deduplicates existing products, and deep-enriches only qualified breakout candidates.
-                    </p>
-                    <div className="pt-1 text-[10px] text-cyan-300/80">
-                      {!searchKeyword.trim() ? "• Broad category auto-offset enabled: intelligently targets qualifying ranks (skips mega-sellers)." : "• Sub-niche targeted scan: starts at rank 1 for maximum keyword relevance."}
-                    </div>
+                  <div className="rounded-md border border-white/5 bg-black/20 p-2 text-[11px] text-slate-400">
+                    <span className="font-semibold text-slate-300">Option A Discovery Filter:</span> Querying Kalodata by <strong>{sortStrategy === "sales_volume" ? "Sales Volume (Units)" : sortStrategy === "video_revenue" ? "Short-Form Video Revenue" : sortStrategy === "growth_rate" ? "Breakout Growth Rate" : "Gross Revenue"}</strong>. Candidate pool will be strictly verified against your <strong>{profileName}</strong> volume range using un-extrapolated /product/detail data.
                   </div>
-
                   <Button
-                    className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-medium"
-                    disabled={searchKalodata.isPending}
-                    onClick={() =>
+                    type="button"
+                    disabled={searchKalodata.isPending || !kalodataStatus?.hasKey}
+                    onClick={() => {
                       searchKalodata.mutate({
-                        keyword: searchKeyword.trim(),
-                        categoryId: searchCategory,
+                        keyword: searchKeyword ? searchKeyword.trim() : undefined,
+                        categoryId: searchCategory === "all" ? undefined : searchCategory,
                         region: searchRegion,
                         maxCandidates: searchLimit,
                         sortStrategy,
                         profile: activeProfile,
                         minTotalSales: activeProfile.minTotalSales,
                         maxTotalSales: activeProfile.maxTotalSales,
-                        pagesToScan: Math.min(4, Math.max(2, Math.ceil(searchLimit / 5))),
-                      })
-                    }
+                      });
+                    }}
+                    className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-medium text-xs h-9"
                   >
                     {searchKalodata.isPending ? (
-                      <span className="flex items-center gap-2"><RefreshCw className="h-4 w-4 animate-spin" /> Pulling Kalodata Live...</span>
+                      <>
+                        <Loader2 className="mr-2 h-3.5 w-3.5 animate-spin" />
+                        Scanning Kalodata & Vetting Candidates...
+                      </>
                     ) : (
-                      <span className="flex items-center gap-2"><Globe className="h-4 w-4" /> Pull Live from Kalodata</span>
+                      <>
+                        <Zap className="mr-2 h-3.5 w-3.5" />
+                        Pull Live from Kalodata
+                      </>
+                    )}
+                  </Button>
+                </div>
+              ) : activeInputTab === "single_audit" ? (
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="text-slate-400">API Status:</span>
+                    <span className={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full ${kalodataStatus?.hasKey ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/30" : "bg-amber-500/20 text-amber-300"}`}>
+                      <span className={`w-1.5 h-1.5 rounded-full ${kalodataStatus?.hasKey ? "bg-emerald-400" : "bg-amber-400"}`} />
+                      {kalodataStatus?.hasKey ? `Connected (${kalodataStatus.maskedKey})` : "Key Missing"}
+                    </span>
+                  </div>
+                  <div className="rounded-lg border border-amber-500/30 bg-amber-950/20 p-3">
+                    <div className="flex items-center gap-2 text-xs font-medium text-amber-300">
+                      <ShieldCheck className="h-4 w-4 text-amber-400" />
+                      Inbound Brand Offer Vetting
+                    </div>
+                    <p className="mt-1 text-[11px] text-slate-400">
+                      Offered a brand deal or product to promote? Paste their product title, TikTok Shop URL, or 19-digit product ID below to immediately generate their green/yellow/red diagnostic card and see if it passes criteria before you respond.
+                    </p>
+                  </div>
+                  <div>
+                    <Label className="text-xs text-slate-300">Product Name, Brand, TikTok Shop Link, or Product ID</Label>
+                    <Input
+                      placeholder="e.g. BodyHealth Perfect Amino, Saviland, or 1729403645039514131"
+                      value={singleAuditQuery}
+                      onChange={(e) => setSingleAuditQuery(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" && singleAuditQuery.trim()) {
+                          vetSingleProduct.mutate({ query: singleAuditQuery.trim(), profile: activeProfile });
+                        }
+                      }}
+                      className="mt-1 h-9 bg-black/20 text-xs text-slate-200"
+                    />
+                  </div>
+                  <div className="rounded-md border border-white/5 bg-black/20 p-2.5 text-[11px] text-slate-400 space-y-1">
+                    <div className="font-medium text-slate-300">Supported Inbound Inputs:</div>
+                    <div>• <strong>Exact Product Name:</strong> e.g. <code className="text-cyan-300">Yummy Skin Blurring Balm Powder</code></div>
+                    <div>• <strong>Brand + Mechanism:</strong> e.g. <code className="text-cyan-300">BodyHealth Perfect Amino</code></div>
+                    <div>• <strong>TikTok Shop URL:</strong> e.g. <code className="text-cyan-300">https://www.tiktok.com/view/product/1729403645039514131</code></div>
+                    <div>• <strong>Kalodata / TikTok ID:</strong> e.g. <code className="text-cyan-300">1729403645039514131</code></div>
+                  </div>
+                  <Button
+                    type="button"
+                    disabled={vetSingleProduct.isPending || !singleAuditQuery.trim() || !kalodataStatus?.hasKey}
+                    onClick={() => {
+                      vetSingleProduct.mutate({ query: singleAuditQuery.trim(), profile: activeProfile });
+                    }}
+                    className="w-full bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-white font-medium text-xs h-9 shadow-md shadow-amber-950/40"
+                  >
+                    {vetSingleProduct.isPending ? (
+                      <>
+                        <Loader2 className="mr-2 h-3.5 w-3.5 animate-spin" />
+                        Auditing Inbound Offer against {profileName}...
+                      </>
+                    ) : (
+                      <>
+                        <Zap className="mr-2 h-3.5 w-3.5 text-amber-200" />
+                        Audit Inbound Offer (Generate Diagnostic Card)
+                      </>
                     )}
                   </Button>
                 </div>

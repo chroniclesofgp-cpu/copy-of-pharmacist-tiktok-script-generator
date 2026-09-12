@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery } from "./radar";
 
 const sourceVideoWorkedExample = {
   provider: "FastMoss",
@@ -302,5 +302,34 @@ describe("Product Radar queue reconciliation", () => {
       DEFAULT_RADAR_PROFILE
     );
     expect(steadyMoverResult.shortCircuit).toBe(false);
+  });
+
+  it("extracts 16-21 digit product IDs from bare IDs, URLs, and text while safely returning null for product names", () => {
+    // 1. Bare numeric 19-digit TikTok Shop ID
+    expect(extractProductIdFromQuery("1729482910492819284")).toBe("1729482910492819284");
+
+    // 2. Full TikTok Shop product URL with query params
+    expect(
+      extractProductIdFromQuery(
+        "https://shop.tiktok.com/view/product/1729482910492819284?trackParams=%7B%22source%22%3A%22affiliate%22%7D"
+      )
+    ).toBe("1729482910492819284");
+
+    // 3. Raw text message containing an offer ID
+    expect(
+      extractProductIdFromQuery("Hey, we'd love for you to promote product 1729482910492819284 in your next video!")
+    ).toBe("1729482910492819284");
+
+    // 4. Underscore or hyphen delimited identifiers
+    expect(extractProductIdFromQuery("product_1729482910492819284")).toBe("1729482910492819284");
+    expect(extractProductIdFromQuery("offer-1729482910492819284-promo")).toBe("1729482910492819284");
+
+    // 5. Product names with non-ID numbers (years, volumes, pack counts) MUST return null so name search is triggered
+    expect(extractProductIdFromQuery("Danessa Myricks Yummy Skin Blurring Balm Powder 30ml 2024")).toBeNull();
+    expect(extractProductIdFromQuery("Magnesium Glycinate 500mg 120 Capsules 3-Pack")).toBeNull();
+
+    // 6. Empty / whitespace queries return null
+    expect(extractProductIdFromQuery("")).toBeNull();
+    expect(extractProductIdFromQuery("    ")).toBeNull();
   });
 });

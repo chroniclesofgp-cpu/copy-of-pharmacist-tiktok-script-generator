@@ -3,7 +3,7 @@ import { z } from "zod";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter } from "../kalodata";
 
@@ -392,7 +392,7 @@ export const radarRouter = router({
       await db
         .update(radarCandidates)
         .set({
-          rawDataJson: JSON.stringify({ ...rawRow, productId: snapshot.productId, fetchedAt: snapshot.fetchedAt, rawSnapshot: snapshot, rawDetail7d: snapshot.rawDetail7d, rawRank: snapshot.rawRank, rawTopVideos: snapshot.rawTopVideos }),
+          rawDataJson: JSON.stringify({ ...rawRow, productId: snapshot.productId, fetchedAt: snapshot.fetchedAt, rawSnapshot: snapshot, rawDetail7d: snapshot.rawDetail7d, rawDetail30d: snapshot.rawDetail30d, rawDetail90d: snapshot.rawDetail90d, rawRank: snapshot.rawRank, rawTopVideos: snapshot.rawTopVideos }),
           activeCreatorCount: rawRow.activeCreatorCount ?? null,
           videosOver1MViews: rawRow.videosOver1MViews ?? null,
           metricsJson: JSON.stringify(newMetrics),
@@ -407,4 +407,147 @@ export const radarRouter = router({
         metrics: newMetrics,
       };
     }),
+
+    vetSingleProduct: publicProcedure
+      .input(
+        z.object({
+          query: z.string().min(1),
+          region: z.string().default("US"),
+          profile: z.custom<RadarProfileConfig>().optional(),
+        })
+      )
+      .mutation(async ({ ctx, input }) => {
+        if (!defaultKalodataAdapter.hasKey()) {
+          throw new Error("Kalodata API Key is not configured. Please ensure KALODATA_API_KEY is set.");
+        }
+        const userId = getEffectiveUserId(ctx);
+        const db = await getDb();
+        if (!db) throw new Error("Database unavailable");
+
+        const targetProfile = input.profile ?? DEFAULT_RADAR_PROFILE;
+        const cleanQuery = input.query.trim();
+        const extractedId = extractProductIdFromQuery(cleanQuery);
+
+        let snapshot = null;
+
+        if (extractedId) {
+          snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
+            extractedId,
+            undefined,
+            input.region,
+            { stage1Profile: targetProfile }
+          );
+        } else {
+          const rankItems = await defaultKalodataAdapter.searchProducts({
+            keyword: cleanQuery,
+            pageSize: 5,
+            region: input.region,
+            dateRange: "last7Day",
+          });
+
+          if (!rankItems.length) {
+            throw new Error(`No products found on Kalodata matching "${cleanQuery}". Try checking the spelling or pasting the exact TikTok Shop product ID.`);
+          }
+
+          const topMatch = rankItems[0];
+          snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(
+            topMatch.product_id,
+            topMatch,
+            input.region,
+            { stage1Profile: targetProfile }
+          );
+        }
+
+        if (!snapshot || !snapshot.rawDetail7d) {
+          throw new Error(`Unable to retrieve product details from Kalodata for "${cleanQuery}".`);
+        }
+
+        const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
+        const metrics = calculateRadarMetrics(rawRow, targetProfile);
+        const suggestedStatus = suggestedReviewStatus(metrics);
+
+        const existing = await db
+          .select()
+          .from(radarCandidates)
+          .where(
+            and(
+              eq(radarCandidates.userId, userId),
+              eq(radarCandidates.externalProductId, snapshot.productId)
+            )
+          )
+          .limit(1);
+
+        let candidateId: number;
+
+        if (existing.length > 0) {
+          candidateId = existing[0].id;
+          await db
+            .update(radarCandidates)
+            .set({
+              productName: rawRow.productName,
+              category: rawRow.category || existing[0].category,
+              productUrl: rawRow.productUrl || (snapshot.productId ? `https://shop.tiktok.com/view/product/${snapshot.productId}` : existing[0].productUrl),
+              productAgeDays: rawRow.productAgeDays,
+              activeCreatorCount: rawRow.activeCreatorCount ?? null,
+              videosOver1MViews: rawRow.videosOver1MViews ?? null,
+              rawDataJson: JSON.stringify({
+                ...rawRow,
+                productId: snapshot.productId,
+                fetchedAt: snapshot.fetchedAt,
+                rawSnapshot: snapshot,
+                rawDetail7d: snapshot.rawDetail7d,
+                rawDetail30d: snapshot.rawDetail30d,
+                rawDetail90d: snapshot.rawDetail90d,
+                rawTopVideos: snapshot.rawTopVideos,
+              }),
+              metricsJson: JSON.stringify(metrics),
+              confidenceNotes: metrics.confidenceNotes.join(" "),
+              reviewStatus: existing[0].reviewStatus !== "approved_for_campaign_planning" ? suggestedStatus : existing[0].reviewStatus,
+              queueState: "active",
+              queueReason: null,
+              archivedAt: null,
+            })
+            .where(eq(radarCandidates.id, candidateId));
+        } else {
+          const insertRes = await db.insert(radarCandidates).values({
+            userId,
+            provider: "Kalodata",
+            externalProductId: snapshot.productId,
+            productName: rawRow.productName,
+            category: rawRow.category || "Inbound Offer",
+            productUrl: rawRow.productUrl || (snapshot.productId ? `https://shop.tiktok.com/view/product/${snapshot.productId}` : null),
+            productAgeDays: rawRow.productAgeDays,
+            activeCreatorCount: rawRow.activeCreatorCount ?? null,
+            videosOver1MViews: rawRow.videosOver1MViews ?? null,
+            rawDataJson: JSON.stringify({
+              ...rawRow,
+              productId: snapshot.productId,
+              fetchedAt: snapshot.fetchedAt,
+              rawSnapshot: snapshot,
+              rawDetail7d: snapshot.rawDetail7d,
+              rawDetail30d: snapshot.rawDetail30d,
+              rawDetail90d: snapshot.rawDetail90d,
+              rawTopVideos: snapshot.rawTopVideos,
+            }),
+            metricsJson: JSON.stringify(metrics),
+            confidenceNotes: metrics.confidenceNotes.join(" "),
+            reviewStatus: suggestedStatus,
+            evidenceGateStatus: "not_reviewed",
+            handoffStatus: "not_ready",
+            queueState: "active",
+            queueReason: null,
+          });
+          candidateId = Number(insertRes[0].insertId);
+        }
+
+        return {
+          success: true,
+          candidateId,
+          productId: snapshot.productId,
+          productName: rawRow.productName,
+          status: suggestedStatus,
+          matchedBy: extractedId ? ("exact_id" as const) : ("search_top_match" as const),
+          metrics,
+        };
+      }),
 });

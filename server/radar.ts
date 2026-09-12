@@ -303,6 +303,16 @@ export function canArchiveRadarCandidate(candidate: { reviewStatus: string; evid
   return candidate.reviewStatus !== "human_review" && candidate.reviewStatus !== "approved_for_campaign_planning" && candidate.evidenceGateStatus !== "approved" && candidate.handoffStatus === "not_ready";
 }
 
+/**
+ * Extracts a 16-21 digit TikTok Shop / Kalodata product ID from raw text or product URLs.
+ */
+export function extractProductIdFromQuery(query: string): string | null {
+  if (!query) return null;
+  const clean = query.trim();
+  const match = clean.match(/(?:^|[^\d])(\d{16,21})(?:[^\d]|$)/);
+  return match ? match[1] : null;
+}
+
 export function suggestedReviewStatus(metrics: RadarMetrics): ReviewStatus {
   // Hard Rejections:
   // 1. Outside target total sales volume window
