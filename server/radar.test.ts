@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery } from "./radar";
+import { canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
 import * as fs from "fs";
 
 const sourceVideoWorkedExample = {
@@ -341,6 +341,20 @@ describe("Product Radar queue reconciliation", () => {
     // 6. Empty / whitespace queries return null
     expect(extractProductIdFromQuery("")).toBeNull();
     expect(extractProductIdFromQuery("    ")).toBeNull();
+  });
+
+  it("recognizes TikTok /t/ short links and extracts the product ID from their redirect target", async () => {
+    const shortLink = "https://www.tiktok.com/t/ZT9S4V7yVJQN8-McluG/";
+    expect(isTikTokShortLink(shortLink)).toBe(true);
+    expect(isTikTokShortLink("https://www.tiktok.com/view/product/1729482910492819284")).toBe(false);
+
+    const fetchMock: typeof fetch = async () => new Response(null, {
+      status: 302,
+      headers: { location: "https://shop.tiktok.com/us/pdp/1732621368377970923?share_id=example" },
+    });
+
+    await expect(resolveTikTokShortLink(shortLink, fetchMock)).resolves.toBe("1732621368377970923");
+    await expect(resolveTikTokShortLink("https://www.tiktok.com/view/product/1729482910492819284", fetchMock)).resolves.toBeNull();
   });
 
   it("distinguishes steady consistent evergreen sellers from truly declining products under <8% velocity", () => {

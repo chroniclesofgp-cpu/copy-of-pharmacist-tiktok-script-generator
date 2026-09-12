@@ -3,7 +3,7 @@ import { z } from "zod";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter } from "../kalodata";
 
@@ -426,7 +426,20 @@ export const radarRouter = router({
 
         const targetProfile = input.profile ?? DEFAULT_RADAR_PROFILE;
         const cleanQuery = input.query.trim();
-        const extractedId = extractProductIdFromQuery(cleanQuery);
+        let extractedId = extractProductIdFromQuery(cleanQuery);
+        let matchedBy: "exact_id" | "short_link" | "search_top_match" = extractedId ? "exact_id" : "search_top_match";
+
+        if (!extractedId && isTikTokShortLink(cleanQuery)) {
+          try {
+            extractedId = await resolveTikTokShortLink(cleanQuery);
+          } catch {
+            extractedId = null;
+          }
+          if (!extractedId) {
+            throw new Error("This TikTok short link could not be resolved to a Shop product ID. Paste the full TikTok Shop product URL or the numeric product ID instead.");
+          }
+          matchedBy = "short_link";
+        }
 
         let snapshot = null;
 
@@ -546,7 +559,8 @@ export const radarRouter = router({
           productId: snapshot.productId,
           productName: rawRow.productName,
           status: suggestedStatus,
-          matchedBy: extractedId ? ("exact_id" as const) : ("search_top_match" as const),
+          matchedBy,
+
           metrics,
         };
       }),

@@ -321,6 +321,51 @@ export function extractProductIdFromQuery(query: string): string | null {
   return match ? match[1] : null;
 }
 
+const TIKTOK_SHORT_LINK_HOSTS = new Set(["www.tiktok.com", "t.tiktok.com", "vm.tiktok.com"]);
+
+export function isTikTokShortLink(value: string): boolean {
+  try {
+    const url = new URL(value.trim());
+    return (url.protocol === "https:" || url.protocol === "http:")
+      && TIKTOK_SHORT_LINK_HOSTS.has(url.hostname.toLowerCase())
+      && /^\/t\//i.test(url.pathname);
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Resolve a TikTok /t/ share link to the numeric Shop product ID embedded in
+ * its redirect target. Only TikTok short-link hosts are allowed, and the
+ * redirect chain is deliberately capped to avoid turning this into a general
+ * URL fetcher.
+ */
+export async function resolveTikTokShortLink(
+  value: string,
+  fetchImpl: typeof fetch = fetch,
+): Promise<string | null> {
+  if (!isTikTokShortLink(value)) return null;
+
+  let currentUrl = value.trim();
+  for (let hop = 0; hop < 5; hop += 1) {
+    const response = await fetchImpl(currentUrl, { method: "HEAD", redirect: "manual" });
+    const location = response.headers.get("location");
+    if (location) {
+      const nextUrl = new URL(location, currentUrl).toString();
+      const productId = extractProductIdFromQuery(nextUrl);
+      if (productId) return productId;
+      currentUrl = nextUrl;
+      continue;
+    }
+
+    const responseUrlProductId = extractProductIdFromQuery(response.url);
+    if (responseUrlProductId) return responseUrlProductId;
+    if (response.status < 300 || response.status >= 400) break;
+  }
+
+  return null;
+}
+
 export function suggestedReviewStatus(metrics: RadarMetrics, profile?: RadarProfileConfig): ReviewStatus {
   // Hard Rejections:
   // 1. Outside target total sales volume window

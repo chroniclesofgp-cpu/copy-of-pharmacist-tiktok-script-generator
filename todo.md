@@ -855,3 +855,10 @@
 - [x] Embed collapsible Kalodata Web Filter Guide directly inside the CSV tab in Product Radar UI
 - [x] Add Vitest tests for profile-specific saturation, steady-seller ratio differentiation, and Kalodata export mapping
 - [x] Verify with uploaded Kalodata_Product_20260912121602_US.xlsx sample, verify production build, take screenshot, and save checkpoint
+
+## Inbound Offer Vetting Regression
+
+- [x] Reproduce and diagnose the error when auditing TikTok short URL `https://www.tiktok.com/t/ZT9S4V7yVJQN8-McluG/` in Product Radar.
+- [x] Fix short-link handling or error messaging without breaking exact product IDs, full TikTok Shop URLs, or name searches.
+- [x] Add regression tests for the supplied short URL and verify the inbound-offer UI flow with tests/build/screenshots.
+

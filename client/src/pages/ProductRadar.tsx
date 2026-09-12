@@ -136,7 +136,9 @@ export default function ProductRadar() {
     onSuccess: (res) => {
       const matchPrefix = res.matchedBy === "exact_id"
         ? `Audited exact product ID (${res.productId})`
-        : `Audited top Kalodata match`;
+        : res.matchedBy === "short_link"
+          ? `Resolved TikTok short link to exact product ID (${res.productId})`
+          : `Audited top Kalodata match`;
       setNotice(`${matchPrefix}: "${res.productName}" — Recommended Status: ${res.status.toUpperCase()}. Diagnostic card loaded below.`);
       setSelectedId(res.candidateId);
       void utils.radar.listCandidates.invalidate();
@@ -574,7 +576,7 @@ export default function ProductRadar() {
                     <div className="font-medium text-slate-300">Supported Inbound Inputs:</div>
                     <div>• <strong>Exact Product Name:</strong> e.g. <code className="text-cyan-300">Yummy Skin Blurring Balm Powder</code></div>
                     <div>• <strong>Brand + Mechanism:</strong> e.g. <code className="text-cyan-300">BodyHealth Perfect Amino</code></div>
-                    <div>• <strong>TikTok Shop URL:</strong> e.g. <code className="text-cyan-300">https://www.tiktok.com/view/product/1729403645039514131</code></div>
+                    <div>• <strong>TikTok Shop URL or /t/ short link:</strong> e.g. <code className="text-cyan-300">https://www.tiktok.com/view/product/1729403645039514131</code> or <code className="text-cyan-300">https://www.tiktok.com/t/...</code></div>
                     <div>• <strong>Kalodata / TikTok ID:</strong> e.g. <code className="text-cyan-300">1729403645039514131</code></div>
                   </div>
                   <Button
