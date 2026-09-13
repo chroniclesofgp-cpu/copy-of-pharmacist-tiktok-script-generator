@@ -103,7 +103,8 @@ export const radarRouter = router({
         if (existing[0]) {
           const current = existing[0];
           protectedReview = current.reviewStatus === "approved_for_campaign_planning" || current.evidenceGateStatus !== "not_reviewed" || current.handoffStatus !== "not_ready";
-          await db.update(radarCandidates).set({ importId: importRow.id, provider: "Kalodata (Product Intel)", productName: rawRow.productName || entry.product, productUrl: rawRow.productUrl || entry.productUrl || current.productUrl, category: rawRow.category || current.category || "Product Intel", productAgeDays: rawRow.productAgeDays ?? current.productAgeDays, activeCreatorCount: rawRow.activeCreatorCount ?? null, videosOver1MViews: rawRow.videosOver1MViews ?? null, rawDataJson: JSON.stringify(rawData), metricsJson: JSON.stringify(metrics), confidenceNotes: metrics.confidenceNotes.join(" "), reviewStatus: protectedReview ? current.reviewStatus : suggestedStatus, queueState: "active", queueReason: `Product Intel re-audit: ${entry.filename}`, archivedAt: null }).where(eq(radarCandidates.id, current.id));
+          const preservedQueueState = protectedReview ? current.queueState : "active";
+          await db.update(radarCandidates).set({ importId: importRow.id, provider: "Kalodata (Product Intel)", productName: rawRow.productName || entry.product, productUrl: rawRow.productUrl || entry.productUrl || current.productUrl, category: rawRow.category || current.category || "Product Intel", productAgeDays: rawRow.productAgeDays ?? current.productAgeDays, activeCreatorCount: rawRow.activeCreatorCount ?? null, videosOver1MViews: rawRow.videosOver1MViews ?? null, rawDataJson: JSON.stringify(rawData), metricsJson: JSON.stringify(metrics), confidenceNotes: metrics.confidenceNotes.join(" "), reviewStatus: protectedReview ? current.reviewStatus : suggestedStatus, queueState: preservedQueueState, queueReason: protectedReview ? current.queueReason : `Product Intel re-audit: ${entry.filename}`, archivedAt: preservedQueueState === "archived" ? current.archivedAt ?? new Date() : null }).where(eq(radarCandidates.id, current.id));
           candidateId = current.id;
         } else {
           const [candidate] = await db.insert(radarCandidates).values({ userId, importId: importRow.id, provider: "Kalodata (Product Intel)", externalProductId: snapshot.productId, productName: rawRow.productName || entry.product, category: rawRow.category || "Product Intel", productUrl: rawRow.productUrl || entry.productUrl || `https://shop.tiktok.com/view/product/${snapshot.productId}`, productAgeDays: rawRow.productAgeDays ?? null, activeCreatorCount: rawRow.activeCreatorCount ?? null, videosOver1MViews: rawRow.videosOver1MViews ?? null, rawDataJson: JSON.stringify(rawData), metricsJson: JSON.stringify(metrics), confidenceNotes: metrics.confidenceNotes.join(" "), creatorFitJson: JSON.stringify({ mechanismCredibility: "", audienceRelevance: "", availableFootage: "", evidenceSupport: "", notes: `Source Product Intel document: ${entry.filename}` }), reviewStatus: suggestedStatus, handoffStatus: "not_ready", evidenceGateStatus: "not_reviewed", queueState: "active", queueReason: `Product Intel re-audit: ${entry.filename}` }).$returningId();
@@ -122,14 +123,14 @@ export const radarRouter = router({
     const db = await getDb();
     if (!db) return [];
     const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active"))).orderBy(desc(radarCandidates.updatedAt));
-    return rows.map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
+    return rows.filter((row) => row.reviewStatus !== "approved_for_campaign_planning" && row.reviewStatus !== "avoid").map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
   }),
   listArchivedCandidates: publicProcedure.query(async ({ ctx }) => {
     const userId = getEffectiveUserId(ctx);
     const db = await getDb();
     if (!db) return [];
-    const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "archived"))).orderBy(desc(radarCandidates.updatedAt));
-    return rows.map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
+    const rows = await db.select().from(radarCandidates).where(eq(radarCandidates.userId, userId)).orderBy(desc(radarCandidates.updatedAt));
+    return rows.filter((row) => row.queueState === "archived" || row.reviewStatus === "approved_for_campaign_planning" || row.reviewStatus === "avoid").map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
   }),
   importCsv: publicProcedure.input(z.object({ provider: z.string().min(1).max(40), fileName: z.string().min(1).max(255), csv: z.string().min(1), profile: profileSchema.optional() })).mutation(async ({ ctx, input }) => {
     const userId = getEffectiveUserId(ctx);

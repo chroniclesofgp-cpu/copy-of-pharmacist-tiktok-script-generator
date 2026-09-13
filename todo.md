@@ -933,3 +933,11 @@
 - [x] Run only selected exact-ID products and show an estimated API-call range for the selection.
 - [x] Preserve zero-selection safety, skipped/no-ID messaging, and regression coverage.
 
+
+## Product Radar UI and Reviewed Queue Fixes
+
+- [x] Verify the live Product Intel panel reflects selectable rows and identify any stale deployment or cache issue.
+- [x] Ensure approved and rejected reviewed products are excluded from active analysis and shown in their history filters.
+- [x] Make the local rejected-history Mega-seller recheck workflow visible and easy to use.
+- [x] Add regression coverage, verify, and publish the fix.
+

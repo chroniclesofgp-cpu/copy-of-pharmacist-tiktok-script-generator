@@ -781,6 +781,7 @@ export default function ProductRadar() {
               <p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p>
               <h2 className="mt-1 text-xl font-semibold text-white">{queueFilter === "all" ? `${candidates.length} active products` : `${visibleCandidates.length} matching products`}</h2>
               <p className="mt-1 text-[11px] text-slate-400">Reviewed products leave this active-analysis queue and remain available in the history filters.</p>
+              {queueFilter === "rejected" && <p className="mt-1 text-[11px] text-violet-300">Select a rejected card to see its stored-data Mega-seller recheck. When snapshots are sufficient, this runs locally with no new Kalodata call.</p>}
             </div>
             <div className="flex items-center gap-2 flex-wrap">
               <Button
