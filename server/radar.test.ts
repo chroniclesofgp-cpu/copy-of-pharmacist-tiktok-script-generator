@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
+import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, getDiscoveryQueueDisposition, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
 import { buildBrandOpportunityDiagnostics, buildMegaSellerOpportunityDiagnostic } from "../client/src/lib/radarDiagnostics";
 import * as fs from "fs";
 
@@ -505,6 +505,13 @@ describe("Brand Opportunity Diagnostics", () => {
   });
 });
 
+
+describe("Mega-seller discovery queue disposition", () => {
+  it("keeps standard out-of-profile products archived but preserves Mega-seller products as active opportunities", () => {
+    expect(getDiscoveryQueueDisposition("standard", true, "45,000 total sales is outside profile")).toEqual({ queueState: "archived", provider: "Kalodata", queueReason: "45,000 total sales is outside profile", archived: true });
+    expect(getDiscoveryQueueDisposition("mega_seller", true, "45,000 total sales is outside profile")).toEqual({ queueState: "active", provider: "Kalodata (Mega-seller Opportunity)", queueReason: "Mega-seller opportunity review", archived: false });
+  });
+});
 
 describe("Mega-seller opportunity lens", () => {
   it("flags an over-ceiling product as an advisory opportunity when current video, freshness, and recent competition all pass", () => {

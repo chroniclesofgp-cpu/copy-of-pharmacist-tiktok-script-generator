@@ -5,7 +5,7 @@ import path from "path";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, getDiscoveryQueueDisposition, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter } from "../kalodata";
 
@@ -122,6 +122,13 @@ export const radarRouter = router({
     const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active"))).orderBy(desc(radarCandidates.updatedAt));
     return rows.map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
   }),
+  listArchivedCandidates: publicProcedure.query(async ({ ctx }) => {
+    const userId = getEffectiveUserId(ctx);
+    const db = await getDb();
+    if (!db) return [];
+    const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "archived"))).orderBy(desc(radarCandidates.updatedAt));
+    return rows.map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
+  }),
   importCsv: publicProcedure.input(z.object({ provider: z.string().min(1).max(40), fileName: z.string().min(1).max(255), csv: z.string().min(1), profile: profileSchema.optional() })).mutation(async ({ ctx, input }) => {
     const userId = getEffectiveUserId(ctx);
     const parsed = parseRadarFile(input.csv, input.fileName);
@@ -209,7 +216,7 @@ export const radarRouter = router({
     const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId))).limit(1);
     if (!rows[0]) throw new Error("Candidate not found");
     const handoffStatus = input.reviewStatus === "approved_for_campaign_planning" && input.evidenceGateStatus === "approved" ? "ready_for_campaign_planning" : "not_ready";
-    await db.update(radarCandidates).set({ reviewStatus: input.reviewStatus, evidenceGateStatus: input.evidenceGateStatus, handoffStatus, reviewNotes: input.reviewNotes ?? null, creatorFitJson: input.creatorFit ? JSON.stringify(input.creatorFit) : rows[0].creatorFitJson }).where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)));
+    await db.update(radarCandidates).set({ reviewStatus: input.reviewStatus, evidenceGateStatus: input.evidenceGateStatus, handoffStatus, reviewNotes: input.reviewNotes ?? null, creatorFitJson: input.creatorFit ? JSON.stringify(input.creatorFit) : rows[0].creatorFitJson, queueState: "archived", queueReason: `Reviewed: ${input.reviewStatus}`, archivedAt: new Date() }).where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)));
     return { success: true, handoffStatus };
   }),
   saveAiBrief: publicProcedure.input(z.object({ id: z.number(), brief: z.record(z.string(), z.unknown()) })).mutation(async ({ ctx, input }) => {
@@ -250,6 +257,7 @@ export const radarRouter = router({
         pagesToScan: z.number().int().min(1).max(6).default(2),
         sortStrategy: z.enum(["growth_rate", "video_revenue", "sales_volume", "revenue"]).default("sales_volume"),
         priceRange: z.string().optional(),
+        searchMode: z.enum(["standard", "mega_seller"]).default("standard"),
       })
     )
     .mutation(async ({ ctx, input }) => {
@@ -260,8 +268,11 @@ export const radarRouter = router({
       const db = await getDb();
       if (!db) throw new Error("Database unavailable");
 
+      const isMegaSellerMode = input.searchMode === "mega_seller";
       const targetMinSales = input.minTotalSales ?? input.profile?.minTotalSales ?? 2000;
       const targetMaxSales = input.maxTotalSales ?? input.profile?.maxTotalSales ?? 40000;
+      const discoveryMinSales = isMegaSellerMode ? 0 : targetMinSales;
+      const discoveryMaxSales = isMegaSellerMode ? Number.MAX_SAFE_INTEGER : targetMaxSales;
       const targetProfile: RadarProfileConfig = {
         ...(input.profile ?? DEFAULT_RADAR_PROFILE),
         minTotalSales: targetMinSales,
@@ -272,7 +283,7 @@ export const radarRouter = router({
         keyword: input.keyword,
         sortStrategy: input.sortStrategy,
         category: input.categoryId,
-        targetMaxSales,
+        targetMaxSales: discoveryMaxSales,
         userStartPage: input.startPage,
         userPagesToScan: input.pagesToScan,
         maxCandidates: input.maxCandidates,
@@ -300,26 +311,29 @@ export const radarRouter = router({
         sortField,
         isAffiliate: true,
         unitPriceRange: input.priceRange,
-        targetMinSales,
-        targetMaxSales,
+        targetMinSales: discoveryMinSales,
+        targetMaxSales: discoveryMaxSales,
       });
 
       if (!rankItems.length) {
         return { success: true, count: 0, candidateIds: [], message: `No products found on Kalodata for the selected criteria.` };
       }
 
-      // 2. Automatically archive existing unprotected candidates that no longer fit the selected profile.
-      const activeRows = await db
-        .select()
-        .from(radarCandidates)
-        .where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active")));
+      // 2. Standard pulls reconcile the active queue against the selected profile. Mega-seller
+      // pulls deliberately leave the normal queue untouched and write to a separate provider lane.
       let autoArchivedExistingCount = 0;
-      for (const candidate of activeRows) {
-        const raw = parseJson<any>(candidate.rawDataJson, null);
-        const evaluation = isRadarCandidateOutsideProfile(raw, targetProfile);
-        if (evaluation.outside && canArchiveRadarCandidate(candidate)) {
-          await db.update(radarCandidates).set({ queueState: "archived", queueReason: evaluation.reason, archivedAt: new Date() }).where(and(eq(radarCandidates.id, candidate.id), eq(radarCandidates.userId, userId)));
-          autoArchivedExistingCount += 1;
+      if (!isMegaSellerMode) {
+        const activeRows = await db
+          .select()
+          .from(radarCandidates)
+          .where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active")));
+        for (const candidate of activeRows) {
+          const raw = parseJson<any>(candidate.rawDataJson, null);
+          const evaluation = isRadarCandidateOutsideProfile(raw, targetProfile);
+          if (evaluation.outside && canArchiveRadarCandidate(candidate)) {
+            await db.update(radarCandidates).set({ queueState: "archived", queueReason: evaluation.reason, archivedAt: new Date() }).where(and(eq(radarCandidates.id, candidate.id), eq(radarCandidates.userId, userId)));
+            autoArchivedExistingCount += 1;
+          }
         }
       }
 
@@ -338,6 +352,7 @@ export const radarRouter = router({
       // (Since lifetime sales >= 7-day sales, if 7-day sales > targetMaxSales, lifetime is mathematically > targetMaxSales).
       const candidatesToScan = poolToFilter
         .filter((item) => {
+          if (isMegaSellerMode) return true;
           const sales7d = Number(item.sales_volumn || 0);
           return sales7d <= targetMaxSales;
         })
@@ -362,13 +377,13 @@ export const radarRouter = router({
           // Evaluated against actual un-extrapolated lifetime / 90-day unit sales from /product/detail.
           // Applies identically across all 4 discovery strategies (Breakout Velocity, Video-Driven Movers, Sales Volume, Gross Revenue).
           const profileEvaluation = isRadarCandidateOutsideProfile(rawRow, targetProfile);
-          const queueState = profileEvaluation.outside ? "archived" : "active";
+          const queueDisposition = getDiscoveryQueueDisposition(isMegaSellerMode ? "mega_seller" : "standard", profileEvaluation.outside, profileEvaluation.reason);
 
           const [candidate] = await db
             .insert(radarCandidates)
             .values({
               userId,
-              provider: "Kalodata",
+              provider: queueDisposition.provider,
               externalProductId: rankItem.product_id,
               productName: rawRow.productName,
               category: rawRow.category ?? null,
@@ -389,13 +404,13 @@ export const radarRouter = router({
             reviewStatus: suggestedReviewStatus(metrics, targetProfile),
             handoffStatus: "not_ready",
               evidenceGateStatus: "not_reviewed",
-              queueState,
-              queueReason: profileEvaluation.outside ? profileEvaluation.reason : null,
-              archivedAt: profileEvaluation.outside ? new Date() : null,
+              queueState: queueDisposition.queueState,
+              queueReason: queueDisposition.queueReason,
+              archivedAt: queueDisposition.archived ? new Date() : null,
             })
             .$returningId();
 
-          if (profileEvaluation.outside) {
+          if (!isMegaSellerMode && profileEvaluation.outside) {
             archivedIds.push(candidate.id);
           } else {
             createdIds.push(candidate.id);
@@ -416,7 +431,9 @@ export const radarRouter = router({
         }
       }
 
-      const matchNotice = createdIds.length > 0
+      const matchNotice = isMegaSellerMode
+        ? `Scanned ${rankItems.length} products in Mega-seller Opportunity mode. Preserved ${createdIds.length} product(s) for separate recent-competition and fresh-video review.`
+        : createdIds.length > 0
         ? `Scanned ${rankItems.length} products. Found ${createdIds.length} candidate(s) strictly matching your ${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()} volume profile (archived ${archivedIds.length} out-of-range products).`
         : `Scanned ${rankItems.length} products. Found 0 products meeting your ${targetMinSales.toLocaleString()}–${targetMaxSales.toLocaleString()} volume profile (they are either too early or over 40k). Try using the category suggestion chips (like Serums, Eye Patches, or Protein) to narrow down the pool.`;
 

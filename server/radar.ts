@@ -400,6 +400,15 @@ export function suggestedReviewStatus(metrics: RadarMetrics, profile?: RadarProf
   return "candidate";
 }
 
+export function getDiscoveryQueueDisposition(mode: "standard" | "mega_seller", outsideProfile: boolean, outsideReason: string | null) {
+  if (mode === "mega_seller") {
+    return { queueState: "active" as const, provider: "Kalodata (Mega-seller Opportunity)", queueReason: "Mega-seller opportunity review", archived: false };
+  }
+  return outsideProfile
+    ? { queueState: "archived" as const, provider: "Kalodata", queueReason: outsideReason, archived: true }
+    : { queueState: "active" as const, provider: "Kalodata", queueReason: null, archived: false };
+}
+
 export function determineDiscoveryPaging(params: {
   keyword?: string;
   sortStrategy?: string;

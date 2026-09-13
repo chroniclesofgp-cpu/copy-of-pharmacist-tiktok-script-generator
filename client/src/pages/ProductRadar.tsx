@@ -67,6 +67,7 @@ export default function ProductRadar() {
   const { data: presetProfiles } = trpc.radar.getPresets.useQuery();
   const { data: savedProfiles = [] } = trpc.radar.listProfiles.useQuery();
   const { data: candidates = [], isLoading } = trpc.radar.listCandidates.useQuery();
+  const { data: archivedCandidates = [] } = trpc.radar.listArchivedCandidates.useQuery();
   const { data: productIntelRadar = [] } = trpc.radar.listProductIntelForRadar.useQuery();
   const [profile, setProfile] = useState<RadarProfileConfig>(DEFAULT_RADAR_PROFILE);
   const [profileName, setProfileName] = useState("Coach A Range (2,000–40,000)");
@@ -80,32 +81,38 @@ export default function ProductRadar() {
   const [searchRegion, setSearchRegion] = useState("US");
   const [searchLimit, setSearchLimit] = useState(5);
   const [sortStrategy, setSortStrategy] = useState<"growth_rate" | "video_revenue" | "sales_volume" | "revenue">("sales_volume");
+  const [searchMode, setSearchMode] = useState<"standard" | "mega_seller">("standard");
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [notice, setNotice] = useState<string>("");
   const [uploading, setUploading] = useState(false);
   const [refreshingCandidate, setRefreshingCandidate] = useState(false);
   const [showRawSnapshot, setShowRawSnapshot] = useState(false);
-  const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "ready" | "handed_off" | "product_intel">("all");
+  const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "rejected" | "ready" | "handed_off" | "product_intel" | "mega_seller">("all");
 
   const visibleCandidates = useMemo(() => {
-    if (queueFilter === "approved") return candidates.filter((candidate) => candidate.reviewStatus === "approved_for_campaign_planning");
-    if (queueFilter === "ready") return candidates.filter((candidate) => candidate.handoffStatus === "ready_for_campaign_planning");
-    if (queueFilter === "handed_off") return candidates.filter((candidate) => candidate.handoffStatus === "handed_off_to_campaign_planning");
-    if (queueFilter === "product_intel") return candidates.filter((candidate) => candidate.provider === "Kalodata (Product Intel)");
+    if (queueFilter === "all") return candidates;
+    if (queueFilter === "approved") return archivedCandidates.filter((candidate) => candidate.reviewStatus === "approved_for_campaign_planning");
+    if (queueFilter === "rejected") return archivedCandidates.filter((candidate) => candidate.reviewStatus === "avoid");
+    if (queueFilter === "ready") return archivedCandidates.filter((candidate) => candidate.handoffStatus === "ready_for_campaign_planning");
+    if (queueFilter === "handed_off") return archivedCandidates.filter((candidate) => candidate.handoffStatus === "handed_off_to_campaign_planning");
+    if (queueFilter === "product_intel") return [...candidates, ...archivedCandidates].filter((candidate) => candidate.provider === "Kalodata (Product Intel)");
+    if (queueFilter === "mega_seller") return candidates.filter((candidate) => candidate.provider === "Kalodata (Mega-seller Opportunity)");
     return candidates;
-  }, [candidates, queueFilter]);
+  }, [archivedCandidates, candidates, queueFilter]);
 
   const saveProfile = trpc.radar.saveProfile.useMutation({ onSuccess: () => setNotice("Screening profile saved.") });
   const recalculateAll = trpc.radar.recalculateCandidatesWithProfile.useMutation({
     onSuccess: (res) => {
       setNotice(`Re-evaluated ${res.count} candidate(s) against "${profileName}".`);
       void utils.radar.listCandidates.invalidate();
+      void utils.radar.listArchivedCandidates.invalidate();
     },
   });
   const clearQueue = trpc.radar.clearQueue.useMutation({
     onSuccess: (res) => {
-      setNotice(`Cleared ${res.archivedCount} unreviewed candidate(s) from the active queue. You now have a fresh slate.`);
+      setNotice(`Archived ${res.archivedCount} active candidate(s) from the analysis queue. Raw data remains available in history.`);
       void utils.radar.listCandidates.invalidate();
+      void utils.radar.listArchivedCandidates.invalidate();
     },
     onError: (err) => setNotice(`Failed to clear queue: ${err.message}`),
   });
@@ -116,6 +123,7 @@ export default function ProductRadar() {
       } else {
         setNotice(`Archived ${res.archivedCount} out-of-profile candidate(s). ${res.protectedCount} protected candidate(s) were kept.`);
         void utils.radar.listCandidates.invalidate();
+        void utils.radar.listArchivedCandidates.invalidate();
       }
     },
     onError: (error) => setNotice(`Queue cleanup failed: ${error.message}`),
@@ -165,8 +173,8 @@ export default function ProductRadar() {
       setNotice(`Product audit error: ${err.message}`);
     },
   });
-  const updateReview = trpc.radar.updateReview.useMutation({ onSuccess: () => { setNotice("Review saved. The handoff remains blocked until the evidence gate is approved."); void utils.radar.listCandidates.invalidate(); } });
-  const handoff = trpc.radar.handoffToCampaign.useMutation({ onSuccess: () => { setNotice("Campaign-planning handoff completed after the evidence gate."); void utils.radar.listCandidates.invalidate(); }, onError: (error) => setNotice(error.message) });
+  const updateReview = trpc.radar.updateReview.useMutation({ onSuccess: () => { setNotice("Review saved and moved to history. The handoff remains blocked until the evidence gate is approved."); void utils.radar.listCandidates.invalidate(); void utils.radar.listArchivedCandidates.invalidate(); } });
+  const handoff = trpc.radar.handoffToCampaign.useMutation({ onSuccess: () => { setNotice("Campaign-planning handoff completed after the evidence gate."); void utils.radar.listCandidates.invalidate(); void utils.radar.listArchivedCandidates.invalidate(); }, onError: (error) => setNotice(error.message) });
   const activeProfile = profileData?.config ?? profile;
   const selected = useMemo(() => visibleCandidates.find((candidate) => candidate.id === selectedId) ?? visibleCandidates[0], [visibleCandidates, selectedId]);
 
@@ -484,6 +492,23 @@ export default function ProductRadar() {
                       </div>
                     </div>
                   </div>
+                  <div className="rounded-md border border-white/10 bg-black/20 p-3">
+                    <Label className="text-xs text-slate-300">Discovery Mode</Label>
+                    <select
+                      className="mt-1 h-9 w-full rounded-md border border-white/10 bg-black/20 px-2 text-xs text-slate-200"
+                      value={searchMode}
+                      onChange={(e) => setSearchMode(e.target.value as "standard" | "mega_seller")}
+                    >
+                      <option value="standard">Standard Radar (normal volume profile)</option>
+                      <option value="mega_seller">Explore Mega-seller Opportunities (separate queue)</option>
+                    </select>
+                    <p className="mt-1 text-[11px] leading-4 text-slate-400">
+                      {searchMode === "mega_seller"
+                        ? "Preserves over-ceiling products for recent competition, fresh-video, and re-entry review. It does not change normal Candidate/Watchlist/Avoid results."
+                        : "Only products inside the active volume profile enter the normal analysis queue. Out-of-range results remain archived."
+                      }
+                    </p>
+                  </div>
                   <div className="grid grid-cols-3 gap-2">
                     <div>
                       <Label className="text-xs text-slate-300">Region</Label>
@@ -525,7 +550,7 @@ export default function ProductRadar() {
                     </div>
                   </div>
                   <div className="rounded-md border border-white/5 bg-black/20 p-2 text-[11px] text-slate-400">
-                    <span className="font-semibold text-slate-300">Option A Discovery Filter:</span> Querying Kalodata by <strong>{sortStrategy === "sales_volume" ? "Sales Volume (Units)" : sortStrategy === "video_revenue" ? "Short-Form Video Revenue" : sortStrategy === "growth_rate" ? "Breakout Growth Rate" : "Gross Revenue"}</strong>. Candidate pool will be strictly verified against your <strong>{profileName}</strong> volume range using un-extrapolated /product/detail data.
+                    <span className="font-semibold text-slate-300">{searchMode === "mega_seller" ? "Mega-seller discovery:" : "Option A Discovery Filter:"}</span> Querying Kalodata by <strong>{sortStrategy === "sales_volume" ? "Sales Volume (Units)" : sortStrategy === "video_revenue" ? "Short-Form Video Revenue" : sortStrategy === "growth_rate" ? "Breakout Growth Rate" : "Gross Revenue"}</strong>. {searchMode === "mega_seller" ? "The normal volume ceiling is not used to discard results; preserved products appear in the Mega-seller opportunity view." : <>Candidate pool will be strictly verified against your <strong>{profileName}</strong> volume range using un-extrapolated /product/detail data.</>}
                   </div>
                   <Button
                     type="button"
@@ -537,6 +562,7 @@ export default function ProductRadar() {
                         region: searchRegion,
                         maxCandidates: searchLimit,
                         sortStrategy,
+                        searchMode,
                         profile: activeProfile,
                         minTotalSales: activeProfile.minTotalSales,
                         maxTotalSales: activeProfile.maxTotalSales,
@@ -724,6 +750,7 @@ export default function ProductRadar() {
           </Card>
 
           <Card className="border-amber-300/20 bg-amber-300/5 text-slate-100"><CardContent className="p-4 text-xs leading-5 text-amber-100"><strong>Gate design:</strong> high sales velocity never unlocks script generation by itself. A candidate must be explicitly approved for campaign planning <em>and</em> have an approved evidence/compliance gate.</CardContent></Card>
+          <Card className="border-white/10 bg-white/[0.03] text-slate-100"><CardContent className="p-4 text-xs leading-5"><details><summary className="cursor-pointer font-semibold text-slate-200">Radar status key</summary><div className="mt-3 space-y-2 text-slate-400"><p><strong className="text-cyan-300">Candidate:</strong> metrics generally fit the profile and merit active review; not yet approved.</p><p><strong className="text-emerald-300">Watchlist:</strong> borderline or mixed signals; worth monitoring or manually checking before a decision.</p><p><strong className="text-amber-300">Human Review:</strong> the rules cannot safely resolve an important issue, so a person must decide.</p><p><strong className="text-rose-300">Avoid:</strong> one or more hard or material screening concerns failed; it is not a campaign recommendation.</p><p><strong className="text-violet-300">Approved:</strong> approved for campaign planning only after the evidence/compliance gate is also approved.</p></div></details></CardContent></Card>
         </aside>
 
         <main className="space-y-6">
@@ -731,6 +758,7 @@ export default function ProductRadar() {
             <div>
               <p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p>
               <h2 className="mt-1 text-xl font-semibold text-white">{queueFilter === "all" ? `${candidates.length} active products` : `${visibleCandidates.length} matching products`}</h2>
+              <p className="mt-1 text-[11px] text-slate-400">Reviewed products leave this active-analysis queue and remain available in the history filters.</p>
             </div>
             <div className="flex items-center gap-2 flex-wrap">
               <Button
@@ -750,12 +778,25 @@ export default function ProductRadar() {
                 className="border-rose-500/30 bg-rose-500/10 text-rose-300 hover:bg-rose-500/20 text-xs h-8"
                 disabled={clearQueue.isPending}
                 onClick={() => {
-                  if (window.confirm("Archive all unreviewed products in the queue to start fresh? (Approved or reviewed products will remain protected, and raw data is retained).")) {
+                  if (window.confirm("Archive all unreviewed products in the queue to start fresh? Raw data is retained and reviewed products remain protected.")) {
                     clearQueue.mutate({ onlyUnreviewed: true });
                   }
                 }}
               >
-                Clear Queue (Start Fresh)
+                Clear Unreviewed
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-red-500/30 bg-red-500/10 text-red-300 hover:bg-red-500/20 text-xs h-8"
+                disabled={clearQueue.isPending}
+                onClick={() => {
+                  if (window.confirm("Archive every active product from the analysis queue? Nothing will be deleted; use the history filters to revisit them.")) {
+                    clearQueue.mutate({ onlyUnreviewed: false });
+                  }
+                }}
+              >
+                Clear All Active
               </Button>
               <select
                 aria-label="Filter candidate queue"
@@ -763,15 +804,17 @@ export default function ProductRadar() {
                 value={queueFilter}
                 onChange={(e) => setQueueFilter(e.target.value as typeof queueFilter)}
               >
-                <option value="all">All active</option>
-                <option value="approved">Approved products</option>
+                <option value="all">Active analysis queue ({candidates.length})</option>
+                <option value="mega_seller">Mega-seller opportunities ({candidates.filter((candidate) => candidate.provider === "Kalodata (Mega-seller Opportunity)").length})</option>
+                <option value="approved">Approved history</option>
+                <option value="rejected">Rejected / Avoided history</option>
                 <option value="ready">Ready for handoff</option>
                 <option value="handed_off">Handed off</option>
                 <option value="product_intel">Product Intel re-audits</option>
               </select>
             </div>
           </div>
-          {!candidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">No product candidates yet.</p><p className="max-w-md text-sm text-slate-500">Import a FastMoss or Kalodata export to calculate the first transparent radar pass.</p></CardContent></Card> : !visibleCandidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><BookMarked className="h-10 w-10 text-slate-600" /><p className="font-medium">No products in this view.</p><p className="max-w-md text-sm text-slate-500">Save a candidate with the matching review or handoff status to see it here.</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{visibleCandidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div>
+          {!visibleCandidates.length ? <Card className="border-white/10 bg-white/[0.04] text-slate-100"><CardContent className="flex min-h-64 flex-col items-center justify-center gap-3 text-center"><FileSpreadsheet className="h-10 w-10 text-slate-600" /><p className="font-medium">{candidates.length || archivedCandidates.length ? "No products in this view." : "No product candidates yet."}</p><p className="max-w-md text-sm text-slate-500">{candidates.length || archivedCandidates.length ? "Choose another queue filter or analyze a new product." : "Import a FastMoss or Kalodata export to calculate the first transparent radar pass."}</p></CardContent></Card> : <div className="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]"><div className="space-y-3">{visibleCandidates.map((candidate) => { const m = candidate.metrics as Record<string, unknown>; return <button key={candidate.id} onClick={() => setSelectedId(candidate.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === candidate.id ? "border-cyan-300/70 bg-cyan-300/10" : "border-white/10 bg-white/[0.03] hover:bg-white/[0.06]"}`}><div className="flex items-start justify-between gap-3"><div><p className="font-medium">{candidate.productName}</p><p className="mt-1 text-xs text-slate-500">{candidate.category || "Uncategorized"} · {candidate.provider}</p></div><span className="rounded-full bg-white/10 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300">{statusLabels[candidate.reviewStatus] ?? candidate.reviewStatus}</span></div>
             {(() => {
               const diag = diagnoseMetrics(candidate.rawData || {}, (candidate.metrics || {}) as any, candidate, activeProfile);
               return (

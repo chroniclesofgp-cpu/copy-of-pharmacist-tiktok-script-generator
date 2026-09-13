@@ -910,3 +910,12 @@
 - [x] Use the verified fields in the mega-seller recent-competition deep-dive when reliable.
 - [x] Add regression coverage and preserve the normal Radar gates.
 
+
+## Mega-seller Mode & Queue Lifecycle
+
+- [x] Add category-based Explore Mega-seller Opportunities mode that preserves over-ceiling products in a separate opportunity queue.
+- [x] Move analyzed products out of the active-analysis view while retaining approved, rejected, avoided, and handed-off history.
+- [x] Add a rejected/avoided history filter and safe non-destructive clear-analysis-queue action.
+- [x] Add a plain-language status key explaining Candidate, Watchlist, Human Review, Avoid, and Approved.
+- [x] Add tests, verify API cost behavior and UI flow, and publish the completed workflow.
+
