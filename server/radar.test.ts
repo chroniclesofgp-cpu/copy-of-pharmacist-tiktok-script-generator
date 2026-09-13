@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
-import { buildBrandOpportunityDiagnostics } from "../client/src/lib/radarDiagnostics";
+import { buildBrandOpportunityDiagnostics, buildMegaSellerOpportunityDiagnostic } from "../client/src/lib/radarDiagnostics";
 import * as fs from "fs";
 
 const sourceVideoWorkedExample = {
@@ -502,5 +502,40 @@ describe("Brand Opportunity Diagnostics", () => {
 
     expect(diagnostics.find((item) => item.key === "self_operated_trend")?.badge).toBe("Provider field not supplied");
     expect(diagnostics.find((item) => item.key === "top_video_freshness")?.badge).toBe("Publish dates missing");
+  });
+});
+
+
+describe("Mega-seller opportunity lens", () => {
+  it("flags an over-ceiling product as an advisory opportunity when current video, freshness, and recent competition all pass", () => {
+    const diagnostic = buildMegaSellerOpportunityDiagnostic({
+      totalSales: 125000,
+      rawDetail7d: { revenue: 1000, video_revenue: 800 },
+      rawDetail30d: { creator_number: 45 },
+      rawTopVideos: [
+        { publish_date: "2026-09-10", revenue: 500 },
+        { publish_date: "2026-09-01", revenue: 250 },
+      ],
+    }, COACH_A_PROFILE, new Date("2026-09-12T00:00:00Z").getTime());
+
+    expect(diagnostic?.valueDisplay).toBe("Opportunity candidate");
+    expect(diagnostic?.color).toBe("green");
+    expect(diagnostic?.detail).toContain("never overrides the standard profile");
+  });
+
+  it("does not manufacture a mega-seller opportunity when recent competition or freshness is unavailable", () => {
+    const diagnostic = buildMegaSellerOpportunityDiagnostic({
+      totalSales: 125000,
+      rawDetail7d: { revenue: 1000, video_revenue: 800 },
+      rawDetail30d: {},
+      rawTopVideos: [{ revenue: 500 }],
+    }, COACH_A_PROFILE);
+
+    expect(diagnostic?.valueDisplay).toBe("Needs more data");
+    expect(diagnostic?.badge).toContain("recent creator count");
+  });
+
+  it("does not create a mega-seller lens for products inside the normal profile ceiling", () => {
+    expect(buildMegaSellerOpportunityDiagnostic({ totalSales: 30000 }, COACH_A_PROFILE)).toBeNull();
   });
 });

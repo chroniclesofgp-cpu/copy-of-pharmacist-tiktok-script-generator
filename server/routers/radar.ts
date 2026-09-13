@@ -1,5 +1,7 @@
 import { and, desc, eq } from "drizzle-orm";
 import { z } from "zod";
+import { readdirSync, readFileSync } from "fs";
+import path from "path";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
@@ -14,6 +16,33 @@ const profileSchema = z.object({
 function parseJson<T>(value: string | null | undefined, fallback: T): T {
   if (!value) return fallback;
   try { return JSON.parse(value) as T; } catch { return fallback; }
+}
+
+const PRODUCT_INTEL_DIR = path.join(process.cwd(), "product-intel");
+
+function listProductIntelRadarEntries() {
+  let files: string[] = [];
+  try { files = readdirSync(PRODUCT_INTEL_DIR).filter((file) => file.endsWith(".md")); } catch { return []; }
+  const entries = files.map((filename) => {
+    const text = readFileSync(path.join(PRODUCT_INTEL_DIR, filename), "utf8");
+    const links = Array.from(text.matchAll(/https?:\/\/(?:shop\.)?tiktok\.com\/[^\s)]+/gi)).map((match) => match[0].replace(/[.,;]+$/, ""));
+    const productUrl = links.find((link) => /product|pdp/i.test(link));
+    const productId = productUrl ? extractProductIdFromQuery(productUrl) : null;
+    return {
+      filename,
+      product: filename.replace(/\.md$/i, "").replace(/[_-]+/g, " ").replace(/\b\w/g, (char) => char.toUpperCase()),
+      productId,
+      productUrl: productUrl ?? null,
+      path: `analysis/product-intel/${filename}`,
+    };
+  });
+  const seenIds = new Set<string>();
+  return entries.filter((entry) => {
+    if (!entry.productId) return true;
+    if (seenIds.has(entry.productId)) return false;
+    seenIds.add(entry.productId);
+    return true;
+  }).sort((a, b) => a.product.localeCompare(b.product));
 }
 
 const getEffectiveUserId = (ctx: any): number => ctx.user?.id ?? 1;
@@ -47,6 +76,44 @@ export const radarRouter = router({
     if (!db) throw new Error("Database unavailable");
     await db.insert(radarProfiles).values({ userId, name: input.name, configJson: JSON.stringify(input.config) });
     return { success: true };
+  }),
+  listProductIntelForRadar: publicProcedure.query(async () => listProductIntelRadarEntries()),
+  reAuditProductIntel: publicProcedure.input(z.object({ region: z.string().length(2).default("US"), profile: profileSchema.optional(), maxProducts: z.number().int().positive().max(100).default(100) })).mutation(async ({ ctx, input }) => {
+    const userId = getEffectiveUserId(ctx);
+    const db = await getDb();
+    if (!db) throw new Error("Database unavailable");
+    const profile = input.profile ?? DEFAULT_RADAR_PROFILE;
+    const entries = listProductIntelRadarEntries().filter((entry) => entry.productId).slice(0, input.maxProducts);
+    const skipped = listProductIntelRadarEntries().filter((entry) => !entry.productId).map((entry) => entry.filename);
+    const [importRow] = await db.insert(radarImports).values({ userId, provider: "Product Intel → Kalodata", fileName: "Product Intelligence bulk re-audit", rowCount: entries.length + skipped.length, validRowCount: entries.length, errorJson: skipped.length ? JSON.stringify({ skipped }) : null }).$returningId();
+    const processed: Array<{ candidateId: number; productId: string; productName: string; status: string; sourceFile: string }> = [];
+    const failed: Array<{ sourceFile: string; productId: string; error: string }> = [];
+    for (const entry of entries) {
+      try {
+        const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(entry.productId!, undefined, input.region, { stage1Profile: profile });
+        const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
+        const metrics = calculateRadarMetrics(rawRow, profile);
+        const suggestedStatus = suggestedReviewStatus(metrics, profile);
+        const rawData = { ...rawRow, productId: snapshot.productId, fetchedAt: snapshot.fetchedAt, sourceIntelFile: entry.filename, sourceIntelPath: entry.path, rawSnapshot: snapshot, rawDetail7d: snapshot.rawDetail7d, rawDetail30d: snapshot.rawDetail30d, rawDetail90d: snapshot.rawDetail90d, rawRank: snapshot.rawRank, rawTopVideos: snapshot.rawTopVideos };
+        const existing = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.externalProductId, snapshot.productId))).limit(1);
+        let candidateId: number;
+        let protectedReview = false;
+        if (existing[0]) {
+          const current = existing[0];
+          protectedReview = current.reviewStatus === "approved_for_campaign_planning" || current.evidenceGateStatus !== "not_reviewed" || current.handoffStatus !== "not_ready";
+          await db.update(radarCandidates).set({ importId: importRow.id, provider: "Kalodata (Product Intel)", productName: rawRow.productName || entry.product, productUrl: rawRow.productUrl || entry.productUrl || current.productUrl, category: rawRow.category || current.category || "Product Intel", productAgeDays: rawRow.productAgeDays ?? current.productAgeDays, activeCreatorCount: rawRow.activeCreatorCount ?? null, videosOver1MViews: rawRow.videosOver1MViews ?? null, rawDataJson: JSON.stringify(rawData), metricsJson: JSON.stringify(metrics), confidenceNotes: metrics.confidenceNotes.join(" "), reviewStatus: protectedReview ? current.reviewStatus : suggestedStatus, queueState: "active", queueReason: `Product Intel re-audit: ${entry.filename}`, archivedAt: null }).where(eq(radarCandidates.id, current.id));
+          candidateId = current.id;
+        } else {
+          const [candidate] = await db.insert(radarCandidates).values({ userId, importId: importRow.id, provider: "Kalodata (Product Intel)", externalProductId: snapshot.productId, productName: rawRow.productName || entry.product, category: rawRow.category || "Product Intel", productUrl: rawRow.productUrl || entry.productUrl || `https://shop.tiktok.com/view/product/${snapshot.productId}`, productAgeDays: rawRow.productAgeDays ?? null, activeCreatorCount: rawRow.activeCreatorCount ?? null, videosOver1MViews: rawRow.videosOver1MViews ?? null, rawDataJson: JSON.stringify(rawData), metricsJson: JSON.stringify(metrics), confidenceNotes: metrics.confidenceNotes.join(" "), creatorFitJson: JSON.stringify({ mechanismCredibility: "", audienceRelevance: "", availableFootage: "", evidenceSupport: "", notes: `Source Product Intel document: ${entry.filename}` }), reviewStatus: suggestedStatus, handoffStatus: "not_ready", evidenceGateStatus: "not_reviewed", queueState: "active", queueReason: `Product Intel re-audit: ${entry.filename}` }).$returningId();
+          candidateId = candidate.id;
+          if (rawRow.dailySales.length) await db.insert(radarDailySales).values(rawRow.dailySales.map((sale) => ({ candidateId, salesDate: sale.date, units: sale.units, rawDataJson: JSON.stringify(sale) })));
+        }
+        processed.push({ candidateId, productId: snapshot.productId, productName: rawRow.productName || entry.product, status: protectedReview && existing[0] ? existing[0].reviewStatus : suggestedStatus, sourceFile: entry.filename });
+      } catch (error) {
+        failed.push({ sourceFile: entry.filename, productId: entry.productId!, error: error instanceof Error ? error.message : String(error) });
+      }
+    }
+    return { importId: importRow.id, requested: entries.length, processed, skipped, failed, estimatedApiCalls: { minimum: processed.length, maximum: processed.length * 4 } };
   }),
   listCandidates: publicProcedure.query(async ({ ctx }) => {
     const userId = getEffectiveUserId(ctx);

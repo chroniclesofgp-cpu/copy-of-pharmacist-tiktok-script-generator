@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
 import { buildKalodataProductDetailUrl, DEFAULT_RADAR_PROFILE, type RadarProfileConfig } from "../../../server/radar";
-import { buildBrandOpportunityDiagnostics, diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
+import { buildBrandOpportunityDiagnostics, buildMegaSellerOpportunityDiagnostic, diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
 
 const statusLabels: Record<string, string> = { candidate: "Candidate", watchlist: "Watchlist", human_review: "Human review", avoid: "Avoid", approved_for_campaign_planning: "Approved for campaign planning" };
 const metric = (value: unknown) => typeof value === "number" ? Number(value.toFixed(2)) : "—";
@@ -67,6 +67,7 @@ export default function ProductRadar() {
   const { data: presetProfiles } = trpc.radar.getPresets.useQuery();
   const { data: savedProfiles = [] } = trpc.radar.listProfiles.useQuery();
   const { data: candidates = [], isLoading } = trpc.radar.listCandidates.useQuery();
+  const { data: productIntelRadar = [] } = trpc.radar.listProductIntelForRadar.useQuery();
   const [profile, setProfile] = useState<RadarProfileConfig>(DEFAULT_RADAR_PROFILE);
   const [profileName, setProfileName] = useState("Coach A Range (2,000–40,000)");
   const [selectedProfileKey, setSelectedProfileKey] = useState("coach_a");
@@ -84,12 +85,13 @@ export default function ProductRadar() {
   const [uploading, setUploading] = useState(false);
   const [refreshingCandidate, setRefreshingCandidate] = useState(false);
   const [showRawSnapshot, setShowRawSnapshot] = useState(false);
-  const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "ready" | "handed_off">("all");
+  const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "ready" | "handed_off" | "product_intel">("all");
 
   const visibleCandidates = useMemo(() => {
     if (queueFilter === "approved") return candidates.filter((candidate) => candidate.reviewStatus === "approved_for_campaign_planning");
     if (queueFilter === "ready") return candidates.filter((candidate) => candidate.handoffStatus === "ready_for_campaign_planning");
     if (queueFilter === "handed_off") return candidates.filter((candidate) => candidate.handoffStatus === "handed_off_to_campaign_planning");
+    if (queueFilter === "product_intel") return candidates.filter((candidate) => candidate.provider === "Kalodata (Product Intel)");
     return candidates;
   }, [candidates, queueFilter]);
 
@@ -119,6 +121,13 @@ export default function ProductRadar() {
     onError: (error) => setNotice(`Queue cleanup failed: ${error.message}`),
   });
   const importCsv = trpc.radar.importCsv.useMutation({ onSuccess: (result) => { setNotice(`Imported ${result.validRows} candidate rows with ${result.errors.length} validation errors.`); void utils.radar.listCandidates.invalidate(); setUploading(false); }, onError: (error) => { setNotice(error.message); setUploading(false); } });
+  const reAuditProductIntel = trpc.radar.reAuditProductIntel.useMutation({
+    onSuccess: (result) => {
+      setNotice(`Re-audited ${result.processed.length} Product Intel products. ${result.skipped.length} docs had no exact Shop product ID; estimated API calls: ${result.estimatedApiCalls.minimum}–${result.estimatedApiCalls.maximum}.`);
+      void utils.radar.listCandidates.invalidate();
+    },
+    onError: (error) => setNotice(`Product Intel re-audit error: ${error.message}`),
+  });
   const searchKalodata = trpc.radar.searchKalodata.useMutation({
     onSuccess: (res) => {
       setNotice(res.message);
@@ -672,6 +681,32 @@ export default function ProductRadar() {
                     )}
                   </div>
 
+                  <div className="rounded-lg border border-violet-500/30 bg-violet-950/20 p-3">
+                    <div className="flex items-start justify-between gap-3">
+                      <div>
+                        <p className="text-xs font-medium text-violet-200">Re-audit Product Intelligence products</p>
+                        <p className="mt-1 text-[11px] leading-4 text-slate-400">Runs exact-ID Kalodata audits for the Product Intel documents that contain a TikTok Shop product ID, then places the results in this Radar queue. Reviewed or handed-off candidates keep their existing review status.</p>
+                      </div>
+                      <BookMarked className="h-4 w-4 shrink-0 text-violet-300" />
+                    </div>
+                    <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
+                      <span className="text-[10px] text-slate-500">{productIntelRadar.filter((item) => item.productId).length} exact IDs / {productIntelRadar.length} intel docs · estimated {productIntelRadar.filter((item) => item.productId).length}–{productIntelRadar.filter((item) => item.productId).length * 4} API calls</span>
+                      <Button
+                        type="button"
+                        size="sm"
+                        disabled={!kalodataStatus?.hasKey || reAuditProductIntel.isPending || productIntelRadar.filter((item) => item.productId).length === 0}
+                        onClick={() => {
+                          if (window.confirm(`Re-audit ${productIntelRadar.filter((item) => item.productId).length} Product Intel products with the active ${profileName} profile? This may use approximately ${productIntelRadar.filter((item) => item.productId).length}–${productIntelRadar.filter((item) => item.productId).length * 4} Kalodata API calls.`)) {
+                            reAuditProductIntel.mutate({ profile: activeProfile, region: searchRegion });
+                          }
+                        }}
+                        className="bg-violet-600 text-white hover:bg-violet-500 text-xs"
+                      >
+                        {reAuditProductIntel.isPending ? <><Loader2 className="mr-1.5 h-3.5 w-3.5 animate-spin" /> Re-auditing…</> : <><RefreshCw className="mr-1.5 h-3.5 w-3.5" /> Re-audit in Radar</>}
+                      </Button>
+                    </div>
+                  </div>
+
                   <div>
                     <Label className="text-xs text-slate-400">Provider Label</Label>
                     <Input className="mt-1 border-white/10 bg-black/20 h-8 text-xs" value={provider} onChange={(e) => setProvider(e.target.value)} placeholder="e.g. Kalodata Export" />
@@ -732,6 +767,7 @@ export default function ProductRadar() {
                 <option value="approved">Approved products</option>
                 <option value="ready">Ready for handoff</option>
                 <option value="handed_off">Handed off</option>
+                <option value="product_intel">Product Intel re-audits</option>
               </select>
             </div>
           </div>
@@ -823,6 +859,8 @@ function CandidateDetail({
   const m = candidate.metrics as Record<string, any>;
   const { items, overall } = diagnoseMetrics(raw, m, candidate, profile);
   const brandDiagnostics = buildBrandOpportunityDiagnostics(raw);
+  const megaSellerDiagnostic = buildMegaSellerOpportunityDiagnostic(raw, profile);
+  const opportunityDiagnostics = megaSellerDiagnostic ? [...brandDiagnostics, megaSellerDiagnostic] : brandDiagnostics;
 
   const getCardStyle = (color?: MetricColor) => {
     if (color === "red") return "border-rose-500/50 bg-rose-500/10";
@@ -1022,7 +1060,7 @@ function CandidateDetail({
             <Video className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" />
           </div>
           <div className="mt-3 grid gap-3 md:grid-cols-3">
-            {brandDiagnostics.map((diagnostic) => (
+            {opportunityDiagnostics.map((diagnostic) => (
               <div key={diagnostic.key} className={`rounded-lg border p-3 ${getCardStyle(diagnostic.color)}`}>
                 <div className="flex items-start justify-between gap-2">
                   <p className="text-[11px] font-medium text-slate-300">{diagnostic.title}</p>

@@ -887,3 +887,12 @@
 - [x] Keep video share as the existing deterministic decision metric and preserve Candidate/Watchlist/Avoid and compliance behavior.
 - [x] Add tests, verify the candidate detail UI, and publish the update.
 
+
+## Product Intelligence Re-audit & Mega-seller Opportunity Path
+
+- [x] Inspect Product Intelligence records, product identifiers, and current Radar re-audit intake behavior.
+- [x] Define a separate mega-seller opportunity profile using recent video activity, top-video freshness, and recent creator competition without weakening Coach A/B hard gates.
+- [x] Determine which recent creator-competition and fresh-video metrics are available from current Kalodata data and which require new data.
+- [x] If feasible, implement bulk Product Intelligence re-audit with explicit API-cost transparency and a separate opportunity classification.
+- [x] Add tests and verify the workflow before publishing.
+

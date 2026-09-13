@@ -3,7 +3,7 @@ import type { RadarProfileConfig } from "../../../server/radar";
 export type MetricColor = "green" | "yellow" | "red" | "slate";
 
 export interface BrandOpportunityDiagnostic {
-  key: "video_direction" | "top_video_freshness" | "self_operated_trend";
+  key: "video_direction" | "top_video_freshness" | "self_operated_trend" | "mega_seller_opportunity";
   title: string;
   valueDisplay: string;
   badge: string;
@@ -34,6 +34,49 @@ const optionalSelfOperatedShare = (window: Record<string, any> | undefined): num
   const parsed = Number(String(value).replace(/[,%]/g, ""));
   return Number.isFinite(parsed) ? parsed : null;
 };
+
+export function buildMegaSellerOpportunityDiagnostic(raw: Record<string, any>, profile: RadarProfileConfig, now = Date.now()): BrandOpportunityDiagnostic | null {
+  const detail7d = raw.rawDetail7d as Record<string, any> | undefined;
+  const detail30d = raw.rawDetail30d as Record<string, any> | undefined;
+  const detail90d = raw.rawDetail90d as Record<string, any> | undefined;
+  const totalSales = Number(raw.totalSales ?? detail90d?.sales_volumn ?? detail30d?.sales_volumn ?? 0);
+  if (!Number.isFinite(totalSales) || totalSales <= profile.maxTotalSales) return null;
+
+  const videoShare = percentageFromWindow(detail7d) ?? (raw.videoSalesPct != null ? Number(raw.videoSalesPct) : null);
+  const topVideos = Array.isArray(raw.rawTopVideos) ? raw.rawTopVideos.slice(0, 10) : [];
+  const datedVideoRows = topVideos.map((video: Record<string, any>) => ({ video, time: new Date(video.publish_date ?? video.publishDate ?? "").getTime() })).filter(({ time }: { time: number }) => Number.isFinite(time));
+  const freshVideoRows = datedVideoRows.filter(({ time }: { time: number }) => time <= now && now - time <= 60 * 24 * 60 * 60 * 1000);
+  const freshPct = datedVideoRows.length ? (freshVideoRows.length / datedVideoRows.length) * 100 : null;
+  const freshConvertedPct = datedVideoRows.length ? (freshVideoRows.filter(({ video }: { video: Record<string, any> }) => Number(video.revenue ?? video.video_revenue ?? video.gmv ?? 0) > 0).length / datedVideoRows.length) * 100 : null;
+  const recentCreatorValue = detail30d?.creator_number ?? detail30d?.creator_count ?? detail7d?.creator_number ?? detail7d?.creator_count;
+  const recentCreators = recentCreatorValue === undefined || recentCreatorValue === null ? null : Number(recentCreatorValue);
+  const missing: string[] = [];
+  if (videoShare === null || !Number.isFinite(videoShare)) missing.push("video share");
+  if (freshPct === null || freshConvertedPct === null) missing.push("top-video freshness/conversion evidence");
+  if (recentCreators === null || !Number.isFinite(recentCreators)) missing.push("recent creator count");
+  if (missing.length) {
+    return { key: "mega_seller_opportunity", title: "Mega-seller opportunity lens", valueDisplay: "Needs more data", badge: `Missing ${missing.join(", ")}`, color: "slate", detail: "This separate lens is available for mega-sellers, but it will not call an opportunity without current video, freshness, and recent-competition evidence." };
+  }
+
+  const safeVideoShare = videoShare as number;
+  const safeFreshPct = freshPct as number;
+  const safeFreshConvertedPct = freshConvertedPct as number;
+  const safeRecentCreators = recentCreators as number;
+  const videoPass = safeVideoShare >= profile.videoSharePreferredPct;
+  const freshnessPass = safeFreshPct >= 50;
+  const freshConversionPass = safeFreshConvertedPct >= 50;
+  const competitionPass = safeRecentCreators <= profile.highCompetitionCreatorThreshold;
+  const passCount = [videoPass, freshnessPass, freshConversionPass, competitionPass].filter(Boolean).length;
+  const allPass = passCount === 4;
+  return {
+    key: "mega_seller_opportunity",
+    title: "Mega-seller opportunity lens",
+    valueDisplay: allPass ? "Opportunity candidate" : `${passCount}/4 signals pass`,
+    badge: allPass ? "Advisory opportunity" : "Needs review",
+    color: allPass ? "green" : "yellow",
+    detail: `Lifetime/90-day volume is above the normal ${profile.maxTotalSales.toLocaleString()} ceiling. Recent video share: ${safeVideoShare.toFixed(1)}%; fresh top videos within 60d: ${safeFreshPct.toFixed(0)}%; fresh videos with revenue evidence: ${safeFreshConvertedPct.toFixed(0)}%; recent creators: ${safeRecentCreators.toLocaleString()}. This never overrides the standard profile or compliance gate.`,
+  };
+}
 
 export function buildBrandOpportunityDiagnostics(raw: Record<string, any>, now = Date.now()): BrandOpportunityDiagnostic[] {
   const detail7d = raw.rawDetail7d as Record<string, any> | undefined;
