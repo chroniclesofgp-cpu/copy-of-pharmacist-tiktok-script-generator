@@ -874,9 +874,9 @@
 
 ## TikTok Metrics Video Review
 
-- [ ] Watch and transcribe the supplied TikTok metrics video `https://www.tiktok.com/t/ZTU9oU2Et/`.
-- [ ] Compare each recommended metric with Product Radar's current deterministic calculations and identify whether metric #2 is already covered.
-- [ ] Report any genuine gap or recommended follow-up without changing the tool unless explicitly requested.
+- [x] Watch and transcribe the supplied TikTok metrics video `https://www.tiktok.com/t/ZTU9oU2Et/`.
+- [x] Compare each recommended metric with Product Radar's current deterministic calculations and identify whether metric #2 is already covered.
+- [x] Report any genuine gap or recommended follow-up without changing the tool unless explicitly requested.
 
 
 ## Brand Opportunity Diagnostics
