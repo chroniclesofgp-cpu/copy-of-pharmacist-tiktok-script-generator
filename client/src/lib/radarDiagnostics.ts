@@ -35,12 +35,14 @@ const optionalSelfOperatedShare = (window: Record<string, any> | undefined): num
   return Number.isFinite(parsed) ? parsed : null;
 };
 
-export function buildMegaSellerOpportunityDiagnostic(raw: Record<string, any>, profile: RadarProfileConfig, now = Date.now()): BrandOpportunityDiagnostic | null {
+export function buildMegaSellerOpportunityDiagnostic(raw: Record<string, any>, profile: RadarProfileConfig, now = Date.now(), options?: { allowArchivedRecheck?: boolean }): BrandOpportunityDiagnostic | null {
   const detail7d = raw.rawDetail7d as Record<string, any> | undefined;
   const detail30d = raw.rawDetail30d as Record<string, any> | undefined;
   const detail90d = raw.rawDetail90d as Record<string, any> | undefined;
   const totalSales = Number(raw.totalSales ?? detail90d?.sales_volumn ?? detail30d?.sales_volumn ?? 0);
-  if (!Number.isFinite(totalSales) || totalSales <= profile.maxTotalSales) return null;
+  const recentCreatorSignal = Number(raw.activeCreatorCount ?? detail30d?.creator_number ?? detail30d?.creator_count ?? detail7d?.creator_number ?? detail7d?.creator_count);
+  const archivedHighCompetitionRecheck = options?.allowArchivedRecheck === true && Number.isFinite(recentCreatorSignal) && recentCreatorSignal > profile.highCompetitionCreatorThreshold;
+  if (!Number.isFinite(totalSales) || (totalSales <= profile.maxTotalSales && !archivedHighCompetitionRecheck)) return null;
 
   const videoShare = percentageFromWindow(detail7d) ?? (raw.videoSalesPct != null ? Number(raw.videoSalesPct) : null);
   const topVideos = Array.isArray(raw.rawTopVideos) ? raw.rawTopVideos.slice(0, 10) : [];
@@ -79,7 +81,7 @@ export function buildMegaSellerOpportunityDiagnostic(raw: Record<string, any>, p
     valueDisplay: worthDeepDive ? "Worth deep dive" : `${passCount}/4 signals pass`,
     badge: worthDeepDive ? "Re-entry opportunity" : allPass ? "Advisory opportunity" : "Needs review",
     color: worthDeepDive ? "green" : "yellow",
-    detail: `Lifetime/90-day volume is above the normal ${profile.maxTotalSales.toLocaleString()} ceiling. Recent video share: ${safeVideoShare.toFixed(1)}%; fresh top videos within 60d: ${safeFreshPct.toFixed(0)}%; fresh videos with revenue evidence: ${safeFreshConvertedPct.toFixed(0)}%; recent creators (${recentCreatorWindow}): ${safeRecentCreators.toLocaleString()}. This never overrides the standard profile or compliance gate.`,
+    detail: `${totalSales > profile.maxTotalSales ? `Lifetime/90-day volume is above the normal ${profile.maxTotalSales.toLocaleString()} ceiling` : `Archived high-competition product is being rechecked from stored data`} . Recent video share: ${safeVideoShare.toFixed(1)}%; fresh top videos within 60d: ${safeFreshPct.toFixed(0)}%; fresh videos with revenue evidence: ${safeFreshConvertedPct.toFixed(0)}%; recent creators (${recentCreatorWindow}): ${safeRecentCreators.toLocaleString()}. No API call is made by this local recheck. This never overrides the standard profile or compliance gate.`,
   };
 }
 

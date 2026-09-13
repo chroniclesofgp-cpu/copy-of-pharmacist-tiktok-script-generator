@@ -547,4 +547,20 @@ describe("Mega-seller opportunity lens", () => {
   it("does not create a mega-seller lens for products inside the normal profile ceiling", () => {
     expect(buildMegaSellerOpportunityDiagnostic({ totalSales: 30000 }, COACH_A_PROFILE)).toBeNull();
   });
+
+  it("locally rechecks an archived high-competition product when stored snapshots are sufficient", () => {
+    const diagnostic = buildMegaSellerOpportunityDiagnostic({
+      totalSales: 30000,
+      activeCreatorCount: 450,
+      rawDetail7d: { revenue: 1000, video_revenue: 800 },
+      rawDetail30d: { creator_number: 45 },
+      rawTopVideos: [
+        { publish_date: "2026-09-10", revenue: 500 },
+        { publish_date: "2026-09-01", revenue: 250 },
+      ],
+    }, COACH_A_PROFILE, new Date("2026-09-12T00:00:00Z").getTime(), { allowArchivedRecheck: true });
+
+    expect(diagnostic?.valueDisplay).toBe("Worth deep dive");
+    expect(diagnostic?.detail).toContain("No API call is made by this local recheck");
+  });
 });

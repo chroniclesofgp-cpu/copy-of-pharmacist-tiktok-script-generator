@@ -902,7 +902,7 @@ function CandidateDetail({
   const m = candidate.metrics as Record<string, any>;
   const { items, overall } = diagnoseMetrics(raw, m, candidate, profile);
   const brandDiagnostics = buildBrandOpportunityDiagnostics(raw);
-  const megaSellerDiagnostic = buildMegaSellerOpportunityDiagnostic(raw, profile);
+  const megaSellerDiagnostic = buildMegaSellerOpportunityDiagnostic(raw, profile, Date.now(), { allowArchivedRecheck: candidate.queueState === "archived" && candidate.reviewStatus === "avoid" });
   const opportunityDiagnostics = megaSellerDiagnostic ? [...brandDiagnostics, megaSellerDiagnostic] : brandDiagnostics;
 
   const getCardStyle = (color?: MetricColor) => {

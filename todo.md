@@ -919,3 +919,10 @@
 - [x] Add a plain-language status key explaining Candidate, Watchlist, Human Review, Avoid, and Approved.
 - [x] Add tests, verify API cost behavior and UI flow, and publish the completed workflow.
 
+
+## Archived Rejected Mega-seller Recheck
+
+- [x] Inspect stored archived raw snapshots for the Mega-seller lens signals.
+- [x] Add a local no-API recheck action in Rejected/Avoided history when stored data supports it.
+- [x] Show missing signals explicitly and add zero-API regression coverage.
+
