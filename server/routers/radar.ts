@@ -78,13 +78,15 @@ export const radarRouter = router({
     return { success: true };
   }),
   listProductIntelForRadar: publicProcedure.query(async () => listProductIntelRadarEntries()),
-  reAuditProductIntel: publicProcedure.input(z.object({ region: z.string().length(2).default("US"), profile: profileSchema.optional(), maxProducts: z.number().int().positive().max(100).default(100) })).mutation(async ({ ctx, input }) => {
+  reAuditProductIntel: publicProcedure.input(z.object({ region: z.string().length(2).default("US"), profile: profileSchema.optional(), maxProducts: z.number().int().positive().max(100).default(100), selectedFiles: z.array(z.string().min(1)).max(100).optional() })).mutation(async ({ ctx, input }) => {
     const userId = getEffectiveUserId(ctx);
     const db = await getDb();
     if (!db) throw new Error("Database unavailable");
     const profile = input.profile ?? DEFAULT_RADAR_PROFILE;
-    const entries = listProductIntelRadarEntries().filter((entry) => entry.productId).slice(0, input.maxProducts);
-    const skipped = listProductIntelRadarEntries().filter((entry) => !entry.productId).map((entry) => entry.filename);
+    const allEntries = listProductIntelRadarEntries();
+    const eligibleEntries = allEntries.filter((entry) => entry.productId);
+    const entries = (input.selectedFiles !== undefined ? eligibleEntries.filter((entry) => input.selectedFiles!.includes(entry.filename)) : eligibleEntries).slice(0, input.maxProducts);
+    const skipped = allEntries.filter((entry) => !entry.productId).map((entry) => entry.filename);
     const [importRow] = await db.insert(radarImports).values({ userId, provider: "Product Intel → Kalodata", fileName: "Product Intelligence bulk re-audit", rowCount: entries.length + skipped.length, validRowCount: entries.length, errorJson: skipped.length ? JSON.stringify({ skipped }) : null }).$returningId();
     const processed: Array<{ candidateId: number; productId: string; productName: string; status: string; sourceFile: string }> = [];
     const failed: Array<{ sourceFile: string; productId: string; error: string }> = [];

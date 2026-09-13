@@ -82,12 +82,16 @@ export default function ProductRadar() {
   const [searchLimit, setSearchLimit] = useState(5);
   const [sortStrategy, setSortStrategy] = useState<"growth_rate" | "video_revenue" | "sales_volume" | "revenue">("sales_volume");
   const [searchMode, setSearchMode] = useState<"standard" | "mega_seller">("standard");
+  const [selectedIntelFiles, setSelectedIntelFiles] = useState<string[]>([]);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [notice, setNotice] = useState<string>("");
   const [uploading, setUploading] = useState(false);
   const [refreshingCandidate, setRefreshingCandidate] = useState(false);
   const [showRawSnapshot, setShowRawSnapshot] = useState(false);
   const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "rejected" | "ready" | "handed_off" | "product_intel" | "mega_seller">("all");
+
+  const intelEligible = useMemo(() => productIntelRadar.filter((item) => item.productId), [productIntelRadar]);
+  const selectedIntelEntries = useMemo(() => intelEligible.filter((item) => selectedIntelFiles.includes(item.filename)), [intelEligible, selectedIntelFiles]);
 
   const visibleCandidates = useMemo(() => {
     if (queueFilter === "all") return candidates;
@@ -131,7 +135,8 @@ export default function ProductRadar() {
   const importCsv = trpc.radar.importCsv.useMutation({ onSuccess: (result) => { setNotice(`Imported ${result.validRows} candidate rows with ${result.errors.length} validation errors.`); void utils.radar.listCandidates.invalidate(); setUploading(false); }, onError: (error) => { setNotice(error.message); setUploading(false); } });
   const reAuditProductIntel = trpc.radar.reAuditProductIntel.useMutation({
     onSuccess: (result) => {
-      setNotice(`Re-audited ${result.processed.length} Product Intel products. ${result.skipped.length} docs had no exact Shop product ID; estimated API calls: ${result.estimatedApiCalls.minimum}–${result.estimatedApiCalls.maximum}.`);
+      setNotice(`Re-audited ${result.processed.length} selected Product Intel products. ${result.skipped.length} docs had no exact Shop product ID; estimated API calls: ${result.estimatedApiCalls.minimum}–${result.estimatedApiCalls.maximum}.`);
+      setSelectedIntelFiles([]);
       void utils.radar.listCandidates.invalidate();
     },
     onError: (error) => setNotice(`Product Intel re-audit error: ${error.message}`),
@@ -710,25 +715,42 @@ export default function ProductRadar() {
                   <div className="rounded-lg border border-violet-500/30 bg-violet-950/20 p-3">
                     <div className="flex items-start justify-between gap-3">
                       <div>
-                        <p className="text-xs font-medium text-violet-200">Re-audit Product Intelligence products</p>
-                        <p className="mt-1 text-[11px] leading-4 text-slate-400">Runs exact-ID Kalodata audits for the Product Intel documents that contain a TikTok Shop product ID, then places the results in this Radar queue. Reviewed or handed-off candidates keep their existing review status.</p>
+                        <p className="text-xs font-medium text-violet-200">Select Product Intelligence products to re-audit</p>
+                        <p className="mt-1 text-[11px] leading-4 text-slate-400">Choose only the intel products you want to refresh. Exact-ID rows can be audited; documents without a Shop ID remain available for name/URL vetting instead.</p>
                       </div>
                       <BookMarked className="h-4 w-4 shrink-0 text-violet-300" />
                     </div>
-                    <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
-                      <span className="text-[10px] text-slate-500">{productIntelRadar.filter((item) => item.productId).length} exact IDs / {productIntelRadar.length} intel docs · estimated {productIntelRadar.filter((item) => item.productId).length}–{productIntelRadar.filter((item) => item.productId).length * 4} API calls</span>
+                    <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-[10px] text-slate-500">
+                      <span>{selectedIntelEntries.length} selected / {intelEligible.length} exact IDs / {productIntelRadar.length} intel docs · estimated {selectedIntelEntries.length}–{selectedIntelEntries.length * 4} API calls</span>
+                      <div className="flex items-center gap-2">
+                        <button type="button" className="text-violet-300 hover:text-violet-100" onClick={() => setSelectedIntelFiles(intelEligible.map((item) => item.filename))}>Select all eligible</button>
+                        <button type="button" className="text-slate-400 hover:text-slate-200" onClick={() => setSelectedIntelFiles([])}>Clear selection</button>
+                      </div>
+                    </div>
+                    <div className="mt-2 max-h-48 space-y-1 overflow-y-auto rounded-md border border-white/5 bg-black/20 p-2">
+                      {!productIntelRadar.length ? <p className="p-2 text-[11px] text-slate-500">No Product Intel documents were found.</p> : productIntelRadar.map((item) => {
+                        const eligible = Boolean(item.productId);
+                        const checked = selectedIntelFiles.includes(item.filename);
+                        return <label key={item.filename} className={`flex items-start gap-2 rounded px-2 py-1.5 ${eligible ? "cursor-pointer hover:bg-white/5" : "opacity-60"}`}>
+                          <input type="checkbox" className="mt-0.5 accent-violet-500" disabled={!eligible} checked={checked} onChange={() => setSelectedIntelFiles((current) => checked ? current.filter((filename) => filename !== item.filename) : [...current, item.filename])} />
+                          <span className="min-w-0 text-[11px]"><span className="block truncate text-slate-200">{item.product || item.filename}</span><span className="block truncate text-slate-500">{eligible ? `ID ${item.productId}` : "No exact Shop product ID — not eligible for bulk audit"}</span></span>
+                        </label>;
+                      })}
+                    </div>
+                    <div className="mt-2 flex justify-end">
                       <Button
                         type="button"
                         size="sm"
-                        disabled={!kalodataStatus?.hasKey || reAuditProductIntel.isPending || productIntelRadar.filter((item) => item.productId).length === 0}
+                        disabled={!kalodataStatus?.hasKey || reAuditProductIntel.isPending || selectedIntelEntries.length === 0}
                         onClick={() => {
-                          if (window.confirm(`Re-audit ${productIntelRadar.filter((item) => item.productId).length} Product Intel products with the active ${profileName} profile? This may use approximately ${productIntelRadar.filter((item) => item.productId).length}–${productIntelRadar.filter((item) => item.productId).length * 4} Kalodata API calls.`)) {
-                            reAuditProductIntel.mutate({ profile: activeProfile, region: searchRegion });
+                          const estimate = `${selectedIntelEntries.length}–${selectedIntelEntries.length * 4}`;
+                          if (window.confirm(`Re-audit ${selectedIntelEntries.length} selected Product Intel product(s) with the active ${profileName} profile? Estimated Kalodata API calls: ${estimate}.`)) {
+                            reAuditProductIntel.mutate({ profile: activeProfile, region: searchRegion, selectedFiles: selectedIntelEntries.map((item) => item.filename), maxProducts: selectedIntelEntries.length });
                           }
                         }}
                         className="bg-violet-600 text-white hover:bg-violet-500 text-xs"
                       >
-                        {reAuditProductIntel.isPending ? <><Loader2 className="mr-1.5 h-3.5 w-3.5 animate-spin" /> Re-auditing…</> : <><RefreshCw className="mr-1.5 h-3.5 w-3.5" /> Re-audit in Radar</>}
+                        {reAuditProductIntel.isPending ? <><Loader2 className="mr-1.5 h-3.5 w-3.5 animate-spin" /> Re-auditing…</> : <><RefreshCw className="mr-1.5 h-3.5 w-3.5" /> Re-audit selected in Radar</>}
                       </Button>
                     </div>
                   </div>

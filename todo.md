@@ -926,3 +926,10 @@
 - [x] Add a local no-API recheck action in Rejected/Avoided history when stored data supports it.
 - [x] Show missing signals explicitly and add zero-API regression coverage.
 
+
+## Selective Product Intel Re-audit
+
+- [x] Show Product Intel documents as selectable rows with product name, source document, exact-ID eligibility, and current Radar status.
+- [x] Run only selected exact-ID products and show an estimated API-call range for the selection.
+- [x] Preserve zero-selection safety, skipped/no-ID messaging, and regression coverage.
+
