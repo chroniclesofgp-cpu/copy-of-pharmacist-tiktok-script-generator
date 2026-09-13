@@ -1,8 +1,13 @@
 import { describe, expect, it } from "vitest";
-import { KalodataAdapter } from "./kalodata";
+import { hasUsableKalodataDetail, KalodataAdapter } from "./kalodata";
 import { calculateRadarMetrics, DEFAULT_RADAR_PROFILE } from "./radar";
 
 describe("KalodataAdapter", () => {
+  it("does not treat a snapshot with no detail response as usable sales data", () => {
+    expect(hasUsableKalodataDetail({ productId: "1732293553906094315", fetchedAt: "2026-09-13T00:00:00.000Z", rawTopVideos: [] })).toBe(false);
+    expect(hasUsableKalodataDetail({ productId: "1732293553906094315", fetchedAt: "2026-09-13T00:00:00.000Z", rawDetail7d: { product_id: "1732293553906094315", product_name: "Example", revenue: 100, video_revenue: 80, live_revenue: 20, sales_volumn: 10, commission_rate: 15 }, rawTopVideos: [] })).toBe(true);
+  });
+
   it("reports masked key correctly when configured", () => {
     const adapter = new KalodataAdapter({ apiKey: "12345678-abcd-ef01-2345-6789abcdef01" });
     expect(adapter.hasKey()).toBe(true);

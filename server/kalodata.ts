@@ -65,6 +65,11 @@ export interface KalodataProductSnapshot {
   rawTopVideos: KalodataVideoItem[];
 }
 
+/** A detail response is required before deterministic sales gates can be evaluated. */
+export function hasUsableKalodataDetail(snapshot: KalodataProductSnapshot): boolean {
+  return Boolean(snapshot.rawDetail7d || snapshot.rawDetail30d || snapshot.rawDetail90d);
+}
+
 export class KalodataAdapter {
   private apiKey: string;
   private baseUrl: string;

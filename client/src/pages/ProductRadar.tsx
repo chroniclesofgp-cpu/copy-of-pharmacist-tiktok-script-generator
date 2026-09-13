@@ -135,7 +135,8 @@ export default function ProductRadar() {
   const importCsv = trpc.radar.importCsv.useMutation({ onSuccess: (result) => { setNotice(`Imported ${result.validRows} candidate rows with ${result.errors.length} validation errors.`); void utils.radar.listCandidates.invalidate(); setUploading(false); }, onError: (error) => { setNotice(error.message); setUploading(false); } });
   const reAuditProductIntel = trpc.radar.reAuditProductIntel.useMutation({
     onSuccess: (result) => {
-      setNotice(`Re-audited ${result.processed.length} selected Product Intel products. ${result.skipped.length} docs had no exact Shop product ID; estimated API calls: ${result.estimatedApiCalls.minimum}–${result.estimatedApiCalls.maximum}.`);
+      const failureNotice = result.failed.length ? ` ${result.failed.length} products were not classified because Kalodata returned no usable detail or another error.` : "";
+      setNotice(`Re-audited ${result.processed.length} selected Product Intel products.${failureNotice} ${result.skipped.length} docs had no exact Shop product ID; estimated API calls: ${result.estimatedApiCalls.minimum}–${result.estimatedApiCalls.maximum}.`);
       setSelectedIntelFiles([]);
       void utils.radar.listCandidates.invalidate();
     },

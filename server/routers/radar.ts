@@ -7,7 +7,7 @@ import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
 import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, getDiscoveryQueueDisposition, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
-import { defaultKalodataAdapter } from "../kalodata";
+import { defaultKalodataAdapter, hasUsableKalodataDetail } from "../kalodata";
 
 const profileSchema = z.object({
   minTotalSales: z.number().nonnegative(), maxTotalSales: z.number().positive(), matureAgeDays: z.number().positive(), veryNewAgeDays: z.number().positive(), matureWindowDays: z.number().positive(), newWindowDays: z.number().positive(), accelerationStartingPct: z.number().nonnegative(), accelerationClearPct: z.number().nonnegative(), accelerationStrongPct: z.number().nonnegative(), stableDaysRequired: z.number().int().positive(), stableVariancePct: z.number().nonnegative(), strongDayUnits: z.number().nonnegative(), strongDaysMinimum: z.number().int().nonnegative(), latestDayAccelerationMultiplier: z.number().positive(), videoSharePreferredPct: z.number().nonnegative(), videoShareMinimumPct: z.number().nonnegative(), topVideoSpreadMaxPct: z.number().nonnegative(), topVideoWatchMaxPct: z.number().nonnegative(), ratingMinimum: z.number().nonnegative(), commissionAfterAdsMinimumPct: z.number().nonnegative(), highCompetitionCreatorThreshold: z.number().int().nonnegative().default(300), videosOver1MViewsThreshold: z.number().int().nonnegative().default(1), enforceCreatorSaturationAsHardAvoid: z.boolean().optional(),
@@ -93,6 +93,10 @@ export const radarRouter = router({
     for (const entry of entries) {
       try {
         const snapshot = await defaultKalodataAdapter.fetchCompleteProductSnapshot(entry.productId!, undefined, input.region, { stage1Profile: profile });
+        if (!hasUsableKalodataDetail(snapshot)) {
+          failed.push({ sourceFile: entry.filename, productId: entry.productId!, error: "Kalodata returned no usable 7/30/90-day detail; no Radar classification was written." });
+          continue;
+        }
         const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
         const metrics = calculateRadarMetrics(rawRow, profile);
         const suggestedStatus = suggestedReviewStatus(metrics, profile);
@@ -373,6 +377,10 @@ export const radarRouter = router({
             input.region,
             { stage1Profile: targetProfile }
           );
+          if (!hasUsableKalodataDetail(snapshot)) {
+            console.warn(`[Kalodata] Skipping ${rankItem.product_id}: no usable 7/30/90-day detail returned.`);
+            continue;
+          }
           const rawRow = defaultKalodataAdapter.mapSnapshotToRadarRawRow(snapshot);
           const metrics = calculateRadarMetrics(rawRow, targetProfile);
 

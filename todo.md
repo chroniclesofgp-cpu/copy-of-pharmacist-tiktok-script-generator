@@ -941,3 +941,10 @@
 - [x] Make the local rejected-history Mega-seller recheck workflow visible and easy to use.
 - [x] Add regression coverage, verify, and publish the fix.
 
+
+## Product Intel Zero-Sales Re-audit Bug
+
+- [x] Trace why selected Product Intel re-audits persisted zero sales and AVOID classifications.
+- [x] Correct the response mapping or persistence path and prevent incomplete data from producing a misleading AVOID.
+- [x] Add regression coverage, validate affected records, and publish the correction.
+
