@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
 import { buildKalodataProductDetailUrl, DEFAULT_RADAR_PROFILE, type RadarProfileConfig } from "../../../server/radar";
-import { diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
+import { buildBrandOpportunityDiagnostics, diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
 
 const statusLabels: Record<string, string> = { candidate: "Candidate", watchlist: "Watchlist", human_review: "Human review", avoid: "Avoid", approved_for_campaign_planning: "Approved for campaign planning" };
 const metric = (value: unknown) => typeof value === "number" ? Number(value.toFixed(2)) : "—";
@@ -822,6 +822,7 @@ function CandidateDetail({
   const raw = candidate.rawData as Record<string, any>;
   const m = candidate.metrics as Record<string, any>;
   const { items, overall } = diagnoseMetrics(raw, m, candidate, profile);
+  const brandDiagnostics = buildBrandOpportunityDiagnostics(raw);
 
   const getCardStyle = (color?: MetricColor) => {
     if (color === "red") return "border-rose-500/50 bg-rose-500/10";
@@ -1009,6 +1010,28 @@ function CandidateDetail({
           </div>
           <div className="mt-3 rounded-lg border border-white/10 bg-black/20 p-3 text-xs leading-5 text-slate-400">
             <strong className="text-slate-200">Confidence notes:</strong> {candidate.confidenceNotes || "No confidence notes."}
+          </div>
+        </section>
+
+        <section className="rounded-xl border border-cyan-300/20 bg-cyan-300/5 p-4">
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <h3 className="text-xs uppercase tracking-[0.18em] text-cyan-200">Brand opportunity diagnostics</h3>
+              <p className="mt-1 text-[11px] leading-4 text-slate-400">Advisory signals for creator opportunity and brand behavior. These do not change Candidate/Watchlist/Avoid or unlock campaign planning.</p>
+            </div>
+            <Video className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" />
+          </div>
+          <div className="mt-3 grid gap-3 md:grid-cols-3">
+            {brandDiagnostics.map((diagnostic) => (
+              <div key={diagnostic.key} className={`rounded-lg border p-3 ${getCardStyle(diagnostic.color)}`}>
+                <div className="flex items-start justify-between gap-2">
+                  <p className="text-[11px] font-medium text-slate-300">{diagnostic.title}</p>
+                  <span className={`text-[9px] font-semibold px-1.5 py-0.5 rounded border text-right ${getBadgeStyle(diagnostic.color)}`}>{diagnostic.badge}</span>
+                </div>
+                <p className="mt-3 text-base font-bold text-white">{diagnostic.valueDisplay}</p>
+                <p className="mt-2 text-[10px] leading-4 text-slate-400">{diagnostic.detail}</p>
+              </div>
+            ))}
           </div>
         </section>
 

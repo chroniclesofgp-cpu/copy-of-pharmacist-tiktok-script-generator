@@ -2,6 +2,81 @@ import type { RadarProfileConfig } from "../../../server/radar";
 
 export type MetricColor = "green" | "yellow" | "red" | "slate";
 
+export interface BrandOpportunityDiagnostic {
+  key: "video_direction" | "top_video_freshness" | "self_operated_trend";
+  title: string;
+  valueDisplay: string;
+  badge: string;
+  color: MetricColor;
+  detail: string;
+}
+
+const percentageFromWindow = (window: Record<string, any> | undefined): number | null => {
+  if (!window) return null;
+  const revenue = Number(window.revenue ?? 0);
+  const videoRevenue = Number(window.video_revenue ?? 0);
+  if (!Number.isFinite(revenue) || revenue <= 0 || !Number.isFinite(videoRevenue) || videoRevenue < 0) return null;
+  return (videoRevenue / revenue) * 100;
+};
+
+const optionalSelfOperatedShare = (window: Record<string, any> | undefined): number | null => {
+  if (!window) return null;
+  const candidates = [
+    window.self_operated_gmv_pct,
+    window.self_operated_gmv_share,
+    window.self_operated_revenue_pct,
+    window.self_operated_revenue_share,
+    window.internal_gmv_pct,
+    window.internal_gmv_share,
+  ];
+  const value = candidates.find((candidate) => candidate !== undefined && candidate !== null && candidate !== "");
+  if (value === undefined || value === null || String(value).trim() === "") return null;
+  const parsed = Number(String(value).replace(/[,%]/g, ""));
+  return Number.isFinite(parsed) ? parsed : null;
+};
+
+export function buildBrandOpportunityDiagnostics(raw: Record<string, any>, now = Date.now()): BrandOpportunityDiagnostic[] {
+  const detail7d = raw.rawDetail7d as Record<string, any> | undefined;
+  const detail30d = raw.rawDetail30d as Record<string, any> | undefined;
+  const detail90d = raw.rawDetail90d as Record<string, any> | undefined;
+  const recentVideoShare = percentageFromWindow(detail7d) ?? (raw.videoSalesPct != null ? Number(raw.videoSalesPct) : null);
+  const baselineVideoShare = percentageFromWindow(detail30d) ?? percentageFromWindow(detail90d);
+  const delta = recentVideoShare !== null && baselineVideoShare !== null ? recentVideoShare - baselineVideoShare : null;
+  const videoDirection: BrandOpportunityDiagnostic = delta === null || recentVideoShare === null || baselineVideoShare === null
+    ? { key: "video_direction", title: "Video opportunity direction", valueDisplay: "Unavailable", badge: "Need multiple revenue windows", color: "slate", detail: "A recent-versus-baseline video-share direction cannot be determined from the available snapshot." }
+    : delta >= 5
+    ? { key: "video_direction", title: "Video opportunity direction", valueDisplay: `Improving ${delta >= 0 ? "+" : ""}${delta.toFixed(1)} pts`, badge: "Video share rising", color: "green", detail: `Recent video share is ${recentVideoShare.toFixed(1)}% versus ${baselineVideoShare.toFixed(1)}% in the comparison window.` }
+    : delta <= -5
+    ? { key: "video_direction", title: "Video opportunity direction", valueDisplay: `Deteriorating ${delta.toFixed(1)} pts`, badge: "Advisory watch", color: "red", detail: `Recent video share is ${recentVideoShare.toFixed(1)}% versus ${baselineVideoShare.toFixed(1)}% in the comparison window. This does not change the deterministic status.` }
+    : { key: "video_direction", title: "Video opportunity direction", valueDisplay: `Stable ${delta >= 0 ? "+" : ""}${delta.toFixed(1)} pts`, badge: "No material shift", color: "yellow", detail: `Recent video share is ${recentVideoShare.toFixed(1)}% versus ${baselineVideoShare.toFixed(1)}% in the comparison window.` };
+
+  const topVideos = Array.isArray(raw.rawTopVideos) ? raw.rawTopVideos.slice(0, 10) : [];
+  const datedVideos = topVideos.map((video: Record<string, any>) => new Date(video.publish_date ?? video.publishDate ?? "").getTime()).filter((time: number) => Number.isFinite(time));
+  const freshVideos = datedVideos.filter((time: number) => time <= now && now - time <= 60 * 24 * 60 * 60 * 1000).length;
+  const freshnessPct = datedVideos.length ? (freshVideos / datedVideos.length) * 100 : null;
+  const topVideoFreshness: BrandOpportunityDiagnostic = freshnessPct === null
+    ? { key: "top_video_freshness", title: "Top-video freshness", valueDisplay: "Unavailable", badge: "Publish dates missing", color: "slate", detail: "The provider did not supply usable publish dates for the top videos." }
+    : freshnessPct >= 50
+    ? { key: "top_video_freshness", title: "Top-video freshness", valueDisplay: `${freshVideos}/${datedVideos.length} recent`, badge: `${freshnessPct.toFixed(0)}% within 60d`, color: "green", detail: "At least half of the dated top videos were published within the last 60 days." }
+    : freshnessPct >= 25
+    ? { key: "top_video_freshness", title: "Top-video freshness", valueDisplay: `${freshVideos}/${datedVideos.length} recent`, badge: `${freshnessPct.toFixed(0)}% within 60d`, color: "yellow", detail: "Some recent testing is visible, but fewer than half of the dated top videos are recent." }
+    : { key: "top_video_freshness", title: "Top-video freshness", valueDisplay: `${freshVideos}/${datedVideos.length} recent`, badge: `${freshnessPct.toFixed(0)}% within 60d`, color: "red", detail: "Most dated top videos are older than 60 days; inspect whether the brand is still testing new creative." };
+
+  const recentSelfOperated = optionalSelfOperatedShare(detail7d);
+  const baselineSelfOperated = optionalSelfOperatedShare(detail30d) ?? optionalSelfOperatedShare(detail90d);
+  const selfDelta = recentSelfOperated !== null && baselineSelfOperated !== null ? recentSelfOperated - baselineSelfOperated : null;
+  const selfOperatedTrend: BrandOpportunityDiagnostic = selfDelta === null
+    ? { key: "self_operated_trend", title: "Self-operated-account trend", valueDisplay: "Unavailable", badge: "Provider field not supplied", color: "slate", detail: "No reliable self-operated GMV field is present. Product Radar does not infer this signal from non-video revenue." }
+    : selfDelta > 5
+    ? { key: "self_operated_trend", title: "Self-operated-account trend", valueDisplay: `Rising +${selfDelta.toFixed(1)} pts`, badge: "Advisory watch", color: "red", detail: "Internal-account share is rising in the recent window. This is advisory only." }
+    : selfDelta < -5
+    ? { key: "self_operated_trend", title: "Self-operated-account trend", valueDisplay: `Falling ${selfDelta.toFixed(1)} pts`, badge: "Favorable direction", color: "green", detail: "Internal-account share is lower in the recent window." }
+    : { key: "self_operated_trend", title: "Self-operated-account trend", valueDisplay: `Stable ${selfDelta >= 0 ? "+" : ""}${selfDelta.toFixed(1)} pts`, badge: "No material shift", color: "yellow", detail: "No material change in internal-account share is visible." };
+
+  return [videoDirection, topVideoFreshness, selfOperatedTrend];
+}
+
+
 export interface MetricDiagnostic {
   valueDisplay: string;
   color: MetricColor;

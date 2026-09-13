@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
+import { buildBrandOpportunityDiagnostics } from "../client/src/lib/radarDiagnostics";
 import * as fs from "fs";
 
 const sourceVideoWorkedExample = {
@@ -460,5 +461,46 @@ describe("Product Radar queue reconciliation", () => {
       expect(result.rows[0].videoSalesPct).toBe(77.1);
       expect(result.rows[0].externalProductId).toBe("1732186596358853194");
     }
+  });
+});
+
+
+describe("Brand Opportunity Diagnostics", () => {
+  it("marks recent video opportunity as improving without changing deterministic status", () => {
+    const diagnostics = buildBrandOpportunityDiagnostics({
+      rawDetail7d: { revenue: 1000, video_revenue: 700 },
+      rawDetail30d: { revenue: 1000, video_revenue: 600 },
+      rawTopVideos: [
+        { publish_date: "2026-09-10" },
+        { publish_date: "2026-09-01" },
+      ],
+    }, new Date("2026-09-12T00:00:00Z").getTime());
+
+    expect(diagnostics.find((item) => item.key === "video_direction")?.badge).toBe("Video share rising");
+    expect(diagnostics.find((item) => item.key === "top_video_freshness")?.valueDisplay).toBe("2/2 recent");
+    expect(diagnostics.find((item) => item.key === "self_operated_trend")?.valueDisplay).toBe("Unavailable");
+  });
+
+  it("marks a material recent video-share deterioration as advisory only", () => {
+    const diagnostics = buildBrandOpportunityDiagnostics({
+      rawDetail7d: { revenue: 1000, video_revenue: 450 },
+      rawDetail30d: { revenue: 1000, video_revenue: 600 },
+      rawTopVideos: [],
+    });
+
+    const direction = diagnostics.find((item) => item.key === "video_direction");
+    expect(direction?.color).toBe("red");
+    expect(direction?.detail).toContain("does not change the deterministic status");
+  });
+
+  it("does not infer self-operated or freshness signals when provider fields are missing", () => {
+    const diagnostics = buildBrandOpportunityDiagnostics({
+      rawDetail7d: { revenue: 1000, video_revenue: 600 },
+      rawDetail30d: { revenue: 1000, video_revenue: 600 },
+      rawTopVideos: [{ revenue: 500 }],
+    });
+
+    expect(diagnostics.find((item) => item.key === "self_operated_trend")?.badge).toBe("Provider field not supplied");
+    expect(diagnostics.find((item) => item.key === "top_video_freshness")?.badge).toBe("Publish dates missing");
   });
 });

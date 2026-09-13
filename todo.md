@@ -871,3 +871,19 @@
 - [x] Add or improve an Approved Products view/filter so approved candidates are easy to find while preserving compliance blocking.
 - [x] Add tests and verify the Product Radar deep-dive and approval workflow in the UI.
 
+
+## TikTok Metrics Video Review
+
+- [ ] Watch and transcribe the supplied TikTok metrics video `https://www.tiktok.com/t/ZTU9oU2Et/`.
+- [ ] Compare each recommended metric with Product Radar's current deterministic calculations and identify whether metric #2 is already covered.
+- [ ] Report any genuine gap or recommended follow-up without changing the tool unless explicitly requested.
+
+
+## Brand Opportunity Diagnostics
+
+- [x] Add non-gating video-opportunity direction diagnostics without introducing explicit live-share noise.
+- [x] Add top-video freshness diagnostics using available publish dates, with unavailable states when data is incomplete.
+- [x] Add self-operated-account trend only when reliable provider data exists; otherwise show unavailable rather than infer it.
+- [x] Keep video share as the existing deterministic decision metric and preserve Candidate/Watchlist/Avoid and compliance behavior.
+- [x] Add tests, verify the candidate detail UI, and publish the update.
+
