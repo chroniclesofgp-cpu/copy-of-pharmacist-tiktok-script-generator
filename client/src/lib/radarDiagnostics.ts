@@ -48,7 +48,10 @@ export function buildMegaSellerOpportunityDiagnostic(raw: Record<string, any>, p
   const freshVideoRows = datedVideoRows.filter(({ time }: { time: number }) => time <= now && now - time <= 60 * 24 * 60 * 60 * 1000);
   const freshPct = datedVideoRows.length ? (freshVideoRows.length / datedVideoRows.length) * 100 : null;
   const freshConvertedPct = datedVideoRows.length ? (freshVideoRows.filter(({ video }: { video: Record<string, any> }) => Number(video.revenue ?? video.video_revenue ?? video.gmv ?? 0) > 0).length / datedVideoRows.length) * 100 : null;
-  const recentCreatorValue = detail30d?.creator_number ?? detail30d?.creator_count ?? detail7d?.creator_number ?? detail7d?.creator_count;
+  const recentCreator30d = detail30d?.creator_number ?? detail30d?.creator_count;
+  const recentCreator7d = detail7d?.creator_number ?? detail7d?.creator_count;
+  const recentCreatorWindow = recentCreator30d !== undefined && recentCreator30d !== null ? "30d" : recentCreator7d !== undefined && recentCreator7d !== null ? "7d" : null;
+  const recentCreatorValue = recentCreatorWindow === "30d" ? recentCreator30d : recentCreator7d;
   const recentCreators = recentCreatorValue === undefined || recentCreatorValue === null ? null : Number(recentCreatorValue);
   const missing: string[] = [];
   if (videoShare === null || !Number.isFinite(videoShare)) missing.push("video share");
@@ -63,18 +66,20 @@ export function buildMegaSellerOpportunityDiagnostic(raw: Record<string, any>, p
   const safeFreshConvertedPct = freshConvertedPct as number;
   const safeRecentCreators = recentCreators as number;
   const videoPass = safeVideoShare >= profile.videoSharePreferredPct;
+  const videoAtLeastMinimum = safeVideoShare >= profile.videoShareMinimumPct;
   const freshnessPass = safeFreshPct >= 50;
   const freshConversionPass = safeFreshConvertedPct >= 50;
   const competitionPass = safeRecentCreators <= profile.highCompetitionCreatorThreshold;
   const passCount = [videoPass, freshnessPass, freshConversionPass, competitionPass].filter(Boolean).length;
+  const worthDeepDive = videoAtLeastMinimum && freshnessPass && freshConversionPass && competitionPass;
   const allPass = passCount === 4;
   return {
     key: "mega_seller_opportunity",
     title: "Mega-seller opportunity lens",
-    valueDisplay: allPass ? "Opportunity candidate" : `${passCount}/4 signals pass`,
-    badge: allPass ? "Advisory opportunity" : "Needs review",
-    color: allPass ? "green" : "yellow",
-    detail: `Lifetime/90-day volume is above the normal ${profile.maxTotalSales.toLocaleString()} ceiling. Recent video share: ${safeVideoShare.toFixed(1)}%; fresh top videos within 60d: ${safeFreshPct.toFixed(0)}%; fresh videos with revenue evidence: ${safeFreshConvertedPct.toFixed(0)}%; recent creators: ${safeRecentCreators.toLocaleString()}. This never overrides the standard profile or compliance gate.`,
+    valueDisplay: worthDeepDive ? "Worth deep dive" : `${passCount}/4 signals pass`,
+    badge: worthDeepDive ? "Re-entry opportunity" : allPass ? "Advisory opportunity" : "Needs review",
+    color: worthDeepDive ? "green" : "yellow",
+    detail: `Lifetime/90-day volume is above the normal ${profile.maxTotalSales.toLocaleString()} ceiling. Recent video share: ${safeVideoShare.toFixed(1)}%; fresh top videos within 60d: ${safeFreshPct.toFixed(0)}%; fresh videos with revenue evidence: ${safeFreshConvertedPct.toFixed(0)}%; recent creators (${recentCreatorWindow}): ${safeRecentCreators.toLocaleString()}. This never overrides the standard profile or compliance gate.`,
   };
 }
 

@@ -896,3 +896,17 @@
 - [x] If feasible, implement bulk Product Intelligence re-audit with explicit API-cost transparency and a separate opportunity classification.
 - [x] Add tests and verify the workflow before publishing.
 
+
+## Mega-seller Recent-Competition Refinement
+
+- [x] Treat low total recent competitors plus fresh revenue-bearing videos as a separate “Worth Deep Dive” advisory condition for over-ceiling products.
+- [x] Keep normal Candidate/Watchlist/Avoid classification and compliance gates unchanged.
+- [x] Add regression coverage and verify the advisory label in the Product Radar UI.
+
+
+## Kalodata Recent Creator-Count Verification
+
+- [x] Verify whether Kalodata documents and returns separate 7-day and 30-day creator counts.
+- [x] Use the verified fields in the mega-seller recent-competition deep-dive when reliable.
+- [x] Add regression coverage and preserve the normal Radar gates.
+

@@ -518,8 +518,10 @@ describe("Mega-seller opportunity lens", () => {
       ],
     }, COACH_A_PROFILE, new Date("2026-09-12T00:00:00Z").getTime());
 
-    expect(diagnostic?.valueDisplay).toBe("Opportunity candidate");
+    expect(diagnostic?.valueDisplay).toBe("Worth deep dive");
+    expect(diagnostic?.badge).toBe("Re-entry opportunity");
     expect(diagnostic?.color).toBe("green");
+    expect(diagnostic?.detail).toContain("recent creators (30d): 45");
     expect(diagnostic?.detail).toContain("never overrides the standard profile");
   });
 
