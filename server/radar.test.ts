@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, getDiscoveryQueueDisposition, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
 import { buildBrandOpportunityDiagnostics, buildMegaSellerOpportunityDiagnostic } from "../client/src/lib/radarDiagnostics";
+import { sortRadarCandidates } from "../client/src/lib/radarQueue";
 import * as fs from "fs";
 
 const sourceVideoWorkedExample = {
@@ -24,6 +25,23 @@ const sourceVideoWorkedExample = {
     { date: "2026-09-07", units: 190 },
   ],
 };
+
+describe("Product Radar queue sorting", () => {
+  const candidates = [
+    { id: 1, reviewStatus: "avoid", updatedAt: "2026-09-13T12:00:00.000Z", rawData: { totalSales: 40000 }, metrics: { deterministicSignalsMet: 8, deterministicSignalsConsidered: 10, accelerationPct: 30 } },
+    { id: 2, reviewStatus: "candidate", updatedAt: "2026-09-13T10:00:00.000Z", rawData: { totalSales: 9000 }, metrics: { deterministicSignalsMet: 7, deterministicSignalsConsidered: 8, accelerationPct: 18 } },
+    { id: 3, reviewStatus: "watchlist", updatedAt: "2026-09-13T11:00:00.000Z", rawData: { totalSales: 20000 }, metrics: { deterministicSignalsMet: 5, deterministicSignalsConsidered: 8, accelerationPct: 22 } },
+  ];
+
+  it("puts the strongest deterministic candidate first and Avoid last", () => {
+    expect(sortRadarCandidates(candidates, "strongest").map((candidate) => candidate.id)).toEqual([2, 3, 1]);
+  });
+
+  it("supports newest and momentum ordering independently", () => {
+    expect(sortRadarCandidates(candidates, "newest").map((candidate) => candidate.id)).toEqual([3, 2, 1]);
+    expect(sortRadarCandidates(candidates, "momentum").map((candidate) => candidate.id)).toEqual([3, 2, 1]);
+  });
+});
 
 describe("Product Radar deterministic scoring", () => {
   it("matches the source video 7-day / 90-day worked-example math", () => {

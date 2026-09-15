@@ -9,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
 import { buildKalodataProductDetailUrl, DEFAULT_RADAR_PROFILE, type RadarProfileConfig } from "../../../server/radar";
 import { buildBrandOpportunityDiagnostics, buildMegaSellerOpportunityDiagnostic, diagnoseMetrics, type MetricColor } from "@/lib/radarDiagnostics";
+import { sortRadarCandidates, type RadarQueueSort } from "@/lib/radarQueue";
 
 const statusLabels: Record<string, string> = { candidate: "Candidate", watchlist: "Watchlist", human_review: "Human review", avoid: "Avoid", approved_for_campaign_planning: "Approved for campaign planning" };
 const metric = (value: unknown) => typeof value === "number" ? Number(value.toFixed(2)) : "—";
@@ -89,20 +90,22 @@ export default function ProductRadar() {
   const [refreshingCandidate, setRefreshingCandidate] = useState(false);
   const [showRawSnapshot, setShowRawSnapshot] = useState(false);
   const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "rejected" | "ready" | "handed_off" | "product_intel" | "mega_seller">("all");
+  const [queueSort, setQueueSort] = useState<RadarQueueSort>("strongest");
 
   const intelEligible = useMemo(() => productIntelRadar.filter((item) => item.productId), [productIntelRadar]);
   const selectedIntelEntries = useMemo(() => intelEligible.filter((item) => selectedIntelFiles.includes(item.filename)), [intelEligible, selectedIntelFiles]);
 
   const visibleCandidates = useMemo(() => {
-    if (queueFilter === "all") return candidates;
-    if (queueFilter === "approved") return archivedCandidates.filter((candidate) => candidate.reviewStatus === "approved_for_campaign_planning");
-    if (queueFilter === "rejected") return archivedCandidates.filter((candidate) => candidate.reviewStatus === "avoid");
-    if (queueFilter === "ready") return archivedCandidates.filter((candidate) => candidate.handoffStatus === "ready_for_campaign_planning");
-    if (queueFilter === "handed_off") return archivedCandidates.filter((candidate) => candidate.handoffStatus === "handed_off_to_campaign_planning");
-    if (queueFilter === "product_intel") return [...candidates, ...archivedCandidates].filter((candidate) => candidate.provider === "Kalodata (Product Intel)");
-    if (queueFilter === "mega_seller") return candidates.filter((candidate) => candidate.provider === "Kalodata (Mega-seller Opportunity)");
-    return candidates;
-  }, [archivedCandidates, candidates, queueFilter]);
+    const filtered = queueFilter === "all" ? candidates
+      : queueFilter === "approved" ? archivedCandidates.filter((candidate) => candidate.reviewStatus === "approved_for_campaign_planning")
+      : queueFilter === "rejected" ? archivedCandidates.filter((candidate) => candidate.reviewStatus === "avoid")
+      : queueFilter === "ready" ? archivedCandidates.filter((candidate) => candidate.handoffStatus === "ready_for_campaign_planning")
+      : queueFilter === "handed_off" ? archivedCandidates.filter((candidate) => candidate.handoffStatus === "handed_off_to_campaign_planning")
+      : queueFilter === "product_intel" ? [...candidates, ...archivedCandidates].filter((candidate) => candidate.provider === "Kalodata (Product Intel)")
+      : queueFilter === "mega_seller" ? candidates.filter((candidate) => candidate.provider === "Kalodata (Mega-seller Opportunity)")
+      : candidates;
+    return sortRadarCandidates(filtered, queueSort);
+  }, [archivedCandidates, candidates, queueFilter, queueSort]);
 
   const saveProfile = trpc.radar.saveProfile.useMutation({ onSuccess: () => setNotice("Screening profile saved.") });
   const recalculateAll = trpc.radar.recalculateCandidatesWithProfile.useMutation({
@@ -835,6 +838,19 @@ export default function ProductRadar() {
                 <option value="ready">Ready for handoff</option>
                 <option value="handed_off">Handed off</option>
                 <option value="product_intel">Product Intel re-audits</option>
+              </select>
+              <select
+                aria-label="Sort candidate queue"
+                className="h-8 rounded-md border border-white/10 bg-black/30 px-2 text-xs text-slate-200"
+                value={queueSort}
+                onChange={(e) => setQueueSort(e.target.value as RadarQueueSort)}
+              >
+                <option value="strongest">Strongest → weakest</option>
+                <option value="newest">Newest updated</option>
+                <option value="momentum">Strongest momentum</option>
+                <option value="sales">Highest sales volume</option>
+                <option value="fresh_video">Freshest video opportunity</option>
+                <option value="recent_competition">Lowest recent competition</option>
               </select>
             </div>
           </div>

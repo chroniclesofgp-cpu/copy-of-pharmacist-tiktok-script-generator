@@ -948,3 +948,10 @@
 - [x] Correct the response mapping or persistence path and prevent incomplete data from producing a misleading AVOID.
 - [x] Add regression coverage, validate affected records, and publish the correction.
 
+
+## Product Radar Queue Sorting
+
+- [x] Add selectable queue sorting controls while preserving the current newest-first order.
+- [x] Add a transparent Strongest → Weakest sort that prioritizes deterministic Radar strength and places Avoid items last.
+- [x] Add additional useful sort options and regression coverage without changing classifications or compliance gates.
+
