@@ -14,6 +14,24 @@ import { sortRadarCandidates, type RadarQueueSort } from "@/lib/radarQueue";
 const statusLabels: Record<string, string> = { candidate: "Candidate", watchlist: "Watchlist", human_review: "Human review", avoid: "Avoid", approved_for_campaign_planning: "Approved for campaign planning" };
 const metric = (value: unknown) => typeof value === "number" ? Number(value.toFixed(2)) : "—";
 
+const CATEGORY_OPTIONS: Array<{ key: string; label: string; nativeId?: string; note?: string }> = [
+  { key: "700646", label: "Dietary Supplements & Nutrition", nativeId: "700646" },
+  { key: "700645", label: "Health & Healthcare", nativeId: "700645" },
+  { key: "601450", label: "Beauty & Personal Care", nativeId: "601450" },
+  { key: "all", label: "All TikTok Shop Categories" },
+  { key: "fashion", label: "Fashion & Accessories", note: "keyword-assisted" },
+  { key: "home", label: "Home & Kitchen", note: "keyword-assisted" },
+  { key: "sports", label: "Sports & Outdoor", note: "keyword-assisted" },
+  { key: "electronics", label: "Phones & Electronics", note: "keyword-assisted" },
+  { key: "food", label: "Food & Beverages", note: "keyword-assisted" },
+  { key: "pets", label: "Pet Supplies", note: "keyword-assisted" },
+  { key: "toys", label: "Toys & Hobbies", note: "keyword-assisted" },
+  { key: "automotive", label: "Automotive & Motorcycle", note: "keyword-assisted" },
+  { key: "tools", label: "Tools & Hardware", note: "keyword-assisted" },
+  { key: "baby", label: "Baby & Maternity", note: "keyword-assisted" },
+  { key: "books", label: "Books & Media", note: "keyword-assisted" },
+];
+
 const CATEGORY_SUGGESTIONS: Record<string, Array<{ label: string; keyword: string }>> = {
   // Beauty & Personal Care (601450)
   "601450": [
@@ -41,8 +59,8 @@ const CATEGORY_SUGGESTIONS: Record<string, Array<{ label: string; keyword: strin
     { label: "Electrolytes", keyword: "Electrolytes" },
     { label: "NAD+ / Longevity", keyword: "NAD" },
   ],
-  // Health & Healthcare (600001)
-  "600001": [
+  // Health & Healthcare (700645)
+  "700645": [
     { label: "Oral Care", keyword: "Oral Care" },
     { label: "Teeth Whitening", keyword: "Whitening" },
     { label: "Pain Relief", keyword: "Pain Relief" },
@@ -50,7 +68,7 @@ const CATEGORY_SUGGESTIONS: Record<string, Array<{ label: string; keyword: strin
     { label: "Hair Density", keyword: "Hair Density" },
     { label: "Sleep Aid", keyword: "Sleep Aid" },
   ],
-  // All Categories ("")
+  // All Categories and broad keyword-assisted research scopes.
   "": [
     { label: "Skin Care", keyword: "Skin Care" },
     { label: "Supplements", keyword: "Supplements" },
@@ -58,6 +76,69 @@ const CATEGORY_SUGGESTIONS: Record<string, Array<{ label: string; keyword: strin
     { label: "Energy", keyword: "Energy" },
     { label: "Hair Care", keyword: "Hair" },
     { label: "Wellness", keyword: "Wellness" },
+    { label: "Massagers", keyword: "Massager" },
+    { label: "Carpal Tunnel / Wrist Support", keyword: "Wrist Support" },
+    { label: "Recovery Tools", keyword: "Recovery" },
+    { label: "Heating Pads", keyword: "Heating Pad" },
+  ],
+  fashion: [
+    { label: "Shapewear", keyword: "Shapewear" },
+    { label: "Handbags", keyword: "Handbag" },
+    { label: "Jewelry", keyword: "Jewelry" },
+    { label: "Shoes", keyword: "Shoes" },
+  ],
+  home: [
+    { label: "Kitchen Gadgets", keyword: "Kitchen Gadget" },
+    { label: "Home Organization", keyword: "Home Organization" },
+    { label: "Cleaning Tools", keyword: "Cleaning" },
+    { label: "Bedding", keyword: "Bedding" },
+  ],
+  sports: [
+    { label: "Recovery Tools", keyword: "Recovery" },
+    { label: "Fitness Equipment", keyword: "Fitness" },
+    { label: "Yoga / Mobility", keyword: "Yoga" },
+    { label: "Hydration", keyword: "Hydration" },
+  ],
+  electronics: [
+    { label: "Phone Accessories", keyword: "Phone Accessories" },
+    { label: "Smart Home", keyword: "Smart Home" },
+    { label: "Audio", keyword: "Headphones" },
+    { label: "Lighting", keyword: "Lighting" },
+  ],
+  food: [
+    { label: "Coffee / Tea", keyword: "Coffee" },
+    { label: "Snacks", keyword: "Snacks" },
+    { label: "Pantry", keyword: "Pantry" },
+  ],
+  pets: [
+    { label: "Pet Grooming", keyword: "Pet Grooming" },
+    { label: "Pet Toys", keyword: "Pet Toys" },
+    { label: "Pet Health", keyword: "Pet Health" },
+  ],
+  toys: [
+    { label: "Games", keyword: "Games" },
+    { label: "Collectibles", keyword: "Collectibles" },
+    { label: "Outdoor Toys", keyword: "Outdoor Toys" },
+  ],
+  automotive: [
+    { label: "Car Accessories", keyword: "Car Accessories" },
+    { label: "Car Care", keyword: "Car Care" },
+    { label: "Tools", keyword: "Automotive Tools" },
+  ],
+  tools: [
+    { label: "Hand Tools", keyword: "Hand Tools" },
+    { label: "Storage", keyword: "Tool Storage" },
+    { label: "Workshop", keyword: "Workshop" },
+  ],
+  baby: [
+    { label: "Baby Care", keyword: "Baby Care" },
+    { label: "Feeding", keyword: "Baby Feeding" },
+    { label: "Toys", keyword: "Baby Toys" },
+  ],
+  books: [
+    { label: "Books", keyword: "Books" },
+    { label: "Crafts", keyword: "Crafts" },
+    { label: "Media", keyword: "Media" },
   ],
 };
 
@@ -443,13 +524,16 @@ export default function ProductRadar() {
                       value={searchCategory}
                       onChange={(e) => setSearchCategory(e.target.value)}
                     >
-                      <option value="700646">Dietary Supplements & Nutrition (Supplements, Minerals, Vitamins)</option>
-                      <option value="700645">Health & Healthcare (Wellness, OTC, Medical Devices)</option>
-                      <option value="601450">Beauty & Personal Care (Skincare, Actives, Topical Serums)</option>
-                      <option value="all">All TikTok Shop Categories (Platform-Wide Trending)</option>
+                      {CATEGORY_OPTIONS.map((option) => (
+                        <option key={option.key} value={option.key}>
+                          {option.label}{option.nativeId ? "" : option.key === "all" ? " (platform-wide)" : " (keyword-assisted)"}
+                        </option>
+                      ))}
                     </select>
                     <p className="mt-1 text-[11px] text-slate-400">
-                      Scouts trending products by category ranking without needing any search keyword.
+                      {CATEGORY_OPTIONS.find((option) => option.key === searchCategory)?.nativeId
+                        ? "Uses Kalodata's native category ranking; a keyword can narrow the scan further."
+                        : "Uses a platform-wide ranking with an optional keyword so you can explore categories such as massagers, recovery tools, or mobility support without a fabricated category ID."}
                     </p>
                   </div>
                   <div>
@@ -567,7 +651,7 @@ export default function ProductRadar() {
                     onClick={() => {
                       searchKalodata.mutate({
                         keyword: searchKeyword ? searchKeyword.trim() : undefined,
-                        categoryId: searchCategory === "all" ? undefined : searchCategory,
+                        categoryId: CATEGORY_OPTIONS.find((option) => option.key === searchCategory)?.nativeId,
                         region: searchRegion,
                         maxCandidates: searchLimit,
                         sortStrategy,

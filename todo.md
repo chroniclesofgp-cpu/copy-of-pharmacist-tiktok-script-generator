@@ -955,3 +955,11 @@
 - [x] Add a transparent Strongest → Weakest sort that prioritizes deterministic Radar strength and places Avoid items last.
 - [x] Add additional useful sort options and regression coverage without changing classifications or compliance gates.
 
+
+## Expanded Product Radar Categories
+
+- [x] Verify the current Kalodata category IDs and Product Radar category selector mapping.
+- [x] Add all available category options to the Product Radar search dropdown.
+- [x] Preserve flexible keyword search and add non-traditional pharmacist-relevant examples such as massagers and mobility/support products.
+- [x] Add regression coverage, verify the UI/request mapping, and publish the update.
+
