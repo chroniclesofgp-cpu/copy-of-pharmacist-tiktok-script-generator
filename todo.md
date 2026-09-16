@@ -971,3 +971,10 @@
 - [x] Add a deliberate re-evaluate/reopen action that returns a watched product to active analysis when the user is ready.
 - [x] Add tests, verify lifecycle behavior, and publish the Watchlist workflow.
 
+
+## Mobile Responsiveness Audit
+
+- [x] Audit Product Radar and core workflows at phone viewport sizes.
+- [x] Fix mobile layout or interaction issues that block core phone use.
+- [x] Run mobile screenshots, tests, build, and document feature coverage and remaining limitations.
+

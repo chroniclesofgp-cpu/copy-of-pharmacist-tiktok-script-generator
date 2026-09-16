@@ -319,8 +319,8 @@ export default function ProductRadar() {
             <p className="text-[10px] text-white/40 tracking-widest uppercase hidden sm:block">Pharmacist Product Selection</p>
           </div>
         </div>
-        <div className="flex items-center gap-2">
-          <div className="flex items-center gap-1 bg-white/5 rounded-lg p-1 border border-white/10">
+        <div className="flex min-w-0 max-w-[calc(100vw-4.5rem)] items-center gap-2 overflow-x-auto [&::-webkit-scrollbar]:hidden [scrollbar-width:none]">
+          <div className="flex min-w-max items-center gap-1 bg-white/5 rounded-lg p-1 border border-white/10">
             <Link href="/">
               <button className="px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-md text-xs font-medium text-white/40 hover:text-white/70 hover:bg-white/5 transition-all flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-teal-400 inline-block" />
@@ -429,7 +429,7 @@ export default function ProductRadar() {
               </select>
             </div>
             <div><Label>Profile name</Label><Input className="mt-1 border-white/10 bg-black/20" value={profileName} onChange={(e) => setProfileName(e.target.value)} /></div>
-            <div className="grid grid-cols-2 gap-3">{([["minTotalSales", "Min total sales"], ["maxTotalSales", "Max total sales"], ["matureAgeDays", "Mature age days"], ["veryNewAgeDays", "Very new age days"], ["accelerationStartingPct", "Starting %"], ["accelerationClearPct", "Clear %"], ["accelerationStrongPct", "Strong %"], ["stableDaysRequired", "Stable days"], ["stableVariancePct", "Stable variance %"], ["strongDayUnits", "Strong day units"], ["strongDaysMinimum", "Strong days min"], ["latestDayAccelerationMultiplier", "Latest multiplier"], ["videoShareMinimumPct", "Video share min %"], ["topVideoSpreadMaxPct", "Spread max %"], ["topVideoWatchMaxPct", "Watch max %"], ["highCompetitionCreatorThreshold", "Max competitors"], ["videosOver1MViewsThreshold", "Min 1M+ videos"], ["ratingMinimum", "Rating min"], ["commissionAfterAdsMinimumPct", "Commission min %"]] as const).map(([key, label]) => <div key={key}><Label className="text-xs text-slate-400">{label}</Label><Input type="number" step="any" className="mt-1 border-white/10 bg-black/20" value={profile[key]} onChange={(e) => setNumber(key, e.target.value)} /></div>)}</div>
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">{([["minTotalSales", "Min total sales"], ["maxTotalSales", "Max total sales"], ["matureAgeDays", "Mature age days"], ["veryNewAgeDays", "Very new age days"], ["accelerationStartingPct", "Starting %"], ["accelerationClearPct", "Clear %"], ["accelerationStrongPct", "Strong %"], ["stableDaysRequired", "Stable days"], ["stableVariancePct", "Stable variance %"], ["strongDayUnits", "Strong day units"], ["strongDaysMinimum", "Strong days min"], ["latestDayAccelerationMultiplier", "Latest multiplier"], ["videoShareMinimumPct", "Video share min %"], ["topVideoSpreadMaxPct", "Spread max %"], ["topVideoWatchMaxPct", "Watch max %"], ["highCompetitionCreatorThreshold", "Max competitors"], ["videosOver1MViewsThreshold", "Min 1M+ videos"], ["ratingMinimum", "Rating min"], ["commissionAfterAdsMinimumPct", "Commission min %"]] as const).map(([key, label]) => <div key={key}><Label className="text-xs text-slate-400">{label}</Label><Input type="number" step="any" className="mt-1 border-white/10 bg-black/20" value={profile[key]} onChange={(e) => setNumber(key, e.target.value)} /></div>)}</div>
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
                 <Button className="flex-1 bg-cyan-600 hover:bg-cyan-500 text-white" onClick={() => saveProfile.mutate({ name: profileName, config: profile })}>
@@ -480,11 +480,11 @@ export default function ProductRadar() {
           {/* Data Intake Tabs: Kalodata Live API vs CSV */}
           <Card className="border-white/10 bg-white/[0.04] text-slate-100">
             <CardHeader className="pb-3">
-              <div className="flex items-center justify-between">
+              <div className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">
                 <CardTitle className="flex items-center gap-2 text-base">
                   <Zap className="h-4 w-4 text-cyan-300" /> Data Source
                 </CardTitle>
-                <div className="flex rounded-lg border border-white/10 bg-black/30 p-0.5 text-xs">
+                <div className="flex max-w-full flex-wrap rounded-lg border border-white/10 bg-black/30 p-0.5 text-xs">
                   <button
                     type="button"
                     onClick={() => setActiveInputTab("kalodata")}
@@ -604,7 +604,7 @@ export default function ProductRadar() {
                       }
                     </p>
                   </div>
-                  <div className="grid grid-cols-3 gap-2">
+                  <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
                     <div>
                       <Label className="text-xs text-slate-300">Region</Label>
                       <select
@@ -1192,7 +1192,7 @@ function CandidateDetail({
             </div>
           )}
 
-          <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+          <div className="grid grid-cols-1 gap-3 min-[360px]:grid-cols-2 md:grid-cols-4">
             {[
               { label: "Total sales", value: items.totalSales?.valueDisplay ?? "—", badge: items.totalSales?.badge, color: items.totalSales?.color },
               { label: "7-day sales", value: Number(raw.sales7d ?? raw.rawDetail7d?.sales_volumn ?? 0).toLocaleString(), badge: "7d Sales Window", color: "slate" as MetricColor },
