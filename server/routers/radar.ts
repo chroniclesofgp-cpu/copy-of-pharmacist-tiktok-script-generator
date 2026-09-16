@@ -5,7 +5,7 @@ import path from "path";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, canArchiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, getDiscoveryQueueDisposition, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, canReopenWatchlistCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, getDiscoveryQueueDisposition, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter, hasUsableKalodataDetail } from "../kalodata";
 
@@ -225,6 +225,17 @@ export const radarRouter = router({
     const handoffStatus = input.reviewStatus === "approved_for_campaign_planning" && input.evidenceGateStatus === "approved" ? "ready_for_campaign_planning" : "not_ready";
     await db.update(radarCandidates).set({ reviewStatus: input.reviewStatus, evidenceGateStatus: input.evidenceGateStatus, handoffStatus, reviewNotes: input.reviewNotes ?? null, creatorFitJson: input.creatorFit ? JSON.stringify(input.creatorFit) : rows[0].creatorFitJson, queueState: "archived", queueReason: `Reviewed: ${input.reviewStatus}`, archivedAt: new Date() }).where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)));
     return { success: true, handoffStatus };
+  }),
+  reopenWatchlist: publicProcedure.input(z.object({ id: z.number() })).mutation(async ({ ctx, input }) => {
+    const userId = getEffectiveUserId(ctx);
+    const db = await getDb();
+    if (!db) throw new Error("Database unavailable");
+    const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId))).limit(1);
+    const candidate = rows[0];
+    if (!candidate) throw new Error("Candidate not found");
+    if (!canReopenWatchlistCandidate(candidate)) throw new Error("Only archived Watchlist products can be reopened from history.");
+    await db.update(radarCandidates).set({ queueState: "active", queueReason: "Reopened from Watchlist for re-evaluation", archivedAt: null }).where(and(eq(radarCandidates.id, input.id), eq(radarCandidates.userId, userId)));
+    return { success: true };
   }),
   saveAiBrief: publicProcedure.input(z.object({ id: z.number(), brief: z.record(z.string(), z.unknown()) })).mutation(async ({ ctx, input }) => {
     const userId = getEffectiveUserId(ctx);

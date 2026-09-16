@@ -311,6 +311,10 @@ export function canArchiveRadarCandidate(candidate: { reviewStatus: string; evid
   return candidate.reviewStatus !== "human_review" && candidate.reviewStatus !== "approved_for_campaign_planning" && candidate.evidenceGateStatus !== "approved" && candidate.handoffStatus === "not_ready";
 }
 
+export function canReopenWatchlistCandidate(candidate: { reviewStatus?: string | null; queueState?: string | null }): boolean {
+  return candidate.reviewStatus === "watchlist" && candidate.queueState === "archived";
+}
+
 /**
  * Extracts a 16-21 digit TikTok Shop / Kalodata product ID from raw text or product URLs.
  */

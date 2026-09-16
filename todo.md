@@ -963,3 +963,11 @@
 - [x] Preserve flexible keyword search and add non-traditional pharmacist-relevant examples such as massagers and mobility/support products.
 - [x] Add regression coverage, verify the UI/request mapping, and publish the update.
 
+
+## Dedicated Watchlist Workflow
+
+- [x] Add an explicit reviewed-but-borderline Watchlist disposition that removes products from active analysis without approving or rejecting them.
+- [x] Add a Watchlist history view with review notes and timestamps for later 15/30-day follow-up.
+- [x] Add a deliberate re-evaluate/reopen action that returns a watched product to active analysis when the user is ready.
+- [x] Add tests, verify lifecycle behavior, and publish the Watchlist workflow.
+

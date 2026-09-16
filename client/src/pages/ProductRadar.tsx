@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "wouter";
-import { AlertTriangle, BookMarked, CheckCircle2, ChevronDown, ChevronUp, ExternalLink, Eye, FileSpreadsheet, Flame, Globe, HelpCircle, Loader2, LockKeyhole, RefreshCw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
+import { AlertTriangle, BookMarked, CheckCircle2, ChevronDown, ChevronUp, ExternalLink, Eye, FileSpreadsheet, Flame, Globe, HelpCircle, Loader2, LockKeyhole, RefreshCw, RotateCcw, ShieldCheck, SlidersHorizontal, Sparkles, Upload, Users, Video, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -170,7 +170,7 @@ export default function ProductRadar() {
   const [uploading, setUploading] = useState(false);
   const [refreshingCandidate, setRefreshingCandidate] = useState(false);
   const [showRawSnapshot, setShowRawSnapshot] = useState(false);
-  const [queueFilter, setQueueFilter] = useState<"all" | "approved" | "rejected" | "ready" | "handed_off" | "product_intel" | "mega_seller">("all");
+  const [queueFilter, setQueueFilter] = useState<"all" | "watchlist" | "approved" | "rejected" | "ready" | "handed_off" | "product_intel" | "mega_seller">("all");
   const [queueSort, setQueueSort] = useState<RadarQueueSort>("strongest");
 
   const intelEligible = useMemo(() => productIntelRadar.filter((item) => item.productId), [productIntelRadar]);
@@ -178,6 +178,7 @@ export default function ProductRadar() {
 
   const visibleCandidates = useMemo(() => {
     const filtered = queueFilter === "all" ? candidates
+      : queueFilter === "watchlist" ? archivedCandidates.filter((candidate) => candidate.reviewStatus === "watchlist")
       : queueFilter === "approved" ? archivedCandidates.filter((candidate) => candidate.reviewStatus === "approved_for_campaign_planning")
       : queueFilter === "rejected" ? archivedCandidates.filter((candidate) => candidate.reviewStatus === "avoid")
       : queueFilter === "ready" ? archivedCandidates.filter((candidate) => candidate.handoffStatus === "ready_for_campaign_planning")
@@ -264,6 +265,7 @@ export default function ProductRadar() {
     },
   });
   const updateReview = trpc.radar.updateReview.useMutation({ onSuccess: () => { setNotice("Review saved and moved to history. The handoff remains blocked until the evidence gate is approved."); void utils.radar.listCandidates.invalidate(); void utils.radar.listArchivedCandidates.invalidate(); } });
+  const reopenWatchlist = trpc.radar.reopenWatchlist.useMutation({ onSuccess: () => { setNotice("Watchlist product reopened in the active analysis queue for re-evaluation."); void utils.radar.listCandidates.invalidate(); void utils.radar.listArchivedCandidates.invalidate(); }, onError: (error) => setNotice(`Could not reopen Watchlist product: ${error.message}`) });
   const handoff = trpc.radar.handoffToCampaign.useMutation({ onSuccess: () => { setNotice("Campaign-planning handoff completed after the evidence gate."); void utils.radar.listCandidates.invalidate(); void utils.radar.listArchivedCandidates.invalidate(); }, onError: (error) => setNotice(error.message) });
   const activeProfile = profileData?.config ?? profile;
   const selected = useMemo(() => visibleCandidates.find((candidate) => candidate.id === selectedId) ?? visibleCandidates[0], [visibleCandidates, selectedId]);
@@ -869,6 +871,7 @@ export default function ProductRadar() {
               <p className="text-xs uppercase tracking-[0.18em] text-slate-500">Candidate queue</p>
               <h2 className="mt-1 text-xl font-semibold text-white">{queueFilter === "all" ? `${candidates.length} active products` : `${visibleCandidates.length} matching products`}</h2>
               <p className="mt-1 text-[11px] text-slate-400">Reviewed products leave this active-analysis queue and remain available in the history filters.</p>
+              {queueFilter === "watchlist" && <p className="mt-1 text-[11px] text-amber-300">Watchlist products were reviewed as borderline and moved out of active analysis. Select one to inspect notes, then reopen it when you are ready to re-evaluate.</p>}
               {queueFilter === "rejected" && <p className="mt-1 text-[11px] text-violet-300">Select a rejected card to see its stored-data Mega-seller recheck. When snapshots are sufficient, this runs locally with no new Kalodata call.</p>}
             </div>
             <div className="flex items-center gap-2 flex-wrap">
@@ -917,6 +920,7 @@ export default function ProductRadar() {
               >
                 <option value="all">Active analysis queue ({candidates.length})</option>
                 <option value="mega_seller">Mega-seller opportunities ({candidates.filter((candidate) => candidate.provider === "Kalodata (Mega-seller Opportunity)").length})</option>
+                <option value="watchlist">Watchlist ({archivedCandidates.filter((candidate) => candidate.reviewStatus === "watchlist").length})</option>
                 <option value="approved">Approved history</option>
                 <option value="rejected">Rejected / Avoided history</option>
                 <option value="ready">Ready for handoff</option>
@@ -980,6 +984,7 @@ export default function ProductRadar() {
                 profileName={profileName}
                 onUpdate={(data) => updateReview.mutate({ id: selected.id, ...data })}
                 onHandoff={() => handoff.mutate({ id: selected.id })}
+                onReopenWatchlist={() => reopenWatchlist.mutate({ id: selected.id })}
                 onRefresh={() => {
                   setRefreshingCandidate(true);
                   refreshKalodata.mutate({ id: selected.id });
@@ -1003,6 +1008,7 @@ function CandidateDetail({
   profileName,
   onUpdate,
   onHandoff,
+  onReopenWatchlist,
   onRefresh,
   isRefreshing,
   showRawSnapshot,
@@ -1013,6 +1019,7 @@ function CandidateDetail({
   profileName: string;
   onUpdate: (data: any) => void;
   onHandoff: () => void;
+  onReopenWatchlist: () => void;
   onRefresh: () => void;
   isRefreshing: boolean;
   showRawSnapshot: boolean;
@@ -1242,7 +1249,7 @@ function CandidateDetail({
 
     <section><h3 className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">Operational creator-fit review</h3><div className="grid gap-3 md:grid-cols-2">{[["mechanismCredibility", "Credibility to demonstrate mechanism"], ["audienceRelevance", "Audience relevance"], ["availableFootage", "Available footage"], ["evidenceSupport", "Claims support in product intelligence"]].map(([key, label]) => <div key={key}><Label className="text-xs text-slate-400">{label}</Label><Textarea className="mt-1 min-h-16 border-white/10 bg-black/20" value={fit[key] ?? ""} onChange={(e) => setFit({ ...fit, [key]: e.target.value })} /></div>)}</div></section>
     <section className="rounded-xl border border-violet-300/20 bg-violet-300/5 p-4"><div className="flex items-start gap-3"><LockKeyhole className="mt-0.5 h-4 w-4 text-violet-200" /><div><h3 className="text-sm font-medium text-violet-100">AI-assisted notes stay separate</h3><p className="mt-1 text-xs leading-5 text-violet-200/70">Video-pattern summaries and creator-fit briefs are advisory only. They do not change the deterministic metrics, status, or evidence gate.</p>{candidate.aiBrief && <p className="mt-2 text-xs text-violet-100">AI brief present: {String(candidate.aiBrief.summary ?? "structured notes")}</p>}</div></div></section>
-    <section><h3 className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">Review and campaign handoff</h3><p className="mb-3 rounded-md border border-cyan-500/20 bg-cyan-500/5 p-2.5 text-[11px] leading-4 text-slate-400">To approve a product, choose <strong className="text-slate-200">Approved for campaign planning</strong>, complete the evidence/compliance review separately, choose <strong className="text-slate-200">Approved</strong> only when supported, then click <strong className="text-slate-200">Save review</strong>. The handoff button unlocks only after both statuses pass.</p><div className="grid gap-3 md:grid-cols-2"><div><Label className="text-xs text-slate-400">Review status</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={status} onChange={(e) => setStatus(e.target.value)}>{Object.entries(statusLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></div><div><Label className="text-xs text-slate-400">Evidence/compliance gate</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={gate} onChange={(e) => setGate(e.target.value)}><option value="not_reviewed">Not reviewed</option><option value="needs_product_intel">Needs product intelligence</option><option value="blocked">Blocked</option><option value="approved">Approved</option></select></div></div><Textarea className="mt-3 min-h-20 border-white/10 bg-black/20" placeholder="Review notes, evidence links, or next verification step" value={notes} onChange={(e) => setNotes(e.target.value)} /><div className="mt-3 flex flex-wrap gap-2"><Button onClick={() => onUpdate({ reviewStatus: status, evidenceGateStatus: gate, reviewNotes: notes, creatorFit: fit })}><ShieldCheck className="mr-2 h-4 w-4" /> Save review</Button><Button variant="outline" className="border-emerald-300/30 bg-transparent text-emerald-100" disabled={status !== "approved_for_campaign_planning" || gate !== "approved"} onClick={onHandoff}><CheckCircle2 className="mr-2 h-4 w-4" /> Handoff to campaign planning</Button></div><p className="mt-2 flex items-center gap-2 text-xs text-slate-500"><AlertTriangle className="h-3 w-3" /> Current handoff status: {candidate.handoffStatus}</p></section>
+    <section><h3 className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">Review and campaign handoff</h3><p className="mb-3 rounded-md border border-cyan-500/20 bg-cyan-500/5 p-2.5 text-[11px] leading-4 text-slate-400">To approve a product, choose <strong className="text-slate-200">Approved for campaign planning</strong>, complete the evidence/compliance review separately, choose <strong className="text-slate-200">Approved</strong> only when supported, then click <strong className="text-slate-200">Save review</strong>. The handoff button unlocks only after both statuses pass.</p><div className="grid gap-3 md:grid-cols-2"><div><Label className="text-xs text-slate-400">Review status</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={status} onChange={(e) => setStatus(e.target.value)}>{Object.entries(statusLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></div><div><Label className="text-xs text-slate-400">Evidence/compliance gate</Label><select className="mt-1 h-10 w-full rounded-md border border-white/10 bg-black/20 px-3 text-sm" value={gate} onChange={(e) => setGate(e.target.value)}><option value="not_reviewed">Not reviewed</option><option value="needs_product_intel">Needs product intelligence</option><option value="blocked">Blocked</option><option value="approved">Approved</option></select></div></div><Textarea className="mt-3 min-h-20 border-white/10 bg-black/20" placeholder="Review notes, evidence links, or next verification step" value={notes} onChange={(e) => setNotes(e.target.value)} /><div className="mt-3 flex flex-wrap gap-2"><Button onClick={() => onUpdate({ reviewStatus: status, evidenceGateStatus: gate, reviewNotes: notes, creatorFit: fit })}><ShieldCheck className="mr-2 h-4 w-4" /> Save review</Button>{candidate.reviewStatus === "watchlist" && candidate.queueState === "archived" && <Button variant="outline" className="border-amber-300/30 bg-amber-300/10 text-amber-100" onClick={onReopenWatchlist}><RotateCcw className="mr-2 h-4 w-4" /> Reopen for re-evaluation</Button>}<Button variant="outline" className="border-emerald-300/30 bg-transparent text-emerald-100" disabled={status !== "approved_for_campaign_planning" || gate !== "approved"} onClick={onHandoff}><CheckCircle2 className="mr-2 h-4 w-4" /> Handoff to campaign planning</Button></div><p className="mt-2 flex items-center gap-2 text-xs text-slate-500"><AlertTriangle className="h-3 w-3" /> Current handoff status: {candidate.handoffStatus}</p></section>
       </CardContent>
     </Card>
   );

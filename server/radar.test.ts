@@ -582,3 +582,12 @@ describe("Mega-seller opportunity lens", () => {
     expect(diagnostic?.detail).toContain("No API call is made by this local recheck");
   });
 });
+
+describe("Watchlist lifecycle", () => {
+  it("allows only archived Watchlist products to reopen", async () => {
+    const { canReopenWatchlistCandidate } = await import("./radar");
+    expect(canReopenWatchlistCandidate({ reviewStatus: "watchlist", queueState: "archived" })).toBe(true);
+    expect(canReopenWatchlistCandidate({ reviewStatus: "candidate", queueState: "archived" })).toBe(false);
+    expect(canReopenWatchlistCandidate({ reviewStatus: "watchlist", queueState: "active" })).toBe(false);
+  });
+});
