@@ -249,16 +249,18 @@ export default function ProductRadar() {
   });
 
   const vetSingleProduct = trpc.radar.vetSingleProduct.useMutation({
-    onSuccess: (res) => {
+    onSuccess: async (res) => {
       const matchPrefix = res.matchedBy === "exact_id"
         ? `Audited exact product ID (${res.productId})`
         : res.matchedBy === "short_link"
           ? `Resolved TikTok short link to exact product ID (${res.productId})`
           : `Audited top Kalodata match`;
-      setNotice(`${matchPrefix}: "${res.productName}" — Recommended Status: ${res.status.toUpperCase()}. Diagnostic card loaded below.`);
+      setQueueFilter("all");
       setSelectedId(res.candidateId);
-      void utils.radar.listCandidates.invalidate();
+      setNotice(`${matchPrefix}: "${res.productName}" — Recommended Status: ${res.status.toUpperCase()}. Diagnostic card loaded below and selected in the active queue.`);
       setSingleAuditQuery("");
+      await utils.radar.listCandidates.invalidate();
+      window.requestAnimationFrame(() => document.getElementById("radar-selected-candidate")?.scrollIntoView({ behavior: "smooth", block: "start" }));
     },
     onError: (err) => {
       setNotice(`Product audit error: ${err.message}`);
@@ -978,6 +980,7 @@ export default function ProductRadar() {
             </div>
             <div className="mt-3 grid grid-cols-3 gap-2 text-xs"><div><p className="text-slate-500">Acceleration</p><p className="mt-1 font-medium text-cyan-200">{String(m.accelerationBand ?? "—")}</p></div><div><p className="text-slate-500">Signals</p><p className="mt-1 font-medium">{String(m.deterministicSignalsMet ?? 0)}/{String(m.deterministicSignalsConsidered ?? 0)}</p></div><div><p className="text-slate-500">Handoff</p><p className="mt-1 font-medium">{candidate.handoffStatus === "not_ready" ? "Blocked" : "Ready"}</p></div></div></button>; })}</div>
             {selected && (
+              <div id="radar-selected-candidate" className="scroll-mt-24">
               <CandidateDetail
                 candidate={selected}
                 profile={activeProfile}
@@ -993,6 +996,7 @@ export default function ProductRadar() {
                 showRawSnapshot={showRawSnapshot}
                 setShowRawSnapshot={setShowRawSnapshot}
               />
+              </div>
             )}
           </div>}
         </main>

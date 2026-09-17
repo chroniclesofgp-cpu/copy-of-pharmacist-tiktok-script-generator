@@ -978,3 +978,9 @@
 - [x] Fix mobile layout or interaction issues that block core phone use.
 - [x] Run mobile screenshots, tests, build, and document feature coverage and remaining limitations.
 
+
+## Inbound Audit Card Visibility
+
+- [x] Reproduce and trace why a successful inbound offer audit says the product card loaded but the card is not visible.
+- [x] Ensure the audited candidate is selected and visible after success, regardless of the current queue filter.
+- [x] Add regression coverage and verify the inbound audit flow in the UI.
