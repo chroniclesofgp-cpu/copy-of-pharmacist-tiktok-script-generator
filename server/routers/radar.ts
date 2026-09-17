@@ -5,7 +5,7 @@ import path from "path";
 import { radarCandidates, radarDailySales, radarImports, radarProfiles } from "../../drizzle/schema";
 import { getDb } from "../db";
 import { publicProcedure, router } from "../_core/trpc";
-import { calculateRadarMetrics, canArchiveRadarCandidate, canReopenWatchlistCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, getDiscoveryQueueDisposition, type RadarProfileConfig } from "../radar";
+import { calculateRadarMetrics, canArchiveRadarCandidate, canReopenWatchlistCandidate, isVisibleActiveRadarCandidate, campaignHandoffAllowed, DEFAULT_RADAR_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink, getDiscoveryQueueDisposition, type RadarProfileConfig } from "../radar";
 import { PRESET_PROFILES } from "../radar";
 import { defaultKalodataAdapter, hasUsableKalodataDetail } from "../kalodata";
 
@@ -127,7 +127,7 @@ export const radarRouter = router({
     const db = await getDb();
     if (!db) return [];
     const rows = await db.select().from(radarCandidates).where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active"))).orderBy(desc(radarCandidates.updatedAt));
-    return rows.filter((row) => row.reviewStatus !== "approved_for_campaign_planning" && row.reviewStatus !== "avoid").map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
+    return rows.filter(isVisibleActiveRadarCandidate).map((row) => ({ ...row, rawData: parseJson(row.rawDataJson, {}), metrics: parseJson(row.metricsJson, {}), creatorFit: parseJson(row.creatorFitJson, {}), aiBrief: parseJson(row.aiBriefJson, null) }));
   }),
   listArchivedCandidates: publicProcedure.query(async ({ ctx }) => {
     const userId = getEffectiveUserId(ctx);
@@ -603,6 +603,7 @@ export const radarRouter = router({
           await db
             .update(radarCandidates)
             .set({
+              provider: "Kalodata (Inbound Offer)",
               productName: rawRow.productName,
               category: rawRow.category || existing[0].category,
               productUrl: rawRow.productUrl || (snapshot.productId ? `https://shop.tiktok.com/view/product/${snapshot.productId}` : existing[0].productUrl),
@@ -630,7 +631,7 @@ export const radarRouter = router({
         } else {
           const insertRes = await db.insert(radarCandidates).values({
             userId,
-            provider: "Kalodata",
+            provider: "Kalodata (Inbound Offer)",
             externalProductId: snapshot.productId,
             productName: rawRow.productName,
             category: rawRow.category || "Inbound Offer",

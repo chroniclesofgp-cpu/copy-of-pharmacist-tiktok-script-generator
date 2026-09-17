@@ -984,3 +984,9 @@
 - [x] Reproduce and trace why a successful inbound offer audit says the product card loaded but the card is not visible.
 - [x] Ensure the audited candidate is selected and visible after success, regardless of the current queue filter.
 - [x] Add regression coverage and verify the inbound audit flow in the UI.
+
+## Inbound Audit Visibility Regression
+
+- [x] Diagnose the latest failed visibility attempt from stored database records without making another Kalodata call.
+- [x] Fix the actual candidate visibility or queue-state issue and prevent repeated credit-consuming retries while debugging.
+- [x] Add regression coverage and verify the corrected flow before asking the user to test again.

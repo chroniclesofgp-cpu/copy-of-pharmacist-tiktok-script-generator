@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, getDiscoveryQueueDisposition, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
+import { buildKalodataProductDetailUrl, canArchiveRadarCandidate, isVisibleActiveRadarCandidate, campaignHandoffAllowed, calculateRadarMetrics, DEFAULT_RADAR_PROFILE, COACH_A_PROFILE, COACH_B_PROFILE, isRadarCandidateOutsideProfile, parseRadarCsv, parseRadarFile, suggestedReviewStatus, determineDiscoveryPaging, getDiscoveryQueueDisposition, shouldStopAdaptiveScan, evaluateStage1Eligibility, extractProductIdFromQuery, isTikTokShortLink, resolveTikTokShortLink } from "./radar";
 import { buildBrandOpportunityDiagnostics, buildMegaSellerOpportunityDiagnostic } from "../client/src/lib/radarDiagnostics";
 import { sortRadarCandidates } from "../client/src/lib/radarQueue";
 import * as fs from "fs";
@@ -589,5 +589,17 @@ describe("Watchlist lifecycle", () => {
     expect(canReopenWatchlistCandidate({ reviewStatus: "watchlist", queueState: "archived" })).toBe(true);
     expect(canReopenWatchlistCandidate({ reviewStatus: "candidate", queueState: "archived" })).toBe(false);
     expect(canReopenWatchlistCandidate({ reviewStatus: "watchlist", queueState: "active" })).toBe(false);
+  });
+});
+
+
+describe("Inbound audit active visibility", () => {
+  it("keeps an unreviewed inbound Avoid audit visible in Active analysis", () => {
+    expect(isVisibleActiveRadarCandidate({ provider: "Kalodata (Inbound Offer)", reviewStatus: "avoid", queueState: "active", evidenceGateStatus: "not_reviewed" })).toBe(true);
+  });
+
+  it("keeps ordinary Avoid and approved records out of Active analysis", () => {
+    expect(isVisibleActiveRadarCandidate({ provider: "Kalodata", reviewStatus: "avoid", queueState: "active", evidenceGateStatus: "not_reviewed" })).toBe(false);
+    expect(isVisibleActiveRadarCandidate({ provider: "Kalodata (Inbound Offer)", reviewStatus: "approved_for_campaign_planning", queueState: "active", evidenceGateStatus: "approved" })).toBe(false);
   });
 });

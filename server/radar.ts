@@ -315,6 +315,13 @@ export function canReopenWatchlistCandidate(candidate: { reviewStatus?: string |
   return candidate.reviewStatus === "watchlist" && candidate.queueState === "archived";
 }
 
+export function isVisibleActiveRadarCandidate(candidate: { provider?: string | null; reviewStatus?: string | null; queueState?: string | null; evidenceGateStatus?: string | null }): boolean {
+  if (candidate.queueState !== "active") return false;
+  if (candidate.reviewStatus === "approved_for_campaign_planning") return false;
+  if (candidate.reviewStatus !== "avoid") return true;
+  return candidate.provider === "Kalodata (Inbound Offer)" && candidate.evidenceGateStatus === "not_reviewed";
+}
+
 /**
  * Extracts a 16-21 digit TikTok Shop / Kalodata product ID from raw text or product URLs.
  */
