@@ -990,3 +990,11 @@
 - [x] Diagnose the latest failed visibility attempt from stored database records without making another Kalodata call.
 - [x] Fix the actual candidate visibility or queue-state issue and prevent repeated credit-consuming retries while debugging.
 - [x] Add regression coverage and verify the corrected flow before asking the user to test again.
+
+## Standard Discovery Lifetime-Volume Gate
+
+- [ ] Trace how standard discovery currently ranks, enriches, and verifies products against the coach’s lifetime 2,000–40,000 rule.
+- [ ] Determine whether Kalodata can provide a native lifetime or all-time unit filter, and quantify the current false-positive/call-cost path when it cannot.
+- [ ] Implement a safer standard-discovery strategy that does not present 90-day units as lifetime and preserves Mega-seller mode separately.
+- [ ] Add tests and controlled validation for candidate yield, API cost, and window labeling before publishing.
+

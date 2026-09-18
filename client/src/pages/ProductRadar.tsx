@@ -648,6 +648,7 @@ export default function ProductRadar() {
                   </div>
                   <div className="rounded-md border border-white/5 bg-black/20 p-2 text-[11px] text-slate-400">
                     <span className="font-semibold text-slate-300">{searchMode === "mega_seller" ? "Mega-seller discovery:" : "Option A Discovery Filter:"}</span> Querying Kalodata by <strong>{sortStrategy === "sales_volume" ? "Sales Volume (Units)" : sortStrategy === "video_revenue" ? "Short-Form Video Revenue" : sortStrategy === "growth_rate" ? "Breakout Growth Rate" : "Gross Revenue"}</strong>. {searchMode === "mega_seller" ? "The normal volume ceiling is not used to discard results; preserved products appear in the Mega-seller opportunity view." : <>Candidate pool will be strictly verified against your <strong>{profileName}</strong> volume range using un-extrapolated /product/detail data.</>}
+                    <span className="mt-1 block text-emerald-300/80">Searches are additive: changing the profile, category, keyword, or mode never removes existing active products. Use the explicit queue cleanup or review actions when you want to move a product to history.</span>
                   </div>
                   <Button
                     type="button"

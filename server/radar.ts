@@ -318,8 +318,9 @@ export function canReopenWatchlistCandidate(candidate: { reviewStatus?: string |
 export function isVisibleActiveRadarCandidate(candidate: { provider?: string | null; reviewStatus?: string | null; queueState?: string | null; evidenceGateStatus?: string | null }): boolean {
   if (candidate.queueState !== "active") return false;
   if (candidate.reviewStatus === "approved_for_campaign_planning") return false;
-  if (candidate.reviewStatus !== "avoid") return true;
-  return candidate.provider === "Kalodata (Inbound Offer)" && candidate.evidenceGateStatus === "not_reviewed";
+  // An automatic Avoid classification is still an unreviewed analysis result.
+  // Keep it visible until the user explicitly sends it to history.
+  return true;
 }
 
 /**

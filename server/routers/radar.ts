@@ -337,25 +337,10 @@ export const radarRouter = router({
         return { success: true, count: 0, candidateIds: [], message: `No products found on Kalodata for the selected criteria.` };
       }
 
-      // 2. Standard pulls reconcile the active queue against the selected profile. Mega-seller
-      // pulls deliberately leave the normal queue untouched and write to a separate provider lane.
-      let autoArchivedExistingCount = 0;
-      if (!isMegaSellerMode) {
-        const activeRows = await db
-          .select()
-          .from(radarCandidates)
-          .where(and(eq(radarCandidates.userId, userId), eq(radarCandidates.queueState, "active")));
-        for (const candidate of activeRows) {
-          const raw = parseJson<any>(candidate.rawDataJson, null);
-          const evaluation = isRadarCandidateOutsideProfile(raw, targetProfile);
-          if (evaluation.outside && canArchiveRadarCandidate(candidate)) {
-            await db.update(radarCandidates).set({ queueState: "archived", queueReason: evaluation.reason, archivedAt: new Date() }).where(and(eq(radarCandidates.id, candidate.id), eq(radarCandidates.userId, userId)));
-            autoArchivedExistingCount += 1;
-          }
-        }
-      }
-
-      // 3. Fetch existing product IDs in DB to prevent re-importing duplicates.
+      // 2. Fetch existing product IDs in DB to prevent re-importing duplicates.
+      // Discovery is additive: changing profile, keyword, category, or mode must
+      // never archive or otherwise mutate an existing active row. Explicit queue
+      // cleanup actions are the only paths that archive unreviewed active products.
       const existingRows = await db
         .select({ extId: radarCandidates.externalProductId })
         .from(radarCandidates)

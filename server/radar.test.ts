@@ -598,8 +598,12 @@ describe("Inbound audit active visibility", () => {
     expect(isVisibleActiveRadarCandidate({ provider: "Kalodata (Inbound Offer)", reviewStatus: "avoid", queueState: "active", evidenceGateStatus: "not_reviewed" })).toBe(true);
   });
 
-  it("keeps ordinary Avoid and approved records out of Active analysis", () => {
-    expect(isVisibleActiveRadarCandidate({ provider: "Kalodata", reviewStatus: "avoid", queueState: "active", evidenceGateStatus: "not_reviewed" })).toBe(false);
+  it("keeps an unreviewed ordinary automatic Avoid visible until the user reviews it", () => {
+    expect(isVisibleActiveRadarCandidate({ provider: "Kalodata", reviewStatus: "avoid", queueState: "active", evidenceGateStatus: "not_reviewed" })).toBe(true);
+    expect(isVisibleActiveRadarCandidate({ provider: "Kalodata", reviewStatus: "avoid", queueState: "archived", evidenceGateStatus: "not_reviewed" })).toBe(false);
+  });
+
+  it("keeps approved records out of Active analysis", () => {
     expect(isVisibleActiveRadarCandidate({ provider: "Kalodata (Inbound Offer)", reviewStatus: "approved_for_campaign_planning", queueState: "active", evidenceGateStatus: "approved" })).toBe(false);
   });
 });
