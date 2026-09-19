@@ -265,7 +265,10 @@ export const radarRouter = router({
     .input(
       z.object({
         keyword: z.string().optional().default(""),
-        categoryId: z.string().optional().default("700646"),
+        // An omitted category means platform-wide discovery. Keep this aligned
+        // with the UI's explicit “all” sentinel rather than silently searching
+        // Dietary Supplements.
+        categoryId: z.string().optional().default("all"),
         region: z.string().default("US"),
         maxCandidates: z.number().int().min(1).max(30).default(5),
         profile: profileSchema.optional(),

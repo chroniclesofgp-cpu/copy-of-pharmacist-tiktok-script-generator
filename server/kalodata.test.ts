@@ -1,8 +1,24 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { hasUsableKalodataDetail, KalodataAdapter } from "./kalodata";
 import { calculateRadarMetrics, DEFAULT_RADAR_PROFILE } from "./radar";
 
 describe("KalodataAdapter", () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it("omits category_ids for the explicit platform-wide category sentinel", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response(JSON.stringify({ success: true, data: [] }), { status: 200 }));
+    const adapter = new KalodataAdapter({ apiKey: "test-key", minRequestIntervalMs: 0, maxRetries: 1 });
+
+    await adapter.searchProducts({ categoryId: "all", keyword: "", pageNumber: 1, pageSize: 50 });
+
+    const request = fetchMock.mock.calls[0]?.[1];
+    const payload = JSON.parse(String(request?.body));
+    expect(payload).not.toHaveProperty("category_ids");
+    expect(payload.keyword).toBe("");
+  });
+
   it("does not treat a snapshot with no detail response as usable sales data", () => {
     expect(hasUsableKalodataDetail({ productId: "1732293553906094315", fetchedAt: "2026-09-13T00:00:00.000Z", rawTopVideos: [] })).toBe(false);
     expect(hasUsableKalodataDetail({ productId: "1732293553906094315", fetchedAt: "2026-09-13T00:00:00.000Z", rawDetail7d: { product_id: "1732293553906094315", product_name: "Example", revenue: 100, video_revenue: 80, live_revenue: 20, sales_volumn: 10, commission_rate: 15 }, rawTopVideos: [] })).toBe(true);

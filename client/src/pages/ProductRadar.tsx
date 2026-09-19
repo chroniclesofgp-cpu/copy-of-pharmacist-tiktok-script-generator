@@ -656,7 +656,11 @@ export default function ProductRadar() {
                     onClick={() => {
                       searchKalodata.mutate({
                         keyword: searchKeyword ? searchKeyword.trim() : undefined,
-                        categoryId: CATEGORY_OPTIONS.find((option) => option.key === searchCategory)?.nativeId,
+                        // “All Categories” has no native category ID. Send the
+                        // explicit sentinel instead of undefined, which would
+                        // be interpreted by the server schema as its default
+                        // Supplements category.
+                        categoryId: CATEGORY_OPTIONS.find((option) => option.key === searchCategory)?.nativeId ?? "all",
                         region: searchRegion,
                         maxCandidates: searchLimit,
                         sortStrategy,
